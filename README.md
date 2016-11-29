@@ -12,6 +12,7 @@
   - the external Node.js open source ecosystem
 * Promote improvement of security practices within the Node.js ecosystem
 * Recommend security improvements for the core Node.js project
+* Facilitate and promote the expansion of a healthy security service and product provider ecosystem
 
 ## Members
 
