@@ -50,4 +50,25 @@ management.
 
 ## Current Project Team Members
 
-*TBD*
+* [bengl](https://github.com/bengl) - **Bryan English**
+* [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
+* [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [deian](https://github.com/deian) - **Deian Stefan**
+* [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
+* [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
+* [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
+* [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
+* [grnd](https://github.com/grnd) - **Danny Grander**
+* [jasnell](https://github.com/jasnell) - **James M Snell**
+* [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
+* [joshgav](https://github.com/joshgav) - **Josh Gavant**
+* [mcollina](https://github.com/mcollina) - **Matteo Collina**
+* [mdawson](https://github.com/mdawson) - **Michael Dawson**
+* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
+* [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
+* [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
+* [sam-github](https://github.com/sam-github) - **Sam Roberts**
+* [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
+* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
