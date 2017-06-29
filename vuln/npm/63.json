@@ -1,0 +1,19 @@
+{
+  "id": 63,
+  "created_at": "2015-12-23T22:04:46.097+00:00",
+  "updated_at": "2016-04-25T15:06:51+00:00",
+  "title": "Denial of service - Potential socket exhaustion",
+  "author": "Adam Baldwin",
+  "module_name": "hapi",
+  "publish_date": "2015-12-23T23:17:51.134+00:00",
+  "cves": [],
+  "vulnerable_versions": "<11.1.3",
+  "patched_versions": ">=11.1.3",
+  "slug": "hapi_denial-of-service",
+  "overview": "Certain input passed into the If-Modified-Since or Last-Modified headers will cause an 'illegal access' exception to be raised. Instead of sending a HTTP 500 error back to the sender, hapi will continue to hold the socket open until timed out (default node timeout is 2 minutes).\n\n\nSpecial thanks to [James Halliday](https://github.com/substack) for bringing this exception pattern to our attention via the [ecstatic advisory](https://nodesecurity.io/advisories/64) which lead to identifying this.",
+  "recommendation": "Upgrade to hapi v11.1.3 or greater.",
+  "references": "- https://github.com/hapijs/hapi/commit/aab2496e930dce5ee1ab28eecec94e0e45f03580\n- https://github.com/jfhbrook/node-ecstatic/pull/179",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

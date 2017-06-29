@@ -1,0 +1,21 @@
+{
+  "id": 128,
+  "created_at": "2016-07-22T15:31:08+00:00",
+  "updated_at": "2017-02-10T19:46:14+00:00",
+  "title": "XSS in client rendered block templates",
+  "author": "Jon Merrifield",
+  "module_name": "rendr",
+  "publish_date": "2016-07-25T16:24:38+00:00",
+  "cves": [
+    "CVE-2016-1000230"
+  ],
+  "vulnerable_versions": "<=1.1.3",
+  "patched_versions": ">=1.1.4",
+  "slug": "rendr-handlebars_xss-in-client-rendered-block-templates",
+  "overview": "Rendr-handlebars is a library that allows the handlebars templating engine to be used with Rendr framework projects.  The templating can occur either on the client or the server.\n\nVersions up to 1.1.3 have a cross site scripting (XSS) issue when rendered inside a `_block` during client side rendering. Server side rendering is not affected and is properly escaped.",
+  "recommendation": "Upgrade to rendr version 1.1.4",
+  "references": "* https://github.com/rendrjs/rendr-handlebars/pull/61\n* https://github.com/rendrjs/rendr/pull/513",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.3,
+  "coordinating_vendor": "^Lift Security"
+}

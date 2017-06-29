@@ -1,0 +1,19 @@
+{
+  "id": 148,
+  "created_at": "2016-10-05T20:26:01+00:00",
+  "updated_at": "2016-10-21T13:17:33+00:00",
+  "title": "Broken CORS",
+  "author": "Evan Johnson",
+  "module_name": "sails",
+  "publish_date": "2016-10-20T15:20:55+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=0.12.7",
+  "patched_versions": ">0.12.7",
+  "slug": "sails_broken-cors",
+  "overview": "Sails is an MVC style framework for building realtime web applications.\n\nVersion 0.12.6 and lower have an issue with the CORS configuration where the value of the origin header is reflected as the value for the Access-Control-Allow-Origin header.  This would allow an attacker to make AJAX requests to vulnerable hosts through cross site scripting or a malicious HTML Document, effectively bypassing the Same Origin Policy. Note that this is only an issue when `allRoutes` is set to `true` and `origin` is set to `*` or left commented out in the sails CORS config file.  The problem can be compounded when the cors `credentials` setting is not provided.  At that point authenticated cross domain requests are possible.",
+  "recommendation": "When using Sails make sure to double check your CORS configuration.  using `allRoutes: true` with `origin:'*'` will enable the vulnerable behavior, as will failing to uncomment out `origin` and setting it to a reasonable value.  Ensure that if `origin` is set to `*` that you truly mean for all other websites to be able to make cross-domain requests to your API.\n\nLikewise, ensure `credentials` is uncommented out and set to the appropriate value. Make sure to explicitly set which origins may request resources via CORS.\n\nA misconfiguration in a production environment will result in a error message being written to the node process console upon application start in versions 0.12.7 and higher of sails.",
+  "references": "* http://sailsjs.org/documentation/reference/configuration/sails-config-cors\n* http://sailsjs.org/documentation/concepts/security/cors",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "cvss_score": 8.2,
+  "coordinating_vendor": "^Lift Security"
+}

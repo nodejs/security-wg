@@ -1,0 +1,19 @@
+{
+  "id": 14,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T18:17:13+00:00",
+  "title": "Hidden Directories Always Served",
+  "author": "Gil Pedersen",
+  "module_name": "inert",
+  "publish_date": "2014-12-16T03:13:48+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.1.1",
+  "patched_versions": ">=1.1.1",
+  "slug": "inert_hidden-directories-always-served",
+  "overview": "The inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.",
+  "recommendation": "Update to version >= 1.1.1.",
+  "references": "- https://github.com/hapijs/inert/pull/15\n- https://github.com/hapijs/inert/commit/e8f99f94da4cb08e8032eda984761c3f111e3e82",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 124,
+  "created_at": "2016-07-20T21:09:07+00:00",
+  "updated_at": "2017-02-10T19:38:08+00:00",
+  "title": "XSS in itemTitle parameter",
+  "author": "Alex Wong",
+  "module_name": "bootstrap-tagsinput",
+  "publish_date": "2016-07-20T21:20:51+00:00",
+  "cves": [
+    "CVE-2016-1000227"
+  ],
+  "vulnerable_versions": "<=0.8.0",
+  "patched_versions": "<0.0.0",
+  "slug": "bootstrap-tagsinput_xss-in-itemtitle-parameter",
+  "overview": "Bootstrap Tags Input is a jQuery plugin providing a Twitter Bootstrap user interface for managing tags. \n\nVersion 0.8.0 contains a cross site scripting vulnerability (XSS) via the `itemTitle` parameter. By supplying a malicious value for this parameter, it is possible to execute arbitrary code.\n\nThis vulnerability is being disclosed before a public patched release is available because of an existing Github issue which is already public.",
+  "recommendation": "Avoid using the `itemTitle` parameter until a patch is available",
+  "references": "* https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/501",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.3,
+  "coordinating_vendor": "^Lift Security"
+}

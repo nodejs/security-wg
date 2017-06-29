@@ -1,0 +1,19 @@
+{
+  "id": 112,
+  "created_at": "2016-05-05T22:08:26+00:00",
+  "updated_at": "2016-10-31T20:31:20+00:00",
+  "title": "SQL Injection",
+  "author": "Spencer Creasey",
+  "module_name": "sequelize",
+  "publish_date": "2016-10-31T20:31:20+00:00",
+  "cves": [],
+  "vulnerable_versions": "<= 3.16.0",
+  "patched_versions": ">= 3.17.0",
+  "slug": "sequelize_sql-injection",
+  "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS\n\nIf user input goes into the `limit` or `order` parameters, a malicious user can put in their own SQL statements. \n\n`1; DELETE FROM \"Users\" WHERE 1=1; --`",
+  "recommendation": "Upgrade sequelize to version 3.17.0 or greater",
+  "references": "- https://github.com/sequelize/sequelize/pull/5167/commits/f282d85e60e3df5e57ecdb82adccb4eaef404f03",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

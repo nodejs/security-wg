@@ -1,0 +1,19 @@
+{
+  "id": 108,
+  "created_at": "2016-05-05T21:21:09+00:00",
+  "updated_at": "2016-05-23T17:50:20+00:00",
+  "title": "Cross Site Scripting",
+  "author": "Unknown",
+  "module_name": "backbone",
+  "publish_date": "2016-05-23T17:50:20+00:00",
+  "cves": [],
+  "vulnerable_versions": "<= 0.3.3",
+  "patched_versions": ">= 0.5.0",
+  "slug": "backbone_cross-site-scripting",
+  "overview": "backbone is a module that adds in structure to a JavaScript heavy application through key-value pairs and custom events connecting to your RESTful API through JSON\n\nThere exists a potential Cross Site Scripting vulnerability in the `Model#Escape` function if a user is able to supply input.\n\nThis is due to the regex that's replacing things to miss the conversion of things such as `&#60;` to `<`.",
+  "recommendation": "Upgrade to at least version 0.5.0",
+  "references": "- https://github.com/jashkenas/backbone/compare/0.3.3...0.5.0#diff-0d56d0d310de7ff18b3cef9c2f8f75dcL1008\n- backbonejs.org/#changelog",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

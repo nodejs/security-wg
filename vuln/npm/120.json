@@ -1,0 +1,19 @@
+{
+  "id": 120,
+  "created_at": "2016-06-24T00:34:25+00:00",
+  "updated_at": "2016-06-24T23:04:12+00:00",
+  "title": "DoS due to excessively large websocket message",
+  "author": "Fedor Indutny",
+  "module_name": "ws",
+  "publish_date": "2016-06-24T17:13:33+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=1.1.0",
+  "patched_versions": ">=1.1.1",
+  "slug": "socketio_dos-due-to-excessively-large-websocket-message",
+  "overview": "ws is a \"simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455\"\n\nBy sending an overly long websocket payload to a `ws` server, it is possible to crash the node process.",
+  "recommendation": "Update to version 1.1.1 of ws, or if that is not possible, set the `maxpayload` option for the `ws` server - make sure the value is less than 256MB.",
+  "references": "https://github.com/nodejs/node/issues/7388",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

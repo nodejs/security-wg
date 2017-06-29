@@ -1,0 +1,19 @@
+{
+  "id": 60,
+  "created_at": "2015-12-04T16:56:49.01+00:00",
+  "updated_at": "2016-04-27T21:10:09+00:00",
+  "title": "Authentication Weakness",
+  "author": "Greg Meyer",
+  "module_name": "keystone",
+  "publish_date": "2015-12-04T17:52:25.832+00:00",
+  "cves": [],
+  "vulnerable_versions": "<0.3.16",
+  "patched_versions": ">=0.3.16",
+  "slug": "keystone_authentication-weakness",
+  "overview": "Due to a bug in the the default sign in functionality, incomplete email addresses could be matched. A correct password is still required to complete sign in.",
+  "recommendation": "Users of this module should update to version 0.3.16 or greater",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 4.3,
+  "coordinating_vendor": "^Lift Security"
+}

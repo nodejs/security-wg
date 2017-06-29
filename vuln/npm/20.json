@@ -1,0 +1,21 @@
+{
+  "id": 20,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-29T17:22:42+00:00",
+  "title": "Potential Command Injection",
+  "author": "Adam Baldwin",
+  "module_name": "libnotify",
+  "publish_date": "2013-05-15T22:30:05.853+00:00",
+  "cves": [
+    "CVE-2013-7381"
+  ],
+  "vulnerable_versions": "<= 1.0.3",
+  "patched_versions": ">= 1.0.4",
+  "slug": "libnotify_potential-command-injection",
+  "overview": "Untrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.\n\n### Example\n```\nvar libnotify = require('libnotify')\nlibnotify.notify('UNTRUSTED INPUT', { title: \\\"\\\" }, function () {\n    console.log(arguments);\n})\n```\n\nSpecial thanks to Neal Poole for submitting the pull request to fix this issue.",
+  "recommendation": null,
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

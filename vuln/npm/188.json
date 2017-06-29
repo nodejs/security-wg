@@ -1,0 +1,19 @@
+{
+  "id": 188,
+  "created_at": "2016-12-01T00:16:53+00:00",
+  "updated_at": "2016-12-21T23:49:12+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "jser-stat",
+  "publish_date": "2016-12-21T23:49:12+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "jser-stat_downloads-resources-over-http",
+  "overview": "jser-stat is a JSer.info stat library.\n\njser-stat downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://github.com/jser/stat-js/blob/master/data/url-mapping.js",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L",
+  "cvss_score": 4.6,
+  "coordinating_vendor": "^Lift Security"
+}

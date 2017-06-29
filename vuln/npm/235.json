@@ -1,0 +1,19 @@
+{
+  "id": 235,
+  "created_at": "2016-12-01T17:23:19+00:00",
+  "updated_at": "2016-12-16T00:24:46+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "mongodb-instance",
+  "publish_date": "2016-12-16T00:24:46+00:00",
+  "cves": [],
+  "vulnerable_versions": "<0.0.3",
+  "patched_versions": ">=0.0.3",
+  "slug": "mongodb-instance_downloads-resources-over-http",
+  "overview": "mongodb-instance installs mongodb locally.\n\nmongodb-instance downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+  "recommendation": "Update to version 0.0.3 or later.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

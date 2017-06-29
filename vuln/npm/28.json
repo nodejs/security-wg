@@ -1,0 +1,19 @@
+{
+  "id": 28,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T19:44:22+00:00",
+  "title": "Denial-of-Service Extended Event Loop Blocking",
+  "author": "Tom Steele",
+  "module_name": "qs",
+  "publish_date": "2014-08-06T17:10:23+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.0.0",
+  "patched_versions": ">= 1.x",
+  "slug": "qs_denial-of-service-extended-event-loop-blocking",
+  "overview": "The qs module does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring.",
+  "recommendation": "Update qs to version 1.0.0 or greater",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 25,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-20T16:24:31+00:00",
+  "title": "Directory Traversal",
+  "author": "Riku Keski-Keturi",
+  "module_name": "nhouston",
+  "publish_date": "2014-11-14T09:30:48+00:00",
+  "cves": [
+    "CVE-2014-8883"
+  ],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "nhouston_directory-traversal",
+  "overview": "All versions of the static file server module nhouston are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
+  "recommendation": "It is recommended that a different module be used, as we have been unable to reacher the maintainer of this module. We will continue to reach out to them, and if an update becomes available that fixes the issue, we will update this advisory accordingly.",
+  "references": "- http://en.wikipedia.org/wiki/Directory_traversal_attack",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

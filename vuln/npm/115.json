@@ -1,0 +1,19 @@
+{
+  "id": 115,
+  "created_at": "2016-05-06T16:50:34+00:00",
+  "updated_at": "2016-10-31T20:31:32+00:00",
+  "title": "SQL Injection",
+  "author": "James Hush",
+  "module_name": "waterline-sequel",
+  "publish_date": "2016-10-31T20:31:32+00:00",
+  "cves": [],
+  "vulnerable_versions": "0.5.0",
+  "patched_versions": ">= 0.5.1",
+  "slug": "waterline-sequel_sql-injection",
+  "overview": "waterline-sequel is a module that helps generate SQL statements for Waterline apps\n\nAny user input that goes into Waterline's `like`, `contains`, `startsWith`, or `endsWith` will end up in waterline-sequel with the potential for malicious code.\n\nA malicious user can input their own SQL statements that will get executed and have full access to the database.",
+  "recommendation": "Upgrade to at least version 0.5.1",
+  "references": "- https://github.com/balderdashy/waterline/issues/1219#issuecomment-157294530\n- https://www.owasp.org/index.php/SQL_Injection",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "cvss_score": 8.2,
+  "coordinating_vendor": "^Lift Security"
+}

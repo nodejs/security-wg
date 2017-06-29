@@ -1,0 +1,19 @@
+{
+  "id": 206,
+  "created_at": "2016-12-01T15:18:25+00:00",
+  "updated_at": "2017-01-01T02:28:49+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "unicode-json",
+  "publish_date": "2017-01-01T02:28:49+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "unicode-json_downloads-resources-over-http",
+  "overview": "unicode-json is a unicode lookup table.\n\nunicode-json downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

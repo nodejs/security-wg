@@ -1,0 +1,21 @@
+{
+  "id": 40,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T18:01:54+00:00",
+  "title": "Command Injection",
+  "author": "CodingTwinky",
+  "module_name": "ungit",
+  "publish_date": "2015-01-22T17:33:48+00:00",
+  "cves": [
+    "CVE-2015-4130"
+  ],
+  "vulnerable_versions": "<=0.8.4",
+  "patched_versions": ">=0.9.0",
+  "slug": "ungit_command-injection",
+  "overview": "Due to the use of `child_process.exec` when executing git commands, ungit allows for commands to be injection from user input fields that end up in an executed git command.",
+  "recommendation": "Update to the version >=0.9.0",
+  "references": "- https://github.com/FredrikNoren/ungit/issues/486",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

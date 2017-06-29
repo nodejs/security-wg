@@ -1,0 +1,19 @@
+{
+  "id": 45,
+  "created_at": "2015-10-20T18:29:09.702+00:00",
+  "updated_at": "2016-04-25T15:35:32+00:00",
+  "title": "Incorrect handling of CORS preflight request headers",
+  "author": "Eran Hammer",
+  "module_name": "hapi",
+  "publish_date": "2015-10-20T18:29:09.702+00:00",
+  "cves": [],
+  "vulnerable_versions": "<11.0.0",
+  "patched_versions": ">=11.0.0",
+  "slug": "hapi_incorrect-handling-of-cors-preflight-request-headers",
+  "overview": "Hapi versions less than 11.0.0 implement CORS incorrectly and allowed for configurations that at best returned inconsistent headers and at worst allowed cross-origin activities that were expected to be forbidden. [1]\n\n'If the connection has CORS enabled but one route has it off, and the route is not GET, the OPTIONS prefetch request will return the default CORS headers and then the actual request will go through and return no CORS headers. This defeats the purpose of turning CORS on the route.' [2]",
+  "recommendation": "Updated to hapi version 11.0.0 or greater",
+  "references": "- [1] https://github.com/hapijs/hapi/issues/2850\n- [2] https://github.com/hapijs/hapi/issues/2840",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

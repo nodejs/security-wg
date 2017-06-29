@@ -1,0 +1,21 @@
+{
+  "id": 131,
+  "created_at": "2016-07-22T21:20:22+00:00",
+  "updated_at": "2017-02-10T19:47:55+00:00",
+  "title": "XSS via Content-type header",
+  "author": "Joe Vennix",
+  "module_name": "swagger-ui",
+  "publish_date": "2016-07-25T16:25:23+00:00",
+  "cves": [
+    "CVE-2016-1000233"
+  ],
+  "vulnerable_versions": "2.1.4",
+  "patched_versions": ">=2.1.5",
+  "slug": "swagger-ui_xss-via-content-type-header",
+  "overview": "By using a malicious server which returns script as the value of the Content-Type header, it is possible to execute arbitrary code using the demonstration capabilities of Swagger-UI.",
+  "recommendation": "Update to 2.1.5 or later.",
+  "references": "* https://github.com/swagger-api/swagger-ui/issues/1863",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.3,
+  "coordinating_vendor": "^Lift Security"
+}

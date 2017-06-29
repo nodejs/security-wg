@@ -1,0 +1,19 @@
+{
+  "id": 113,
+  "created_at": "2016-05-05T22:16:32+00:00",
+  "updated_at": "2016-10-31T20:32:24+00:00",
+  "title": "SQL Injection",
+  "author": null,
+  "module_name": "sequelize",
+  "publish_date": "2016-10-31T20:32:24+00:00",
+  "cves": [],
+  "vulnerable_versions": "<= 1.7.0-alpha2",
+  "patched_versions": ">= 1.7.0-alpha3",
+  "slug": "sequelize_sql-injection",
+  "overview": "sequelize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS\n\nBefore version 1.7.0-alpha3, sequelize defaulted SQLite to use MySQL backslash escaping, even though SQLite uses Postgres escaping.",
+  "recommendation": "Upgrade to at least version <=1.7.0-alpha3",
+  "references": "- https://github.com/sequelize/sequelize/commit/c876192aa6ce1f67e22b26a4d175b8478615f42d",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

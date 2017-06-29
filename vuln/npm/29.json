@@ -1,0 +1,21 @@
+{
+  "id": 29,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T19:48:57+00:00",
+  "title": "Denial-of-Service Memory Exhaustion",
+  "author": "Dustin Shiver",
+  "module_name": "qs",
+  "publish_date": "2014-08-06T17:10:22+00:00",
+  "cves": [
+    "CVE-2014-7191"
+  ],
+  "vulnerable_versions": "<1.0.0",
+  "patched_versions": ">= 1.x",
+  "slug": "qs_denial-of-service-memory-exhaustion",
+  "overview": "The qs module has the ability to create sparse arrays during parsing. By specifying a high index it is possible to create a large array that will eventually take up all the allocated memory of the running process, resulting in a crash.",
+  "recommendation": "Update qs to version 1.0.0 or greater",
+  "references": "- https://github.com/visionmedia/node-querystring/issues/104",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 93,
+  "created_at": "2016-03-28T17:59:38+00:00",
+  "updated_at": "2016-04-20T17:41:15+00:00",
+  "title": "Insecure Entropy Source - Math.random()",
+  "author": "Fedot Praslov",
+  "module_name": "node-uuid",
+  "publish_date": "2016-03-28T21:29:30+00:00",
+  "cves": [
+    "CVE-2015-8851"
+  ],
+  "vulnerable_versions": "<1.4.4",
+  "patched_versions": ">=1.4.4",
+  "slug": "uuid_insecure-entropy-source-mathrandom",
+  "overview": "node-uuid prior to 1.4.4 contained a bug that caused it to consistently fall back to using `Math.random` instead of a more cryptographically sound source of entropy, the native `crypto` module.",
+  "recommendation": "Upgrade to version 1.4.4 or greater",
+  "references": "- https://github.com/broofa/node-uuid/issues/108\n- https://github.com/broofa/node-uuid/issues/122",
+  "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 4.2,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 319,
+  "created_at": "2017-03-08T23:27:07+00:00",
+  "updated_at": "2017-03-09T18:12:00+00:00",
+  "title": "XSS in Data URI",
+  "author": "Ben Alpert",
+  "module_name": "remarkable",
+  "publish_date": "2017-03-09T18:12:00+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=1.6.2",
+  "patched_versions": ">=1.7.0",
+  "slug": "remarkable_xss-in-data-uri",
+  "overview": "Remarkable is a markdown parser. \n\nIn versions 1.6.2 and lower, remarkable allows the use of `data:` URIs. \n\nAfter the markdown `[link](data:text/html,<script>alert('0')</script>)` is rendered, the script will run when clicked.",
+  "recommendation": "Upgrade to v1.7.0 or higher",
+  "references": "* [GitHub Issue](https://github.com/jonschlinkert/remarkable/issues/227)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "cvss_score": 4.3,
+  "coordinating_vendor": "^Lift Security"
+}

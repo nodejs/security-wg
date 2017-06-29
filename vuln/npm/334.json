@@ -1,0 +1,19 @@
+{
+  "id": 334,
+  "created_at": "2017-03-30T04:08:35+00:00",
+  "updated_at": "2017-06-05T12:37:07.359+00:00",
+  "title": "Downloads resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "hubl-server",
+  "publish_date": "2017-06-05T12:37:07.359+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "hubl-server_downloads-resources-over-http",
+  "overview": "The hubl-server module is a wrapper for the HubL Development Server.\n\nDuring installation hubl-server downloads a set of dependencies from api.hubapi.com. It appears in the code that these files are downloaded over HTTPS however the api.hubapi.com endpoint redirects to a HTTP url. Because of this behavior an attacker with the ability to man-in-the-middle a developer or system performing a package installation could compromise the integrity of the installation.",
+  "recommendation": "As there currently is not a fix available for this it is our recommendation that you do not use this module. If you must use it download the content and verify it's integrity in your production environment.",
+  "references": null,
+  "cvss_vector": null,
+  "cvss_score": null,
+  "coordinating_vendor": "^Lift Security"
+}

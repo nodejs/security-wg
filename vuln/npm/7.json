@@ -1,0 +1,22 @@
+{
+  "id": 7,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-29T17:24:09+00:00",
+  "title": "Unauthenticated Remote Command Injection",
+  "author": "Neal Poole",
+  "module_name": "ep_imageconvert",
+  "publish_date": "2013-05-06T17:33:48+00:00",
+  "cves": [
+    "CVE-2013-3364",
+    "CVE-2013-7380"
+  ],
+  "vulnerable_versions": "<=0.0.2",
+  "patched_versions": ">=0.0.3",
+  "slug": "ep_imageconvert_unauthenticated-remote-command-injection",
+  "overview": "ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.\n\nAuthentication is not required for remote exploitation.",
+  "recommendation": "Update to version 0.0.3 or greater.",
+  "references": "- https://github.com/redhog/ep_imageconvert/pull/5",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "cvss_score": 8.2,
+  "coordinating_vendor": "^Lift Security"
+}

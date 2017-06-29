@@ -1,0 +1,19 @@
+{
+  "id": 145,
+  "created_at": "2016-08-25T13:32:11+00:00",
+  "updated_at": "2016-11-03T18:50:00+00:00",
+  "title": "Cross Site Scripting (XSS)",
+  "author": "Jared Folkins",
+  "module_name": "plotly.js",
+  "publish_date": "2016-10-17T16:19:18+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.10.4 || >=1.11.0 <1.16.0",
+  "patched_versions": ">=1.10.4 <1.11.0 || >=1.16.0",
+  "slug": "plotlyjs_cross-site-scripting-xss",
+  "overview": "If an attacker can trick an unsuspecting user into viewing a specially crafted plot on a site that uses plotly.js, then the attacker could potentially retrieve authentication tokens and perform actions on behalf of the user.",
+  "recommendation": "Update to 1.16.0 or later.",
+  "references": "* http://help.plot.ly/security-advisories/2016-08-08-plotlyjs-xss-advisory/\n* https://acloudtree.com/2016-08-09-how-i-hacked-plotly-by-exploiting-a-svg-vulnerability-in-plotlyjs/",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

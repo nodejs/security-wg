@@ -1,0 +1,19 @@
+{
+  "id": 96,
+  "created_at": "2016-03-28T22:31:14+00:00",
+  "updated_at": "2016-04-25T14:50:17+00:00",
+  "title": "Insecure Default Configuration",
+  "author": "Phil Schleihauf",
+  "module_name": "airbrake",
+  "publish_date": "2016-03-28T22:48:46+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=0.3.8",
+  "patched_versions": ">=0.4.0",
+  "slug": "airbrake_insecure-default-configuration",
+  "overview": "The airbrake module defaults to sending environment variables over HTTP. Environment variables can often times contain secret keys and other sensitive values. A malicious user could be on the same network as a regular user and intercept all the secret keys the user is sending. This goes against common best practice, which is to use HTTPS.",
+  "recommendation": "Change to use https or update to at least version 0.4.0",
+  "references": "- https://github.com/airbrake/node-airbrake/issues/70",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

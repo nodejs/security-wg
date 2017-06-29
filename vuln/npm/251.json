@@ -1,0 +1,19 @@
+{
+  "id": 251,
+  "created_at": "2016-12-01T19:22:46+00:00",
+  "updated_at": "2016-12-16T00:26:26+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "kindlegen",
+  "publish_date": "2016-12-16T00:26:26+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.1.0",
+  "patched_versions": ">=1.1.0",
+  "slug": "kindlegen_downloads-resources-over-http",
+  "overview": "Kindlegen is a simple Node.js wrapper of the official kindlegen program.\n\nKindlegen versions before 1.1.0 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+  "recommendation": "Update to version 1.1.0 or greater.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

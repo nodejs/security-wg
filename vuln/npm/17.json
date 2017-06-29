@@ -1,0 +1,19 @@
+{
+  "id": 17,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T17:39:15+00:00",
+  "title": "Verification Bypass",
+  "author": "Tim McLean",
+  "module_name": "jsonwebtoken",
+  "publish_date": "2015-04-01T02:00:00+00:00",
+  "cves": [],
+  "vulnerable_versions": "<4.2.2",
+  "patched_versions": ">=4.2.2",
+  "slug": "jsonwebtoken_verification-bypass",
+  "overview": "It is possible for an attacker to bypass verification when \"a token digitally signed with an asymetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family)\" [1]",
+  "recommendation": "Update to a version 4.2.2 or greater",
+  "references": "- [1] https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687\n- https://www.timmclean.net/2015/02/25/jwt-alg-none.html\n- https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

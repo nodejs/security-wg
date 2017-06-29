@@ -1,0 +1,19 @@
+{
+  "id": 167,
+  "created_at": "2016-11-30T21:25:26+00:00",
+  "updated_at": "2016-12-06T01:05:40+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "aerospike",
+  "publish_date": "2016-12-06T01:05:40+00:00",
+  "cves": [],
+  "vulnerable_versions": "<2.4.2",
+  "patched_versions": ">=2.4.2",
+  "slug": "aerospike_downloads-resources-over-http",
+  "overview": "aerospike is an Aerospike add-on module for Node.js.\n\naerospike versions below 2.4.2 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+  "recommendation": "Update to version 2.4.2 or later",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

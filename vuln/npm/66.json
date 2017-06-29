@@ -1,0 +1,19 @@
+{
+  "id": 66,
+  "created_at": "2015-12-28T18:37:19.938+00:00",
+  "updated_at": "2016-04-20T17:53:55+00:00",
+  "title": "SQL Injection due to unescaped object keys",
+  "author": "Sébastian Dejonghe",
+  "module_name": "mysql",
+  "publish_date": "2015-12-28T18:37:37.178+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=v2.0.0-alpha7",
+  "patched_versions": ">=v2.0.0-alpha8",
+  "slug": "mysql_sql-injection-due-to-unescaped-object-keys",
+  "overview": "Keys of objects are not escaped with `mysql.escape()` which could lead to SQL Injection.",
+  "recommendation": "Update to the latest version of the mysql module. At least version v2.0.0-alpha8 or greater to address this issue.",
+  "references": "- https://github.com/felixge/node-mysql/issues/342",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

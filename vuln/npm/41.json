@@ -1,0 +1,24 @@
+{
+  "id": 41,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-29T17:18:39+00:00",
+  "title": "Multiple XSS Filter Bypasses",
+  "author": "Neal Poole, Krzysztof Kotowicz",
+  "module_name": "validator",
+  "publish_date": "2013-07-05T19:29:10+00:00",
+  "cves": [
+    "CVE-2013-7451",
+    "CVE-2013-7452",
+    "CVE-2013-7453",
+    "CVE-2013-7454"
+  ],
+  "vulnerable_versions": "<1.1.0",
+  "patched_versions": ">=1.1.0",
+  "slug": "validator_multiple-xss-filter-bypasses",
+  "overview": "The validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). Several ways to bypass the filter were discovered. In general, because the function’s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.\n\n### Details:\nVarious inputs that could bypass the filter were discovered:\n\nImproper parsing of nested tags:\n\n```\n<s <onmouseover=\"alert(1)\"> <;s onmouseover=\"alert(1)\">This is a test</s>\n```\n\nIncomplete filtering of javascript: URIs:\n\n```\n<a href=\"javascriptJ a V a S c R iPt::alert(1)\" \"<s>\">test</a>\n```\n\nUI Redressing:\n\n```\n<div style=\"z-index: 9999999; background-color: green; width: 100%; height: 100%\">\n<h1>You have won</h1>Please click the link and enter your login details:\n<a href=\"http://example.com/\">http://good.com</a>\n</div>\n```\n\nBypass via Nested Forbidden Strings:\n\n```\n<scrRedirecRedirect 302t 302ipt type=\"text/javascript\">prompt(1);</scrRedirecRedirect 302t 302ipt>\n```\n\nAdditional bypasses were discovered by Krzysztof Kotowicz in 2012 when auditing CodeIgniter's XSS filtering function, which this code was based off of.",
+  "recommendation": "If you are a developer currently using the xss filter function from the validator package, you should consider replacing it with the escape filter function from the same package. This function replaces all instances of angle brackets (<, >), ampersands, and quotation marks, so no HTML tags will be processed.",
+  "references": "- [XSS Filter Bypass in validator Node.js Module](https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)\n- [CodeIgniter <= 2.1.1 xss_clean() Cross Site Scripting filter bypass](http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

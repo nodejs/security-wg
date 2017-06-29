@@ -1,0 +1,21 @@
+{
+  "id": 126,
+  "created_at": "2016-07-21T17:01:35+00:00",
+  "updated_at": "2017-02-10T19:39:24+00:00",
+  "title": "XSS in key names",
+  "author": "Joe Vennix",
+  "module_name": "swagger-ui",
+  "publish_date": "2016-07-21T20:38:25+00:00",
+  "cves": [
+    "CVE-2016-1000229"
+  ],
+  "vulnerable_versions": "<=2.2.0",
+  "patched_versions": ">=2.2.1",
+  "slug": "swagger-ui_xss-in-key-names",
+  "overview": "Swagger is a standardized library for documenting API endpoints and their parameters.  Swagger uses a JSON document to organize API endpoint parameter data.\n\nSwagger-ui contains a cross site scripting (XSS) vulnerability in the key names for the following object path in the JSON document:\n```\n .definitions.<USER_DEFINED>.properties.<INJECTABLE_KEY_NAME>\n```\nSupplying a key name with script tags causes arbitrary code execution.  In addition it is possible to load the arbitrary JSON files remotely via the `URL` query-string parameter.\n\nThis advisory is being disclosed before a public patched release is available because of a public Github issue documenting the vulnerability.",
+  "recommendation": "Update to the latest version of swagger-ui.\n\nOur primary recommendation is to host swagger documentation on a separate domain distinct from the application domain.  Also, we recommend implementing a content security policy (CSP) that restricts the domains from which JSON files can be requested in order to avoid loading malicious JSON docs via the `URL` query string parameter.",
+  "references": "* https://github.com/swagger-api/swagger-ui/issues/1865\n* https://en.wikipedia.org/wiki/Content_Security_Policy",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_score": 9.1,
+  "coordinating_vendor": "^Lift Security"
+}

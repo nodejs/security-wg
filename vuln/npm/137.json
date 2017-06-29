@@ -1,0 +1,21 @@
+{
+  "id": 137,
+  "created_at": "2016-08-08T14:38:04+00:00",
+  "updated_at": "2017-02-10T19:51:35+00:00",
+  "title": "XSS in URL Query String Parameter",
+  "author": "mehmetaydogdu",
+  "module_name": "swagger-ui",
+  "publish_date": "2016-08-15T18:37:50+00:00",
+  "cves": [
+    "CVE-2016-1000239"
+  ],
+  "vulnerable_versions": "2.1.0-M1 || 2.1.0-M2",
+  "patched_versions": ">=2.1.0",
+  "slug": "swagger-ui_xss-in-url-query-string-parameter",
+  "overview": "In versions 2.1.0-M1 and 2.1.0-M2, swagger-ui has a cross site scripting (XSS) vulnerability in the `url` query string parameter.",
+  "recommendation": "Upgrade to 2.1.0 or later.",
+  "references": "* https://github.com/swagger-api/swagger-ui/issues/1262",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_score": 9.1,
+  "coordinating_vendor": "^Lift Security"
+}

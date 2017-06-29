@@ -1,0 +1,21 @@
+{
+  "id": 138,
+  "created_at": "2016-08-08T19:42:49+00:00",
+  "updated_at": "2017-02-10T19:54:32+00:00",
+  "title": "XSS via tooltips",
+  "author": "Calvin K Cox",
+  "module_name": "c3",
+  "publish_date": "2016-08-26T17:27:49+00:00",
+  "cves": [
+    "CVE-2016-1000240"
+  ],
+  "vulnerable_versions": "<=0.4.10",
+  "patched_versions": ">=0.4.11",
+  "slug": "c3_xss-via-tooltips",
+  "overview": "c3 is a D3-based reusable chart library that enables deeper integration of charts into web applications.\n\nVersions 0.4.10 and lower of c3 contain a cross site scripting (XSS) vulnerability through improper html sanitization on rendered tooltips.",
+  "recommendation": "Upgrade to 0.4.11 or later",
+  "references": "* https://github.com/c3js/c3/issues/1536",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+  "cvss_score": 4.7,
+  "coordinating_vendor": "^Lift Security"
+}

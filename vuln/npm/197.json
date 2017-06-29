@@ -1,0 +1,19 @@
+{
+  "id": 197,
+  "created_at": "2016-12-01T00:44:36+00:00",
+  "updated_at": "2017-01-01T01:42:41+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "cobalt-cli",
+  "publish_date": "2017-01-01T01:40:41+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "cobalt-cli_downloads-resources-over-http",
+  "overview": "cobalt-cli downloads resources over HTTP, which leaves it vulnerable to MITM attacks.",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 171,
+  "created_at": "2016-11-30T21:50:56+00:00",
+  "updated_at": "2016-12-16T00:22:56+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "product-monitor",
+  "publish_date": "2016-12-16T00:22:56+00:00",
+  "cves": [],
+  "vulnerable_versions": "<2.2.5",
+  "patched_versions": ">=2.2.5",
+  "slug": "product-monitor_downloads-resources-over-http",
+  "overview": "product-monitor is a HTML/JavaScript template for monitoring a product by encouraging product developers to gather all the information about the status of a product, including live monitoring, statistics, endpoints, and test results into one place.\n\nproduct-monitor versions below 2.2.5 download JavaScript resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested JavaScript file with an attacker controlled JavaScript file if the attacker is on the network or positioned in between the user and the remote server.",
+  "recommendation": "Update to versions 2.2.5 or later.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

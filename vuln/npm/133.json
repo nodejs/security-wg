@@ -1,0 +1,21 @@
+{
+  "id": 133,
+  "created_at": "2016-07-25T16:43:51+00:00",
+  "updated_at": "2017-02-10T19:49:31+00:00",
+  "title": "XSS in Pillbox",
+  "author": "Keenan Jaenicke",
+  "module_name": "fuelux",
+  "publish_date": "2016-07-25T17:04:28+00:00",
+  "cves": [
+    "CVE-2016-1000235"
+  ],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "fuelux_xss-in-pillbox",
+  "overview": "FuelUX is a library for extending Twitter Bootstrap with additional lightweight JavaScript controls.\n\nThere exists a cross site scripting (XSS) vulnerability in the Pillbox feature of FuelUX.  By supplying a script as a value for a new pillbox, it is possible to cause arbitrary script execution.  \n\nThis advisory is being released before a public patched version is available because the issue was reported publicly on Github.",
+  "recommendation": "Avoid the Pillbox functionality until a patch is available.",
+  "references": "* https://github.com/ExactTarget/fuelux/issues/1841",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.3,
+  "coordinating_vendor": "^Lift Security"
+}

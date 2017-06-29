@@ -1,0 +1,21 @@
+{
+  "id": 35,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T18:08:45+00:00",
+  "title": "Open Redirect",
+  "author": "Pierre-Élie Fauché",
+  "module_name": "serve-static",
+  "publish_date": "2015-01-13T22:50:48+00:00",
+  "cves": [
+    "CVE-2015-1164"
+  ],
+  "vulnerable_versions": "<1.6.5 || >=1.7.0 <1.7.2",
+  "patched_versions": "~1.6.5 || >=1.7.2",
+  "slug": "serve-static_open-redirect",
+  "overview": "When using serve-static middleware version < 1.7.2 and it's configured to mount at the root it creates an open redirect on the site.\n\nFor example:\nIf a user visits `http://example.com//www.google.com/%2e%2e` they will be redirected to `//www.google.com/%2e%2e`, which some browsers interpret as `http://www.google.com/%2e%2e`.",
+  "recommendation": "* Update to version 1.7.2 or greater (or 1.6.5 if sticking to the 1.6.x line).\n  * Disable redirects if not using the feature with 'redirect: false' option and cannot upgrade.",
+  "references": "- https://github.com/expressjs/serve-static/issues/26\n- https://www.owasp.org/index.php/Open_redirect",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

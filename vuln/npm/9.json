@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-20T16:23:46+00:00",
+  "title": "Directory Traversal",
+  "author": "Adam Baldwin",
+  "module_name": "fancy-server",
+  "publish_date": "2014-11-15T04:00:48+00:00",
+  "cves": [],
+  "vulnerable_versions": "<0.1.4",
+  "patched_versions": ">=0.1.4",
+  "slug": "fancy-server_directory-traversal",
+  "overview": "Versions less than 0.1.4 of the static file server module fancy-server are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
+  "recommendation": "Upgrade to version 0.1.4 or greater.",
+  "references": "- http://en.wikipedia.org/wiki/Directory_traversal_attack",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

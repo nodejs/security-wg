@@ -1,0 +1,19 @@
+{
+  "id": 74,
+  "created_at": "2016-01-11T22:27:08.02+00:00",
+  "updated_at": "2016-05-04T16:22:52+00:00",
+  "title": "Content Injection via TileJSON Name",
+  "author": "Alexandra Ulsh, Abdullah Ahmet Erdem",
+  "module_name": "mapbox.js",
+  "publish_date": "2016-01-12T23:35:56.853+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.6.6 || < 2.2.4 > 2.0.0",
+  "patched_versions": ">=1.6.6 <2.0.0 || >= 2.2.4",
+  "slug": "mapboxjs_content-injection-via-tilejson-name",
+  "overview": "Mapbox.js versions 1.x prior to 1.6.6 and 2.x prior to 2.2.4 are vulnerable to a cross-site-scripting attack in certain uncommon usage scenarios.\n\nIf you use L.mapbox.map and L.mapbox.shareControl it is possible for a malicious user with control over the TileJSON content to inject script content into the name value of the TileJSON. After clicking on the share control, the malicious code will execute in the context of the page using Mapbox.js.\n\nSuch usage is uncommon. L.mapbox.shareControl is not automatically added to mapbox.js maps and must be explicitly added. The following usage scenarios are not vulnerable:\n\n- the map does not use a share control (L.mapbox.sharecontrol)\n- only trusted TileJSON content is loaded\n\nTimeline:\nJanuary 12, 2016 - CVE Requested",
+  "recommendation": "Upgrade to Mapbox.js version 2.2.4. If you are still using a 1.x version and unable to upgrade to 2.2.4, upgrade to 1.6.6.\n\nIf you are unable to upgrade to either 2.2.4 or 1.6.6, you can also remove instances of L.mapbox.shareControl from your maps.",
+  "references": "- https://hackerone.com/reports/99245",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+  "cvss_score": 4.9,
+  "coordinating_vendor": "^Lift Security"
+}

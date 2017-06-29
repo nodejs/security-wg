@@ -1,0 +1,21 @@
+{
+  "id": 57,
+  "created_at": "2015-11-03T07:15:12.9+00:00",
+  "updated_at": "2016-04-25T15:19:02+00:00",
+  "title": "Symlink Arbitrary File Overwrite",
+  "author": "Tim Cuthbertson",
+  "module_name": "tar",
+  "publish_date": "2015-11-03T07:15:12.9+00:00",
+  "cves": [
+    "CVE-2015-8860"
+  ],
+  "vulnerable_versions": "<2.0.0",
+  "patched_versions": ">=2.0.0",
+  "slug": "tar_symlink-arbitrary-file-overwrite",
+  "overview": "The `tar` module earlier than version 2.0.0 allow for archives to contain symbolic links that will overwrite targets outside the expected path for extraction.",
+  "recommendation": "Update to a version 2.0.0 or greater",
+  "references": "- https://github.com/npm/npm/releases/tag/v2.7.5",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

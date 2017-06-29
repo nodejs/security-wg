@@ -1,0 +1,19 @@
+{
+  "id": 65,
+  "created_at": "2015-12-28T17:13:59.814+00:00",
+  "updated_at": "2016-04-25T15:04:12+00:00",
+  "title": "Route level CORS config overrides connection level defaults",
+  "author": "Eran Hammer",
+  "module_name": "hapi",
+  "publish_date": "2015-12-28T17:17:36.462+00:00",
+  "cves": [],
+  "vulnerable_versions": "<11.1.4",
+  "patched_versions": ">=11.1.4",
+  "slug": "hapi_route-level-cors-config-overrides-connection-level-defaults",
+  "overview": "When server level, connection level or route level CORS configurations are combined and when a higher level config included security restrictions (like origin), a higher level config that included security restrictions (like origin) would have those restrictions overridden by less restrictive defaults (e.g. origin defaults to all origins `*`).",
+  "recommendation": "You should install hapi v11.1.4 or newer if you combine server level, connection level, or route level CORS configuration.",
+  "references": "- https://github.com/hapijs/hapi/issues/2980",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

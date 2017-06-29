@@ -1,0 +1,19 @@
+{
+  "id": 90,
+  "created_at": "2016-03-28T17:21:46+00:00",
+  "updated_at": "2016-06-02T18:53:53+00:00",
+  "title": "Authentication Bypass",
+  "author": "Craig Arendt",
+  "module_name": "console-io",
+  "publish_date": "2016-04-18T21:17:58+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=2.2.13",
+  "patched_versions": ">=2.3.0",
+  "slug": "console-io_authentication-bypass",
+  "overview": "console-io is a module that allows users to implement a web console in their application. \n\nA malicious user could bypass the authentication and execute any command that the user who is running the console-io application is able to run. This means that if console-io was running from root, the attacker would have full access to the system. \n\nThis vulnerability exists because the console-io application does not configure socket.io to require authentication, which allows a malicious user to connect via a websocket to send commands and receive the response.",
+  "recommendation": "Upgrade to at least version 2.3.0",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

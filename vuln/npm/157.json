@@ -1,0 +1,19 @@
+{
+  "id": 157,
+  "created_at": "2016-11-09T20:03:19+00:00",
+  "updated_at": "2017-04-14T22:07:15.407+00:00",
+  "title": "Random Token based off Math.random()",
+  "author": "Sven Slootweg",
+  "module_name": "react-native-meteor-oauth",
+  "publish_date": "2017-04-14T22:07:15.405+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "react-native-meteor-oauth_random-token-based-off-mathrandom",
+  "overview": "react-native-meteor-oauth is a library for Oauth2 login to a Meteor server in React Native.\nThe oauth Random Token is generated using a non-cryptographically strong RNG (Math.random()).",
+  "recommendation": null,
+  "references": "* https://github.com/tableflip/react-native-meteor-oauth/blob/a7eb738b74c469f5db20296b44b7cae4e2337435/src/meteor-oauth.js#L66",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "cvss_score": 3.7,
+  "coordinating_vendor": "^Lift Security"
+}

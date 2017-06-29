@@ -1,0 +1,19 @@
+{
+  "id": 326,
+  "created_at": "2017-03-14T21:42:04+00:00",
+  "updated_at": "2017-03-15T20:30:13+00:00",
+  "title": "Cross-Site Scripting",
+  "author": "alexmchardy",
+  "module_name": "i18next",
+  "publish_date": "2017-03-15T20:30:13+00:00",
+  "cves": [],
+  "vulnerable_versions": ">=2.0.0 <=3.4.3",
+  "patched_versions": ">=3.4.4",
+  "slug": "i18next_cross-site-scripting",
+  "overview": "i18next is a language translation framework.\n\nWhen using the `.init` method, passing interpolation options without passing an `escapeValue` will default to `undefined` rather than the assumed `true`. This can result in a cross-site scripting vulnerability because user input is assumed to be escaped, but is not.\n\nExample:\n```\nvar init = i18n.init({\n  interpolation: {\n    prefix: \"__\",\n    suffix: \"__\",\n    escapeValue: true\n  }\n}, function(){\n  var test = i18n.t('__firstName__ __lastName__', {\n        firstName: 'Bob',\n        lastName: '[\"foo\",\"bar\"]',\n  });\n  console.log(test);\n});\n```\nWhen `escapeValue` is explicitly passed, the result of `test` is: `&lt;script&gt;alert(1)&lt;&#x2F;script&gt; Johnson`\n\n This is supposed to be the default, however if `escapeValue` is not included, the result is the unescaped string: `<script>alert(1)</script> Johnson`",
+  "recommendation": "Upgrade to v3.4.4 or greater.",
+  "references": "* [GitHub Pull Request](https://github.com/i18next/i18next/pull/826)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

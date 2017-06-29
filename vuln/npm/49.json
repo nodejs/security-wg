@@ -1,0 +1,19 @@
+{
+  "id": 49,
+  "created_at": "2015-10-24T18:05:49.315+00:00",
+  "updated_at": "2017-02-23T20:48:08+00:00",
+  "title": "Content Injection via TileJSON attribute",
+  "author": "John Firebaugh, Juan Broullón Sampedro",
+  "module_name": "mapbox.js",
+  "publish_date": "2015-10-24T21:00:40.189+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.6.5 || < 2.1.7 > 2.0.0",
+  "patched_versions": ">=1.6.5 <2.0.0 || >= 2.1.7",
+  "slug": "mapboxjs_content-injection-via-tilejson-attribute",
+  "overview": "Mapbox.js versions 1.x prior to 1.6.5 and 2.x prior to 2.1.7 are vulnerable to a cross-site-scripting attack in certain uncommon usage scenarios.\n\nIf you use L.mapbox.map or L.mapbox.tileLayer to load untrusted TileJSON content from a non-Mapbox URL, it is possible for a malicious user with control over the TileJSON content to inject script content into the \"attribution\" value of the TileJSON which will be executed in the context of the page using Mapbox.js.\n\nSuch usage is uncommon. The following usage scenarios are not vulnerable:\n\n- only trusted TileJSON content is loaded\n- TileJSON content comes only from mapbox.com URLs\n- a Mapbox map ID is supplied, rather than a TileJSON URL",
+  "recommendation": "Upgrade to Mapbox.js version 2.1.7. If you are still using a 1.x version and unable to upgrade to 2.1.7, upgrade to 1.6.5.",
+  "references": "- https://hackerone.com/reports/54327",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 4.8,
+  "coordinating_vendor": "^Lift Security"
+}

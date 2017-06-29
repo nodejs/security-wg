@@ -1,0 +1,19 @@
+{
+  "id": 156,
+  "created_at": "2016-11-01T03:55:08+00:00",
+  "updated_at": "2016-12-16T00:20:49+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Scott Hardy & Adam Baldwin",
+  "module_name": "go-ipfs-dep",
+  "publish_date": "2016-12-16T00:20:49+00:00",
+  "cves": [],
+  "vulnerable_versions": "<0.4.4",
+  "patched_versions": ">=0.4.4",
+  "slug": "go-ipfs-dep_insecure-fetch-of-resources-over-http",
+  "overview": "During the installation process, the go-ipfs-deps module insecurely downloads resources over HTTP. This allows for a MITM attack to compromise the integrity of the resources used by this module and could allow for further compromise.",
+  "recommendation": "Update to version 0.4.4 or greater",
+  "references": "- https://github.com/diasdavid/go-ipfs-dep/pull/12",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

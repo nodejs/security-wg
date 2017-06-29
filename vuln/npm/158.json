@@ -1,0 +1,19 @@
+{
+  "id": 158,
+  "created_at": "2016-11-16T20:35:27+00:00",
+  "updated_at": "2017-04-12T06:22:46.874+00:00",
+  "title": "Lack of HTML Escaping",
+  "author": "Jordan Harband",
+  "module_name": "forms",
+  "publish_date": "2017-04-11T23:25:46.449+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.3.0",
+  "patched_versions": ">=1.3.0",
+  "slug": "forms_lack-of-html-escaping",
+  "overview": "Forms is a library for easily creating HTML forms.\nVersions before 1.3.0 did not have proper html escaping.  This means that if the application did not sanitize html on behalf of forms, use of forms may be vulnerable to cross site scripting",
+  "recommendation": "Upgrade to version 1.3.0 or later",
+  "references": "- https://github.com/caolan/forms/commit/bc01e534a0ff863dedb2026a50bd03153bbc6a5d",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

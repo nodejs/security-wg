@@ -1,0 +1,19 @@
+{
+  "id": 183,
+  "created_at": "2016-11-30T22:46:49+00:00",
+  "updated_at": "2016-12-16T00:23:22+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "geoip-lite-country",
+  "publish_date": "2016-12-16T00:23:22+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.1.4",
+  "patched_versions": ">=1.1.4",
+  "slug": "geoip-lite-country_downloads-resources-over-http",
+  "overview": "geoip-lite-country is a stripped down version of geoip-lite, supporting only country lookup.\n\ngeoip-lite-country downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+  "recommendation": "Update to version 1.1.4 or greater.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.1,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 283,
+  "created_at": "2016-12-02T04:35:16+00:00",
+  "updated_at": "2017-01-01T04:26:36+00:00",
+  "title": "Downloads Resources over HTTP",
+  "author": "Adam Baldwin",
+  "module_name": "adamvr-geoip-lite",
+  "publish_date": "2017-01-01T04:26:36+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "adamvr-geoip-lite_downloads-resources-over-http",
+  "overview": "adamvr-geoip-lite is a light weight native JavaScript implementation of GeoIP API from MaxMind\n\nadamvr-geoip-lite downloads geoip resources over HTTP, which leaves it vulnerable to MITM attacks.  This impacts the integrity and availability of this geoip data that may alter the decisions made by an application using this data.",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L",
+  "cvss_score": 5.4,
+  "coordinating_vendor": "^Lift Security"
+}

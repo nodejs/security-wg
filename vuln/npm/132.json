@@ -1,0 +1,21 @@
+{
+  "id": 132,
+  "created_at": "2016-07-25T16:15:45+00:00",
+  "updated_at": "2017-02-10T19:49:16+00:00",
+  "title": "XSS in drag and drop node",
+  "author": "https://github.com/Monisha-M",
+  "module_name": "jqtree",
+  "publish_date": "2016-07-25T16:25:39+00:00",
+  "cves": [
+    "CVE-2016-1000234"
+  ],
+  "vulnerable_versions": "<=1.3.3",
+  "patched_versions": ">=1.3.4",
+  "slug": "jqtree_xss-in-drag-and-drop-node",
+  "overview": "jqTree is a jQuery plugin for displaying and manipulating hierarchical data in a tree format.  \n\nVersions 1.3.3 and below contain a cross site scripting vulnerability in the drag and drop functionality for modifying tree data. A node that contains a standard XSS vector will have its payload execute when a user attempts to drag a node to a different position in the hierarchy.",
+  "recommendation": "Upgrade to 1.3.4 or later.",
+  "references": "* https://github.com/mbraak/jqTree/issues/437",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.3,
+  "coordinating_vendor": "^Lift Security"
+}

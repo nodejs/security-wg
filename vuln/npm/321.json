@@ -1,0 +1,19 @@
+{
+  "id": 321,
+  "created_at": "2017-03-09T22:37:37+00:00",
+  "updated_at": "2017-04-18T14:23:05.524+00:00",
+  "title": "Insecure randomness",
+  "author": "Martin Thomson",
+  "module_name": "socket.io",
+  "publish_date": "2017-04-14T22:49:45.953+00:00",
+  "cves": [],
+  "vulnerable_versions": "<=0.9.6",
+  "patched_versions": ">=0.9.7",
+  "slug": "socketio_insecure-randomness",
+  "overview": "Socket.io is a realtime application framework that provides communication via websockets.\n\nBecause socket.io depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.",
+  "recommendation": "Upgrade to v0.9.7 or later.",
+  "references": "* [Github Issue](https://github.com/socketio/socket.io/issues/856)\n* https://github.com/socketio/socket.io/pull/857\n* https://github.com/socketio/socket.io/commit/67b4eb9abdf111dfa9be4176d1709374a2b4ded8",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 4.8,
+  "coordinating_vendor": "^Lift Security"
+}

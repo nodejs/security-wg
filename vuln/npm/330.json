@@ -1,0 +1,19 @@
+{
+  "id": 330,
+  "created_at": "2017-03-21T19:17:05+00:00",
+  "updated_at": "2017-04-14T22:04:14.246+00:00",
+  "title": "Exceeding Stack Call Limit DoS",
+  "author": "Michał Gołębiowski",
+  "module_name": "jquery",
+  "publish_date": "2017-04-14T22:04:14.245+00:00",
+  "cves": [],
+  "vulnerable_versions": ">=2.10 <=2.2.4",
+  "patched_versions": ">=3.0.0",
+  "slug": "jquery_exceeding-stack-call-limit-dos",
+  "overview": "jQuery is a DOM manipulation javascript library.\n\nIn v2.2.4 and previous, a lowercasing logic was used on the attribute names and was removed in v3.0.0. Because of this, boolean attributes whose names were not all lowercase cause infinite recursion, and will exceed the stack call limit.",
+  "recommendation": "Upgrade to v3.0.0 or greater.",
+  "references": "* [GitHub Issue](https://github.com/jquery/jquery/issues/3133)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}

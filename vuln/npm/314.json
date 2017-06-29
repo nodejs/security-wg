@@ -1,0 +1,19 @@
+{
+  "id": 314,
+  "created_at": "2017-02-27T22:50:23+00:00",
+  "updated_at": "2017-04-20T04:38:23.923+00:00",
+  "title": "Cross-Site Scripting (XSS)",
+  "author": "CycoPH",
+  "module_name": "restify",
+  "publish_date": "2017-04-14T17:36:14.479+00:00",
+  "cves": [],
+  "vulnerable_versions": ">=2.0.0 <=4.0.4",
+  "patched_versions": ">=4.1.0",
+  "slug": "restify_xss",
+  "overview": "Restify is a framework for building REST APIs.\n\nUsing URL encoded script tags in a non-existent URL, an attacker can get script to run in some browsers.\n\nFor example, for the URL `https://localhost:3000/no5_such3_file7.pl?%22%3E%3Cscript%3Ealert(73541);%3C/script%3E` restify will return `<script>alert(73541);</script>` as part of the response, and in some browsers will run.",
+  "recommendation": "Upgrade to v4.1.0 or greater.",
+  "references": "* [Github Issue](https://github.com/restify/node-restify/issues/1018)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

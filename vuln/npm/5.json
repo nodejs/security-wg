@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-25T15:25:16+00:00",
+  "title": "Cross-Site Scripting",
+  "author": "Onur Yilmaz",
+  "module_name": "datatables",
+  "publish_date": "2015-09-18T19:29:10+00:00",
+  "cves": [
+    "CVE-2015-6584"
+  ],
+  "vulnerable_versions": "<=1.10.8",
+  "patched_versions": ">1.10.8",
+  "slug": "datatables_cross-site-scripting",
+  "overview": "Cross-site scripting (XSS) vulnerability in the DataTables plugin 1.10.8 and earlier for jQuery allows remote attackers to inject arbitrary web script or HTML via the scripts parameter to media/unit_testing/templates/6776.php.",
+  "recommendation": "Update to a version greater than 1.10.8.",
+  "references": "- http://www.securityfocus.com/archive/1/archive/1/536437/100/0/threaded\n- https://www.netsparker.com/cve-2015-6384-xss-vulnerability-identified-in-datatables/\n- https://github.com/DataTables/DataTables/issues/602\n- https://github.com/DataTables/DataTablesSrc/commit/ccf86dc5982bd8e16d",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

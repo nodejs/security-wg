@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T19:16:19+00:00",
+  "title": "Arbitrary JavaScript Execution",
+  "author": "Jarda Kotěšovec",
+  "module_name": "bassmaster",
+  "publish_date": "2014-09-27T16:44:48+00:00",
+  "cves": [
+    "CVE-2014-7205"
+  ],
+  "vulnerable_versions": "<=1.5.1",
+  "patched_versions": ">=1.5.2",
+  "slug": "bassmaster_arbitrary-javascript-execution",
+  "overview": "A vulnerability exists in bassmaster <= 1.5.1 that allows for an attacker to provide arbitrary JavaScript that is then executed server side via eval.",
+  "recommendation": "Update to bassmaster version 1.5.2 or greater.",
+  "references": "- https://www.npmjs.org/package/bassmaster\n- https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

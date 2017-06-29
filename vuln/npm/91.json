@@ -1,0 +1,19 @@
+{
+  "id": 91,
+  "created_at": "2016-03-28T17:34:32+00:00",
+  "updated_at": "2016-05-09T22:19:39+00:00",
+  "title": "No CSRF Validation",
+  "author": "Craig Arendt",
+  "module_name": "droppy",
+  "publish_date": "2016-03-28T22:40:54+00:00",
+  "cves": [],
+  "vulnerable_versions": "<3.5.0",
+  "patched_versions": ">=3.5.0",
+  "slug": "droppy_no-csrf-validation",
+  "overview": "Droppy versions <=3.4.0 does not perform any verification for cross-domain websocket requests. An attacker is able to make a specially crafted page that can send requests as the context of the currently logged in user. For example this means the malicious user could add a new admin account under his control and delete others.",
+  "recommendation": "Upgrade to droppy version 3.5.0 or greater.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 22,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-29T16:51:20+00:00",
+  "title": "Multiple Content Injection Vulnerabilities",
+  "author": "Adam Baldwin",
+  "module_name": "marked",
+  "publish_date": "2014-01-31T08:33:12+00:00",
+  "cves": [
+    "CVE-2014-1850",
+    "CVE-2014-3743"
+  ],
+  "vulnerable_versions": "<=0.3.0",
+  "patched_versions": ">=0.3.1",
+  "slug": "marked_multiple-content-injection-vulnerabilities",
+  "overview": "Marked comes with an option to sanitize user output to help protect against content injection attacks.\n\n```sanitize: true```\n\nEven if this option is set, marked is vulnerable to content injection in multiple locations if untrusted user input is allowed to be provided into marked and that output is passed to the browser.\n\nInjection is possible in two locations\n\n- gfm codeblocks (language)\n- javascript url's",
+  "recommendation": "- Upgrade to version 0.3.1 or later",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

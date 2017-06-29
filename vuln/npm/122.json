@@ -1,0 +1,21 @@
+{
+  "id": 122,
+  "created_at": "2016-07-18T18:47:35+00:00",
+  "updated_at": "2017-02-10T19:32:51+00:00",
+  "title": "SQL Injection via GeoJSON",
+  "author": "Eric Schoffstall",
+  "module_name": "sequelize",
+  "publish_date": "2016-07-18T20:40:51+00:00",
+  "cves": [
+    "CVE-2016-1000225"
+  ],
+  "vulnerable_versions": "<3.23.6",
+  "patched_versions": ">=3.23.6",
+  "slug": "sequelize_sql-injection-via-geojson",
+  "overview": "SequelizeJS 3.23.4 is vulnerable to SQL injection via GeoJSON documents containing a value with a single quote.  This vulnerability affects postresql/postgis as well as MySQL. This vulnerability only exists within GeoJSON documents using the function `ST_GeomFromGeoJSON` for postgresql/postgis and the function `GeomFromText` for mysql. SequelizeJS's `geometry` datatype is vulnerable.  If you have SequelizeJS models with a field that has a datatype of 'Geometry' and run a mysql or postgresql/postgis backend, your application is vulnerable\n\nSequelizeJS is a popular ORM (Object Relational Mapper) for node.  \n\nGeoJSON is a format for encoding a variety of geographic data structures.",
+  "recommendation": "Update to the most recent version of Sequelize.",
+  "references": "* https://github.com/sequelize/sequelize/issues/6194\n* http://geojson.org/\n* http://docs.sequelizejs.com/en/latest/api/datatypes/#geometry",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 9.8,
+  "coordinating_vendor": "^Lift Security"
+}

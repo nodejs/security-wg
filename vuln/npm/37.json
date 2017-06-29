@@ -1,0 +1,21 @@
+{
+  "id": 37,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T19:58:34+00:00",
+  "title": "Potential for Script Injection",
+  "author": "Cal Leeming",
+  "module_name": "syntax-error",
+  "publish_date": "2014-07-15T17:33:48+00:00",
+  "cves": [
+    "CVE-2014-7192"
+  ],
+  "vulnerable_versions": "< 1.1.1",
+  "patched_versions": ">= 1.1.1",
+  "slug": "syntax-error_potential-for-script-injection",
+  "overview": "The below overview of the issue is quoted from https://github.com/substack/node-browserify/blob/master/changelog.markdown#421\n\nMake sure your installation of browserify is using syntax-error@1.1.1 or later. there was a security vulnerability where a malicious file could execute code when browserified.\n\nThe vulnerability involves breaking out of Function(), which was used to check syntax for more informative errors. In node 0.10, Function() seems to be implemented in terms of eval(), so malicious code can execute even if the function returned by Function() was never called. node 0.11 does not appear to be vulnerable.\n\nThanks to Cal Leeming [cal@iops.io] for discovering and disclosing this bug!",
+  "recommendation": "Update to version 1.1.1 or greater. If this is being used in conjunction with browserify, update browserify to 4.2.1 or greater.",
+  "references": "[Browserify 4.2.1 Update](https://github.com/substack/node-browserify/blob/master/changelog.markdown#421)",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

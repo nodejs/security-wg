@@ -1,0 +1,21 @@
+{
+  "id": 153,
+  "created_at": "2016-10-27T16:23:56+00:00",
+  "updated_at": "2017-04-12T22:18:23.432+00:00",
+  "title": "Command Injection",
+  "author": "Steve Kemp",
+  "module_name": "dns-sync",
+  "publish_date": "2017-04-11T23:30:26.191+00:00",
+  "cves": [
+    "CVE-2014-9682"
+  ],
+  "vulnerable_versions": "<0.1.1",
+  "patched_versions": ">=0.1.1",
+  "slug": "dns-sync_command-injection",
+  "overview": "The dns-sync library for node.js allows resolving hostnames in a synchronous fashion\n\nAll versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.\n\nFor example:\n\n    var dnsSync = require('dns-sync');\n    console.log(dnsSync.resolve('$(id > /tmp/foo)'));\n\nThis is caused by the hostname being passed through a shell as part of a command execution.",
+  "recommendation": "Upgrade to dns-sync version 0.1.1 or greater.",
+  "references": "- [Issue & proof of concept](https://github.com/skoranga/node-dns-sync/issues/1)\n- [Commit addressing issue](https://github.com/skoranga/node-dns-sync/commit/d9abaae384b198db1095735ad9c1c73d7b890a0d)\n- http://www.openwall.com/lists/oss-security/2014/11/11/6",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 10,
+  "coordinating_vendor": "^Lift Security"
+}

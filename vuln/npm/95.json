@@ -1,0 +1,19 @@
+{
+  "id": 95,
+  "created_at": "2016-03-28T21:24:14+00:00",
+  "updated_at": "2016-11-09T21:41:58+00:00",
+  "title": "Arbitrary File Write",
+  "author": "Steve Kemp",
+  "module_name": "cli",
+  "publish_date": "2016-06-15T23:22:22+00:00",
+  "cves": [],
+  "vulnerable_versions": "<1.0.0",
+  "patched_versions": ">=1.0.0",
+  "slug": "cli_arbitrary-file-write",
+  "overview": "```\nlock_file = '/tmp/' + cli.app + '.pid',\nlog_file = '/tmp/' + cli.app + '.log';\n```\nThe package `node-cli` insecurely uses the lock_file and log_file. Both of these are temporary, but it allows the starting user to overwrite any file they have access to.",
+  "recommendation": "Update to version 1.0.0 or later",
+  "references": "* https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=809252\n* https://github.com/node-js-libs/cli/issues/81",
+  "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+  "cvss_score": 1.9,
+  "coordinating_vendor": "^Lift Security"
+}

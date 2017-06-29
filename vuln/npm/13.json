@@ -1,0 +1,21 @@
+{
+  "id": 13,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-29T17:23:51+00:00",
+  "title": "Potential Command Injection",
+  "author": "Neal Poole",
+  "module_name": "hubot-scripts",
+  "publish_date": "2013-05-15T22:14:38.178+00:00",
+  "cves": [
+    "CVE-2013-7378"
+  ],
+  "vulnerable_versions": "<= 2.4.3",
+  "patched_versions": "> 2.4.3",
+  "slug": "hubot-scripts_potential-command-injection",
+  "overview": "Untrusted input passed in to the hubot-scripts/package/src/scripts/email.coffee module can allow for command injection. This may be unexpected behavior for the caller.\n\n### Mitigating Factors\nThe email script is not enabled by default, it has to be manually added to hubot's list of loaded scripts.",
+  "recommendation": "A new version containing a fix has yet to be pushed to NPM. Use the version located at https://github.com/github/hubot-scripts/ until version 2.4.4 comes out.",
+  "references": null,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 4.8,
+  "coordinating_vendor": "^Lift Security"
+}

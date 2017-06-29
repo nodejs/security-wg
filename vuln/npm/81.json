@@ -1,0 +1,19 @@
+{
+  "id": 81,
+  "created_at": "2016-01-28T07:56:29.271+00:00",
+  "updated_at": "2016-05-13T20:33:23+00:00",
+  "title": "Authentication Bypass in Try Mode",
+  "author": "Alan Shaw",
+  "module_name": "hapi-auth-jwt2",
+  "publish_date": "2016-01-28T07:56:52.379+00:00",
+  "cves": [],
+  "vulnerable_versions": "5.1.1",
+  "patched_versions": ">=5.1.2",
+  "slug": "hapi-auth-jwt2_authentication-bypass-in-try-mode",
+  "overview": "When attempting to allow authentication mode `try` in [hapi](https://www.npmjs.com/package/hapi), hapi-auth-jwt2 version 5.1.1 introduced an issue whereby people could bypass authentication.",
+  "recommendation": "Upgrade to version 5.1.2 or greater.",
+  "references": "- https://github.com/dwyl/hapi-auth-jwt2/issues/111\n- https://github.com/dwyl/hapi-auth-jwt2/pull/112",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "cvss_score": 7.5,
+  "coordinating_vendor": "^Lift Security"
+}

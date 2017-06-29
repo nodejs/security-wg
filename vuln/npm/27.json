@@ -1,0 +1,21 @@
+{
+  "id": 27,
+  "created_at": "2015-10-17T19:41:46.382+00:00",
+  "updated_at": "2016-04-28T19:17:03+00:00",
+  "title": "Potential Command Injection",
+  "author": "Adam Baldwin",
+  "module_name": "printer",
+  "publish_date": "2014-03-06T17:33:48+00:00",
+  "cves": [
+    "CVE-2014-3741"
+  ],
+  "vulnerable_versions": "<= 0.0.1",
+  "patched_versions": "> 0.0.1",
+  "slug": "printer_potential-command-injection",
+  "overview": "printer does not sanitize command arguments properly in the ```printDirect()``` function. If untrusted client input is passed in, command injection is possible.\n\nSpecial thanks to [Wes Cruver](https://github.com/chieffancypants) for providing a pull request!",
+  "recommendation": "- Update to version > 0.0.1 which is available on github at https://github.com/tojocky/node-printer",
+  "references": "- https://github.com/tojocky/node-printer\n- https://github.com/tojocky/node-printer/commit/e001e38738c17219a1d9dd8c31f7d82b9c0013c7",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": "^Lift Security"
+}

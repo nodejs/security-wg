@@ -1,0 +1,21 @@
+{
+  "id": 47,
+  "created_at": "2015-10-24T17:38:43.821+00:00",
+  "updated_at": "2016-04-20T16:09:35+00:00",
+  "title": "Regular Expression Denial of Service",
+  "author": "Adam Baldwin",
+  "module_name": "bleach",
+  "publish_date": "2015-10-24T20:46:42.522+00:00",
+  "cves": [
+    "CVE-2014-8881"
+  ],
+  "vulnerable_versions": "<=99.999.99999",
+  "patched_versions": "<0.0.0",
+  "slug": "bleach_regular-expression-denial-of-service",
+  "overview": "bleach 3.0 and earlier is vulnerable to regular expression denial of service (ReDoS) when certain types of input is passed into the sanitize function.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]",
+  "recommendation": "There is currently no fix available.",
+  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "cvss_score": 5.3,
+  "coordinating_vendor": "^Lift Security"
+}
