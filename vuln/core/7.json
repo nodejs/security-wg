@@ -1,0 +1,13 @@
+{
+  "cve": [
+    "CVE-2016-9840.",
+    "CVE-2016-9841.",
+    "CVE-2016-9842.",
+    "CVE-2016-9843."
+  ],
+  "ref": "https://github.com/madler/zlib/commit/d1d577490c15a0c6862473d7576352a9f18ef811",
+  "description": "undefined language constructs that may have security impact",
+  "vulnerable": "4.x || 5.x || 6.x || 7.x",
+  "patched": "^4.8.2 || ^6.10.2 || ^7.6.0",
+  "overview": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2015-3193"
+  ],
+  "vulnerable": "5.x || 4.x",
+  "patched": "^5.1.1 || ^4.2.3",
+  "ref": "http://openssl.org/news/secadv/20151203.txt",
+  "description": "BN_mod_exp may produce incorrect results on x86_64",
+  "overview": "An attack may be possible against a Node.js TLS server using DHE key exchange.\nDetails are available at <http://openssl.org/news/secadv/20151203.txt>.\n\n"
+}

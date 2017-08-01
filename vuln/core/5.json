@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2016-7055"
+  ],
+  "description": "Montgomery multiplication may produce incorrect results",
+  "vulnerable": "4.x || 5.x || 6.x || 7.x",
+  "patched": "^4.7.3 || ^6.9.5 || ^7.5.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/openssl-january-2017/",
+  "overview": "Some calculations, when run on an Intel Broadwell or later CPU, can produce in\nerroneous results. This flaw has been previously discussed by the Node.js team\non GitHub. It is not believed that practical attacks can be crafted to exploit\nthis vulnerability except in very specific circumstances. Therefore this is a\nlow severity flaw.\n\nAll active versions of Node.js are affected, but the severity is very low for\nNode.js users.\n\n"
+}

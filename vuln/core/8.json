@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2016-5180"
+  ],
+  "vulnerable": "0.10.x || 0.12.x || 4.x",
+  "patched": "^0.10.48 || ^0.12.17 || ^4.6.1",
+  "description": "ares_create_query single byte out of buffer write",
+  "ref": "https://c-ares.haxx.se/adv_20160929.html",
+  "overview": "A security vulnerability has been discovered in the c-ares library that is\nbundled with all versions of Node.js. Due to the difficulty of triggering and\nmaking use of this vulnerability we currently consider this a low-severity\nsecurity flaw for Node.js users.\n\nMore information at https://c-ares.haxx.se/adv_20160929.html\n\n"
+}

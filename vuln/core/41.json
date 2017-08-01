@@ -1,0 +1,7 @@
+{
+  "cve": [],
+  "vulnerable": "4.x",
+  "patched": "^4.1.1",
+  "ref": "https://github.com/nodejs/node/pull/2945",
+  "overview": "Guard against response-splitting of HTTP trailing headers added via\n[`response.addTrailers()`](https://nodejs.org/api/http.html#http_response_addtrailers_headers)\nby removing new-line (`[\\r\\n]`) characters from values. Note that standard\nheader values are already stripped of new-line characters. The expected security\nimpact is low because trailing headers are rarely used.\n\n"
+}
