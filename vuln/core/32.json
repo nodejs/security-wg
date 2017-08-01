@@ -1,0 +1,9 @@
+{
+  "cve": [
+    "CVE-2016-0702"
+  ],
+  "vulnerable": "4.x || 5.x",
+  "patched": "^4.3.2 || ^5.7.1",
+  "ref": "https://ssrg.nicta.com.au/projects/TS/cachebleed",
+  "overview": "Fix a defect that makes the _[CacheBleed\nAttack](https://ssrg.nicta.com.au/projects/TS/cachebleed/)_ possible. This\ndefect enables attackers to execute side-channel attacks leading to the\npotential recovery of entire RSA private keys. It only affects the Intel Sandy\nBridge (and possibly older) microarchitecture when using hyper-threading. Newer\nmicroarchitectures, including Haswell, are unaffected.\n\n"
+}

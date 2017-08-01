@@ -1,0 +1,8 @@
+{
+  "cve": [],
+  "ref": "https://github.com/nodejs/node-private/pull/73",
+  "vulnerable": "6.x || 4.x",
+  "patched": "^6.7.0 || ^4.6.0",
+  "description": "**crypto**: don't build hardware engines (Ben Noordhuis)",
+  "overview": "This is a low severity security defect. By default, OpenSSL will load a list of\nthird-party engine modules when the ENGINE_load_builtin_engines() function is\nused. These are normally not present on a user's system. An attacker may be able\nto make Node.js load malicious code by masquerading it as one of the dynamic\nengine modules.\n\nThis defect primarily impacts Windows due to the standard DLL search paths.\nHowever, UNIX users may also be at risk with a poorly configured LD_LIBRARY_PATH\nenvironment variable or /etc/ld.so.conf path list.\n\n"
+}

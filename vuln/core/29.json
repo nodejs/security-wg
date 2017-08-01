@@ -1,0 +1,7 @@
+{
+  "cve": [],
+  "vulnerable": "4.x || 5.x",
+  "patched": "^5.11.1 || ^4.4.4",
+  "description": "buffer safeguard against accidental kNoZeroFill",
+  "overview": "To reproduce: try { Buffer(1e10); } catch (e) {} new Uint8Array(100);.\n\nTo be affected, one would need to:\n\nHave any way how the user could make the API pass huge numbers to\nBuffer/SlowBuffer/Buffer.allocUnsafe, e.g. by sending invalid input\n\n"
+}

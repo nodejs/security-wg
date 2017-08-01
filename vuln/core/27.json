@@ -1,0 +1,8 @@
+{
+  "cve": [
+    "CVE-2016-2086"
+  ],
+  "vulnerable": "5.x || 4.x",
+  "patched": "^5.6.0 || ^4.3.0",
+  "overview": "Fix defects in HTTP header parsing for requests and responses that\ncan allow request smuggling (CVE-2016-2086).\n\nHTTP header parsing now aligns more closely with the HTTP spec\nincluding restricting the acceptable characters.\n\n"
+}

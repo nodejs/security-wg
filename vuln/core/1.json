@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2017-1000381"
+  ],
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/",
+  "vulnerable": "8.x || 7.x || 4.x || 6.x || 5.x",
+  "patched": "^8.1.4 || ^7.10.1 || ^4.8.4 || ^6.11.1",
+  "description": "memory overread when parsing invalid NAPTR responses",
+  "overview": "The c-ares function ares_parse_naptr_reply(), which is used for parsing NAPTR\nresponses, could be triggered to read memory outside of the given input buffer\nif the passed in DNS response packet was crafted in a particular way.\n\n"
+}

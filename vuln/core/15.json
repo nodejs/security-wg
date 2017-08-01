@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2016-2178"
+  ],
+  "ref": "https://github.com/nodejs/node/pull/8714",
+  "vulnerable": "6.x || 5.x || 4.x",
+  "patched": "^6.7.0 || ^4.6.0",
+  "description": "openssl 1.0.2h vulnerabilities",
+  "overview": "A flaw in the OpenSSL DSA implementation means that a non-constant time codepath\nis followed for certain operations. This has been demonstrated through a\ncache-timing attack to be sufficient for an attacker to recover the private DSA\nkey.\n\nThis is very low severity for Node.js users due to the difficulty in taking\nadvantage of this attack and because DSA is very rarely used.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "cve": [
+    "CVE-2016-6304"
+  ],
+  "ref": "https://github.com/nodejs/node/pull/8714",
+  "vulnerable": "6.x || 5.x || 4.x",
+  "patched": "^6.7.0 || ^4.6.0",
+  "description": "openssl 1.0.2h vulnerabilities",
+  "overview": "A malicious client can exhaust a server's memory, resulting in a denial of\nservice (DoS) by sending very large OCSP Status Request extensions in a single\nsession.\n\nThis flaw is labelled high severity due to the ease of use for a DoS attack and\nNode.js servers using TLS are vulnerable.\n\n"
+}

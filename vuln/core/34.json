@@ -1,0 +1,8 @@
+{
+  "cve": [
+    "CVE-2015-8027"
+  ],
+  "vulnerable": "5.x || 4.x",
+  "patched": "^5.1.1 || ^4.2.3",
+  "overview": "A bug whereby an HTTP socket may no longer have a parser associated with it but\na pipelined request attempts to trigger a pause or resume on the non-existent\nparser, a potential denial-of-service vulnerability.\n\n"
+}
