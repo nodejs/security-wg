@@ -1,5 +1,5 @@
 The Node.js community follows a process to create/review and
-then publish vulnerability announcements.  It is most often a 2 step
+then publish vulnerability announcements. It is most often a 2 step
 process where we:
 
 * announce that releases will be made to fix an embargoed vulnerability 
@@ -7,7 +7,7 @@ process where we:
 
 The process is as follows:
 
-* Security vulnerabilties are initial discussed/reviewed in the private
+* Security vulnerabilties are initially discussed/reviewed in the private
   security repository.
 
 * Once we are ready to release an anouncement of an upcoming fix for the
@@ -22,7 +22,8 @@ The process is as follows:
   existing managers (Ben Noordhuis, Rod Vagg, Trevor Norris, Michael Dawson).
   You will have to manually edit to add formatting and links properly.
 
-* Mirror post in vulnerabilities section of Nodejs.org blog section.
+* Mirror post in vulnerabilities section of Nodejs.org blog section
+  (https://github.com/nodejs/nodejs.org/tree/master/locale/en/blog/vulnerability)
   Submit PR and leave 1 hour for review. After one hour even if no reviews,
   land anyway so that we don't have too big a gap between post to nodejs-sec
   and blog. Text was already reviewed in security repo so.
