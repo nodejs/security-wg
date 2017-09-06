@@ -51,6 +51,7 @@ management.
 ## Current Project Team Members
 
 * [bengl](https://github.com/bengl) - **Bryan English**
+* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [deian](https://github.com/deian) - **Deian Stefan**
