@@ -26,7 +26,8 @@ The process is as follows:
   (https://github.com/nodejs/nodejs.org/tree/master/locale/en/blog/vulnerability)
   Submit PR and leave 1 hour for review. After one hour even if no reviews,
   land anyway so that we don't have too big a gap between post to nodejs-sec
-  and blog. Text was already reviewed in security repo so.
+  and blog. Text was already reviewed in security repo so is unlikely to
+  attract much additional comment.
 
 * In original PR for the security repository for the issue, post candidate
   text for updates that will go out with releases that will indicates
@@ -35,6 +36,10 @@ The process is as follows:
 * Once releases are made, post response to original message in
   https://groups.google.com/forum/#!forum/nodejs-sec indicating
   releases are available and with the full vulnerability details.
+
+* PR machine-readable JSON descriptions of the vulnerabilities to the
+  [core](https://github.com/nodejs/security-wg/tree/master/vuln/core)
+  vulnerability DB.
 
 * Update the blog post in
   https://github.com/nodejs/nodejs.org/tree/master/locale/en/blog/vulnerability
