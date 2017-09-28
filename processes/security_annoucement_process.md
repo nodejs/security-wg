@@ -51,6 +51,9 @@ The process is as follows:
   ```
   Make sure to update the date in the slug so that it will move to
   the top of the blog list.
+  
+  *Note*: At this point it might be courteous to loop in any individuals
+  referenced in the announcement (authors and reviewers).
 
 * Tweet out a link to the nodejs-sec announcement.
 
