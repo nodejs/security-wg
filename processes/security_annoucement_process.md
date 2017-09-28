@@ -52,6 +52,11 @@ The process is as follows:
   Make sure to update the date in the slug so that it will move to
   the top of the blog list.
 
+  *Note*: If the release blog obviously points to the people having caused the
+  issue (for example when explicitly mentioning reverting a commit), adding
+  those people as a CC on the PR for the blog post to give them a heads up
+  might be appropriate.
+
 * Tweet out a link to the nodejs-sec announcement.
 
 * Email foundation contact to tweet out nodejs-sec announcement from
