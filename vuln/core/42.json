@@ -1,0 +1,9 @@
+{
+  "cve": [
+    "CVE-2017-14849"
+  ],
+  "vulnerable": "8.5.0",
+  "patched": "^8.6.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/september-2017-path-validation/",
+  "overview": "Node.js version 8.5.0 included a change which caused a security vulnerability in the checks on paths made by some community modules. As a result, an attacker may be able to access file system paths other than those intended."
+}
