@@ -1,6 +1,6 @@
 # Node.js Security Team
 
-Node.js security teams are expected to keep all information that they have
+Node.js security team members are expected to keep all information that they have
 privileged access to by being on the team completely private to the team. This
 includes notifying anyone outside the team of issues that have not yet been
 disclosed publically, including the existence of issues, expectations of
@@ -13,7 +13,7 @@ and must be approved by current team members.
 Members of the security teams should indicate that they accept the privacy
 policies by PRing their acceptance to this file.
 
-## Team that triages security reports
+## Team that triages security reports against node core
 
 - @bnoordhuis - **Ben Noordhuis**
 - @indutny - **Fedor Indutny**
