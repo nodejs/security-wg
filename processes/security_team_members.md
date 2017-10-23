@@ -60,4 +60,5 @@ List is from [nodejs/teams/security](https://github.com/orgs/nodejs/teams/securi
 
 See [nodejs-private/node-private](https://github.com/nodejs-private/node-private).
 
-TBD - why is this list not the same as the team with access to security issues?
+Every member of the team with access to security issues should have access to
+the private security patches as well.
