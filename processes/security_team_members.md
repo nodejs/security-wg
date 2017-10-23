@@ -3,9 +3,9 @@
 Node.js security team members are expected to keep all information that they have
 privileged access to by being on the team completely private to the team. This
 includes notifying anyone outside the team of issues that have not yet been
-disclosed publically, including the existence of issues, expectations of
-upcoming releases, and patching of any issues other than in the process of
-their work as a member of the security team.
+disclosed publicly, including the existence of issues, expectations of upcoming
+releases, and patching of any issues other than in the process of their work as
+a member of the security team.
 
 Membership on the security teams can be requested via an issue in the TSC repo,
 and must be approved by current team members.
@@ -58,7 +58,35 @@ List is from [nodejs/teams/security](https://github.com/orgs/nodejs/teams/securi
 
 ## Team with access to private security patches
 
-See [nodejs-private/node-private](https://github.com/nodejs-private/node-private).
+- @addaleax     Anna Henningsen
+- @bnoordhuis	Ben Noordhuis
+- @ChALkeR	Сковорода Никита Андреевич
+- @cjihrig	Colin Ihrig
+- @dougwilson	Douglas Wilson
+- @evanlucas	Evan Lucas
+- @evilpacket	Adam Baldwin
+- @Fishrock123	Jeremiah Senkpiel
+- @hackygolucky	Tracy
+- @indutny	Fedor Indutny
+- @jasnell	James M Snell
+- @jbergstroem	Johan Bergström
+- @joaocgreis	João Reis
+- @joshgav	Josh Gavant
+- @mhdawson	Michael Dawson
+- @mrhinkle	Mark Hinkle
+- @MylesBorins	Myles Borins
+- @ofrobots	Ali Ijaz Sheikh
+- @rvagg	Rod Vagg
+- @saghul	Saúl Ibarra Corretgé
+- @sam-github	Sam Roberts
+- @targos	Michaël Zasso
+- @thefourtheye	Sakthipriyan Vairamani
+- @Trott	Rich Trott
+
+List is from
+[orgs/nodejs-private/people](https://github.com/orgs/nodejs-private/people),
+who have access to
+[nodejs-private/node-private](https://github.com/nodejs-private/node-private).
 
 Every member of the team with access to security issues should have access to
 the private security patches as well.
