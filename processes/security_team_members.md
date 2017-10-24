@@ -2,10 +2,10 @@
 
 Node.js security team members are expected to keep all information that they have
 privileged access to by being on the team completely private to the team. This
-includes notifying anyone outside the team of issues that have not yet been
-disclosed publicly, including the existence of issues, expectations of upcoming
-releases, and patching of any issues other than in the process of their work as
-a member of the security team.
+includes agreeing to not notify anyone outside the team of issues that have not
+yet been disclosed publicly, including the existence of issues, expectations of
+upcoming releases, and patching of any issues other than in the process of their
+work as a member of the security team.
 
 Membership on the security teams can be requested via an issue in the TSC repo,
 and must be approved by current team members.
