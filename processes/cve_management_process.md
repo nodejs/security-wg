@@ -13,7 +13,7 @@ https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf
 # Contacts
 
 As part of the CNA program the Node.js team must provide a number
-of contact points.  Email aliaes have been setup for these as follows:
+of contact points.  Email aliases have been setup for these as follows:
 
 * **Public contact points**. Email address to which people will be directed
   by Mitre when they are asked for a way to contact the Node.js team about
@@ -27,12 +27,13 @@ of contact points.  Email aliaes have been setup for these as follows:
    been added to a closed mailing list that is used for announcements,
    sharing documents, or discussion relevant to the CNA community.
    The list rarely has more than ten messages a week.
+   **cna-discussion-list** 
 
-# CVE block management processes
+# CNA management processes
 
 ## CVE Block management
 
-The CNA process allows the Node.js team to request a block of CVE's in
+The CNA program allows the Node.js team to request a block of CVE's in
 advance. These CVE's are managed in an issue within the private Node.js
 security repo (https://github.com/nodejs/security).  Each year there
 will be an issue in that repo titled:
@@ -41,7 +42,7 @@ will be an issue in that repo titled:
 CVE Block for XXXX
 ```
 
-were XXXX is the year (for example `CVE Block for 2017`.
+were XXXX is the year (for example `CVE Block for 2017`).
 
 This issue will have the following sections:
 
@@ -56,11 +57,11 @@ the `Available` secion.
 These CVE's will be moved from the Available to Pending and Announced
 as outlined in the section titled `CVE Management process`. 
 
-In addition when moving a CVE from Available such that there are less
+In addition, when moving a CVE from Available such that there are less
 than 2 remaning CVE's a new block must be requested as follows:
 
 * Use the Mitre request form https://cveform.mitre.org/ with the 
-  option `Request a Block of CVEs' to request a new block.
+  option `Request a Block of CVEs' to request a new block`.
 * The new block will be sent to the requestor through email.
 * Once the new block has been received, the requestor will add them
   to the Available list.
@@ -94,7 +95,7 @@ after we get hacker one up and running).
   add details on process once we've done the first one.
 
 
-# CVE Management processes for Node.js vulnerabilities
+# CVE Management process for Node.js vulnerabilities
 
 When the Node.js team is going announce a new vulnerability the
 following steps are used to to assign, announce and report a CVE.
@@ -107,13 +108,16 @@ following steps are used to to assign, announce and report a CVE.
 * As part of the security announcement process 
   https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md
   in the issue in the security issue being used to discuss the
-  vulnerability, associated the CVE to that vulnerability.  Most
-  commonly by including it is the draft for the announcement that
+  vulnerability, associate the CVE to that vulnerability. This is most
+  commonly done by including it is the draft for the announcement that
   will go out once the associated security releases are availble.
 * Once the security announcement goes out:
   * Use the Mitre form (https://cveform.mitre.org/) to report the
-    CVE details to Mitre using the `Notify CVE about a publication`.
-  * Move the CVE from the Pending section ot the Announced section along
+    CVE details to Mitre using the `Notify CVE about a publication`. The
+    link to the advisory will be the for the blog announcing that security
+    releases are available.  The description should be a subset of the
+    details in that blog.
+  * Move the CVE from the Pending section to the Announced section along
     with a link to the Node.js blog post announcing that releases
     are availble.
 
