@@ -1,11 +1,12 @@
 # Node.js CVE management process
 
-The Node.js project acts as a Commonn Vulnerabilities and Exposures (CVE)
-Numbering Authority (CNA). The current scope is for all actively
-developed versions of software developed under the Node.js project (ie.
-https://github.com/nodejs).  This means that the Node.js team reviews
-CVE requests and if appropriate assigns CVE numbers to vulnerabilities.
-The scope currently **does not** include thir party modules.
+The Node.js project acts as a [Commonn Vulnerabilities and Exposures (CVE)
+Numbering Authority (CNA)](https://cve.mitre.org/cve/cna.html).
+The current scope is for all actively developed versions of software
+developed under the Node.js project (ie.  https://github.com/nodejs).
+This means that the Node.js team reviews CVE requests and if appropriate
+assigns CVE numbers to vulnerabilities.  The scope currently **does not**
+include third party modules.
 
 More detailed information about the CNA program is available in
 https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf
@@ -27,7 +28,7 @@ of contact points.  Email aliases have been setup for these as follows:
    been added to a closed mailing list that is used for announcements,
    sharing documents, or discussion relevant to the CNA community.
    The list rarely has more than ten messages a week.
-   **cna-discussion-list** 
+   **cna-discussion-list@iojs.org** 
 
 # CNA management processes
 
