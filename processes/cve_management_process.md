@@ -35,22 +35,17 @@ of contact points.  Email aliases have been setup for these as follows:
 ## CVE Block management
 
 The CNA program allows the Node.js team to request a block of CVEs in
-advance. These CVEs are managed in an issue within the private Node.js
-[security repo](https://github.com/nodejs/security).  Each year there
-will be an issue in that repo titled:
+advance. These CVEs are managed in an a repository within the Node.js
+private organization called
+[cve-management](https://github.com/nodejs-private/cve-management).
+For each year there will be markdown file titled "cve-management-XXXX"
+where where XXXX is the year (for example 'cve-management-2017.md').
 
-```
-CVE Block for XXXX
-```
-
-where XXXX is the year (for example `CVE Block for 2017`).
-
-This issue will have the following sections:
+This file will have the following sections:
 
 * Available
 * Pending
 * Announced 
-
 
 When a new block of CVEs is received from Mitre they will be listed under
 the `Available` secion. 
@@ -61,16 +56,15 @@ as outlined in the section titled `CVE Management process`.
 In addition, when moving a CVE from Available such that there are less
 than two remaining CVEs a new block must be requested as follows:
 
-
 * Use the Mitre request form https://cveform.mitre.org/ with the 
   option `Request a Block of CVEs to request a new block`.
 * The new block will be sent to the requestor through email.
 * Once the new block has been received, the requestor will add them
   to the Available list.
 
-**Note**:  When making any changes in the issue, first add a comment
-indicating the change being made.
-
+All changes to the files for managing CVEs in a given year will
+be done through Pull Requests so that we have a record of how
+the CVEs have been assigned.
 
 ## External CVE request process
 
@@ -95,7 +89,6 @@ after we get HackerOne up and running).
 * There is a requirement for quarterly reports to Mitre on CVE
   activity.  Not sure of the specific requirements yet.  Will
   add details on process once we've done the first one.
-
 
 # CVE Management process for Node.js vulnerabilities
 
