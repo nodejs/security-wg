@@ -1,6 +1,6 @@
 # Node.js CVE management process
 
-The Node.js project acts as a [Commonn Vulnerabilities and Exposures (CVE)
+The Node.js project acts as a [Common Vulnerabilities and Exposures (CVE)
 Numbering Authority (CNA)](https://cve.mitre.org/cve/cna.html).
 The current scope is for all actively developed versions of software
 developed under the Node.js project (ie.  https://github.com/nodejs).
@@ -9,7 +9,7 @@ assigns CVE numbers to vulnerabilities.  The scope currently **does not**
 include third party modules.
 
 More detailed information about the CNA program is available in
-https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf
+[CNA_Rules_v1.1](https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf).
 
 # Contacts
 
@@ -34,16 +34,16 @@ of contact points.  Email aliases have been setup for these as follows:
 
 ## CVE Block management
 
-The CNA program allows the Node.js team to request a block of CVE's in
-advance. These CVE's are managed in an issue within the private Node.js
-security repo (https://github.com/nodejs/security).  Each year there
+The CNA program allows the Node.js team to request a block of CVEs in
+advance. These CVEs are managed in an issue within the private Node.js
+[security repo](https://github.com/nodejs/security).  Each year there
 will be an issue in that repo titled:
 
 ```
 CVE Block for XXXX
 ```
 
-were XXXX is the year (for example `CVE Block for 2017`).
+where XXXX is the year (for example `CVE Block for 2017`).
 
 This issue will have the following sections:
 
@@ -52,17 +52,18 @@ This issue will have the following sections:
 * Announced 
 
 
-When a new block of CVEs  is received from Mitre they will be listed under
+When a new block of CVEs is received from Mitre they will be listed under
 the `Available` secion. 
 
-These CVE's will be moved from the Available to Pending and Announced
+These CVEs will be moved from the Available to Pending and Announced
 as outlined in the section titled `CVE Management process`. 
 
 In addition, when moving a CVE from Available such that there are less
-than 2 remaning CVE's a new block must be requested as follows:
+than two remaining CVEs a new block must be requested as follows:
+
 
 * Use the Mitre request form https://cveform.mitre.org/ with the 
-  option `Request a Block of CVEs' to request a new block`.
+  option `Request a Block of CVEs to request a new block`.
 * The new block will be sent to the requestor through email.
 * Once the new block has been received, the requestor will add them
   to the Available list.
@@ -75,16 +76,16 @@ indicating the change being made.
 
 When a request for a CVE is received via the cve-request@iojs.org
 email alias the following process will be followed (likely updated
-after we get hacker one up and running).
+after we get HackerOne up and running).
 
 * Respond to the requestor indicating that we have the request
   and will review soon.
-* Open an issue in the security repo for the request
+* Open an issue in the security repo for the request.
 * Review the request.
   * If a CVE is appropriate then assign the
     CVE as outline in the section titled
-    `CVE Management processes for Node.js vulnerabilities` and
-    return the CVE number to the requestor (along with the request
+    [CVE Management processes for Node.js vulnerabilities](CVE_Management-processes-for-Node.js-vulnerabilities)
+    and return the CVE number to the requestor (along with the request
     to keep it confidential until the vulnerability is announced)
   * If a CVE is not appropriate then respond to the requestor
     with the details as to why.
@@ -106,14 +107,14 @@ following steps are used to to assign, announce and report a CVE.
 * Move the CVE from the unassigned block, to the Pending section along
   with a link to the issue in the security repo that is being used
   to discuss the vulnerability.
-* As part of the security announcement process 
-  https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md
+* As part of the
+  [security announcement process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md)
   in the issue in the security issue being used to discuss the
   vulnerability, associate the CVE to that vulnerability. This is most
   commonly done by including it is the draft for the announcement that
   will go out once the associated security releases are availble.
 * Once the security announcement goes out:
-  * Use the Mitre form (https://cveform.mitre.org/) to report the
+  * Use the [Mitre form](https://cveform.mitre.org/) to report the
     CVE details to Mitre using the `Notify CVE about a publication`. The
     link to the advisory will be the for the blog announcing that security
     releases are available.  The description should be a subset of the
