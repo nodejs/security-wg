@@ -24,7 +24,7 @@ Its responsibilities are:
   standards etc.
 - Review and recommend processes for handling of security reports (but not the
   actual handling of security reports, which are reviewed by a group of people
-  directly delegated to by the CTC).
+  directly delegated to by the TSC).
 - Define and maintain policies and procedures for the coordination of security
   concerns within the external Node.js open source ecosystem.
 - Offer help to npm package maintainers to fix high-impact security bugs
@@ -43,7 +43,7 @@ The Node.js Security Working Group is _not_ responsible for managing incoming
 security reports to the security@nodejs.org address, nor is it privy to or
 responsible for preparing embargoed security patches and releases.
 
-The [Node.js CTC][] maintains primary responsibility for the management of private
+The [Node.js TSC][] maintains primary responsibility for the management of private
 security activities for Node.js core but relies on the Node.js Security Working
 Group to recommend and help maintain policies and procedures for that
 management.
@@ -74,4 +74,4 @@ management.
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
-[Node.js CTC]: https://github.com/nodejs/CTC
+[Node.js TSC]: https://github.com/nodejs/TSC
