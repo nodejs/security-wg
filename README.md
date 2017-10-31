@@ -10,7 +10,7 @@ for Node.js and community modules.
 
 Its responsibilities are:
 
-* Define and maintain security policies and procedures for:
+- Define and maintain security policies and procedures for:
   - the core Node.js project
   - other projects maintained by the Node.js Foundation technical group
 - Work with the node security project to bring community vulnerability data into
@@ -27,7 +27,7 @@ Its responsibilities are:
   directly delegated to by the CTC).
 - Define and maintain policies and procedures for the coordination of security
   concerns within the external Node.js open source ecosystem.
-- Offer help to npm package maintainers to fix high-impact security
+- Offer help to npm package maintainers to fix high-impact security bugs
 - Maintain and make available data on disclosed security vulnerabilities in:
   - the core Node.js project
   - other projects maintained by the Node.js Foundation technical group
@@ -43,10 +43,12 @@ The Node.js Security Working Group is _not_ responsible for managing incoming
 security reports to the security@nodejs.org address, nor is it privy to or
 responsible for preparing embargoed security patches and releases.
 
-The Node.js CTC maintains primary responsibility for the management of private
+The [Node.js CTC][] maintains primary responsibility for the management of private
 security activities for Node.js core but relies on the Node.js Security Working
 Group to recommend and help maintain policies and procedures for that
 management.
+
+[Node.js CTC]: https://github.com/nodejs/CTC
 
 ## Current Project Team Members
 
