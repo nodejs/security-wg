@@ -48,8 +48,6 @@ security activities for Node.js core but relies on the Node.js Security Working
 Group to recommend and help maintain policies and procedures for that
 management.
 
-[Node.js CTC]: https://github.com/nodejs/CTC
-
 ## Current Project Team Members
 
 * [bengl](https://github.com/bengl) - **Bryan English**
@@ -75,3 +73,5 @@ management.
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+
+[Node.js CTC]: https://github.com/nodejs/CTC
