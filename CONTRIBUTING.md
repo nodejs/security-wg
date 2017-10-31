@@ -4,7 +4,7 @@
 
 The [Node.js Code of Conduct][] applies to this repo.
 
-[Node.js Code of Conduct]: https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md
+[Node.js Code of Conduct]: https://github.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md
 
 ## Developer's Certificate of Origin 1.1
 
