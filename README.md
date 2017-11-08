@@ -36,6 +36,12 @@ Its responsibilities are:
 - Recommend security improvements for the core Node.js project
 - Facilitate and promote the expansion of a healthy security service and product
   provider ecosystem vulnerabilities.
+- Make it easy to identify NPM packages with mature, security-cognizant
+  development practices so that application developers can build on a robust
+  foundation and make informed decisions about when to use bleeding-edge code.
+- Maintain linter policies that encode community knowledge about common security
+  anti-patterns.
+
 
 ## Private Node.js core security group
 
