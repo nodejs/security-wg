@@ -1,6 +1,6 @@
 # Node.js Security Team Membership Policy
 
-The Node.js Security Team, namely the @nodejs/security team on Github, has
+The Node.js Security Team (@nodejs/security) has
 access to security-sensitive issues and patches that aren't approriate for
 public availability.
 
