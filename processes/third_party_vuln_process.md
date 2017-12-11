@@ -21,9 +21,9 @@ When a potential vulnerability is reported, the following actions are taken:
 
 **Who:** The triage team
 
-**Delay:** 48 hours
+**Delay:** 2 business days
 
-Within 48 hours, a member of the triage team provides a first answer to the
+Within 2 business days, a member of the triage team provides a first answer to the
 individual who submitted the potential vulnerability. The possible responses
 can be:
 
