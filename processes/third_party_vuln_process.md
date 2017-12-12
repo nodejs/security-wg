@@ -92,4 +92,5 @@ as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master
 Members of the security teams should indicate that they accept the privacy policies 
 by PRing their acceptance to this file:
 
+* @brycebaril - Bryce Baril
 * @vdeturckheim - Vladimir de Turckheim
