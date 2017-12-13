@@ -8,7 +8,7 @@ ecosystem. Vulnerabilities in Node.js core are out of this scope.
 
 # Process
 
-Individuals who find potential vulnerabilities in a package are invited 
+Individuals who find potential vulnerabilities in a package are invited
 to complete a vulnerability report on the dedicated HackerOne organization:
 
 [https://hackerone.com/nodesecurity](https://hackerone.com/nodesecurity)
@@ -73,7 +73,7 @@ Within HackerOne, this is handled through a "public disclosure request".
 ## Vulnerabilities found outside this process
 
 Vulnerabilities found and fixed outside this process should be added into
-the vulnerability database. This can be done by anyone through a Pull Request on 
+the vulnerability database. This can be done by anyone through a Pull Request on
 this repository.
 
 # The triage team
@@ -83,14 +83,15 @@ This team is approved and modified by a vote from the working group.
 
 They are responsible for the management of this process.
 
-Each member of the triage team is expected to handle vulnerabilities on a 
+Each member of the triage team is expected to handle vulnerabilities on a
 regular basis.
 
-Members of this team are required to follow the same NDA and privacy measures 
+Members of this team are required to follow the same NDA and privacy measures
 as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master/processes/security_team_members.md).
 
-Members of the security teams should indicate that they accept the privacy policies 
+Members of the security teams should indicate that they accept the privacy policies
 by PRing their acceptance to this file:
 
 * @brycebaril - Bryce Baril
+* @cjihrig - Colin Ihrig
 * @vdeturckheim - Vladimir de Turckheim
