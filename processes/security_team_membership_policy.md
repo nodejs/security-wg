@@ -9,8 +9,8 @@ public availability.
 > @nodejs/security membership. See the [membership list](./security_team_members.md)
 > for details. This situation is intended to be corrected in the near future.
 
-This isn't to be confused with the security triage team, which is currently
-defined by the [`security@nodejs.org` email alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
+This is different than the security triage team, which is defined by the
+[`security@nodejs.org` email alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
 Inclusion in that group is on a volunteer basis, upon approval by the Technical
 Steering Committee (ie. @nodejs/TSC).
 
