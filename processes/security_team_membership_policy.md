@@ -16,8 +16,7 @@ Steering Committee (TSC).
 
 The policy for inclusion on the @nodejs/security is as follows:
 
-1. All members of the Technical Steering Committee (@nodejs/TSC) are
-   members of @nodejs/security.
+1. All members of @nodejs/TSC are members of @nodejs/security.
 2. On a case-by-case basis, individuals outside the Technical Steering Committee
    are invited by the TSC to join @nodejs/security so that their expertise can
    be applied to an issue or patch. Once their assistance is no longer required
