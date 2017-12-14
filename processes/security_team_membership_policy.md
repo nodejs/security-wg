@@ -1,7 +1,7 @@
 # Node.js Security Team Membership Policy
 
 The Node.js Security Team (@nodejs/security) has
-access to security-sensitive issues and patches that aren't approriate for
+access to security-sensitive issues and patches that aren't appropriate for
 public availability.
 
 > Note: Due to implementation details and a bit of human error, the list of
