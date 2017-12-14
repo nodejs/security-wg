@@ -94,4 +94,5 @@ by PRing their acceptance to this file:
 
 * @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
+* @grnd - Danny Grander
 * @vdeturckheim - Vladimir de Turckheim
