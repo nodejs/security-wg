@@ -12,7 +12,7 @@ public availability.
 This is different than the security triage team, which is defined by the
 [`security@nodejs.org` email alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
 Inclusion in that group is on a volunteer basis, upon approval by the Technical
-Steering Committee (@nodejs/TSC).
+Steering Committee (TSC).
 
 The policy for inclusion on the @nodejs/security is as follows:
 
