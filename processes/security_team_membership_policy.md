@@ -22,6 +22,6 @@ The policy for inclusion on the @nodejs/security is as follows:
    be applied to an issue or patch. Once their assistance is no longer required
    for a particular issue or patch, they are removed from the team.
 3. Members of the [release team](https://github.com/nodejs/node#release-team)
-   who are not also members of the TSC are also members of @nodejs/security, as
-   they need access to the patches in order to produce releases.
+   are also members of @nodejs/security, as they need access to the patches in
+   order to produce releases.
 4. Members of the security triage team are members of @nodejs/security.
