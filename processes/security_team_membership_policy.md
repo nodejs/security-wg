@@ -25,3 +25,9 @@ The policy for inclusion on the @nodejs/security is as follows:
    are also members of @nodejs/security, as they need access to the patches in
    order to produce releases.
 4. Members of the security triage team are members of @nodejs/security.
+
+Members of the security team have access to:
+
+* The security repo where issues are discussed.
+* The nodejs-private GitHub organization which is used as part of the process
+  for creating security releases.
