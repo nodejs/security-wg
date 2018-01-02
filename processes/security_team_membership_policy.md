@@ -29,5 +29,5 @@ The policy for inclusion on the @nodejs/security is as follows:
 Members of the security team have access to:
 
 * The security repo where issues are discussed.
-* The node-private github organization which is used as part of the process
+* The nodejs-private GitHub organization which is used as part of the process
   for creating security releases.
