@@ -17,76 +17,27 @@ policies by PRing their acceptance to this file.
 
 - @bnoordhuis - **Ben Noordhuis**
 - @indutny - **Fedor Indutny**
-- @rvagg - **Rod Vagg**
 - @jasnell - **James M Snell**
-- @shigeki - **Shigeki Ohtsu**
 - @MylesBorins - **Myles Borins**
+- @rvagg - **Rod Vagg**
+- @shigeki - **Shigeki Ohtsu**
 
 List is from ["security" alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
 
-## Team with access to security issues
+## Team with access to private security issues and repositories
 
-- @ChALkeR - **Сковорода Никита Андреевич**
-- @Fishrock123 - **Jeremiah Senkpiel**
-- @MylesBorins - **Myles Borins**
-- @Trott - **Rich Trott**
-- @addaleax - **Anna Henningsen**
-- @bnoordhuis - **Ben Noordhuis**
-- @cjihrig - **Colin Ihrig**
-- @dougwilson - **Douglas Wilson**
-- @ejratl - **Emily Ratliff**
-- @evanlucas - **Evan Lucas**
-- @evilpacket - **Adam Baldwin**
-- @grnd - **Danny Grander**
-- @indutny - **Fedor Indutny**
-- @jasnell - **James M Snell**
-- @jbergstroem - **Johan Bergström**
-- @joaocgreis - **João Reis**
-- @joshgav - **Josh Gavant**
-- @mhdawson - **Michael Dawson**
-- @mscdex - **Brian White**
-- @ofrobots - **Ali Ijaz Sheikh**
-- @rvagg - **Rod Vagg**
-- @saghul - **Saúl Ibarra Corretgé**
-- @sam-github - **Sam Roberts**
-- @shigeki - **Shigeki Ohtsu**
-- @targos - **Michaël Zasso**
-- @thefourtheye - **Sakthipriyan Vairamani**
-- @trevnorris - **Trevor Norris**
+- [Members of the Node.js Technical Steering Committee][TSCMembers]
+- [Members of the Node.js Release Team][ReleaseTeamMembers]
+- Other individuals:
+  - @bnoordhuis - **Ben Noordhuis**
+  - @dougwilson - **Douglas Wilson**
+  - @ejratl - **Emily Ratliff**
+  - @evilpacket - **Adam Baldwin**
+  - @grnd - **Danny Grander**
+  - @jbergstroem - **Johan Bergström**
+  - @joaocgreis - **João Reis**
+  - @saghul - **Saúl Ibarra Corretgé**
+  - @sam-github - **Sam Roberts**
 
-List is from [nodejs/teams/security](https://github.com/orgs/nodejs/teams/security/members).
-
-## Team with access to private security patches
-
-- @addaleax     Anna Henningsen
-- @bnoordhuis	Ben Noordhuis
-- @ChALkeR	Сковорода Никита Андреевич
-- @cjihrig	Colin Ihrig
-- @dougwilson	Douglas Wilson
-- @evanlucas	Evan Lucas
-- @evilpacket	Adam Baldwin
-- @Fishrock123	Jeremiah Senkpiel
-- @hackygolucky	Tracy
-- @indutny	Fedor Indutny
-- @jasnell	James M Snell
-- @jbergstroem	Johan Bergström
-- @joaocgreis	João Reis
-- @joshgav	Josh Gavant
-- @mhdawson	Michael Dawson
-- @mrhinkle	Mark Hinkle
-- @MylesBorins	Myles Borins
-- @ofrobots	Ali Ijaz Sheikh
-- @rvagg	Rod Vagg
-- @saghul	Saúl Ibarra Corretgé
-- @sam-github	Sam Roberts
-- @targos	Michaël Zasso
-- @thefourtheye	Sakthipriyan Vairamani
-- @Trott	Rich Trott
-
-List is from
-[orgs/nodejs-private/people](https://github.com/orgs/nodejs-private/people),
-who have access to
-[nodejs-private/node-private](https://github.com/nodejs-private/node-private).
-
-Every member of the team with access to security issues should have access to
-the private security patches as well.
+[ReleaseTeamMembers]: https://github.com/nodejs/node#release-team
+[TSCMembers]: https://github.com/nodejs/node#tsc-technical-steering-committee
