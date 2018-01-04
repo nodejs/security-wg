@@ -1,6 +1,6 @@
 Proposal to advance a Bug Bounty program for the Node.js organization
 
-Security is an essential part of the ongoing success of the Node.js community. The commmunity is a vital part of one of the most agressive markets available providing critical runtime infrastructure for a growing percentage of the internet and corporate computing requirements in 2018. A bug bounty program has become a standard mechanism to improve the security posture of projects, organizations and companies at every level.
+Security is an essential part of the ongoing success of the Node.js community. The community is a vital part of one of the most aggressive markets available providing critical runtime infrastructure for a growing percentage of the internet and corporate computing requirements in 2018. A bug bounty program has become a standard mechanism to improve the security posture of projects, organizations and companies at every level.
 
 A bug bounty program is a mechanism to formally engage security researchers and developers in a way that provides benefits to the community along multiple vectors:
 
@@ -15,12 +15,23 @@ The proposed process for considering a Bug Bounty program makes heavy reference 
 2) Security WG presents proposal to CTC
 3) Security WG & CTC establish Bug Bounty Leader & Bug Bounty Team
 
-Prerequisites to moving forward
+Next steps
 
-1) review and evolve draft note into a proposal
-2) core team readiness review and architectural decisions 
-   - goals/kpi (document responsiveness goals, impact of defects, team size, budget)
+1) core team readiness review and architectural decisions
+   - goals/kpi (scope, responsiveness goals, impact of defects, team size, budget)
    - private vs. public 
    - existing security analysis/backlog validation
-3) engage community committee as there is a PR element
+2) engage community committee as there is a PR element
+3) review and evolve draft note into a proposal
+
+As preparation, the Security WG already has an org within HackerOne and the general framework as well as the technical tools to offer a Bug Bounty program.
+
+Q1) Do we have a security assessment of the current nodejs core?
+Q2) Do we have any scope limitations on what we would declare? Should we bounty "LTS" version bugs and non-LTS the same (gut is yes)? Release vs. HEAD (gut is no)?
+Q3) Do we have enough volunteer staff (need to get HackerOne help to know what the right number might should be)
+Q4) Would a private bounty program be acceptable to start? If we did that how do we keep good communication about findings with the broader community?
+Q5) Do we know where we will get sufficient funding sources? HackerOne I think has suggested they can help with some elements and that there are funds that can be tapped, but I don't have a sense of scope still.
+
+* complete first steps blog posting as reference [https://www.hackerone.com/blog/bug-bounty-first-impressions]
+
 
