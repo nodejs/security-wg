@@ -35,10 +35,10 @@ of contact points.  Email aliases have been setup for these as follows:
 ## CVE Block management
 
 The CNA program allows the Node.js team to request a block of CVEs in
-advance. These CVEs are managed in an a repository within the Node.js
+advance. These CVEs are managed in a repository within the Node.js
 private organization called
 [cve-management](https://github.com/nodejs-private/cve-management).
-For each year there will be markdown file titled "cve-management-XXXX"
+For each year there will be a markdown file titled "cve-management-XXXX"
 where where XXXX is the year (for example 'cve-management-2017.md').
 
 This file will have the following sections:
@@ -93,7 +93,7 @@ after we get HackerOne up and running).
 # CVE Management process for Node.js vulnerabilities
 
 When the Node.js team is going announce a new vulnerability the
-following steps are used to to assign, announce and report a CVE.
+following steps are used to assign, announce and report a CVE.
 
 * Select the next CVE in the block available from the CNA process as
   outlined in the section above.
@@ -110,7 +110,7 @@ following steps are used to to assign, announce and report a CVE.
   * Use the [Mitre form](https://cveform.mitre.org/) to report the
     CVE details to Mitre using the `Notify CVE about a publication`. The
     link to the advisory will be the for the blog announcing that security
-    releases are available.  The description should be a subset of the
+    releases are available. The description should be a subset of the
     details in that blog.
   * Move the CVE from the Pending section to the Announced section along
     with a link to the Node.js blog post announcing that releases
