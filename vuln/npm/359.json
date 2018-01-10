@@ -1,0 +1,19 @@
+{
+  "id": 359,
+  "created_at": "2018-01-10",
+  "updated_at": "2018-01-10",
+  "title": "Directory Traversal",
+  "author": "Yasin Soliman (ysx)",
+  "module_name": "serve-here",
+  "publish_date": "2018-01-10",
+  "cves": [],
+  "vulnerable_versions": "<=3.2.0",
+  "patched_versions": "",
+  "slug": "serve-here_directory-traversal",
+  "overview": "A crafted request can be used to traverse the directory structure of a host using the serve-here package, and request arbitrary files outside of the specified web root.",
+  "recommendation": "Use the new version of the package @vivaxy/here with version >=3.2.2",
+  "references": "https://hackerone.com/reports/296254",
+  "cvss_vector": "",
+  "cvss_score": -1,
+  "coordinating_vendor": ""
+}
