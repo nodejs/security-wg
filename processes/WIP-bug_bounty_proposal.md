@@ -16,8 +16,9 @@ A bug bounty program is a mechanism to formally engage security researchers and 
 The proposed process for considering a Bug Bounty program makes heavy reference to existing work that the Security WG has already started (establishing a triage team, organized disclosure system, etc.) and ongoing partnership with HackerOne. High level process:
 
 -[ ] Security WG reviews readiness and desire to have such a program (presume yes unless someone objects)
--[ ] Security WG presents proposal to CTC (see next steps on how to get there)
--[ ] Security WG & CTC establish Bug Bounty Leader & Bug Bounty Team (will take additional coordination across org)
+-[ ] Security WG presents proposal to TSC (see next steps on how to get there)
+-[ ] TSC / Security WG bring funding proposal before Board
+-[ ] Security WG & TSC establish Bug Bounty Leader & Bug Bounty Team (will take additional coordination across org)
 
 ## Next steps
 
@@ -43,6 +44,7 @@ As preparation, the Security WG already has an organization within HackerOne and
 1. Would a private bounty program be acceptable to start? *Lots of indications from those who have gone before that we should start a closed / invite program first*
 1. Does the security-wg or another group own the communication plan for describing results to the broader community?
 1. Do we know where we will get sufficient funding sources? *HackerOne I think has suggested they can help with some elements and that there are funds that can be tapped, but I don't have a sense of scope still.*
+1. What impact is there to include high volume npm modules (using some formula of X million downloads per month)?
 
 ## Proposal to be completed
 
