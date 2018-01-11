@@ -11,7 +11,7 @@ ecosystem. Vulnerabilities in Node.js core are out of this scope.
 Individuals who find potential vulnerabilities in a package are invited
 to complete a vulnerability report on the dedicated HackerOne organization:
 
-[https://hackerone.com/nodesecurity](https://hackerone.com/nodesecurity)
+[https://hackerone.com/nodejs-ecosystem](https://hackerone.com/nodejs-ecosystem)
 
 Vulnerabilities can also be reported by emailing security-ecosystem@nodejs.org.
 
