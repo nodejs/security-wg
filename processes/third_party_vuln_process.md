@@ -31,6 +31,12 @@ can be:
 * Rejection: what was reported is not considered as a new vulnerability
 * Need more information: the triage team needs more information in order to evaluate what was reported.
 
+Triaging should include updating issue fields:
+* Asset - set/create the module affected by the report
+* Severity - TBD, currently left empty
+
+Reference: [HackerOne: How do I triage a report?](https://support.hackerone.com/hc/en-us/articles/205624715-How-do-I-triage-a-Report-)
+
 ## Correction follow-up
 
 **Who:** A member of the triage team
@@ -42,7 +48,7 @@ designated to follow up on this report.
 
 With the help of the individual who reported the vulnerability, they contact
 the maintainers of the vulnerable package to make them aware of the
-vulnerability.
+vulnerability. The maintainers can be invited as participants to the reported issue.
 
 With the package maintainer, they define a release date for the publication
 of the vulnerability. Ideally, this release date should not happen before
@@ -50,7 +56,6 @@ the package has been patched.
 
 If the maintainers are unreachable, the vulnerability is to be made public
 45 days after the triage date.
-
 
 ## Publication
 
@@ -65,10 +70,15 @@ can be added with the approval of the triage team and the individual who
 reported the vulnerability (this is a simple vote where each member of the
 triage team and the vulnerability reporter have 1 vote each).
 
+At this point, a CVE should be requested through the HackerOne platform through
+[email](cve-assign@hackerone.com) that should include the Report ID and a summary.
+
 The vulnerability is considered as published when a Pull Request adding it
 to this repository is opened.
 
 Within HackerOne, this is handled through a "public disclosure request".
+
+Reference: [HackerOne: How does public disclosure work?](https://support.hackerone.com/hc/en-us/articles/205269479-How-does-public-disclosure-work-)
 
 ## Vulnerabilities found outside this process
 
