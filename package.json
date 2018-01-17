@@ -8,6 +8,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "joi": "^13.1.0"
+    "joi": "^13.1.0",
+    "joi-extension-semver": "^2.0.0"
   }
 }

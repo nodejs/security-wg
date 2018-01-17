@@ -1,73 +1,61 @@
 'use strict';
-const Joi = require('joi');
-const Path = require('path');
-const Fs = require('fs');
+const joi = require('joi').extend(require('joi-extension-semver'));
+const path = require('path');
+const fs = require('fs');
 
-const vulnPath = Path.join(__dirname, '..', '..', 'vuln');
-const coreVulnPath = Path.join(vulnPath, 'core');
-const npmVulnPath = Path.join(vulnPath, 'npm');
+const vulnPath = path.join(__dirname, '..', '..', 'vuln');
+const coreVulnPath = path.join(vulnPath, 'core');
+const npmVulnPath = path.join(vulnPath, 'npm');
 
-const coreModel = Joi.object().keys({
-    cve: Joi.array().items(Joi.string().regex(/CVE-\d{4}-\d+/)),
-    ref: Joi.string().uri().optional(),
-    vulnerable: Joi.string(),
-    patched: Joi.string(),
-    description: Joi.string(),
-    overview: Joi.string(),
-    author: Joi.string().optional(),
-    cvss_score: Joi.string().optional(),
-    cvss: Joi.string().optional()
+const coreModel = joi.object().keys({
+  cve: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
+  ref: joi.string().uri().optional(),
+  vulnerable: joi.semver().validRange().required(),
+  patched: joi.semver().validRange().optional(),
+  description: joi.string().optional(),
+  overview: joi.string().optional(),
+  author: joi.string().optional(),
+  cvss_score: joi.string().optional(),
+  cvss: joi.string().optional()
 });
 
-const npmModel = Joi.object().keys({
-    id: Joi.number(),
-    cves: Joi.array().items(Joi.string().regex(/CVE-\d{4}-\d+/)),
-    created_at: Joi.date(),
-    updated_at: Joi.date(),
-    title: Joi.string(),
-    author: Joi.string().allow(null),
-    module_name: Joi.string(),
-    publish_date: Joi.date(),
-    vulnerable_versions: Joi.string().allow('').allow(null),
-    patched_versions: Joi.string().allow('').allow(null),
-    slug: Joi.string(),
-    overview: Joi.string(),
-    recommendation: Joi.string().allow('').allow(null),
-    references: Joi.string().allow('').allow(null),
-    cvss_vector: Joi.string().allow('').allow(null),
-    cvss_score: Joi.number().allow(null),
-    coordinating_vendor: Joi.string().allow('')
+const npmModel = joi.object().keys({
+  id: joi.number().required(),
+  cves: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
+  created_at: joi.date().required(),
+  updated_at: joi.date().required(),
+  title: joi.string().required(),
+  author: joi.string().allow(null).required(),
+  module_name: joi.string().required(),
+  publish_date: joi.date().required(),
+  vulnerable_versions: joi.semver().validRange().allow('').allow(null).required(),
+  patched_versions: joi.semver().validRange().allow('').allow(null).required(),
+  slug: joi.string().required(),
+  overview: joi.string().required(),
+  recommendation: joi.string().allow('').allow(null).required(),
+  references: joi.string().allow('').allow(null).required(),
+  cvss_vector: joi.string().allow('').allow(null).required(),
+  cvss_score: joi.number().allow(null).required(),
+  coordinating_vendor: joi.string().allow('').required()
 });
 
-let fail = false;
-
-Fs.readdirSync(coreVulnPath)
-    .map((x) => Path.join(coreVulnPath, x))
-    .forEach((path) => {
-
-        const vuln = JSON.parse(Fs.readFileSync(path));
-        const result = Joi.validate(vuln, coreModel);
+function validate(dir, model) {
+  fs.readdirSync(dir)
+    .forEach((name) => {
+      const filePath = path.join(dir, name);
+      try {
+        const vuln = JSON.parse(fs.readFileSync(filePath));
+        const result = joi.validate(vuln, model);
         if (result.error) {
-            console.log(`File ${path}:`);
-            console.log(result.error);
-            fail = true;
+          throw result.error;
         }
+      } catch (err) {
+        console.log(`File ${filePath}:`);
+        console.log(err);
+        process.exitCode = 1;
+      }
     });
-
-Fs.readdirSync(npmVulnPath)
-    .map((x) => Path.join(npmVulnPath, x))
-    .forEach((path) => {
-
-        const vuln = JSON.parse(Fs.readFileSync(path));
-        const result = Joi.validate(vuln, npmModel);
-        if (result.error) {
-            console.log(`File ${path}:`);
-            console.log(result.error);
-            fail = true;
-        }
-    });
-
-
-if (fail) {
-    process.exit(1);
 }
+
+validate(coreVulnPath, coreModel);
+validate(npmVulnPath, npmModel);
