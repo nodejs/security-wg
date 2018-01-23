@@ -2,7 +2,7 @@
   "id": 362,
   "created_at": "2018-01-23",
   "updated_at": "2018-01-23",
-  "title": "Directory Traversal",
+  "title": "Reflected Cross-Site Scripting",
   "author": "Yasin Soliman (ysx)",
   "module_name": "redis-commander",
   "publish_date": "2018-01-23",
