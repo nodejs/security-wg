@@ -1,0 +1,19 @@
+{
+  "id": 360,
+  "created_at": "2018-01-23",
+  "updated_at": "2018-01-23",
+  "title": "Directory Traversal",
+  "author": "Yasin Soliman (ysx)",
+  "module_name": "redis-commander",
+  "publish_date": "2018-01-23",
+  "cves": [],
+  "vulnerable_versions": "<=0.13.12",
+  "patched_versions": "",
+  "slug": "redis-commander_xss",
+  "overview": "An injection in the highlighterId parameter of the clipboard.swf component can be leveraged in a reflected XSS on hosts serving Redis Commander.",
+  "recommendation": "",
+  "references": "https://hackerone.com/reports/296377",
+  "cvss_vector": "",
+  "cvss_score": -1,
+  "coordinating_vendor": ""
+}

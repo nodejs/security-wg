@@ -1,0 +1,19 @@
+{
+  "id": 360,
+  "created_at": "2018-01-23",
+  "updated_at": "2018-01-23",
+  "title": "Directory Traversal",
+  "author": "Yasin Soliman (ysx)",
+  "module_name": "augustine",
+  "publish_date": "2018-01-23",
+  "cves": [],
+  "vulnerable_versions": "<=0.2.3",
+  "patched_versions": "",
+  "slug": "augustine_directory-traversal",
+  "overview": "A crafted GET request can be leveraged to traverse the directory structure of a host using the augustine web server package, and request arbitrary files outside of the specified web root.",
+  "recommendation": "",
+  "references": "https://hackerone.com/reports/296282",
+  "cvss_vector": "",
+  "cvss_score": -1,
+  "coordinating_vendor": ""
+}
