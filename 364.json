@@ -10,11 +10,11 @@
     "CVE-2018-3711"
   ],
   "vulnerable_versions": "<=0.37.0",
-  "patched_versions": ">0.38.0",
+  "patched_versions": ">=0.38.0",
   "slug": "fastify_remote-dos",
   "overview": "Fastify prior to 0.37.0 is vulnerable to a denial-of-service attack by sending a request with Content-Type set to application/json and a very large payload.",
   "recommendation": "Update to version 0.38.0 or later.",
-  "references": "- MISC:https://github.com/mqttjs/MQTT.js/commit/403ba53b838f2d319a0c0505a045fe00239e9923\n- MISC:https://github.com/mqttjs/MQTT.js/releases/tag/v2.15.0\n- JVN:JVN#45494523\n- URL:https://jvn.jp/en/jp/JVN45494523/index.html",
+  "references": "- MISC:https://github.com/fastify/fastify/commit/fabd2a011f2ffbb877394abe699f549513ffbd76\n- MISC:https://github.com/fastify/fastify/releases/tag/v0.38.0\n",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 9.3,
   "coordinating_vendor": ""
