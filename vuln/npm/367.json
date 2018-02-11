@@ -1,0 +1,21 @@
+{
+  "id": 367,
+  "created_at": "2018-02-12",
+  "updated_at": "2018-02-12",
+  "title": "hoek prototype pollution",
+  "author": "Olivier Arteau (HoLyVieR)",
+  "module_name": "hoek",
+  "publish_date": "2018-02-12",
+  "cves": [
+    "CVE-2018-3721"
+  ],
+  "vulnerable_versions": "<5.0.3",
+  "patched_versions": ">=5.0.3",
+  "slug": "lodash-prototype-pollution",
+  "overview": "hoek node module before 5.0.3 suffers from a prototype pollution vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+  "recommendation": "Update module to 5.0.3 or higher",
+  "references": "https://hackerone.com/reports/310439",
+  "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+  "cvss_score": 1.8,
+  "coordinating_vendor": ""
+}
