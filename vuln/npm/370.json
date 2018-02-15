@@ -1,0 +1,21 @@
+{
+  "id": 370,
+  "created_at": "2018-02-15",
+  "updated_at": "2018-02-15",
+  "title": "assign-deep prototype pollution",
+  "author": "Olivier Arteau (HoLyVieR)",
+  "module_name": "assign-deep",
+  "publish_date": "2018-02-15",
+  "cves": [
+    "CVE-2018-3720"
+  ],
+  "vulnerable_versions": "<10.4.7",
+  "patched_versions": ">=0.4.7",
+  "slug": "assign-deep-prototype-pollution",
+  "overview": "assign-deep node module before 0.4.7 suffers from a prototype pollution vulnerability via merging functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+  "recommendation": "Update module to 0.4.7 or higher",
+  "references": "https://hackerone.com/reports/310707",
+  "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+  "cvss_score": 1.8,
+  "coordinating_vendor": ""
+}
