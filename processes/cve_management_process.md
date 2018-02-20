@@ -66,6 +66,10 @@ All changes to the files for managing CVEs in a given year will
 be done through Pull Requests so that we have a record of how
 the CVEs have been assigned.
 
+CVEs are only valid for a specific year.  At the beginning of each
+year the old CVEs should be removed from the list. A new block
+of CVEs should then be requested using the steps listed above.
+
 ## External CVE request process
 
 When a request for a CVE is received via the cve-request@iojs.org
