@@ -52,7 +52,7 @@ Stats
 
 > Select Y or N for the following statements:
 
-- I contacted the maintainer to let him know: [Y/N] 
+- I contacted the maintainer to let them know: [Y/N] 
 - I opened an issue in the related repository: [Y/N] 
 
 > Hunter's comments and funny memes goes here
