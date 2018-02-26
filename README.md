@@ -65,6 +65,7 @@ management.
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
+* [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
