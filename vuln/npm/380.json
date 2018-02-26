@@ -1,0 +1,19 @@
+{
+  "id": 380,
+  "created_at": "2018-02-26",
+  "updated_at": "2018-02-26",
+  "title": "Cross-Site Scripting (XSS) - Stored",
+  "author": "bl4de (https://twitter.com/_bl4de)",
+  "module_name": "simplehttpserver",
+  "publish_date": "2018-02-26",
+  "cves": ["CVE-2018-3716"],
+  "vulnerable_versions": "<=0.0.6",
+  "patched_versions": "",
+  "slug": "simplehttpserver-xss",
+  "overview": "simplehttpserver suffers from Stored XSS in file names leads to malicious JavaScript code execution when directory listing is output in HTML",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "-https://hackerone.com/reports/309648",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_score": 9.6,
+  "coordinating_vendor": ""
+}
