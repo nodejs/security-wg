@@ -1,0 +1,19 @@
+{
+  "id": 377,
+  "created_at": "2018-02-26",
+  "updated_at": "2018-02-26",
+  "title": "Path Traversal",
+  "author": "bl4de (https://twitter.com/_bl4de)",
+  "module_name": "localhost-now",
+  "publish_date": "2018-02-26",
+  "cves": ["CVE-2018-3729"],
+  "vulnerable_versions": "<1.0.2",
+  "patched_versions": ">=1.0.2",
+  "slug": "localhost-now-path-traversal",
+  "overview": "localhost-now Path Traversal allows to read content of arbitrary file",
+  "recommendation": "update localhost-now to 1.0.2 or higher",
+  "references": "-https://hackerone.com/reports/312889\n- https://github.com/DCKT/localhost-now/commit/30b004c7f145d677df8800a106c2edc982313995#diff-b9cfc7f2cdf78a7f4b91a753d10865a2",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 8.6,
+  "coordinating_vendor": ""
+}
