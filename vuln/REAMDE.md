@@ -18,7 +18,7 @@ For instance, CVE-2016-6304 can be referred as `NSWG-COR-7`.
 
 ## Ecosystem
 
-Core vulnerabilities are to be referred by their CVE number or as:
+Ecosystem vulnerabilities are to be referred by their CVE number or as:
 ```
 NSWG-ECO-<ID>
 ```
