@@ -102,6 +102,16 @@ regular basis.
 Members of this team are required to follow the same NDA and privacy measures
 as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master/processes/security_team_members.md).
 
+# Use of CVEs and reference
+
+Every vulnerability disclosed by the triage team through HackerOne must
+be assigned a CVE number.
+
+Vulnerabilities disclosed to this repository without going through triage
+do not need to be assigned a CVE number.
+
+# Members
+
 Members of the security teams should indicate that they accept the privacy policies
 by PRing their acceptance to this file:
 
