@@ -21,8 +21,6 @@ It allows [DESCRIBE THE IMPACT OF THE VULNERABILITY - E.G READ ARBITRARY FILES, 
 [10] downloads in the last week
 [100] downloads in the last month
 
-~[1200] estimated downloads per year [JUST FOR REFERENCE,  ~DOWNLOADS PER MONTH*12]
-
 # Vulnerability
 
 ## Vulnerability Description
