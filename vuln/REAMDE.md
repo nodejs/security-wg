@@ -24,3 +24,9 @@ NSWG-ECO-<ID>
 ```
 Where `<ID>` is the number used in the name of the json file holding the vulnerability.
 For instance, CVE-2018-3726 can be referred as `NSWG-COR-374`.
+
+## Usage
+
+Multiple CVE numbers can be assigned to one single NSWG report. Therefore,
+NSWGs should always be favored against any other system when referring to a Node.js core
+or ecosystem vulnerability.
