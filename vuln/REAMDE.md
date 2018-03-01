@@ -1,6 +1,6 @@
 # Node.js Core and Ecosystem vulnerabilities
 
-This directory contains two list of disclosed vulnerabilities:
+This directory contains two lists of disclosed vulnerabilities:
 * core: Vulnerabilities affecting Node.js core
 * npm: Vulnerabilities affecting third party modules
 
