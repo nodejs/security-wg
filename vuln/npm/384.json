@@ -1,0 +1,19 @@
+{
+  "id": 384,
+  "created_at": "2018-03-02",
+  "updated_at": "2018-03-02",
+  "title": "Path Traversal",
+  "author": "bl4de (https://twitter.com/_bl4de)",
+  "module_name": "angular-http-server",
+  "publish_date": "2018-03-02",
+  "cves": ["CVE-2018-3713"],
+  "vulnerable_versions": "<1.4.3",
+  "patched_versions": ">=1.4.3",
+  "slug": "angular-http-server-path-traversal",
+  "overview": "angular-http-server path traversal allows to read arbitrary files from remote server",
+  "recommendation": "update angular-http-server to 1.4.3 or higher",
+  "references": "-https://hackerone.com/reports/309120",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 8.6,
+  "coordinating_vendor": ""
+}
