@@ -1,3 +1,5 @@
+[https://img.shields.io/badge/Join%20us%20on-Slack-e01563.svg](https://nodejs-security-wg.herokuapp.com/)
+
 # Security Working Group
 
 ***Note: this group is in the process of seeking Charter by the TSC
