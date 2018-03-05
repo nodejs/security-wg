@@ -2,7 +2,7 @@
   "id": 382,
   "created_at": "2018-03-03",
   "updated_at": "2018-03-03",
-  "title": "Path Traversal",
+  "title": "XSS in links",
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "mrk.js",
   "publish_date": "2018-03-03",
