@@ -77,7 +77,12 @@ At this point, a CVE should be requested through the HackerOne platform through
 [email](cve-assign@hackerone.com) that should include the Report ID and a summary.
 
 The vulnerability is considered as published when a Pull Request adding it
-to this repository is opened.
+to this repository is opened. Once the Pull Request is merged, and a new version
+is released, vulnerable versions must be deprecated using `npm deprecate`:
+
+```bash
+npm deprecate my-module-name@"< 1.3.1" "critical security issue fixed in 1.3.1 - please update immediately"
+```
 
 Within HackerOne, this is handled through a "public disclosure request".
 
