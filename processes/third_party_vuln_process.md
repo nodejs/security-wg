@@ -117,6 +117,7 @@ by PRing their acceptance to this file:
 * @bengl - Bryan English
 * @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
+* @dgonzalez - David Gonzalez
 * @gergelyke - Gergely Nemeth
 * @grnd - Danny Grander
 * @lirantal - Liran Tal 
