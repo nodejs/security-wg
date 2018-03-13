@@ -56,6 +56,7 @@ management.
 * [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
