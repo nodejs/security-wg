@@ -10,7 +10,7 @@
   "cves": [
     "CVE-2018-3718"
   ],
-  "vulnerable_versions": "<=6.4.9",
+  "vulnerable_versions": "<6.5.2",
   "patched_versions": ">=6.5.2",
   "slug": "serve-information-exposure-through-directory-listing",
   "recommendation": "update serve to 6.5.2 or higher",
