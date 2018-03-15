@@ -3,7 +3,7 @@
 # Security Working Group
 
 ***Note: this group is in the process of seeking Charter by the TSC
-(https://github.com/nodejs/TSC/issues/175)***
+(https://github.com/nodejs/TSC/issues/486)***
 
 ## Mandate
 
