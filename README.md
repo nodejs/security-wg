@@ -1,4 +1,6 @@
 [![GitHub Logo](https://img.shields.io/badge/Join%20us%20on-Slack-e01563.svg)](https://nodejs-security-wg.herokuapp.com/)
+[![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md
+)
 
 # Security Working Group
 
