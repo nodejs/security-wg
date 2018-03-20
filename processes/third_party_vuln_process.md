@@ -120,5 +120,6 @@ by PRing their acceptance to this file:
 * @dgonzalez - David Gonzalez
 * @gergelyke - Gergely Nemeth
 * @grnd - Danny Grander
-* @lirantal - Liran Tal 
+* @lirantal - Liran Tal
+* @MarcinHoppe - Marcin Hoppe
 * @vdeturckheim - Vladimir de Turckheim
