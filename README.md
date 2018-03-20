@@ -71,6 +71,7 @@ management.
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
+* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
