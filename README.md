@@ -54,7 +54,7 @@ management.
 
 ### Node.js Bug Bounty Program
 
-The Node.js project engages in an official bug bounty program for security researches and responsible public disclosures.
+The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures.
 
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
 
