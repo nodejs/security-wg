@@ -64,13 +64,13 @@ management.
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
 * [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
+* [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
-* [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
