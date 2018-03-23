@@ -3,9 +3,7 @@ const joi = require('joi').extend(require('joi-extension-semver'));
 const path = require('path');
 const fs = require('fs');
 
-const vulnPath = path.join(__dirname, '..', '..', 'vuln');
-const coreVulnPath = path.join(vulnPath, 'core');
-const npmVulnPath = path.join(vulnPath, 'npm');
+const vulnPaths = require('../../vuln').paths;
 
 const coreModel = joi.object().keys({
   cve: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
@@ -57,5 +55,5 @@ function validate(dir, model) {
     });
 }
 
-validate(coreVulnPath, coreModel);
-validate(npmVulnPath, npmModel);
+validate(vulnPaths.core, coreModel);
+validate(vulnPaths.npm, npmModel);
