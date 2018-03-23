@@ -16,5 +16,6 @@
   "recommendation": "update simple-server to 1.1.0 or higher",
   "references": "- https://www.hackerone.com/reports/309641",
   "cvss_vector": "CVSS:3.0/AV:U/AC:U/PR:U/UI:U/S:U/C:U/I:U/A:U",
+  "cvss_score": 7.7,
   "coordinating_vendor": ""
 }
