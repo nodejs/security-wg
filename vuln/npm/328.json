@@ -7,7 +7,7 @@
   "module_name": "jquery",
   "publish_date": "2017-03-21T18:23:53+00:00",
   "cves": [],
-  "vulnerable_versions": ">=1.4.0 <=1.11.3 || >=1.12.4 <=2.2.4",
+  "vulnerable_versions": ">=1.4.0 <=1.11.3 || >=1.12.3 <=2.2.4",
   "patched_versions": ">=3.0.0",
   "slug": "jquery_xss",
   "overview": "Jquery is a javascript library for DOM traversal and manipulation, event handling, animation, and Ajax. \n\nWhen text/javascript responses are received from cross-origin ajax requests not containing the option `dataType`, the result is executed in `jQuery.globalEval` potentially allowing an attacker to execute arbitrary code on the origin.",
