@@ -12,7 +12,7 @@
   "slug": "hekto-xss",
   "overview": "hekto suffers from Path Traversal vulnerability which allows to read content of arbitrary files",
   "recommendation": "update hekto to 0.2.3 or higher",
-  "references": "-https://hackerone.com/reports/311218",
+  "references": "- https://hackerone.com/reports/311218",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
   "coordinating_vendor": ""

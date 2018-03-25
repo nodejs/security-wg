@@ -12,7 +12,7 @@
   "slug": "stattic-xss",
   "overview": "stattic inproper path validation leads to path traversal and allows to read arbitrary files with any extension(s)",
   "recommendation": "update stattic to 0.3.0 or higher",
-  "references": "-https://hackerone.com/reports/319003",
+  "references": "- https://hackerone.com/reports/319003",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
   "coordinating_vendor": ""

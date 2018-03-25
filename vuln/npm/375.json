@@ -12,7 +12,7 @@
   "slug": "is-my-json-valid-redos",
   "overview": "is-my-json-valid is vulnerable to Regular Expression Denial of Service (ReDoS) attacks via the email validation function",
   "recommendation": "update is-my-json-valid to 1.4.1, 2.17.2 or higher",
-  "references": "-https://hackerone.com/reports/317548\n- https://github.com/mafintosh/is-my-json-valid/commit/b3051b277f7caa08cd2edc6f74f50aeda65d2976\n- https://github.com/mafintosh/is-my-json-valid/pull/159",
+  "references": "- https://hackerone.com/reports/317548\n- https://github.com/mafintosh/is-my-json-valid/commit/b3051b277f7caa08cd2edc6f74f50aeda65d2976\n- https://github.com/mafintosh/is-my-json-valid/pull/159",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
   "cvss_score": 3.7,
   "coordinating_vendor": "snyk.io"
