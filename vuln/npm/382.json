@@ -12,7 +12,7 @@
   "slug": "mrkjs-link-xss",
   "overview": "mrk.js suffered from a XSS vulnerability when markdown was converted to HTML.",
   "recommendation": "update mrk.js to version 2.0.1 and use mark.sanitizeURL() for any attributes when extending the md",
-  "references": "-https://github.com/heyitsmeuralex/mrk/pull/3",
+  "references": "- https://github.com/heyitsmeuralex/mrk/pull/3",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:L",
   "cvss_score": 8.9,
   "coordinating_vendor": ""
