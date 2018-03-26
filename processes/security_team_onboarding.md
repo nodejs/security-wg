@@ -3,18 +3,18 @@
 This document aims to provide a clear process for on-boarding new team members to the Node.js Security WG.
 
 ## Introducing new members
-New members may be nominated to join the WG, where they share an affinity to web or software security research, or activism around security and the Node.js project. All of which make good criteria to join the team but are not a closed list.
+New members may self-nominate themselves, or be nominated to join the WG by existing members. They share an affinity to web or software security research, or activism around security and the Node.js project. All of which make good criteria to join the team but are not a closed list.
 
 ### The Buddy Program
 Every new member should be assigned a *buddy* to help mentor and coach them through the on-boarding period, relevant processes and activities that the WG handles. 
 
-A *buddy* is an active member of the WG who is familiar with the above topics.
+A *buddy* is an active member of the WG who is familiar with the above topics, and should be recommended on the nomination issue/PR.
 
 A suggested on-boarding session for triage team members: 30 minutes touch-base call to cover the triage process on HackerOne and the repo.
 
 
 ### How to nominate new members?
-Open an issue in https://github.com/nodejs/security-wg that suggests to nominate a new team member. Provide as much background and context as possible which is relevant to this candidate and his potential future contributions to the Security WG.
+Open a Pull-Request in https://github.com/nodejs/security-wg that suggests to nominate a new team member. Provide as much background and context as possible which is relevant to this candidate and his potential future contributions to the Security WG.
 
 References:
 * [Nominate Marcin Hoppe as member of the WG · Issue #163 · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/issues/163)
