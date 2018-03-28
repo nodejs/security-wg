@@ -10,7 +10,7 @@
   "cves": [
     ""
   ],
-  "vulnerable_versions": ">=3.9.2",
+  "vulnerable_versions": "<=3.9.2",
   "patched_versions": "",
   "slug": "metascrapper-cross-site-scripting-(xss)---stored",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
