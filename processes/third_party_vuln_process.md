@@ -89,6 +89,8 @@ Vulnerabilities found and fixed outside this process should be added into
 the vulnerability database. This can be done by anyone through a Pull Request on
 this repository.
 
+The vulnerability should include any kind of supporting material such as references, maintainer review or otherwise to confirm the vulnerability report is valid.
+
 # The triage team
 
 The triage team is composed of 5 or more members of the security working group.
