@@ -4,6 +4,7 @@
   ],
   "vulnerable": "^6.0.0 || ^8.0.0 || ^9.0.0",
   "patched": "^6.14.0 || ^8.11.0 || ^9.10.0",
+  "publish_date": "28-03-2018",
   "ref": "https://nodejs.org/en/blog/vulnerability/march-2018-security-releases/",
   "overview": "The Node.js inspector, in 6.x and later is vulnerable to a DNS rebinding attack which could be exploited to perform remote code execution. An attack is possible from malicious websites open in a web browser on the same computer, or another computer with network access to the computer running the Node.js process. A malicious website could use a DNS rebinding attack to trick the web browser to bypass same-origin-policy checks and to allow HTTP connections to localhost or to hosts on the local network. If a Node.js process with the debug port active is running on localhost or on a host on the local network, the malicious website could connect to it as a debugger, and get full code execution access."
 }
