@@ -10,9 +10,6 @@ Every new member should be assigned a *buddy* to help mentor and coach them thro
 
 A *buddy* is an active member of the WG who is familiar with the above topics, and should be recommended on the nomination issue/PR.
 
-A suggested on-boarding session for triage team members: 30 minutes touch-base call to cover the triage process on HackerOne and the repo.
-
-
 ### How to nominate new members?
 Open a Pull-Request in https://github.com/nodejs/security-wg that suggests to nominate a new team member. Provide as much background and context as possible which is relevant to this candidate and his potential future contributions to the Security WG.
 
@@ -36,4 +33,4 @@ Once acceptance has been acquired by group members, the following should take pl
 Please follow:
 * New member should open a PR with his username added to [security-wg/third_party_vuln_process.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md#the-triage-team), where the username list is ordered alphabetically.
 * New members should familiarize themselves with the 3rd party vulnerability triage process at: [security-wg/third_party_vuln_process.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md)
-* New members should schedule a demo session with their mentor to review the HackerOne platform where the new member receives a walk-through of our processes.
+* New members should schedule an on-boarding demo session with their mentor to review the HackerOne platform where the new member receives a walk-through of our triage process.
