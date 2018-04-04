@@ -1,5 +1,5 @@
 {
-  "id": "390",
+  "id": 390,
   "title": "Cross-site Scripting (XSS) - Stored",
   "overview": "[simple-server] HTML with iframe element can be used as filename, which might lead to load and execute malicious JavaScript ",
   "created_at": "2018-01-26",
@@ -19,3 +19,4 @@
   "cvss_score": 7.7,
   "coordinating_vendor": ""
 }
+
