@@ -1,0 +1,19 @@
+{
+  "id": 388,
+  "title": "Denial of Service",
+  "overview": "`https-proxy-agent` passes unsanitized options to Buffer(arg), resulting in DoS and uninitialized memory leak",
+  "created_at": "2018-02-25",
+  "updated_at": "2018-04-02",
+  "publish_date": "2018-04-02",
+  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "module_name": "https-proxy-agent",
+  "cves": [],
+  "vulnerable_versions": "<=2.1.1",
+  "patched_versions": ">=2.2.0",
+  "slug": "https-proxy-agent-denial-of-service",
+  "recommendation": "update https-proxy-agent to 2.2.0 or higher",
+  "references": "- https://hackerone.com/reports/319532\n- https://github.com/TooTallNate/node-https-proxy-agent/blob/2.1.1/index.js#L207",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "cvss_score": 8.2,
+  "coordinating_vendor": ""
+}
