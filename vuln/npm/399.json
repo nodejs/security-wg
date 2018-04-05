@@ -7,9 +7,7 @@
   "publish_date": "2018-03-28",
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "whereis",
-  "cves": [
-    ""
-  ],
+  "cves": [],
   "vulnerable_versions": "<=0.4.0",
   "patched_versions": ">=0.4.1",
   "slug": "whereis-command-injection---generic",
