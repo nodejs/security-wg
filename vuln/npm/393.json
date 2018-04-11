@@ -15,5 +15,5 @@
   "references": "* https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4\n* https://github.com/request/tunnel-agent/commit/9ca95ec7219daface8a6fc2674000653de0922c0",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

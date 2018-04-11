@@ -17,5 +17,5 @@
   "references": "- MISC:https://github.com/fastify/fastify/commit/fabd2a011f2ffbb877394abe699f549513ffbd76\n- MISC:https://github.com/fastify/fastify/releases/tag/v0.38.0\n- https://hackerone.com/reports/303632",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 9.3,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

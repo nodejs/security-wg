@@ -17,5 +17,5 @@
   "references": "- MISC:https://github.com/guardian/html-janitor/issues/35\n- https://hackerone.com/reports/308158",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
   "cvss_score": 8.8,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

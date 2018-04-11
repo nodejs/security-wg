@@ -15,5 +15,5 @@
   "references": "* https://gist.github.com/ChALkeR/c2d2fd3f1d72d51ad883df195be03a85\n* https://github.com/maxogden/concat-stream/pull/47",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

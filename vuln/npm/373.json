@@ -15,5 +15,5 @@
   "references": "- https://hackerone.com/reports/312918\n- https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.3,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

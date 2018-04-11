@@ -9,11 +9,11 @@
   "module_name": "bracket-template",
   "cves": [],
   "vulnerable_versions": "<=1.1.5",
-  "patched_versions": "",
+  "patched_versions": null,
   "slug": "bracket-template-cross-site-scripting-(xss)---reflected",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/317125",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

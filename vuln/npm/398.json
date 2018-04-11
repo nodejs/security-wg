@@ -9,11 +9,11 @@
   "module_name": "metascraper",
   "cves": [],
   "vulnerable_versions": "<=3.9.2",
-  "patched_versions": "",
+  "patched_versions": null,
   "slug": "metascraper-cross-site-scripting-(xss)---stored",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/309367",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
   "cvss_score": 9.6,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
