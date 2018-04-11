@@ -5,7 +5,7 @@
   "title": "Arbitrary File Write",
   "author": "Steve Kemp",
   "module_name": "cli",
-  "publish_date": "2016-06-15T23:22:22+00:00",
+  "publish_date": "2016-06-15",
   "cves": [],
   "vulnerable_versions": "<1.0.0",
   "patched_versions": ">=1.0.0",

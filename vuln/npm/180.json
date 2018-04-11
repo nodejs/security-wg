@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "macaca-chromedriver",
-  "publish_date": "2016-12-18T22:50:43+00:00",
+  "publish_date": "2016-12-18",
   "cves": [],
   "vulnerable_versions": "<1.0.29",
   "patched_versions": ">=1.0.29",

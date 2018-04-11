@@ -5,7 +5,7 @@
   "title": "Insecure Defaults Allow MITM Over TLS",
   "author": "David Johansson",
   "module_name": "engine.io-client",
-  "publish_date": "2016-04-26T16:24:32+00:00",
+  "publish_date": "2016-04-26",
   "cves": [],
   "vulnerable_versions": "<= 1.6.8",
   "patched_versions": ">= 1.6.9",

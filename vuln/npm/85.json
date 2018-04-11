@@ -5,7 +5,7 @@
   "title": "Authentication credentails logged in clear text",
   "author": "Stephan Bönnemann",
   "module_name": "grunt-gh-pages",
-  "publish_date": "2016-03-16T16:29:31.778+00:00",
+  "publish_date": "2016-03-16",
   "cves": [],
   "vulnerable_versions": "<=0.9.1",
   "patched_versions": ">=0.10.0",

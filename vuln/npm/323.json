@@ -5,7 +5,7 @@
   "title": "Insufficient Error Handling",
   "author": "TJ Holowaychuk",
   "module_name": "http-proxy",
-  "publish_date": "2017-04-11T23:25:24.169+00:00",
+  "publish_date": "2017-04-11",
   "cves": [],
   "vulnerable_versions": "<=0.6.6",
   "patched_versions": ">=0.7.0",

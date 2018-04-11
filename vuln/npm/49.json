@@ -5,7 +5,7 @@
   "title": "Content Injection via TileJSON attribute",
   "author": "John Firebaugh, Juan Broullón Sampedro",
   "module_name": "mapbox.js",
-  "publish_date": "2015-10-24T21:00:40.189+00:00",
+  "publish_date": "2015-10-24",
   "cves": [],
   "vulnerable_versions": "<1.6.5 || < 2.1.7 > 2.0.0",
   "patched_versions": ">=1.6.5 <2.0.0 || >= 2.1.7",

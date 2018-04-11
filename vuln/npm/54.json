@@ -5,7 +5,7 @@
   "title": "Command Injection in gm.compare function",
   "author": "Brendan Scarvell of Console",
   "module_name": "gm",
-  "publish_date": "2015-10-26T20:12:18.99+00:00",
+  "publish_date": "2015-10-26",
   "cves": [
     "CVE-2015-7982"
   ],

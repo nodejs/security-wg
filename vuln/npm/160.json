@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "chromedriver",
-  "publish_date": "2016-12-18T22:46:48+00:00",
+  "publish_date": "2016-12-18",
   "cves": [],
   "vulnerable_versions": "<2.26.1",
   "patched_versions": ">=2.26.1",

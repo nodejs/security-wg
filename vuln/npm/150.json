@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Liang Gong",
   "module_name": "bitty",
-  "publish_date": "2016-12-07T16:41:46+00:00",
+  "publish_date": "2016-12-07",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

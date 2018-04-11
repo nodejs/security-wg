@@ -5,7 +5,7 @@
   "title": "Unsafe eval()",
   "author": "Cristian-Alexandru Staicu",
   "module_name": "summit",
-  "publish_date": "2017-04-14T18:35:13.449+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": ">=0.1.0",
   "patched_versions": "<0.0.0",

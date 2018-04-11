@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Barış Soner Uşaklı",
   "module_name": "marked",
-  "publish_date": "2015-01-22T17:33:48+00:00",
+  "publish_date": "2015-01-22",
   "cves": [
     "CVE-2015-8854"
   ],

@@ -5,7 +5,7 @@
   "title": "Cross Site Scripting",
   "author": "Andrew Krasichkov",
   "module_name": "sanitize-html",
-  "publish_date": "2017-04-11T23:49:58.283+00:00",
+  "publish_date": "2017-04-11",
   "cves": [],
   "vulnerable_versions": "<=1.11.1",
   "patched_versions": ">=1.11.4",

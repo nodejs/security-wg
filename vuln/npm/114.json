@@ -5,7 +5,7 @@
   "title": "Insecure Defaults Leads to Potential MITM",
   "author": "Adam Baldwin",
   "module_name": "ezseed-transmission",
-  "publish_date": "2016-07-29T22:27:11+00:00",
+  "publish_date": "2016-07-29",
   "cves": [
     "CVE-2016-1000224"
   ],

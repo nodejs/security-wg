@@ -5,7 +5,7 @@
   "title": "Arbitrary Code Injection",
   "author": "micaksica",
   "module_name": "pouchdb",
-  "publish_date": "2016-10-17T16:20:12+00:00",
+  "publish_date": "2016-10-17",
   "cves": [],
   "vulnerable_versions": "<=6.0.4",
   "patched_versions": ">=6.0.5",

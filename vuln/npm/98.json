@@ -5,7 +5,7 @@
   "title": "npm Token Leak",
   "author": "Mitar, Will White & the team at Mapbox, Max Motovilov, and James Taylor",
   "module_name": "npm",
-  "publish_date": "2016-04-18T21:16:44+00:00",
+  "publish_date": "2016-04-18",
   "cves": [
     "CVE-2016-3956"
   ],

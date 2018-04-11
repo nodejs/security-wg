@@ -5,7 +5,7 @@
   "title": "Incorrect Handling of Non-Boolean Comparisons During Minification",
   "author": "Tom MacWright",
   "module_name": "uglify-js",
-  "publish_date": "2015-08-24T19:29:10+00:00",
+  "publish_date": "2015-08-24",
   "cves": [
     "CVE-2015-8857"
   ],

@@ -5,7 +5,7 @@
   "title": "Remote Memory Disclosure",
   "author": "Feross Aboukhadijeh / Mathias Buss Madsen",
   "module_name": "bittorrent-dht",
-  "publish_date": "2016-01-04T19:52:32.207+00:00",
+  "publish_date": "2016-01-04",
   "cves": [],
   "vulnerable_versions": "<5.1.3",
   "patched_versions": ">=5.1.3",

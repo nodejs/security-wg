@@ -5,7 +5,7 @@
   "title": "DoS due to excessively large websocket message",
   "author": "Fedor Indutny",
   "module_name": "ws",
-  "publish_date": "2016-06-24T17:13:33+00:00",
+  "publish_date": "2016-06-24",
   "cves": [],
   "vulnerable_versions": "<=1.1.0",
   "patched_versions": ">=1.1.1",

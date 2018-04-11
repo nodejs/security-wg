@@ -5,7 +5,7 @@
   "title": "Invalid Curve Attack",
   "author": "Antonio Sanso",
   "module_name": "node-jose",
-  "publish_date": "2017-03-13T19:22:12+00:00",
+  "publish_date": "2017-03-13",
   "cves": [],
   "vulnerable_versions": "<0.9.3",
   "patched_versions": ">=0.9.3",

@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "node-browser",
-  "publish_date": "2017-01-01T03:57:10+00:00",
+  "publish_date": "2017-01-01",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

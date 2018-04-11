@@ -5,7 +5,7 @@
   "title": "XSS in URL Query String Parameter",
   "author": "mehmetaydogdu",
   "module_name": "swagger-ui",
-  "publish_date": "2016-08-15T18:37:50+00:00",
+  "publish_date": "2016-08-15",
   "cves": [
     "CVE-2016-1000239"
   ],

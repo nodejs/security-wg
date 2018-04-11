@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Nick Starke",
   "module_name": "minimatch",
-  "publish_date": "2016-06-20T15:52:52+00:00",
+  "publish_date": "2016-06-20",
   "cves": [],
   "vulnerable_versions": "<=3.0.1",
   "patched_versions": ">=3.0.2",

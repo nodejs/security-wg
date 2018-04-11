@@ -5,7 +5,7 @@
   "title": "Predictable temp filenames allow overwrite of arbitrary files",
   "author": "Jérémy Lal",
   "module_name": "npm",
-  "publish_date": "2017-03-23T17:37:50+00:00",
+  "publish_date": "2017-03-23",
   "cves": [
     "CVE-2013-4116"
   ],

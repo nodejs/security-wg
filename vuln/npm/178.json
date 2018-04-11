@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "libxl",
-  "publish_date": "2016-12-18T22:48:43+00:00",
+  "publish_date": "2016-12-18",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

@@ -5,7 +5,7 @@
   "title": "Denial of Service",
   "author": "Matteo Collina",
   "module_name": "mqtt",
-  "publish_date": "2016-08-26T17:28:19+00:00",
+  "publish_date": "2016-08-26",
   "cves": [
     "CVE-2016-1000242"
   ],

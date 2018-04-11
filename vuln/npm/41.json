@@ -5,7 +5,7 @@
   "title": "Multiple XSS Filter Bypasses",
   "author": "Neal Poole, Krzysztof Kotowicz",
   "module_name": "validator",
-  "publish_date": "2013-07-05T19:29:10+00:00",
+  "publish_date": "2013-07-05",
   "cves": [
     "CVE-2013-7451",
     "CVE-2013-7452",

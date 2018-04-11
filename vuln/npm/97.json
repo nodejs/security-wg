@@ -5,7 +5,7 @@
   "title": "Template Injection",
   "author": "Paweł Hałdrzyński",
   "module_name": "jsrender",
-  "publish_date": "2016-03-30T22:25:57+00:00",
+  "publish_date": "2016-03-30",
   "cves": [
     "CVE-2016-3942"
   ],

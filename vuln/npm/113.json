@@ -5,7 +5,7 @@
   "title": "SQL Injection",
   "author": null,
   "module_name": "sequelize",
-  "publish_date": "2016-10-31T20:32:24+00:00",
+  "publish_date": "2016-10-31",
   "cves": [],
   "vulnerable_versions": "<= 1.7.0-alpha2",
   "patched_versions": ">= 1.7.0-alpha3",

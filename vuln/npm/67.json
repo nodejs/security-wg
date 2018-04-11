@@ -5,7 +5,7 @@
   "title": "Remote Memory Disclosure",
   "author": "Feross Aboukhadijeh / Mathias Buss",
   "module_name": "ws",
-  "publish_date": "2016-01-04T19:34:19.734+00:00",
+  "publish_date": "2016-01-04",
   "cves": [],
   "vulnerable_versions": "<= 1.0.0",
   "patched_versions": ">= 1.0.1",

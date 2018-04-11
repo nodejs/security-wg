@@ -5,7 +5,7 @@
   "title": "Arbitrary File Read",
   "author": "Honza Javorek",
   "module_name": "fury-adapter-swagger",
-  "publish_date": "2017-01-23T16:45:16+00:00",
+  "publish_date": "2017-01-23",
   "cves": [
     "CVE-2016-1000249"
   ],

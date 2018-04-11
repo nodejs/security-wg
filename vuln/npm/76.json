@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "is-my-json-valid",
-  "publish_date": "2016-01-18T04:29:55.903+00:00",
+  "publish_date": "2016-01-18",
   "cves": [
     "CVE-2016-2537"
   ],

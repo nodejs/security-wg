@@ -5,7 +5,7 @@
   "title": "XSS via Content-type header",
   "author": "Joe Vennix",
   "module_name": "swagger-ui",
-  "publish_date": "2016-07-25T16:25:23+00:00",
+  "publish_date": "2016-07-25",
   "cves": [
     "CVE-2016-1000233"
   ],

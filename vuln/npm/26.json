@@ -5,7 +5,7 @@
   "title": "Validation Bypass",
   "author": "Martin Angelov",
   "module_name": "paypal-ipn",
-  "publish_date": "2014-12-03T13:00:00+00:00",
+  "publish_date": "2014-12-03",
   "cves": [],
   "vulnerable_versions": "<3.0.0",
   "patched_versions": ">=3.0.0",

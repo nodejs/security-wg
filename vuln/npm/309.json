@@ -5,7 +5,7 @@
   "title": "Remote Memory Exposure",
   "author": "Feross Aboukhadijeh",
   "module_name": "request",
-  "publish_date": "2017-04-14T21:44:24.494+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": ">=2.2.6 <2.47.0 || >2.51.0 <=2.67.0",
   "patched_versions": ">=2.68.0",

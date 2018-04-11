@@ -5,7 +5,7 @@
   "title": "LDAP Injection",
   "author": "David Black, Jerome Touffe-Blin",
   "module_name": "ldapauth",
-  "publish_date": "2015-09-18T19:30:10+00:00",
+  "publish_date": "2015-09-18",
   "cves": [
     "CVE-2015-7294"
   ],

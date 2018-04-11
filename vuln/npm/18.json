@@ -5,7 +5,7 @@
   "title": "LDAP Injection",
   "author": "Jerome Touffe-Blin",
   "module_name": "ldapauth-fork",
-  "publish_date": "2015-09-18T19:29:10+00:00",
+  "publish_date": "2015-09-18",
   "cves": [
     "CVE-2015-7294"
   ],

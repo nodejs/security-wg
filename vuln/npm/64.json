@@ -5,7 +5,7 @@
   "title": "Denial of Service - Illegal access crash from if-modified-since header",
   "author": "James Halliday",
   "module_name": "ecstatic",
-  "publish_date": "2015-12-23T23:21:25.322+00:00",
+  "publish_date": "2015-12-23",
   "cves": [],
   "vulnerable_versions": "<1.4.0",
   "patched_versions": ">=1.4.0",

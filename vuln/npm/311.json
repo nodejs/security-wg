@@ -5,7 +5,7 @@
   "title": "Code Execution through IIFE",
   "author": "Ajin Abraham",
   "module_name": "node-serialize",
-  "publish_date": "2017-02-09T16:38:36+00:00",
+  "publish_date": "2017-02-09",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

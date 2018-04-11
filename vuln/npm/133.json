@@ -5,7 +5,7 @@
   "title": "XSS in Pillbox",
   "author": "Keenan Jaenicke",
   "module_name": "fuelux",
-  "publish_date": "2016-07-25T17:04:28+00:00",
+  "publish_date": "2016-07-25",
   "cves": [
     "CVE-2016-1000235"
   ],

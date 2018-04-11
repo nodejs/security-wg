@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Liang Gong",
   "module_name": "windows-build-tools",
-  "publish_date": "2017-01-06T16:50:17+00:00",
+  "publish_date": "2017-01-06",
   "cves": [],
   "vulnerable_versions": "<1.0.0",
   "patched_versions": ">=1.0.0",

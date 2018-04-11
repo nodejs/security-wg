@@ -5,7 +5,7 @@
   "title": "Denial of Service and Content Injection",
   "author": "Garth Boyd",
   "module_name": "i18n-node-angular",
-  "publish_date": "2016-01-25T17:56:55.455+00:00",
+  "publish_date": "2016-01-25",
   "cves": [],
   "vulnerable_versions": "<1.4.0",
   "patched_versions": ">=1.4.0",

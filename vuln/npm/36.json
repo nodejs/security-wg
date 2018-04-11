@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Isaac Schlueter",
   "module_name": "st",
-  "publish_date": "2014-02-06T17:33:48+00:00",
+  "publish_date": "2014-02-06",
   "cves": [
     "CVE-2014-3744"
   ],

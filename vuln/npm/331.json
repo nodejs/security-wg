@@ -5,7 +5,7 @@
   "title": "Denial of Service",
   "author": "iipokypatop",
   "module_name": "nes",
-  "publish_date": "2017-04-14T21:06:38.005+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=6.4.0",
   "patched_versions": ">=6.4.1",

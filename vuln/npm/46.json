@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "ms",
-  "publish_date": "2015-10-24T20:39:59.852+00:00",
+  "publish_date": "2015-10-24",
   "cves": [
     "CVE-2015-8315"
   ],

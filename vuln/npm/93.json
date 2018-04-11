@@ -5,7 +5,7 @@
   "title": "Insecure Entropy Source - Math.random()",
   "author": "Fedot Praslov",
   "module_name": "node-uuid",
-  "publish_date": "2016-03-28T21:29:30+00:00",
+  "publish_date": "2016-03-28",
   "cves": [
     "CVE-2015-8851"
   ],

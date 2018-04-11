@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "hawk",
-  "publish_date": "2016-01-19T21:51:35.396+00:00",
+  "publish_date": "2016-01-19",
   "cves": [
     "CVE-2016-2515"
   ],

@@ -5,7 +5,7 @@
   "title": "API Admin Auth Weakness",
   "author": "Adam Baldwin",
   "module_name": "tomato",
-  "publish_date": "2013-03-07T21:52:30.192+00:00",
+  "publish_date": "2013-03-07",
   "cves": [
     "CVE-2013-7379"
   ],

@@ -5,7 +5,7 @@
   "title": "Arbitrary JavaScript Execution",
   "author": "Jarda Kotěšovec",
   "module_name": "bassmaster",
-  "publish_date": "2014-09-27T16:44:48+00:00",
+  "publish_date": "2014-09-27",
   "cves": [
     "CVE-2014-7205"
   ],

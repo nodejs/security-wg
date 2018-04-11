@@ -5,7 +5,7 @@
   "title": "Cross Site Scripting",
   "author": "Björn Kimminich",
   "module_name": "gitbook",
-  "publish_date": "2017-04-14T18:31:32.771+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<3.2.2",
   "patched_versions": ">=3.2.2",

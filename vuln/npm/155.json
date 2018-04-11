@@ -5,7 +5,7 @@
   "title": "Cross Site Scripting",
   "author": "Jim O'Brien",
   "module_name": "sanitize-html",
-  "publish_date": "2017-04-14T17:20:02.755+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=1.2.2",
   "patched_versions": ">=1.2.3",

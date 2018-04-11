@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "moment",
-  "publish_date": "2016-01-26T20:04:21.225+00:00",
+  "publish_date": "2016-01-26",
   "cves": [
     "CVE-2016-4055"
   ],

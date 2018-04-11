@@ -5,7 +5,7 @@
   "title": "Insecure randomness",
   "author": "Martin Thomson",
   "module_name": "socket.io",
-  "publish_date": "2017-04-14T22:49:45.953+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=0.9.6",
   "patched_versions": ">=0.9.7",

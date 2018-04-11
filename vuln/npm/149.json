@@ -5,7 +5,7 @@
   "title": "Denial of Service",
   "author": "Luigi Pinca",
   "module_name": "uws",
-  "publish_date": "2016-10-17T16:18:55+00:00",
+  "publish_date": "2016-10-17",
   "cves": [],
   "vulnerable_versions": ">=0.10.0 <=0.10.8",
   "patched_versions": ">=0.10.9",

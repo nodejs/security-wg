@@ -5,7 +5,7 @@
   "title": "Sanitization bypass using HTML Entities",
   "author": "Matt Austin",
   "module_name": "marked",
-  "publish_date": "2016-04-18T16:45:00+00:00",
+  "publish_date": "2016-04-18",
   "cves": [],
   "vulnerable_versions": "<=0.3.5",
   "patched_versions": ">=0.3.6",

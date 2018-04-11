@@ -5,7 +5,7 @@
   "title": "Insecure Default Configuration",
   "author": "Phil Schleihauf",
   "module_name": "airbrake",
-  "publish_date": "2016-03-28T22:48:46+00:00",
+  "publish_date": "2016-03-28",
   "cves": [],
   "vulnerable_versions": "<=0.3.8",
   "patched_versions": ">=0.4.0",

@@ -5,7 +5,7 @@
   "title": "SSL Validation Defaults to False",
   "author": "Mark Lee",
   "module_name": "electron-packager",
-  "publish_date": "2016-04-22T15:56:50+00:00",
+  "publish_date": "2016-04-22",
   "cves": [],
   "vulnerable_versions": ">= 5.2.1 <= 6.0.0 || >=6.0.0 <= 6.0.2",
   "patched_versions": ">= 7.0.0",

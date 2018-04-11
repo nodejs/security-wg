@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "ansi2html",
-  "publish_date": "2015-10-25T01:35:01.611+00:00",
+  "publish_date": "2015-10-25",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

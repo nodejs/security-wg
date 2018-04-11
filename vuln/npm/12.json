@@ -5,7 +5,7 @@
   "title": "Rosetta-Flash JSONP Vulnerability",
   "author": "Michele Spagnuolo",
   "module_name": "hapi",
-  "publish_date": "2014-07-08T17:33:48+00:00",
+  "publish_date": "2014-07-08",
   "cves": [
     "CVE-2014-4671A"
   ],

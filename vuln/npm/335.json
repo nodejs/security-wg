@@ -5,7 +5,7 @@
   "title": "Denial of Service via malformed accept-encoding header",
   "author": "Georgios Andrianakis",
   "module_name": "hapi",
-  "publish_date": "2017-04-05T18:16:00+00:00",
+  "publish_date": "2017-04-05",
   "cves": [],
   "vulnerable_versions": ">= 15.0.0 <= 16.1.0",
   "patched_versions": ">= 16.1.1",

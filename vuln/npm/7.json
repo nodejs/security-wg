@@ -5,7 +5,7 @@
   "title": "Unauthenticated Remote Command Injection",
   "author": "Neal Poole",
   "module_name": "ep_imageconvert",
-  "publish_date": "2013-05-06T17:33:48+00:00",
+  "publish_date": "2013-05-06",
   "cves": [
     "CVE-2013-3364",
     "CVE-2013-7380"

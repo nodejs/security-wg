@@ -5,7 +5,7 @@
   "title": "XSS in drag and drop node",
   "author": "https://github.com/Monisha-M",
   "module_name": "jqtree",
-  "publish_date": "2016-07-25T16:25:39+00:00",
+  "publish_date": "2016-07-25",
   "cves": [
     "CVE-2016-1000234"
   ],
