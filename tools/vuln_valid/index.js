@@ -26,7 +26,19 @@ const npmModel = joi.object().keys({
   author: joi.string().allow(null).required(),
   module_name: joi.string().required(),
   publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
-  vulnerable_versions: joi.semver().validRange().allow('').allow(null).required(),
+  vulnerable_versions: joi.alternatives().when("patched_versions", {
+    is: null,
+    then: joi
+      .semver()
+      .validRange()
+      .required(),
+    otherwise: joi
+      .semver()
+      .validRange()
+      .allow("")
+      .allow(null)
+      .required()
+  }),
   patched_versions: joi.semver().validRange().allow('').allow(null).required(),
   slug: joi.string().required(),
   overview: joi.string().required(),
