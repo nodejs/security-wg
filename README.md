@@ -52,6 +52,13 @@ security activities for Node.js core but relies on the Node.js Security Working
 Group to recommend and help maintain policies and procedures for that
 management.
 
+### Node.js Bug Bounty Program
+
+The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures.
+
+The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
+
+
 ## Current Project Team Members
 
 * [bengl](https://github.com/bengl) - **Bryan English**
