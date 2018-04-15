@@ -5,7 +5,7 @@
   "title": "Arbitrary Code Injection",
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "reduce-css-calc",
-  "publish_date": "2016-10-17T16:20:45+00:00",
+  "publish_date": "2016-10-17",
   "cves": [],
   "vulnerable_versions": "<=1.2.4",
   "patched_versions": ">=1.2.5",

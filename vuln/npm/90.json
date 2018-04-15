@@ -5,7 +5,7 @@
   "title": "Authentication Bypass",
   "author": "Craig Arendt",
   "module_name": "console-io",
-  "publish_date": "2016-04-18T21:17:58+00:00",
+  "publish_date": "2016-04-18",
   "cves": [],
   "vulnerable_versions": "<=2.2.13",
   "patched_versions": ">=2.3.0",

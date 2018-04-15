@@ -5,7 +5,7 @@
   "title": "ReDoS",
   "author": "myvyang",
   "module_name": "brace-expansion",
-  "publish_date": "2017-04-25T18:17:23.074+00:00",
+  "publish_date": "2017-04-25",
   "cves": [],
   "vulnerable_versions": "<=1.1.6",
   "patched_versions": ">=1.1.7",

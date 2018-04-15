@@ -5,7 +5,7 @@
   "title": "Tmp files readable by other users",
   "author": "maxnikulin",
   "module_name": "sync-exec",
-  "publish_date": "2017-04-14T21:03:34.186+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

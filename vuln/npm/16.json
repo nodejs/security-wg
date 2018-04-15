@@ -5,7 +5,7 @@
   "title": "Deserialization Code Execution",
   "author": "Neal Poole",
   "module_name": "js-yaml",
-  "publish_date": "2013-06-23T22:23:50.005+00:00",
+  "publish_date": "2013-06-23",
   "cves": [
     "CVE-2013-4660"
   ],

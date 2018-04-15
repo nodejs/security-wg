@@ -5,7 +5,7 @@
   "title": "Private Data Disclosure",
   "author": "Stefan Mirea",
   "module_name": "express-restify-mongoose",
-  "publish_date": "2016-04-19T23:24:17+00:00",
+  "publish_date": "2016-04-19",
   "cves": [],
   "vulnerable_versions": "<= 2.4.2 || >= 3.0.0 <=3.0.1",
   "patched_versions": ">=2.5.0 <= 3.0.0 || >=3.1.0",

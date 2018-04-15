@@ -5,7 +5,7 @@
   "title": "Quoteless Attributes in Templates can lead to Content Injection",
   "author": "Matias P. Brutti",
   "module_name": "mustache",
-  "publish_date": "2015-12-14T17:13:57.565+00:00",
+  "publish_date": "2015-12-14",
   "cves": [
     "CVE-2015-8862"
   ],

@@ -5,7 +5,7 @@
   "title": "Resources Downloaded over Insecure Protocol",
   "author": "Adam Baldwin",
   "module_name": "igniteui",
-  "publish_date": "2016-10-31T20:31:53+00:00",
+  "publish_date": "2016-10-31",
   "cves": [],
   "vulnerable_versions": "<=0.0.5",
   "patched_versions": "<0.0.0",

@@ -5,7 +5,7 @@
   "title": "Timing attack vulnerability",
   "author": "unknown",
   "module_name": "cookie-signature",
-  "publish_date": "2016-08-29T14:27:47+00:00",
+  "publish_date": "2016-08-29",
   "cves": [
     "CVE-2016-1000236"
   ],

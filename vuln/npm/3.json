@@ -5,7 +5,7 @@
   "title": "methodOverride Middleware Reflected Cross-Site Scripting",
   "author": "Sergio Arcos",
   "module_name": "connect",
-  "publish_date": "2013-07-01T01:08:59.63+00:00",
+  "publish_date": "2013-07-01",
   "cves": [
     "CVE-2013-7370",
     "CVE-2013-7371"

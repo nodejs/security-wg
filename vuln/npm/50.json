@@ -5,7 +5,7 @@
   "title": "Insecure Comparison",
   "author": "Joshua Dague",
   "module_name": "secure-compare",
-  "publish_date": "2015-10-24T21:00:53.201+00:00",
+  "publish_date": "2015-10-24",
   "cves": [],
   "vulnerable_versions": "<=3.0.0",
   "patched_versions": ">3.0.0",

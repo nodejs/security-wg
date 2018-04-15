@@ -5,7 +5,7 @@
   "title": "Cross Site Scripting",
   "author": "Unknown",
   "module_name": "backbone",
-  "publish_date": "2016-05-23T17:50:20+00:00",
+  "publish_date": "2016-05-23",
   "cves": [],
   "vulnerable_versions": "<= 0.3.3",
   "patched_versions": ">= 0.5.0",

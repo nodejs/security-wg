@@ -5,7 +5,7 @@
   "title": "Authentication Bypass in Try Mode",
   "author": "Alan Shaw",
   "module_name": "hapi-auth-jwt2",
-  "publish_date": "2016-01-28T07:56:52.379+00:00",
+  "publish_date": "2016-01-28",
   "cves": [],
   "vulnerable_versions": "5.1.1",
   "patched_versions": ">=5.1.2",

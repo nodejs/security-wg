@@ -5,7 +5,7 @@
   "title": "Denial of Service",
   "author": "Peter Sorowka",
   "module_name": "mqtt-packet",
-  "publish_date": "2016-01-15T17:01:49.053+00:00",
+  "publish_date": "2016-01-15",
   "cves": [],
   "vulnerable_versions": "<3.4.6 || > 4.0.0 <4.0.5",
   "patched_versions": ">=3.4.6 < 4.0.0|| >=4.0.5",

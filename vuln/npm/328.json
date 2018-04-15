@@ -5,7 +5,7 @@
   "title": "Cross-Site Scripting (XSS)",
   "author": "Egor Homakov",
   "module_name": "jquery",
-  "publish_date": "2017-03-21T18:23:53+00:00",
+  "publish_date": "2017-03-21",
   "cves": [],
   "vulnerable_versions": ">=1.4.0 <=1.11.3 || >=1.12.3 <=2.2.4",
   "patched_versions": ">=3.0.0",

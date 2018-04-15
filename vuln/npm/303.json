@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Liang Gong",
   "module_name": "hostr",
-  "publish_date": "2017-04-14T22:44:30.535+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=2.3.5",
   "patched_versions": ">=2.3.6",

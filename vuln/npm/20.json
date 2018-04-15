@@ -5,7 +5,7 @@
   "title": "Potential Command Injection",
   "author": "Adam Baldwin",
   "module_name": "libnotify",
-  "publish_date": "2013-05-15T22:30:05.853+00:00",
+  "publish_date": "2013-05-15",
   "cves": [
     "CVE-2013-7381"
   ],

@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "bleach",
-  "publish_date": "2015-10-24T20:46:42.522+00:00",
+  "publish_date": "2015-10-24",
   "cves": [
     "CVE-2014-8881"
   ],

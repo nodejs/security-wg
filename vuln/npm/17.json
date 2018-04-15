@@ -5,7 +5,7 @@
   "title": "Verification Bypass",
   "author": "Tim McLean",
   "module_name": "jsonwebtoken",
-  "publish_date": "2015-04-01T02:00:00+00:00",
+  "publish_date": "2015-04-01",
   "cves": [],
   "vulnerable_versions": "<4.2.2",
   "patched_versions": ">=4.2.2",

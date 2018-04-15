@@ -5,7 +5,7 @@
   "title": "XSS via .swf files",
   "author": "Aleksandr Dobkin and Sebastian Roschke",
   "module_name": "yui",
-  "publish_date": "2017-03-24T18:44:45+00:00",
+  "publish_date": "2017-03-24",
   "cves": [
     "CVE-2013-4939",
     "CVE-2013-4940",

@@ -5,7 +5,7 @@
   "title": "VBScript Content Injection",
   "author": "Xiao Long",
   "module_name": "marked",
-  "publish_date": "2015-01-22T17:33:48+00:00",
+  "publish_date": "2015-01-22",
   "cves": [
     "CVE-2015-1370"
   ],

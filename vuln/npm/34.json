@@ -5,7 +5,7 @@
   "title": "Cross-Site Scripting",
   "author": "Ivan Kozik",
   "module_name": "serve-index",
-  "publish_date": "2015-03-14T05:24:28+00:00",
+  "publish_date": "2015-03-14",
   "cves": [
     "CVE-2015-8856"
   ],

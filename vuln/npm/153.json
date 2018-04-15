@@ -5,7 +5,7 @@
   "title": "Command Injection",
   "author": "Steve Kemp",
   "module_name": "dns-sync",
-  "publish_date": "2017-04-11T23:30:26.191+00:00",
+  "publish_date": "2017-04-11",
   "cves": [
     "CVE-2014-9682"
   ],

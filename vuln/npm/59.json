@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Luigi Pinca",
   "module_name": "milliseconds",
-  "publish_date": "2015-11-20T18:52:47.394+00:00",
+  "publish_date": "2015-11-20",
   "cves": [
     "CVE-2015-8315"
   ],

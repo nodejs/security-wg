@@ -5,7 +5,7 @@
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "fuseki",
-  "publish_date": "2016-12-16T00:27:09+00:00",
+  "publish_date": "2016-12-16",
   "cves": [],
   "vulnerable_versions": "<1.0.1",
   "patched_versions": ">=1.0.1",

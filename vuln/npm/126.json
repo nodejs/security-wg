@@ -5,7 +5,7 @@
   "title": "XSS in key names",
   "author": "Joe Vennix",
   "module_name": "swagger-ui",
-  "publish_date": "2016-07-21T20:38:25+00:00",
+  "publish_date": "2016-07-21",
   "cves": [
     "CVE-2016-1000229"
   ],

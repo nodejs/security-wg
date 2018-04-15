@@ -5,7 +5,7 @@
   "title": "Cross-Site Scripting",
   "author": "Onur Yilmaz",
   "module_name": "datatables",
-  "publish_date": "2015-09-18T19:29:10+00:00",
+  "publish_date": "2015-09-18",
   "cves": [
     "CVE-2015-6584"
   ],

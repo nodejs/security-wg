@@ -5,7 +5,7 @@
   "title": "Lack of HTML Escaping",
   "author": "Jordan Harband",
   "module_name": "forms",
-  "publish_date": "2017-04-11T23:25:46.449+00:00",
+  "publish_date": "2017-04-11",
   "cves": [],
   "vulnerable_versions": "<1.3.0",
   "patched_versions": ">=1.3.0",

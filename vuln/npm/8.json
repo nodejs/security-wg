@@ -5,7 +5,7 @@
   "title": "No Charset in Content-Type Header",
   "author": "Paweł Hałdrzyński",
   "module_name": "express",
-  "publish_date": "2014-09-12T14:46:45+00:00",
+  "publish_date": "2014-09-12",
   "cves": [
     "CVE-2014-6393"
   ],

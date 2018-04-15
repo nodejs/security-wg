@@ -5,7 +5,7 @@
   "title": "Authentication Weakness",
   "author": "Greg Meyer",
   "module_name": "keystone",
-  "publish_date": "2015-12-04T17:52:25.832+00:00",
+  "publish_date": "2015-12-04",
   "cves": [],
   "vulnerable_versions": "<0.3.16",
   "patched_versions": ">=0.3.16",

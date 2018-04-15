@@ -5,7 +5,7 @@
   "title": "Downloads resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "hubl-server",
-  "publish_date": "2017-06-05T12:37:07.359+00:00",
+  "publish_date": "2017-06-05",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

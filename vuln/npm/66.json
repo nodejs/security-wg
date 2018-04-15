@@ -5,7 +5,7 @@
   "title": "SQL Injection due to unescaped object keys",
   "author": "Sébastian Dejonghe",
   "module_name": "mysql",
-  "publish_date": "2015-12-28T18:37:37.178+00:00",
+  "publish_date": "2015-12-28",
   "cves": [],
   "vulnerable_versions": "<=v2.0.0-alpha7",
   "patched_versions": ">=v2.0.0-alpha8",

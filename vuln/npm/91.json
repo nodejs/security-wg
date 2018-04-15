@@ -5,7 +5,7 @@
   "title": "No CSRF Validation",
   "author": "Craig Arendt",
   "module_name": "droppy",
-  "publish_date": "2016-03-28T22:40:54+00:00",
+  "publish_date": "2016-03-28",
   "cves": [],
   "vulnerable_versions": "<3.5.0",
   "patched_versions": ">=3.5.0",

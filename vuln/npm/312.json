@@ -5,7 +5,7 @@
   "title": "ReDoS via long UserAgent header",
   "author": "Mathias Madsen",
   "module_name": "useragent",
-  "publish_date": "2017-04-14T22:45:42.742+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=2.1.12",
   "patched_versions": ">=2.1.13",

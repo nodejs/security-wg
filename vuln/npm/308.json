@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "saurik",
   "module_name": "decamelize",
-  "publish_date": "2017-04-14T20:58:05.019+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": ">=1.1.0 <=1.1.1",
   "patched_versions": ">=1.1.2",

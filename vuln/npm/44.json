@@ -5,7 +5,7 @@
   "title": "Denial of Service",
   "author": "Reid Burke",
   "module_name": "yar",
-  "publish_date": "2014-06-16T19:29:10+00:00",
+  "publish_date": "2014-06-16",
   "cves": [
     "CVE-2014-4179"
   ],

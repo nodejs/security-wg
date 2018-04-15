@@ -5,7 +5,7 @@
   "title": "Potential Command Injection",
   "author": "Koki Takahashi, Node Security Team",
   "module_name": "shell-quote",
-  "publish_date": "2016-06-21T17:40:40+00:00",
+  "publish_date": "2016-06-21",
   "cves": [],
   "vulnerable_versions": "<=1.6.0",
   "patched_versions": ">=1.6.1",

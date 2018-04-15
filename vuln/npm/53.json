@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "jshamcrest",
-  "publish_date": "2016-01-05T23:05:18.308+00:00",
+  "publish_date": "2016-01-05",
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",

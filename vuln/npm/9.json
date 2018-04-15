@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Adam Baldwin",
   "module_name": "fancy-server",
-  "publish_date": "2014-11-15T04:00:48+00:00",
+  "publish_date": "2014-11-15",
   "cves": [],
   "vulnerable_versions": "<0.1.4",
   "patched_versions": ">=0.1.4",

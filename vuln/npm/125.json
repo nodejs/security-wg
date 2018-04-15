@@ -5,7 +5,7 @@
   "title": "DOM-based XSS",
   "author": "Gursev Singh Kalra",
   "module_name": "gmail-js",
-  "publish_date": "2016-07-21T14:59:33+00:00",
+  "publish_date": "2016-07-21",
   "cves": [
     "CVE-2016-1000228"
   ],

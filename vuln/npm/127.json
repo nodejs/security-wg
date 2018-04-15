@@ -5,7 +5,7 @@
   "title": "XSS in dialog closeText",
   "author": "Phat Ly",
   "module_name": "jquery-ui",
-  "publish_date": "2016-07-21T22:21:41+00:00",
+  "publish_date": "2016-07-21",
   "cves": [
     "CVE-2016-7103"
   ],

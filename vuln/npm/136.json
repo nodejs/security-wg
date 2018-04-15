@@ -5,7 +5,7 @@
   "title": "Spoofing attack due to unvalidated KDC",
   "author": "Richard Silverman",
   "module_name": "node-krb5",
-  "publish_date": "2016-08-04T21:27:06+00:00",
+  "publish_date": "2016-08-04",
   "cves": [
     "CVE-2016-1000238"
   ],

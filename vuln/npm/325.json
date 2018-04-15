@@ -5,7 +5,7 @@
   "title": "Cross-Site Scripting",
   "author": "KJ Tsanaktsidis",
   "module_name": "i18next",
-  "publish_date": "2017-03-14T21:43:55+00:00",
+  "publish_date": "2017-03-14",
   "cves": [],
   "vulnerable_versions": "<=1.10.2",
   "patched_versions": ">=1.10.3",

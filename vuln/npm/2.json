@@ -5,7 +5,7 @@
   "title": "Potential Command Injection",
   "author": "Neal Poole",
   "module_name": "codem-transcode",
-  "publish_date": "2013-07-07T17:33:48+00:00",
+  "publish_date": "2013-07-07",
   "cves": [
     "CVE-2013-7377"
   ],

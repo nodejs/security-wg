@@ -5,7 +5,7 @@
   "title": "XSS in autoescape mode",
   "author": "Matt Austin",
   "module_name": "nunjucks",
-  "publish_date": "2016-10-17T16:20:29+00:00",
+  "publish_date": "2016-10-17",
   "cves": [],
   "vulnerable_versions": "<=2.4.2",
   "patched_versions": ">=2.4.3",

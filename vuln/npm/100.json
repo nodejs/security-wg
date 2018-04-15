@@ -5,7 +5,7 @@
   "title": "Regular Expression Denial Of Service",
   "author": "Peter Dotchev",
   "module_name": "uri-js",
-  "publish_date": "2017-04-14T18:44:23.702+00:00",
+  "publish_date": "2017-04-14",
   "cves": [],
   "vulnerable_versions": "<=2.1.1",
   "patched_versions": ">=3.0.0",

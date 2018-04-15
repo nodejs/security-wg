@@ -5,7 +5,7 @@
   "title": "Route level CORS config overrides connection level defaults",
   "author": "Eran Hammer",
   "module_name": "hapi",
-  "publish_date": "2015-12-28T17:17:36.462+00:00",
+  "publish_date": "2015-12-28",
   "cves": [],
   "vulnerable_versions": "<11.1.4",
   "patched_versions": ">=11.1.4",

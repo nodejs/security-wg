@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Craig Arendt",
   "module_name": "restafary",
-  "publish_date": "2016-03-28T22:21:23+00:00",
+  "publish_date": "2016-03-28",
   "cves": [],
   "vulnerable_versions": "<1.6.1",
   "patched_versions": ">=1.6.1",

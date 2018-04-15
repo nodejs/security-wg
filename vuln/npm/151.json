@@ -5,7 +5,7 @@
   "title": "Authentication bypass",
   "author": "Unknown",
   "module_name": "passport-azure-ad",
-  "publish_date": "2016-12-06T01:10:10+00:00",
+  "publish_date": "2016-12-06",
   "cves": [
     "CVE-2016-7191"
   ],

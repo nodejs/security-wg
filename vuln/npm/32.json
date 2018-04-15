@@ -5,7 +5,7 @@
   "title": "Directory Traversal",
   "author": "Ilya Kantor",
   "module_name": "send",
-  "publish_date": "2014-09-12T15:06:33+00:00",
+  "publish_date": "2014-09-12",
   "cves": [
     "CVE-2014-6394"
   ],

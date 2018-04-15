@@ -5,7 +5,7 @@
   "title": "XSS in primary functions",
   "author": "Andrea Giammarchi",
   "module_name": "emojione",
-  "publish_date": "2016-07-25T16:25:00+00:00",
+  "publish_date": "2016-07-25",
   "cves": [
     "CVE-2016-1000231"
   ],

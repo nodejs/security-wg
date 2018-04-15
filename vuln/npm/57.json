@@ -5,7 +5,7 @@
   "title": "Symlink Arbitrary File Overwrite",
   "author": "Tim Cuthbertson",
   "module_name": "tar",
-  "publish_date": "2015-11-03T07:15:12.9+00:00",
+  "publish_date": "2015-11-03",
   "cves": [
     "CVE-2015-8860"
   ],
