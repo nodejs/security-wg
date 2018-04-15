@@ -8,7 +8,7 @@
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "public",
   "cves": [],
-  "vulnerable_versions": "",
+  "vulnerable_versions": "<=0.1.3",
   "patched_versions": "",
   "slug": "public-cross-site-scripting-(xss)---stored",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
