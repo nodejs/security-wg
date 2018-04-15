@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.1.1",
   "patched_versions": ">=1.1.1",
-  "slug": "inert_hidden-directories-always-served",
   "overview": "The inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.",
   "recommendation": "Update to version >= 1.1.1.",
   "references": "- https://github.com/hapijs/inert/pull/15\n- https://github.com/hapijs/inert/commit/e8f99f94da4cb08e8032eda984761c3f111e3e82",

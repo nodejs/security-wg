@@ -12,7 +12,6 @@
   ],
   "vulnerable_versions": "<=0.3.0",
   "patched_versions": ">=0.3.1",
-  "slug": "marked_multiple-content-injection-vulnerabilities",
   "overview": "Marked comes with an option to sanitize user output to help protect against content injection attacks.\n\n```sanitize: true```\n\nEven if this option is set, marked is vulnerable to content injection in multiple locations if untrusted user input is allowed to be provided into marked and that output is passed to the browser.\n\nInjection is possible in two locations\n\n- gfm codeblocks (language)\n- javascript url's",
   "recommendation": "- Upgrade to version 0.3.1 or later",
   "references": null,

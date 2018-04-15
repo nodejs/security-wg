@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": ">=3.5.5 <=3.8.38 || >=4.0.0 <=4.3.5",
   "patched_versions": ">=4.3.6 || >=3.8.39 <4.0.0",
-  "slug": "mongoose-memory-exposure",
   "overview": "Trying to save a number to a field of type Buffer on the affected mongoose versions allocates a chunk of uninitialized memory and stores it in the database.",
   "recommendation": "update mongoose to 4.3.6 or higher",
   "references": "* https://github.com/Automattic/mongoose/issues/3764\n* https://gist.github.com/ChALkeR/d4a8055625221b6e65f0\n* https://gist.github.com/ChALkeR/440bc3dfcbd9b6da75c3",

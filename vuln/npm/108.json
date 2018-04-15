@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<= 0.3.3",
   "patched_versions": ">= 0.5.0",
-  "slug": "backbone_cross-site-scripting",
   "overview": "backbone is a module that adds in structure to a JavaScript heavy application through key-value pairs and custom events connecting to your RESTful API through JSON\n\nThere exists a potential Cross Site Scripting vulnerability in the `Model#Escape` function if a user is able to supply input.\n\nThis is due to the regex that's replacing things to miss the conversion of things such as `&#60;` to `<`.",
   "recommendation": "Upgrade to at least version 0.5.0",
   "references": "- https://github.com/jashkenas/backbone/compare/0.3.3...0.5.0#diff-0d56d0d310de7ff18b3cef9c2f8f75dcL1008\n- backbonejs.org/#changelog",

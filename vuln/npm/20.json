@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<= 1.0.3",
   "patched_versions": ">= 1.0.4",
-  "slug": "libnotify_potential-command-injection",
   "overview": "Untrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.\n\n### Example\n```\nvar libnotify = require('libnotify')\nlibnotify.notify('UNTRUSTED INPUT', { title: \\\"\\\" }, function () {\n    console.log(arguments);\n})\n```\n\nSpecial thanks to Neal Poole for submitting the pull request to fix this issue.",
   "recommendation": null,
   "references": null,

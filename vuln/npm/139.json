@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": ">=1.4.0 <2.0.0",
   "patched_versions": ">=2.0.0",
-  "slug": "pivottable_xss",
   "overview": "PivotTable.js is a Javascript Pivot Table library with drag'n'drop functionality built on top of jQuery/jQueryUI.\n\nDue to a change from text to html functions in how JSON elements are rendered, a cross site scripting (XSS) vulnerability was introduced in version 1.4.0.  This vulnerability remained in place until version 2.0.0.",
   "recommendation": "Upgrade to version 2.0.0 or later.",
   "references": "* https://github.com/nicolaskruchten/pivottable/pull/401",

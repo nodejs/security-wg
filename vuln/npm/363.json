@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3712"],
   "vulnerable_versions": "<=6.4.8",
   "patched_versions": ">=6.4.9",
-  "slug": "serve_directory-traversal",
   "overview": "serve handles directory listing on its own and does not protect against listing of any directory on the remote server.",
   "recommendation": "update serve to 6.4.9 or higher",
   "references": "https://hackerone.com/reports/307666",

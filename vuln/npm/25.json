@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "slug": "nhouston_directory-traversal",
   "overview": "All versions of the static file server module nhouston are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
   "recommendation": "It is recommended that a different module be used, as we have been unable to reacher the maintainer of this module. We will continue to reach out to them, and if an update becomes available that fixes the issue, we will update this advisory accordingly.",
   "references": "- http://en.wikipedia.org/wiki/Directory_traversal_attack",

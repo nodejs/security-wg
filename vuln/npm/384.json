@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3713"],
   "vulnerable_versions": "<1.4.3",
   "patched_versions": ">=1.4.3",
-  "slug": "angular-http-server-path-traversal",
   "overview": "angular-http-server path traversal allows to read arbitrary files from remote server",
   "recommendation": "update angular-http-server to 1.4.3 or higher",
   "references": "- https://hackerone.com/reports/309120",

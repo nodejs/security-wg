@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "2.1.4",
   "patched_versions": ">=2.1.5",
-  "slug": "swagger-ui_xss-via-content-type-header",
   "overview": "By using a malicious server which returns script as the value of the Content-Type header, it is possible to execute arbitrary code using the demonstration capabilities of Swagger-UI.",
   "recommendation": "Update to 2.1.5 or later.",
   "references": "* https://github.com/swagger-api/swagger-ui/issues/1863",

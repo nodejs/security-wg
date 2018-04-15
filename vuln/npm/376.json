@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3732"],
   "vulnerable_versions": "<1.4.0",
   "patched_versions": ">=1.4.0",
-  "slug": "resolve-path-path-traversal",
   "overview": "resolve-path relative path resolving suffers from a lack of file path sanitization for windows based paths",
   "recommendation": "update resolve-path to 1.4.0 or higher",
   "references": "- https://hackerone.com/reports/315760\n- https://github.com/pillarjs/resolve-path/commit/fe5b8052cafd35fcdafe9210e100e9050b37d2a0",

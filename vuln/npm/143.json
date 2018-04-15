@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=6.0.4",
   "patched_versions": ">=6.0.5",
-  "slug": "pouchdb_arbitrary-code-injection",
   "overview": "An arbitrary code injection vector was found in PouchDB 5.4.5 and lesser via the map/reduce functions used in PouchDB temporary views and design documents. The code execution engine for this branch is not properly sandboxed and may be used to run arbitrary JavaScript as well as system commands.",
   "recommendation": "Update to version 6.0.5 or later.",
   "references": null,

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.6.6",
   "patched_versions": ">=0.7.0",
-  "slug": "http-proxy_insufficient-error-handling",
   "overview": "Http-proxy is a proxying library.\n\nBecause of the way errors are handled in versions before 0.7.0, an attacker that forces an error can crash the server, causing a denial of service.",
   "recommendation": "Upgrade to v0.7.0 or later.",
   "references": "* [GitHub Pull Request](https://github.com/nodejitsu/node-http-proxy/pull/101)",

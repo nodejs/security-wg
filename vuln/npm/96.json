@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.3.8",
   "patched_versions": ">=0.4.0",
-  "slug": "airbrake_insecure-default-configuration",
   "overview": "The airbrake module defaults to sending environment variables over HTTP. Environment variables can often times contain secret keys and other sensitive values. A malicious user could be on the same network as a regular user and intercept all the secret keys the user is sending. This goes against common best practice, which is to use HTTPS.",
   "recommendation": "Change to use https or update to at least version 0.4.0",
   "references": "- https://github.com/airbrake/node-airbrake/issues/70",

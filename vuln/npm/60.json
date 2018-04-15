@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.3.16",
   "patched_versions": ">=0.3.16",
-  "slug": "keystone_authentication-weakness",
   "overview": "Due to a bug in the the default sign in functionality, incomplete email addresses could be matched. A correct password is still required to complete sign in.",
   "recommendation": "Users of this module should update to version 0.3.16 or greater",
   "references": null,

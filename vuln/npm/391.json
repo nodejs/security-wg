@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.9.4 || 1.0.0",
   "patched_versions": ">=1.0.1 || >=0.9.5 <1.0.0",
-  "slug": "bl-memory-exposure",
   "overview": "bl.append(number) in the affected `bl` versions passes a number to Buffer constructor, appeding a chunk of unitialized memory",
   "recommendation": "update bl to 1.0.1 or higher",
   "references": "* https://github.com/rvagg/bl/pull/22",

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.2.4",
   "patched_versions": ">=1.2.4",
-  "slug": "embedza_downloads-resources-over-http",
   "overview": "embedza is a module to create HTML snippets/embeds from URLs using info from oEmbed, Open Graph, meta tags.\n\nembedza versions below 1.2.4 download JavaScript resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested JavaScript  file with an attacker controlled JavaScript file if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 1.2.4 or later.",
   "references": null,

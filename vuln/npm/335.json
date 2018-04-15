@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": ">= 15.0.0 <= 16.1.0",
   "patched_versions": ">= 16.1.1",
-  "slug": "hapi_denial-of-service-via-malformed-accept-encoding-header",
   "overview": "hapi is a web and services application framework.\n\nWhen hapi encounters a malformed `accept-encoding` header an uncaught exception is thrown. This may cause hapi to crash or to hang the client connection until the timeout period is reached.",
   "recommendation": "Upgrade to hapi 16.1.1 or greater.",
   "references": "- https://github.com/hapijs/hapi/issues/3466",

@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "< 3.1.3  || >= 4.0.0 <4.1.1",
   "patched_versions": ">=3.1.3 < 4.0.0 || >=4.1.1",
-  "slug": "hawk_regular-expression-denial-of-service",
   "overview": "Specifically crafted long headers or uris can cause a minor denial of service when using hawk versions less than 4.1.1.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\"\n\nUpdates:\n- Updated to include fix in 3.1.3 ",
   "recommendation": "Update to hawk version 4.1.1 or greater.",
   "references": "- https://github.com/hueniverse/hawk/issues/168\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.4.4",
   "patched_versions": ">=0.4.4",
-  "slug": "go-ipfs-dep_insecure-fetch-of-resources-over-http",
   "overview": "During the installation process, the go-ipfs-deps module insecurely downloads resources over HTTP. This allows for a MITM attack to compromise the integrity of the resources used by this module and could allow for further compromise.",
   "recommendation": "Update to version 0.4.4 or greater",
   "references": "- https://github.com/diasdavid/go-ipfs-dep/pull/12",

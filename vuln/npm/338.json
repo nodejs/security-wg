@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=1.1.6",
   "patched_versions": ">=1.1.7",
-  "slug": "brace-expansion_redos",
   "overview": "brace-expansion is a module to support bash-like brace expansion in JavaScript.  For example,`{1,2,3,4}` would expand to `1 2 3 4`.\nbrace expansion versions before 1.1.7 are vulnerable to Regular Expression Denial of Service attacks.  A proof of concept is provided below:\n\n```\nvar expand = require('brace-expansion');\nexpand('{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\\n}');\n```",
   "recommendation": "Upgrade to version 1.1.7 or later.",
   "references": "* https://github.com/juliangruber/brace-expansion/issues/33\n* https://github.com/juliangruber/brace-expansion/pull/35\n* https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3",

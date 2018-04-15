@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=1.4.2",
   "patched_versions": ">=1.4.3",
-  "slug": "sanitize-html_xss-sanitization-not-applied-recursively",
   "overview": "Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.",
   "recommendation": "Upgrade to 1.4.3 or later",
   "references": "* https://github.com/punkave/sanitize-html/issues/29",

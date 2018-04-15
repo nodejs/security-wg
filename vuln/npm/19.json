@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=2.2.4",
   "patched_versions": "<0.0.0",
-  "slug": "ldapauth_ldap-injection",
   "overview": "ldapauth versions <= 2.2.4 are vulnerable to ldap injection through the username parameter.",
   "recommendation": "Consider updating to use [ldapauth-fork](https://www.npmjs.com/package/ldapauth-fork) 2.3.3 or greater as ldapauth has not yet been patched.",
   "references": "- http://www.openwall.com/lists/oss-security/2015/09/18/4",

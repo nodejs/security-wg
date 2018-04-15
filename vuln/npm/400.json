@@ -10,7 +10,6 @@
   "cves": [],
   "vulnerable_versions": "<=6.8.5",
   "patched_versions": ">=6.8.6",
-  "slug": "protobufjs-denial-of-service",
   "recommendation": "update protobufjs to 6.8.6 or higher",
   "references": "- https://hackerone.com/reports/319576\n- https://github.com/dcodeIO/protobuf.js/blob/6.8.5/src/parse.js#L27",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H",

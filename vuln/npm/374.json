@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3726"],
   "vulnerable_versions": "<=0.7.0",
   "patched_versions": ">=0.8.0",
-  "slug": "crud-file-server-xss",
   "overview": "crud-file-server suffers from stored XSS in filenames when directory index is served by crud-file-server",
   "recommendation": "update crud-file-server to 0.8.0 or higher",
   "references": "- https://hackerone.com/reports/311101\n- https://github.com/omphalos/crud-file-server/commit/4155bfe068bf211b49a0b3ffd06e78cbaf1b40fa",

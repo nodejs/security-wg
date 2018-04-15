@@ -10,7 +10,6 @@
   "cves": [],
   "vulnerable_versions": "<=2.1.1",
   "patched_versions": ">=2.2.0",
-  "slug": "https-proxy-agent-denial-of-service",
   "recommendation": "update https-proxy-agent to 2.2.0 or higher",
   "references": "- https://hackerone.com/reports/319532\n- https://github.com/TooTallNate/node-https-proxy-agent/blob/2.1.1/index.js#L207",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",

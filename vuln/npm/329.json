@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": ">=1.7.1 <=1.8.3",
   "patched_versions": ">=1.9.0",
-  "slug": "jquery_xss-via-improper-selector-detection",
   "overview": "jQuery is a javascript library for DOM manipulation. \n\njQuery's main method in affected versions contains an unreliable way of detecting whether the input to the `jQuery(strInput)` function is intended to be a selector or HTML.\n\nFor example, this code would be parsed as a selector, executing the code in the `onerror` attribute:\n```\n$(\"#log\").html(\n    $(\"element[attribute='<img src=\\\"x\\\" onerror=\\\"alert(1)\\\" />']\").html()\n);\n```\n\nThe fix in v1.9.0 updates a regular expression for detecting whether the input is HTML or a selector. HTML input must now explicitly start with `<`, rather than previously assuming that the input was HTML if the string contained `<` anywhere.",
   "recommendation": "Upgrade to v1.9.0 or greater.",
   "references": "* [jQuery Ticket 11290](https://bugs.jquery.com/ticket/11290)\n\nRelated:\n* [jQuery Ticket 6429](https://bugs.jquery.com/ticket/6429)\n* [jQuery Ticket 9521](https://bugs.jquery.com/ticket/9521)\n* [jQuery Ticket 12531](https://bugs.jquery.com/ticket/12531)",

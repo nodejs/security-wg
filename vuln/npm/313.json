@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=0.5.0",
   "patched_versions": ">=1.0.0",
-  "slug": "serialize-to-js_arbitrary-code-execution",
   "overview": "Serialize-to-js can \"serialize objects into a require-able module while checking circular structures and respecting references.\"\n\nPassing untrusted data to the `.deserialize` function can cause arbitrary code execution through an Immediately Invoked Function Expression (IIFE). \n\nExample:\n```\nvar payload = \"{e: (function(){ eval('console.log(`exploited`)') })() }\"\nvar serialize = require('serialize-to-js');\nserialize.deserialize(payload);\n```",
   "recommendation": "Upgrade to version 1.0.0, be aware of [this disclaimer](https://www.npmjs.com/package/serialize-to-js#deserialize) from the author.",
   "references": "https://www.npmjs.com/package/serialize-to-js#deserialize",

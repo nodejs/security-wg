@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.6.0",
   "patched_versions": ">=0.6.0",
-  "slug": "tunnel-agent-memory-exposure",
   "overview": "PoC:\n```js\nrequire('request')({\n  method: 'GET',\n  uri: 'http://www.example.com',\n  tunnel: true,\n  proxy:{\n      protocol: 'http:',\n      host:'127.0.0.1',\n      port:8080,\n      auth:80 // number\n  }\n});\n```\n\nReported at 2016-11-20.",
   "recommendation": "update tunnel-agent to 0.6.0 or higher",
   "references": "* https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4\n* https://github.com/request/tunnel-agent/commit/9ca95ec7219daface8a6fc2674000653de0922c0",

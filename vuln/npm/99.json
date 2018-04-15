@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<= 1.6.8",
   "patched_versions": ">= 1.6.9",
-  "slug": "engineio-client_tls-connections-over-websockets-vulnerable-to-mitm",
   "overview": "engine.io-client is the client for [engine.io](https://github.com/socketio/engine.io), the implementation of a transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO.\n\nThe vulnerability is related to the way that node.js handles the `rejectUnauthorized` setting. If the value is something that evaluates to false, certificate verification will be disabled.\n\nThis is problematic as engine.io-client passes in an object for settings that includes the rejectUnauthorized property, whether it has been set or not. If the value has not been explicitly changed, it will be passed in as `null`, resulting in certificate verification being turned off:\n\n``` \n // line that causes bug\nthis.rejectUnauthorized = opts.rejectUnauthorized === undefined ? null : opts.rejectUnauthorized;\n ```",
   "recommendation": "Upgrade to version 1.6.9 or greater. If you are unable to upgrade, make sure and force all calls to socket.io to have a `rejectedUnauthorized: true` flag.",
   "references": "- https://github.com/socketio/engine.io-client/commit/2c55b278a491bf45313ecc0825cf800e2f7ff5c1\n- https://www.cigital.com/blog/node-js-socket-io/",

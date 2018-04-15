@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.3.2",
   "patched_versions": ">=0.3.2",
-  "slug": "bkjs-wand_downloads-resources-over-http",
   "overview": "bkjs-wand is imagemagick wand support for node.js and backendjs\n\nbkjs-wand versions lower than 0.3.2 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 0.3.2 or later.",
   "references": null,

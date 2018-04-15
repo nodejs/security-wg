@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<1.6.3",
   "patched_versions": ">=1.6.3",
-  "slug": "serve-index_cross-site-scripting",
   "overview": "When using serve-index middleware version < 1.6.3 file and directory names are not escaped in HTML output. If remote users can influence file or directory names, this can trigger a persistent XSS attack.",
   "recommendation": "* Update to version 1.6.3 or greater",
   "references": "- https://github.com/expressjs/serve-index/issues/28\n- https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29",

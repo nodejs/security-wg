@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=1.2.4",
   "patched_versions": ">=1.2.5",
-  "slug": "reduce-css-calc_arbitrary-code-injection",
   "overview": "Arbitrary code execution is possible through crafted css.  This makes cross sites scripting (XSS) possible on the client and arbitrary code injection possible on the server and user input is passed to the `calc` function.",
   "recommendation": "Update to version 1.2.5 or later",
   "references": "* https://gist.github.com/ChALkeR/415a41b561ebea9b341efbb40b802fc9",

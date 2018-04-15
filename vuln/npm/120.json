@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=1.1.0",
   "patched_versions": ">=1.1.1",
-  "slug": "socketio_dos-due-to-excessively-large-websocket-message",
   "overview": "ws is a \"simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455\"\n\nBy sending an overly long websocket payload to a `ws` server, it is possible to crash the node process.",
   "recommendation": "Update to version 1.1.1 of ws, or if that is not possible, set the `maxpayload` option for the `ws` server - make sure the value is less than 256MB.",
   "references": "https://github.com/nodejs/node/issues/7388",

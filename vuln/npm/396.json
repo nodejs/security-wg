@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.1.1",
   "patched_versions": ">=0.1.1",
-  "slug": "floody-memory-exposure",
   "overview": "`.write(number)` in the affected `floody` versions passes a number to Buffer constructor, appeding a chunk of unitialized memory.\nPoC: `var f = require('floody')(process.stdout); f.write(1000); f.stop();`",
   "recommendation": "update floody to 1.1.1 or higher",
   "references": "* https://github.com/soldair/node-floody/commit/6c44722312131f4ac8a1af40f0f861c85efe01b0",

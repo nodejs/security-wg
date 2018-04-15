@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<0.11.1",
   "patched_versions": ">=0.11.1",
-  "slug": "send_root-path-disclosure",
   "overview": "The send module < 0.11.1 discloses the root path.",
   "recommendation": "Upgrade to send version 0.11.1 or greater.",
   "references": "- https://github.com/pillarjs/send/pull/70\n- https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20",

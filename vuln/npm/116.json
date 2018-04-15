@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.0.5",
   "patched_versions": "<0.0.0",
-  "slug": "igniteui_resources-downloaded-over-insecure-protocol",
   "overview": "Downloads JavaScript and CSS resources over insecure protocol\n\nhttp://cdn-na.infragistics.com/igniteui/latest/css/structure/infragistics.css\nhttp://cdn-na.infragistics.com/igniteui/latest/css/themes/infragistics/infragistics.theme.css\nhttp://cdn-na.infragistics.com/igniteui/latest/js/infragistics.lob.js\nhttp://cdn-na.infragistics.com/igniteui/latest/js/infragistics.dv.js\nhttp://cdn-na.infragistics.com/igniteui/latest/js/infragistics.core.js",
   "recommendation": null,
   "references": null,

@@ -12,7 +12,6 @@
   ],
   "vulnerable_versions": "<6.5.2",
   "patched_versions": ">=6.5.2",
-  "slug": "serve-information-exposure-through-directory-listing",
   "recommendation": "update serve to 6.5.2 or higher",
   "references": "- https://hackerone.com/reports/308721",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",

@@ -10,7 +10,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.5.0",
   "patched_versions": "",
-  "slug": "deep-extend-prototype-pollution",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/311333",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",

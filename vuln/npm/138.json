@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=0.4.10",
   "patched_versions": ">=0.4.11",
-  "slug": "c3_xss-via-tooltips",
   "overview": "c3 is a D3-based reusable chart library that enables deeper integration of charts into web applications.\n\nVersions 0.4.10 and lower of c3 contain a cross site scripting (XSS) vulnerability through improper html sanitization on rendered tooltips.",
   "recommendation": "Upgrade to 0.4.11 or later",
   "references": "* https://github.com/c3js/c3/issues/1536",

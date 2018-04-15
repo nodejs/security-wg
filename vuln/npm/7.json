@@ -12,7 +12,6 @@
   ],
   "vulnerable_versions": "<=0.0.2",
   "patched_versions": ">=0.0.3",
-  "slug": "ep_imageconvert_unauthenticated-remote-command-injection",
   "overview": "ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.\n\nAuthentication is not required for remote exploitation.",
   "recommendation": "Update to version 0.0.3 or greater.",
   "references": "- https://github.com/redhog/ep_imageconvert/pull/5",

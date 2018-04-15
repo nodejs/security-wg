@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.0.1",
   "patched_versions": ">=1.0.1",
-  "slug": "fuseki_downloads-resources-over-http",
   "overview": "Fuseki server wrapper and management API\n\nfuseki downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Upgrade to version 1.0.1 or greater.",
   "references": null,

@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3727"],
   "vulnerable_versions": "<=1.1.1",
   "patched_versions": null,
-  "slug": "626-path-traversal",
   "overview": "626 Path Traversal allows to read arbitrary file from remote server",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/311216",

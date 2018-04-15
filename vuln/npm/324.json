@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.9.3",
   "patched_versions": ">=0.9.3",
-  "slug": "node-jose_invalid-curve-attack",
   "overview": "node-jose is a JavaScript implementation of the JSON Object Signing and Encryption (JOSE) for current web browsers and node.js-based servers.\n\nAs outlined in [this post](http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html) node-jose earlier than version 0.9.3 is vulnerable to an invalid curve attack. This allows an attacker to recover the private secret key when JWE with Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) is used.\n\n[Proof of Concept](https://gist.github.com/asanso/fa25685348051ef6a28d49aa0f27a4ae)",
   "recommendation": "Upgrade to version 0.9.3 or greater",
   "references": "- http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html\n- https://github.com/cisco/node-jose",

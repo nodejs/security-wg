@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=2.3.5",
   "patched_versions": ">=2.3.6",
-  "slug": "hostr_directory-traversal",
   "overview": "hostr is a simple web server that serves up the contents of the current directory.  \nThere is a directory traversal vulnerability in hostr that allows an attacker to read files outside the current directory by sending `../` in the url path for GET requests.",
   "recommendation": "Upgrade to v2.3.6 or later.",
   "references": "* [GitHub Issure](https://github.com/henrytseng/hostr/issues/8)",

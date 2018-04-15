@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3729"],
   "vulnerable_versions": "<1.0.2",
   "patched_versions": ">=1.0.2",
-  "slug": "localhost-now-path-traversal",
   "overview": "localhost-now Path Traversal allows to read content of arbitrary file",
   "recommendation": "update localhost-now to 1.0.2 or higher",
   "references": "- https://hackerone.com/reports/312889\n- https://github.com/DCKT/localhost-now/commit/30b004c7f145d677df8800a106c2edc982313995#diff-b9cfc7f2cdf78a7f4b91a753d10865a2",

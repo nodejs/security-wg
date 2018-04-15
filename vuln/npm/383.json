@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3714"],
   "vulnerable_versions": "<2.1.1",
   "patched_versions": ">=2.1.1",
-  "slug": "node-srv-path-traversal",
   "overview": "node-srv path traversal allows to read arbitrary files from remote server",
   "recommendation": "update node-srv to 2.1.1 or higher",
   "references": "- https://hackerone.com/reports/309124",

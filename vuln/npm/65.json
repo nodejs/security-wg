@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<11.1.4",
   "patched_versions": ">=11.1.4",
-  "slug": "hapi_route-level-cors-config-overrides-connection-level-defaults",
   "overview": "When server level, connection level or route level CORS configurations are combined and when a higher level config included security restrictions (like origin), a higher level config that included security restrictions (like origin) would have those restrictions overridden by less restrictive defaults (e.g. origin defaults to all origins `*`).",
   "recommendation": "You should install hapi v11.1.4 or newer if you combine server level, connection level, or route level CORS configuration.",
   "references": "- https://github.com/hapijs/hapi/issues/2980",

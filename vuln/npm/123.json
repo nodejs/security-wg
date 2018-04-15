@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "2.1.4",
   "patched_versions": ">=2.1.5",
-  "slug": "swagger-ui_xss-in-consumesproduces-parameter",
   "overview": "Swagger is a standardized library for documenting API endpoints and their parameters.  Swagger uses a JSON document to organize API endpoint parameter data.\n\nSwagger-UI version 2.1.4 contains a cross site scripting (XSS) vulnerability in the `consumes` and `produces` parameters of the swagger json document for a given API.  A maliciously crafted swagger JSON doc can be loaded via the URL query-string parameter `url`.\n\n To exploit the vulnerability, an attacker would convince a user to visit a malicious url crafted in the following format:\n ```\nhttp://<USER_HOSTNAME>/swagger-ui/index.html?url=http://<MALICIOUS_HOSTNAME>/malicious-swagger-file.json\n````\n\nThis issue is being disclosed before a public patched release is available due to the issue being made public in a Github issue.",
   "recommendation": "Update to version 2.1.5 or greater.",
   "references": "* https://github.com/swagger-api/swagger-ui/issues/1866\n* https://github.com/swagger-api/swagger-ui/pull/1867",
