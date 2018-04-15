@@ -1,0 +1,19 @@
+{
+  "id": 408,
+  "title": "deep-extend prototype pollution",
+  "overview": "deep-extend node module suffers from a prototype pollution vulnerability",
+  "created_at": "2018-02-17",
+  "updated_at": "2018-04-09",
+  "publish_date": "2018-04-09",
+  "author": "Olivier Arteau (HoLyVieR)",
+  "module_name": "deep-extend",
+  "cves": [],
+  "vulnerable_versions": "<=0.5.0",
+  "patched_versions": "",
+  "slug": "deep-extend-prototype-pollution",
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://hackerone.com/reports/311333",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+  "cvss_score": 2,
+  "coordinating_vendor": ""
+}
