@@ -1,7 +1,7 @@
 {
   "id": 161,
-  "created_at": "2016-11-30T20:49:04+00:00",
-  "updated_at": "2016-12-18T22:46:36+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-18",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "unicode",

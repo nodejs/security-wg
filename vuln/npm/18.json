@@ -1,7 +1,7 @@
 {
   "id": 18,
-  "created_at": "2015-10-17T19:41:46.382+00:00",
-  "updated_at": "2016-04-28T16:50:25+00:00",
+  "created_at": "2015-10-17",
+  "updated_at": "2016-04-28",
   "title": "LDAP Injection",
   "author": "Jerome Touffe-Blin",
   "module_name": "ldapauth-fork",

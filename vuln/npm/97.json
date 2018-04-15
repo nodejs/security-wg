@@ -1,7 +1,7 @@
 {
   "id": 97,
-  "created_at": "2016-03-30T22:22:15+00:00",
-  "updated_at": "2016-04-25T14:49:30+00:00",
+  "created_at": "2016-03-30",
+  "updated_at": "2016-04-25",
   "title": "Template Injection",
   "author": "Paweł Hałdrzyński",
   "module_name": "jsrender",

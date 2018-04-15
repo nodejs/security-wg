@@ -1,7 +1,7 @@
 {
   "id": 334,
-  "created_at": "2017-03-30T04:08:35+00:00",
-  "updated_at": "2017-06-05T12:37:07.359+00:00",
+  "created_at": "2017-03-30",
+  "updated_at": "2017-06-05",
   "title": "Downloads resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "hubl-server",

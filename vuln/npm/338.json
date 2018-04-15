@@ -1,7 +1,7 @@
 {
   "id": 338,
-  "created_at": "2017-04-25T18:07:05.988+00:00",
-  "updated_at": "2017-04-26T15:26:02.761+00:00",
+  "created_at": "2017-04-25",
+  "updated_at": "2017-04-26",
   "title": "ReDoS",
   "author": "myvyang",
   "module_name": "brace-expansion",

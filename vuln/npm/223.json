@@ -1,7 +1,7 @@
 {
   "id": 223,
-  "created_at": "2016-12-01T16:15:25+00:00",
-  "updated_at": "2017-01-01T04:05:59+00:00",
+  "created_at": "2016-12-01",
+  "updated_at": "2017-01-01",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "apk-parser2",

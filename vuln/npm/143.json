@@ -1,7 +1,7 @@
 {
   "id": 143,
-  "created_at": "2016-08-25T13:05:58+00:00",
-  "updated_at": "2016-10-17T16:20:12+00:00",
+  "created_at": "2016-08-25",
+  "updated_at": "2016-10-17",
   "title": "Arbitrary Code Injection",
   "author": "micaksica",
   "module_name": "pouchdb",

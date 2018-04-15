@@ -1,7 +1,7 @@
 {
   "id": 94,
-  "created_at": "2016-03-28T21:18:24+00:00",
-  "updated_at": "2016-05-13T20:43:49+00:00",
+  "created_at": "2016-03-28",
+  "updated_at": "2016-05-13",
   "title": "Non-Constant Time String Comparison",
   "author": "Todd Wolfson",
   "module_name": "csrf-lite",

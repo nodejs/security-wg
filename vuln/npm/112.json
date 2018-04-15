@@ -1,7 +1,7 @@
 {
   "id": 112,
-  "created_at": "2016-05-05T22:08:26+00:00",
-  "updated_at": "2016-10-31T20:31:20+00:00",
+  "created_at": "2016-05-05",
+  "updated_at": "2016-10-31",
   "title": "SQL Injection",
   "author": "Spencer Creasey",
   "module_name": "sequelize",

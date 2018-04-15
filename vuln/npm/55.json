@@ -1,7 +1,7 @@
 {
   "id": 55,
-  "created_at": "2015-10-26T23:19:57.916+00:00",
-  "updated_at": "2016-04-21T00:15:20+00:00",
+  "created_at": "2015-10-26",
+  "updated_at": "2016-04-21",
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "moment",

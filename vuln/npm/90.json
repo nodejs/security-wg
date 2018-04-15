@@ -1,7 +1,7 @@
 {
   "id": 90,
-  "created_at": "2016-03-28T17:21:46+00:00",
-  "updated_at": "2016-06-02T18:53:53+00:00",
+  "created_at": "2016-03-28",
+  "updated_at": "2016-06-02",
   "title": "Authentication Bypass",
   "author": "Craig Arendt",
   "module_name": "console-io",

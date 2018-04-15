@@ -1,7 +1,7 @@
 {
   "id": 168,
-  "created_at": "2016-11-30T21:39:32+00:00",
-  "updated_at": "2016-12-18T22:47:19+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-18",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "steroids",

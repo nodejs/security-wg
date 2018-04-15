@@ -1,7 +1,7 @@
 {
   "id": 118,
-  "created_at": "2016-05-25T16:37:20+00:00",
-  "updated_at": "2016-08-09T14:16:01+00:00",
+  "created_at": "2016-05-25",
+  "updated_at": "2016-08-09",
   "title": "Regular Expression Denial of Service",
   "author": "Nick Starke",
   "module_name": "minimatch",

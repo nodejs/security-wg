@@ -1,7 +1,7 @@
 {
   "id": 131,
-  "created_at": "2016-07-22T21:20:22+00:00",
-  "updated_at": "2017-02-10T19:47:55+00:00",
+  "created_at": "2016-07-22",
+  "updated_at": "2017-02-10",
   "title": "XSS via Content-type header",
   "author": "Joe Vennix",
   "module_name": "swagger-ui",

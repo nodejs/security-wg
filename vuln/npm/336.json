@@ -1,7 +1,7 @@
 {
   "id": 336,
-  "created_at": "2017-04-17T22:22:55.649+00:00",
-  "updated_at": "2017-05-19T15:05:56.204+00:00",
+  "created_at": "2017-04-17",
+  "updated_at": "2017-05-19",
   "title": "Command Execution",
   "author": "Daniel Bond",
   "module_name": "windows-cpu",

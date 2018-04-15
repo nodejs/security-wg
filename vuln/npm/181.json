@@ -1,7 +1,7 @@
 {
   "id": 181,
-  "created_at": "2016-11-30T22:42:29+00:00",
-  "updated_at": "2016-12-18T22:48:30+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-18",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "dalek-browser-chrome-canary",

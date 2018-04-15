@@ -1,7 +1,7 @@
 {
   "id": 66,
-  "created_at": "2015-12-28T18:37:19.938+00:00",
-  "updated_at": "2016-04-20T17:53:55+00:00",
+  "created_at": "2015-12-28",
+  "updated_at": "2016-04-20",
   "title": "SQL Injection due to unescaped object keys",
   "author": "Sébastian Dejonghe",
   "module_name": "mysql",

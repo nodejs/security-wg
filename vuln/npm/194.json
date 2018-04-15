@@ -1,7 +1,7 @@
 {
   "id": 194,
-  "created_at": "2016-12-01T00:31:44+00:00",
-  "updated_at": "2017-01-01T01:41:32+00:00",
+  "created_at": "2016-12-01",
+  "updated_at": "2017-01-01",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "imageoptim",

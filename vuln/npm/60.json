@@ -1,7 +1,7 @@
 {
   "id": 60,
-  "created_at": "2015-12-04T16:56:49.01+00:00",
-  "updated_at": "2016-04-27T21:10:09+00:00",
+  "created_at": "2015-12-04",
+  "updated_at": "2016-04-27",
   "title": "Authentication Weakness",
   "author": "Greg Meyer",
   "module_name": "keystone",

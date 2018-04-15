@@ -1,7 +1,7 @@
 {
   "id": 248,
-  "created_at": "2016-12-01T19:16:27+00:00",
-  "updated_at": "2017-01-01T04:17:35+00:00",
+  "created_at": "2016-12-01",
+  "updated_at": "2017-01-01",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "prebuild-lwip",

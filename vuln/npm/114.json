@@ -1,7 +1,7 @@
 {
   "id": 114,
-  "created_at": "2016-05-05T22:29:59+00:00",
-  "updated_at": "2017-02-10T19:28:03+00:00",
+  "created_at": "2016-05-05",
+  "updated_at": "2017-02-10",
   "title": "Insecure Defaults Leads to Potential MITM",
   "author": "Adam Baldwin",
   "module_name": "ezseed-transmission",

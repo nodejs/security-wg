@@ -1,7 +1,7 @@
 {
   "id": 109,
-  "created_at": "2016-05-05T21:50:26+00:00",
-  "updated_at": "2016-10-31T20:32:07+00:00",
+  "created_at": "2016-05-05",
+  "updated_at": "2016-10-31",
   "title": "Potential SQL Injection",
   "author": null,
   "module_name": "sequelize",

@@ -1,7 +1,7 @@
 {
   "id": 129,
-  "created_at": "2016-07-22T17:58:08+00:00",
-  "updated_at": "2017-02-10T19:46:33+00:00",
+  "created_at": "2016-07-22",
+  "updated_at": "2017-02-10",
   "title": "XSS in primary functions",
   "author": "Andrea Giammarchi",
   "module_name": "emojione",

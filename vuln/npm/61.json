@@ -1,7 +1,7 @@
 {
   "id": 61,
-  "created_at": "2015-12-14T16:51:56.173+00:00",
-  "updated_at": "2016-04-25T15:20:33+00:00",
+  "created_at": "2015-12-14",
+  "updated_at": "2016-04-25",
   "title": "Quoteless Attributes in Templates can lead to Content Injection",
   "author": "Matias P. Brutti",
   "module_name": "handlebars",

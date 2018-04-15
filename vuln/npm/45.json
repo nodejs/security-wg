@@ -1,7 +1,7 @@
 {
   "id": 45,
-  "created_at": "2015-10-20T18:29:09.702+00:00",
-  "updated_at": "2016-04-25T15:35:32+00:00",
+  "created_at": "2015-10-20",
+  "updated_at": "2016-04-25",
   "title": "Incorrect handling of CORS preflight request headers",
   "author": "Eran Hammer",
   "module_name": "hapi",

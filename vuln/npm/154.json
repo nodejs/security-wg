@@ -1,7 +1,7 @@
 {
   "id": 154,
-  "created_at": "2016-10-27T16:25:30+00:00",
-  "updated_at": "2017-04-12T06:30:36.124+00:00",
+  "created_at": "2016-10-27",
+  "updated_at": "2017-04-12",
   "title": "Cross Site Scripting",
   "author": "Andrew Krasichkov",
   "module_name": "sanitize-html",

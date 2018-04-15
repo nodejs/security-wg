@@ -1,7 +1,7 @@
 {
   "id": 330,
-  "created_at": "2017-03-21T19:17:05+00:00",
-  "updated_at": "2017-04-14T22:04:14.246+00:00",
+  "created_at": "2017-03-21",
+  "updated_at": "2017-04-14",
   "title": "Exceeding Stack Call Limit DoS",
   "author": "Michał Gołębiowski",
   "module_name": "jquery",

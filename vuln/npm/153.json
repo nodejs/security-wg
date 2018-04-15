@@ -1,7 +1,7 @@
 {
   "id": 153,
-  "created_at": "2016-10-27T16:23:56+00:00",
-  "updated_at": "2017-04-12T22:18:23.432+00:00",
+  "created_at": "2016-10-27",
+  "updated_at": "2017-04-12",
   "title": "Command Injection",
   "author": "Steve Kemp",
   "module_name": "dns-sync",

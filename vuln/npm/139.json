@@ -1,7 +1,7 @@
 {
   "id": 139,
-  "created_at": "2016-08-10T15:05:24+00:00",
-  "updated_at": "2017-04-20T04:19:32.198+00:00",
+  "created_at": "2016-08-10",
+  "updated_at": "2017-04-20",
   "title": "Cross-Site Scripting (XSS)",
   "author": "Todd Wolfson",
   "module_name": "pivottable",

@@ -1,7 +1,7 @@
 {
   "id": 99,
-  "created_at": "2016-04-04T19:46:25+00:00",
-  "updated_at": "2016-05-13T20:39:38+00:00",
+  "created_at": "2016-04-04",
+  "updated_at": "2016-05-13",
   "title": "Insecure Defaults Allow MITM Over TLS",
   "author": "David Johansson",
   "module_name": "engine.io-client",

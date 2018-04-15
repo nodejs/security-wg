@@ -1,7 +1,7 @@
 {
   "id": 178,
-  "created_at": "2016-11-30T22:32:14+00:00",
-  "updated_at": "2017-01-05T23:56:22+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2017-01-05",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "libxl",

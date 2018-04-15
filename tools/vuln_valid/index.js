@@ -20,8 +20,8 @@ const coreModel = joi.object().keys({
 const npmModel = joi.object().keys({
   id: joi.number().required(),
   cves: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
-  created_at: joi.date().iso().required(),
-  updated_at: joi.date().iso().required(),
+  created_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
+  updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
   title: joi.string().required(),
   author: joi.string().allow(null).required(),
   module_name: joi.string().required(),
