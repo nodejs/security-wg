@@ -20,12 +20,12 @@ const coreModel = joi.object().keys({
 const npmModel = joi.object().keys({
   id: joi.number().required(),
   cves: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
-  created_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
-  updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
+  created_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
+  updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   title: joi.string().required(),
   author: joi.string().allow(null).required(),
   module_name: joi.string().required(),
-  publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required(),
+  publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   vulnerable_versions: joi.alternatives().when("patched_versions", {
     is: null,
     then: joi
