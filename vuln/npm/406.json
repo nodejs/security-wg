@@ -9,10 +9,10 @@
   "module_name": "glance",
   "cves": [],
   "vulnerable_versions": "<=3.0.5",
-  "patched_versions": "",
+  "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/310133",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
   "cvss_score": 3.9,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
