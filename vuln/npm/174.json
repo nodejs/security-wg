@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<3.0.0",
   "patched_versions": ">=3.0.0",
-  "slug": "iedriver_downloads-resources-over-http",
   "overview": "iedriver is an NPM wrapper for Selenium IEDriver.\n\niedriver versions below 3.0.0 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to iedriver version 3.0.0 or greater.",
   "references": null,

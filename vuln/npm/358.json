@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.0.32",
   "patched_versions": null,
-  "slug": "featurebook_directory-traversal",
   "overview": "A crafted request can be used to traverse the directory structure of a host using the featurebook package, and request arbitrary files outside of the specified web root.",
   "recommendation": "featurebook serve is not meant to be run as a server app in production.",
   "references": "https://hackerone.com/reports/296305",

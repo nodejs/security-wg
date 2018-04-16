@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.4.0",
   "patched_versions": ">=1.4.0",
-  "slug": "i18n-node-angular_denial-of-service-and-content-injection",
   "overview": "- i18n-node-angular is a module used to interact between i18n and angular without using additional resources\n- A REST API endpoint that is used for development was not disabled in production environments\n- A malicious user could fill up the server causing a Denial of Service or content injection",
   "recommendation": "Upgrade to version 1.4.0 or greater.",
   "references": "- https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8",

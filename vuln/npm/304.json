@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.0.0",
   "patched_versions": ">=1.0.0",
-  "slug": "windows-build-tools_downloads-resources-over-http",
   "overview": "windows-build-tools is a module for installing C++ Build Tools for Windows using npm.\n\nwindows-build-tools versions below 1.0.0 download resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 1.0.0 or later",
   "references": "* https://github.com/felixrieseberg/windows-build-tools/commit/9835d33e68f2cb5e4d148e954bb3ed0221d98e90",

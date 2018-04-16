@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3725"],
   "vulnerable_versions": "<0.2.3",
   "patched_versions": ">=0.2.3",
-  "slug": "hekto-xss",
   "overview": "hekto suffers from Path Traversal vulnerability which allows to read content of arbitrary files",
   "recommendation": "update hekto to 0.2.3 or higher",
   "references": "- https://hackerone.com/reports/311218",

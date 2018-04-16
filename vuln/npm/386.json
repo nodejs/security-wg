@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3734"],
   "vulnerable_versions": "<0.3.0",
   "patched_versions": ">=0.3.0",
-  "slug": "stattic-xss",
   "overview": "stattic inproper path validation leads to path traversal and allows to read arbitrary files with any extension(s)",
   "recommendation": "update stattic to 0.3.0 or higher",
   "references": "- https://hackerone.com/reports/319003",

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<2.9.4",
   "patched_versions": ">=2.9.4",
-  "slug": "appium-chromedriver_downloads-resources-over-http",
   "overview": "appium-chromedriver is a Node.js wrapper around Chromedriver.\n\nVersions below 2.9.4 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Upgrade to version 2.9.4 or greater.",
   "references": null,

@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<3.0.0",
   "patched_versions": ">=3.0.0",
-  "slug": "paypal-ipn_validation-bypass",
   "overview": "paypal-ipn uses the `test_ipn` parameter (which is set by the PayPal IPN simulator) to determine if it should use the production PayPal site or the sandbox.\n\n\"With a bit of time, an attacker could craft a request using the simulator that would fool any application which does not explicitly check for test_ipn in production.\" [1]",
   "recommendation": "- Upgrade to version 3.0.0 or greater.",
   "references": "- [1] https://github.com/andzdroid/paypal-ipn/issues/11",

@@ -9,7 +9,6 @@
   "cves": ["CVE-2016-10707"],
   "vulnerable_versions": "=3.0.0-rc.1",
   "patched_versions": ">=3.0.0",
-  "slug": "jquery_exceeding-stack-call-limit-dos",
   "overview": "jQuery is a DOM manipulation javascript library.\n\nIn v2.2.4 and previous, a lowercasing logic was used on the attribute names and was removed in v3.0.0. Because of this, boolean attributes whose names were not all lowercase cause infinite recursion, and will exceed the stack call limit.",
   "recommendation": "Upgrade to v3.0.0 or greater.",
   "references": "* [GitHub Issue](https://github.com/jquery/jquery/issues/3133)",

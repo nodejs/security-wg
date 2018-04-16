@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": ">= 1.0.0 < 1.4.6 || 2.0.0",
   "patched_versions": ">= 1.4.6 < 2.0.0 || >= 2.0.1",
-  "slug": "passport-azure-ad_authentication-bypass",
   "overview": "The Microsoft Azure Active Directory Passport (aka Passport-Azure-AD) library 1.x before 1.4.6 and 2.x before 2.0.1 for Node.js does not recognize the validateIssuer setting, which allows remote attackers to bypass authentication via a crafted token.",
   "recommendation": "If using passport-azure-ad 1.x update to at least version 1.4.6, if using 2.x update to at least version 2.0.1",
   "references": "- https://github.com/AzureAD/passport-azure-ad/blob/master/SECURITY-NOTICE.MD\n- https://support.microsoft.com/en-us/kb/3187742",

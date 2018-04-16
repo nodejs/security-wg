@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.1.1",
   "patched_versions": ">=0.1.2",
-  "slug": "csrf-lite_non-constant-time-string-comparison",
   "overview": "- csrf-lite is a cross-site request forgery protection library for framework-less node sites\n- csrf-lite uses `===`, a fail first string comparison, instead of a time constant string comparison\n- This enables an attacker being able to calculate minuscule differences in CSRF tokens, essentially enabling them to guess the token one character at a time\n\n\n_Example psuedo-code of how the built-in string comparison (fail first) works_:\n```\nfunction compareTokens(a, b)\n    tempCheck = 0;\n    if a.length() != b.length()\n        return false;\n    for each character in a {\n        tempCheck += 1;\n        if a[current character check] != b[current character check]\n            return false;\n    }\n    return true;\n\ncsrfToken = \"63737266546f6b656e\";\ncsrfTokenCompare = user_input();\n\ncompareTokens(csrfToken, csrfTokenCompare);\n```\nEach check increases the variable `tempCheck` by one. If a malicious user is able to see what `tempCheck` is at each run (how long it takes to do a check), then they can see when it increases. This increase indicates that the character they just put in for `csrfTokenCompare` is the correct one.",
   "recommendation": "Update to at least version 0.1.2",
   "references": "- https://github.com/isaacs/csrf-lite/pull/1",

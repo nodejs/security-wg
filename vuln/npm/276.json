@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<0.1.1",
   "patched_versions": ">=0.1.1",
-  "slug": "limbus-buildgen_downloads-resources-over-http",
   "overview": "limbus-buildgen is a \"build anywhere\" build system.\n\nlimbus-buildgen versions below 0.1.1 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 0.1.1 or greater.",
   "references": null,

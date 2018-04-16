@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.1.0",
   "patched_versions": ">=1.1.0",
-  "slug": "kindlegen_downloads-resources-over-http",
   "overview": "Kindlegen is a simple Node.js wrapper of the official kindlegen program.\n\nKindlegen versions before 1.1.0 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 1.1.0 or greater.",
   "references": null,

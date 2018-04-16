@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.1.4",
   "patched_versions": ">=1.1.4",
-  "slug": "geoip-lite-country_downloads-resources-over-http",
   "overview": "geoip-lite-country is a stripped down version of geoip-lite, supporting only country lookup.\n\ngeoip-lite-country downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
   "recommendation": "Update to version 1.1.4 or greater.",
   "references": null,

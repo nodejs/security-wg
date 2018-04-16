@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=1.6.2",
   "patched_versions": ">=1.7.0",
-  "slug": "remarkable_xss-in-data-uri",
   "overview": "Remarkable is a markdown parser. \n\nIn versions 1.6.2 and lower, remarkable allows the use of `data:` URIs. \n\nAfter the markdown `[link](data:text/html,<script>alert('0')</script>)` is rendered, the script will run when clicked.",
   "recommendation": "Upgrade to v1.7.0 or higher",
   "references": "* [GitHub Issue](https://github.com/jonschlinkert/remarkable/issues/227)",

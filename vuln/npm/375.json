@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.4.1 || >=2.0.0 <2.17.2",
   "patched_versions": ">=1.4.1 <2.0.0 || >=2.17.2",
-  "slug": "is-my-json-valid-redos",
   "overview": "is-my-json-valid is vulnerable to Regular Expression Denial of Service (ReDoS) attacks via the email validation function",
   "recommendation": "update is-my-json-valid to 1.4.1, 2.17.2 or higher",
   "references": "- https://hackerone.com/reports/317548\n- https://github.com/mafintosh/is-my-json-valid/commit/b3051b277f7caa08cd2edc6f74f50aeda65d2976\n- https://github.com/mafintosh/is-my-json-valid/pull/159",

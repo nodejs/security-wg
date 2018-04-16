@@ -9,7 +9,6 @@
   "cves": ["CVE-2017-10910"],
   "vulnerable_versions": ">=2.0.0",
   "patched_versions": ">=2.15.0",
-  "slug": "mqtt_remote-dos",
   "overview": "MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.",
   "recommendation": "Update to version 2.15.0 or later.",
   "references": "- MISC:https://github.com/mqttjs/MQTT.js/commit/403ba53b838f2d319a0c0505a045fe00239e9923\n- MISC:https://github.com/mqttjs/MQTT.js/releases/tag/v2.15.0\n- JVN:JVN#45494523\n- URL:https://jvn.jp/en/jp/JVN45494523/index.html",

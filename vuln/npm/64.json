@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<1.4.0",
   "patched_versions": ">=1.4.0",
-  "slug": "ecstatic_illegal-access-crash-from-if-modified-since-header",
   "overview": "Certain input strings when passed to new Date() or Date.parse() will cause v8 to raise an exception. This leads to a crash and denial of service in ecstatic  when this input is passed into the server via the If-Modified-Since header.",
   "recommendation": "Upgrade to ecstatic version 1.4.0 or greater.",
   "references": "- https://github.com/jfhbrook/node-ecstatic/pull/179\n- https://bugs.chromium.org/p/v8/issues/detail?id=4640",

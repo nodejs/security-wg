@@ -39,7 +39,6 @@ const npmModel = joi.object().keys({
       .required()
   }),
   patched_versions: joi.semver().validRange().allow('').allow(null).required(),
-  slug: joi.string().required(),
   overview: joi.string().required(),
   recommendation: joi.string().allow(null).required(),
   references: joi.string().allow(null).required(),

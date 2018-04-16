@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=2.4.2",
   "patched_versions": ">=2.4.3",
-  "slug": "nunjucks_xss-in-autoescape-mode",
   "overview": "Nunjucks is a full featured templating engine for JavaScript.\n\nVersions 2.4.2 and lower have a cross site scripting (XSS) vulnerability in autoescape mode.  In autoescape mode, all template vars should automatically be escaped.  By using an array for the keys, such as `name[]=<script>alert(1)</script>`, it is possible to bypass autoescaping and inject content into the DOM.",
   "recommendation": "Upgrade to version 2.4.3 or later.",
   "references": "* https://github.com/matt-/nunjucks_test\n* https://github.com/mozilla/nunjucks/issues/835",

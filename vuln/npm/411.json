@@ -10,7 +10,6 @@
   "cves": [],
   "vulnerable_versions": "<=1.0.5",
   "patched_versions": "",
-  "slug": "merge-objects-prototype-pollution",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/310706",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",

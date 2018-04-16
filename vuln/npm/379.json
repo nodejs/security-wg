@@ -9,7 +9,6 @@
   "cves": ["CVE-2018-3717"],
   "vulnerable_versions": "<1.5.0",
   "patched_versions": ">=1.5.0",
-  "slug": "anywhere-path-traversal",
   "overview": "anywhere suffers from an XSS where an iframe element with url to malicious HTML file (with eg. JavaScript malware) can be used as filename and served",
   "recommendation": "update anywhere to 1.5.0 or higher",
   "references": "- https://hackerone.com/reports/309394\n -https://github.com/JacksonTian/anywhere/issues/33#issuecomment-366527448",

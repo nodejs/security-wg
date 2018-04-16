@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<0.2.3",
   "patched_versions": ">=0.2.3",
-  "slug": "libyaml_heap-based-buffer-overflow",
   "overview": "LibYAML, the library that libyaml provides bindings for is vulnerable to a heap-based buffer overflow when parsing YAML tags.",
   "recommendation": "- Update to version 0.2.3 that includes a version of LibYAML that contains a fix for this issue.",
   "references": "- [CVE-2013-6393](http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-6393)\n- https://bitbucket.org/xi/libyaml/pull-request/1/fix-cve-2013-6393/diff",

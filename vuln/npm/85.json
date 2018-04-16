@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.9.1",
   "patched_versions": ">=0.10.0",
-  "slug": "grunt-gh-pages_auth-info-sent-from-publicly-accessible-pages",
   "overview": "A common setup to deploy to gh-pages on every commit via a CI system is to expose a github token to ENV and to use it directly in the auth part of the url. \n\nIn module versions < 0.9.1 the auth portion of the url is outputted as part of the grunt tasks logging function. If this output is publicly available then the credentials should be considered compromised.",
   "recommendation": "- Upgrade to version 1.0.0 or greater.\n- Consider any credentials used with these modules compromised and rotate those credentials.",
   "references": "- https://github.com/tschaub/grunt-gh-pages/pull/41\n",

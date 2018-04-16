@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.9.11",
   "patched_versions": ">=0.10.0",
-  "slug": "http-signature_header-forgery",
   "overview": "Http-signature is a \"Reference implementation of Joyent's HTTP Signature Scheme\". \n\nIn versions <=0.9.11, http-signature signs only the header values, but not the header names. This makes http-signature vulnerable to header forgery. \n\nThus, if an attacker can intercept a request, he can swap header names and change the meaning of the request without changing the signature. \n\n\nFor this example request: \n```\nPOST /pay HTTP/1.1\nHost: example.com\nDate: Thu, 05 Jan 2012 21:31:40 GMT\nX-Payment-Source: src@money.com\nX-Payment-Destination: dst@money.com\nAuthorization: Signature keyId=\"Test\",algorithm=\"rsa-sha256\",headers=\"x-payment-source x-payment-destination\" MDyO5tSvin5...\n```\nThe request can be changed to have the following:\n```\nX-Payment-Source: dst@money.com // Emails switched\nX-Payment-Destination: src@money.com\nAuthorization: Signature keyId=\"Test\",algorithm=\"rsa-sha256\",headers=\"x-payment-destination x-payment-source\" MDyO5tSvin5...\n```\nand both would be signed:\n```\nsrc@money.com\\n\ndst@money.com\\n\n```\n(Fuller explanation of this example on the [GitHub Issue](https://github.com/joyent/node-http-signature/issues/10))",
   "recommendation": "Upgrade to v0.10.0 or higher.",
   "references": "* [GitHub Issue](https://github.com/joyent/node-http-signature/issues/10)",

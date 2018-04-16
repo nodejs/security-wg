@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "slug": "sync-exec_tmp-files-readable-by-other-users",
   "overview": "The sync-exec module is used to simulate child_process.execSync in node versions <0.11.9. \n\nSync-exec uses tmp directories as a buffer before returning values. Other users on the server have read access to the tmp directory, possibly allowing an attacker on the server to obtain confidential information from the buffer/tmp file, while it exists.",
   "recommendation": "upgrade to Node >=0.12.0. The functionality is provided natively.",
   "references": "* https://github.com/gvarsanyi/sync-exec/issues/17\n* https://cwe.mitre.org/data/definitions/377.html\n* https://www.owasp.org/index.php/Insecure_Temporary_File",

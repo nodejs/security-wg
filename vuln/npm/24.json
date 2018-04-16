@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=0.3.2",
   "patched_versions": ">=0.3.3",
-  "slug": "marked_vbscript-content-injection",
   "overview": "Marked 0.3.2 and earlier is vulnerable to content injection even when `sanitize: true` is enabled.\n\n`[xss link](vbscript:alert(1&#41;)`\n\nwill get a link\n\n`<a href=\"vbscript:alert(1)\">xss link</a>`\n\nthis script does not work in IE 11 edge mode, but works in IE 10 compatibility view.",
   "recommendation": "Update to version 0.3.3 or greater.",
   "references": "- https://github.com/chjj/marked/issues/492",

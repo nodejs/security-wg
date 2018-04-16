@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=2.12.3",
   "patched_versions": ">=2.12.4",
-  "slug": "is-my-json-valid_regular-expression-denial-of-service",
   "overview": "It is possible to block the event loop when specially crafted user input is allowed into a validator using the `utc-millisec` format.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]",
   "recommendation": " Upgrade to version 2.12.4 or greater.",
   "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",

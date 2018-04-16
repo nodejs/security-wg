@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "5.1.1",
   "patched_versions": ">=5.1.2",
-  "slug": "hapi-auth-jwt2_authentication-bypass-in-try-mode",
   "overview": "When attempting to allow authentication mode `try` in [hapi](https://www.npmjs.com/package/hapi), hapi-auth-jwt2 version 5.1.1 introduced an issue whereby people could bypass authentication.",
   "recommendation": "Upgrade to version 5.1.2 or greater.",
   "references": "- https://github.com/dwyl/hapi-auth-jwt2/issues/111\n- https://github.com/dwyl/hapi-auth-jwt2/pull/112",

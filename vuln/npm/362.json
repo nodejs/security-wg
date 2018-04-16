@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=0.13.12",
   "patched_versions": null,
-  "slug": "redis-commander_xss",
   "overview": "An injection in the highlighterId parameter of the clipboard.swf component can be leveraged in a reflected XSS on hosts serving Redis Commander.",
   "recommendation": null,
   "references": "https://hackerone.com/reports/296377",

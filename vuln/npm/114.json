@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": ">= 0.0.10 <= 0.0.14",
   "patched_versions": ">= 0.0.15",
-  "slug": "ezseed-transmission_insecure-defaults-leads-to-potential-mitm",
   "overview": "ezseed-transmission is a module that provides shell bindings for Ezseed transmission.\n\nBetween versions 0.0.10 and 0.0.14 (inclusive), ezseed-transmission would download a script from `http://stedolan.github.io/jq/download/linux64/jq` without checking the certificate.  An attacker on the same network or on an ISP level could intercept the traffic and push their own version of the file, causing the attackers code to be executed.",
   "recommendation": "Upgrade to at least version 0.0.15",
   "references": null,

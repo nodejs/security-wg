@@ -9,7 +9,6 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "slug": "ipip_downloads-resources-over-http",
   "overview": "ipip is a Node.js module to query geolocation information for an IP or domain, based on database by ipip.net.\n\nipip downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
   "recommendation": "No fix is currently available for this vulnerability and the module readme now marks the module as deprecated.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": null,

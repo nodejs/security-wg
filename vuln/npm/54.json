@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<=1.20.0",
   "patched_versions": ">=1.21.1",
-  "slug": "gm_command-injection-in-gmcompare-function",
   "overview": "gm version 1.20.0 and below are vulnerable to command injection when user input is passed into the arguments of the `gm.compare `function. The `compare()` function fails to sanitize meta characters correctly before calling the graphics magic binary.",
   "recommendation": "Update to version 1.21.1 or greater.",
   "references": "- https://github.com/aheckmann/gm/commit/5f5c77490aa84ed313405c88905eb4566135be31",

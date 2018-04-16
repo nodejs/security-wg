@@ -11,7 +11,6 @@
   ],
   "vulnerable_versions": "<4.0.0",
   "patched_versions": ">=4.0.0",
-  "slug": "handlebars_quoteless-attributes-in-templates-can-lead-to-xss",
   "overview": "Not using quotes around your attributes in handlebar templates, could lead to content injection.\n\n### Example\nTemplate:\n```<a href={{foo}}/>```\n\nInput:\n```{ 'foo' : 'test.com onload=alert(1)'}```\n\nRendered result:\n```<a href=test.com onload=alert(1)/>```",
   "recommendation": "If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.",
   "references": "- https://blog.srcclr.com/handlebars_vulnerability_research_findings/\n- https://github.com/wycats/handlebars.js/pull/1083",
