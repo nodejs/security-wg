@@ -35,18 +35,17 @@ const npmModel = joi.object().keys({
     otherwise: joi
       .semver()
       .validRange()
-      .allow("")
       .allow(null)
       .required()
   }),
   patched_versions: joi.semver().validRange().allow('').allow(null).required(),
   slug: joi.string().required(),
   overview: joi.string().required(),
-  recommendation: joi.string().allow('').allow(null).required(),
-  references: joi.string().allow('').allow(null).required(),
-  cvss_vector: joi.string().allow('').allow(null).required(),
+  recommendation: joi.string().allow(null).required(),
+  references: joi.string().allow(null).required(),
+  cvss_vector: joi.string().allow(null).required(),
   cvss_score: joi.number().allow(null).required(),
-  coordinating_vendor: joi.string().allow('').required()
+  coordinating_vendor: joi.string().allow(null).required()
 });
 
 function validate(dir, model) {

@@ -15,5 +15,5 @@
   "references": "* https://github.com/Automattic/mongoose/issues/3764\n* https://gist.github.com/ChALkeR/d4a8055625221b6e65f0\n* https://gist.github.com/ChALkeR/440bc3dfcbd9b6da75c3",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

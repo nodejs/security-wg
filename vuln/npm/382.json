@@ -15,5 +15,5 @@
   "references": "- https://github.com/heyitsmeuralex/mrk/pull/3",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:L",
   "cvss_score": 8.9,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

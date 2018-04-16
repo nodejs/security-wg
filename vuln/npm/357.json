@@ -15,5 +15,5 @@
   "references": "- MISC:https://github.com/mqttjs/MQTT.js/commit/403ba53b838f2d319a0c0505a045fe00239e9923\n- MISC:https://github.com/mqttjs/MQTT.js/releases/tag/v2.15.0\n- JVN:JVN#45494523\n- URL:https://jvn.jp/en/jp/JVN45494523/index.html",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
   "cvss_score": 4.3,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

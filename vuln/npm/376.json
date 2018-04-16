@@ -15,5 +15,5 @@
   "references": "- https://hackerone.com/reports/315760\n- https://github.com/pillarjs/resolve-path/commit/fe5b8052cafd35fcdafe9210e100e9050b37d2a0",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

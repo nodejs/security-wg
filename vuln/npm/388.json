@@ -15,5 +15,5 @@
   "references": "- https://hackerone.com/reports/319532\n- https://github.com/TooTallNate/node-https-proxy-agent/blob/2.1.1/index.js#L207",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
   "cvss_score": 8.2,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
