@@ -1,7 +1,7 @@
 {
   "id": 327,
-  "created_at": "2017-03-15T18:46:51+00:00",
-  "updated_at": "2017-03-15T18:51:07+00:00",
+  "created_at": "2017-03-15",
+  "updated_at": "2017-03-15",
   "title": "XSS via Angular Expression",
   "author": "Gabrielle Bourdages",
   "module_name": "ag-grid",

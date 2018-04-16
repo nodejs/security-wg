@@ -1,7 +1,7 @@
 {
   "id": 54,
-  "created_at": "2015-10-26T16:58:39.517+00:00",
-  "updated_at": "2016-04-25T15:26:38+00:00",
+  "created_at": "2015-10-26",
+  "updated_at": "2016-04-25",
   "title": "Command Injection in gm.compare function",
   "author": "Brendan Scarvell of Console",
   "module_name": "gm",

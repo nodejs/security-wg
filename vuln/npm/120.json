@@ -1,7 +1,7 @@
 {
   "id": 120,
-  "created_at": "2016-06-24T00:34:25+00:00",
-  "updated_at": "2016-06-24T23:04:12+00:00",
+  "created_at": "2016-06-24",
+  "updated_at": "2016-06-24",
   "title": "DoS due to excessively large websocket message",
   "author": "Fedor Indutny",
   "module_name": "ws",

@@ -1,7 +1,7 @@
 {
   "id": 81,
-  "created_at": "2016-01-28T07:56:29.271+00:00",
-  "updated_at": "2016-05-13T20:33:23+00:00",
+  "created_at": "2016-01-28",
+  "updated_at": "2016-05-13",
   "title": "Authentication Bypass in Try Mode",
   "author": "Alan Shaw",
   "module_name": "hapi-auth-jwt2",

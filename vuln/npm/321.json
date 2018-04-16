@@ -1,7 +1,7 @@
 {
   "id": 321,
-  "created_at": "2017-03-09T22:37:37+00:00",
-  "updated_at": "2017-04-18T14:23:05.524+00:00",
+  "created_at": "2017-03-09",
+  "updated_at": "2017-04-18",
   "title": "Insecure randomness",
   "author": "Martin Thomson",
   "module_name": "socket.io",

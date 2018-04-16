@@ -1,7 +1,7 @@
 {
   "id": 147,
-  "created_at": "2016-09-08T14:56:42+00:00",
-  "updated_at": "2016-10-17T16:20:29+00:00",
+  "created_at": "2016-09-08",
+  "updated_at": "2016-10-17",
   "title": "XSS in autoescape mode",
   "author": "Matt Austin",
   "module_name": "nunjucks",

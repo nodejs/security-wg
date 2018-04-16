@@ -1,7 +1,7 @@
 {
   "id": 27,
-  "created_at": "2015-10-17T19:41:46.382+00:00",
-  "updated_at": "2016-04-28T19:17:03+00:00",
+  "created_at": "2015-10-17",
+  "updated_at": "2016-04-28",
   "title": "Potential Command Injection",
   "author": "Adam Baldwin",
   "module_name": "printer",

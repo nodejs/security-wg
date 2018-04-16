@@ -1,7 +1,7 @@
 {
   "id": 303,
-  "created_at": "2016-12-12T16:24:43+00:00",
-  "updated_at": "2017-04-18T14:26:44.621+00:00",
+  "created_at": "2016-12-12",
+  "updated_at": "2017-04-18",
   "title": "Directory Traversal",
   "author": "Liang Gong",
   "module_name": "hostr",

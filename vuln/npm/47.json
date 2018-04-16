@@ -1,7 +1,7 @@
 {
   "id": 47,
-  "created_at": "2015-10-24T17:38:43.821+00:00",
-  "updated_at": "2016-04-20T16:09:35+00:00",
+  "created_at": "2015-10-24",
+  "updated_at": "2016-04-20",
   "title": "Regular Expression Denial of Service",
   "author": "Adam Baldwin",
   "module_name": "bleach",

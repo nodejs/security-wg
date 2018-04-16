@@ -1,7 +1,7 @@
 {
   "id": 175,
-  "created_at": "2016-11-30T22:19:31+00:00",
-  "updated_at": "2016-12-18T22:51:41+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-18",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "selenium-binaries",

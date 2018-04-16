@@ -1,7 +1,7 @@
 {
   "id": 350,
-  "created_at": "2017-05-22T21:32:25.975+00:00",
-  "updated_at": "2017-06-05T13:02:16.496+00:00",
+  "created_at": "2017-05-22",
+  "updated_at": "2017-06-05",
   "title": "Directory Traversal",
   "author": "Liang Gong",
   "module_name": "gomeplus-h5-proxy",

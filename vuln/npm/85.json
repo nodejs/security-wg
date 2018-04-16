@@ -1,7 +1,7 @@
 {
   "id": 85,
-  "created_at": "2016-03-16T05:09:06.299+00:00",
-  "updated_at": "2016-04-20T17:42:46+00:00",
+  "created_at": "2016-03-16",
+  "updated_at": "2016-04-20",
   "title": "Authentication credentails logged in clear text",
   "author": "Stephan Bönnemann",
   "module_name": "grunt-gh-pages",

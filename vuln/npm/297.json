@@ -1,7 +1,7 @@
 {
   "id": 297,
-  "created_at": "2016-12-02T04:58:08+00:00",
-  "updated_at": "2017-01-01T04:32:09+00:00",
+  "created_at": "2016-12-02",
+  "updated_at": "2017-01-01",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "npm-test-sqlite3-trunk",

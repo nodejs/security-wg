@@ -1,7 +1,7 @@
 {
   "id": 170,
-  "created_at": "2016-11-30T21:46:40+00:00",
-  "updated_at": "2016-12-06T01:09:10+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-06",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "galenframework-cli",

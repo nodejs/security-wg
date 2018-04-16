@@ -1,7 +1,7 @@
 {
   "id": 19,
-  "created_at": "2015-10-17T19:41:46.382+00:00",
-  "updated_at": "2016-04-25T15:31:07+00:00",
+  "created_at": "2015-10-17",
+  "updated_at": "2016-04-25",
   "title": "LDAP Injection",
   "author": "David Black, Jerome Touffe-Blin",
   "module_name": "ldapauth",

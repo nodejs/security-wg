@@ -1,7 +1,7 @@
 {
   "id": 171,
-  "created_at": "2016-11-30T21:50:56+00:00",
-  "updated_at": "2016-12-16T00:22:56+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-16",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "product-monitor",

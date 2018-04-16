@@ -1,7 +1,7 @@
 {
   "id": 159,
-  "created_at": "2016-11-28T16:06:21+00:00",
-  "updated_at": "2017-04-14T18:31:32.772+00:00",
+  "created_at": "2016-11-28",
+  "updated_at": "2017-04-14",
   "title": "Cross Site Scripting",
   "author": "Björn Kimminich",
   "module_name": "gitbook",

@@ -1,7 +1,7 @@
 {
   "id": 332,
-  "created_at": "2017-03-24T17:40:51+00:00",
-  "updated_at": "2017-03-24T18:44:45+00:00",
+  "created_at": "2017-03-24",
+  "updated_at": "2017-03-24",
   "title": "XSS via .swf files",
   "author": "Aleksandr Dobkin and Sebastian Roschke",
   "module_name": "yui",

@@ -1,7 +1,7 @@
 {
   "id": 63,
-  "created_at": "2015-12-23T22:04:46.097+00:00",
-  "updated_at": "2016-04-25T15:06:51+00:00",
+  "created_at": "2015-12-23",
+  "updated_at": "2016-04-25",
   "title": "Denial of service - Potential socket exhaustion",
   "author": "Adam Baldwin",
   "module_name": "hapi",

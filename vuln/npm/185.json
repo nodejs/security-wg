@@ -1,7 +1,7 @@
 {
   "id": 185,
-  "created_at": "2016-12-01T00:06:55+00:00",
-  "updated_at": "2016-12-21T23:46:48+00:00",
+  "created_at": "2016-12-01",
+  "updated_at": "2016-12-21",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "prince",

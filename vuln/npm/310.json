@@ -1,7 +1,7 @@
 {
   "id": 310,
-  "created_at": "2017-02-02T23:03:58+00:00",
-  "updated_at": "2017-04-14T21:03:34.189+00:00",
+  "created_at": "2017-02-02",
+  "updated_at": "2017-04-14",
   "title": "Tmp files readable by other users",
   "author": "maxnikulin",
   "module_name": "sync-exec",

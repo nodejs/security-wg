@@ -1,7 +1,7 @@
 {
   "id": 184,
-  "created_at": "2016-11-30T23:56:30+00:00",
-  "updated_at": "2016-12-21T23:50:49+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-21",
   "title": "Downloads Resources over HTTP",
   "author": "Adam Baldwin",
   "module_name": "ipip",

@@ -1,7 +1,7 @@
 {
   "id": 101,
-  "created_at": "2016-04-18T16:26:59+00:00",
-  "updated_at": "2017-01-20T18:39:56+00:00",
+  "created_at": "2016-04-18",
+  "updated_at": "2017-01-20",
   "title": "Sanitization bypass using HTML Entities",
   "author": "Matt Austin",
   "module_name": "marked",
