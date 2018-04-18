@@ -23,6 +23,7 @@ const npmModel = joi.object().keys({
   created_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   title: joi.string().required(),
+  title: joi.string().max(150).regex(/^[^\n]+$/).required(),
   author: joi.string().allow(null).required(),
   module_name: joi.string().required(),
   publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
