@@ -10,7 +10,7 @@
   "cves": [
     "CVE-2018-3730"
   ],
-  "vulnerable_versions": "0.0.20",
+  "vulnerable_versions": "<=0.0.20",
   "patched_versions": "",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/312907",
