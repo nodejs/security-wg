@@ -4,7 +4,7 @@
   "overview": "[cloudcmd] Stored XSS in the filename when directories listing",
   "created_at": "2018-04-20",
   "updated_at": "2018-04-25",
-  "publish_date": "1970-01-01",
+  "publish_date": "2018-04-25",
   "author": "Tung Pun (https://tungpun.pw)",
   "module_name": "cloudcmd",
   "cves": [],
