@@ -7,7 +7,9 @@
   "publish_date": "2018-04-09",
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "atob",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3745"
+  ],
   "vulnerable_versions": "<=2.0.3",
   "patched_versions": ">=2.1.0",
   "slug": "atob-out-of-bounds-read",
