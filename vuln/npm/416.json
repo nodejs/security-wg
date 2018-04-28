@@ -11,7 +11,7 @@
   "vulnerable_versions": "<=1.0.5",
   "patched_versions": ">=1.0.6",
   "recommendation": "update concat-with-sourcemaps to 1.0.6 or higher",
-  "references": "- https://hackerone.com/reports/320166\n- https://hackerone.com/redirect?signature=6b7c5f1e8cdbffe122a969265fd029ad9ce0a58d&url=https%3A%2F%2Fgithub.com%2Ffloridoo%2Fconcat-with-sourcemaps%2Fblob%2Fmaster%2Findex.js%23L18",
+  "references": "- https://hackerone.com/reports/320166\n- https://github.com/floridoo/concat-with-sourcemaps/blob/master/index.js#L18",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 6.5,
   "coordinating_vendor": ""
