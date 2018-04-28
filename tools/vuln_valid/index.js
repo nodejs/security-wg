@@ -39,7 +39,7 @@ const npmModel = joi.object().keys({
       .allow(null)
       .required()
   }),
-  patched_versions: joi.semver().validRange().allow('').allow(null).required(),
+  patched_versions: joi.semver().validRange().allow(null).required(),
   overview: joi.string().required(),
   recommendation: joi.string().allow(null).required(),
   references: joi.string().allow(null).required(),
