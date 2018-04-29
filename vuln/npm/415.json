@@ -12,7 +12,7 @@
   "patched_versions": ">=2.2.18",
   "recommendation": "Update react-svg module to 2.2.18 or higher.",
   "references": "https://github.com/tanem/react-svg/pull/57",
-  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
-  "cvss_score": 10.0,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_score": 9.1,
   "coordinating_vendor": ""
 }
