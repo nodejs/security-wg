@@ -12,10 +12,9 @@
   ],
   "vulnerable_versions": "<=2.0.3",
   "patched_versions": ">=2.1.0",
-  "slug": "atob-out-of-bounds-read",
   "recommendation": "update atob to 2.1.0 or higher",
   "references": "- https://hackerone.com/reports/321686",
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
