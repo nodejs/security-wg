@@ -52,11 +52,22 @@ security activities for Node.js core but relies on the Node.js Security Working
 Group to recommend and help maintain policies and procedures for that
 management.
 
-### Node.js Bug Bounty Program
+## Node.js Bug Bounty Program
 
 The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures.
 
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
+
+## Participate in Reponsible Security Disclosure
+
+As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible dislcosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
+
+You can show your users you take security matters seriously and drive higher confidence by following any of the below suggested actions:
+
+1. Adding a `SECURITY.md` file in your repository that you can copy&paste from [us](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md). Just like having a contribution of code of conduct guidelines, a security guideline will help user or bug hunters with the process of reporting a vulnerability or security concern they would like to share.
+
+2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
+
 
 
 ## Current Project Team Members
