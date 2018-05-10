@@ -1,0 +1,18 @@
+{
+  "id": 419,
+  "title": "Path Traversal",
+  "overview": "`superstatic` is vulnerable to path traversal on Windows. Additionally, it is vulnerable to path traversal on other platforms combined with certain Node.js versions which erroneously normalize `\` to `/` in paths on all platforms (a known example being Node.js v9.9.0).",
+  "created_at": "2018-02-26",
+  "updated_at": "2018-04-29",
+  "publish_date": "2018-04-29",
+  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "module_name": "superstatic",
+  "cves": [],
+  "vulnerable_versions": "<=5.0.1",
+  "patched_versions": "",
+  "recommendation": "The fix is available in the master branch, but a new version with the fix has not been released (scheduled for v5.0.2). It is our recommendation to not use this module on Windows (and Linux with certain Node.js versions, e.g. v9.9.0) at this time, or to apply the patch manually. Update to 5.0.2 or later if and when it would be released.",
+  "references": "- https://hackerone.com/reports/319951\n- https://github.com/firebase/superstatic/blob/v5.0.1/lib/providers/fs.js#L71\n- https://github.com/firebase/superstatic/commit/e396ff62f588732989137d6c40d46b310e51ef2b\n- https://github.com/firebase/superstatic/pull/255",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 8.6,
+  "coordinating_vendor": ""
+}
