@@ -14,5 +14,5 @@
   "references": "https://github.com/tanem/react-svg/pull/57",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
   "cvss_score": 9.1,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }

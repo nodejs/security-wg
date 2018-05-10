@@ -9,10 +9,10 @@
   "module_name": "superstatic",
   "cves": [],
   "vulnerable_versions": "<=5.0.1",
-  "patched_versions": "",
+  "patched_versions": null,
   "recommendation": "The fix is available in the master branch, but a new version with the fix has not been released (scheduled for v5.0.2). It is our recommendation to not use this module on Windows (and Linux with certain Node.js versions, e.g. v9.9.0) at this time, or to apply the patch manually. Update to 5.0.2 or later if and when it would be released.",
   "references": "- https://hackerone.com/reports/319951\n- https://github.com/firebase/superstatic/blob/v5.0.1/lib/providers/fs.js#L71\n- https://github.com/firebase/superstatic/commit/e396ff62f588732989137d6c40d46b310e51ef2b\n- https://github.com/firebase/superstatic/pull/255",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
