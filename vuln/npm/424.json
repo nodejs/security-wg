@@ -9,7 +9,7 @@
   "module_name": "localhost-now",
   "cves": [],
   "vulnerable_versions": "<=1.0.2",
-  "patched_versions": "null",
+  "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/329837\n- https://github.com/DCKT/localhost-now/blob/master/lib/app.js#L17",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
