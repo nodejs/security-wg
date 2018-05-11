@@ -8,7 +8,7 @@
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "fs-path",
   "cves": [],
-  "vulnerable_versions": "0.0.24",
+  "vulnerable_versions": "<=0.0.24",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/324491\n- https://github.com/pillys/fs-path/blob/master/lib/index.js",
