@@ -8,7 +8,7 @@
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "stringstream",
   "cves": [],
-  "vulnerable_versions": "0.0.5",
+  "vulnerable_versions": "<=0.0.5",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/321670\n- https://github.com/mhart/StringStream/blob/v0.0.5/stringstream.js#L32",
