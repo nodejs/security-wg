@@ -1,0 +1,18 @@
+{
+  "id": 420,
+  "title": "Path Traversal",
+  "overview": "Path Traversal in html-pages module allows to read any file from the server with curl",
+  "created_at": "2018-01-18",
+  "updated_at": "2018-05-09",
+  "publish_date": "2018-05-09",
+  "author": "bl4de (https://twitter.com/_bl4de)",
+  "module_name": "html-pages",
+  "cves": ["CVE-2018-3744"],
+  "vulnerable_versions": "<=2.0.9",
+  "patched_versions": ">=2.1.0",
+  "recommendation": "Update to html-pages@2.1.0 or higher.",
+  "references": "- https://hackerone.com/reports/306607",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+  "cvss_score": 9.5,
+  "coordinating_vendor": null
+}
