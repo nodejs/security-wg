@@ -14,5 +14,5 @@
   "references": "- https://hackerone.com/reports/324491\n- https://github.com/pillys/fs-path/blob/master/lib/index.js",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H",
   "cvss_score": 9.6,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
