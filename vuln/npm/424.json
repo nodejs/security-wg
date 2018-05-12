@@ -1,0 +1,18 @@
+{
+  "id": 424,
+  "title": "Path Traversal",
+  "overview": "Bypass to defective fix of Path Traversal ",
+  "created_at": "2018-03-26",
+  "updated_at": "2018-05-11",
+  "publish_date": "2018-05-11",
+  "author": "Caio Lüders",
+  "module_name": "localhost-now",
+  "cves": [],
+  "vulnerable_versions": "<=1.0.2",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://hackerone.com/reports/329837\n- https://github.com/DCKT/localhost-now/blob/master/lib/app.js#L17",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 8.6,
+  "coordinating_vendor": null
+}
