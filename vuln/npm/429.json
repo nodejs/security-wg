@@ -1,0 +1,18 @@
+{
+  "id": 429,
+  "title": "Out-of-bounds Read",
+  "overview": "`byte` allocates uninitialized buffers and reads data from them past the initialized length",
+  "created_at": "2018-03-27",
+  "updated_at": "2018-05-11",
+  "publish_date": "2018-05-11",
+  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "module_name": "byte",
+  "cves": [],
+  "vulnerable_versions": "<=1.4.0",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://hackerone.com/reports/330351",
+  "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+  "cvss_score": 5.2,
+  "coordinating_vendor": null
+}
