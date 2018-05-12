@@ -1,0 +1,18 @@
+{
+  "id": 421,
+  "title": "Path Traversal",
+  "overview": "[angular-http-server] Server Directory Traversal",
+  "created_at": "2018-03-27",
+  "updated_at": "2018-04-26",
+  "publish_date": "2018-04-26",
+  "author": "Tung Pun (https://tungpun.pw)",
+  "module_name": "angular-http-server",
+  "cves": [],
+  "vulnerable_versions": "<=1.4.3",
+  "patched_versions": ">=1.4.4",
+  "recommendation": "update angular-http-server to 1.44 or higher",
+  "references": "- https://hackerone.com/reports/330349\n- https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 8.6,
+  "coordinating_vendor": null
+}
