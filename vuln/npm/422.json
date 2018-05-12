@@ -14,5 +14,5 @@
   "references": "- https://hackerone.com/reports/321670\n- https://github.com/mhart/StringStream/blob/v0.0.5/stringstream.js#L32",
   "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 5.2,
-  "coordinating_vendor": ""
+  "coordinating_vendor": null
 }
