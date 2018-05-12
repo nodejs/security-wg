@@ -1,0 +1,18 @@
+{
+  "id": 433,
+  "title": "Command Injection - Generic",
+  "overview": "`open` concatenates unsanitized input into exec() command",
+  "created_at": "2018-02-25",
+  "updated_at": "2018-05-12",
+  "publish_date": "2018-05-12",
+  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "module_name": "open",
+  "cves": [],
+  "vulnerable_versions": "<=0.0.5",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://hackerone.com/reports/319473",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:H",
+  "cvss_score": 10,
+  "coordinating_vendor": null
+}
