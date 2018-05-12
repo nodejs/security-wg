@@ -10,7 +10,7 @@
   "cves": [],
   "vulnerable_versions": "<=2.1.2",
   "patched_versions": ">=2.1.3",
-  "recommendation": "update npmconf to 2.1.3 or higher",
+  "recommendation": "update npmconf to 2.1.3 or higher and consider switching to another config storage mechanism, as npmconf is deprecated and should not be used",
   "references": "- https://hackerone.com/reports/320269",
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
   "cvss_score": 7.4,
