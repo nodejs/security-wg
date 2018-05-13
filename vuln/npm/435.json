@@ -1,0 +1,18 @@
+{
+  "id": 435,
+  "title": "Cross-site Scripting (XSS) - Generic",
+  "overview": "The react-marked-markdown module allows XSS injection in href values.",
+  "created_at": "2018-04-27",
+  "updated_at": "2018-05-13",
+  "publish_date": "2018-05-13",
+  "author": "Ron Perris",
+  "module_name": "react-marked-markdown",
+  "cves": [],
+  "vulnerable_versions": "<=1.4.6",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": "- https://hackerone.com/reports/344069\n- https://github.com/Vincent-P/react-marked-markdown/issues/61",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+  "cvss_score": 9.3,
+  "coordinating_vendor": null
+}
