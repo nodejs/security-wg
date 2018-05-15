@@ -3,7 +3,7 @@
   "created_at": "2017-03-08",
   "updated_at": "2017-03-09",
   "title": "XSS in Data URI",
-  "author": "Ben Alpert",
+  "author": "Sophie Alpert (https://github.com/sophiebits)",
   "module_name": "remarkable",
   "publish_date": "2017-03-09",
   "cves": [],
