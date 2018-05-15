@@ -9,9 +9,9 @@
   "module_name": "byte",
   "cves": [],
   "vulnerable_versions": "<=1.4.0",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/330351",
+  "patched_versions": ">=1.4.1",
+  "recommendation": "update `byte` module to 1.4.1 or higher",
+  "references": "- https://hackerone.com/reports/330351\n- https://github.com/node-modules/byte/pull/34",
   "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 5.2,
   "coordinating_vendor": null
