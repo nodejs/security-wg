@@ -1,0 +1,18 @@
+{
+  "id": 436,
+  "title": "Open Redirect",
+  "overview": "[hekto] open redirect when target domain name is used as html filename on server",
+  "created_at": "2018-02-28",
+  "updated_at": "2018-05-20",
+  "publish_date": "2018-05-20",
+  "author": "panic",
+  "module_name": "hekto",
+  "cves": [],
+  "vulnerable_versions": "<=0.2.3",
+  "patched_versions": ">=0.2.4",
+  "recommendation": "update hekto to 0.2.4 or higher",
+  "references": "- https://hackerone.com/reports/320693\n- https://github.com/herber/hekto/pull/3",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+  "cvss_score": 2.7,
+  "coordinating_vendor": null
+}
