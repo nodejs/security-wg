@@ -1,0 +1,18 @@
+{
+  "id": 438,
+  "title": "Command Injection - Generic",
+  "overview": "Command injection in 'pdf-image'",
+  "created_at": "2018-04-18",
+  "updated_at": "2018-05-29",
+  "publish_date": "2018-05-29",
+  "author": "N B Sri Harshа (http://nbsriharsha.blogspot.in)",
+  "module_name": "pdf-image",
+  "cves": [],
+  "vulnerable_versions": "<=1.0.5",
+  "patched_versions": ">=2.0.0",
+  "recommendation": "update pdf-image to 2.0.0 or higher",
+  "references": "- https://hackerone.com/reports/340208",
+  "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+  "cvss_score": 6.1,
+  "coordinating_vendor": null
+}
