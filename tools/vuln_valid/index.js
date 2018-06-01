@@ -52,6 +52,7 @@ function validate(dir, model) {
   fs.readdirSync(dir)
     .forEach((name) => {
       const filePath = path.join(dir, name);
+      console.log('Validate:', filePath);
       try {
         const vuln = JSON.parse(fs.readFileSync(filePath));
         const result = joi.validate(vuln, model);
