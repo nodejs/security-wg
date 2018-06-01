@@ -100,8 +100,6 @@ You can show your users you take security matters seriously and drive higher con
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
-[Node.js TSC]: https://github.com/nodejs/TSC
-
 # Code of Conduct
 
 The [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
@@ -109,3 +107,5 @@ The [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF
 # Moderation Policy
 
 The [Node.js Moderation Policy](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md) applies to this WG.
+
+[Node.js TSC]: https://github.com/nodejs/TSC
