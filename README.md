@@ -135,3 +135,11 @@ The [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF
 The [Node.js Moderation Policy](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md) applies to this WG.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
+
+# Code of Conduct
+
+The [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
+
+# Moderation Policy
+
+The [Node.js Moderation Policy](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md) applies to this WG.
