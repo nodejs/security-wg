@@ -7,7 +7,9 @@
   "publish_date": "2018-05-29",
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "sexstatic",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3755"
+  ],
   "vulnerable_versions": "<=0.6.2",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
