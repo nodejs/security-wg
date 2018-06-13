@@ -24,19 +24,18 @@ The steps include:
   release, ensure the pre-announce is sent out as outlined in the
   [security_announcement_process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
 
-* One week in advance Send an email to the docker official image
+* One week in advance send an email to the docker official image
   [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
   with an FYI that security releases will be going out on the agreed date.
 
 * Open an issue in the [docker-node](https://github.com/nodejs/docker-node)
   repo and get one or more volunteers to be available to review the PR
-  to update Node.js versions in the offical repo immediately after the release.
+  to update Node.js versions in the docker-node repo immediately after the release.
 
 * On the day of the release co-ordinate with the Release
-  team members and keep up to date on progress. Get an guestimate of
-  when releases may be ready and send an FYI to the docker offical
-  image
-  [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
+  team members and keep up to date on progress. Get an guesstimate of
+  when releases may be ready and send an FYI to the docker offical image
+  [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS).
 
 * When the releases are promoted, ensure the final announce
   goes out as per the
@@ -45,12 +44,12 @@ The steps include:
 * Create a PR to update the Node.js version in the official docker images.  
   * Checkout the docker-node repo
   * Run the update.sh script to update versions
-  * Update the changed files to remove all changes EXCEPT those which 
+  * Update the changed files to **remove** all changes EXCEPT those which 
     update the Node.js versions. At the request from docker (and because
     it is good practice) we limit the changes to those necessary in
-    security updates.
-  * Open a PR and get volunteer lined up earlier to approve.
-  * Merge the PR with the merge button.
+    security updates
+  * Open a PR and get volunteer lined up earlier to approve
+  * Merge the PR with the merge button
   * Checkout the [official-images](https://github.com/docker-library/official-images)
     repository 
   * In the docker-node repository run the
@@ -65,7 +64,8 @@ The steps include:
 
 * Ensure that the announced CVEs are updated in the cve-management repository
   as per the the
-  [cve_management_process](https://github.com/nodejs/security-wg/blob/master/processes/cve_management_process.md).
+  [cve_management_process](https://github.com/nodejs/security-wg/blob/master/processes/cve_management_process.md)
+  so that they are listed under Announced.
 
 * PR machine-readable JSON descriptions of the vulnerabilities to the
   [core](https://github.com/nodejs/security-wg/tree/master/vuln/core)
