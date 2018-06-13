@@ -18,7 +18,7 @@ The steps include:
 
 * Prep for the pre-security announcement and final security
   annoucement by getting agreement on drafts following the
-  [security_announcement_process{(https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
+  [security_announcement_process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
 
 * One week in advance of the agreed date for the security
   release, ensure the pre-announce is sent out as outlined in the
