@@ -62,6 +62,9 @@ The steps include:
     [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
     indicating that the PR is open
 
+* Ensure that the announced CVEs are reported to Mitre as per the
+  [cve_management_process](https://github.com/nodejs/security-wg/blob/master/processes/cve_management_process.md).
+
 * Ensure that the announced CVEs are updated in the cve-management repository
   as per the the
   [cve_management_process](https://github.com/nodejs/security-wg/blob/master/processes/cve_management_process.md)
