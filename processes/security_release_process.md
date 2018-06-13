@@ -22,7 +22,7 @@ The steps include:
 
 * One week in advance of the agreed date for the security
   release, ensure the pre-announce is sent out as outlined in the
-  [security_announcement_process{(https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
+  [security_announcement_process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
 
 * One week in advance Send an email to the docker official image
   [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
@@ -40,7 +40,7 @@ The steps include:
 
 * When the releases are promoted, ensure the final announce
   goes out as per the
-  [security_announcement_process{(https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
+  [security_announcement_process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
 
 * Create a PR to update the Node.js version in the official docker images.  
   * Checkout the docker-node repo
