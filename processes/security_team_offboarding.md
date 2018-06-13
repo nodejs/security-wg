@@ -4,14 +4,14 @@ This document aims to provide a clear process for off-boarding existing WG membe
 
 ## Process
 
-Every P period of time the WG will run through a process of validating membership relevancy as follows:
+Every 6 months the WG will run through a process of validating membership relevancy as follows:
 
 * An issue will be posted on the WG Repository that will mention all existing WG members to query whether participation in the WG is still relevant.
 * After 2 weeks a reminder notice will be posted
 * After 4 weeks those who haven't responded to the issue will be placed in a pending status ('emeritus')
 * After 4 weeks those who haven't responded to the issue will be removed from the WG (see `Revoking Access to Confidential Systems` section for details on access removal check-list)
 
-At any time until the last time mark any member can chime in and request to retain his membership without requiring consensus reaching by the WG.
+At any time until the last time mark any member can chime in and request to retain their membership without requiring consensus reaching by the WG.
 
 ## Revoking Access to Confidential Systems
 
