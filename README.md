@@ -99,6 +99,7 @@ You can show your users you take security matters seriously and drive higher con
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
 
 # Code of Conduct
 
