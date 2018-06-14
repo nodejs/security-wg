@@ -120,9 +120,9 @@ by PRing their acceptance to this file:
 * @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
+* @elexy - Alex Knol
 * @gergelyke - Gergely Nemeth
 * @grnd - Danny Grander
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @vdeturckheim - Vladimir de Turckheim
-* @elexy - Alex Knol
