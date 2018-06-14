@@ -125,3 +125,4 @@ by PRing their acceptance to this file:
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @vdeturckheim - Vladimir de Turckheim
+* @elexy - Alex Knol
