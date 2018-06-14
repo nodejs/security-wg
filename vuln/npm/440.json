@@ -1,0 +1,18 @@
+{
+  "id": 440,
+  "title": "Information Exposure Through Directory Listing",
+  "overview": "[serve] Directory listing and File access even when they have been set to be ignored",
+  "created_at": "2018-03-28",
+  "updated_at": "2018-05-31",
+  "publish_date": "2018-05-31",
+  "author": "tungpun (https://tungpun.pw)",
+  "module_name": "serve",
+  "cves": [],
+  "vulnerable_versions": "<=1.1.5",
+  "patched_versions": ">=1.1.7",
+  "recommendation": "update serve to 1.1.7 or higher",
+  "references": "- https://hackerone.com/reports/330650",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 10,
+  "coordinating_vendor": null
+}

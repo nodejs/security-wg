@@ -20,27 +20,39 @@ const coreModel = joi.object().keys({
 const npmModel = joi.object().keys({
   id: joi.number().required(),
   cves: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
-  created_at: joi.date().required(),
-  updated_at: joi.date().required(),
+  created_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
+  updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   title: joi.string().required(),
+  title: joi.string().max(150).regex(/^[^\n]+$/).required(),
   author: joi.string().allow(null).required(),
   module_name: joi.string().required(),
-  publish_date: joi.date().required(),
-  vulnerable_versions: joi.semver().validRange().allow('').allow(null).required(),
-  patched_versions: joi.semver().validRange().allow('').allow(null).required(),
-  slug: joi.string().required(),
+  publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
+  vulnerable_versions: joi.alternatives().when("patched_versions", {
+    is: null,
+    then: joi
+      .semver()
+      .validRange()
+      .required(),
+    otherwise: joi
+      .semver()
+      .validRange()
+      .allow(null)
+      .required()
+  }),
+  patched_versions: joi.semver().validRange().allow(null).required(),
   overview: joi.string().required(),
-  recommendation: joi.string().allow('').allow(null).required(),
-  references: joi.string().allow('').allow(null).required(),
-  cvss_vector: joi.string().allow('').allow(null).required(),
+  recommendation: joi.string().allow(null).required(),
+  references: joi.string().allow(null).required(),
+  cvss_vector: joi.string().allow(null).required(),
   cvss_score: joi.number().allow(null).required(),
-  coordinating_vendor: joi.string().allow('').required()
+  coordinating_vendor: joi.string().allow(null).required()
 });
 
 function validate(dir, model) {
   fs.readdirSync(dir)
     .forEach((name) => {
       const filePath = path.join(dir, name);
+      console.log('Validate:', filePath);
       try {
         const vuln = JSON.parse(fs.readFileSync(filePath));
         const result = joi.validate(vuln, model);
