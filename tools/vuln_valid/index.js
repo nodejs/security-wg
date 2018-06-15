@@ -24,7 +24,13 @@ const npmModel = joi.object().keys({
   updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   title: joi.string().required(),
   title: joi.string().max(150).regex(/^[^\n]+$/).required(),
-  author: joi.string().allow(null).required(),
+  author: joi.object().keys(
+    {
+      name: joi.string().required(),
+      username: joi.string().required().allow(null),
+      website: joi.string().required().allow(null)
+    }
+  ),
   module_name: joi.string().required(),
   publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   vulnerable_versions: joi.alternatives().when("patched_versions", {
