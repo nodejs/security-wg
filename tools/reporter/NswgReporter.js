@@ -36,7 +36,7 @@ class NswgReporter {
     wgReport['references'] = this.formatReferences(this.getReferences())
     wgReport['cvss_vector'] = this.getCVSS()
     wgReport['cvss_score'] = this.getCVSSScore()
-    wgReport['coordinating_vendor'] = ''
+    wgReport['coordinating_vendor'] = null
 
     return wgReport
   }
