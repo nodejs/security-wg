@@ -7,7 +7,9 @@
   "publish_date": "2018-05-29",
   "author": "N B Sri Harshа (http://nbsriharsha.blogspot.in)",
   "module_name": "pdf-image",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3757"
+  ],
   "vulnerable_versions": "<=1.0.5",
   "patched_versions": ">=2.0.0",
   "recommendation": "update pdf-image to 2.0.0 or higher",
