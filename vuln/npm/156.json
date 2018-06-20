@@ -11,7 +11,9 @@
   "patched_versions": ">=0.4.4",
   "overview": "During the installation process, the go-ipfs-deps module insecurely downloads resources over HTTP. This allows for a MITM attack to compromise the integrity of the resources used by this module and could allow for further compromise.",
   "recommendation": "Update to version 0.4.4 or greater",
-  "references": "- https://github.com/diasdavid/go-ipfs-dep/pull/12",
+  "references": [
+    "https://github.com/diasdavid/go-ipfs-dep/pull/12"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
   "cvss_score": 7.1,
   "coordinating_vendor": "^Lift Security"

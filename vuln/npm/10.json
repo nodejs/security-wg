@@ -13,7 +13,10 @@
   "patched_versions": ">=13.0.8",
   "overview": "Geddy static file serving allows directory traversal with a URI encoded path.\n\n### Example\n```\nhttp://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd\n\ngeddy is serving the output as it doesn't match the routes and it's a static file\n```",
   "recommendation": "Update to version >= 13.0.8",
-  "references": "- https://github.com/geddy/geddy/issues/697\n- https://github.com/geddy/geddy/pull/699",
+  "references": [
+    "https://github.com/geddy/geddy/issues/697",
+    "https://github.com/geddy/geddy/pull/699"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

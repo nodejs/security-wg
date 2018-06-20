@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=1.4.3",
   "patched_versions": ">=1.4.4",
   "recommendation": "update angular-http-server to 1.44 or higher",
-  "references": "- https://hackerone.com/reports/330349\n- https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9",
+  "references": [
+    "https://hackerone.com/reports/330349",
+    "https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
   "coordinating_vendor": null

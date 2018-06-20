@@ -13,7 +13,10 @@
   "patched_versions": ">= 2.3.3",
   "overview": "ldapauth-fork is a module forked from node-ldapauth and is used for ldap authentication  \nThe username parameter is not filtered as per [LDAP Escape Specifications](https://tools.ietf.org/search/rfc4515#section-3)  \nA malicious user is able to change their name to certain LDAP commands and run anything that they want.",
   "recommendation": "Updated to ldapauth-fork 2.3.3 or greater.",
-  "references": "- https://github.com/vesse/node-ldapauth-fork/issues/21\n- https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4",
+  "references": [
+    "https://github.com/vesse/node-ldapauth-fork/issues/21",
+    "https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

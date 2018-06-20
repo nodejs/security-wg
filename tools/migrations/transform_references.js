@@ -37,7 +37,7 @@ list.forEach((filePath) => {
   else {
     console.log(npmVulnerabilityPath + '/' + filePath);
   }
-  fs.writeFileSync(npmVulnerabilityPathNew + '/' + filePath, JSON.stringify(fileContents, null, 2));
+  fs.writeFileSync(npmVulnerabilityPathNew + '/' + filePath, JSON.stringify(fileContents, null, 2) + "\n");
 })
 
 

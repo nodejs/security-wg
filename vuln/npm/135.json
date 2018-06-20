@@ -13,7 +13,9 @@
   "patched_versions": ">=1.4.3",
   "overview": "Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.",
   "recommendation": "Upgrade to 1.4.3 or later",
-  "references": "* https://github.com/punkave/sanitize-html/issues/29",
+  "references": [
+    "https://github.com/punkave/sanitize-html/issues/29"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
   "cvss_score": 4.7,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=0.4.0",
   "patched_versions": ">=0.4.1",
   "recommendation": "use npm package `which` instead",
-  "references": "- https://hackerone.com/reports/319476\n- https://github.com/vvo/node-whereis/commit/0f64e3780235004fb6e43bfd153ea3e0e210ee2b",
+  "references": [
+    "https://hackerone.com/reports/319476",
+    "https://github.com/vvo/node-whereis/commit/0f64e3780235004fb6e43bfd153ea3e0e210ee2b"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
   "cvss_score": 9.9,
   "coordinating_vendor": null

@@ -13,7 +13,9 @@
   "patched_versions": ">=2.2.1",
   "overview": "Not using quotes around your attributes in mustache templates, could lead to content injection.\n\n### Example\nTemplate:\n```<a href={{foo}}/>```\n\nInput:\n```{ 'foo' : 'test.com onload=alert(1)'}```\n\nRendered result:\n```<a href=test.com onload=alert(1)/>```",
   "recommendation": "If you are unable to upgrade to version 2.2.1 or greater you can add quotes to your attributes in your mustache templates.",
-  "references": "- https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5",
+  "references": [
+    "https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

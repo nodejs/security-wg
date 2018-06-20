@@ -13,7 +13,9 @@
   "patched_versions": ">= 1.x",
   "overview": "The qs module has the ability to create sparse arrays during parsing. By specifying a high index it is possible to create a large array that will eventually take up all the allocated memory of the running process, resulting in a crash.",
   "recommendation": "Update qs to version 1.0.0 or greater",
-  "references": "- https://github.com/visionmedia/node-querystring/issues/104",
+  "references": [
+    "https://github.com/visionmedia/node-querystring/issues/104"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

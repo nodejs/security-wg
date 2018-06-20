@@ -11,7 +11,9 @@
   "patched_versions": ">= 3.0.0",
   "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS\n\nA fix was pushed out that fixed potential SQL injection.\n\nThe two fixes were\n\n- [REMOVED/SECURITY] findOne no longer takes a string / integer / binary argument to represent a primaryKey. Use findById instead\n- [REMOVED/SECURITY] where: \"raw query\" is no longer legal, you must now explicitly use where: [\"raw query\", [replacements]]",
   "recommendation": "Upgrade to at least version 3.0.0",
-  "references": "- https://github.com/sequelize/sequelize/blob/master/changelog.md#300",
+  "references": [
+    "https://github.com/sequelize/sequelize/blob/master/changelog.md#300"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

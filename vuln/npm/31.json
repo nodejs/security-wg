@@ -13,7 +13,10 @@
   "patched_versions": ">=4.3.2",
   "overview": "semver is vulnerable to regular expression denial of service ([ReDoS](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)) when extremely long version strings are parsed.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]",
   "recommendation": "Update to a version 4.3.2 or greater",
-  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/npm/npm/releases/tag/v2.7.5",
+  "references": [
+    "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+    "https://github.com/npm/npm/releases/tag/v2.7.5"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

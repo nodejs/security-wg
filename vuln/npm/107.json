@@ -13,7 +13,9 @@
   "patched_versions": ">= 1.1",
   "overview": "dojo is the core module for the Dojo Toolkit. The dojo package covers a wide range of functionality like AJAX, DOM manipulation, class-type programming, events, promises, data stores, drag-and-drop and internationalization libraries.\n\nThere is a bug in the `dijit.Editor` and `textarea` where input, even sanitized, executes javascript. This is because the `<textarea>` tag only sees the final, unsanitized, user input.",
   "recommendation": "Upgrade to at least version 1.1",
-  "references": "- https://bugs.dojotoolkit.org/ticket/2140",
+  "references": [
+    "https://bugs.dojotoolkit.org/ticket/2140"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
   "cvss_score": 4.3,
   "coordinating_vendor": "^Lift Security"

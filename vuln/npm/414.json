@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=9.1.5",
   "patched_versions": ">=9.1.6",
   "recommendation": "update cloudcmd module to 9.1.6 or higher",
-  "references": "- https://hackerone.com/reports/341044\n- https://github.com/coderaiser/cloudcmd/commit/23f4d4702cd3d473977285f26ea2ae7206b45f38",
+  "references": [
+    "https://hackerone.com/reports/341044",
+    "https://github.com/coderaiser/cloudcmd/commit/23f4d4702cd3d473977285f26ea2ae7206b45f38"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
   "cvss_score": 8.5,
   "coordinating_vendor": null

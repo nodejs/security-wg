@@ -13,7 +13,10 @@
   "patched_versions": ">=0.11.1",
   "overview": "The send module < 0.11.1 discloses the root path.",
   "recommendation": "Upgrade to send version 0.11.1 or greater.",
-  "references": "- https://github.com/pillarjs/send/pull/70\n- https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20",
+  "references": [
+    "https://github.com/pillarjs/send/pull/70",
+    "https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

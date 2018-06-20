@@ -13,7 +13,10 @@
   "patched_versions": ">= 6.1.0",
   "overview": "This description taken from the pull request provided by Patrick Kettner.\n\n[Background from the vulnerabilty finder](http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/)\n\ntl:dr - someone created a alphanum only swf converter, which means that they can in theory use it as a callback at a JSONP endpoint, and as a result, send data across domains.\n\nPrepending callbacks with an empty inline comment breaks the flash parser, and prevents the issue. This is a fairly common solution currently being implemented by Google, Facebook, and Github.",
   "recommendation": "- Update to the latest version of hapi.js",
-  "references": "[PR #1766 - prepend jsonp callbacks with a comment to prevent the rosetta-flash vulnerability](https://github.com/spumko/hapi/pull/1766)\n\nThanks to [Patrick Kettner](https://github.com/patrickkettner) for submitting a pull request to address this in hapi.",
+  "references": [
+    "https://github.com/spumko/hapi/pull/1766)",
+    "https://github.com/patrickkettner)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
   "cvss_score": 7.4,
   "coordinating_vendor": "^Lift Security"

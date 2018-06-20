@@ -11,8 +11,11 @@
   "vulnerable_versions": "<=1.3.0",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/341710\n https://github.com/stevemao/git-dummy-commit/pull/2",
+  "references": [
+    "https://hackerone.com/reports/341710",
+    "https://github.com/stevemao/git-dummy-commit/pull/2"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:H",
   "cvss_score": 10,
-  "coordinating_vendor": null 
+  "coordinating_vendor": null
 }

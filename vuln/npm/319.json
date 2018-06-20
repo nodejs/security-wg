@@ -11,7 +11,9 @@
   "patched_versions": ">=1.7.0",
   "overview": "Remarkable is a markdown parser. \n\nIn versions 1.6.2 and lower, remarkable allows the use of `data:` URIs. \n\nAfter the markdown `[link](data:text/html,<script>alert('0')</script>)` is rendered, the script will run when clicked.",
   "recommendation": "Upgrade to v1.7.0 or higher",
-  "references": "* [GitHub Issue](https://github.com/jonschlinkert/remarkable/issues/227)",
+  "references": [
+    "https://github.com/jonschlinkert/remarkable/issues/227)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
   "cvss_score": 4.3,
   "coordinating_vendor": "^Lift Security"

@@ -13,7 +13,9 @@
   "patched_versions": ">=2.2.0",
   "overview": "Yar uses an encrypted cookie for session support, during the hapi request/reply flow if this cookie value is invalid (changed by the end-user), a request object variable is not set. In versions prior 2.2.0, the presence of this variable was not validated prior to use, resulting in an unhandled ReferenceError, which in most cases will crash the process.",
   "recommendation": "Update to a version 2.2.0 or greater.",
-  "references": "- https://github.com/spumko/yar/issues/34",
+  "references": [
+    "https://github.com/spumko/yar/issues/34"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

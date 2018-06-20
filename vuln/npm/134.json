@@ -13,7 +13,9 @@
   "patched_versions": ">=1.0.6",
   "overview": "Cookie-signature is a library for signing cookies.\n\nVersions before 1.0.4 were vulnerable to timing attacks.",
   "recommendation": "Upgrade to 1.0.6 or latest",
-  "references": "https://github.com/tj/node-cookie-signature/commit/39791081692e9e14aa62855369e1c7f80fbfd50e",
+  "references": [
+    "https://github.com/tj/node-cookie-signature/commit/39791081692e9e14aa62855369e1c7f80fbfd50e"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:N/A:N",
   "cvss_score": 5.4,
   "coordinating_vendor": "^Lift Security"
