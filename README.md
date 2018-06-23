@@ -81,6 +81,7 @@ You can show your users you take security matters seriously and drive higher con
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
 * [drifkin](https://github.com/drifkin) - **Devon Rifkin**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
