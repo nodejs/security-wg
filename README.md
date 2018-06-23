@@ -102,7 +102,6 @@ You can show your users you take security matters seriously and drive higher con
 
 # Code of Conduct
 
-
 The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
 
 # Moderation Policy
