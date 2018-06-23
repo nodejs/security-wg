@@ -68,7 +68,20 @@ You can show your users you take security matters seriously and drive higher con
 
 2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
 
+## Vulnerability database
 
+### Security researchers
+
+The Security Working Group and the Node.js community is kept safe with the help of many security researchers who help
+identify vulnerabilities in the core and in the ecosystem.
+
+The list of these people can be found on HackerOne:
+* for Node.js core: https://hackerone.com/nodejs/thanks
+* for Node.js ecosystem: https://hackerone.com/nodejs-ecosystem/thanks
+
+### License of the database
+
+The vulnerability is provided under the MIT license. You
 
 ## Current Project Team Members
 
@@ -110,11 +123,3 @@ The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_O
 The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this WG.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
-
-# Code of Conduct
-
-The [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
-
-# Moderation Policy
-
-The [Node.js Moderation Policy](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md) applies to this WG.
