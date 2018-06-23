@@ -8,7 +8,7 @@
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "file-static-server",
   "cves": [],
-  "vulnerable_versions": "1.0.2",
+  "vulnerable_versions": "<=1.0.2",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/310671",

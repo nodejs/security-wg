@@ -8,7 +8,7 @@
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "njwt",
   "cves": [],
-  "vulnerable_versions": "0.4.0",
+  "vulnerable_versions": "<=0.4.0",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": "- https://hackerone.com/reports/321704",
