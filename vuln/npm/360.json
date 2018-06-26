@@ -11,7 +11,9 @@
   "patched_versions": null,
   "overview": "A crafted GET request can be leveraged to traverse the directory structure of a host using the augustine web server package, and request arbitrary files outside of the specified web root.",
   "recommendation": null,
-  "references": "https://hackerone.com/reports/296282",
+  "references": [
+    "https://hackerone.com/reports/296282"
+  ],
   "cvss_vector": null,
   "cvss_score": -1,
   "coordinating_vendor": null

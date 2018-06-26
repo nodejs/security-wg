@@ -6,12 +6,17 @@
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "public",
   "publish_date": "2018-02-17",
-  "cves": ["CVE-2018-3731"],
+  "cves": [
+    "CVE-2018-3731"
+  ],
   "vulnerable_versions": "<=0.1.2",
   "patched_versions": ">=0.1.3",
   "overview": "public static hosting module suffers from a lack of file path sanitization which causes that any file on the server might be read by malicious user.",
   "recommendation": "update public to 0.1.3 or higher",
-  "references": "- https://hackerone.com/reports/312918\n- https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2",
+  "references": [
+    "https://hackerone.com/reports/312918",
+    "https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.3,
   "coordinating_vendor": null

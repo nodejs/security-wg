@@ -11,7 +11,9 @@
   "patched_versions": ">=1.4.1",
   "overview": "Certain input when passed into remarkable will bypass the bad prototcol check that disallows the javascript: scheme allowing for javascript: url's to be injected into the rendered content.\n\n### Example\n\n```\n[link](<javascript:alert(1)>)\n```\nThis will be turned into `<a href=\"javascript:alert(1)\">link</a>`\n\nwhere as\n\n```\n[link](javascript:alert(1))\n```\n\nWould be rendered as `[link](javascript:alert(1))` because it's an invalid scheme.",
   "recommendation": "Upgrade to version 1.4.1 or greater",
-  "references": "- https://github.com/jonschlinkert/remarkable/issues/97",
+  "references": [
+    "https://github.com/jonschlinkert/remarkable/issues/97"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

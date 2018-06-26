@@ -11,7 +11,9 @@
   "patched_versions": ">=3.2.2",
   "overview": "GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). \n\nStored Cross-Site-Scripting (XSS) is possible by including code outside of backticks in any ebook. This code will be executed on the online reader.",
   "recommendation": "Update to version 3.2.2 or later",
-  "references": "* https://github.com/GitbookIO/gitbook/issues/1609",
+  "references": [
+    "https://github.com/GitbookIO/gitbook/issues/1609"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 3.8,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,11 @@
   "patched_versions": ">=0.9.7",
   "overview": "Socket.io is a realtime application framework that provides communication via websockets.\n\nBecause socket.io depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.",
   "recommendation": "Upgrade to v0.9.7 or later.",
-  "references": "* [Github Issue](https://github.com/socketio/socket.io/issues/856)\n* https://github.com/socketio/socket.io/pull/857\n* https://github.com/socketio/socket.io/commit/67b4eb9abdf111dfa9be4176d1709374a2b4ded8",
+  "references": [
+    "https://github.com/socketio/socket.io/issues/856)",
+    "https://github.com/socketio/socket.io/pull/857",
+    "https://github.com/socketio/socket.io/commit/67b4eb9abdf111dfa9be4176d1709374a2b4ded8"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 4.8,
   "coordinating_vendor": "^Lift Security"

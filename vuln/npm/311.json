@@ -11,7 +11,10 @@
   "patched_versions": "<0.0.0",
   "overview": "node-serialize is a module for serializing an object or function into JSON.\n\nnode-serialize can be abused to execute arbitrary code via a [immediately invoked function expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) (IIFE) if untrusted user input is passed into `unserialize()`",
   "recommendation": "There is no patch yet available for this vulnerability, and thus we recommend not using it in network applications in combination with untrusted user input until a patch is available.",
-  "references": "* https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/\n* https://github.com/luin/serialize/issues/4",
+  "references": [
+    "https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/",
+    "https://github.com/luin/serialize/issues/4"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
   "cvss_score": 9.8,
   "coordinating_vendor": "^Lift Security"

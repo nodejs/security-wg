@@ -13,7 +13,9 @@
   "patched_versions": ">=0.9.0",
   "overview": "Due to the use of `child_process.exec` when executing git commands, ungit allows for commands to be injection from user input fields that end up in an executed git command.",
   "recommendation": "Update to the version >=0.9.0",
-  "references": "- https://github.com/FredrikNoren/ungit/issues/486",
+  "references": [
+    "https://github.com/FredrikNoren/ungit/issues/486"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

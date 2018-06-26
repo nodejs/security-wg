@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=1.4.6",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/344069\n- https://github.com/Vincent-P/react-marked-markdown/issues/61",
+  "references": [
+    "https://hackerone.com/reports/344069",
+    "https://github.com/Vincent-P/react-marked-markdown/issues/61"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
   "cvss_score": 9.3,
   "coordinating_vendor": null

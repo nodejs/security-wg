@@ -11,7 +11,11 @@
   "patched_versions": ">=4.3.6 || >=3.8.39 <4.0.0",
   "overview": "Trying to save a number to a field of type Buffer on the affected mongoose versions allocates a chunk of uninitialized memory and stores it in the database.",
   "recommendation": "update mongoose to 4.3.6 or higher",
-  "references": "* https://github.com/Automattic/mongoose/issues/3764\n* https://gist.github.com/ChALkeR/d4a8055625221b6e65f0\n* https://gist.github.com/ChALkeR/440bc3dfcbd9b6da75c3",
+  "references": [
+    "https://github.com/Automattic/mongoose/issues/3764",
+    "https://gist.github.com/ChALkeR/d4a8055625221b6e65f0",
+    "https://gist.github.com/ChALkeR/440bc3dfcbd9b6da75c3"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
   "coordinating_vendor": null

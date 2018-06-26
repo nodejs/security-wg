@@ -11,7 +11,11 @@
   "patched_versions": ">=1.1.7",
   "overview": "brace-expansion is a module to support bash-like brace expansion in JavaScript.  For example,`{1,2,3,4}` would expand to `1 2 3 4`.\nbrace expansion versions before 1.1.7 are vulnerable to Regular Expression Denial of Service attacks.  A proof of concept is provided below:\n\n```\nvar expand = require('brace-expansion');\nexpand('{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\\n}');\n```",
   "recommendation": "Upgrade to version 1.1.7 or later.",
-  "references": "* https://github.com/juliangruber/brace-expansion/issues/33\n* https://github.com/juliangruber/brace-expansion/pull/35\n* https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3",
+  "references": [
+    "https://github.com/juliangruber/brace-expansion/issues/33",
+    "https://github.com/juliangruber/brace-expansion/pull/35",
+    "https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3"
+  ],
   "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 6.2,
   "coordinating_vendor": "^Lift Security"

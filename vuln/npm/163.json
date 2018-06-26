@@ -11,7 +11,9 @@
   "patched_versions": ">=1.0.2",
   "overview": "ibm_db is an asynchronous/synchronous interface for node.js to IBM DB2 and IBM Informix.\n\nibm_db downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 1.0.2 or later",
-  "references": "* https://github.com/ibmdb/node-ibm_db/commit/d7e2d4b4cbeb6f067df8bba7d0b2ac5d40fcfc19#diff-315091eb1586966006e05ebc21cd2a94",
+  "references": [
+    "https://github.com/ibmdb/node-ibm_db/commit/d7e2d4b4cbeb6f067df8bba7d0b2ac5d40fcfc19#diff-315091eb1586966006e05ebc21cd2a94"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
   "cvss_score": 7.1,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,9 @@
   "patched_versions": ">=1.2.5",
   "overview": "Arbitrary code execution is possible through crafted css.  This makes cross sites scripting (XSS) possible on the client and arbitrary code injection possible on the server and user input is passed to the `calc` function.",
   "recommendation": "Update to version 1.2.5 or later",
-  "references": "* https://gist.github.com/ChALkeR/415a41b561ebea9b341efbb40b802fc9",
+  "references": [
+    "https://gist.github.com/ChALkeR/415a41b561ebea9b341efbb40b802fc9"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
   "cvss_score": 10,
   "coordinating_vendor": "^Lift Security"

@@ -42,7 +42,7 @@ const npmModel = joi.object().keys({
   patched_versions: joi.semver().validRange().allow(null).required(),
   overview: joi.string().required(),
   recommendation: joi.string().allow(null).required(),
-  references: joi.string().allow(null).required(),
+  references: joi.array().allow(null).required(),
   cvss_vector: joi.string().allow(null).required(),
   cvss_score: joi.number().allow(null).required(),
   coordinating_vendor: joi.string().allow(null).required()

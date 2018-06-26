@@ -11,7 +11,9 @@
   "patched_versions": ">= 0.6.1",
   "overview": "negotiator is an HTTP content negotiator for Node.js and is used by many modules and frameworks including Express and Koa.\n\nThe header for \"Accept-Language\", when parsed by negotiator is vulnerable to Regular Expression Denial of Service via a specially crafted string. \n\nTimeline\n\n- April 29th 2016 - Initial report to maintainers\n- April 29th 2016 - Confirm receipt from maintainers\n- May 1st 2016 - Fix confirmed\n- May 5th 2016 - 0.6.1 published with fix\n- June 16th 2016 - Advisory published (delay was to coordinate fixes in upstream frameworks, Koa and Express)",
   "recommendation": "Upgrade to at least version 0.6.1\n\nExpress users should update to Express 4.14.0 or greater. If you want to see if you are using a vulnerable call,  a quick grep for the `acceptsLanguages` function call in your application will tell you if you are using this functionality.",
-  "references": "- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+  "references": [
+    "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"
