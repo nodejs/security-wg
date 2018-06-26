@@ -95,6 +95,7 @@ You can show your users you take security matters seriously and drive higher con
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
+* [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
