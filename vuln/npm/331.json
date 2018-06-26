@@ -11,7 +11,10 @@
   "patched_versions": ">=6.4.1",
   "overview": "Nes is a websocket extension library for hapi.  \nHapi is a webserver framework.\n\nVersions below and including 6.4.0 have a denial of service vulnerability via an invalid Cookie header.  This is only present when websocket authentication is set to `cookie`.  Submitting an invalid cookie on the websocket upgrade request will cause the node process to error out.",
   "recommendation": "Upgrade to version 6.4.1 or later.",
-  "references": "* https://github.com/hapijs/nes/issues/171\n* https://github.com/hapijs/nes/commit/249ba1755ed6977fbc208463c87364bf884ad655",
+  "references": [
+    "https://github.com/hapijs/nes/issues/171",
+    "https://github.com/hapijs/nes/commit/249ba1755ed6977fbc208463c87364bf884ad655"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

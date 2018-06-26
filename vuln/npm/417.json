@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=2.0.0",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/320586\n- https://github.com/strongloop/node-foreman/blob/v2.0.0/forward.js#L30",
+  "references": [
+    "https://hackerone.com/reports/320586",
+    "https://github.com/strongloop/node-foreman/blob/v2.0.0/forward.js#L30"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": null

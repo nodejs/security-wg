@@ -13,7 +13,9 @@
   "vulnerable_versions": "<=0.6.2",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/328210",
+  "references": [
+    "https://hackerone.com/reports/328210"
+  ],
   "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
   "cvss_score": 5.2,
   "coordinating_vendor": null

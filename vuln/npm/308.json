@@ -11,7 +11,9 @@
   "patched_versions": ">=1.1.2",
   "overview": "Decamelize is used to convert a dash/dot/underscore/space separated string to camelCase. \n\nDecamelize uses regular expressions to evaluate a string and takes unescaped separator values, which can be used to create a denial of service attack.",
   "recommendation": "Upgrade to version 1.1.2 or later.",
-  "references": "https://github.com/sindresorhus/decamelize/issues/5",
+  "references": [
+    "https://github.com/sindresorhus/decamelize/issues/5"
+  ],
   "cvss_vector": null,
   "cvss_score": null,
   "coordinating_vendor": "^Lift Security"

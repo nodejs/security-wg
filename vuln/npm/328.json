@@ -11,7 +11,11 @@
   "patched_versions": ">=3.0.0",
   "overview": "Jquery is a javascript library for DOM traversal and manipulation, event handling, animation, and Ajax. \n\nWhen text/javascript responses are received from cross-origin ajax requests not containing the option `dataType`, the result is executed in `jQuery.globalEval` potentially allowing an attacker to execute arbitrary code on the origin.",
   "recommendation": "Upgrade to v3.0.0 or greater.",
-  "references": "* [GitHub Issue](https://github.com/jquery/jquery/issues/2432)\n* [GitHub Commit with fix](https://github.com/jquery/jquery/commit/b078a62013782c7424a4a61a240c23c4c0b42614)\n* [Related GitHub Pull Request](https://github.com/jquery/jquery/pull/2588)",
+  "references": [
+    "https://github.com/jquery/jquery/issues/2432)",
+    "https://github.com/jquery/jquery/commit/b078a62013782c7424a4a61a240c23c4c0b42614)",
+    "https://github.com/jquery/jquery/pull/2588)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
   "cvss_score": 7.2,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,9 @@
   "vulnerable_versions": "<=1.1.5",
   "patched_versions": ">=1.1.7",
   "recommendation": "update serve to 1.1.7 or higher",
-  "references": "- https://hackerone.com/reports/330650",
+  "references": [
+    "https://hackerone.com/reports/330650"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 10,
   "coordinating_vendor": null

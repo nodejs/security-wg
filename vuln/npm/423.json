@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=0.0.24",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/324491\n- https://github.com/pillys/fs-path/blob/master/lib/index.js",
+  "references": [
+    "https://hackerone.com/reports/324491",
+    "https://github.com/pillys/fs-path/blob/master/lib/index.js"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H",
   "cvss_score": 9.6,
   "coordinating_vendor": null

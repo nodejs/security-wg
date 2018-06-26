@@ -13,7 +13,9 @@
   "vulnerable_versions": "<=0.3.6",
   "patched_versions": ">=0.4.1",
   "recommendation": "Update to module version >= 0.4.1",
-  "references": "- https://hackerone.com/reports/330957",
+  "references": [
+    "https://hackerone.com/reports/330957"
+  ],
   "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
   "cvss_score": 7.8,
   "coordinating_vendor": null

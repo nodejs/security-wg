@@ -13,7 +13,9 @@
   "patched_versions": ">=1.0.0",
   "overview": "Specifically crafted MQTT packets can crash the application, making a DoS attack feasible with very little bandwidth.",
   "recommendation": "Upgrade to v1.0.0 or later",
-  "references": "* https://github.com/mqttjs/MQTT.js/blob/388a084d7803934b18b43c1146c817deaa1396b1/lib/parse.js#L230",
+  "references": [
+    "https://github.com/mqttjs/MQTT.js/blob/388a084d7803934b18b43c1146c817deaa1396b1/lib/parse.js#L230"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

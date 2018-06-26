@@ -13,7 +13,9 @@
   "patched_versions": ">=2.1.0",
   "overview": "In versions 2.1.0-M1 and 2.1.0-M2, swagger-ui has a cross site scripting (XSS) vulnerability in the `url` query string parameter.",
   "recommendation": "Upgrade to 2.1.0 or later.",
-  "references": "* https://github.com/swagger-api/swagger-ui/issues/1262",
+  "references": [
+    "https://github.com/swagger-api/swagger-ui/issues/1262"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
   "cvss_score": 9.1,
   "coordinating_vendor": "^Lift Security"

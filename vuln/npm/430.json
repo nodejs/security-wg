@@ -7,11 +7,15 @@
   "publish_date": "2018-05-11",
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "query-mysql",
-  "cves": ["CVE-2018-3754"],
+  "cves": [
+    "CVE-2018-3754"
+  ],
   "vulnerable_versions": "<=0.0.2",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- https://hackerone.com/reports/311244",
+  "references": [
+    "https://hackerone.com/reports/311244"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
   "cvss_score": 9.8,
   "coordinating_vendor": null

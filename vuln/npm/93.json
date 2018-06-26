@@ -13,7 +13,10 @@
   "patched_versions": ">=1.4.4",
   "overview": "node-uuid prior to 1.4.4 contained a bug that caused it to consistently fall back to using `Math.random` instead of a more cryptographically sound source of entropy, the native `crypto` module.",
   "recommendation": "Upgrade to version 1.4.4 or greater",
-  "references": "- https://github.com/broofa/node-uuid/issues/108\n- https://github.com/broofa/node-uuid/issues/122",
+  "references": [
+    "https://github.com/broofa/node-uuid/issues/108",
+    "https://github.com/broofa/node-uuid/issues/122"
+  ],
   "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 4.2,
   "coordinating_vendor": "^Lift Security"

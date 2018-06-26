@@ -11,7 +11,9 @@
   "patched_versions": ">=2.14.0",
   "overview": "Affected versions of `mysql` package allocate and send an uninitialized memory chunk over network when a number is used as a password.\n\nOnly `mysql` running on Node.js versions below 6.0.0 is affected due to a throw added at Node.js side in newer versions.\n\nPoC:\n```\nrequire('mysql').createConnection({\n  host     : 'localhost',\n  user     : 'user',\n  password : 1e6,\n  database : 'my_db'\n}).connect();\n```\n\nReported at 2017-03-15.",
   "recommendation": "update mysql to 2.14.0 or higher",
-  "references": "* https://github.com/mysqljs/mysql/commit/310c6a7d1b2e14b63b572dbfbfa10128f20c6d52",
+  "references": [
+    "https://github.com/mysqljs/mysql/commit/310c6a7d1b2e14b63b572dbfbfa10128f20c6d52"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
   "coordinating_vendor": null

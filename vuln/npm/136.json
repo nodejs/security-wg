@@ -13,7 +13,10 @@
   "patched_versions": "<0.0.0",
   "overview": "This module does not validate the KDC, which might allow an attacker with network access and enough time to spoof the KDC and impersonate a valid user without knowing their credentials.",
   "recommendation": "Consider using the \"[kerberos](https://www.npmjs.com/package/kerberos)\" npm module, which has this protection in place, or short of that, ensure there are no untrusted users on your network.",
-  "references": "* https://github.com/qesuto/node-krb5/issues/13\n* http://archive.hack.lu/2010/Bouillon-Stealing-credentials-for-impersonation.pdf",
+  "references": [
+    "https://github.com/qesuto/node-krb5/issues/13",
+    "http://archive.hack.lu/2010/Bouillon-Stealing-credentials-for-impersonation.pdf"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
   "cvss_score": 5.7,
   "coordinating_vendor": "^Lift Security"
