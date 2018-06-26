@@ -81,7 +81,7 @@ The list of these people can be found on HackerOne:
 
 ### License of the database
 
-The vulnerability is provided under the MIT license.
+The database of vulnerabilities is provided under the MIT license.
 
 ## Current Project Team Members
 
