@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=2.0.0",
   "patched_versions": ">=2.1.0",
   "recommendation": "update http-proxy-agent to 2.1.0 or higher",
-  "references": "- https://hackerone.com/reports/321631\n- https://github.com/TooTallNate/node-http-proxy-agent/blob/2.0.0/index.js#L80",
+  "references": [
+    "https://hackerone.com/reports/321631",
+    "https://github.com/TooTallNate/node-http-proxy-agent/blob/2.0.0/index.js#L80"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 8.2,
   "coordinating_vendor": null

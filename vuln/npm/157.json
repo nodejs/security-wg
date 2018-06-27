@@ -11,7 +11,9 @@
   "patched_versions": "<0.0.0",
   "overview": "react-native-meteor-oauth is a library for Oauth2 login to a Meteor server in React Native.\nThe oauth Random Token is generated using a non-cryptographically strong RNG (Math.random()).",
   "recommendation": null,
-  "references": "* https://github.com/tableflip/react-native-meteor-oauth/blob/a7eb738b74c469f5db20296b44b7cae4e2337435/src/meteor-oauth.js#L66",
+  "references": [
+    "https://github.com/tableflip/react-native-meteor-oauth/blob/a7eb738b74c469f5db20296b44b7cae4e2337435/src/meteor-oauth.js#L66"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
   "cvss_score": 3.7,
   "coordinating_vendor": "^Lift Security"

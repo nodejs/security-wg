@@ -13,7 +13,10 @@
   "vulnerable_versions": "<=0.2.3",
   "patched_versions": ">=0.2.4",
   "recommendation": "update hekto to 0.2.4 or higher",
-  "references": "- https://hackerone.com/reports/320693\n- https://github.com/herber/hekto/pull/3",
+  "references": [
+    "https://hackerone.com/reports/320693",
+    "https://github.com/herber/hekto/pull/3"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
   "cvss_score": 2.7,
   "coordinating_vendor": null

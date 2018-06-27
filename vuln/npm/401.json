@@ -11,7 +11,10 @@
   "vulnerable_versions": "<=1.13.1",
   "patched_versions": ">=1.13.2",
   "recommendation": "update sshpk to 1.14.1 or higher",
-  "references": "- https://hackerone.com/reports/319593\n- https://github.com/joyent/node-sshpk/blob/v1.13.1/lib/formats/ssh.js#L17",
+  "references": [
+    "https://hackerone.com/reports/319593",
+    "https://github.com/joyent/node-sshpk/blob/v1.13.1/lib/formats/ssh.js#L17"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": null

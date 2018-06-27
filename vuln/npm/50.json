@@ -11,7 +11,9 @@
   "patched_versions": ">3.0.0",
   "overview": "secure-compare 3.0.0 and below do not actually compare two strings properly. \n\ncompare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.",
   "recommendation": "Upgrade to secure-compare 3.0.1 or greater.",
-  "references": "- https://github.com/vdemedes/secure-compare/pull/1",
+  "references": [
+    "https://github.com/vdemedes/secure-compare/pull/1"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

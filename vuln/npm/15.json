@@ -13,7 +13,12 @@
   "patched_versions": ">= 1.0.4",
   "overview": "This description pulled from the rubyonrails-security post.\n\nReported to NodeSecurity Project by Reed Loden.\n\nCSRF Vulnerability in jquery-ujs and jquery-rails\n\nThere is an vulnerability in jquery-ujs and jquery-rails that can be used to\nbypass CSP protections and allows attackers to send CSRF tokens to attacker domains.\n\nIn the scenario where an attacker might be able to control the href attribute of an anchor tag or\nthe action attribute of a form tag that will trigger a POST action, the attacker can set the\nhref or action to \" https://attacker.com\" (note the leading space) that will be passed to JQuery,\nwho will see this as a same origin request, and send the user's CSRF token to the attacker domain.",
   "recommendation": "Upgrade to the latest version",
-  "references": "- hackerone.com: https://hackerone.com/reports/49935\n- npm: https://www.npmjs.com/package/jquery-ujs\n- rubyonrails-security: https://groups.google.com/forum/#!msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J\n- github: https://github.com/rails/jquery-ujs",
+  "references": [
+    "https://hackerone.com/reports/49935",
+    "https://www.npmjs.com/package/jquery-ujs",
+    "https://groups.google.com/forum/#!msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J",
+    "https://github.com/rails/jquery-ujs"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

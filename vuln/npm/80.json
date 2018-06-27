@@ -11,7 +11,9 @@
   "patched_versions": ">=1.4.0",
   "overview": "- i18n-node-angular is a module used to interact between i18n and angular without using additional resources\n- A REST API endpoint that is used for development was not disabled in production environments\n- A malicious user could fill up the server causing a Denial of Service or content injection",
   "recommendation": "Upgrade to version 1.4.0 or greater.",
-  "references": "- https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8",
+  "references": [
+    "https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
   "cvss_score": 7.3,
   "coordinating_vendor": "^Lift Security"

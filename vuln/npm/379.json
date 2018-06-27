@@ -6,12 +6,17 @@
   "author": "bl4de (https://twitter.com/_bl4de)",
   "module_name": "anywhere",
   "publish_date": "2018-02-26",
-  "cves": ["CVE-2018-3717"],
+  "cves": [
+    "CVE-2018-3717"
+  ],
   "vulnerable_versions": "<1.5.0",
   "patched_versions": ">=1.5.0",
   "overview": "anywhere suffers from an XSS where an iframe element with url to malicious HTML file (with eg. JavaScript malware) can be used as filename and served",
   "recommendation": "update anywhere to 1.5.0 or higher",
-  "references": "- https://hackerone.com/reports/309394\n -https://github.com/JacksonTian/anywhere/issues/33#issuecomment-366527448",
+  "references": [
+    "https://hackerone.com/reports/309394",
+    "https://github.com/JacksonTian/anywhere/issues/33#issuecomment-366527448"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
   "cvss_score": 9.6,
   "coordinating_vendor": null

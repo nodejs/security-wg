@@ -13,7 +13,9 @@
   "patched_versions": ">= 2.2.x",
   "overview": "Versions 2.0.x and 2.1.x have a file descriptor leak that when triggered repeatedly will cause the server to run out of file descriptors and the node process to die. The effort required to take down a server depends on the process file descriptor limit. No other side effects or exploits have been identified.\n\n### Impact\n\nThis vulnerability allows an attacker to take down a hapi-based server running versions 2.0.x and 2.1.x.\n\nThis does NOT affect hapi 1.x deployments.",
   "recommendation": "- Please upgrade to version 2.2.x or above as soon as possible.",
-  "references": "https://github.com/spumko/hapi/issues/1427",
+  "references": [
+    "https://github.com/spumko/hapi/issues/1427"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,10 @@
   "patched_versions": "<0.0.0",
   "overview": "ag-grid is an advanced data grid that is library agnostic.\n\nag-grid is vulnerable to Cross-site Scripting (XSS) via Angular Expressions, if AngularJS is used in combination with ag-grid.",
   "recommendation": "Avoid using ag-grid in combination with AngularJS until a fix is available.",
-  "references": "* https://github.com/ceolter/ag-grid/issues/1287\n* https://spring.io/blog/2016/01/28/angularjs-escaping-the-expression-sandbox-for-xss",
+  "references": [
+    "https://github.com/ceolter/ag-grid/issues/1287",
+    "https://spring.io/blog/2016/01/28/angularjs-escaping-the-expression-sandbox-for-xss"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
   "cvss_score": 6.1,
   "coordinating_vendor": "^Lift Security"

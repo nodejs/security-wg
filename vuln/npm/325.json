@@ -11,7 +11,9 @@
   "patched_versions": ">=1.10.3",
   "overview": "i18next is a language translation framework.\n\nBecause of how the interpolation is implemented, making replacements from the dictionary one at a time, untrusted user input can use the name of one of the dictionary keys to inject script into the browser.\n\nExample: \n```\nvar init = i18n.init({debug: true}, function(){\n  var test = i18n.t('__firstName__ __lastName__', {\n        escapeInterpolation: true,\n        firstName: '__lastNameHTML__',\n        lastName: '<script>',\n  });\n  console.log(test);\n});\n// equals \"<script> &lt;script&gt;\"\n```",
   "recommendation": "Upgrade to v1.10.3 or greater.",
-  "references": "* [GitHub Pull Request](https://github.com/i18next/i18next/pull/443)",
+  "references": [
+    "https://github.com/i18next/i18next/pull/443)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

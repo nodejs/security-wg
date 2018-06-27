@@ -13,7 +13,9 @@
   "vulnerable_versions": "<=1.0.5",
   "patched_versions": ">=2.0.0",
   "recommendation": "update pdf-image to 2.0.0 or higher",
-  "references": "- https://hackerone.com/reports/340208",
+  "references": [
+    "https://hackerone.com/reports/340208"
+  ],
   "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
   "cvss_score": 6.1,
   "coordinating_vendor": null

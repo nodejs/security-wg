@@ -8,12 +8,14 @@
   "author": "Patrick",
   "module_name": "express-cart",
   "cves": [
-   "CVE-2018-3758"
+    "CVE-2018-3758"
   ],
   "vulnerable_versions": "<=1.1.5",
   "patched_versions": ">=1.1.7",
   "recommendation": "update express-cart to 1.1.7 or higher",
-  "references": "- https://hackerone.com/reports/343726",
+  "references": [
+    "https://hackerone.com/reports/343726"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
   "cvss_score": 9.1,
   "coordinating_vendor": null

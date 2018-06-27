@@ -13,7 +13,9 @@
   "patched_versions": "<0.0.0",
   "overview": "ldapauth versions <= 2.2.4 are vulnerable to ldap injection through the username parameter.",
   "recommendation": "Consider updating to use [ldapauth-fork](https://www.npmjs.com/package/ldapauth-fork) 2.3.3 or greater as ldapauth has not yet been patched.",
-  "references": "- http://www.openwall.com/lists/oss-security/2015/09/18/4",
+  "references": [
+    "http://www.openwall.com/lists/oss-security/2015/09/18/4"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

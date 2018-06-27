@@ -13,7 +13,9 @@
   "patched_versions": ">=5.0.3 >=4.2.1",
   "overview": "hoek node module before 5.0.3 and before 4.2.1 suffers from a prototype pollution vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
   "recommendation": "Update module to 5.0.3 or 4.2.1 or higher",
-  "references": "https://hackerone.com/reports/310439",
+  "references": [
+    "https://hackerone.com/reports/310439"
+  ],
   "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
   "cvss_score": 2.5,
   "coordinating_vendor": null
