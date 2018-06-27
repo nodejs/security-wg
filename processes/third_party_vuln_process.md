@@ -116,7 +116,6 @@ Vulnerabilities disclosed to this repository without using HackerOne currently c
 Members of the security teams should indicate that they accept the privacy policies
 by PRing their acceptance to this file:
 
-* @bengl - Bryan English
 * @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
@@ -126,3 +125,7 @@ by PRing their acceptance to this file:
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @vdeturckheim - Vladimir de Turckheim
+
+# Emeritus Members
+
+* @bengl - Bryan English
