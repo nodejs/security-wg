@@ -68,7 +68,20 @@ You can show your users you take security matters seriously and drive higher con
 
 2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
 
+## Vulnerability database
 
+### Security researchers
+
+The Security Working Group and the Node.js community is kept safe with the help of many security researchers who help
+identify vulnerabilities in the core and in the ecosystem.
+
+The list of these people can be found on HackerOne:
+* for Node.js core: https://hackerone.com/nodejs/thanks
+* for Node.js ecosystem: https://hackerone.com/nodejs-ecosystem/thanks
+
+### License of the database
+
+The database of vulnerabilities is provided under the MIT license.
 
 ## Current Project Team Members
 
