@@ -33,7 +33,7 @@ class NswgReporter {
     wgReport['vulnerable_versions'] = this.getVulnerableVerison()
     wgReport['patched_versions'] = this.getPatchedVersion()
     wgReport['recommendation'] = this.getRecommendation()
-    wgReport['references'] = this.formatReferences(this.getReferences())
+    wgReport['references'] = this.getReferences()
     wgReport['cvss_vector'] = this.getCVSS()
     wgReport['cvss_score'] = this.getCVSSScore()
     wgReport['coordinating_vendor'] = null
@@ -87,16 +87,6 @@ class NswgReporter {
 
   getReferences () {
     return new Array(`${this.baseURL}/reports/${this.reportId}`)
-  }
-
-  formatReferences (references) {
-    return references.reduce((prev, next) => {
-      if (prev === '- ') {
-        return prev + next
-      }
-
-      return prev + '\n- ' + next
-    }, '- ')
   }
 
   getRecommendation () {
