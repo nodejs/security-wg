@@ -1,0 +1,19 @@
+{
+  "id": 387,
+  "created_at": "2018-07-02",
+  "updated_at": "2018-07-02",
+  "title": "Priviledge escalation",
+  "author": "Patrick (https://twitter.com/patrickrbc)",
+  "module_name": "express-cart",
+  "publish_date": "2018-07-02",
+  "cves": [],
+  "vulnerable_versions": "<1.1.6",
+  "patched_versions": ">=1.1.7",
+  "slug": "express-cart-priviledge-escalation",
+  "overview": "A deficiency in the access control allows normal users from expressCart to add new users to the application including admin users.",
+  "recommendation": "update express-cart to 1.1.6 or higher",
+  "references": "https://hackerone.com/reports/343626",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 9.9,
+  "coordinating_vendor": ""
+}
