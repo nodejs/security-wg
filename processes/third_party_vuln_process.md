@@ -122,7 +122,6 @@ Members of the security teams should indicate that they accept the privacy polic
 by PRing their acceptance to this file:
 
 * @aeleuterio - André Eleuterio
-* @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
 * @elexy - Alex Knol
@@ -137,4 +136,5 @@ by PRing their acceptance to this file:
 # Emeritus Members
 
 * @bengl - Bryan English
+* @brycebaril - Bryce Baril
 * @gergelyke - Gergely Nemeth
