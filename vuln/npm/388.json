@@ -1,0 +1,19 @@
+{
+    "id": 388,
+    "created_at": "2018-07-02",
+    "updated_at": "2018-07-02",
+    "title": "Stored XSS in the filename when directories listing",
+    "author": "tungpun (Twitter: https://twitter.com/tungpun_)",
+    "module_name": "glance",
+    "publish_date": "2018-07-02",
+    "cves": [],
+    "vulnerable_versions": "<=3.0.5",
+    "patched_versions": "",
+    "slug": "glance-filename-xss",
+    "overview": "A lack of output sanitization allows an attacker to run malicious javascript code in the user's browser",
+    "recommendation": "",
+    "references": "https://hackerone.com/reports/329405",
+    "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_score": 4.7,
+    "coordinating_vendor": ""
+}
