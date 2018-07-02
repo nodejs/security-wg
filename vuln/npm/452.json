@@ -1,0 +1,19 @@
+{
+    "id": 389,
+    "created_at": "2018-07-02",
+    "updated_at": "2018-07-02",
+    "title": "HTML Injection in filenames displayed as directory listing in the browser allows to embed iframe with malicious JavaScript",
+    "author": "bl4de (https://twitter.com/_bl4de)",
+    "module_name": "m-server",
+    "publish_date": "2018-07-02",
+    "cves": [],
+    "vulnerable_versions": "<1.4.2",
+    "patched_versions": ">=1.4.2",
+    "slug": "m-server-html-injection",
+    "overview": "No HTML special characters escape is implememtned in the function which constructs and returns HTML with current directory listing allowing HTML injection",
+    "recommendation": "Update to a version >=1.4.2",
+    "references": "https://hackerone.com/reports/319794",
+    "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_score": 4.7,
+    "coordinating_vendor": ""
+}
