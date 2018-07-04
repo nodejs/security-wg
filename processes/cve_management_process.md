@@ -129,5 +129,5 @@ following steps are used to assign, announce and report a CVE.
      [ASSIGNINGCNA]: Node.js Foundation
 ```
 * Move the CVE from the Pending section to the Announced section along
--    with a link to the Node.js blog post announcing that releases
--    are availble.
+  with a link to the Node.js blog post announcing that releases
+  are availble.
