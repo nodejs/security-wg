@@ -109,7 +109,7 @@ following steps are used to assign, announce and report a CVE.
   in the issue in the security issue being used to discuss the
   vulnerability, associate the CVE to that vulnerability. This is most
   commonly done by including it is the draft for the announcement that
-  will go out once the associated security releases are availble.
+  will go out once the associated security releases are available.
 * Once the security announcement goes out:
   * Use the [Mitre form](https://cveform.mitre.org/) to report the
     CVE details to Mitre using the `Notify CVE about a publication`. The
@@ -117,7 +117,7 @@ following steps are used to assign, announce and report a CVE.
     releases are available. The description should be a subset of the
     details in that blog.
 
-    For each CVE listed, the additioanl data must include the following fields
+    For each CVE listed, the additional data must include the following fields
     updated with appropriate data for the CVE
 ```
      [CVEID]: CVE-XXXX-XXXX

@@ -24,6 +24,14 @@ The steps include:
   release, ensure the pre-announce is sent out as outlined in the
   [security_announcement_process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md). 
 
+* One week in advance open an issue in the build working repository
+  with a notification of the date for the security release.  Use this
+  issue to co-ordinate with the build team to ensure there will
+  be coverage/availability of build team resources the day of the
+  release. Those who volunteer from the build WG should be available
+  in node-build during the release in case they are needed by the
+  individual doing the release.
+
 * One week in advance send an email to the docker official image
   [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
   with an FYI that security releases will be going out on the agreed date.
@@ -43,9 +51,8 @@ The steps include:
 
 * Create a PR to update the Node.js version in the official docker images.  
   * Checkout the docker-node repo
-  * Run the update.sh script to update versions
-  * Update the changed files to **remove** all changes EXCEPT those which 
-    update the Node.js versions. At the request from docker (and because
+  * Run the update.sh using the `-s` option so that ONLY the Node.js
+    versions are updated. At the request from docker (and because
     it is good practice) we limit the changes to those necessary in
     security updates
   * Open a PR and get volunteer lined up earlier to approve
@@ -57,7 +64,8 @@ The steps include:
     script and replace official-images/library/node with the output generated.
   * Open a PR with the changes to official-images/library/node making sure to 
     @mention the official images
-    [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
+    [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS).
+    In addition, make sure to prefix the PR title with `[security]`.
   * Send an email to the
     [maintainers](https://github.com/docker-library/official-images/blob/master/MAINTAINERS)
     indicating that the PR is open
