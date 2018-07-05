@@ -8,9 +8,9 @@
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "rgb2hex",
   "cves": [],
-  "vulnerable_versions": "<=0.1.0",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "vulnerable_versions": "<0.1.6",
+  "patched_versions": >=0.1.6,
+  "recommendation": "Update to version 0.1.6 or later",
   "references": [
     "https://hackerone.com/reports/319629",
     "https://github.com/christian-bromann/rgb2hex/blob/v0.1.0/index.js#L25"
