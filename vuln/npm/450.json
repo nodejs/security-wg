@@ -13,7 +13,8 @@
   "recommendation": "Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above",
   "references": [
     "https://github.com/eslint/eslint-scope/issues/39",
-    "https://snyk.io/vuln/npm:eslint-scope"
+    "https://snyk.io/vuln/npm:eslint-scope",
+    "https://blog.sqreen.io/eslint-backdoor"
   ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
   "cvss_score": 10,
