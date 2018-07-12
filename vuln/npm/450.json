@@ -1,0 +1,22 @@
+{
+  "id": 450,
+  "title": "Malicious Package",
+  "overview": "[eslint-scope] version 3.7.2 has been published as a malicious package, where-as eslint-scope is part of the larger and more popular eslint package",
+  "created_at": "2018-07-12",
+  "updated_at": "2018-07-12",
+  "publish_date": "2018-07-12",
+  "author": "pronebird",
+  "module_name": "eslint-scope",
+  "cves": [],
+  "vulnerable_versions": "3.7.2",
+  "patched_versions": "<=3.7.1 || >= 4.0.0",
+  "recommendation": "Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above",
+  "references": [
+    "https://github.com/eslint/eslint-scope/issues/39",
+    "https://snyk.io/vuln/npm:eslint-scope",
+    "https://blog.sqreen.io/eslint-backdoor"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_score": 10,
+  "coordinating_vendor": null
+}
