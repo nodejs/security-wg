@@ -104,7 +104,6 @@ The database of vulnerabilities is provided under the MIT license.
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
-* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
@@ -114,6 +113,10 @@ The database of vulnerabilities is provided under the MIT license.
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+
+## Emeritus Members
+
+* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 
 # Code of Conduct
 
