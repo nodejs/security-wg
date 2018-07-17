@@ -9,12 +9,13 @@
   "module_name": "eslint-scope",
   "cves": [],
   "vulnerable_versions": "3.7.2",
-  "patched_versions": "<=3.7.1 || >= 4.0.0",
-  "recommendation": "Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above",
+  "patched_versions": "<=3.7.1 || >= 3.7.3",
+  "recommendation": "Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above. It is advised that you revoke all of your existing npm tokens, recreate new tokens, enable 2FA for publishes (`auth-and-writes`).",
   "references": [
     "https://github.com/eslint/eslint-scope/issues/39",
     "https://snyk.io/vuln/npm:eslint-scope",
-    "https://blog.sqreen.io/eslint-backdoor"
+    "https://blog.sqreen.io/eslint-backdoor",
+    "https://docs.npmjs.com/getting-started/using-two-factor-authentication"
   ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
   "cvss_score": 10,
