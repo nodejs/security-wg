@@ -109,14 +109,25 @@ following steps are used to assign, announce and report a CVE.
   in the issue in the security issue being used to discuss the
   vulnerability, associate the CVE to that vulnerability. This is most
   commonly done by including it is the draft for the announcement that
-  will go out once the associated security releases are availble.
+  will go out once the associated security releases are available.
 * Once the security announcement goes out:
   * Use the [Mitre form](https://cveform.mitre.org/) to report the
     CVE details to Mitre using the `Notify CVE about a publication`. The
     link to the advisory will be the for the blog announcing that security
     releases are available. The description should be a subset of the
     details in that blog.
-  * Move the CVE from the Pending section to the Announced section along
-    with a link to the Node.js blog post announcing that releases
-    are availble.
 
+    For each CVE listed, the additional data must include the following fields
+    updated with appropriate data for the CVE
+```
+     [CVEID]: CVE-XXXX-XXXX
+     [PRODUCT]: Node.js
+     [VERSION]: 8.x+, 9.x+, 10.x+
+     [PROBLEMTYPE]: Denial of Service
+     [REFERENCES]: Link to the blog for the final announce
+     [DESCRIPTION]: Description from final announce
+     [ASSIGNINGCNA]: Node.js Foundation
+```
+* Move the CVE from the Pending section to the Announced section along
+  with a link to the Node.js blog post announcing that releases
+  are availble.

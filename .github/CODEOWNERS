@@ -2,7 +2,7 @@
 # These owners will be automatically assigned to any PRs
 # opened for vulnerabilities to be added to the database
 # of the npm community ecosystem
-/vuln/npm/    @nodejs/security-triage
+/vuln/npm/    @nodejs/ecosystem-security
 
 # Currently setting the same ecosystem team to help
 # review any core related PRs as well
