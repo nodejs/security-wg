@@ -54,7 +54,7 @@ Detailed information on the [database references](https://github.com/nodejs/secu
 
 The Security WG employs a static code analysis tool that runs in CI for all Pull-Requests to validate the correct structure when new vulnerabilities are introduced.
 
-You may make use of the same tool which is available [here](https://github.com/nodejs/security-wg/blob/master/tools/vuln_valid/index.js)
+You may make use of the same tool which is available [here](https://github.com/nodejs/security-wg/blob/master/tools/vuln_valid/index.js) either in your own tooling setup or from this repository by running `npm test`.
 
 
 ### Database structure changes
@@ -72,8 +72,7 @@ Time window for introducing changes:
 - Changes that affect existing database fields will provide a 30 days time-frame through announcement for any party to chime in and weigh on the changes proposed
 - Changes that extend the database fields with newly proposed fields will be added as the proposed Pull-Request is merged
 
-Note: we recommended to subscribe to the repository's issue queue in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing.
-
+Note: we recommended to subscribe to the repository's issue queue in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing. Also, all Pull-Request that add a new vulnerability are labled with `vulnerabilities` which makes them easily filtered and searchable.
 
 
 ## Database Users
