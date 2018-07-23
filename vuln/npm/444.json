@@ -1,0 +1,18 @@
+{
+  "id": 444,
+  "title": "Out-of-bounds Read",
+  "overview": "`put` allocates uninitialized Buffers when non-round numbers are passed in input",
+  "created_at": "2018-03-04",
+  "updated_at": "2018-06-14",
+  "publish_date": "2018-06-14",
+  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "module_name": "put",
+  "cves": [],
+  "vulnerable_versions": "<=0.0.6",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": ["https://hackerone.com/reports/321702"],
+  "cvss_vector": "CVSS:3.0/AV:U/AC:U/PR:U/UI:U/S:U/C:U/I:U/A:U",
+  "cvss_score": 1.8,
+  "coordinating_vendor": null
+}
