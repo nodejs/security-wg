@@ -11,7 +11,9 @@
   "patched_versions": ">= 3.17.0",
   "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS\n\nIf user input goes into the `limit` or `order` parameters, a malicious user can put in their own SQL statements. \n\n`1; DELETE FROM \"Users\" WHERE 1=1; --`",
   "recommendation": "Upgrade sequelize to version 3.17.0 or greater",
-  "references": "- https://github.com/sequelize/sequelize/pull/5167/commits/f282d85e60e3df5e57ecdb82adccb4eaef404f03",
+  "references": [
+    "https://github.com/sequelize/sequelize/pull/5167/commits/f282d85e60e3df5e57ecdb82adccb4eaef404f03"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,9 @@
   "patched_versions": "<0.0.0",
   "overview": "herbivore is a packet sniffing and crafting library. Built on libtins\n\nherbivore 0.0.3 and below download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "An update is available in GitHub, but has yet to be published. Apply [this update](https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3) manually before installing the module.",
-  "references": "- https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3",
+  "references": [
+    "https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
   "cvss_score": 7.1,
   "coordinating_vendor": "^Lift Security"

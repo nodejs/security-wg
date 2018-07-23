@@ -11,7 +11,9 @@
   "patched_versions": ">=v2.0.0-alpha8",
   "overview": "Keys of objects are not escaped with `mysql.escape()` which could lead to SQL Injection.",
   "recommendation": "Update to the latest version of the mysql module. At least version v2.0.0-alpha8 or greater to address this issue.",
-  "references": "- https://github.com/felixge/node-mysql/issues/342",
+  "references": [
+    "https://github.com/felixge/node-mysql/issues/342"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

@@ -13,7 +13,10 @@
   "patched_versions": "<0.0.0",
   "overview": "Arbitrary HTML can pass the sanitization process, which can be unexpected and dangerous (XSS) in case user-controlled input is passed to the clean function.",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- MISC:https://github.com/guardian/html-janitor/issues/35\n- https://hackerone.com/reports/308158",
+  "references": [
+    "https://github.com/guardian/html-janitor/issues/35",
+    "https://hackerone.com/reports/308158"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
   "cvss_score": 8.8,
   "coordinating_vendor": null

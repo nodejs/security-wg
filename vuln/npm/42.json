@@ -13,7 +13,11 @@
   "patched_versions": ">=3.22.1",
   "overview": "The validator module, versions < 3.22.1 are vulnerable to Regular Expression Denial of Service ([ReDoS](http://en.wikipedia.org/wiki/ReDoS)) in the isURL method.",
   "recommendation": "Update to version 3.22.1 or greater.",
-  "references": "- [Analysis of Node.js platform web application security (pdf)](http://lab.cs.ttu.ee/dl93)\n- https://github.com/chriso/validator.js/issues/152#issuecomment-48107184\n- http://en.wikipedia.org/wiki/ReDoS",
+  "references": [
+    "http://lab.cs.ttu.ee/dl93)",
+    "https://github.com/chriso/validator.js/issues/152#issuecomment-48107184",
+    "http://en.wikipedia.org/wiki/ReDoS"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

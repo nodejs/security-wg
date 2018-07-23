@@ -11,7 +11,9 @@
   "vulnerable_versions": "<=1.3.3",
   "patched_versions": ">=2.0.0",
   "recommendation": "update base64-url to 2.0.0 or higher",
-  "references": "- https://hackerone.com/reports/321692",
+  "references": [
+    "https://hackerone.com/reports/321692"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 8.6,
   "coordinating_vendor": null

@@ -68,7 +68,20 @@ You can show your users you take security matters seriously and drive higher con
 
 2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
 
+## Vulnerability database
 
+### Security researchers
+
+The Security Working Group and the Node.js community is kept safe with the help of many security researchers who help
+identify vulnerabilities in the core and in the ecosystem.
+
+The list of these people can be found on HackerOne:
+* for Node.js core: https://hackerone.com/nodejs/thanks
+* for Node.js ecosystem: https://hackerone.com/nodejs-ecosystem/thanks
+
+### License of the database
+
+The database of vulnerabilities is provided under the MIT license.
 
 ## Current Project Team Members
 
@@ -78,27 +91,32 @@ You can show your users you take security matters seriously and drive higher con
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
+* [grnd](https://github.com/grnd) - **Danny Grander**
+* [lirantal](https://github.com/lirantal) - **Liran Tal**
+* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [mdawson](https://github.com/mdawson) - **Michael Dawson**
+* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
+* [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
+* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
+* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+
+## Emeritus Members
+
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
-* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
-* [grnd](https://github.com/grnd) - **Danny Grander**
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
-* [lirantal](https://github.com/lirantal) - **Liran Tal**
-* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
-* [mdawson](https://github.com/mdawson) - **Michael Dawson**
-* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
-* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
-* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 # Code of Conduct
 

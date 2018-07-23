@@ -11,7 +11,9 @@
   "patched_versions": ">=3.20.0",
   "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS\n\nIn Postgres, SQLite, and Microsoft SQL Server there is an issue where arrays are treated as strings and improperly escaped.\n\nThis causes potential SQL injection, where a malicious user could put `[\"test\", \"'); DELETE TestTable WHERE Id = 1 --')\"]` inside of\n```\ndatabase.query('SELECT * FROM TestTable WHERE Name IN (:names)', {\n  replacements: {\n    names: directCopyOfUserInput\n  }\n});\n``` and cause the SQL statement to become `SELECT Id FROM Table WHERE Name IN ('test', '\\'); DELETE TestTable WHERE Id = 1 --')`. \n\nIn Postgres, MSSQL, and SQLite, the backslash has no special meaning. This causes the the statement to delete whichever Id has a value of 1 in the TestTable table.",
   "recommendation": "Upgrade to sequelize version 3.20.0 or greater",
-  "references": "- https://github.com/sequelize/sequelize/issues/5671",
+  "references": [
+    "https://github.com/sequelize/sequelize/issues/5671"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 4.8,
   "coordinating_vendor": "^Lift Security"

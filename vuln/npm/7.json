@@ -14,7 +14,9 @@
   "patched_versions": ">=0.0.3",
   "overview": "ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.\n\nAuthentication is not required for remote exploitation.",
   "recommendation": "Update to version 0.0.3 or greater.",
-  "references": "- https://github.com/redhog/ep_imageconvert/pull/5",
+  "references": [
+    "https://github.com/redhog/ep_imageconvert/pull/5"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
   "cvss_score": 8.2,
   "coordinating_vendor": "^Lift Security"

@@ -11,7 +11,9 @@
   "patched_versions": ">=0.1.1",
   "overview": "`.write(number)` in the affected `floody` versions passes a number to Buffer constructor, appending a chunk of uninitialized memory.\nPoC: `var f = require('floody')(process.stdout); f.write(1000); f.stop();`",
   "recommendation": "update floody to 1.1.1 or higher",
-  "references": "* https://github.com/soldair/node-floody/commit/6c44722312131f4ac8a1af40f0f861c85efe01b0",
+  "references": [
+    "https://github.com/soldair/node-floody/commit/6c44722312131f4ac8a1af40f0f861c85efe01b0"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
   "cvss_score": 6.5,
   "coordinating_vendor": null

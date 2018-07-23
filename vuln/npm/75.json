@@ -11,7 +11,10 @@
   "patched_versions": ">=3.4.6 < 4.0.0|| >=4.0.5",
   "overview": "Specifically crafted MQTT packets can crash the application, making a DoS attack feasible with very little bandwidth. \n\nTimeline\n- January 15, 2016 - Initial Report (self disclosed from maintainer)\n- January 15, 2016 - CVE Requested",
   "recommendation": "Update to version 3.4.6 or 4.0.5 or greater to fix the problem.",
-  "references": "- https://github.com/mqttjs/mqtt-packet/pull/8 \n- https://github.com/mcollina/mosca/issues/393",
+  "references": [
+    "https://github.com/mqttjs/mqtt-packet/pull/8",
+    "https://github.com/mcollina/mosca/issues/393"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

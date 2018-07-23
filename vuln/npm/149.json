@@ -11,7 +11,9 @@
   "patched_versions": ">=0.10.9",
   "overview": "uws is a WebSocket server library. By sending a 256mb websocket message to a uws server instance with permessage-deflate enabled, there is a possibility used compression will shrink said 256mb down to less than 16mb of websocket payload which passes the length check of 16mb payload. This data will then inflate up to 256mb and crash the node process by exceeding V8's maximum string size",
   "recommendation": "Update to version 0.10.9 or later or disable permessage-deflate.",
-  "references": "*  https://github.com/uWebSockets/uWebSockets/commit/37deefd01f0875e133ea967122e3a5e421b8fcd9",
+  "references": [
+    "https://github.com/uWebSockets/uWebSockets/commit/37deefd01f0875e133ea967122e3a5e421b8fcd9"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
   "cvss_score": 7.5,
   "coordinating_vendor": "^Lift Security"

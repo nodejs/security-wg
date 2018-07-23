@@ -27,7 +27,9 @@ The process is as follows:
   Submit PR and leave 1 hour for review. After one hour even if no reviews,
   land anyway so that we don't have too big a gap between post to nodejs-sec
   and blog. Text was already reviewed in security repo so is unlikely to
-  attract much additional comment.
+  attract much additional comment. **The PR should also update the banner
+  on the Node.js website to indicate security releases are coming with the
+  banner linked to the blog**
 
 * In original PR for the security repository for the issue, post candidate
   text for updates that will go out with releases that will indicates
@@ -36,10 +38,6 @@ The process is as follows:
 * Once releases are made, post response to original message in
   https://groups.google.com/forum/#!forum/nodejs-sec indicating
   releases are available and with the full vulnerability details.
-
-* PR machine-readable JSON descriptions of the vulnerabilities to the
-  [core](https://github.com/nodejs/security-wg/tree/master/vuln/core)
-  vulnerability DB.
 
 * Update the blog post in
   https://github.com/nodejs/nodejs.org/tree/master/locale/en/blog/vulnerability
@@ -50,7 +48,9 @@ The process is as follows:
   https://github.com/nodejs/nodejs.org/blob/master/locale/en/blog/vulnerability/june-2016-security-releases.md.
   ```
   Make sure to update the date in the slug so that it will move to
-  the top of the blog list.
+  the top of the blog list. **As part of the PR, update the
+  banner on Node.js org to indicate the security release are 
+  available.**
 
   *Note*: If the release blog obviously points to the people having caused the
   issue (for example when explicitly mentioning reverting a commit), adding

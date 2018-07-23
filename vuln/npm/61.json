@@ -13,7 +13,10 @@
   "patched_versions": ">=4.0.0",
   "overview": "Not using quotes around your attributes in handlebar templates, could lead to content injection.\n\n### Example\nTemplate:\n```<a href={{foo}}/>```\n\nInput:\n```{ 'foo' : 'test.com onload=alert(1)'}```\n\nRendered result:\n```<a href=test.com onload=alert(1)/>```",
   "recommendation": "If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.",
-  "references": "- https://blog.srcclr.com/handlebars_vulnerability_research_findings/\n- https://github.com/wycats/handlebars.js/pull/1083",
+  "references": [
+    "https://blog.srcclr.com/handlebars_vulnerability_research_findings/",
+    "https://github.com/wycats/handlebars.js/pull/1083"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
   "cvss_score": 5.3,
   "coordinating_vendor": "^Lift Security"

@@ -13,7 +13,9 @@
   "patched_versions": "> 0.9.6",
   "overview": "fury-adapter-swagger is a fury.js adapter for loading swagger HTTP API description documents - either via YAML or JSON.\n\nfury-adapter-swagger has a vulnerability that allows arbitrary file reads off the file system.  This could be used to retrieve sensitive data, or cause a denial of service by reading `/dev/zero`.  An example proof of concept is provided below:\n\n```\n---\nswagger: '2.0'\ninfo:\n  title: Read local files\n  version: '1.0'\n\npaths:\n  /foo:\n    get:\n      responses:\n        200:\n          description: Some description\n          examples:\n            text/html:\n              example:\n                $ref: '/etc/passwd'\n```",
   "recommendation": "Upgrade to version 0.9.7 or later",
-  "references": "* https://github.com/distributedweaknessfiling/DWF-Database-Artifacts/blob/master/DWF/2016/1000249/CVE-2016-1000249.json",
+  "references": [
+    "https://github.com/distributedweaknessfiling/DWF-Database-Artifacts/blob/master/DWF/2016/1000249/CVE-2016-1000249.json"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
   "cvss_score": 9.1,
   "coordinating_vendor": "^Lift Security"

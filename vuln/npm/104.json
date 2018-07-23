@@ -11,7 +11,9 @@
   "patched_versions": ">= 7.0.0",
   "overview": "- electron-packager is a command line tool that packages Electron source code into `.app` and `.exe` packages. along with Electron.\n- The `--strict-ssl` command line option defaults to false if not explicitly set to true\n\nThis could allow an attacker to Man In The Middle (MITM) the step where electron-packager does the following step: \"Download all supported target platforms and arches of Electron using the installed electron-prebuilt version (and cache the downloads in ~/.electron)\" effecting the integrity of the package and the cached downloads in ~/.electron.\n\nThis only affects users using the electron-packager CLI. The strict-ssl option defaults to true for the node.js API.",
   "recommendation": "Upgrade to at least version 7.0.0\n\nIt's also recommended to delete the electron-download cache folder, by default named .electron, and located in your home folder. For example:\n\n```\nrm -rf ~/.electron\n```",
-  "references": "- https://github.com/electron-userland/electron-packager/issues/333",
+  "references": [
+    "https://github.com/electron-userland/electron-packager/issues/333"
+  ],
   "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
   "cvss_score": 3.1,
   "coordinating_vendor": "^Lift Security"
