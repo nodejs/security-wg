@@ -7,10 +7,12 @@
   "publish_date": "2018-05-31",
   "author": "tungpun (https://tungpun.pw)",
   "module_name": "serve",
-  "cves": [],
-  "vulnerable_versions": "<=1.1.5",
-  "patched_versions": ">=1.1.7",
-  "recommendation": "update serve to 1.1.7 or higher",
+  "cves": [
+    "CVE-2018-3809"
+  ],
+  "vulnerable_versions": "<7.0.0",
+  "patched_versions": ">=7.0.0,
+  "recommendation": "update serve to 7.0.0 or higher",
   "references": [
     "https://hackerone.com/reports/330650"
   ],
