@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-28",
   "title": "Denial-of-Service Extended Event Loop Blocking",
-  "author": "Tom Steele",
+  "author": {
+    "name": "Tom Steele",
+    "website": null,
+    "username": null
+  },
   "module_name": "qs",
   "publish_date": "2014-08-06",
   "cves": [],

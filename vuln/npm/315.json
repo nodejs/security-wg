@@ -3,7 +3,11 @@
   "created_at": "2017-03-06",
   "updated_at": "2017-04-14",
   "title": "Unsafe eval()",
-  "author": "Cristian-Alexandru Staicu",
+  "author": {
+    "name": "Cristian-Alexandru Staicu",
+    "website": null,
+    "username": null
+  },
   "module_name": "summit",
   "publish_date": "2017-04-14",
   "cves": [],
@@ -11,7 +15,9 @@
   "patched_versions": "<0.0.0",
   "overview": "Summit is a node web framework. \n\nWhen using the PouchDB driver in the module, an attacker can execute arbitrary commands via the collection name.",
   "recommendation": "The PouchDB driver is not recommended for use in production.",
-  "references": "* [Github Issue](https://github.com/notduncansmith/summit/issues/23)",
+  "references": [
+    "https://github.com/notduncansmith/summit/issues/23)"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
   "cvss_score": 6.5,
   "coordinating_vendor": "^Lift Security"

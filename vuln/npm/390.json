@@ -5,7 +5,11 @@
   "created_at": "2018-01-26",
   "updated_at": "2018-03-02",
   "publish_date": "2018-03-02",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "simple-server",
   "cves": [
     "CVE-2018-3717"
@@ -13,9 +17,10 @@
   "vulnerable_versions": "<1.1.0",
   "patched_versions": ">=1.1.0",
   "recommendation": "update simple-server to 1.1.0 or higher",
-  "references": "- https://hackerone.com/reports/309641",
+  "references": [
+    "https://hackerone.com/reports/309641"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
   "cvss_score": 7.7,
   "coordinating_vendor": null
 }
-

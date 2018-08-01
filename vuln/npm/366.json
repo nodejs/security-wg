@@ -3,7 +3,11 @@
   "created_at": "2018-01-23",
   "updated_at": "2018-01-23",
   "title": "html-janitor passing user-controlled data to clean() leads to XSS",
-  "author": "_bayotop (https://twitter.com/_bayotop)",
+  "author": {
+    "name": "_bayotop",
+    "website": "https://twitter.com/_bayotop",
+    "username": null
+  },
   "module_name": "html-janitor",
   "publish_date": "2018-01-23",
   "cves": [
@@ -13,7 +17,10 @@
   "patched_versions": null,
   "overview": "Passing user-controlled data to the module's clean() function can result in arbitrary JS execution, because of unsafe DOM operations.",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
-  "references": "- MISC:https://github.com/guardian/html-janitor/issues/34\n- https://hackerone.com/reports/308155",
+  "references": [
+    "https://github.com/guardian/html-janitor/issues/34",
+    "https://hackerone.com/reports/308155"
+  ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
   "cvss_score": 9.8,
   "coordinating_vendor": null

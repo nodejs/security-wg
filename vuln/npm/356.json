@@ -3,7 +3,11 @@
   "created_at": "2017-05-30",
   "updated_at": "2017-06-05",
   "title": "Command Injection",
-  "author": "micaksica",
+  "author": {
+    "name": "micaksica",
+    "website": null,
+    "username": null
+  },
   "module_name": "pidusage",
   "publish_date": "2017-06-05",
   "cves": [],

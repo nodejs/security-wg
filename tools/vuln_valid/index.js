@@ -24,7 +24,13 @@ const npmModel = joi.object().keys({
   updated_at: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   title: joi.string().required(),
   title: joi.string().max(150).regex(/^[^\n]+$/).required(),
-  author: joi.string().allow(null).required(),
+  author: joi.object().keys(
+    {
+      name: joi.string().required(),
+      username: joi.string().required().allow(null),
+      website: joi.string().required().allow(null)
+    }
+  ),
   module_name: joi.string().required(),
   publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).required().isoDate(),
   vulnerable_versions: joi.alternatives().when("patched_versions", {
@@ -42,7 +48,7 @@ const npmModel = joi.object().keys({
   patched_versions: joi.semver().validRange().allow(null).required(),
   overview: joi.string().required(),
   recommendation: joi.string().allow(null).required(),
-  references: joi.string().allow(null).required(),
+  references: joi.array().allow(null).required(),
   cvss_vector: joi.string().allow(null).required(),
   cvss_score: joi.number().allow(null).required(),
   coordinating_vendor: joi.string().allow(null).required()
