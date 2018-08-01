@@ -5,7 +5,11 @@
   "created_at": "2018-02-25",
   "updated_at": "2018-03-31",
   "publish_date": "2018-03-31",
-  "author": "Jamie Davis (https://twitter.com/TheDavisJam)",
+  "author": {
+    "name": "Jamie Davis",
+    "website": "https://twitter.com/TheDavisJam",
+    "username": null
+  },
   "module_name": "protobufjs",
   "cves": [],
   "vulnerable_versions": "<=6.8.5",

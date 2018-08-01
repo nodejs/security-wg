@@ -3,7 +3,11 @@
   "created_at": "2017-03-21",
   "updated_at": "2017-04-14",
   "title": "Exceeding Stack Call Limit DoS",
-  "author": "Michał Gołębiowski",
+  "author": {
+    "name": "Michał Gołębiowski",
+    "website": null,
+    "username": null
+  },
   "module_name": "jquery",
   "publish_date": "2017-04-14",
   "cves": [

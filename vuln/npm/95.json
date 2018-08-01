@@ -3,7 +3,11 @@
   "created_at": "2016-03-28",
   "updated_at": "2016-11-09",
   "title": "Arbitrary File Write",
-  "author": "Steve Kemp",
+  "author": {
+    "name": "Steve Kemp",
+    "website": null,
+    "username": null
+  },
   "module_name": "cli",
   "publish_date": "2016-06-15",
   "cves": [],

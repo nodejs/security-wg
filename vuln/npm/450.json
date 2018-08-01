@@ -5,7 +5,11 @@
   "created_at": "2018-07-12",
   "updated_at": "2018-07-12",
   "publish_date": "2018-07-12",
-  "author": "pronebird",
+  "author": {
+    "name": "pronebird",
+    "website": null,
+    "username": null
+  },
   "module_name": "eslint-scope",
   "cves": [],
   "vulnerable_versions": "3.7.2",

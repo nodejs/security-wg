@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-29",
   "title": "Multiple XSS Filter Bypasses",
-  "author": "Neal Poole, Krzysztof Kotowicz",
+  "author": {
+    "name": "Neal Poole, Krzysztof Kotowicz",
+    "website": null,
+    "username": null
+  },
   "module_name": "validator",
   "publish_date": "2013-07-05",
   "cves": [

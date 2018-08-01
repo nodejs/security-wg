@@ -3,7 +3,11 @@
   "created_at": "2016-07-20",
   "updated_at": "2017-02-10",
   "title": "XSS in itemTitle parameter",
-  "author": "Alex Wong",
+  "author": {
+    "name": "Alex Wong",
+    "website": null,
+    "username": null
+  },
   "module_name": "bootstrap-tagsinput",
   "publish_date": "2016-07-20",
   "cves": [

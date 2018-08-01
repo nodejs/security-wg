@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-28",
   "title": "Heap Based Buffer Overflow",
-  "author": "N/A",
+  "author": {
+    "name": "N/A",
+    "website": null,
+    "username": null
+  },
   "module_name": "libyaml",
   "publish_date": "2014-02-04",
   "cves": [

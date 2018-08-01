@@ -3,7 +3,11 @@
   "created_at": "2017-03-30",
   "updated_at": "2017-06-05",
   "title": "Downloads resources over HTTP",
-  "author": "Adam Baldwin",
+  "author": {
+    "name": "Adam Baldwin",
+    "website": null,
+    "username": null
+  },
   "module_name": "hubl-server",
   "publish_date": "2017-06-05",
   "cves": [],

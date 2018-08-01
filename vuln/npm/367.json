@@ -3,7 +3,11 @@
   "created_at": "2018-02-12",
   "updated_at": "2018-02-12",
   "title": "hoek prototype pollution",
-  "author": "Olivier Arteau (HoLyVieR)",
+  "author": {
+    "name": "Olivier Arteau",
+    "website": null,
+    "username": "HoLyVieR"
+  },
   "module_name": "hoek",
   "publish_date": "2018-02-12",
   "cves": [

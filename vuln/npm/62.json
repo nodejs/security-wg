@@ -3,7 +3,11 @@
   "created_at": "2015-12-14",
   "updated_at": "2016-04-25",
   "title": "Quoteless Attributes in Templates can lead to Content Injection",
-  "author": "Matias P. Brutti",
+  "author": {
+    "name": "Matias P. Brutti",
+    "website": null,
+    "username": null
+  },
   "module_name": "mustache",
   "publish_date": "2015-12-14",
   "cves": [

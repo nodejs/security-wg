@@ -5,7 +5,11 @@
   "created_at": "2018-04-20",
   "updated_at": "2018-04-25",
   "publish_date": "2018-04-25",
-  "author": "Tung Pun (https://tungpun.pw)",
+  "author": {
+    "name": "Tung Pun",
+    "website": "https://tungpun.pw",
+    "username": null
+  },
   "module_name": "cloudcmd",
   "cves": [],
   "vulnerable_versions": "<=9.1.5",

@@ -3,7 +3,11 @@
   "created_at": "2017-03-13",
   "updated_at": "2017-03-13",
   "title": "Invalid Curve Attack",
-  "author": "Antonio Sanso",
+  "author": {
+    "name": "Antonio Sanso",
+    "website": null,
+    "username": null
+  },
   "module_name": "node-jose",
   "publish_date": "2017-03-13",
   "cves": [],

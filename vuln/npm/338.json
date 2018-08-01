@@ -3,7 +3,11 @@
   "created_at": "2017-04-25",
   "updated_at": "2017-04-26",
   "title": "ReDoS",
-  "author": "myvyang",
+  "author": {
+    "name": "myvyang",
+    "website": null,
+    "username": null
+  },
   "module_name": "brace-expansion",
   "publish_date": "2017-04-25",
   "cves": [],

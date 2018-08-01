@@ -3,7 +3,11 @@
   "created_at": "2016-04-21",
   "updated_at": "2016-06-22",
   "title": "SSL Validation Defaults to False",
-  "author": "Mark Lee",
+  "author": {
+    "name": "Mark Lee",
+    "website": null,
+    "username": null
+  },
   "module_name": "electron-packager",
   "publish_date": "2016-04-22",
   "cves": [],

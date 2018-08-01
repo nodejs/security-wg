@@ -3,7 +3,11 @@
   "created_at": "2016-03-28",
   "updated_at": "2016-04-20",
   "title": "Insecure Entropy Source - Math.random()",
-  "author": "Fedot Praslov",
+  "author": {
+    "name": "Fedot Praslov",
+    "website": null,
+    "username": null
+  },
   "module_name": "node-uuid",
   "publish_date": "2016-03-28",
   "cves": [
