@@ -3,7 +3,11 @@
   "created_at": "2016-05-16",
   "updated_at": "2016-06-21",
   "title": "Potential Command Injection",
-  "author": "Koki Takahashi, Node Security Team",
+  "author": {
+    "name": "Koki Takahashi, Node Security Team",
+    "website": null,
+    "username": null
+  },
   "module_name": "shell-quote",
   "publish_date": "2016-06-21",
   "cves": [],

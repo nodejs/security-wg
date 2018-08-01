@@ -5,7 +5,11 @@
   "created_at": "2018-06-01",
   "updated_at": "2018-07-20",
   "publish_date": "2018-07-20",
-  "author": "Mike (https://twitter.com/__Mn1__)",
+  "author": {
+    "name": "Mike",
+    "website": "https://twitter.com/__Mn1__",
+    "username": null
+  },
   "module_name": "markdown-pdf",
   "cves": [
     "CVE-2018-3770"

@@ -3,7 +3,11 @@
   "created_at": "2016-11-16",
   "updated_at": "2017-04-12",
   "title": "Lack of HTML Escaping",
-  "author": "Jordan Harband",
+  "author": {
+    "name": "Jordan Harband",
+    "website": null,
+    "username": null
+  },
   "module_name": "forms",
   "publish_date": "2017-04-11",
   "cves": [],

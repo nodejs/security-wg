@@ -3,7 +3,11 @@
   "created_at": "2018-01-02",
   "updated_at": "2018-01-02",
   "title": "Remote PUBLISH DoS",
-  "author": "mcollina",
+  "author": {
+    "name": "mcollina",
+    "website": null,
+    "username": null
+  },
   "module_name": "mqtt",
   "publish_date": "2018-01-02",
   "cves": [

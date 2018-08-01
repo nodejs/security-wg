@@ -5,7 +5,11 @@
   "created_at": "2018-07-19",
   "updated_at": "2018-07-30",
   "publish_date": "2018-07-30",
-  "author": "Ahmed",
+  "author": {
+    "name": "Ahmed",
+    "website": null,
+    "username": null
+  },
   "module_name": "url-parse",
   "cves": [],
   "vulnerable_versions": "<1.4.3",

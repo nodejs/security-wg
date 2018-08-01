@@ -3,7 +3,11 @@
   "created_at": "2018-02-12",
   "updated_at": "2018-02-12",
   "title": "lodash prototype pollution",
-  "author": "Olivier Arteau (HoLyVieR)",
+  "author": {
+    "name": "Olivier Arteau",
+    "website": null,
+    "username": "HoLyVieR"
+  },
   "module_name": "lodash",
   "publish_date": "2018-02-12",
   "cves": [

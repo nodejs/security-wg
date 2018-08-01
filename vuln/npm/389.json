@@ -5,7 +5,11 @@
   "created_at": "2018-01-24",
   "updated_at": "2018-03-14",
   "publish_date": "2018-03-13",
-  "author": "digitalwizard",
+  "author": {
+    "name": "digitalwizard",
+    "website": null,
+    "username": null
+  },
   "module_name": "serve",
   "cves": [
     "CVE-2018-3718"

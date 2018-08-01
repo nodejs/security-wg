@@ -3,7 +3,11 @@
   "created_at": "2015-11-03",
   "updated_at": "2016-04-25",
   "title": "Root Path Disclosure",
-  "author": "Dinis Cruz",
+  "author": {
+    "name": "Dinis Cruz",
+    "website": null,
+    "username": null
+  },
   "module_name": "send",
   "publish_date": "2015-11-03",
   "cves": [

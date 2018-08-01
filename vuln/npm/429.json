@@ -5,7 +5,11 @@
   "created_at": "2018-03-27",
   "updated_at": "2018-05-11",
   "publish_date": "2018-05-11",
-  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "author": {
+    "name": "Сковорода Никита Андреевич",
+    "website": "https://github.com/ChALkeR",
+    "username": null
+  },
   "module_name": "byte",
   "cves": [],
   "vulnerable_versions": "<=1.4.0",

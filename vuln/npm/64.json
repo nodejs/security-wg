@@ -3,7 +3,11 @@
   "created_at": "2015-12-23",
   "updated_at": "2016-04-25",
   "title": "Denial of Service - Illegal access crash from if-modified-since header",
-  "author": "James Halliday",
+  "author": {
+    "name": "James Halliday",
+    "website": null,
+    "username": null
+  },
   "module_name": "ecstatic",
   "publish_date": "2015-12-23",
   "cves": [],

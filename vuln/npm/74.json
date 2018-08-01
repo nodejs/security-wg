@@ -3,7 +3,11 @@
   "created_at": "2016-01-11",
   "updated_at": "2016-05-04",
   "title": "Content Injection via TileJSON Name",
-  "author": "Alexandra Ulsh, Abdullah Ahmet Erdem",
+  "author": {
+    "name": "Alexandra Ulsh, Abdullah Ahmet Erdem",
+    "website": null,
+    "username": null
+  },
   "module_name": "mapbox.js",
   "publish_date": "2016-01-12",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-25",
   "title": "Cross-Site Scripting",
-  "author": "Onur Yilmaz",
+  "author": {
+    "name": "Onur Yilmaz",
+    "website": null,
+    "username": null
+  },
   "module_name": "datatables",
   "publish_date": "2015-09-18",
   "cves": [

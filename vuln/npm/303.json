@@ -3,7 +3,11 @@
   "created_at": "2016-12-12",
   "updated_at": "2017-04-18",
   "title": "Directory Traversal",
-  "author": "Liang Gong",
+  "author": {
+    "name": "Liang Gong",
+    "website": null,
+    "username": null
+  },
   "module_name": "hostr",
   "publish_date": "2017-04-14",
   "cves": [],

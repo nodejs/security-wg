@@ -3,7 +3,11 @@
   "created_at": "2016-11-09",
   "updated_at": "2017-04-14",
   "title": "Random Token based off Math.random()",
-  "author": "Sven Slootweg",
+  "author": {
+    "name": "Sven Slootweg",
+    "website": null,
+    "username": null
+  },
   "module_name": "react-native-meteor-oauth",
   "publish_date": "2017-04-14",
   "cves": [],

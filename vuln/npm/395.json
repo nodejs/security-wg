@@ -1,7 +1,11 @@
 {
   "id": 395,
   "title": "Remote Memory Exposure",
-  "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
+  "author": {
+    "name": "Сковорода Никита Андреевич",
+    "website": "https://github.com/ChALkeR",
+    "username": null
+  },
   "module_name": "openwhisk",
   "created_at": "2018-03-24",
   "updated_at": "2018-03-24",

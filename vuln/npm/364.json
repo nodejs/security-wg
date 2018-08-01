@@ -3,7 +3,11 @@
   "created_at": "2018-01-24",
   "updated_at": "2018-01-24",
   "title": "Fastify denial-of-service vulnerability with large JSON payloads",
-  "author": "nwoltman (https://github.com/nwoltman)",
+  "author": {
+    "name": "nwoltman",
+    "website": "https://github.com/nwoltman",
+    "username": null
+  },
   "module_name": "fastify",
   "publish_date": "2018-01-24",
   "cves": [

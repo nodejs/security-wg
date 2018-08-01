@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-29",
   "title": "Potential Command Injection",
-  "author": "Neal Poole",
+  "author": {
+    "name": "Neal Poole",
+    "website": null,
+    "username": null
+  },
   "module_name": "codem-transcode",
   "publish_date": "2013-07-07",
   "cves": [

@@ -3,7 +3,11 @@
   "created_at": "2018-02-15",
   "updated_at": "2018-02-15",
   "title": "defaults-deep prototype pollution",
-  "author": "Olivier Arteau (HoLyVieR)",
+  "author": {
+    "name": "Olivier Arteau",
+    "website": null,
+    "username": "HoLyVieR"
+  },
   "module_name": "defaults-deep",
   "publish_date": "2018-02-15",
   "cves": [

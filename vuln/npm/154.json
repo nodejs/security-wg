@@ -3,7 +3,11 @@
   "created_at": "2016-10-27",
   "updated_at": "2017-04-12",
   "title": "Cross Site Scripting",
-  "author": "Andrew Krasichkov",
+  "author": {
+    "name": "Andrew Krasichkov",
+    "website": null,
+    "username": null
+  },
   "module_name": "sanitize-html",
   "publish_date": "2017-04-11",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2017-02-09",
   "updated_at": "2017-02-09",
   "title": "Code Execution through IIFE",
-  "author": "Ajin Abraham",
+  "author": {
+    "name": "Ajin Abraham",
+    "website": null,
+    "username": null
+  },
   "module_name": "node-serialize",
   "publish_date": "2017-02-09",
   "cves": [],
