@@ -7,7 +7,9 @@
   "publish_date": "2018-03-28",
   "author": "Сковорода Никита Андреевич (https://github.com/ChALkeR)",
   "module_name": "whereis",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3772"
+  ],
   "vulnerable_versions": "<=0.4.0",
   "patched_versions": ">=0.4.1",
   "recommendation": "use npm package `which` instead",

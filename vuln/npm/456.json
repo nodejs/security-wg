@@ -1,0 +1,23 @@
+{
+  "id": 456,
+  "title": "Open Redirect",
+  "overview": "url-parse package return wrong hostname ",
+  "created_at": "2018-07-19",
+  "updated_at": "2018-07-30",
+  "publish_date": "2018-07-30",
+  "author": "Ahmed",
+  "module_name": "url-parse",
+  "cves": [],
+  "vulnerable_versions": "<1.4.3",
+  "patched_versions": ">=1.4.3",
+  "recommendation": "Update url-parse module to version >=1.4.3",
+  "references": [
+    "https://hackerone.com/reports/384029",
+    "https://github.com/unshiftio/url-parse/commit/53b1794e54d0711ceb52505e0f74145270570d5a",
+    "https://github.com/unshiftio/url-parse/commit/d7b582ec1243e8024e60ac0b62d2569c939ef5de",
+    "http://0xahmed.ninja/"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "cvss_score": 7.5,
+  "coordinating_vendor": null
+}

@@ -91,28 +91,32 @@ The database of vulnerabilities is provided under the MIT license.
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
-* [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
-* [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
 * [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [elexy](https://github.com/Elexy) - **Alex Knol**
+* [grnd](https://github.com/grnd) - **Danny Grander**
+* [lirantal](https://github.com/lirantal) - **Liran Tal**
+* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [mdawson](https://github.com/mdawson) - **Michael Dawson**
+* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
+* [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
+* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
+* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+
+## Emeritus Members
+
+* [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
+* [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
-* [grnd](https://github.com/grnd) - **Danny Grander**
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
-* [lirantal](https://github.com/lirantal) - **Liran Tal**
-* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
-* [mdawson](https://github.com/mdawson) - **Michael Dawson**
-* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
-* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
-* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 # Code of Conduct
 
