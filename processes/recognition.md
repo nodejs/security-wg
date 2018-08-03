@@ -18,12 +18,27 @@ A monthly tweet will be sent out from the official `@nodejs` account on the 25th
 
 Example link for tweet reference: https://twitter.com/nodejs/status/1012720630964326402
 
-### Swag TBD
 
-TBD
-
-## Resources
+### Bug Bounty Program Leaderboard
 
 HackerOne maintains a leaderboard of active members in each program which can be queried to find members to recognize:
 * https://hackerone.com/nodejs-ecosystem/thanks
 * https://hackerone.com/nodejs/thanks
+
+### Quarterly Spotlight
+
+A Quarterly Spotlight will be a regular post from the Security WG that will list recent work from processes to vulnerabilities, in which we can feature several active hackers in our community and their disclosures.
+
+### Node.js Website TBD
+
+Official recognition through listing on the Node.js website.
+TBD, see PR: https://github.com/nodejs/website-redesign/issues/59
+
+
+### Swag TBD
+
+* Stickers
+* T-shirts
+* Books
+
+
