@@ -41,4 +41,7 @@ TBD, see PR: https://github.com/nodejs/website-redesign/issues/59
 * T-shirts
 * Books
 
+### Recognition for Significant Contribution TBD
+
+Defining a process/threshold for what constitutes a significant contribution and what it yields (recognition artifacts, joining the wg, etc)
 
