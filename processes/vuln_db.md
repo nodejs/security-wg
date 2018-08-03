@@ -74,7 +74,6 @@ Time window for introducing changes:
 
 Note: we recommend subscribing to the repository's issue tracker in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing entries. Also, all pull requests that add a new vulnerability are labled with `vulnerabilities` which makes them easily filtered and searchable.
 
-
 ## Database Users
 
 The following is a list of users or organizations which opt-in to be listed as users of the vulnerability database:
@@ -83,7 +82,6 @@ The following is a list of users or organizations which opt-in to be listed as u
 
 
 Note: if you wish to be added to the list of known database users you may open a pull request to this document with your contact details.
-
 
 ## Security researchers
 
