@@ -27,7 +27,7 @@ Detailed information on the [database references](https://github.com/nodejs/secu
 
 ```json
 {
-  "id": XXX,
+  "id": 123,
   "title": "Denial of Service",
   "overview": "attack overview",
   "created_at": "2018-02-22",
@@ -72,7 +72,7 @@ Time window for introducing changes:
 - Changes that affect existing database fields will provide a 30 days time-frame through announcement for any party to chime in and weigh on the changes proposed
 - Changes that extend the database fields with newly proposed fields will be added as the proposed pull request is merged
 
-Note: we recommended to subscribe to the repository's issue tracker in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing. Also, all pull request that add a new vulnerability are labled with `vulnerabilities` which makes them easily filtered and searchable.
+Note: we recommend subscribing to the repository's issue tracker in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing entries. Also, all pull requests that add a new vulnerability are labled with `vulnerabilities` which makes them easily filtered and searchable.
 
 
 ## Database Users
