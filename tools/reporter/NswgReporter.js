@@ -66,15 +66,23 @@ class NswgReporter {
   }
 
   getAuthorUsername () {
-    const username = this.report.reporter.name
+    const name = this.report.reporter.name
       ? this.report.reporter.name
       : this.report.data.relationships.reporter.data.attributes.username
 
-    const userSocialAccount = this.report.reporter.website
-      ? ` (${this.report.reporter.website})`
-      : ''
+    const username = this.report.reporter.username
+      ? this.report.reporter.username
+      : null
 
-    return `${username}${userSocialAccount}`
+    const website = this.report.reporter.website
+      ? this.report.reporter.website
+      : null
+
+    return {
+      name,
+      website,
+      username
+    }
   }
 
   getModuleName () {
