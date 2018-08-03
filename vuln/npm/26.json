@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-28",
   "title": "Validation Bypass",
-  "author": "Martin Angelov",
+  "author": {
+    "name": "Martin Angelov",
+    "website": null,
+    "username": null
+  },
   "module_name": "paypal-ipn",
   "publish_date": "2014-12-03",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2016-10-11",
   "updated_at": "2017-03-28",
   "title": "Denial of Service",
-  "author": "Luigi Pinca",
+  "author": {
+    "name": "Luigi Pinca",
+    "website": null,
+    "username": null
+  },
   "module_name": "uws",
   "publish_date": "2016-10-17",
   "cves": [],

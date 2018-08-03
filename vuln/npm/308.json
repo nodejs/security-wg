@@ -3,7 +3,11 @@
   "created_at": "2017-01-26",
   "updated_at": "2017-04-14",
   "title": "Regular Expression Denial of Service",
-  "author": "saurik",
+  "author": {
+    "name": "saurik",
+    "website": null,
+    "username": null
+  },
   "module_name": "decamelize",
   "publish_date": "2017-04-14",
   "cves": [],

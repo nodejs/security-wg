@@ -3,7 +3,11 @@
   "created_at": "2016-07-22",
   "updated_at": "2017-02-10",
   "title": "XSS in client rendered block templates",
-  "author": "Jon Merrifield",
+  "author": {
+    "name": "Jon Merrifield",
+    "website": null,
+    "username": null
+  },
   "module_name": "rendr",
   "publish_date": "2016-07-25",
   "cves": [

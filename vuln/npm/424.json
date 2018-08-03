@@ -5,7 +5,11 @@
   "created_at": "2018-03-26",
   "updated_at": "2018-05-11",
   "publish_date": "2018-05-11",
-  "author": "Caio Lüders",
+  "author": {
+    "name": "Caio Lüders",
+    "website": null,
+    "username": null
+  },
   "module_name": "localhost-now",
   "cves": [],
   "vulnerable_versions": "<=1.0.2",

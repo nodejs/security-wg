@@ -3,7 +3,11 @@
   "created_at": "2016-12-01",
   "updated_at": "2017-01-01",
   "title": "Downloads Resources over HTTP",
-  "author": "Adam Baldwin",
+  "author": {
+    "name": "Adam Baldwin",
+    "website": null,
+    "username": null
+  },
   "module_name": "js-given",
   "publish_date": "2017-01-01",
   "cves": [],

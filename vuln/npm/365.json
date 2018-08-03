@@ -3,7 +3,11 @@
   "created_at": "2018-01-23",
   "updated_at": "2018-01-23",
   "title": "html-janitor bypassing sanitization using DOM clobbering",
-  "author": "_bayotop (https://twitter.com/_bayotop)",
+  "author": {
+    "name": "_bayotop",
+    "website": "https://twitter.com/_bayotop",
+    "username": null
+  },
   "module_name": "html-janitor",
   "publish_date": "2018-01-23",
   "cves": [

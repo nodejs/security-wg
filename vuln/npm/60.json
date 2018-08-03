@@ -3,7 +3,11 @@
   "created_at": "2015-12-04",
   "updated_at": "2016-04-27",
   "title": "Authentication Weakness",
-  "author": "Greg Meyer",
+  "author": {
+    "name": "Greg Meyer",
+    "website": null,
+    "username": null
+  },
   "module_name": "keystone",
   "publish_date": "2015-12-04",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2017-03-09",
   "updated_at": "2017-04-18",
   "title": "Insecure randomness",
-  "author": "Martin Thomson",
+  "author": {
+    "name": "Martin Thomson",
+    "website": null,
+    "username": null
+  },
   "module_name": "socket.io",
   "publish_date": "2017-04-14",
   "cves": [],

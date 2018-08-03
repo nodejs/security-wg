@@ -5,7 +5,11 @@
   "created_at": "2018-02-17",
   "updated_at": "2018-04-09",
   "publish_date": "2018-04-09",
-  "author": "Olivier Arteau (HoLyVieR)",
+  "author": {
+    "name": "Olivier Arteau",
+    "website": null,
+    "username": "HoLyVieR"
+  },
   "module_name": "deap",
   "cves": [],
   "vulnerable_versions": "<1.0.1",

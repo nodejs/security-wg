@@ -3,7 +3,11 @@
   "created_at": "2017-01-24",
   "updated_at": "2017-04-18",
   "title": "XSS in Hover Over Label Names",
-  "author": "JelteF",
+  "author": {
+    "name": "JelteF",
+    "website": null,
+    "username": null
+  },
   "module_name": "Morris.js",
   "publish_date": "2017-04-14",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2016-03-28",
   "updated_at": "2016-04-25",
   "title": "Insecure Default Configuration",
-  "author": "Phil Schleihauf",
+  "author": {
+    "name": "Phil Schleihauf",
+    "website": null,
+    "username": null
+  },
   "module_name": "airbrake",
   "publish_date": "2016-03-28",
   "cves": [],

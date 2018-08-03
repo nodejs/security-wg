@@ -3,7 +3,11 @@
   "created_at": "2015-12-28",
   "updated_at": "2016-04-20",
   "title": "SQL Injection due to unescaped object keys",
-  "author": "Sébastian Dejonghe",
+  "author": {
+    "name": "Sébastian Dejonghe",
+    "website": null,
+    "username": null
+  },
   "module_name": "mysql",
   "publish_date": "2015-12-28",
   "cves": [],

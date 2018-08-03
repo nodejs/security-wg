@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-20",
   "title": "Directory Traversal",
-  "author": "Vikram Chaitanya",
+  "author": {
+    "name": "Vikram Chaitanya",
+    "website": null,
+    "username": null
+  },
   "module_name": "geddy",
   "publish_date": "2015-07-27",
   "cves": [

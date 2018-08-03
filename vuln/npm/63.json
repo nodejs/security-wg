@@ -3,7 +3,11 @@
   "created_at": "2015-12-23",
   "updated_at": "2016-04-25",
   "title": "Denial of service - Potential socket exhaustion",
-  "author": "Adam Baldwin",
+  "author": {
+    "name": "Adam Baldwin",
+    "website": null,
+    "username": null
+  },
   "module_name": "hapi",
   "publish_date": "2015-12-23",
   "cves": [],
