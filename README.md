@@ -4,9 +4,6 @@
 
 # Security Working Group
 
-***Note: this group is in the process of seeking Charter by the TSC
-(https://github.com/nodejs/TSC/issues/486)***
-
 ## Mandate
 
 The Security Working Group's purpose is to achieve the highest level of security
