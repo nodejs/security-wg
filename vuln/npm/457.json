@@ -1,6 +1,6 @@
 {
   "id": 457,
-  "title": "Last Will message is not checked against authorization",
+  "title": "Missing Authorization for Last Will message",
   "overview": "Aedes does not  respect its own authorization rules when a client sets a Last Will",
   "created_at": "2018-08-07",
   "updated_at": "2018-08-07",
