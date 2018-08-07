@@ -1,7 +1,7 @@
 {
   "id": 457,
   "title": "Last Will message is not checked against authorization",
-  "overview": "Aedes does respect its own authorization rules when a client set a Last Will",
+  "overview": "Aedes does notnot  respect its own authorization rules when a client set a Last Will",
   "created_at": "2018-08-07",
   "updated_at": "2018-08-07",
   "publish_date": "2018-08-07",
@@ -20,7 +20,7 @@
     "https://github.com/mcollina/aedes/issues/211",
     "https://github.com/mcollina/aedes/issues/212"
   ],
-  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N/E:H/RL:O/RC:C/CR:X/IR:X/AR:X/MAV:X/MAC:L/MPR:L/MUI:N/MS:C/MC:N/MI:L/MA:N",
-  "cvss_score": 4.8,
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+  "cvss_score": 5.0,
   "coordinating_vendor": null
 }
