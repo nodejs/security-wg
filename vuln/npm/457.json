@@ -1,0 +1,26 @@
+{
+  "id": 457,
+  "title": "Improper Authorization",
+  "overview": "Aedes does not respect its own authorization rules when a client sets a Last Will",
+  "created_at": "2018-08-07",
+  "updated_at": "2018-08-07",
+  "publish_date": "2018-08-07",
+  "author": {
+    "name": "Matteo Collina",
+    "website": null,
+    "username": "mcollina"
+  },
+  "module_name": "aedes",
+  "cves": [
+  ],
+  "vulnerable_versions": "<0.35.0",
+  "patched_versions": ">=0.35.1",
+  "recommendation": "Update aedes module to version >= 0.35.1",
+  "references": [
+    "https://github.com/mcollina/aedes/issues/211",
+    "https://github.com/mcollina/aedes/issues/212"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+  "cvss_score": 5.0,
+  "coordinating_vendor": null
+}
