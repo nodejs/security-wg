@@ -11,7 +11,9 @@
     "username": null
   },
   "module_name": "url-parse",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3774"
+  ],
   "vulnerable_versions": "<1.4.3",
   "patched_versions": ">=1.4.3",
   "recommendation": "Update url-parse module to version >=1.4.3",
