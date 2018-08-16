@@ -1,0 +1,24 @@
+{
+  "id": 460,
+  "title": "Privilege Escalation",
+  "overview": "[flintcms] Account takeover due to blind MongoDB injection in password reset",
+  "created_at": "2018-07-25",
+  "updated_at": "2018-08-16",
+  "publish_date": "2018-08-15",
+  "author": {
+    "name": "Benoit Côté-Jodoin",
+    "website": "http://bcj.io",
+    "username": "becojo"
+  },
+  "module_name": "flintcms",
+  "cves": [],
+  "vulnerable_versions": "<=1.1.9",
+  "patched_versions": ">=1.1.0",
+  "recommendation": "Update flintcms module to version >=1.1.0",
+  "references": [
+    "https://hackerone.com/reports/386807"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 9,
+  "coordinating_vendor": null
+}
