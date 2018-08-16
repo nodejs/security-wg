@@ -13,7 +13,7 @@
   "module_name": "flintcms",
   "cves": [],
   "vulnerable_versions": "<=1.1.9",
-  "patched_versions": ">=1.1.0",
+  "patched_versions": ">=1.1.10",
   "recommendation": "Update flintcms module to version >=1.1.0",
   "references": [
     "https://hackerone.com/reports/386807"
