@@ -1,0 +1,12 @@
+{
+  "cve": [
+    "CVE-2018-12115"
+  ],
+  "vulnerable": "<= 10",
+  "patched": "^6.14.4 || ^8.11.4 || >= 10.9.0",
+  "publish_date": "2018-08-16",
+  "author": "Сковорода Никита Андреевич (Nikita Skovoroda / @ChALkeR)",
+  "ref": "https://nodejs.org/en/blog/vulnerability/august-2018-security-releases/",
+  "type": "CWE-787: Out-of-bounds Write",
+  "overview": "When used with UCS-2 encoding (recognized by Node.js under the names `'ucs2'`, `'ucs-2'`, `'utf16le'` and `'utf-16le'`), `Buffer#write()` can be abused to write outside of the bounds of a single `Buffer`. Writes that start from the second-to-last position of a buffer cause a miscalculation of the maximum length of the input bytes to be written."
+}
