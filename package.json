@@ -4,7 +4,8 @@
   "scripts": {
     "test": "jest",
     "report": "node tools/reporter",
-    "validate": "node tools/vuln_valid"
+    "validate": "node tools/vuln_valid",
+    "cve_submission_format": "node tools/cve_submission_format/"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "jest": "^23.6.0",
     "joi": "^13.1.0",
     "joi-extension-semver": "^2.0.0",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "semver": "~5.5.0"
   }
 }

@@ -111,23 +111,38 @@ following steps are used to assign, announce and report a CVE.
   commonly done by including it in the draft for the announcement that
   will go out once the associated security releases are available.
 * Once the security announcement goes out:
-  * Use the [Mitre form](https://cveform.mitre.org/) to report the
+  Use the [Mitre form](https://cveform.mitre.org/) to report the
     CVE details to Mitre using the `Notify CVE about a publication`. The
     link to the advisory will be the for the blog announcing that security
     releases are available. The description should be a subset of the
     details in that blog.
 
-    For each CVE listed, the additional data must include the following fields
-    updated with appropriate data for the CVE
+  For each CVE listed, the additional data must include the fields listed
+  below, updated with appropriate data for the CVE.
+  Use `npm run cve_submission_format <report id>` where "report id"
+  is the file number of the report you created in vuln/core/.
+  Once you have created the Mitre-formatted submission data, adjust the
+  "[VERSION]" string from semver range to human-readable, such as the
+  example above.
+
+  Mitre have requested that we also include the impacted version information
+  in the description when submitting the form as well as in `[VERSION]`. So
+  ammend the description accordingly. Examples:
+    * Out of bounds (OOB) write in `Buffer.write()` impacting all current
+      versions of Node.js
+    * Unintentional exposure of uninitialized memory in `Buffer.alloc()` in
+      all versions of Node.js 10
+
 ```
      [CVEID]: CVE-XXXX-XXXX
      [PRODUCT]: Node.js
-     [VERSION]: 8.x+, 9.x+, 10.x+
+     [VERSION]: All versions of Node.js prior to 6.14.4, 8.11.4 and 10.9.0
      [PROBLEMTYPE]: Denial of Service
      [REFERENCES]: Link to the blog for the final announce
      [DESCRIPTION]: Description from final announce
      [ASSIGNINGCNA]: Node.js Foundation
 ```
+
 * Move the CVE from the Pending section to the Announced section along
   with a link to the Node.js blog post announcing that releases
   are available.

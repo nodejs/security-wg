@@ -34,3 +34,29 @@ To use the reporter in automated environments such as a CI pass the `--silent` f
 ```bash
 $ npm run reporter -- --silent --reportId <h1-report-id>
 ```
+
+## CVE Submission Formatter
+
+Turn a JSON formatted CVE report and prepare it for submission to Mitre via <https://cveform.mitre.org/>. This tool is intended primarily for core vulnerabilities, using the format used in vuln/core/.
+
+One of the acceptable formats for submission takes the form:
+
+```
+[CVEID]: ...
+[PRODUCT]: ...
+[VERSION]: ...
+[PROBLEMTYPE]: ...
+[REFERENCES]: ...
+[DESCRIPTION]: ...
+[ASSIGNINGCNA]: ...
+```
+
+To turn a JSON object into this form for pasting to the Mitre form, run:
+
+```bash
+$ npm run cve_submission_format <path/to/cve.json>
+```
+
+You can also supply the report number in vuln/core/ and it will determine the file to use.
+
+**It is important to update the "[VERSION]" to be human-readable**, such as "All versions of Node.js prior to 6.14.4, 8.11.4 and 10.9.0". This is not done by the tool for you.
