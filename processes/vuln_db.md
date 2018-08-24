@@ -71,6 +71,7 @@ We will announce an upcoming change in the following ways:
 - A new issue in the repository (see example reference: https://github.com/nodejs/security-wg/issues/345)
 - We will contact the list of known database users (see section below) and alert them of the change, inviting them to participate in the discussion before changes are merged.
 - By social media, using twitter, to further broadcast the change through some of the Security WG's twitter accounts.
+- By announcing the upcoming change on the official Node.js website (https://nodejs.org) - PR the announcement to the [Node.js website build file](https://github.com/nodejs/nodejs.org/blob/master/build.js), specifically updating the banner object in `getSource()` function to reflect the announcement details.
 
 Time window for introducing changes:
 - Changes that affect existing database fields will provide a 60 days time-frame through a process of requesting comments from any party for the affecting change, due in 30 days, following an announcement for the change to be effective within another 30 days.
