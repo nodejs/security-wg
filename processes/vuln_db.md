@@ -69,8 +69,8 @@ We will announce an upcoming change in the following ways:
 - By social media, using twitter, to further broadcast the change through some of the Security WG's twitter accounts.
 
 Time window for introducing changes:
-- Changes that affect existing database fields will provide a 30 days time-frame through announcement for any party to chime in and weigh on the changes proposed
-- Changes that extend the database fields with newly proposed fields will be added as the proposed pull request is merged
+- Changes that affect existing database fields will provide a 60 days time-frame through a process of requesting comments from any party for the affecting change, due in 30 days, following an announcement for the change to be effective within another 30 days.
+- Changes that extend the database fields with newly proposed fields will be added as the proposed pull request is merged.
 
 Note: we recommend subscribing to the repository's issue tracker in order to receive updates in a timely manner for both new issues that may influence database changes, as well as new vulnerabilities pushed to the database or changes made to existing entries. Also, all pull requests that add a new vulnerability are labled with `vulnerabilities` which makes them easily filtered and searchable.
 
