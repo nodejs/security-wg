@@ -1,0 +1,27 @@
+{
+  "id": 463,
+  "title": "Command Injection - Generic",
+  "overview": "[egg-scripts] Command injection",
+  "created_at": "2018-07-31",
+  "updated_at": "2018-08-19",
+  "publish_date": "2018-08-19",
+  "author": {
+    "name": "Douglas Hall",
+    "website": null,
+    "username": "douglas_hall"
+  },
+  "module_name": "egg-scripts",
+  "cves": [
+    "CVE-2018-3786"
+  ],
+  "vulnerable_versions": "<2.8.1",
+  "patched_versions": ">=2.8.1",
+  "recommendation": "Update egg-scripts module to version >=2.8.1",
+  "references": [
+    "https://hackerone.com/reports/388936",
+    "https://github.com/eggjs/egg-scripts/pull/26"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "cvss_score": 8.6,
+  "coordinating_vendor": null
+}

@@ -32,8 +32,6 @@ class HackerOneClient {
 
     const result = {
       data: reportData.data.data,
-      // @TODO API not implemented yet by HackerOne team
-      // cves: reportDataExtended.data.cve_ids,
       reporter: reportUserData.data
     }
 
