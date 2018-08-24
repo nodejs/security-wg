@@ -29,6 +29,11 @@ HackerOne maintains a leaderboard of active members in each program which can be
 
 A Quarterly Spotlight will be a regular post from the Security WG that will list recent work from processes to vulnerabilities, in which we can feature several active hackers in our community and their disclosures.
 
+
+## TBD
+
+Suggestions for processes listed below are still to-be-defined and require more work as they are beyond the direct responsibility of the WG.
+
 ### Node.js Website TBD
 
 Official recognition through listing on the Node.js website.
@@ -43,5 +48,5 @@ TBD, see PR: https://github.com/nodejs/website-redesign/issues/59
 
 ### Recognition for Significant Contribution TBD
 
-Defining a process/threshold for what constitutes a significant contribution and what it yields (recognition artifacts, joining the wg, etc)
+Defining a process/threshold for what constitutes a significant contribution and what it yields (recognition artifacts, joining the wg, etc). Makes sense to pursue this after we're able to finalize SWAG or another means of significant contribution recognition
 
