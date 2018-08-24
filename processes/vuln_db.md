@@ -33,7 +33,11 @@ Detailed information on the [database references](https://github.com/nodejs/secu
   "created_at": "2018-02-22",
   "updated_at": "2018-02-22",
   "publish_date": "2018-02-22",
-  "author": "John Smith (https://www.github.com/john-smith)",
+  "author": {	
+    "name": "John Smith",	
+    "website": "https://www.github.com/john-smith",	
+    "username": null
+  },
   "module_name": "some-module-name",
   "cves": [
     "CVE-YYYY-XXXX"
