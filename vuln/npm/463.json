@@ -11,7 +11,9 @@
     "username": "douglas_hall"
   },
   "module_name": "egg-scripts",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3786"
+  ],
   "vulnerable_versions": "<2.8.1",
   "patched_versions": ">=2.8.1",
   "recommendation": "Update egg-scripts module to version >=2.8.1",
