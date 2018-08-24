@@ -26,8 +26,7 @@ class NswgReporter {
     wgReport['author'] = this.getAuthorUsername()
     wgReport['module_name'] = this.getModuleName()
 
-    // @TODO missing cves from API
-    wgReport['cves'] = []
+    wgReport['cves'] = this.getCVEs()
 
     // @TODO missing versions information in report
     wgReport['vulnerable_versions'] = this.getVulnerableVerison()
@@ -83,6 +82,10 @@ class NswgReporter {
       website,
       username
     }
+  }
+
+  getCVEs () {
+    return this.report.data.attributes.cve_ids
   }
 
   getModuleName () {

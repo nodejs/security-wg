@@ -7,8 +7,8 @@
   "publish_date": "2018-06-16",
   "author": {
     "name": "Caio Lüders",
-    "website": "http://127.0.0.1/?a=a",
-    "username": null
+    "website": null,
+    "username": "caioluders" 
   },
   "module_name": "git-dummy-commit",
   "cves": [
