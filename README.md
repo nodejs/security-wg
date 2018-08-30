@@ -61,18 +61,9 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Vulnerability database
 
-### Security researchers
+The Node.js Security WG maintains a vulnerability database for core Node.js as well as third party modules from the npm ecosystem.
 
-The Security Working Group and the Node.js community is kept safe with the help of many security researchers who help
-identify vulnerabilities in the core and in the ecosystem.
-
-The list of these people can be found on HackerOne:
-* for Node.js core: https://hackerone.com/nodejs/thanks
-* for Node.js ecosystem: https://hackerone.com/nodejs-ecosystem/thanks
-
-### License of the database
-
-The database of vulnerabilities is provided under the MIT license.
+Consult [more information](./processes/vuln_db.md) about the vuln db.
 
 ## Current Project Team Members
 
