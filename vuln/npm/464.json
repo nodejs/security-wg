@@ -11,7 +11,9 @@
     "username": "bl4de"
   },
   "module_name": "exceljs",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16459"
+  ],
   "vulnerable_versions": "<1.6.0",
   "patched_versions": ">=1.6.0",
   "recommendation": "Update exceljs module to version >=1.6.0",
