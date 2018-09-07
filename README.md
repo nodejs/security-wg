@@ -7,10 +7,9 @@
 
 # Security Working Group
 
-Table Of Contents
+Table of Contents
 
-- [Charter](#charter)
-- Processes
+- Vulnerability Management
   * [Security Announcement Process](./processes/security_annoucement_process.md)
   * [Security Release Process](./processes/security_release_process.md)
   * [Node.js CVE management process](./processes/cve_management_process.md)
@@ -26,10 +25,11 @@ Table Of Contents
 - [Private Node.js core security group](#private-nodejs-core-security-group)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Participate in Reponsible Security Disclosure](#participate-in-reponsible-security-disclosure)
-- [Current Project Team Members](#current-project-team-members)
-- [Emeritus Members](#emeritus-members)
+- [Charter](#charter)
 - [Code of Conduct](#code-of-conduct)
 - [Moderation Policy](#moderation-policy)
+- [Current Project Team Members](#current-project-team-members)
+- [Emeritus Members](#emeritus-members)
 
 
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
