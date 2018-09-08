@@ -11,7 +11,9 @@
     "username": "cris_semmle"
   },
   "module_name": "ps",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16460"
+  ],
   "vulnerable_versions": "<1.0.0",
   "patched_versions": ">=1.0.0",
   "recommendation": "Update ps module to version >=1.0.0",
