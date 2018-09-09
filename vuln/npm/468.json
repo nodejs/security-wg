@@ -1,0 +1,24 @@
+{
+    "id": 468,
+    "title": "Path Traversal",
+    "overview": "[m-server] Path Traversal allows to display content of arbitrary file(s) from the server",
+    "created_at": "2018-02-26",
+    "updated_at": "2018-07-20",
+    "publish_date": "2018-07-12",
+    "author": {
+      "name": "bl4de",
+      "website": "https://twitter.com/_bl4de",
+      "username": "bl4de"
+    },
+    "module_name": "m-server",
+    "cves": [],
+    "vulnerable_versions": "<=1.4.1",
+    "patched_versions": ">=1.4.2",
+    "recommendation": "Update m-server module to version >=1.4.2",
+    "references": [
+      "https://hackerone.com/reports/319795"
+    ],
+    "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_score": 6.1,
+    "coordinating_vendor": null
+  }
