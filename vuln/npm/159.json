@@ -3,7 +3,11 @@
   "created_at": "2016-11-28",
   "updated_at": "2017-04-14",
   "title": "Cross Site Scripting",
-  "author": "Björn Kimminich",
+  "author": {
+    "name": "Björn Kimminich",
+    "website": null,
+    "username": null
+  },
   "module_name": "gitbook",
   "publish_date": "2017-04-14",
   "cves": [],

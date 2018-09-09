@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-28",
   "title": "No Charset in Content-Type Header",
-  "author": "Paweł Hałdrzyński",
+  "author": {
+    "name": "Paweł Hałdrzyński",
+    "website": null,
+    "username": null
+  },
   "module_name": "express",
   "publish_date": "2014-09-12",
   "cves": [

@@ -3,7 +3,11 @@
   "created_at": "2016-07-25",
   "updated_at": "2017-02-10",
   "title": "XSS in drag and drop node",
-  "author": "https://github.com/Monisha-M",
+  "author": {
+    "name": "https://github.com/Monisha-M",
+    "website": null,
+    "username": null
+  },
   "module_name": "jqtree",
   "publish_date": "2016-07-25",
   "cves": [

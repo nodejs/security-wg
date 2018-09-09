@@ -1,7 +1,11 @@
 {
   "id": 391,
   "title": "Memory Exposure",
-  "author": "Feross Aboukhadijeh",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "website": null,
+    "username": null
+  },
   "module_name": "bl",
   "created_at": "2018-03-24",
   "updated_at": "2018-03-24",

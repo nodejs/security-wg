@@ -3,7 +3,11 @@
   "created_at": "2018-02-21",
   "updated_at": "2018-02-21",
   "title": "Regular Expression Denial of Service (ReDoS)",
-  "author": "Jamie Davis",
+  "author": {
+    "name": "Jamie Davis",
+    "website": null,
+    "username": null
+  },
   "module_name": "is-my-json-valid",
   "publish_date": "2018-02-21",
   "cves": [],

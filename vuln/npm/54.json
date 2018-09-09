@@ -3,7 +3,11 @@
   "created_at": "2015-10-26",
   "updated_at": "2016-04-25",
   "title": "Command Injection in gm.compare function",
-  "author": "Brendan Scarvell of Console",
+  "author": {
+    "name": "Brendan Scarvell of Console",
+    "website": null,
+    "username": null
+  },
   "module_name": "gm",
   "publish_date": "2015-10-26",
   "cves": [

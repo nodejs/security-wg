@@ -3,7 +3,11 @@
   "created_at": "2016-08-15",
   "updated_at": "2017-02-10",
   "title": "Denial of Service",
-  "author": "Matteo Collina",
+  "author": {
+    "name": "Matteo Collina",
+    "website": null,
+    "username": null
+  },
   "module_name": "mqtt",
   "publish_date": "2016-08-26",
   "cves": [

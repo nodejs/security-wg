@@ -5,7 +5,11 @@
   "created_at": "2018-05-27",
   "updated_at": "2018-06-27",
   "publish_date": "2018-06-27",
-  "author": "N0n4me",
+  "author": {
+    "name": "N0n4me",
+    "website": null,
+    "username": null
+  },
   "module_name": "buttle",
   "cves": [
     "CVE-2018-3766"

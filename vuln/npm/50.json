@@ -3,7 +3,11 @@
   "created_at": "2015-10-24",
   "updated_at": "2016-04-25",
   "title": "Insecure Comparison",
-  "author": "Joshua Dague",
+  "author": {
+    "name": "Joshua Dague",
+    "website": null,
+    "username": null
+  },
   "module_name": "secure-compare",
   "publish_date": "2015-10-24",
   "cves": [],

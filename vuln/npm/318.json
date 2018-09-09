@@ -3,7 +3,11 @@
   "created_at": "2017-03-08",
   "updated_at": "2017-03-08",
   "title": "Header Forgery",
-  "author": "Dave Longley",
+  "author": {
+    "name": "Dave Longley",
+    "website": null,
+    "username": null
+  },
   "module_name": "http-signature",
   "publish_date": "2017-03-08",
   "cves": [],

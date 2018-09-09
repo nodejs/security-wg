@@ -3,7 +3,11 @@
   "created_at": "2016-01-15",
   "updated_at": "2016-04-20",
   "title": "Denial of Service",
-  "author": "Peter Sorowka",
+  "author": {
+    "name": "Peter Sorowka",
+    "website": null,
+    "username": null
+  },
   "module_name": "mqtt-packet",
   "publish_date": "2016-01-15",
   "cves": [],

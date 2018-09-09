@@ -3,7 +3,11 @@
   "created_at": "2016-03-28",
   "updated_at": "2016-06-02",
   "title": "Authentication Bypass",
-  "author": "Craig Arendt",
+  "author": {
+    "name": "Craig Arendt",
+    "website": null,
+    "username": null
+  },
   "module_name": "console-io",
   "publish_date": "2016-04-18",
   "cves": [],

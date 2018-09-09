@@ -3,7 +3,11 @@
   "created_at": "2017-03-14",
   "updated_at": "2017-03-15",
   "title": "Cross-Site Scripting",
-  "author": "alexmchardy",
+  "author": {
+    "name": "alexmchardy",
+    "website": null,
+    "username": null
+  },
   "module_name": "i18next",
   "publish_date": "2017-03-15",
   "cves": [],

@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2017-01-20",
   "title": "Cross-Site Scripting",
-  "author": "Ivan Kozik",
+  "author": {
+    "name": "Ivan Kozik",
+    "website": null,
+    "username": null
+  },
   "module_name": "serve-index",
   "publish_date": "2015-03-14",
   "cves": [

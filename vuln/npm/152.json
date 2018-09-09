@@ -3,7 +3,11 @@
   "created_at": "2016-10-27",
   "updated_at": "2017-03-23",
   "title": "Predictable temp filenames allow overwrite of arbitrary files",
-  "author": "Jérémy Lal",
+  "author": {
+    "name": "Jérémy Lal",
+    "website": null,
+    "username": null
+  },
   "module_name": "npm",
   "publish_date": "2017-03-23",
   "cves": [

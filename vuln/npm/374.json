@@ -3,7 +3,11 @@
   "created_at": "2018-02-17",
   "updated_at": "2018-02-17",
   "title": "Cross-site Scripting (XSS) - Stored",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "crud-file-server",
   "publish_date": "2018-02-17",
   "cves": [

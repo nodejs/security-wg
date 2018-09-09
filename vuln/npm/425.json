@@ -5,7 +5,11 @@
   "created_at": "2018-03-29",
   "updated_at": "2018-05-11",
   "publish_date": "2018-05-11",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "buttle",
   "cves": [],
   "vulnerable_versions": "<=0.2.0",

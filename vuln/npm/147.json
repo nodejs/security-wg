@@ -3,7 +3,11 @@
   "created_at": "2016-09-08",
   "updated_at": "2016-10-17",
   "title": "XSS in autoescape mode",
-  "author": "Matt Austin",
+  "author": {
+    "name": "Matt Austin",
+    "website": null,
+    "username": null
+  },
   "module_name": "nunjucks",
   "publish_date": "2016-10-17",
   "cves": [],

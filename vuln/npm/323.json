@@ -3,7 +3,11 @@
   "created_at": "2017-03-10",
   "updated_at": "2017-04-11",
   "title": "Insufficient Error Handling",
-  "author": "TJ Holowaychuk",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "website": null,
+    "username": null
+  },
   "module_name": "http-proxy",
   "publish_date": "2017-04-11",
   "cves": [],

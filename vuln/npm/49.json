@@ -3,7 +3,11 @@
   "created_at": "2015-10-24",
   "updated_at": "2017-02-23",
   "title": "Content Injection via TileJSON attribute",
-  "author": "John Firebaugh, Juan Broullón Sampedro",
+  "author": {
+    "name": "John Firebaugh, Juan Broullón Sampedro",
+    "website": null,
+    "username": null
+  },
   "module_name": "mapbox.js",
   "publish_date": "2015-10-24",
   "cves": [],

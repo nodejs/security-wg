@@ -3,7 +3,11 @@
   "created_at": "2015-10-17",
   "updated_at": "2016-04-28",
   "title": "Arbitrary JavaScript Execution",
-  "author": "Jarda Kotěšovec",
+  "author": {
+    "name": "Jarda Kotěšovec",
+    "website": null,
+    "username": null
+  },
   "module_name": "bassmaster",
   "publish_date": "2014-09-27",
   "cves": [

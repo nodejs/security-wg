@@ -3,7 +3,11 @@
   "created_at": "2018-01-23",
   "updated_at": "2018-01-23",
   "title": "html-janitor passing user-controlled data to clean() leads to XSS",
-  "author": "_bayotop (https://twitter.com/_bayotop)",
+  "author": {
+    "name": "_bayotop",
+    "website": "https://twitter.com/_bayotop",
+    "username": null
+  },
   "module_name": "html-janitor",
   "publish_date": "2018-01-23",
   "cves": [
