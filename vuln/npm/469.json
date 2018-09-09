@@ -1,0 +1,24 @@
+{
+    "id": 469,
+    "title": "Privilege Escalation",
+    "overview": "Privilege escalation allows any user to add an administrator",
+    "created_at": "2018-04-26",
+    "updated_at": "2018-07-12",
+    "publish_date": "2018-07-12",
+    "author": {
+      "name": "Patrick",
+      "website": null,
+      "username": null
+    },
+    "module_name": "express-cart",
+    "cves": [],
+    "vulnerable_versions": "<=1.1.5",
+    "patched_versions": ">1.1.5",
+    "recommendation": "Update express-cart module to version >1.1.5",
+    "references": [
+      "https://hackerone.com/reports/343626"
+    ],
+    "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "cvss_score": 9.9,
+    "coordinating_vendor": null
+  }
