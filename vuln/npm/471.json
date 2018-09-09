@@ -1,0 +1,24 @@
+{
+  "id": 471,
+  "title": "Command Injection - Generic",
+  "overview": "[ascii-art] Command injection",
+  "created_at": "2018-08-05",
+  "updated_at": "2018-09-08",
+  "publish_date": "2018-09-08",
+  "author": {
+    "name": "Douglas Hall",
+    "website": null,
+    "username": "douglas_hall"
+  },
+  "module_name": "ascii-art",
+  "cves": [],
+  "vulnerable_versions": "<1.4.4",
+  "patched_versions": ">=1.4.4",
+  "recommendation": "Update ascii-art module to version >=1.4.4",
+  "references": [
+    "https://hackerone.com/reports/390631"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "cvss_score": 8.6,
+  "coordinating_vendor": null
+}
