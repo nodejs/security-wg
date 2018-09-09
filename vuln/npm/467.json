@@ -1,5 +1,5 @@
 {
-    "id": 451,
+    "id": 467,
     "title": "Cross-site Scripting (XSS) - Stored",
     "overview": "[m-server] HTML Injection in filenames displayed as directory listing in the browser allows to embed iframe with malicious JavaScript code",
     "created_at": "2018-02-26",
