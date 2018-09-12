@@ -1,6 +1,7 @@
 This project participates in the Responsible Disclosure Policy program for the Node.js Security Ecosystem.
 
-To report a Security Vulnerability [click here](https://hackerone.com/nodejs-ecosystem)
+* [Report a security vulnerability](https://hackerone.com/nodejs-ecosystem)
+
 
 # Responsible Disclosure Policy
 
