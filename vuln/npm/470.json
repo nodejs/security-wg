@@ -1,0 +1,26 @@
+{
+  "id": 470,
+  "title": "Command Injection - Generic",
+  "overview": "Command Injection is ps Package",
+  "created_at": "2018-08-06",
+  "updated_at": "2018-09-07",
+  "publish_date": "2018-09-07",
+  "author": {
+    "name": "Cristian-Alexandru Staicu",
+    "website": "https://semmle.com/security",
+    "username": "cris_semmle"
+  },
+  "module_name": "ps",
+  "cves": [
+    "CVE-2018-16460"
+  ],
+  "vulnerable_versions": "<1.0.0",
+  "patched_versions": ">=1.0.0",
+  "recommendation": "Update ps module to version >=1.0.0",
+  "references": [
+    "https://hackerone.com/reports/390848"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 6.8,
+  "coordinating_vendor": null
+}
