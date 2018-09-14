@@ -1,8 +1,36 @@
+[![Node.js Security WG](https://img.shields.io/badge/Node.js-Security%20WG-green.svg)]()
+[![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
+[![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
 [![GitHub Logo](https://img.shields.io/badge/Join%20us%20on-Slack-e01563.svg)](https://nodejs-security-wg.herokuapp.com/)
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md
 )
 
 # Security Working Group
+
+Table of Contents
+
+- Vulnerability Management
+  * [Security Announcement Process](./processes/security_annoucement_process.md)
+  * [Security Release Process](./processes/security_release_process.md)
+  * [Node.js CVE management process](./processes/cve_management_process.md)
+  * [Responsible Disclosure Policy](./processes/responsible_disclosure_template.md)
+  * [Third-Party Ecosystem Triage Process](./processes/third_party_vuln_process.md)
+  * [Third-Party HackerOne Submission form](./processes/third_party_vuln_submit_form_hacker1.md)
+  * [Vulnerability Database](./processes/vuln_db.md)
+  * [Recognition for Security Researchers](./processes/recognition.md)
+- Processes for Security WG Members
+  * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
+  * [On-boarding Team Members](./processes/security_team_onboarding.md)
+  * [Off-boarding Team Members](./processes/security_team_offboarding.md)
+- [Private Node.js core security group](#private-nodejs-core-security-group)
+- [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
+- [Participate in Reponsible Security Disclosure](#participate-in-reponsible-security-disclosure)
+- [Charter](#charter)
+- [Code of Conduct](#code-of-conduct)
+- [Moderation Policy](#moderation-policy)
+- [Current Project Team Members](#current-project-team-members)
+- [Emeritus Members](#emeritus-members)
+
 
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
 
@@ -58,12 +86,6 @@ You can show your users you take security matters seriously and drive higher con
 1. Adding a `SECURITY.md` file in your repository that you can copy&paste from [us](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md). Just like having a contribution of code of conduct guidelines, a security guideline will help user or bug hunters with the process of reporting a vulnerability or security concern they would like to share.
 
 2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
-
-## Vulnerability database
-
-The Node.js Security WG maintains a vulnerability database for core Node.js as well as third party modules from the npm ecosystem.
-
-Consult [more information](./processes/vuln_db.md) about the vuln db.
 
 ## Current Project Team Members
 
