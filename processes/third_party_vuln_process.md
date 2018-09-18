@@ -129,3 +129,4 @@ by PRing their acceptance to this file:
 # Emeritus Members
 
 * @bengl - Bryan English
+* @gergelyke - Gergely Nemeth
