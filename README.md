@@ -24,7 +24,7 @@ Table of Contents
   * [Off-boarding Team Members](./processes/security_team_offboarding.md)
 - [Private Node.js core security group](#private-nodejs-core-security-group)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
-- [Participate in Reponsible Security Disclosure](#participate-in-reponsible-security-disclosure)
+- [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)
 - [Code of Conduct](#code-of-conduct)
 - [Moderation Policy](#moderation-policy)
@@ -77,7 +77,7 @@ The Node.js project engages in an official bug bounty program for security resea
 
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
 
-## Participate in Reponsible Security Disclosure
+## Participate in Responsible Security Disclosure
 
 As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible dislcosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
 
