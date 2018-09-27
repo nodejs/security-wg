@@ -1,7 +1,7 @@
 {
   "id": 438,
   "title": "Command Injection - Generic",
-  "overview": "Command injection in 'pdf-image'",
+  "overview": "Command injection in pdf-image",
   "created_at": "2018-04-18",
   "updated_at": "2018-05-29",
   "publish_date": "2018-05-29",

@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<0.6.0",
   "patched_versions": ">=0.6.0",
-  "overview": "PoC:\n```js\nrequire('request')({\n  method: 'GET',\n  uri: 'http://www.example.com',\n  tunnel: true,\n  proxy:{\n      protocol: 'http:',\n      host:'127.0.0.1',\n      port:8080,\n      auth:80 // number\n  }\n});\n```\n\nReported at 2016-11-20.",
+  "overview": "PoC:    ```js    require(request)({      method: GET,      uri: http://www.example.com,      tunnel: true,      proxy:{          protocol: http:,          host:127.0.0.1,          port:8080,          auth:80 // number      }    });    ```        Reported at 2016-11-20.",
   "recommendation": "update tunnel-agent to 0.6.0 or higher",
   "references": [
     "https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4",

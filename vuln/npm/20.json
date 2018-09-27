@@ -15,7 +15,7 @@
   ],
   "vulnerable_versions": "<= 1.0.3",
   "patched_versions": ">= 1.0.4",
-  "overview": "Untrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.\n\n### Example\n```\nvar libnotify = require('libnotify')\nlibnotify.notify('UNTRUSTED INPUT', { title: \\\"\\\" }, function () {\n    console.log(arguments);\n})\n```\n\nSpecial thanks to Neal Poole for submitting the pull request to fix this issue.",
+  "overview": "Untrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.        ### Example    ```    var libnotify = require(libnotify)    libnotify.notify(UNTRUSTED INPUT, { title: \\\\ }, function () {        console.log(arguments);    })    ```        Special thanks to Neal Poole for submitting the pull request to fix this issue.",
   "recommendation": null,
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",

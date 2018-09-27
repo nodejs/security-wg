@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=1.2.2",
   "patched_versions": ">=1.2.3",
-  "overview": "sanitize-html is a library for scrubbing html input for malicious values\nVersions 1.2.2 and below have a cross site scripting vulnerability under certain scenarios:\n\nEntering the following:\n\n`<IMG SRC= onmouseover=\"alert('XSS');\">`\nproduces the following:\n\n`<img src=\"onmouseover=\"alert('XSS');\"\" />`\nThis is definitely invalid HTML, but would suggest that it's being interpreted incorrectly by the parser.",
+  "overview": "sanitize-html is a library for scrubbing html input for malicious values    Versions 1.2.2 and below have a cross site scripting vulnerability under certain scenarios:        Entering the following:        `<IMG SRC= onmouseover=alert(XSS);>`    produces the following:        `<img src=onmouseover=alert(XSS); />`    This is definitely invalid HTML, but would suggest that its being interpreted incorrectly by the parser.",
   "recommendation": "Upgrade to version 1.2.3 or later.",
   "references": [
     "https://github.com/punkave/sanitize-html/issues/19",

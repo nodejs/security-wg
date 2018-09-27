@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "overview": "Bitty is a development web server tool that functions similar to `python -m SimpleHTTPServer`.  \nVersion 0.2.10 has a directory traversal vulnerability that is exploitable via the URL path in GET requests.",
+  "overview": "Bitty is a development web server tool that functions similar to `python -m SimpleHTTPServer`.      Version 0.2.10 has a directory traversal vulnerability that is exploitable via the URL path in GET requests.",
   "recommendation": null,
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",

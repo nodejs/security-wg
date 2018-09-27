@@ -22,6 +22,6 @@
     "https://github.com/mcollina/aedes/issues/212"
   ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
-  "cvss_score": 5.0,
+  "cvss_score": 5,
   "coordinating_vendor": null
 }

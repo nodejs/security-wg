@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "overview": "ipip-coffee queries geolocation information from IP\n\n\nipip-coffee downloads geolocation resources over HTTP, which leaves it vulnerable to MITM attacks.  This could impact the integrity and availability of the data being used to make geolocation decisions by an application.",
+  "overview": "ipip-coffee queries geolocation information from IP            ipip-coffee downloads geolocation resources over HTTP, which leaves it vulnerable to MITM attacks.  This could impact the integrity and availability of the data being used to make geolocation decisions by an application.",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L",

@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=1.1.4",
   "patched_versions": ">=1.1.5",
-  "overview": "pidusage is a module for cross-platform process cpu % and memory usage of a PID.\n\nThe pidusage module passes unsanitized input to child_process.exec, resulting in command injection in the ps method, as the pid is never cast to an integer as the comment expects. This module is vulnerable to this PoC on Darwin, SunOS, FreeBSD, and AIX. Windows and Linux are not vulnerable. \n\nProof of Concept:\n```\nvar pid = require('pidusage');\npid.stat('1 && /usr/local/bin/python');\n```",
+  "overview": "pidusage is a module for cross-platform process cpu % and memory usage of a PID.        The pidusage module passes unsanitized input to child_process.exec, resulting in command injection in the ps method, as the pid is never cast to an integer as the comment expects. This module is vulnerable to this PoC on Darwin, SunOS, FreeBSD, and AIX. Windows and Linux are not vulnerable.         Proof of Concept:    ```    var pid = require(pidusage);    pid.stat(1 && /usr/local/bin/python);    ```",
   "recommendation": "Update to version 1.1.5 or later.\n\nOtherwise, before passing any untrusted data to the `stat` function, ensure that the data is sanitized using a proper shell escaping library. Note that Windows and Linux are not vulnerable.",
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",

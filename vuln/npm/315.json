@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": ">=0.1.0",
   "patched_versions": "<0.0.0",
-  "overview": "Summit is a node web framework. \n\nWhen using the PouchDB driver in the module, an attacker can execute arbitrary commands via the collection name.",
+  "overview": "Summit is a node web framework.         When using the PouchDB driver in the module, an attacker can execute arbitrary commands via the collection name.",
   "recommendation": "The PouchDB driver is not recommended for use in production.",
   "references": [
     "https://github.com/notduncansmith/summit/issues/23)"

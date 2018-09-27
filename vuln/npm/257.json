@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "overview": "xd-testing is a testing library for cross-device (XD) web applications.\n\nxd-testing downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+  "overview": "xd-testing is a testing library for cross-device (XD) web applications.        xd-testing downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",

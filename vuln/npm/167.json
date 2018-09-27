@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<2.4.2",
   "patched_versions": ">=2.4.2",
-  "overview": "aerospike is an Aerospike add-on module for Node.js.\n\naerospike versions below 2.4.2 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+  "overview": "aerospike is an Aerospike add-on module for Node.js.        aerospike versions below 2.4.2 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Update to version 2.4.2 or later",
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",

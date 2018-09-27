@@ -1,7 +1,7 @@
 {
   "id": 425,
   "title": "OS Command Injection",
-  "overview": "[buttle] Remote Command Execution via unsanitized PHP filename when it's run with --php-bin flag",
+  "overview": "[buttle] Remote Command Execution via unsanitized PHP filename when its run with --php-bin flag",
   "created_at": "2018-03-29",
   "updated_at": "2018-05-11",
   "publish_date": "2018-05-11",

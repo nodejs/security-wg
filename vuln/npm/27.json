@@ -15,7 +15,7 @@
   ],
   "vulnerable_versions": "<= 0.0.1",
   "patched_versions": "> 0.0.1",
-  "overview": "printer does not sanitize command arguments properly in the ```printDirect()``` function. If untrusted client input is passed in, command injection is possible.\n\nSpecial thanks to [Wes Cruver](https://github.com/chieffancypants) for providing a pull request!",
+  "overview": "printer does not sanitize command arguments properly in the ```printDirect()``` function. If untrusted client input is passed in, command injection is possible.        Special thanks to [Wes Cruver](https://github.com/chieffancypants) for providing a pull request!",
   "recommendation": "- Update to version > 0.0.1 which is available on github at https://github.com/tojocky/node-printer",
   "references": [
     "https://github.com/tojocky/node-printer",

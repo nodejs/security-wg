@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=0.9.6",
   "patched_versions": ">=0.9.7",
-  "overview": "Socket.io is a realtime application framework that provides communication via websockets.\n\nBecause socket.io depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.",
+  "overview": "Socket.io is a realtime application framework that provides communication via websockets.        Because socket.io depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.",
   "recommendation": "Upgrade to v0.9.7 or later.",
   "references": [
     "https://github.com/socketio/socket.io/issues/856)",

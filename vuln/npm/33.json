@@ -15,7 +15,7 @@
   ],
   "vulnerable_versions": "<=2.0.0-rc7",
   "patched_versions": ">=2.0.0-rc8",
-  "overview": "SQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.\n\n\nExample:\n```\nTest.findAndCountAll({\nwhere: { id :1 },\norder : [['id', 'UNTRUSTED USER INPUT']]\n})\n```",
+  "overview": "SQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.            Example:    ```    Test.findAndCountAll({    where: { id :1 },    order : [[id, UNTRUSTED USER INPUT]]    })    ```",
   "recommendation": "Update to version 2.0.0-rc8 or greater.",
   "references": [
     "https://github.com/sequelize/sequelize/issues/2906"

@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<0.0.0",
-  "overview": "unicode loads unicode data downloaded from unicode.org into nodejs.\n\nUnicode downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.",
+  "overview": "unicode loads unicode data downloaded from unicode.org into nodejs.        Unicode downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": null,
   "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",

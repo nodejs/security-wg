@@ -13,7 +13,7 @@
   "cves": [],
   "vulnerable_versions": "<=99.999.99999",
   "patched_versions": "<=0.0.0",
-  "overview": "Windows-cpu is a CPU monitoring utility for windows.\n\nThe findLoad method passes a provided string directly to the shell, allowing arbitrary command execution. \n\nProof of Concept:\nThis code will open the built-in calculator program.\n```\nvar win = require('windows-cpu');\nwind.findLoad('foo & calc.exe');\n```",
+  "overview": "Windows-cpu is a CPU monitoring utility for windows.        The findLoad method passes a provided string directly to the shell, allowing arbitrary command execution.         Proof of Concept:    This code will open the built-in calculator program.    ```    var win = require(windows-cpu);    wind.findLoad(foo & calc.exe);    ```",
   "recommendation": "Avoid passing user input to the findLoad method. If you must, pass user input through a sanitizer (such as a shell escaping tool) prior to passing it to findLoad.",
   "references": [
     "https://github.com/KyleRoss/windows-cpu/blob/master/index.js#L81"

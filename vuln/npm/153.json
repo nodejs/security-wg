@@ -15,7 +15,7 @@
   ],
   "vulnerable_versions": "<0.1.1",
   "patched_versions": ">=0.1.1",
-  "overview": "The dns-sync library for node.js allows resolving hostnames in a synchronous fashion\n\nAll versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.\n\nFor example:\n\n    var dnsSync = require('dns-sync');\n    console.log(dnsSync.resolve('$(id > /tmp/foo)'));\n\nThis is caused by the hostname being passed through a shell as part of a command execution.",
+  "overview": "The dns-sync library for node.js allows resolving hostnames in a synchronous fashion        All versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.        For example:            var dnsSync = require(dns-sync);        console.log(dnsSync.resolve($(id > /tmp/foo)));        This is caused by the hostname being passed through a shell as part of a command execution.",
   "recommendation": "Upgrade to dns-sync version 0.1.1 or greater.",
   "references": [
     "https://github.com/skoranga/node-dns-sync/issues/1)",
