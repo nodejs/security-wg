@@ -15,12 +15,14 @@ policies by PRing their acceptance to this file.
 
 ## Team that triages security reports against node core
 
-- @bnoordhuis - **Ben Noordhuis**
+- @cjihrig - **Colin Ihrig**
 - @indutny - **Fedor Indutny**
-- @rvagg - **Rod Vagg**
 - @jasnell - **James M Snell**
-- @shigeki - **Shigeki Ohtsu**
+- @mcollina - **Matteo Colina**
+- @mhdawson - **Michael Dawson**
 - @MylesBorins - **Myles Borins**
+- @rvagg - **Rod Vagg**
+- @vdeturckheim - **Vladimir de Turckheim**
 
 List is from ["security" alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
 
