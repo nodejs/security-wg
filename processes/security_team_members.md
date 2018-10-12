@@ -24,6 +24,12 @@ policies by PRing their acceptance to this file.
 - @rvagg - **Rod Vagg**
 - @vdeturckheim - **Vladimir de Turckheim**
 
+### Emeritus
+
+- @bnoordhuis - **Ben Noordhuis**
+- @jasnell - **James M Snell**
+- @shigeki - **Shigeki Ohtsu**
+
 List is from ["security" alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
 
 ## Team with access to security issues
