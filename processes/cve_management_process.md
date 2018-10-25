@@ -48,7 +48,7 @@ This file will have the following sections:
 * Announced
 
 When a new block of CVEs is received from Mitre they will be listed under
-the `Available` secion.
+the `Available` section.
 
 These CVEs will be moved from the Available to Pending and Announced
 as outlined in the section titled `CVE Management process`.
@@ -57,9 +57,9 @@ In addition, when moving a CVE from Available such that there are less
 than two remaining CVEs a new block must be requested as follows:
 
 * Use the Mitre request form https://cveform.mitre.org/ with the
-  option `Request a Block of CVEs to request a new block`.
-* The new block will be sent to the requestor through email.
-* Once the new block has been received, the requestor will add them
+  option `Request a Block of IDs` to request a new block.
+* The new block will be sent to the requester through email.
+* Once the new block has been received, the requester will add them
   to the Available list.
 
 All changes to the files for managing CVEs in a given year will
@@ -76,16 +76,16 @@ When a request for a CVE is received via the cve-request@iojs.org
 email alias the following process will be followed (likely updated
 after we get HackerOne up and running).
 
-* Respond to the requestor indicating that we have the request
+* Respond to the requester indicating that we have the request
   and will review soon.
 * Open an issue in the security repo for the request.
 * Review the request.
   * If a CVE is appropriate then assign the
     CVE as outline in the section titled
-    [CVE Management process for Node.js vulnerabilities](CVE-Management-process-for-Node.js-vulnerabilities)
-    and return the CVE number to the requestor (along with the request
+    [CVE Management process for Node.js vulnerabilities](cve-management-process-for-nodejs-vulnerabilities)
+    and return the CVE number to the requester (along with the request
     to keep it confidential until the vulnerability is announced)
-  * If a CVE is not appropriate then respond to the requestor
+  * If a CVE is not appropriate then respond to the requester
     with the details as to why.
 
 ## Quarterly reporting
@@ -105,10 +105,10 @@ following steps are used to assign, announce and report a CVE.
   with a link to the issue in the security repo that is being used
   to discuss the vulnerability.
 * As part of the
-  [security announcement process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md)
-  in the issue in the security issue being used to discuss the
+  [security announcement process](https://github.com/nodejs/security-wg/blob/master/processes/security_annoucement_process.md),
+  in the security issue being used to discuss the
   vulnerability, associate the CVE to that vulnerability. This is most
-  commonly done by including it is the draft for the announcement that
+  commonly done by including it in the draft for the announcement that
   will go out once the associated security releases are available.
 * Once the security announcement goes out:
   * Use the [Mitre form](https://cveform.mitre.org/) to report the
@@ -130,4 +130,4 @@ following steps are used to assign, announce and report a CVE.
 ```
 * Move the CVE from the Pending section to the Announced section along
   with a link to the Node.js blog post announcing that releases
-  are availble.
+  are available.
