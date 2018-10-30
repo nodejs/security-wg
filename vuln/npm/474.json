@@ -11,7 +11,9 @@
     "username": "cris_semmle"
   },
   "module_name": "libnmap",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16461"
+  ],
   "vulnerable_versions": "<0.4.16",
   "patched_versions": ">=0.4.16",
   "recommendation": "Update libnmap module to version >=0.4.16",
