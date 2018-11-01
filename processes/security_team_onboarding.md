@@ -24,6 +24,8 @@ Patiently wait for feedback and +1’s from the team and a reasonable time to en
 ## Setting-up for new WG members
 Once acceptance has been acquired by group members, the following should take place to setup the new member:
 
+* Confirm that the new member has read, understands, and agrees to uphold the
+  [Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md).
 * Mentor should ping @jasnell, @gibfahn, @cjihrig or @mhdawson to add the new member to the repository.
 * New member should open a PR with his/her username added to the list in alphabetical order at: [security-wg/README.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/README.md)
 * New member should enable 2FA in GitHub
