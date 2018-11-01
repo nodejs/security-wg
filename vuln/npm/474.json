@@ -1,0 +1,26 @@
+{
+  "id": 474,
+  "title": "Command Injection - Generic",
+  "overview": "Command Injection Vulnerability in libnmap Package",
+  "created_at": "2018-08-06",
+  "updated_at": "2018-10-19",
+  "publish_date": "2018-10-14",
+  "author": {
+    "name": "Cristian-Alexandru Staicu",
+    "website": "https://semmle.com/security",
+    "username": "cris_semmle"
+  },
+  "module_name": "libnmap",
+  "cves": [
+    "CVE-2018-16461"
+  ],
+  "vulnerable_versions": "<0.4.16",
+  "patched_versions": ">=0.4.16",
+  "recommendation": "Update libnmap module to version >=0.4.16",
+  "references": [
+    "https://hackerone.com/reports/390865"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 6.8,
+  "coordinating_vendor": null
+}
