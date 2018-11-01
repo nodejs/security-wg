@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright (c) 2017 Node.js Foundation
+Copyright (c) 2018 Node.js Foundation
 -------------------------------------
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
