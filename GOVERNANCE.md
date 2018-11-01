@@ -116,4 +116,4 @@ vote must be seconded by a majority of the WG or else the discussion will
 continue. Simple majority wins.
 
 Note that changes to WG membership require unanimous consensus. See [WG
-Membership](https://github.com/vyaspranjal33/security-wg/blob/master/GOVERNANCE.md#wg-membership)
+Membership](#wg-membership)
