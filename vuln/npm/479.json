@@ -11,7 +11,9 @@
     "username": "abdilahrf_"
   },
   "module_name": "tianma-static",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16474"
+  ],
   "vulnerable_versions": "<=1.0.4",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
