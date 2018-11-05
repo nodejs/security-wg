@@ -120,12 +120,13 @@ by PRing their acceptance to this file:
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
 * @elexy - Alex Knol
-* @gergelyke - Gergely Nemeth
 * @grnd - Danny Grander
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
+* @pxlpnk - Andreas Tiefenthaler
 * @vdeturckheim - Vladimir de Turckheim
 
 # Emeritus Members
 
 * @bengl - Bryan English
+* @gergelyke - Gergely Nemeth
