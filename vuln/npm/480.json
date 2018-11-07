@@ -18,7 +18,8 @@
   "patched_versions": ">=1.0.2",
   "recommendation": "Upgrade cache-path relative module to version 1.0.2 or later",
   "references": [
-    "https://hackerone.com/reports/390847"
+    "https://hackerone.com/reports/390847",
+    "https://github.com/ashaffer/cached-path-relative/issues/3"
   ],
   "cvss_vector": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
   "cvss_score": 7.6,
