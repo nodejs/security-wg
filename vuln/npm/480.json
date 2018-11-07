@@ -15,8 +15,8 @@
     "CVE-2018-16472"
   ],
   "vulnerable_versions": "<=1.0.1",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "patched_versions": ">=1.0.2",
+  "recommendation": "Upgrade cache-path relative module to version 1.0.2 or later",
   "references": [
     "https://hackerone.com/reports/390847"
   ],
