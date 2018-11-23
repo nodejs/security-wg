@@ -1,0 +1,24 @@
+{
+  "id": 473,
+  "title": "Arbitrary Code Injection",
+  "overview": "Code Injection Vulnerability in morgan Package",
+  "created_at": "2018-08-06",
+  "updated_at": "2018-09-28",
+  "publish_date": "2018-09-30",
+  "author": {
+    "name": "Cristian-Alexandru Staicu",
+    "website": "https://semmle.com/security",
+    "username": "cris_semmle"
+  },
+  "module_name": "morgan",
+  "cves": [],
+  "vulnerable_versions": "<1.9.1",
+  "patched_versions": ">=1.9.1",
+  "recommendation": "Update morgan module to version >=1.9.1",
+  "references": [
+    "https://hackerone.com/reports/390881"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 6.8,
+  "coordinating_vendor": null
+}
