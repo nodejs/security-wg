@@ -12,7 +12,7 @@
     },
     "module_name": "flatmap-stream",
     "cves": [],
-    "vulnerable_versions": ">=0.1.1",
+    "vulnerable_versions": "*",
     "patched_versions": null,
     "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
     "references": [
