@@ -1,0 +1,26 @@
+{
+  "id": 479,
+  "title": "Cross-site Scripting (XSS) - Stored",
+  "overview": "[tianma-static] Stored xss on filename",
+  "created_at": "2018-09-01",
+  "updated_at": "2018-11-02",
+  "publish_date": "2018-11-02",
+  "author": {
+    "name": "Abdillah Muhamad",
+    "website": "https://abdilahrf.github.io",
+    "username": "abdilahrf_"
+  },
+  "module_name": "tianma-static",
+  "cves": [
+    "CVE-2018-16474"
+  ],
+  "vulnerable_versions": "<=1.0.4",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/403692"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_score": 9.6,
+  "coordinating_vendor": null
+}
