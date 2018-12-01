@@ -11,7 +11,9 @@
     "username": "vulzzz"
   },
   "module_name": "simplehttpserver",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16478"
+  ],
   "vulnerable_versions": "<=0.2.1",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
