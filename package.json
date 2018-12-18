@@ -2,8 +2,8 @@
   "name": "security-wg",
   "version": "1.0.0",
   "scripts": {
-    "test": "node tools/vuln_valid",
-    "report": "node tools/reporter && jest"
+    "test": "node tools/vuln_valid && jest",
+    "report": "node tools/reporter"
   },
   "keywords": [],
   "author": "",
