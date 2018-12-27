@@ -53,15 +53,30 @@ class NswgReporter {
   }
 
   getCreatedAt () {
-    return this.formatDate(this.report.data.attributes.created_at)
+    const createdAt = this.report.data.attributes.created_at
+    if (createdAt) {
+      return this.formatDate(createdAt)
+    } else { 
+      return null
+    }
   }
 
   getUpdatedAt () {
-    return this.formatDate(this.report.data.attributes.last_public_activity_at)
+    const updatedAt = this.report.data.attributes.last_public_activity_at
+    if (updatedAt){
+      return this.formatDate(updatedAt)
+    } else {
+      return null
+    }
   }
 
   getPublishAt () {
-    return this.formatDate(this.report.data.attributes.disclosed_at)
+    const publistAt = this.report.data.attributes.disclosed_at
+    if (publistAt){
+      return this.formatDate(publistAt)
+    } else { 
+      return null
+    }
   }
 
   getAuthorUsername () {
