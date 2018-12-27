@@ -1,9 +1,10 @@
 {
   "id": 485,
-  "title": "Origin Validation Error",
+  "title": "Improper Input Validation",
   "overview": "An issue was discovered in lib/Server.js in webpack-dev-server before 3.1.6. Attackers are able to steal developer's code because the origin of requests is not checked by the WebSocket server, which is used for HMR (Hot Module Replacement). Anyone can receive the HMR message sent by the WebSocket server via a ws://127.0.0.1:8080/ connection from any origin.",
   "created_at": "2018-12-21",
-  "updated_at": "2018-12-26",
+  "updated_at": "2018-12-27",
+  "publish_date": "2018-12-27",
   "module_name": "webpack-dev-server",
   "cves": [
     "CVE-2018-14732"
