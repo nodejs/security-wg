@@ -2,9 +2,11 @@
 
 const NswgReporter = require("../../../tools/reporter/NswgReporter")
 
-const report = require("../../../__mocks__/mockData").report
+const mockData = require("../../../__mocks__/mockData")
+const report = mockData.report
 const reporter = new NswgReporter({report})
 let wgReport = {}
+let expectedWgReport = mockData.wgReport
 
 describe("Testing NswgReporter", ()=> {
   test("Testing getTitle", () => {
@@ -53,7 +55,7 @@ describe("Testing NswgReporter", ()=> {
     await reporter.get()
       .then((rep)=> {
         wgReport = rep
-        expect(wgReport).toEqual({"author": {"name": "asdfghjkl", "username": "asdfghjkjl", "website": null}, "coordinating_vendor": null, "created_at": "2018-07-13", "cves": null, "cvss_score": "[TBD]", "cvss_vector": "[TBD]", "id": 0,"module_name": "[TBD]", "overview": "overview", "patched_versions": null, "publish_date": "2018-08-22", "recommendation": "update [TBD] to null or higher", "references": ["https://hackerone.com/reports/123456"], "title": "[TBD]", "updated_at": "1970-01-01", "vulnerable_versions": null})   
+        expect(wgReport).toEqual(expectedWgReport)   
       })
   })
 })
