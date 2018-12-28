@@ -1,0 +1,13 @@
+{
+  "cve": [
+    "CVE-2018-12122"
+  ],
+  "vulnerable": "6 || 8 || 10 || 11",
+  "patched": "^6.15.0 || ^8.14.0 || ^10.14.0 || ^11.3.0",
+  "publish_date": "2018-11-27",
+  "author": "Matteo Collina",
+  "reported_by": "Jan Maybach",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/",
+  "type": "CWE-400: Uncontrolled Resource Consumption / Denial of Service",
+  "overview": "Slowloris HTTP Denial of Service: An attacker can cause a Denial of Service (DoS) by sending headers very slowly keeping HTTP or HTTPS connections and associated resources alive for a long period of time."
+}
