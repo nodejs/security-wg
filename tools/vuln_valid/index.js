@@ -4,7 +4,6 @@ const path = require('path');
 const fs = require('fs');
 
 const vulnPaths = require('../../vuln').paths;
-
 const coreModel = joi.object().keys({
   cve: joi.array().items(joi.string().regex(/CVE-\d{4}-\d+/)).required(),
   ref: joi.string().uri().optional(),
@@ -57,23 +56,29 @@ const npmModel = joi.object().keys({
   coordinating_vendor: joi.string().allow(null).required()
 });
 
+function validateVuln(filePath, model){
+  const vuln = JSON.parse(fs.readFileSync(filePath));
+  const result = joi.validate(vuln, model);
+  if (result.error) {
+    console.error(result.error)
+    throw result.error;
+  }
+}
+
 function validate(dir, model) {
   fs.readdirSync(dir)
     .forEach((name) => {
       const filePath = path.join(dir, name);
-      try {
-        const vuln = JSON.parse(fs.readFileSync(filePath));
-        const result = joi.validate(vuln, model);
-        if (result.error) {
-          throw result.error;
-        }
-      } catch (err) {
-        console.log(`File ${filePath}:`);
-        console.log(err);
-        process.exitCode = 1;
-      }
+      validateVuln(filePath, model)
     });
 }
 
 validate(vulnPaths.core, coreModel);
 validate(vulnPaths.npm, npmModel);
+
+module.exports = {
+  npmModel,
+  coreModel,
+  validateVuln,
+  validate,
+}
