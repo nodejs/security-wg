@@ -48,9 +48,7 @@ For the current list of Collaborators, see the project README.md.
 
 ## WG Membership
 
-WG seats are not time-limited. There is no fixed size of the WG. However, the
-expected target is between 6 and 12, to ensure adequate coverage of important
-areas of expertise, balanced with the ability to make decisions efficiently.
+WG seats are not time-limited. There is no fixed size of the WG.
 
 There is no specific set of requirements or qualifications for WG membership
 beyond these rules.
@@ -117,5 +115,5 @@ closing vote or a vote to table the issue to the next meeting. The call for a
 vote must be seconded by a majority of the WG or else the discussion will
 continue. Simple majority wins.
 
-Note that changes to WG membership require unanimous consensus. See "WG
-Membership" above.
+Note that changes to WG membership require unanimous consensus. See [WG 
+Membership](#wg-membership).

@@ -94,6 +94,8 @@ Vulnerabilities found and fixed outside this process should be added into
 the vulnerability database. This can be done by anyone through a Pull Request on
 this repository.
 
+The vulnerability should include any kind of supporting material such as references, maintainer review or otherwise to confirm the vulnerability report is valid.
+
 # The triage team
 
 The triage team is composed of 5 or more members of the security working group.
@@ -119,10 +121,17 @@ Vulnerabilities disclosed to this repository without using HackerOne currently c
 Members of the security teams should indicate that they accept the privacy policies
 by PRing their acceptance to this file:
 
-* @bengl - Bryan English
 * @brycebaril - Bryce Baril
 * @cjihrig - Colin Ihrig
-* @gergelyke - Gergely Nemeth
+* @dgonzalez - David Gonzalez
+* @elexy - Alex Knol
 * @grnd - Danny Grander
-* @lirantal - Liran Tal 
+* @lirantal - Liran Tal
+* @MarcinHoppe - Marcin Hoppe
+* @pxlpnk - Andreas Tiefenthaler
 * @vdeturckheim - Vladimir de Turckheim
+
+# Emeritus Members
+
+* @bengl - Bryan English
+* @gergelyke - Gergely Nemeth

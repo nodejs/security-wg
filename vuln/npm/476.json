@@ -1,0 +1,26 @@
+{
+  "id": 476,
+  "title": "Insufficient Entropy",
+  "overview": "[cryptiles] randomDigits() method generates digits that lack a perfect distribution over enough attempts",
+  "created_at": "2018-06-24",
+  "updated_at": "2018-06-24",
+  "publish_date": "2018-06-24",
+  "author": {
+    "name": "Microsoft Vulnerability Research",
+    "website": "https://www.microsoft.com/en-us/msrc/msvr",
+    "username": null
+  },
+  "module_name": "cryptiles",
+  "cves": [
+    "CVE-2018-1000620"
+  ],
+  "vulnerable_versions": ">=3.1.0 <4.1.2",
+  "patched_versions": ">=4.1.2",
+  "recommendation": "Update cryptiles module to version >=4.1.2",
+  "references": [
+    "https://github.com/hapijs/cryptiles/issues/34"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 9.8,
+  "coordinating_vendor": null
+}

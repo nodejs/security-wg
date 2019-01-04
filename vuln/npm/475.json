@@ -1,0 +1,26 @@
+{
+  "id": 475,
+  "title": "Command Injection - Generic",
+  "overview": "[apex-publish-static-files] Command Injection on connectString",
+  "created_at": "2018-09-05",
+  "updated_at": "2018-10-25",
+  "publish_date": "2018-10-18",
+  "author": {
+    "name": "Abdillah Muhamad",
+    "website": "https://abdilahrf.github.io",
+    "username": "abdilahrf_"
+  },
+  "module_name": "apex-publish-static-files",
+  "cves": [
+    "CVE-2018-16462"
+  ],
+  "vulnerable_versions": "<=2.0.0",
+  "patched_versions": ">=2.0.1",
+  "recommendation": "Update apex-publish-static-files module to version >=2.0.1",
+  "references": [
+    "https://hackerone.com/reports/405694"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 10,
+  "coordinating_vendor": null
+}

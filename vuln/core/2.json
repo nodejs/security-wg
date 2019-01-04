@@ -1,6 +1,5 @@
 {
   "cve": [],
-  "CVE": "XXX assigned, @mhdawson, what is it?",
   "vulnerable": "4.x || 5.x || 6.x || 7.x || 8.x",
   "patched": "^4.8.4 || ^6.11.1 || ^7.10.1 || ^8.1.4",
   "description": "DoS possible in V8 object lookup",

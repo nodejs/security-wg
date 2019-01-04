@@ -1,15 +1,18 @@
 {
   "id": 162,
-  "created_at": "2016-11-30T20:53:43+00:00",
-  "updated_at": "2016-12-06T01:04:28+00:00",
+  "created_at": "2016-11-30",
+  "updated_at": "2016-12-06",
   "title": "Downloads Resources over HTTP",
-  "author": "Adam Baldwin",
+  "author": {
+    "name": "Adam Baldwin",
+    "website": null,
+    "username": null
+  },
   "module_name": "appium-chromedriver",
-  "publish_date": "2016-12-06T01:04:28+00:00",
+  "publish_date": "2016-12-06",
   "cves": [],
   "vulnerable_versions": "<2.9.4",
   "patched_versions": ">=2.9.4",
-  "slug": "appium-chromedriver_downloads-resources-over-http",
   "overview": "appium-chromedriver is a Node.js wrapper around Chromedriver.\n\nVersions below 2.9.4 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
   "recommendation": "Upgrade to version 2.9.4 or greater.",
   "references": null,

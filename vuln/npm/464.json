@@ -1,0 +1,26 @@
+{
+  "id": 464,
+  "title": "Cross-site Scripting (XSS) - Generic",
+  "overview": "[exceljs] Possible XSS via cell value when worksheet is displayed in browser",
+  "created_at": "2018-05-24",
+  "updated_at": "2018-09-01",
+  "publish_date": "2018-09-01",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": "bl4de"
+  },
+  "module_name": "exceljs",
+  "cves": [
+    "CVE-2018-16459"
+  ],
+  "vulnerable_versions": "<1.6.0",
+  "patched_versions": ">=1.6.0",
+  "recommendation": "Update exceljs module to version >=1.6.0",
+  "references": [
+    "https://hackerone.com/reports/356809"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N",
+  "cvss_score": 6.8,
+  "coordinating_vendor": null
+}
