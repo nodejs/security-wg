@@ -11,7 +11,9 @@
     "username": "3la2kb"
   },
   "module_name": "http-live-simulator",
-  "cves": [],
+  "cves": [
+    "CVE-2018-16479"
+  ],
   "vulnerable_versions": "<=1.0.6",
   "patched_versions": ">=1.0.7",
   "recommendation": "Update http-live-simulator module to version >=1.0.7",
