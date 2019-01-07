@@ -1,4 +1,4 @@
-const vulnValid = require('../../tools/vuln_valid')
+const vulnValid = require('../../tools/vuln_valid/vulnValidate')
 
 const vulnPathsPass = require('../../__mocks__/mockVuln/pass').paths
 const vulnPathsFail = require('../../__mocks__/mockVuln/fail').paths
