@@ -16,7 +16,8 @@ const coreModel = joi.object().keys({
   publish_date: joi.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().isoDate(),
   type: joi.string().optional(),
   cvss_score: joi.string().optional(),
-  cvss: joi.string().optional()
+  cvss: joi.string().optional(),
+  reported_by: joi.string().optional()
 });
 
 const npmModel = joi.object().keys({

@@ -115,5 +115,5 @@ closing vote or a vote to table the issue to the next meeting. The call for a
 vote must be seconded by a majority of the WG or else the discussion will
 continue. Simple majority wins.
 
-Note that changes to WG membership require unanimous consensus. See "WG
-Membership" above.
+Note that changes to WG membership require unanimous consensus. See [WG 
+Membership](#wg-membership).
