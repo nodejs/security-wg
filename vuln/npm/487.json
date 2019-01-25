@@ -19,6 +19,6 @@
     "https://snyk.io/research/zip-slip-vulnerability"
   ],
   "coordinating_vendor": null,
-  "cvss_score": -1,
+  "cvss_score": null,
   "cvss_vector": null
 }
