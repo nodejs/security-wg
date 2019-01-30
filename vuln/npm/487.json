@@ -1,0 +1,24 @@
+{
+  "id": 487,
+  "title": "Arbitrary File Write Through Archive Extraction",
+  "overview": "attackers can write arbitrary files when a malicious archive is extracted.",
+  "created_at": "2019-01-03",
+  "updated_at": "2019-01-24",
+  "publish_date": "2019-01-24",
+  "author": {
+    "name": "Anonymous",
+    "website": null,
+    "username": null
+  },
+  "module_name": "bower",
+  "cves": [],
+  "vulnerable_versions": "<1.8.7",
+  "patched_versions": ">=1.8.7",
+  "recommendation": "Update bower to latest patch version >=1.8.7",
+  "references": [
+    "https://snyk.io/research/zip-slip-vulnerability"
+  ],
+  "coordinating_vendor": null,
+  "cvss_score": null,
+  "cvss_vector": null
+}
