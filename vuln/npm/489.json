@@ -1,0 +1,24 @@
+{
+  "id": 489,
+  "title": "Path Traversal",
+  "overview": "[bower] Arbitrary File Write through improper validation of symlinks while package extraction",
+  "created_at": "2019-01-01",
+  "updated_at": "2019-02-01",
+  "publish_date": "2019-01-26",
+  "author": {
+    "name": "Skynet",
+    "website": null,
+    "username": "skyn3t"
+  },
+  "module_name": "bower",
+  "cves": [],
+  "vulnerable_versions": "<1.8.8",
+  "patched_versions": ">=1.8.8",
+  "recommendation": "Update bower module to version >=1.8.8",
+  "references": [
+    "https://hackerone.com/reports/473811"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 8,
+  "coordinating_vendor": null
+}
