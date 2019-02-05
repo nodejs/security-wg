@@ -20,6 +20,7 @@
   "references": [
     "https://hackerone.com/reports/380878"
   ],
-  "cvss_vector": "CVSS:3.0/AV:U/AC:U/PR:U/UI:U/S:U/C:U/I:U/A:U",
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.1,
   "coordinating_vendor": null
 }
