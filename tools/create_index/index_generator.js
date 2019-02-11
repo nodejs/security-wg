@@ -24,14 +24,13 @@ const createVulnObject = function(identifier, json) {
 }
 
 const writeIndex = function(data, vulnDirectoryPath) {
-  fs.writeFile(vulnDirectoryPath + 'index.json', JSON.stringify(data), function (error) {
-    if(error) throw(error)
-    if(vulnDirectoryPath === './vuln/core/') {
-      console.log('Succesfully wrote index for core vulnerabilities.')
-    } else if(vulnDirectoryPath === './vuln/npm/') {
-      console.log('Succesfully wrote index for npm vulnerabilities.')
-    }
-  })
+  fs.writeFileSync(vulnDirectoryPath + 'index.json', JSON.stringify(data))
+  
+  if(vulnDirectoryPath === './vuln/core/') {
+    console.log('Succesfully wrote ' + vulnDirectoryPath + 'index.json for core vulnerabilities.')
+  } else if(vulnDirectoryPath === './vuln/npm/') {
+    console.log('Succesfully wrote ' + vulnDirectoryPath + 'index.json for npm vulnerabilities.')
+  }
 }
 
 module.exports = createIndex
