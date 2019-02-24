@@ -124,6 +124,7 @@ by PRing their acceptance to this file:
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @pxlpnk - Andreas Tiefenthaler
+* @ronperris - Ron Perris
 * @vdeturckheim - Vladimir de Turckheim
 
 # Emeritus Members
