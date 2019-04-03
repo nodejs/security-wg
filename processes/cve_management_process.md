@@ -117,6 +117,10 @@ following steps are used to assign, announce and report a CVE.
     releases are available. The description should be a subset of the
     details in that blog.
 
+    Ensure that the contact address entered in the form is
+    `cve-mitre-contact@iojs.org`. Anything else may require slow, manual
+    verification of the identity of the CVE submitter.
+
     For each CVE listed, the additional data must include the following fields
     updated with appropriate data for the CVE
 ```
