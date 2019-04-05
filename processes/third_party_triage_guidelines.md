@@ -4,8 +4,6 @@
 
 The purpose of this document is to bring the Node.js Ecosystem Triage team to a common understanding of how to triage and disclose security vulnerabilities reported through the Node.js third-party modules program hosted on HackerOne (https://hackerone.com/nodejs-ecosystem).
 
-This is a living document and is expected to evolve over time.
-
 ## Why are guidelines needed?
 
 The Node.js Ecosystem Triage team consists of volunteers with varying level of time, energy and vulnerability management experience. Documenting best practices and common understanding of core concerns when triaging issues will allow the team to provide more consistent service both for security researchers and NPM package maintainers.
