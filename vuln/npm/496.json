@@ -12,9 +12,9 @@
   },
   "module_name": "jQuery",
   "cves": [],
-  "vulnerable_versions": "<=3.3.1",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "vulnerable_versions": "<3.4.0",
+  "patched_versions": ">=3.4.0",
+  "recommendation": "Upgrade to 3.4.0 or higheer",
   "references": [
     "https://hackerone.com/reports/454365"
   ],
