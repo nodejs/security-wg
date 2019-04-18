@@ -6,8 +6,8 @@
   "updated_at": "2019-04-02",
   "publish_date": "2019-04-02",
   "author": {
-    "name": "asgerf",
-    "website": null,
+    "name": "Semmle Security Research Team",
+    "website": "https://lgtm.com/security",
     "username": "asgerf"
   },
   "module_name": "jQuery",
