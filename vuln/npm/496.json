@@ -11,7 +11,9 @@
     "username": "asgerf"
   },
   "module_name": "jQuery",
-  "cves": [],
+  "cves": [
+    "CVE-2019-5428"
+  ],
   "vulnerable_versions": "<3.4.0",
   "patched_versions": ">=3.4.0",
   "recommendation": "Upgrade to 3.4.0 or higheer",
