@@ -12,6 +12,7 @@
   },
   "module_name": "jQuery",
   "cves": [
+    "CVE-2019-5428",
     "CVE-2019-11358"
   ],
   "vulnerable_versions": "<3.4.0",
