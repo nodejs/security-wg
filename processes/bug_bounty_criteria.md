@@ -21,7 +21,7 @@ type, so to match anything >= 4.0 which means Medium and higher.
 
 ## Modules list 
 
-The following is a list of modules which are eligible in the moneytary reward due to their maintainers
+The following is a list of modules which are eligible in the monetary reward due to their maintainers
 explicitly confirming to collaborate with the working group and security researchers to receive and 
 resolve security reports.
 
