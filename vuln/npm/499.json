@@ -11,7 +11,9 @@
     "username": "skyn3t"
   },
   "module_name": "harp",
-  "cves": [],
+  "cves": [
+    "CVE-2019-5438"
+  ],
   "vulnerable_versions": "<=0.30.0",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
