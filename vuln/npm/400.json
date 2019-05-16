@@ -11,7 +11,9 @@
     "username": null
   },
   "module_name": "protobufjs",
-  "cves": [],
+  "cves": [
+    "CVE-2018-3738"
+  ],
   "vulnerable_versions": "<=6.8.5",
   "patched_versions": ">=6.8.6",
   "recommendation": "update protobufjs to 6.8.6 or higher",
