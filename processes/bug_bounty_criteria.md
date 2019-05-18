@@ -1,7 +1,7 @@
 # Bug Bounty Criteria
 
 This document describes the criteria for eligibility of monetary reward for security researchers
-who engage with the Node.js Security Working group through the Node.js Ecosystem 
+who engage with the Node.js Ecosystem
 [bug bounty program](https://hackerone.com/nodejs-ecosystem/), as is currently running on HackerOne.
 
 ## Module Characteristics
