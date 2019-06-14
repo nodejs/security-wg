@@ -6,14 +6,19 @@ ecosystem. Vulnerabilities in Node.js core are out of this scope.
 * package: in this document, a package is a module available for use with Node.js
  and hosted on the npmjs.org repository.
 
-# Process
+# Reporting vulnerabilities
 
 Individuals who find potential vulnerabilities in a package are invited
-to complete a vulnerability report on the dedicated HackerOne organization:
+to complete a vulnerability report on the dedicated HackerOne organization: [https://hackerone.com/nodejs-ecosystem](https://hackerone.com/nodejs-ecosystem)
 
-[https://hackerone.com/nodejs-ecosystem](https://hackerone.com/nodejs-ecosystem)
+## Strict measures when reporting vulnerabilities
 
-Vulnerabilities can also be reported by emailing security-ecosystem@nodejs.org.
+It is of the outmost importance that you read carefully and follow these guidelines to ensure the ecosystem as a whole isn't disrupted due to mistakenly reported vulnerabilities:
+
+* Avoid creating new "informative" reports on HackerOne. Only create new HackerOne reports on a vulnerability if you are absolutely sure this should be tagged as an actual vulnerability. Do not attempt to create a HackerOne report with severity set to none or low in hope that this won't be picked up even if it isn't being PR'ed to the Node.js Security WG advisories. Third-party vendors and individual are tracking any new vulnerabilities reported in HackerOne and will flag them as such for their customers (think about snyk, node audit, source clear).
+* HackerOne reports should never be created and triaged by the same person. If you are creating a HackeOne report for a vulnerability that you found, or on behalf of someone else, there should always be a 2nd Security WG member who triages it. If in doubt, invite more Security WG members to help triage the validity of the report. In any case, the report should follow the same process as outlined below of inviting the maintainers to review and accept the vulnerability.
+
+# Vulnerability Report Process
 
 When a potential vulnerability is reported, the following actions are taken:
 
