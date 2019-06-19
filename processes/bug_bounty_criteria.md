@@ -28,6 +28,9 @@ resolve security reports.
 ### Confirmed
 
 * lodash (confirmed approval from John-David Dalton)
+* fastify (confirmed approval from Matteo Collina)
+* pino (confirmed approval from Matteo Collina)
+* MQTT.js (confirmed approval from Matteo Collina)
 
 ### WIP
 
