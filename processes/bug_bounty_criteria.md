@@ -25,7 +25,12 @@ The following is a list of modules which are eligible in the monetary reward due
 explicitly confirming to collaborate with the working group and security researchers to receive and 
 resolve security reports.
 
-* lodash
+### Confirmed
+
+* lodash (confirmed approval from John-David Dalton)
+
+### WIP
+
 * jQuery
 * node-red
 * hapi (all packages under the GH org)
