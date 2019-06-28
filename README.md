@@ -89,6 +89,7 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Current Project Team Members
 
+* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
 * [bengl](https://github.com/bengl) - **Bryan English**
 * [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
