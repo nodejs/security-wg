@@ -27,10 +27,10 @@ resolve security reports.
 
 ### Confirmed
 
-* lodash (confirmed approval from John-David Dalton)
-* fastify (confirmed approval from Matteo Collina)
-* pino (confirmed approval from Matteo Collina)
-* MQTT.js (confirmed approval from Matteo Collina)
+* [lodash](https://github.com/lodash/lodash) (confirmed approval from John-David Dalton)
+* [fastify](https://github.com/fastify/fastify) (confirmed approval from Matteo Collina)
+* [pino](https://github.com/pinojs/pino) (confirmed approval from Matteo Collina)
+* [MQTT.js](https://github.com/mqttjs/MQTT.js) (confirmed approval from Matteo Collina)
 
 ### WIP
 
