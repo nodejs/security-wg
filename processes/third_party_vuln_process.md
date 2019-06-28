@@ -62,6 +62,10 @@ the package has been patched.
 If the maintainers are unreachable, the vulnerability is to be made public
 45 days after the triage date.
 
+The report's upper limit of the vulnerable versions should be set to:
+* `*` if there is no fixed version available by the time of publishing the report. This is mostly in cases where the maintainer hasn't been able to take part in the triage process.
+* the version less than that which a fix exists for. For example: `<=1.2.3` if a fix exists in `1.2.4`
+
 ## Publication
 
 **Who:** A member of the triage team
