@@ -127,6 +127,7 @@ by PRing their acceptance to this file:
 * @dgonzalez - David Gonzalez
 * @elexy - Alex Knol
 * @grnd - Danny Grander
+* @karenyavine - Karen Yavine Shemesh
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @pxlpnk - Andreas Tiefenthaler

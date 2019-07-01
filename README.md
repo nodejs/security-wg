@@ -99,6 +99,7 @@ You can show your users you take security matters seriously and drive higher con
 * [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [elexy](https://github.com/Elexy) - **Alex Knol**
 * [grnd](https://github.com/grnd) - **Danny Grander**
+* [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
