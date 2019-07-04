@@ -1,28 +1,30 @@
+# Ecosystem Vulnerability Management
+
 This document describes the management of vulnerabilities within the Node.js
 ecosystem. Vulnerabilities in Node.js core are out of this scope.
 
-# Definitions
+## Definitions
 
 * package: in this document, a package is a module available for use with Node.js
  and hosted on the npmjs.org repository.
 
-# Reporting vulnerabilities
+## Reporting vulnerabilities
 
 Individuals who find potential vulnerabilities in a package are invited
 to complete a vulnerability report on the dedicated HackerOne organization: [https://hackerone.com/nodejs-ecosystem](https://hackerone.com/nodejs-ecosystem)
 
-## Strict measures when reporting vulnerabilities
+### Strict measures when reporting vulnerabilities
 
 It is of the outmost importance that you read carefully and follow these guidelines to ensure the ecosystem as a whole isn't disrupted due to mistakenly reported vulnerabilities:
 
 * Avoid creating new "informative" reports on HackerOne. Only create new HackerOne reports on a vulnerability if you are absolutely sure this should be tagged as an actual vulnerability. Do not attempt to create a HackerOne report with severity set to none or low in hope that this won't be picked up even if it isn't being PR'ed to the Node.js Security WG advisories. Third-party vendors and individual are tracking any new vulnerabilities reported in HackerOne and will flag them as such for their customers (think about snyk, node audit, source clear).
 * HackerOne reports should never be created and triaged by the same person. If you are creating a HackeOne report for a vulnerability that you found, or on behalf of someone else, there should always be a 2nd Security WG member who triages it. If in doubt, invite more Security WG members to help triage the validity of the report. In any case, the report should follow the same process as outlined below of inviting the maintainers to review and accept the vulnerability.
 
-# Vulnerability Report Process
+## Handling vulnerability reports
 
 When a potential vulnerability is reported, the following actions are taken:
 
-## Triage
+### Triage
 
 **Who:** The triage team
 
@@ -42,7 +44,7 @@ Triaging should include updating issue fields:
 
 Reference: [HackerOne: How do I triage a report?](https://support.hackerone.com/hc/en-us/articles/205624715-How-do-I-triage-a-Report-)
 
-## Correction follow-up
+### Correction follow-up
 
 **Who:** A member of the triage team
 
@@ -62,7 +64,7 @@ the package has been patched.
 If the maintainers are unreachable, the vulnerability is to be made public
 45 days after the triage date.
 
-## Publication
+### Publication
 
 **Who:** A member of the triage team
 
@@ -96,7 +98,14 @@ this repository.
 
 The vulnerability should include any kind of supporting material such as references, maintainer review or otherwise to confirm the vulnerability report is valid.
 
-# The triage team
+## Use of CVEs and reference
+
+Every vulnerability disclosed by the triage team through HackerOne must
+be assigned a CVE number.
+
+Vulnerabilities disclosed to this repository without using HackerOne currently cannot be assigned a CVE by the triage team (we are working to resolve this) but may have a CVE number if was assigned by another entity.
+
+## The triage team
 
 The triage team is composed of 5 or more members of the security working group.
 This team is approved and modified by a vote from the working group.
@@ -109,17 +118,10 @@ regular basis.
 Members of this team are required to follow the same NDA and privacy measures
 as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master/processes/security_team_members.md).
 
-# Use of CVEs and reference
+### Members
 
-Every vulnerability disclosed by the triage team through HackerOne must
-be assigned a CVE number.
-
-Vulnerabilities disclosed to this repository without using HackerOne currently cannot be assigned a CVE by the triage team (we are working to resolve this) but may have a CVE number if was assigned by another entity.
-
-# Members
-
-Members of the security teams should indicate that they accept the privacy policies
-by PRing their acceptance to this file:
+Members of the security teams should indicate that they accept the privacy
+policies by PRing their acceptance to this file:
 
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
@@ -132,7 +134,7 @@ by PRing their acceptance to this file:
 * @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
 
-# Emeritus Members
+### Emeritus Members
 
 * @bengl - Bryan English
 * @brycebaril - Bryce Baril
