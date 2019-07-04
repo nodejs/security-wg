@@ -121,12 +121,10 @@ Vulnerabilities disclosed to this repository without using HackerOne currently c
 Members of the security teams should indicate that they accept the privacy policies
 by PRing their acceptance to this file:
 
-* @aeleuterio - André Eleuterio
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
 * @elexy - Alex Knol
 * @grnd - Danny Grander
-* @karenyavine - Karen Yavine Shemesh
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @pxlpnk - Andreas Tiefenthaler
