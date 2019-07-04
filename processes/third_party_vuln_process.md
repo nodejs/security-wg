@@ -129,6 +129,7 @@ by PRing their acceptance to this file:
 * @MarcinHoppe - Marcin Hoppe
 * @pxlpnk - Andreas Tiefenthaler
 * @ronperris - Ron Perris
+* @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
 
 # Emeritus Members
