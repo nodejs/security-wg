@@ -125,6 +125,21 @@ You can show your users you take security matters seriously and drive higher con
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 
+## Vulnerability Triage Teams
+
+There are two Triage Teams associated with Node.js. They have different scopes,
+different HackerOne programs, and they don't share members (though an
+individual may be a member of both teams).
+
+Note that membership in the Security WG does not automatically give access to
+undisclosed vulnerabilities in any of the Node.js programs on HackerOne
+
+* [*Ecosystem Vulnerabilities*](https://hackerone.com/nodejs-ecosystem):
+  Managed by the [Ecosystem Triage Team][].
+
+* [*Node.js Vulnerabilities*](https://hackerone.com/nodejs): Managed by the
+  @nodejs/security team.
+
 # Code of Conduct
 
 The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
@@ -134,3 +149,4 @@ The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_O
 The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this WG.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
+[Ecosystem Triage Team]: processes/third_party_vuln_process.md#members
