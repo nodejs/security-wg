@@ -7,94 +7,88 @@ yet been disclosed publicly, including the existence of issues, expectations of
 upcoming releases, and patching of any issues other than in the process of their
 work as a member of the security team.
 
-Membership on the security teams can be requested via an issue in the TSC repo,
-and must be approved by current team members.
+## Node.js Security Team Membership Policy
 
-Members of the security teams should indicate that they accept the privacy
-policies by PRing their acceptance to this file.
+The Node.js Security Team has access to security-sensitive issues and patches
+that aren't appropriate for public availability.
 
-## Team that triages security reports against node core
+The policy for inclusion is as follows:
+
+1. All members of @nodejs/TSC have access to private security reports and
+   private patches.
+2. Members of the [release team](https://github.com/nodejs/node#release-team)
+   have access to private security patches in order to produce releases.
+3. On a case-by-case basis, individuals outside the Technical Steering
+   Committee are invited by the TSC to have access to private security reports
+   or private patches so that their expertise can be applied to an issue or
+   patch. This access may be temporary or permanent, as decided by the TSC.
+
+Membership on the security teams can be requested via an issue in the TSC repo.
+
+## Team responsible for Triaging security reports
+
+Initial triage is done by HackerOne staff. Once enough information is gathered
+to confirm there is a reproducible issue, triage is assigned to this group.
 
 - @bnoordhuis - **Ben Noordhuis**
 - @cjihrig - **Colin Ihrig**
 - @indutny - **Fedor Indutny**
 - @jasnell - **James M Snell**
 - @mcollina - **Matteo Colina**
-- @mhdawson - **Michael Dawson**
 - @MylesBorins - **Myles Borins**
 - @rvagg - **Rod Vagg**
 - @vdeturckheim - **Vladimir de Turckheim**
 
-### Emeritus
+## Team with access to private security reports against Node.js
 
-- @jasnell - **James M Snell**
-- @shigeki - **Shigeki Ohtsu**
+The [TSC](https://github.com/nodejs/node#tsc-technical-steering-committee)
+have access.
 
-List is from ["security" alias](https://github.com/nodejs/email/blob/master/iojs.org/aliases.json).
+These non-TSC and TSC Emeriti also have access:
+* [bnoordhuis](https://github.com/bnoordhuis) - **Ben Noordhuis**
+* [indutny](https://github.com/indutny) - **Fedor Indutny**
+* [rvagg](https://github.com/rvagg) - **Rod Vagg**
+* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
-## Team with access to security issues
+List is from the [member page](https://hackerone.com/nodejs/team_members) for
+the Node.js program on HackerOne.
 
-- @ChALkeR - **Сковорода Никита Андреевич**
-- @Fishrock123 - **Jeremiah Senkpiel**
-- @MylesBorins - **Myles Borins**
-- @Trott - **Rich Trott**
-- @addaleax - **Anna Henningsen**
-- @bnoordhuis - **Ben Noordhuis**
-- @cjihrig - **Colin Ihrig**
-- @dougwilson - **Douglas Wilson**
-- @ejratl - **Emily Ratliff**
-- @evanlucas - **Evan Lucas**
-- @evilpacket - **Adam Baldwin**
-- @grnd - **Danny Grander**
-- @indutny - **Fedor Indutny**
-- @jasnell - **James M Snell**
-- @jbergstroem - **Johan Bergström**
-- @joaocgreis - **João Reis**
-- @joshgav - **Josh Gavant**
-- @mhdawson - **Michael Dawson**
-- @mscdex - **Brian White**
-- @ofrobots - **Ali Ijaz Sheikh**
-- @rvagg - **Rod Vagg**
-- @saghul - **Saúl Ibarra Corretgé**
-- @sam-github - **Sam Roberts**
-- @shigeki - **Shigeki Ohtsu**
-- @targos - **Michaël Zasso**
-- @thefourtheye - **Sakthipriyan Vairamani**
-- @trevnorris - **Trevor Norris**
+## Team with access to private security patches to Node.js
 
-List is from [nodejs/teams/security](https://github.com/orgs/nodejs/teams/security/members).
+<!-- ncu-team-sync.team(nodejs-private/security) -->
 
-## Team with access to private security patches
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
+- [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+- [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
+- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
+- [@ChALkeR](https://github.com/ChALkeR) - Сковорода Никита Андреевич
+- [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+- [@codebytere](https://github.com/codebytere) - Shelley Vohr
+- [@danbev](https://github.com/danbev) - Daniel Bevenius
+- [@dougwilson](https://github.com/dougwilson) - Douglas Wilson
+- [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@evilpacket](https://github.com/evilpacket) - Adam Baldwin
+- [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
+- [@gabrielschulhof](https://github.com/gabrielschulhof) - Gabriel Schulhof
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
+- [@indutny](https://github.com/indutny) - Fedor Indutny
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@jbergstroem](https://github.com/jbergstroem) - Johan Bergström
+- [@joaocgreis](https://github.com/joaocgreis) - João Reis
+- [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
+- [@mcollina](https://github.com/mcollina) - Matteo Collina
+- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@rvagg](https://github.com/rvagg) - Rod Vagg
+- [@saghul](https://github.com/saghul) - Saúl Ibarra Corretgé
+- [@sam-github](https://github.com/sam-github) - Sam Roberts
+- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
+- [@targos](https://github.com/targos) - Michaël Zasso
+- [@thefourtheye](https://github.com/thefourtheye) - Sakthipriyan Vairamani
+- [@Trott](https://github.com/Trott) - Rich Trott
+- [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
-- @addaleax     Anna Henningsen
-- @bnoordhuis	Ben Noordhuis
-- @ChALkeR	Сковорода Никита Андреевич
-- @cjihrig	Colin Ihrig
-- @dougwilson	Douglas Wilson
-- @evanlucas	Evan Lucas
-- @evilpacket	Adam Baldwin
-- @Fishrock123	Jeremiah Senkpiel
-- @hackygolucky	Tracy
-- @indutny	Fedor Indutny
-- @jasnell	James M Snell
-- @jbergstroem	Johan Bergström
-- @joaocgreis	João Reis
-- @joshgav	Josh Gavant
-- @mhdawson	Michael Dawson
-- @mrhinkle	Mark Hinkle
-- @MylesBorins	Myles Borins
-- @ofrobots	Ali Ijaz Sheikh
-- @rvagg	Rod Vagg
-- @saghul	Saúl Ibarra Corretgé
-- @sam-github	Sam Roberts
-- @targos	Michaël Zasso
-- @thefourtheye	Sakthipriyan Vairamani
-- @Trott	Rich Trott
-
-List is from
-[orgs/nodejs-private/people](https://github.com/orgs/nodejs-private/people),
-who have access to
-[nodejs-private/node-private](https://github.com/nodejs-private/node-private).
-
-Every member of the team with access to security issues should have access to
-the private security patches as well.
+<!-- ncu-team-sync end -->

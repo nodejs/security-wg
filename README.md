@@ -138,7 +138,7 @@ undisclosed vulnerabilities in any of the Node.js programs on HackerOne
   Managed by the [Ecosystem Triage Team][].
 
 * [*Node.js Vulnerabilities*](https://hackerone.com/nodejs): Managed by the
-  @nodejs/security team.
+  [Node.js Triage Team][].
 
 # Code of Conduct
 
@@ -150,3 +150,4 @@ The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Mode
 
 [Node.js TSC]: https://github.com/nodejs/TSC
 [Ecosystem Triage Team]: processes/third_party_vuln_process.md#members
+[Node.js Triage Team]: processes/security_team_members.md#team-that-triages-security-reports-against-node-core
