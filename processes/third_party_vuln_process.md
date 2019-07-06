@@ -64,7 +64,7 @@ If the maintainers are unreachable, the vulnerability is to be made public
 
 The report's vulnerable versions upper limit should be set to:
 * `*` if there is no fixed version available by the time of publishing the report. This is mostly in cases where the maintainer hasn't taken part in the triage process.
-* the version less than that which a fix exists for. For example: `<=1.2.3` if a fix exists in `1.2.4`
+* the last vulnerable version. For example: `<=1.2.3` if a fix exists in `1.2.4`
 
 ## Publication
 
