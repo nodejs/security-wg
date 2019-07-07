@@ -146,4 +146,4 @@ Following contacts are officially assigned HackerOne support staff for the Node.
 
 * Alek Relyea <alek at hackerone dot com>
 * Megan Mahowald <megan at hackerone dot com>
-* Reed Loden <reed at hackerone dot com>
+* Reed Loden @reedloden
