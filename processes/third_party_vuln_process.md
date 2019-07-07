@@ -137,9 +137,17 @@ policies by PRing their acceptance to this file:
 * @ronperris - Ron Perris
 * @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
-
+ 
 ### Emeritus Members
 
 * @bengl - Bryan English
 * @brycebaril - Bryce Baril
 * @gergelyke - Gergely Nemeth
+
+## HackerOne Support Engineers
+
+Following contacts are officially assigned HackerOne support staff for the Node.js Ecosystem program:
+
+* Alek Relyea <alek at hackerone dot com>
+* Megan Mahowald <megan at hackerone dot com>
+* Reed Loden @reedloden
