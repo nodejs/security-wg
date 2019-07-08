@@ -15,6 +15,7 @@ policies by PRing their acceptance to this file.
 
 ## Team that triages security reports against node core
 
+- @bnoordhuis - **Ben Noordhuis**
 - @cjihrig - **Colin Ihrig**
 - @indutny - **Fedor Indutny**
 - @jasnell - **James M Snell**
@@ -26,7 +27,6 @@ policies by PRing their acceptance to this file.
 
 ### Emeritus
 
-- @bnoordhuis - **Ben Noordhuis**
 - @jasnell - **James M Snell**
 - @shigeki - **Shigeki Ohtsu**
 
