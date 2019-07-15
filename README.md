@@ -32,6 +32,9 @@ Table of Contents
 - [Emeritus Members](#emeritus-members)
 
 
+## Vulnerability advisories
+The advisories have been moved to [their own repository](https://github.com/nodejs/security-advisories). 
+
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
 
 The Security Working Group manages all aspects and processes linked to Node.js security.
