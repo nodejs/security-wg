@@ -2,16 +2,9 @@
   "name": "security-wg",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "report": "node tools/reporter"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "inquirer": "^6.0.0",
-    "jest": "^23.6.0",
-    "yargs": "^11.0.0"
-  }
+  "dependencies": {}
 }
