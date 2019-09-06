@@ -11,7 +11,9 @@
     "username": "mcollina"
   },
   "module_name": "seneca",
-  "cves": [],
+  "cves": [
+    "CVE-2019-5483"
+  ],
   "vulnerable_versions": "<3.9.0",
   "patched_versions": ">=3.9.0",
   "recommendation": "Update seneca module to version >=3.9.0",
