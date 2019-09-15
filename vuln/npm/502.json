@@ -1,0 +1,24 @@
+{
+  "id": 502,
+  "title": "OS Command Injection",
+  "overview": "gitlabhook OS Command Injection",
+  "created_at": "2019-08-31",
+  "updated_at": "2019-09-13",
+  "publish_date": "2019-09-13",
+  "author": {
+    "name": "garumpage",
+    "website": null,
+    "username": "garumpage"
+  },
+  "module_name": "gitlabhook",
+  "cves": [],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/685447"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 10,
+  "coordinating_vendor": null
+}
