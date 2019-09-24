@@ -50,7 +50,7 @@ Responsibilities include:
   provider ecosystem.
 
 This Working Group is _not_ responsible for managing or responding to
-security reports against Node.js itself, that responsibility remains with
+security reports against Node.js itself. That responsibility remains with
 the [Node.js TSC][].
 
 ## Node.js Bug Bounty Program
