@@ -109,6 +109,7 @@ You can show your users you take security matters seriously and drive higher con
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+* [kobelb](https://github.com/kobelb) - **Brandon Kobel**
 
 ## Emeritus Members
 
