@@ -5,14 +5,11 @@
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md
 )
 
-# Security Working Group
+# Ecosystem Security Working Group
 
 Table of Contents
 
 - Vulnerability Management
-  * [Security Announcement Process](./processes/security_annoucement_process.md)
-  * [Security Release Process](./processes/security_release_process.md)
-  * [Node.js CVE management process](./processes/cve_management_process.md)
   * [Responsible Disclosure Policy](./processes/responsible_disclosure_template.md)
   * [Third-Party Ecosystem Triage Process](./processes/third_party_vuln_process.md)
   * [Third-Party HackerOne Submission form](./processes/third_party_vuln_submit_form_hacker1.md)
@@ -22,7 +19,6 @@ Table of Contents
   * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
   * [On-boarding Team Members](./processes/security_team_onboarding.md)
   * [Off-boarding Team Members](./processes/security_team_offboarding.md)
-- [Private Node.js core security group](#private-nodejs-core-security-group)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)
@@ -34,20 +30,14 @@ Table of Contents
 
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
 
-The Security Working Group manages all aspects and processes linked to Node.js security.
+The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
 
 Responsibilities include:
-* Define and maintain security policies and procedures for:
-  * the core Node.js project
-  * other projects maintained by the Node.js Technical Steering Committee (TSC).
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Review and recommend processes for handling of security reports (but not the
-  actual administration of security reports, which are reviewed by a group of people
-  directly delegated to by the TSC).
 * Define and maintain policies and procedures for the coordination of security
   concerns within the external Node.js open source ecosystem.
 * Offer help to npm package maintainers to fix high-impact security bugs.
@@ -56,20 +46,12 @@ Responsibilities include:
   * other projects maintained by the Node.js Foundation technical group
   * the external Node.js open source ecosystem
 * Promote the improvement of security practices within the Node.js ecosystem.
-* Recommend security improvements for the core Node.js project.
 * Facilitate and promote the expansion of a healthy security service and product
   provider ecosystem.
 
-## Private Node.js core security group
-
-The Node.js Security Working Group is _not_ responsible for managing incoming
-security reports to the security@nodejs.org address, nor is it privy to or
-responsible for preparing embargoed security patches and releases.
-
-The [Node.js TSC][] maintains primary responsibility for the management of private
-security activities for Node.js core but relies on the Node.js Security Working
-Group to recommend and help maintain policies and procedures for that
-management.
+This Working Group is _not_ responsible for managing or responding to
+security reports against Node.js itself. That responsibility remains with
+the [Node.js TSC][].
 
 ## Node.js Bug Bounty Program
 
@@ -125,20 +107,13 @@ You can show your users you take security matters seriously and drive higher con
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 
-## Vulnerability Triage Teams
+## Ecosystem Vulnerability Triage Team
 
-There are two Triage Teams associated with Node.js. They have different scopes,
-different HackerOne programs, and they don't share members (though an
-individual may be a member of both teams).
-
-Note that membership in the Security WG does not automatically give access to
-undisclosed vulnerabilities in any of the Node.js programs on HackerOne
+Note that membership in the Ecosystem Security WG does not automatically give access to
+undisclosed vulnerabilities on HackerOne
 
 * [*Ecosystem Vulnerabilities*](https://hackerone.com/nodejs-ecosystem):
   Managed by the [Ecosystem Triage Team][].
-
-* [*Node.js Vulnerabilities*](https://hackerone.com/nodejs): Managed by the
-  [Node.js Triage Team][].
 
 # Code of Conduct
 
@@ -150,4 +125,3 @@ The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Mode
 
 [Node.js TSC]: https://github.com/nodejs/TSC
 [Ecosystem Triage Team]: processes/third_party_vuln_process.md#members
-[Node.js Triage Team]: processes/security_team_members.md#team-that-triages-security-reports-against-node-core
