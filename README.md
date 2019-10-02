@@ -100,6 +100,7 @@ You can show your users you take security matters seriously and drive higher con
 * [elexy](https://github.com/Elexy) - **Alex Knol**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
+* [kobelb](https://github.com/kobelb) - **Brandon Kobel**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
@@ -109,7 +110,6 @@ You can show your users you take security matters seriously and drive higher con
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
-* [kobelb](https://github.com/kobelb) - **Brandon Kobel**
 
 ## Emeritus Members
 
