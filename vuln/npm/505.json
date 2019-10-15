@@ -1,0 +1,24 @@
+{
+  "id": 505,
+  "title": "Man-in-the-Middle",
+  "overview": "[https-proxy-agent] Socket returned without TLS upgrade on non-200 CONNECT response, allowing request data to be sent over unencrypted connection",
+  "created_at": "2019-04-17",
+  "updated_at": "2019-10-07",
+  "publish_date": "2019-09-25",
+  "author": {
+    "name": "Kris Adler",
+    "website": null,
+    "username": "kadler15"
+  },
+  "module_name": "https-proxy-agent",
+  "cves": [],
+  "vulnerable_versions": "<3.0.0",
+  "patched_versions": ">=3.0.0",
+  "recommendation": "Update https-proxy-agent module to version >=3.0.0",
+  "references": [
+    "https://hackerone.com/reports/541502"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_score": 6.1,
+  "coordinating_vendor": null
+}
