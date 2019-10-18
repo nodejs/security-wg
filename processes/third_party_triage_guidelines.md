@@ -42,10 +42,17 @@ Vulnerabilities that require users of a package to take an action, most often up
 
 Sometimes vulnerability resolutions are partial and do not fully resolve the underlying problem. It is encouraged to facilitate collaboration between the submitter and package maintainer to verify if the resolution is full and does not lead to further security problems.
 
+## How to score severity of vulnerabilities in libraries?
+
+Many npm packages are libraries. It is recommended to follow CVSS v3.1 [guidelines for scoring vulnerabilities in libraries](https://www.first.org/cvss/v3.1/user-guide#3-7-Scoring-Vulnerabilities-in-Software-Libraries-and-Similar).
+
 # References
 
 HackerOne Disclosure Guidelines
 https://www.hackerone.com/disclosure-guidelines
 
 CVE Counting Rules
-https://drive.google.com/file/d/1edCzKfsds79S6z411EJ5qQa-c6z2Bc4A/view 
+https://drive.google.com/file/d/1edCzKfsds79S6z411EJ5qQa-c6z2Bc4A/view
+
+CVSS v3.1
+https://www.first.org/cvss/v3.1/user-guide

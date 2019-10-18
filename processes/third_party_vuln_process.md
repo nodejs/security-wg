@@ -76,7 +76,7 @@ The report's vulnerable versions upper limit should be set to:
 
 Within 45 days after the triage date, the vulnerability must be made public.
 
-**Severity**: Vulnerability severity is assessed using [CVSS v.3](https://www.first.org/cvss/user-guide).
+**Severity**: Vulnerability severity is assessed using [CVSS v3.1](https://www.first.org/cvss/v3.1/user-guide).
 More information can be found on [HackerOne documentation](https://support.hackerone.com/hc/en-us/articles/213421106-How-does-HackerOne-recommend-determining-Severity-)
 
 If a patch is being actively developed by the package maintainer, an additional delay
