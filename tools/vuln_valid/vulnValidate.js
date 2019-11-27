@@ -51,7 +51,6 @@ const npmModel = joi.object().keys({
     .regex(/^\d{4}-\d{2}-\d{2}$/)
     .required()
     .isoDate(),
-  title: joi.string().required(),
   title: joi
     .string()
     .max(150)
