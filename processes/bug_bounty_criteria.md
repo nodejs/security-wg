@@ -31,6 +31,7 @@ resolve security reports.
 * [fastify](https://github.com/fastify/fastify) (confirmed approval from Matteo Collina)
 * [pino](https://github.com/pinojs/pino) (confirmed approval from Matteo Collina)
 * [MQTT.js](https://github.com/mqttjs/MQTT.js) (confirmed approval from Matteo Collina)
+* [yarn](https://github.com/yarnpkg/yarn) (confirmed approval from Maël Nison)
 
 ### WIP
 

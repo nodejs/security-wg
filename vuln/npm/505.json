@@ -12,9 +12,9 @@
   },
   "module_name": "https-proxy-agent",
   "cves": [],
-  "vulnerable_versions": "<3.0.0",
-  "patched_versions": ">=3.0.0",
-  "recommendation": "Update https-proxy-agent module to version >=3.0.0",
+  "vulnerable_versions": "<2.2.3",
+  "patched_versions": ">=2.2.3",
+  "recommendation": "Update https-proxy-agent module to version >=2.2.3",
   "references": [
     "https://hackerone.com/reports/541502"
   ],
