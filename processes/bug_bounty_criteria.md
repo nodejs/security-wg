@@ -4,6 +4,14 @@ This document describes the criteria for eligibility of monetary reward for secu
 who engage with the Node.js Ecosystem
 [bug bounty program](https://hackerone.com/nodejs-ecosystem/).
 
+## Bounty Sums
+
+The following describes the bounty to be payed out for reports:
+* Bounty for Critical is $500
+* Bounty for High is $250
+
+It should be noted that only reports for confirmed modules as is listed below would be eligible for the above bounties.
+
 ## Module Characteristics
 
 1. **Module download count** - x >= 1000 downloads a month which accounts for 7% of npm packages 
