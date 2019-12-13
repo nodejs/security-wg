@@ -1,0 +1,24 @@
+{
+  "id": 509,
+  "title": "Path Traversal",
+  "overview": "Path traversal in https://www.npmjs.com/package/http_server via symlink",
+  "created_at": "2019-09-11",
+  "updated_at": "2019-12-04",
+  "publish_date": "1970-01-01",
+  "author": {
+    "name": "Vineet Kumar Pandey",
+    "website": null,
+    "username": "vineetpandey"
+  },
+  "module_name": "http_server",
+  "cves": [],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/692262"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "cvss_score": 5.5,
+  "coordinating_vendor": null
+}
