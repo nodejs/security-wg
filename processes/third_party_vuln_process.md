@@ -129,7 +129,6 @@ policies by PRing their acceptance to this file:
 
 * @cjihrig - Colin Ihrig
 * @dgonzalez - David Gonzalez
-* @elexy - Alex Knol
 * @grnd - Danny Grander
 * @karenyavine - Karen Yavine Shemesh
 * @lirantal - Liran Tal
@@ -143,6 +142,7 @@ policies by PRing their acceptance to this file:
 
 * @bengl - Bryan English
 * @brycebaril - Bryce Baril
+* @elexy - Alex Knol
 * @gergelyke - Gergely Nemeth
 
 ## HackerOne Support Engineers

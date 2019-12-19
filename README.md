@@ -71,15 +71,10 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Current Project Team Members
 
-* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
-* [bengl](https://github.com/bengl) - **Bryan English**
-* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
-* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
-* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
@@ -94,8 +89,13 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Emeritus Members
 
+* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
+* [bengl](https://github.com/bengl) - **Bryan English**
+* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
