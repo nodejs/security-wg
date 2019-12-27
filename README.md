@@ -61,7 +61,7 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 
 ## Participate in Responsible Security Disclosure
 
-As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible dislcosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
+As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible disclosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
 
 You can show your users you take security matters seriously and drive higher confidence by following any of the below suggested actions:
 
