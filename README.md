@@ -61,7 +61,7 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 
 ## Participate in Responsible Security Disclosure
 
-As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible dislcosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
+As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible disclosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
 
 You can show your users you take security matters seriously and drive higher confidence by following any of the below suggested actions:
 
@@ -71,15 +71,10 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Current Project Team Members
 
-* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
-* [bengl](https://github.com/bengl) - **Bryan English**
-* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
-* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
-* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
@@ -94,8 +89,13 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Emeritus Members
 
+* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
+* [bengl](https://github.com/bengl) - **Bryan English**
+* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
