@@ -1,4 +1,4 @@
-
+{
   "id": 511,
   "title": "Cross-site Scripting (XSS) - Stored",
   "overview": "[seeftl] Stored XSS when directory listing via filename.",
