@@ -11,7 +11,9 @@
     "username": "johnssimon007"
   },
   "module_name": "fileview",
-  "cves": [],
+  "cves": [
+    "CVE-2019-15602"
+  ],
   "vulnerable_versions": "*",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
