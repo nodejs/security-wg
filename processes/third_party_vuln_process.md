@@ -127,13 +127,10 @@ as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master
 Members of the security teams should indicate that they accept the privacy
 policies by PRing their acceptance to this file:
 
-* @cjihrig - Colin Ihrig
-* @dgonzalez - David Gonzalez
 * @grnd - Danny Grander
 * @karenyavine - Karen Yavine Shemesh
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
-* @pxlpnk - Andreas Tiefenthaler
 * @ronperris - Ron Perris
 * @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
@@ -142,8 +139,11 @@ policies by PRing their acceptance to this file:
 
 * @bengl - Bryan English
 * @brycebaril - Bryce Baril
+* @cjihrig - Colin Ihrig
+* @dgonzalez - David Gonzalez
 * @elexy - Alex Knol
 * @gergelyke - Gergely Nemeth
+* @pxlpnk - Andreas Tiefenthaler
 
 ## HackerOne Support Engineers
 
