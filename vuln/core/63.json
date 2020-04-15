@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2019-15604"],
+  "vulnerable": "10.x || 12.x || 13.x",
+  "patched": "^10.19.0 || ^12.15.0 || ^13.8.0",
+  "reported_by": "Rogier Schouten",
+  "ref": "https://hackerone.com/reports/746733",
+  "overview": "Remotely trigger an assertion on a TLS server with a malformed certificate string"
+}
