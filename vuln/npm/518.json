@@ -10,7 +10,7 @@
     "website": null,
     "username": "visat"
   },
-  "module_name": "Other module",
+  "module_name": "total.js",
   "cves": [],
   "vulnerable_versions": "<3.4.0",
   "patched_versions": ">=3.4.0",
