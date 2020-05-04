@@ -73,6 +73,7 @@ You can show your users you take security matters seriously and drive higher con
 
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
 * [grnd](https://github.com/grnd) - **Danny Grander**
