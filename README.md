@@ -79,6 +79,7 @@ You can show your users you take security matters seriously and drive higher con
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
@@ -102,7 +103,6 @@ You can show your users you take security matters seriously and drive higher con
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
-* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
