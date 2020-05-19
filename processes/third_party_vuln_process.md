@@ -128,6 +128,7 @@ Members of the security teams should indicate that they accept the privacy
 policies by PRing their acceptance to this file:
 
 * @DanielRuf - Daniel Ruf
+* @esarafianou - Eva Sarafianou
 * @grnd - Danny Grander
 * @karenyavine - Karen Yavine Shemesh
 * @lirantal - Liran Tal
@@ -135,7 +136,7 @@ policies by PRing their acceptance to this file:
 * @ronperris - Ron Perris
 * @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
- 
+
 ### Emeritus Members
 
 * @bengl - Bryan English
