@@ -17,8 +17,8 @@ Table of Contents
   * [Recognition for Security Researchers](./processes/recognition.md)
 - Processes for Security WG Members
   * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
-  * [On-boarding Team Members](./processes/security_team_onboarding.md)
-  * [Off-boarding Team Members](./processes/security_team_offboarding.md)
+  * [On-boarding Team Members](./processes/wg_onboarding.md)
+  * [Off-boarding Team Members](./processes/wg_offboarding.md)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)

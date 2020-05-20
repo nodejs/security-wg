@@ -42,7 +42,7 @@ Triaging should include updating issue fields:
 * Asset - set/create the module affected by the report
 * Severity - TBD, currently left empty
 
-Reference: [HackerOne: How do I triage a report?](https://support.hackerone.com/hc/en-us/articles/205624715-How-do-I-triage-a-Report-)
+Reference: [HackerOne: Submitting Reports](https://docs.hackerone.com/hackers/submitting-reports.html)
 
 ### Correction follow-up
 
@@ -77,7 +77,7 @@ The report's vulnerable versions upper limit should be set to:
 Within 45 days after the triage date, the vulnerability must be made public.
 
 **Severity**: Vulnerability severity is assessed using [CVSS v.3](https://www.first.org/cvss/user-guide).
-More information can be found on [HackerOne documentation](https://support.hackerone.com/hc/en-us/articles/213421106-How-does-HackerOne-recommend-determining-Severity-)
+More information can be found on [HackerOne documentation](https://docs.hackerone.com/hackers/severity.html)
 
 If a patch is being actively developed by the package maintainer, an additional delay
 can be added with the approval of the triage team and the individual who
@@ -85,14 +85,14 @@ reported the vulnerability (this is a simple vote where each member of the
 triage team and the vulnerability reporter have 1 vote each).
 
 At this point, a CVE should be requested through the HackerOne platform through
-[email](cve-assign@hackerone.com) that should include the Report ID and a summary.
+[email](mailto:cve-assign@hackerone.com) that should include the Report ID and a summary.
 
 The vulnerability is considered as published when a Pull Request adding it
 to this repository is opened.
 
 Within HackerOne, this is handled through a "public disclosure request".
 
-Reference: [HackerOne: How does public disclosure work?](https://support.hackerone.com/hc/en-us/articles/205269479-How-does-public-disclosure-work-)
+Reference: [HackerOne: Disclosure](https://docs.hackerone.com/hackers/disclosure.html)
 
 ## Vulnerabilities found outside this process
 
@@ -120,7 +120,7 @@ Each member of the triage team is expected to handle vulnerabilities on a
 regular basis.
 
 Members of this team are required to follow the same NDA and privacy measures
-as the [Node.js Security Team](https://github.com/nodejs/security-wg/blob/master/processes/security_team_members.md).
+as the [Node.js Security Team](https://github.com/nodejs/security-wg#current-project-team-members).
 
 ### Members
 
