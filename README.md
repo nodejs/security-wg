@@ -76,6 +76,7 @@ You can show your users you take security matters seriously and drive higher con
 * [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
+* [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
