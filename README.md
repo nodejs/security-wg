@@ -86,7 +86,6 @@ You can show your users you take security matters seriously and drive higher con
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [ronperris](https://github.com/ronperris) - **Ron Perris**
-* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
@@ -108,6 +107,7 @@ You can show your users you take security matters seriously and drive higher con
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 
 ## Ecosystem Vulnerability Triage Team
 
