@@ -18,9 +18,9 @@ At any time until the last time mark any member can chime in and request to reta
 The following is a check-list of actions to be taken upon departure of users from the Security WG (either voluntarily or due to inactivity as described above):
 * [ ] Remove user from [Repo README](https://github.com/nodejs/security-wg/blob/master/README.md), [Triage Team](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md)
 * [ ] Remove membership from [Node.js WG GitHub Team](https://github.com/orgs/nodejs/teams/security-wg)
-* [ ] Remove user from [HackerOne platform](hackerone.com/nodejs-ecosystem)
+* [ ] Remove user from [HackerOne platform](https://hackerone.com/nodejs-ecosystem)
 * [ ] Revoke any user-specific access tokens from HackerOne platform
-* [ ] Remove user access from private team channels in slack (nodejs-security-wg.slack.com)
+* [ ] Remove user access from private team channels in [slack](https://nodejs-security-wg.slack.com)
 
 The following is a check-list of actions to be taken upon voluntary departure of users from the [Third-Party Triage Team](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md), when the users will remain in the Security WG.
 

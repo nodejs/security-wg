@@ -134,7 +134,6 @@ policies by PRing their acceptance to this file:
 * @lirantal - Liran Tal
 * @MarcinHoppe - Marcin Hoppe
 * @ronperris - Ron Perris
-* @sam-github - Sam Roberts <vieuxtech@gmail.com>
 * @vdeturckheim - Vladimir de Turckheim
 
 ### Emeritus Members
@@ -146,6 +145,7 @@ policies by PRing their acceptance to this file:
 * @elexy - Alex Knol
 * @gergelyke - Gergely Nemeth
 * @pxlpnk - Andreas Tiefenthaler
+* @sam-github - Sam Roberts
 
 ## HackerOne Support Engineers
 
