@@ -3,7 +3,7 @@
   "title": "Allocation of Resources Without Limits or Throttling",
   "overview": "Prototype pollution attack (lodash)",
   "created_at": "2019-10-11",
-  "updated_at": "2020-04-25",
+  "updated_at": "2020-07-13",
   "publish_date": "1970-01-01",
   "author": {
     "name": "posix",
@@ -12,11 +12,13 @@
   },
   "module_name": "lodash",
   "cves": [],
-  "vulnerable_versions": ">=4.1.0",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "vulnerable_versions": ">=4.17.15 <4.17.19",
+  "patched_versions": ">=4.17.19",
+  "recommendation": "Update to version 4.17.19 or greater",
   "references": [
-    "https://hackerone.com/reports/712065"
+    "https://hackerone.com/reports/712065",
+    "https://github.com/lodash/lodash/pull/4759",
+    "https://www.npmjs.com/advisories/1523"
   ],
   "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
   "cvss_score": 7.4,
