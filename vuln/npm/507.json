@@ -1,8 +1,8 @@
 {
-  "id": 508,
+  "id": 507,
   "title": "Code Injection",
-  "overview": "[tree-kill] RCE via insecure command concatenation (only Windows)",
-  "created_at": "2019-09-24",
+  "overview": "[treekill] RCE via insecure command concatenation (only Windows)",
+  "created_at": "2019-09-28",
   "updated_at": "2019-12-04",
   "publish_date": "2019-12-04",
   "author": {
@@ -10,17 +10,17 @@
     "website": "https://mik317.github.io",
     "username": "mik317"
   },
-  "module_name": "tree-kill",
+  "module_name": "treekill",
   "cves": [
-    "CVE-2019-15599"
+    "CVE-2019-15598"
   ],
   "vulnerable_versions": "*",
   "patched_versions": null,
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": [
-    "https://hackerone.com/reports/701183"
+    "https://hackerone.com/reports/703415"
   ],
-  "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-  "cvss_score": 7,
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_score": 7.3,
   "coordinating_vendor": null
 }
