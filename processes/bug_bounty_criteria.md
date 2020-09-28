@@ -4,6 +4,21 @@ This document describes the criteria for eligibility of monetary reward for secu
 who engage with the Node.js Ecosystem
 [bug bounty program](https://hackerone.com/nodejs-ecosystem/).
 
+## Rewards
+
+As long as budget is available for the Node.js third-party modules program on HackerOne we will
+provide the following reards:
+
+* Critical bugs: $500
+* High bugs: $250
+
+These are also documented publicly on the official program's website on HackerOne:
+https://hackerone.com/nodejs-ecosystem/.
+
+Note that only a specific set of modules are eligible for rewards and they are documented
+in the list below as confirmed modules.
+
+
 ## Module Characteristics
 
 1. **Module download count** - x >= 1000 downloads a month which accounts for 7% of npm packages 
