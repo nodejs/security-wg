@@ -73,17 +73,19 @@ You can show your users you take security matters seriously and drive higher con
 
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
+* [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [ronperris](https://github.com/ronperris) - **Ron Perris**
-* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
@@ -102,10 +104,10 @@ You can show your users you take security matters seriously and drive higher con
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
-* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 
 ## Ecosystem Vulnerability Triage Team
 

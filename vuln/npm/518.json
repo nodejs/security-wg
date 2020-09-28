@@ -1,0 +1,24 @@
+{
+  "id": 518,
+  "title": "Path Traversal",
+  "overview": "[Total.js] Path traversal vulnerability allows to read files outside public directory",
+  "created_at": "2019-11-30",
+  "updated_at": "2020-04-25",
+  "publish_date": "2020-04-25",
+  "author": {
+    "name": "Visat",
+    "website": null,
+    "username": "visat"
+  },
+  "module_name": "total.js",
+  "cves": [],
+  "vulnerable_versions": "<3.4.0",
+  "patched_versions": ">=3.4.0",
+  "recommendation": "Update Other module module to version >=3.4.0",
+  "references": [
+    "https://hackerone.com/reports/748765"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 5.3,
+  "coordinating_vendor": null
+}
