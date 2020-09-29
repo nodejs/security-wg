@@ -7,7 +7,7 @@ who engage with the Node.js Ecosystem
 ## Rewards
 
 As long as budget is available for the Node.js third-party modules program on HackerOne we will
-provide the following reards:
+provide the following rewards:
 
 * Critical bugs: $500
 * High bugs: $250
