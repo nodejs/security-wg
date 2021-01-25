@@ -25,6 +25,6 @@ The following is a check-list of actions to be taken upon departure of users fro
 The following is a check-list of actions to be taken upon voluntary departure of users from the [Third-Party Triage Team](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md), when the users will remain in the Security WG.
 
 * [ ] Remove user from [Triage Team](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md)
-* [ ] Remove user from [HackerOne platform](hackerone.com/nodejs-ecosystem)
+* [ ] Remove user from [HackerOne platform](https://hackerone.com/nodejs-ecosystem)
 * [ ] Revoke any user-specific access tokens from HackerOne platform
 * [ ] Remove user access from private team channels in slack that are specific to the Triage Team (nodejs-security-wg.slack.com)
