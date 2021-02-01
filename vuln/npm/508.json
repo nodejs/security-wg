@@ -15,7 +15,7 @@
     "CVE-2019-15599"
   ],
   "vulnerable_versions": "<1.2.2",
-  "patched_versions": ">=1.2.2,
+  "patched_versions": ">=1.2.2",
   "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
   "references": [
     "https://hackerone.com/reports/701183"
