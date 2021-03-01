@@ -1,0 +1,24 @@
+{
+  "id": 519,
+  "title": "Denial of Service",
+  "overview": "Crash Node.js process from handlebars using a small and simple source",
+  "created_at": "2019-10-31",
+  "updated_at": "2020-04-27",
+  "publish_date": "2020-04-27",
+  "author": {
+    "name": "Alexander",
+    "website": null,
+    "username": "macasun"
+  },
+  "module_name": "handlebars",
+  "cves": [],
+  "vulnerable_versions": "<4.6.0",
+  "patched_versions": ">=4.6.0",
+  "recommendation": "Update handlebars module to version >=4.6.0",
+  "references": [
+    "https://hackerone.com/reports/726364"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+  "cvss_score": 6.5,
+  "coordinating_vendor": null
+}

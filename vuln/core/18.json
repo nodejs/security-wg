@@ -8,6 +8,6 @@
   "author": "Romain Gaucher",
   "description": "HTTP processing security defect (CVE-2016-5325)",
   "cvss": "3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
-  "cvss_score": "4.8 (Medium)",
+  "cvss_score": 4.8,
   "overview": "**http**: Properly validate for allowable characters in the `reason` argument in\n`ServerResponse#writeHead()`. Fixes a possible response splitting attack vector.\nThis introduces a new case where `throw` may occur when configuring HTTP\nresponses, users should already be adopting try/catch here.\n\nThis is a low severity security defect that that may make HTTP response\nsplitting possible under certain circumstances. If user-input is passed to the\nreason argument to writeHead() on an HTTP response, a new-line character may be\nused to inject additional responses.\n\nThe fix for this defect introduces a new case where throw may occur when\nconfiguring HTTP responses. Users should already be adopting try/catch here.\n\nCommon Vulnerability Scoring System (CVSS) v3 Base Score:\n\n\tMetric\tScore\n\tBase Score:\t4.8 (Medium)\n\tBase Vector:\tCVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N\n\tAttack Vector:\tNetwork (AV:N)\n\tAttack Complexity:\tHigh (AC:H)\n\tPrivileges Required:\tNone (PR:N)\n\tUser Interaction:\tNone (UI:N)\n\tScope of Impact:\tUnchanged (S:U)\n\tConfidentiality Impact:\tLow (C:L)\n\tIntegrity Impact:\tLow (I:L)\n\tAvailability Impact:\tNone (A:N)\n\nRefer to the\n[CVSS v3 Specification](https://www.first.org/cvss/specification-document)\nfor details on the meanings and application of the vector components.\n\n"
 }
