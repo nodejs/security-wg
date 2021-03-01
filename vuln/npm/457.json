@@ -14,7 +14,7 @@
   "cves": [
     "CVE-2018-3778"
   ],
-  "vulnerable_versions": "<0.35.0",
+  "vulnerable_versions": "<=0.35.0",
   "patched_versions": ">=0.35.1",
   "recommendation": "Update aedes module to version >= 0.35.1",
   "references": [

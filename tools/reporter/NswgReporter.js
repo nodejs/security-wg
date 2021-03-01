@@ -181,13 +181,13 @@ class NswgReporter {
     }
 
     const myDate = new Date(date)
-    const month = myDate.getMonth() + 1 < 10
-      ? `0${myDate.getMonth() + 1}`
-      : myDate.getMonth() + 1
-    const dayOfMonth = myDate.getDate() < 10
-      ? `0${myDate.getDate()}`
-      : myDate.getDate()
-    const formattedDate = `${myDate.getFullYear()}-${month}-${dayOfMonth}`
+    const month = myDate.getUTCMonth() + 1 < 10
+      ? `0${myDate.getUTCMonth() + 1}`
+      : myDate.getUTCMonth() + 1
+    const dayOfMonth = myDate.getUTCDate() < 10
+      ? `0${myDate.getUTCDate()}`
+      : myDate.getUTCDate()
+    const formattedDate = `${myDate.getUTCFullYear()}-${month}-${dayOfMonth}`
 
     return formattedDate
   }
