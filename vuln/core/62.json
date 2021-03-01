@@ -1,0 +1,20 @@
+{
+  "cve": [
+    "CVE-2019-9511",
+    "CVE-2019-9512",
+    "CVE-2019-9513",
+    "CVE-2019-9514",
+    "CVE-2019-9515",
+    "CVE-2019-9516",
+    "CVE-2019-9517",
+    "CVE-2019-9518"
+  ],
+  "vulnerable": "8 || 10 || 12",
+  "patched": "^8.16.1 || ^10.16.3 || ^12.8.1",
+  "publish_date": "2019-08-15",
+  "author": "Sam Roberts",
+  "reported_by": "Jonathan Looney, Piotr Sikora",
+  "ref": "https://nodejs.org/en/blog/vulnerability/august-2019-security-releases/",
+  "type": "CWE-400: Uncontrolled Resource Consumption / Denial of Service",
+  "overview": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+}

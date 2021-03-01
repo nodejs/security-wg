@@ -1,5 +1,5 @@
 {
-  "id": 431,
+  "id": 432,
   "title": "SQL Injection",
   "overview": "`sql` does not properly escape parameters when building SQL queries, resulting in potential SQLi",
   "created_at": "2018-02-25",

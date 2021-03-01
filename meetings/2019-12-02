@@ -1,0 +1,47 @@
+# Node.js Foundation Security WorkGroup Meeting 2019-12-02
+
+## Links
+
+* **Recording**:  
+* **GitHub Issue**: $GITHUB_ISSUE$
+* **Minutes Google Doc**: $MINUTES_DOC$
+
+## Present
+
+* Security wg team: @nodejs/security-wg
+
+* Bradley Farias (@bmeck)
+* Colin Ihrig (@cjihrig)
+* Liran Tal (@lirantal)
+* Sam Roberts (@sam-github)
+* Karen Yavine Shemesh (@karenyavine)
+
+## Agenda
+
+## Announcements
+ 
+*Extracted from **security-wg-agenda** labelled issues and pull requests from the **nodejs org** prior to the meeting.
+
+### nodejs/security-wg
+
+* Paying Bounties on HackerOne [#593](https://github.com/nodejs/security-wg/issues/593)
+US$500 for critical
+US$250 for high
+Discussed in the WG agenda meeting and nobody rejects so let's kick off the bounty payments.
+* Membership review [#591](https://github.com/nodejs/security-wg/issues/591)
+Some members did not reply, will try to contact them once more over email social media to make sure they aren’t just on vacation, then remove them from the WG.
+* Proposal to use CVSS v3.1 [#590](https://github.com/nodejs/security-wg/pull/590)
+Sam: I have no comment. I’m not familiar enough to know if there are any issues, or if its an obvious update.
+* Reaching out to other projects of the OpenJS Foundation [#511](https://github.com/nodejs/security-wg/issues/511)
+For this to move forward, it will need at least one champion, to push it forward, meet with the OJS foundation, etc. We’ll ping in the issue to look for a leader.
+
+
+
+## Q&A, Other
+
+## Upcoming Meetings
+
+* **Node.js Foundation Calendar**: https://nodejs.org/calendar
+
+Click `+GoogleCalendar` at the bottom right to add to your own Google calendar.
+

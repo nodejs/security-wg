@@ -1,0 +1,24 @@
+{
+  "id": 497,
+  "title": "Cross-site Scripting (XSS) - Generic",
+  "overview": "[harp] Unsafe rendering of Markdown files",
+  "created_at": "2018-12-02",
+  "updated_at": "2019-04-06",
+  "publish_date": "2019-04-06",
+  "author": {
+    "name": "Skynet",
+    "website": null,
+    "username": "skyn3t"
+  },
+  "module_name": "harp",
+  "cves": [],
+  "vulnerable_versions": "<=0.29.0",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/453795"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N",
+  "cvss_score": 3.3,
+  "coordinating_vendor": null
+}
