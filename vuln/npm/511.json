@@ -1,0 +1,26 @@
+{
+  "id": 511,
+  "title": "Cross-site Scripting (XSS) - Stored",
+  "overview": "[seeftl] Stored XSS when directory listing via filename.",
+  "created_at": "2019-08-01",
+  "updated_at": "2019-12-31",
+  "publish_date": "1970-01-01",
+  "author": {
+    "name": "Luiz Viana",
+    "website": null,
+    "username": "luizviana"
+  },
+  "module_name": "seeftl",
+  "cves": [
+    "CVE-2019-15603"
+  ],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/665302"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 4.4,
+  "coordinating_vendor": null
+}
