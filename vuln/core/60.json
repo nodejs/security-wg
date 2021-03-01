@@ -1,0 +1,13 @@
+{
+  "cve": [
+    "CVE-2019-5737"
+  ],
+  "vulnerable": "6 || 8 || 10 || 11",
+  "patched": "^6.17.0 || ^8.15.1 || ^10.15.2 || ^11.10.1",
+  "publish_date": "2019-02-28",
+  "author": "Matteo Collina",
+  "reported_by": "Marco Pracucci",
+  "ref": "https://nodejs.org/en/blog/vulnerability/february-2019-security-releases/",
+  "type": "CWE-400: Uncontrolled Resource Consumption / Denial of Service",
+  "overview": "An attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly thereby keeping the connection and associated resources alive for a long period of time. Attack potential is mitigated by the use of a load balancer or other proxy layer. This vulnerability is an extension of CVE-2018-12121, addressed in November and impacts all active release lines including 6, 8, 10 and 11."
+}
