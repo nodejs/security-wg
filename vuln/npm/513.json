@@ -1,0 +1,24 @@
+{
+  "id": 513,
+  "title": "Cross-site Scripting (XSS) - Stored",
+  "overview": "Stored XSS (Hexo-admin plugin)",
+  "created_at": "2019-10-17",
+  "updated_at": "2020-01-11",
+  "publish_date": "2020-01-11",
+  "author": {
+    "name": "chintan",
+    "website": "https://twitter.com/@aye_robot",
+    "username": "ayerobot"
+  },
+  "module_name": "hexo-admin",
+  "cves": [],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/716570"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+  "cvss_score": 2.7,
+  "coordinating_vendor": null
+}
