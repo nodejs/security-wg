@@ -1,0 +1,24 @@
+{
+  "id": 512,
+  "title": "Code Injection",
+  "overview": "[meta-git] RCE via insecure command formatting",
+  "created_at": "2019-11-02",
+  "updated_at": "2020-01-11",
+  "publish_date": "2020-01-11",
+  "author": {
+    "name": "Michele Romano",
+    "website": "https://mik317.github.io",
+    "username": "mik317"
+  },
+  "module_name": "meta-git",
+  "cves": [],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/728040"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 6.2,
+  "coordinating_vendor": null
+}

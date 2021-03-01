@@ -1,0 +1,26 @@
+{
+  "id": 494,
+  "title": "Denial of Service",
+  "overview": "Prototype pollution attack (defaults-deep / constructor.prototype)",
+  "created_at": "2018-07-12",
+  "updated_at": "2019-01-03",
+  "publish_date": "2018-09-28",
+  "author": {
+    "name": "asgerf",
+    "website": null,
+    "username": "asgerf"
+  },
+  "module_name": "defaults-deep",
+  "cves": [
+    "CVE-2018-16486"
+  ],
+  "vulnerable_versions": "<=0.2.4",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/380878"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "cvss_score": 6.1,
+  "coordinating_vendor": null
+}

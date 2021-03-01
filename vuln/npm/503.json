@@ -1,0 +1,24 @@
+{
+  "id": 503,
+  "title": "Cross-site Scripting (XSS) - Stored",
+  "overview": "[http_server] Stored XSS in the filename when directories listing",
+  "created_at": "2019-05-12",
+  "updated_at": "2019-09-13",
+  "publish_date": "2019-09-13",
+  "author": {
+    "name": "An Nguyen",
+    "website": null,
+    "username": "lightangel1412"
+  },
+  "module_name": "http_server",
+  "cves": [],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/578138"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+  "cvss_score": 3.9,
+  "coordinating_vendor": null
+}
