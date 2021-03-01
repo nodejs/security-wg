@@ -30,7 +30,7 @@ const coreModel = joi.object().keys({
     .optional()
     .isoDate(),
   type: joi.string().optional(),
-  cvss_score: joi.string().optional(),
+  cvss_score: joi.number().optional(),
   cvss: joi.string().optional(),
   reported_by: joi.string().optional()
 });

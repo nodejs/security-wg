@@ -15,7 +15,7 @@
     "CVE-2018-3738"
   ],
   "vulnerable_versions": "<=6.8.5",
-  "patched_versions": ">=6.8.6",
+  "patched_versions": ">=5.0.3 <6.0.0 || >=6.8.6",
   "recommendation": "update protobufjs to 6.8.6 or higher",
   "references": [
     "https://hackerone.com/reports/319576",
