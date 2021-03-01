@@ -1,0 +1,26 @@
+{
+  "id": 506,
+  "title": "Code Injection",
+  "overview": "[node-df] RCE via insecure command concatenation",
+  "created_at": "2019-09-28",
+  "updated_at": "2019-12-04",
+  "publish_date": "2019-12-04",
+  "author": {
+    "name": "Michele Romano",
+    "website": "https://mik317.github.io",
+    "username": "mik317"
+  },
+  "module_name": "node-df",
+  "cves": [
+    "CVE-2019-15597"
+  ],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/703412"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_score": 8.4,
+  "coordinating_vendor": null
+}

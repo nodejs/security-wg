@@ -1,0 +1,26 @@
+{
+  "id": 490,
+  "title": "Denial of Service",
+  "overview": "Prototype pollution attack in node.extend",
+  "created_at": "2018-10-30",
+  "updated_at": "2019-01-03",
+  "publish_date": "2018-11-30",
+  "author": {
+    "name": "asgerf",
+    "website": null,
+    "username": "asgerf"
+  },
+  "module_name": "node.extend",
+  "cves": [
+    "CVE-2018-16491"
+  ],
+  "vulnerable_versions": "<2.0.1 || <1.1.7",
+  "patched_versions": "^1.1.7 || >= 2.0.1",
+  "recommendation": "Update node.extend module to version ^1.1.7 || >= 2.0.1",
+  "references": [
+    "https://hackerone.com/reports/430831"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+  "cvss_score": 5.7,
+  "coordinating_vendor": null
+}

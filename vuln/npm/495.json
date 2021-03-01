@@ -1,0 +1,28 @@
+{
+  "id": 495,
+  "title": "Arbitrary Code Execution",
+  "overview": "A vulnerability in Chromium, which Electron is based on, can be exploited and used to execute arbitrary code. According to the Electron team, \"this affects any Electron application that may run third-party or untrusted JavaScript.\" Depending on the Electron application's privileges, this can allow an attacker to create and delete files or modify a user's system in other ways. Google has received reports of this vulnerability being exploited in the wild.",
+  "created_at": "2019-03-31",
+  "updated_at": "2019-03-31",
+  "publish_date": "2019-03-04",
+  "author": {
+    "name": "Clement Lecigne",
+    "website": "https://www.linkedin.com/in/clem1/",
+    "username": null
+  },
+  "module_name": "electron",
+  "cves": [
+    "CVE-2019-5786"
+  ],
+  "vulnerable_versions": "<2.0.18 || <3.0.16 || <3.1.6 || <4.0.8 || <5.0.0-beta.5",
+  "patched_versions": "^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5",
+  "recommendation": "Update electron module to ^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5",
+  "references": [
+    "https://electronjs.org/blog/filereader-fix",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2019-026/",
+    "https://security.googleblog.com/2019/03/disclosing-vulnerabilities-to-protect.html"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_score": 10.0,
+  "coordinating_vendor": null
+}
