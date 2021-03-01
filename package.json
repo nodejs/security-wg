@@ -4,17 +4,19 @@
   "scripts": {
     "test": "jest",
     "report": "node tools/reporter",
-    "validate": "node tools/vuln_valid"
+    "validate": "node tools/vuln_valid",
+    "create-npm-index": "node tools/create_index/create_npm_index.js",
+    "create-core-index": "node tools/create_index/create_core_index.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "inquirer": "^6.0.0",
-    "jest": "^23.6.0",
+    "jest": "^25.1.0",
     "joi": "^13.1.0",
     "joi-extension-semver": "^2.0.0",
-    "yargs": "^11.0.0"
+    "yargs": "^13.2.4"
   }
 }

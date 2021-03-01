@@ -1,0 +1,13 @@
+{
+  "cve": [
+    "CVE-2019-5739"
+  ],
+  "vulnerable": "6",
+  "patched": "^6.17.0",
+  "publish_date": "2019-02-28",
+  "author": "Matteo Collina",
+  "reported_by": "Timur Shemsedinov",
+  "ref": "https://nodejs.org/en/blog/vulnerability/february-2019-security-releases/",
+  "type": "CWE-400: Uncontrolled Resource Consumption / Denial of Service",
+  "overview": "Keep-alive HTTP and HTTPS connections can remain open and inactive for up to 2 minutes in Node.js 6.16.0 and earlier. Node.js 8.0.0 introduced a dedicated server.keepAliveTimeout which defaults to 5 seconds. The behavior in Node.js 6.16.0 and earlier is a potential Denial of Service (DoS) attack vector. Node.js 6.17.0 introduces server.keepAliveTimeout and the 5-second default."
+}

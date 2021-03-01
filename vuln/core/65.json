@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2019-15606"],
+  "vulnerable": "10.x || 12.x || 13.x",
+  "patched": "^10.19.0 || ^12.15.0 || ^13.8.0",
+  "reported_by": "Alyssa Wilk",
+  "ref": "https://hackerone.com/reports/730779",
+  "overview": "HTTP header values do not have trailing OWS trimmed"
+}
