@@ -24,7 +24,7 @@ The `reporter` is a CLI tool to fetch the report data from HackerOne and output 
 From the main repository directory, the reporter can be invoked as follows and will default to interactive mode:
 
 ```bash
-$ npm run reporter -- --reportId <h1-report-id>
+$ npm run report -- --reportId <h1-report-id>
 ```
 
 Interactive-mode will kick in to prompt for the following NSWG report field which aren't fetched from HackerOne: NSWG Ecosystem Report ID, Vulnerable Versions, Patched Versions.
