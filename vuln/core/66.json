@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2020-8201"],
+  "vulnerable": "12.x || 14.x",
+  "patched": "^12.18.4 || ^14.11.0",
+  "reported_by": "Amit Klein",
+  "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
+  "overview": "HTTP Request Smuggling due to CR-to-Hyphen conversion"
+}

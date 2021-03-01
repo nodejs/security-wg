@@ -17,8 +17,8 @@ Table of Contents
   * [Recognition for Security Researchers](./processes/recognition.md)
 - Processes for Security WG Members
   * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
-  * [On-boarding Team Members](./processes/security_team_onboarding.md)
-  * [Off-boarding Team Members](./processes/security_team_offboarding.md)
+  * [On-boarding Team Members](./processes/wg_onboarding.md)
+  * [Off-boarding Team Members](./processes/wg_offboarding.md)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)
@@ -73,8 +73,11 @@ You can show your users you take security matters seriously and drive higher con
 
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
+* [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
+* [fraxken](https://github.com/fraxken) - **Thomas Gentilhomme**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
@@ -84,7 +87,6 @@ You can show your users you take security matters seriously and drive higher con
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [ronperris](https://github.com/ronperris) - **Ron Perris**
-* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
@@ -106,6 +108,7 @@ You can show your users you take security matters seriously and drive higher con
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [sam-github](https://github.com/sam-github) - **Sam Roberts**
 
 ## Ecosystem Vulnerability Triage Team
 
