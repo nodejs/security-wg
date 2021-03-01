@@ -1,0 +1,26 @@
+{
+  "id": 510,
+  "title": "Cross-site Scripting (XSS) - Stored",
+  "overview": "[fileview] Inadequate Output Encoding and Escaping ",
+  "created_at": "2019-03-09",
+  "updated_at": "2019-12-28",
+  "publish_date": "2019-12-28",
+  "author": {
+    "name": "johns simon",
+    "website": "http://johnssimon.com",
+    "username": "johnssimon007"
+  },
+  "module_name": "fileview",
+  "cves": [
+    "CVE-2019-15602"
+  ],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/507159"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_score": 7.1,
+  "coordinating_vendor": null
+}

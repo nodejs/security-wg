@@ -17,9 +17,7 @@ It allows [DESCRIBE THE IMPACT OF THE VULNERABILITY - E.G READ ARBITRARY FILES, 
 
 > Replace stats below with numbers from npm’s module page:
 
-[1] downloads in the last day
-[10] downloads in the last week
-[100] downloads in the last month
+[X] weekly downloads 
 
 # Vulnerability
 
