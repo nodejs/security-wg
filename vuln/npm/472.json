@@ -18,7 +18,7 @@
   "references": [
     "https://hackerone.com/reports/397445"
   ],
-  "cvss_vector": "CVSS:3.0/AV:U/AC:U/PR:U/UI:U/S:U/C:U/I:U/A:U",
+  "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
   "cvss_score": 8.2,
   "coordinating_vendor": null
 }
