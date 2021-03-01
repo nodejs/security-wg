@@ -5,14 +5,11 @@
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md
 )
 
-# Security Working Group
+# Ecosystem Security Working Group
 
 Table of Contents
 
 - Vulnerability Management
-  * [Security Announcement Process](./processes/security_annoucement_process.md)
-  * [Security Release Process](./processes/security_release_process.md)
-  * [Node.js CVE management process](./processes/cve_management_process.md)
   * [Responsible Disclosure Policy](./processes/responsible_disclosure_template.md)
   * [Third-Party Ecosystem Triage Process](./processes/third_party_vuln_process.md)
   * [Third-Party HackerOne Submission form](./processes/third_party_vuln_submit_form_hacker1.md)
@@ -22,7 +19,6 @@ Table of Contents
   * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
   * [On-boarding Team Members](./processes/security_team_onboarding.md)
   * [Off-boarding Team Members](./processes/security_team_offboarding.md)
-- [Private Node.js core security group](#private-nodejs-core-security-group)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)
@@ -34,20 +30,14 @@ Table of Contents
 
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
 
-The Security Working Group manages all aspects and processes linked to Node.js security.
+The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
 
 Responsibilities include:
-* Define and maintain security policies and procedures for:
-  * the core Node.js project
-  * other projects maintained by the Node.js Technical Steering Committee (TSC).
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Review and recommend processes for handling of security reports (but not the
-  actual administration of security reports, which are reviewed by a group of people
-  directly delegated to by the TSC).
 * Define and maintain policies and procedures for the coordination of security
   concerns within the external Node.js open source ecosystem.
 * Offer help to npm package maintainers to fix high-impact security bugs.
@@ -56,30 +46,22 @@ Responsibilities include:
   * other projects maintained by the Node.js Foundation technical group
   * the external Node.js open source ecosystem
 * Promote the improvement of security practices within the Node.js ecosystem.
-* Recommend security improvements for the core Node.js project.
 * Facilitate and promote the expansion of a healthy security service and product
   provider ecosystem.
 
-## Private Node.js core security group
-
-The Node.js Security Working Group is _not_ responsible for managing incoming
-security reports to the security@nodejs.org address, nor is it privy to or
-responsible for preparing embargoed security patches and releases.
-
-The [Node.js TSC][] maintains primary responsibility for the management of private
-security activities for Node.js core but relies on the Node.js Security Working
-Group to recommend and help maintain policies and procedures for that
-management.
+This Working Group is _not_ responsible for managing or responding to
+security reports against Node.js itself. That responsibility remains with
+the [Node.js TSC][].
 
 ## Node.js Bug Bounty Program
 
-The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures.
+The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures. We have established a first draft of accepted criteria and npm modules and projects that are eligible for monetary reward at [Bug Bounty Criteria](./processes/bug_bounty_criteria.md).
 
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
 
 ## Participate in Responsible Security Disclosure
 
-As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible dislcosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
+As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible disclosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
 
 You can show your users you take security matters seriously and drive higher confidence by following any of the below suggested actions:
 
@@ -89,28 +71,31 @@ You can show your users you take security matters seriously and drive higher con
 
 ## Current Project Team Members
 
-* [bengl](https://github.com/bengl) - **Bryan English**
-* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
-* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
-* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [grnd](https://github.com/grnd) - **Danny Grander**
+* [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
+* [ronperris](https://github.com/ronperris) - **Ron Perris**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 ## Emeritus Members
 
+* [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
+* [bengl](https://github.com/bengl) - **Bryan English**
+* [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
+* [elexy](https://github.com/Elexy) - **Alex Knol**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
@@ -122,6 +107,14 @@ You can show your users you take security matters seriously and drive higher con
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 
+## Ecosystem Vulnerability Triage Team
+
+Note that membership in the Ecosystem Security WG does not automatically give access to
+undisclosed vulnerabilities on HackerOne
+
+* [*Ecosystem Vulnerabilities*](https://hackerone.com/nodejs-ecosystem):
+  Managed by the [Ecosystem Triage Team][].
+
 # Code of Conduct
 
 The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
@@ -131,3 +124,4 @@ The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_O
 The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this WG.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
+[Ecosystem Triage Team]: processes/third_party_vuln_process.md#members

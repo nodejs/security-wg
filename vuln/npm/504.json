@@ -1,0 +1,26 @@
+{
+  "id": 504,
+  "title": "Path Traversal",
+  "overview": "Path traversal using symlink",
+  "created_at": "2019-09-16",
+  "updated_at": "2019-10-07",
+  "publish_date": "2019-10-07",
+  "author": {
+    "name": "0xChe",
+    "website": null,
+    "username": "0xche"
+  },
+  "module_name": "statics-server",
+  "cves": [
+    "CVE-2019-15596"
+  ],
+  "vulnerable_versions": "*",
+  "patched_versions": null,
+  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "references": [
+    "https://hackerone.com/reports/695416"
+  ],
+  "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:U/A:U",
+  "cvss_score": 7.5,
+  "coordinating_vendor": null
+}
