@@ -1,0 +1,26 @@
+{
+    "id": 515,
+    "title": "Information Exposure Through Directory Listing",
+    "overview": "[serve] Directory listing and File access even when they have been set to be ignored (using dot-slash)",
+    "created_at": "2018-03-28",
+    "updated_at": "2018-05-30",
+    "publish_date": "2018-05-30",
+    "author": {
+        "name": "Tung Pun",
+        "website": "https://tungpun.pw",
+        "username": "tungpun"
+    },
+    "module_name": "serve",
+    "cves": [
+        "CVE-2019-5415"
+    ],
+    "vulnerable_versions": "<= 6.5.3",
+    "patched_versions": "7.0.0",
+    "recommendation": "Update serve module to version 7.0.0",
+    "references": [
+        "https://hackerone.com/reports/330724"
+    ],
+    "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score": 9.3,
+    "coordinating_vendor": null
+}
