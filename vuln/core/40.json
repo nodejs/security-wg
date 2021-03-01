@@ -5,7 +5,7 @@
   "vulnerable": "4.x",
   "patched": "^4.1.2",
   "cvss": "3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-  "cvss_score": "5.9 (Medium)",
+  "cvss_score": 5.9,
   "ref": "https://github.com/nodejs/node/pull/3128",
   "description": "out-of-order 'finish' event bug in pipelining can abort execution"
 }
