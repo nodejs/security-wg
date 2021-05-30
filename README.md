@@ -80,6 +80,7 @@ You can show your users you take security matters seriously and drive higher con
 * [fraxken](https://github.com/fraxken) - **Thomas Gentilhomme**
 * [grnd](https://github.com/grnd) - **Danny Grander**
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
+* [kobelb](https://github.com/kobelb) - **Brandon Kobel**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
