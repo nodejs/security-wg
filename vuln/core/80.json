@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2021-22921"],
+  "vulnerable": " 12.x || 14.x || 16.x",
+  "patched": " ^12.22.2 || ^14.17.2 || ^16.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/",
+  "overview": "Node.js is vulnerable to local privilege escalation attacks under certain conditions on Windows platforms. More specifically, improper configuration of permissions in the installation directory allows an attacker to perform two different escalation attacks: PATH and DLL hijacking. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22921"
+}
