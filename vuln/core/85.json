@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2021-22940"],
+  "vulnerable": "12.x || 14.x || 16.x",
+  "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
+  "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
+  "overview": "Node.js was vulnerable to a use after free attack where an attacker might be able to exploit memory corruption to change process behavior. The issue is a follow on to CVE-2021-22930 as the issue was not completely resolved in the fix for CVE-2021-22930. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22940"
+}

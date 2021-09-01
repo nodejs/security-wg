@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2021-22931"],
+  "vulnerable": "12.x || 14.x || 16.x",
+  "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
+  "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
+  "overview": "Node.js was vulnerable to Remote Code Execution, XSS, application crashes due to missing input validation of host names returned by Domain Name Servers in the Node.js DNS library which can lead to output of wrong hostnames (leading to Domain Hijacking) and injection vulnerabilities in applications using the library. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22931"
+}
