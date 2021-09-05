@@ -1,5 +1,5 @@
 # Ecosystem Vulnerability Management
-
+ 
 This document describes the management of vulnerabilities within the Node.js
 ecosystem. Vulnerabilities in Node.js core are out of this scope.
 
