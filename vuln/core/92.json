@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2022-21824"],
+  "vulnerable": "12.x || 14.x || 16.x || 17.x",
+  "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+  "overview": "Due to the formatting logic of the console.table() function it was not safe to allow user controlled input to be passed to the properties parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be __proto__. The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824 for more details."
+}
