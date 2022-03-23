@@ -30,8 +30,3 @@ Once acceptance has been acquired by group members, the following should take pl
 * New member should enable 2FA in GitHub
 * New member should join the Security WG slack medium and confirm his identity by providing necessary slack user details in the following private discussion: [Slack identity check](https://github.com/orgs/nodejs/teams/security-wg/discussions/3)
 
-## Setting-up for new Triage Team members
-Please follow:
-* New member should open a PR with his username added to [security-wg/third_party_vuln_process.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md#the-triage-team), where the username list is ordered alphabetically.
-* New members should familiarize themselves with the 3rd party vulnerability triage process at: [security-wg/third_party_vuln_process.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md)
-* New members should schedule an on-boarding demo session with their mentor to review the HackerOne platform where the new member receives a walk-through of our triage process.

@@ -10,9 +10,6 @@
 Table of Contents
 
 - Vulnerability Management
-  * [Responsible Disclosure Policy](./processes/responsible_disclosure_template.md)
-  * [Third-Party Ecosystem Triage Process](./processes/third_party_vuln_process.md)
-  * [Third-Party HackerOne Submission form](./processes/third_party_vuln_submit_form_hacker1.md)
   * [Vulnerability Database](./processes/vuln_db.md)
   * [Recognition for Security Researchers](./processes/recognition.md)
 - Processes for Security WG Members
@@ -20,7 +17,6 @@ Table of Contents
   * [On-boarding Team Members](./processes/wg_onboarding.md)
   * [Off-boarding Team Members](./processes/wg_offboarding.md)
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
-- [Participate in Responsible Security Disclosure](#participate-in-responsible-security-disclosure)
 - [Charter](#charter)
 - [Code of Conduct](#code-of-conduct)
 - [Moderation Policy](#moderation-policy)
@@ -38,9 +34,6 @@ Responsibilities include:
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Define and maintain policies and procedures for the coordination of security
-  concerns within the external Node.js open source ecosystem.
-* Offer help to npm package maintainers to fix high-impact security bugs.
 * Maintain and make available data on disclosed security vulnerabilities in:
   * the core Node.js project
   * other projects maintained by the Node.js Foundation technical group
@@ -55,19 +48,7 @@ the [Node.js TSC][].
 
 ## Node.js Bug Bounty Program
 
-The Node.js project engages in an official bug bounty program for security researchers and responsible public disclosures. We have established a first draft of accepted criteria and npm modules and projects that are eligible for monetary reward at [Bug Bounty Criteria](./processes/bug_bounty_criteria.md).
-
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
-
-## Participate in Responsible Security Disclosure
-
-As a module author you can provide your users with security guidelines regarding any exposures and vulnerabilities in your project, based on a responsible disclosure policy [document](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md) we've already put in place.
-
-You can show your users you take security matters seriously and drive higher confidence by following any of the below suggested actions:
-
-1. Adding a `SECURITY.md` file in your repository that you can copy&paste from [us](https://github.com/nodejs/security-wg/blob/e2c03e62d73635a766156c6ea4f9aefb35c04603/processes/responsible_disclosure_template.md). Just like having a contribution of code of conduct guidelines, a security guideline will help user or bug hunters with the process of reporting a vulnerability or security concern they would like to share.
-
-2. Adding our Responsible Security Dislosure badge to your project's README which links to the `SECURITY.md` document.
 
 ## Current Project Team Members
 
@@ -110,14 +91,6 @@ You can show your users you take security matters seriously and drive higher con
 * [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
 
-## Ecosystem Vulnerability Triage Team
-
-Note that membership in the Ecosystem Security WG does not automatically give access to
-undisclosed vulnerabilities on HackerOne
-
-* [*Ecosystem Vulnerabilities*](https://hackerone.com/nodejs-ecosystem):
-  Managed by the [Ecosystem Triage Team][].
-
 # Code of Conduct
 
 The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
@@ -127,4 +100,3 @@ The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_O
 The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this WG.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
-[Ecosystem Triage Team]: processes/third_party_vuln_process.md#members
