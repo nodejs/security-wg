@@ -13,8 +13,8 @@
   "module_name": "open",
   "cves": [],
   "vulnerable_versions": "<=0.0.5",
-  "patched_versions": null,
-  "recommendation": "No fix is currently available for this vulnerability.\n\nIt is our recommendation to not install or use this module at this time.",
+  "patched_versions": ">=6.0.0",
+  "recommendation": "Upgrade to 6.0.0+",
   "references": [
     "https://hackerone.com/reports/319473"
   ],
