@@ -67,6 +67,7 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
+* [RafaelGSS](https://github.com/RafaelGSS) - **Rafael Gonzaga**
 * [ronperris](https://github.com/ronperris) - **Ron Perris**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
