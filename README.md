@@ -70,6 +70,7 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 * [RafaelGSS](https://github.com/RafaelGSS) - **Rafael Gonzaga**
 * [ronperris](https://github.com/ronperris) - **Ron Perris**
 * [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
+* [ulisesGascon](https://github.com/ulisesGascon) - **Ulises Gascon**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 ## Emeritus Members
