@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2022-32222"],
+  "vulnerable": "14.x || 16.x || 18.x",
+  "patched": "14.20.0 || 16.20.0 || 18.5.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/",
+  "overview": "On linux, versions of 18.x prior to Y used a default path for openssl.cnf  that was within a path that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3."
+}

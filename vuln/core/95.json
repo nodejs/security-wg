@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2022-32214"],
+  "vulnerable": "14.x || 16.x || 18.x",
+  "patched": "14.20.0 || 16.20.0 || 18.5.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/",
+  "overview": "The llhttp parser in the http module in Node.js does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS)."
+}
