@@ -1,7 +1,7 @@
 [![Node.js Security WG](https://img.shields.io/badge/Node.js-Security%20WG-green.svg)]()
 [![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
 [![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
-[![GitHub Logo](https://img.shields.io/badge/Join%20us%20on-Slack-e01563.svg)](https://app.slack.com/client/T0K2RM7F0/C03Q9MS3KFB)
+[![GitHub Logo](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
 [![Security Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg)](https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md
 )
 
