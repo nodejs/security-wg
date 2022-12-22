@@ -47,6 +47,21 @@ the [Node.js TSC][].
 
 The program is managed through the HackerOne platform at [https://hackerone.com/nodejs](https://hackerone.com/nodejs) with further details.
 
+## Current Initiatives
+
+We are currently defining the Initiatives for 2023, [feel free to participate](https://github.com/nodejs/security-wg/issues/846).
+
+| Initiative           | Champion                                         | Status                                   | Links
+|----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
+| Permission Model | [@RafaelGSS](https://github.com/RafaelGSS) |  PR In Review | [PR #44004](https://github.com/nodejs/node/pull/44004)
+| Automate update dependencies | [@facutuesca](https://github.com/facutuesca) | Well defined | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
+| Flag to emit a warning when vulnerable | [@RafaelGSS](https://github.com/RafaelGSS)  | Started TSC Discussion | _pending_
+| Enforce communication with Node.js dependencies | N/A | Under discussion | [Issue #846](https://github.com/nodejs/security-wg/issues/846)
+| Explore using SigStore to sign our releases | N/A | Under discussion | [Issue #846](https://github.com/nodejs/security-wg/issues/846)
+| Figure out how we stand in terms of key supply chain standards/frameworks | N/A | Under discussion | [Issue #846](https://github.com/nodejs/security-wg/issues/846)
+| Explore how the projects stand on the OSSF Scorecard | N/A | Under discussion | [issue #851](https://github.com/nodejs/security-wg/issues/851)
+| Better versioning and management of tools need to build/update dependencies | N/A | Under discussion | [Issue #846](https://github.com/nodejs/security-wg/issues/846)
+
 ## Current Project Team Members
 
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
