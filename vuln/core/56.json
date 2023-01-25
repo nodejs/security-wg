@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2018-12120"
   ],
-  "vulnerable": "6",
+  "vulnerable": "6.x || 8.x",
   "patched": "^6.15.0 || ^8.14.0",
   "publish_date": "2018-11-27",
   "author": "Ben Noordhuis",

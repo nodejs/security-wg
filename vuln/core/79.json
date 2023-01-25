@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2021-22930"],
   "vulnerable": " 12.x || 14.x || 16.x",
-  "patched": " ^12.22.4 || ^14.17.4 || 16.6.0",
+  "patched": " ^12.22.4 || ^14.17.4 || ^16.6.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases-2/",
   "overview": "Node.js before is vulnerable to a use after free attack where an attacker might be able to exploit the memory corruption, to change process behavior. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22930"
 }

@@ -1,6 +1,7 @@
 {
   "cve": [],
-  "vulnerable": "4.7.1 || 6.9.3",
+  "vulnerable": "4.x || 6.x",
+  "patched": "^4.7.2 || ^6.9.4",
   "description": "no shasum exists to verify downloads",
   "overview": "While promoting additional platforms for v4.7.1 and v6.9.3 after the release,\nthe tarballs on the release server were overwritten and now have different\nshasums.\n\n"
 }

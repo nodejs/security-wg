@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2022-0778"],
   "vulnerable": "12.x || 14.x || 16.x || 17.x",
-  "patched": "12.22.11 || 14.19.1 || 16.14.2 || 17.7.2",
+  "patched": "^12.22.11 || ^14.19.1 || ^16.14.2 || ^17.7.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/mar-2022-security-releases/",
   "overview": "This is a vulnerability in OpenSSL: Infinite loop in BN_mod_sqrt() reachable when parsing certificates. More details are available at https://www.openssl.org/news/secadv/20220315.txt."
 }

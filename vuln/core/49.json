@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2018-7161"
   ],
-  "vulnerable": "^8.0.0 || ^9.0.0 || ^10.0.0",
+  "vulnerable": "8.x || 9.x || 10.x",
   "patched": "^8.11.3 || ^9.11.2 || ^10.4.1" ,
   "ref": "https://nodejs.org/en/blog/vulnerability/june-2018-security-releases/",
   "overview": "All versions of 8.x and later are vulnerable and the severity is HIGH. An attacker can cause a denial of service (DoS) by causing a node server providing an http2 server to crash. This can be accomplished by interacting with the http2 server in a manner that triggers a cleanup bug where objects are used in native code after they are no longer available. This has been addressed by updating the http2 implementation. Thanks to Jordan Zebor at F5 Networks for reporting this issue."

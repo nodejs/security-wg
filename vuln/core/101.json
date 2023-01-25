@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2022-35255"],
   "vulnerable": "18.x",
-  "patched": "18.9.1",
+  "patched": "^18.9.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
   "overview": "Node.js made calls to EntropySource() in SecretKeyGenTraits::DoKeyGen() in src/crypto/crypto_keygen.cc. However, it does not check the return value, it assumes EntropySource() always succeeds, but it can (and sometimes will) fail."
 }

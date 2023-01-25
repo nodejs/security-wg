@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2021-3450"],
   "vulnerable": " 10.x || 12.x || 14.x || 15.x",
-  "patched": " ^10.24.1 || ^12.22.1 || 14.16.1, || 15.14.0",
+  "patched": " ^10.24.1 || ^12.22.1 || ^14.16.1 || ^15.14.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/",
   "overview": "This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt"
 }

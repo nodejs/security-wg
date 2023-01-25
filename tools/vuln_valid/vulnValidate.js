@@ -3,7 +3,6 @@ const joi = require("joi").extend(require("joi-extension-semver"));
 const path = require("path");
 const fs = require("fs");
 
-const vulnPaths = require("../../vuln").paths;
 const coreModel = joi.object().keys({
   cve: joi
     .array()
@@ -117,16 +116,17 @@ function validateVuln(filePath, model) {
   const vuln = JSON.parse(fs.readFileSync(filePath));
   const result = joi.validate(vuln, model);
   if (result.error) {
-    console.error(result.error);
+    console.error(filePath, result.error);
     throw result.error;
   }
 }
 
 function validate(dir, model) {
-  fs.readdirSync(dir).forEach(name => {
+ const files = fs.readdirSync(dir);
+  for (const name of files) {
     const filePath = path.join(dir, name);
     validateVuln(filePath, model);
-  });
+  }
 }
 
 module.exports = {

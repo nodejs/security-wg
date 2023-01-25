@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2022-32223"],
   "vulnerable": "14.x || 16.x || 18.x",
-  "patched": "14.20.0 || 16.20.0 || 18.5.0",
+  "patched": "^14.20.0 || ^16.20.0 || ^18.5.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/",
   "overview": "Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.\nThis vulnerability can be exploited if the victim has the following dependencies on a Windows machine:\n* OpenSSL has been installed and “C:\\Program Files\\Common Files\\SSL\\openssl.cnf” exists.\n\nWhenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.\nAfter that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.\n\nIt is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability."
 }

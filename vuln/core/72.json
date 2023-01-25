@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2020-1971"],
-  "vulnerable": " 10.x || 12.x || 14.x || 15.x",
-  "patched": " ^10.23.1 || ^12.20.1 || 14.15.4, || 15.5.0",
+  "vulnerable": "10.x || 12.x || 14.x || 15.x",
+  "patched": "^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/",
   "overview": "OpenSSL - EDIPARTYNAME NULL pointer de-reference - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20201208.txt"
 }

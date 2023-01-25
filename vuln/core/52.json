@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2018-7167"
   ],
-  "vulnerable": "^6.0.0 || ^8.0.0 || ^9.0.0",
+  "vulnerable": "6.x || 8.x || 9.x",
   "patched": "^6.14.3 || ^8.11.3 || ^9.11.2" ,
   "ref": "https://nodejs.org/en/blog/vulnerability/june-2018-security-releases/",
   "overview": "Calling Buffer.fill() or Buffer.alloc() with some parameters can lead to a hang which could result in a Denial of Service."
