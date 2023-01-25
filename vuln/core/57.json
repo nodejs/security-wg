@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2018-12121"
   ],
-  "vulnerable": "6 || 8 || 10 || 11",
+  "vulnerable": "6.x || 8.x || 10.x || 11.x",
   "patched": "^6.15.0 || ^8.14.0 || ^10.14.0 || ^11.3.0",
   "publish_date": "2018-11-27",
   "author": "Matteo Collina",

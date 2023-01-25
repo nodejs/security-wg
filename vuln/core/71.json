@@ -1,7 +1,7 @@
 {
   "cve": ["CVE-2020-8287"],
-  "vulnerable": " 10.x || 12.x || 14.x || 15.x",
-  "patched": " ^10.23.1 || ^12.20.1 || 14.15.4, || 15.5.1",
+  "vulnerable": "10.x || 12.x || 14.x || 15.x",
+  "patched": "^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/",
   "overview": "HTTP Request Smuggling in nodejs - Affected versions of Node.js allow two copies of a header field in a http request. For example, two Transfer-Encoding header fields. In this case Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling (https://cwe.mitre.org/data/definitions/444.html)"
 }

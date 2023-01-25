@@ -1,6 +1,6 @@
 {
   "cve": [],
-  "vulnerable": "^4.1.0",
+  "vulnerable": "4.x",
   "patched": "^4.1.1",
   "description": "data leakage via reuse of memory space in TypedArrays",
   "ref": "https://github.com/nodejs/node/pull/2931",

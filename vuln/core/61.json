@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2019-5739"
   ],
-  "vulnerable": "6",
+  "vulnerable": "6.x",
   "patched": "^6.17.0",
   "publish_date": "2019-02-28",
   "author": "Matteo Collina",

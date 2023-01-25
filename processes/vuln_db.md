@@ -58,7 +58,7 @@ Detailed information on the [database references](https://github.com/nodejs/secu
 
 The Security WG employs a static code analysis tool that runs in CI for all pull requests to validate the correct structure when new vulnerabilities are introduced.
 
-You may make use of the same tool which is available [here](https://github.com/nodejs/security-wg/blob/master/tools/vuln_valid/index.js) either in your own tooling setup or from this repository by running `npm test`.
+You may make use of the same tool which is available [here](https://github.com/nodejs/security-wg/blob/main/tools/vuln_valid/index.js) either in your own tooling setup or from this repository by running `npm test`.
 
 
 ### Database structure changes

@@ -2,7 +2,7 @@
   "cve": [
     "CVE-2018-7166"
   ],
-  "vulnerable": "10",
+  "vulnerable": "10.x",
   "patched": ">= 10.9.0",
   "publish_date": "2018-08-16",
   "author": "Сковорода Никита Андреевич (Nikita Skovoroda / @ChALkeR)",

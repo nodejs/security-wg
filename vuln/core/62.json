@@ -9,7 +9,7 @@
     "CVE-2019-9517",
     "CVE-2019-9518"
   ],
-  "vulnerable": "8 || 10 || 12",
+  "vulnerable": "8.x || 10.x || 12.x",
   "patched": "^8.16.1 || ^10.16.3 || ^12.8.1",
   "publish_date": "2019-08-15",
   "author": "Sam Roberts",
