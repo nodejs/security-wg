@@ -6,9 +6,9 @@
 
 # Currently setting the same ecosystem team to help
 # review any core related PRs as well
-/vuln/core/   @mhdawson @rvagg @vdeturckheim
+/vuln/core/   @mhdawson @rvagg @vdeturckheim @RafaelGSS
 
 # -- Node.js Security WG processes 
 # Security WG members who'd like to automatically add
 # themselves to processes PR reviews should be added here
-/processes/    @vdeturckheim @lirantal @mhdawson
+/processes/    @vdeturckheim @lirantal @mhdawson @RafaelGSS
