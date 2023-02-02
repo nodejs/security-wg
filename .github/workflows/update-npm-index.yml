@@ -1,0 +1,38 @@
+name: "Update npm index.json"
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vuln/npm/*.json'
+      - '!vuln/npm/index.json'
+
+permissions: [read, write]
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install deps
+      run: |
+        npm install
+
+    - name: Update npm index.json
+      run: |
+        npm run create-npm-index
+
+    - name: commit and push updated results
+      uses: github-actions-x/commit@v2.9
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'main'
+        commit-message: 'vuln: update npm index.json'
+        rebase: 'true'
+        files: vuln/npm/index.json
+        name: Github Actions
