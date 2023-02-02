@@ -2,7 +2,8 @@
 [![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
 [![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
 [![OpenJS Slack Invite](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
-# Ecosystem Security Working Group
+
+# Security Working Group
 
 Table of Contents
 
@@ -23,11 +24,9 @@ Table of Contents
 
 ## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
 
-The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
+The Security Working Group works to improve the security of Node.js & its Ecosystem.
 
 Responsibilities include:
-* Work with the Node Security Platform to bring community vulnerability data into
-  the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
