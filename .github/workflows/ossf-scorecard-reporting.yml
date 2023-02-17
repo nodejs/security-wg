@@ -1,0 +1,31 @@
+name: "Nodejs Org - OSSF Scorecard Scoring"
+on: 
+  # Scheduled trigger
+  schedule:
+    - cron: "0 0 * * *"
+  # Manual trigger
+  workflow_dispatch:
+
+# Permissions required to run this workflow (create issue and commit/push changes)
+permissions:
+  contents: write
+  pull-requests: none 
+  issues: write
+  packages: none
+
+jobs:
+  security-scoring:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: OpenSSF Scorecard Monitor
+        uses: UlisesGascon/openssf-scorecard-monitor@v1.0.1
+        with:
+          scope: tools/ossf_scorecard/scope.json
+          database: tools/ossf_scorecard/database.json
+          report: tools/ossf_scorecard/report.md
+          auto-commit: true
+          auto-push: true
+          generate-issue: true
+          issue-title: "OpenSSF Scorecard Report Updated!"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
