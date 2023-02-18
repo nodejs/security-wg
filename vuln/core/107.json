@@ -1,0 +1,7 @@
+{
+  "cve": ["CVE-2023-23920"],
+  "vulnerable": "14.x || 16.x || 18.x || 19.x",
+  "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+  "overview": "Node.js would search and potentially load ICU data when running with elevated priviledges. Node.js was modified to build with ICU_NO_USER_DATA_OVERRIDE to avoid this."
+}
