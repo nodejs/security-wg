@@ -124,6 +124,8 @@ function validateVuln(filePath, model) {
 function validate(dir, model) {
  const files = fs.readdirSync(dir);
   for (const name of files) {
+    // skip index.json validation
+    if (name === 'index.json') continue;
     const filePath = path.join(dir, name);
     validateVuln(filePath, model);
   }
