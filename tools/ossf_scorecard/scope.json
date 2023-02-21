@@ -1,0 +1,12 @@
+{
+    "github.com": [{
+        "org": "nodejs",
+        "repo": "undici"
+    }, {
+        "org": "nodejs",
+        "repo": "node"
+    },{
+        "org": "nodejs",
+        "repo": "security-wg"
+    }]
+}
