@@ -9,9 +9,14 @@
         }
       },
       "undici": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.4,
+            "date": "2023-02-21"
+          }
+        ],
         "current": {
-          "score": 6.4,
+          "score": 6.5,
           "date": "2023-02-21"
         }
       },
