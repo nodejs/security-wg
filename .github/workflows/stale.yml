@@ -3,6 +3,12 @@ on:
   schedule:
   - cron: "0 0 * * *"
 
+permissions:
+  # Needed to write a stale message on issues
+  issues: write
+  # Needed to close a stale pull-request
+  pull-requests: write
+
 jobs:
   stale:
     runs-on: ubuntu-latest
