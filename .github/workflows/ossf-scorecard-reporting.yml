@@ -1,8 +1,9 @@
-name: "Nodejs Org - OSSF Scorecard Scoring"
+name: "OpenSSF Scoring"
 on: 
   # Scheduled trigger
   schedule:
-    - cron: "0 0 * * *"
+    # Run every Sunday at 00:00
+    - cron: "0 0 * * 0"
   # Manual trigger
   workflow_dispatch:
 
@@ -17,9 +18,9 @@ jobs:
   security-scoring:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
       - name: OpenSSF Scorecard Monitor
-        uses: UlisesGascon/openssf-scorecard-monitor@v1.0.1
+        uses: UlisesGascon/openssf-scorecard-monitor@e3526f91e57a02356942f85cd3da95ead823d28e # v2.0.0-beta2
         with:
           scope: tools/ossf_scorecard/scope.json
           database: tools/ossf_scorecard/database.json
@@ -27,5 +28,9 @@ jobs:
           auto-commit: true
           auto-push: true
           generate-issue: true
+          report-tags-enabled: true
           issue-title: "OpenSSF Scorecard Report Updated!"
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          max-request-in-parallel: 10
+          discovery-enabled: true
+          discovery-orgs: 'nodejs'
