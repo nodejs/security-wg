@@ -2,6 +2,7 @@
 [![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
 [![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
 [![OpenJS Slack Invite](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
+[![OpenSSF scorecard](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg/badge)](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg)
 # Ecosystem Security Working Group
 
 Table of Contents
