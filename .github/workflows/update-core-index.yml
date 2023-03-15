@@ -13,9 +13,9 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.4.0
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
       with:
         node-version: 18
 
@@ -28,7 +28,7 @@ jobs:
         npm run create-core-index
 
     - name: commit and push updated results
-      uses: github-actions-x/commit@v2.9
+      uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa # v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
