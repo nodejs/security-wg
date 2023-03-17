@@ -34,7 +34,7 @@ const coreModel = joi.object().keys({
   reported_by: joi.string().optional(),
   affectedEnvironments: joi
   .array()
-  .items(joi.string().valid("mac", "win", "linux"))
+  .items(joi.string().valid("osx", "win", "linux"))
   .min(1)
 });
 
