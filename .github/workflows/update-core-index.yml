@@ -7,7 +7,8 @@ on:
       - 'vuln/core/*.json'
       - '!vuln/core/index.json'
 
-permissions: [read, write]
+permissions:
+  contents: write
 
 jobs:
   stale:
