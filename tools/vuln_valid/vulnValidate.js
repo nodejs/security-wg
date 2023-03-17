@@ -36,6 +36,7 @@ const coreModel = joi.object().keys({
   .array()
   .items(joi.string().valid("osx", "win", "linux"))
   .min(1)
+  .required()
 });
 
 const npmModel = joi.object().keys({
