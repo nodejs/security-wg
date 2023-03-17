@@ -5,5 +5,5 @@
   "reported_by": "Alyssa Wilk",
   "ref": "https://hackerone.com/reports/730779",
   "overview": "HTTP header values do not have trailing OWS trimmed",
-  "affectedEnvironments": ["linux", "osx", "win"]
+  "affectedEnvironments": ["all"]
 }

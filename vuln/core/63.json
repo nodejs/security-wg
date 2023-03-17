@@ -5,5 +5,5 @@
   "reported_by": "Rogier Schouten",
   "ref": "https://hackerone.com/reports/746733",
   "overview": "Remotely trigger an assertion on a TLS server with a malformed certificate string",
-  "affectedEnvironments": ["linux", "osx", "win"]
+  "affectedEnvironments": ["all"]
 }

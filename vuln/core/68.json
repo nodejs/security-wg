@@ -5,5 +5,5 @@
   "reported_by": "Xiaoyi Shi",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
   "overview": "fs.realpath.native on may cause buffer overflow",
-  "affectedEnvironments": ["linux", "osx", "win"]
+  "affectedEnvironments": ["all"]
 }

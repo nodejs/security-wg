@@ -4,5 +4,5 @@
   "patched": " ^12.19.1 || ^14.15.1 || 15.2.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/november-2020-security-releases/",
   "overview": "Denial of Service through DNS request",
-  "affectedEnvironments": ["linux", "osx", "win"]
+  "affectedEnvironments": ["all"]
 }
