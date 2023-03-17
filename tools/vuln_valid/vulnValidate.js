@@ -31,7 +31,11 @@ const coreModel = joi.object().keys({
   type: joi.string().optional(),
   cvss_score: joi.number().optional(),
   cvss: joi.string().optional(),
-  reported_by: joi.string().optional()
+  reported_by: joi.string().optional(),
+  affectedEnvironments: joi
+  .array()
+  .items(joi.string().valid("mac", "win", "linux"))
+  .min(1)
 });
 
 const npmModel = joi.object().keys({
