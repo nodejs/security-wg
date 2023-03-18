@@ -34,8 +34,10 @@ const coreModel = joi.object().keys({
   reported_by: joi.string().optional(),
   affectedEnvironments: joi
   .array()
-  .items(joi.string().valid("mac", "win", "linux"))
+  // See: https://nodejs.org/api/os.html#osplatform
+  .items(joi.string().valid("all", "aix", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32", "android"))
   .min(1)
+  .required()
 });
 
 const npmModel = joi.object().keys({
