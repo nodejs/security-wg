@@ -3,5 +3,6 @@
   "vulnerable": "12.x || 14.x || 16.x || 17.x",
   "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
-  "overview": "Node.js converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532 for more details."
+  "overview": "Node.js converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532 for more details.",
+  "affectedEnvironments": ["all"]
 }

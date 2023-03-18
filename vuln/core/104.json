@@ -3,5 +3,6 @@
   "vulnerable": "14.x || 16.x || 18.x || 19.x",
   "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.2.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
-  "overview": "In some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service."
+  "overview": "In some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.",
+  "affectedEnvironments": ["all"]
 }

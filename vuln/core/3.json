@@ -6,5 +6,6 @@
   "vulnerable": "4.x || 5.x || 6.x || 7.x",
   "patched": "^4.7.3 || ^6.9.5 || ^7.5.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/openssl-january-2017/",
-  "overview": "This is a moderate severity flaw in OpenSSL. By default, Node.js disables RC4 so\nmost users are not affected. As RC4 can be enabled programmatically, it is\npossible for a Node.js developer to craft code that may be vulnerable to this\nflaw. Any user activating RC4 in their codebase should prioritise this update.\n\nAll active versions of Node.js are affected, but the severity is very low for\nmost users.\n\n"
+  "overview": "This is a moderate severity flaw in OpenSSL. By default, Node.js disables RC4 so\nmost users are not affected. As RC4 can be enabled programmatically, it is\npossible for a Node.js developer to craft code that may be vulnerable to this\nflaw. Any user activating RC4 in their codebase should prioritise this update.\n\nAll active versions of Node.js are affected, but the severity is very low for\nmost users.\n\n",
+  "affectedEnvironments": ["all"]
 }

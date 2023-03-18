@@ -7,5 +7,6 @@
   "patched": "^6.7.0 || ^4.6.0",
   "author": "Alexander Minozhenko and James Bunton (Atlassian)",
   "description": "invalid wildcard certificate validation check",
-  "overview": "Fix invalid wildcard certificate validation check whereby a TLS server may be\nable to serve an invalid wildcard certificate for its hostname due to improper\nvalidation of `*.` in the wildcard string. \n\nThis is a high severity defect that would allow a malicious TLS server to serve\nan invalid wildcard certificate for its hostname and be improperly validated by\na Node.js client. This is due to a flaw in the validation of *. in the wildcard\nname string.\n\n"
+  "overview": "Fix invalid wildcard certificate validation check whereby a TLS server may be\nable to serve an invalid wildcard certificate for its hostname due to improper\nvalidation of `*.` in the wildcard string. \n\nThis is a high severity defect that would allow a malicious TLS server to serve\nan invalid wildcard certificate for its hostname and be improperly validated by\na Node.js client. This is due to a flaw in the validation of *. in the wildcard\nname string.\n\n",
+  "affectedEnvironments": ["all"]
 }

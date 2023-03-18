@@ -4,5 +4,6 @@
   "patched": "^12.18.4 || ^14.11.0",
   "reported_by": "Amit Klein",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
-  "overview": "HTTP Request Smuggling due to CR-to-Hyphen conversion"
+  "overview": "HTTP Request Smuggling due to CR-to-Hyphen conversion",
+  "affectedEnvironments": ["all"]
 }

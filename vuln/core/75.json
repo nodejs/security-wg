@@ -3,5 +3,6 @@
   "vulnerable": " 10.x || 12.x || 14.x || 15.x",
   "patched": " ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/",
-  "overview": "OpenSSL - Integer overflow in CipherUpdate - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210216.txt"
+  "overview": "OpenSSL - Integer overflow in CipherUpdate - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210216.txt",
+  "affectedEnvironments": ["all"]
 }

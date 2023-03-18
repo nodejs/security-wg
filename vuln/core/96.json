@@ -3,5 +3,6 @@
   "vulnerable": "14.x || 16.x || 18.x",
   "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
-  "overview": "The IsAllowedHost check in https://github.com/nodejs/node/blob/fdf0a84e826d3a9ec0ce6f5a3f5adc967fe99408/src/inspector_socket.cc#L580 can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid or not. When an invalid IPv4 address is provided (for instance 10.0.2.555 is provided), the browser will make a DNS requests to the DNS server, providing a vector for an attacker-controlled DNS server to perform a rebinding attack and hence access the JSON file containing the WebSocket file.\n The fix we introduced in https://hackerone.com/reports/1069487 was not complete."
+  "overview": "The IsAllowedHost check in https://github.com/nodejs/node/blob/fdf0a84e826d3a9ec0ce6f5a3f5adc967fe99408/src/inspector_socket.cc#L580 can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid or not. When an invalid IPv4 address is provided (for instance 10.0.2.555 is provided), the browser will make a DNS requests to the DNS server, providing a vector for an attacker-controlled DNS server to perform a rebinding attack and hence access the JSON file containing the WebSocket file.\n The fix we introduced in https://hackerone.com/reports/1069487 was not complete.",
+  "affectedEnvironments": ["all"]
 }

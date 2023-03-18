@@ -4,5 +4,6 @@
   ],
   "vulnerable": "5.x || 4.x",
   "patched": "^5.6.0 || ^4.3.0",
-  "overview": "Fix defects in HTTP header parsing for requests and responses that\ncan allow response splitting (CVE-2016-2216).\n\nHTTP header parsing now aligns more closely with the HTTP spec\nincluding restricting the acceptable characters.\n\nIntroduce new `--security-revert={cvenum}` command line flag for selective\nreversion of specific CVE fixes allow the fix for CVE-2016-2216 to be\nselectively reverted using `--security-revert=CVE-2016-2216`.\n\n"
+  "overview": "Fix defects in HTTP header parsing for requests and responses that\ncan allow response splitting (CVE-2016-2216).\n\nHTTP header parsing now aligns more closely with the HTTP spec\nincluding restricting the acceptable characters.\n\nIntroduce new `--security-revert={cvenum}` command line flag for selective\nreversion of specific CVE fixes allow the fix for CVE-2016-2216 to be\nselectively reverted using `--security-revert=CVE-2016-2216`.\n\n",
+  "affectedEnvironments": ["all"]
 }

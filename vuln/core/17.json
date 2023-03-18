@@ -4,5 +4,6 @@
   "vulnerable": "6.x",
   "patched": "^6.7.0",
   "author": "Ahmed Zaki",
-  "overview": "Remove support for loading dynamic third-party engine modules. An attacker\nmay be able to hide malicious code to be inserted into Node.js at runtime by\nmasquerading as one of the dynamic engine modules. Originally reported by\n\n"
+  "overview": "Remove support for loading dynamic third-party engine modules. An attacker\nmay be able to hide malicious code to be inserted into Node.js at runtime by\nmasquerading as one of the dynamic engine modules. Originally reported by\n\n",
+  "affectedEnvironments": ["all"]
 }

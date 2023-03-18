@@ -3,5 +3,6 @@
   "vulnerable": "14.x || 16.x || 18.x || 19.x",
   "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
-  "overview": "The fetch API in Node.js did not prevent CRLF injection in the 'host' header potentially allowing attacks such as HTTP response splitting and HTTP header injection."
+  "overview": "The fetch API in Node.js did not prevent CRLF injection in the 'host' header potentially allowing attacks such as HTTP response splitting and HTTP header injection.",
+  "affectedEnvironments": ["all"]
 }

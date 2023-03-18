@@ -3,5 +3,6 @@
   "vulnerable": "12.x || 14.x || 16.x",
   "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
   "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
-  "overview": "If the Node.js https API was used incorrectly and \"undefined\" was in passed for the \"rejectUnauthorized\" parameter, no error was returned and connections to servers with an expired certificate would have been accepted. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22939"
+  "overview": "If the Node.js https API was used incorrectly and \"undefined\" was in passed for the \"rejectUnauthorized\" parameter, no error was returned and connections to servers with an expired certificate would have been accepted. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22939",
+  "affectedEnvironments": ["all"]
 }

@@ -3,5 +3,6 @@
   "vulnerable": "12.x || 14.x || 16.x || 17.x",
   "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
-  "overview": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531 for more details."
+  "overview": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531 for more details.",
+  "affectedEnvironments": ["all"]
 }

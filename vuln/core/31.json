@@ -5,5 +5,6 @@
   "vulnerable": "4.x || 5.x",
   "patched": "^4.3.2 || ^5.7.1",
   "ref": "https://github.com/nodejs/node/pull/5507",
-  "overview": "Fix a defect that can cause memory corruption in certain very rare cases\nrelating to the internal `BN_hex2bn()` and `BN_dec2bn()` functions. It is\nbelieved that Node.js is not invoking the code paths that use these functions so\npractical attacks via Node.js using this defect are _unlikely_ to be possible.\n\n"
+  "overview": "Fix a defect that can cause memory corruption in certain very rare cases\nrelating to the internal `BN_hex2bn()` and `BN_dec2bn()` functions. It is\nbelieved that Node.js is not invoking the code paths that use these functions so\npractical attacks via Node.js using this defect are _unlikely_ to be possible.\n\n",
+  "affectedEnvironments": ["all"]
 }

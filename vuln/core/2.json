@@ -3,5 +3,6 @@
   "vulnerable": "4.x || 5.x || 6.x || 7.x || 8.x",
   "patched": "^4.8.4 || ^6.11.1 || ^7.10.1 || ^8.1.4",
   "description": "DoS possible in V8 object lookup",
-  "overview": "Disable V8 snapshots - The hashseed embedded in the snapshot is\ncurrently the same for all runs of the binary. This opens node up to\ncollision attacks which could result in a Denial of Service. We have\ntemporarily disabled snapshots until a more robust solution is found\nFixed: Ali Ijaz Sheikh\nReported: Fedor Indutny\nref: https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/\n\n"
+  "overview": "Disable V8 snapshots - The hashseed embedded in the snapshot is\ncurrently the same for all runs of the binary. This opens node up to\ncollision attacks which could result in a Denial of Service. We have\ntemporarily disabled snapshots until a more robust solution is found\nFixed: Ali Ijaz Sheikh\nReported: Fedor Indutny\nref: https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/\n\n",
+  "affectedEnvironments": ["all"]
 }

@@ -3,5 +3,6 @@
   "vulnerable": " 12.x || 14.x || 16.x",
   "patched": " ^12.22.2 || ^14.17.2 || ^16.4.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/",
-  "overview": "Node.js is vulnerable to out-of-bounds read in libuv's uv__idna_toascii() function which is used to convert strings to ASCII. This is called by Node's dns module's lookup() function and can lead to information disclosures or crashes. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918"
+  "overview": "Node.js is vulnerable to out-of-bounds read in libuv's uv__idna_toascii() function which is used to convert strings to ASCII. This is called by Node's dns module's lookup() function and can lead to information disclosures or crashes. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918",
+  "affectedEnvironments": ["all"]
 }

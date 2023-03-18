@@ -5,5 +5,6 @@
   "vulnerable": "6.x",
   "patched": "^6.9.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2016-security-releases/",
-  "overview": "The V8 parser mishandled scopes, potentially allowing an attacker to obtain\nsensitive information from arbitrary memory locations via crafted JavaScript\ncode. This vulnerability would require an attacker to be able to execute\narbitrary JavaScript code in a Node.js process.\n\n"
+  "overview": "The V8 parser mishandled scopes, potentially allowing an attacker to obtain\nsensitive information from arbitrary memory locations via crafted JavaScript\ncode. This vulnerability would require an attacker to be able to execute\narbitrary JavaScript code in a Node.js process.\n\n",
+  "affectedEnvironments": ["all"]
 }

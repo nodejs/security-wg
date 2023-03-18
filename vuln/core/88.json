@@ -3,5 +3,6 @@
   "vulnerable": "12.x || 14.x || 16.x",
   "patched": " ^12.22.7 || ^14.18.1 || ^16.11.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/oct-2021-security-releases/",
-  "overview": "The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details."
+  "overview": "The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details.",
+  "affectedEnvironments": ["all"]
 }

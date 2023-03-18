@@ -9,5 +9,6 @@
   "description": "undefined language constructs that may have security impact",
   "vulnerable": "4.x || 5.x || 6.x || 7.x",
   "patched": "^4.8.2 || ^6.10.2 || ^7.6.0",
-  "overview": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+  "overview": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n",
+  "affectedEnvironments": ["all"]
 }

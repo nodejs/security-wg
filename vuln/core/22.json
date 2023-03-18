@@ -6,5 +6,6 @@
   "patched": "^4.4.4 || ^5.11.1 || ^6.1.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/openssl-may-2016/#cve-2016-2107-padding-oracle-in-aes-ni-cbc-mac-check",
   "description": "Padding oracle in AES-NI CBC MAC check",
-  "overview": "A man-in-the-middle (MITM) attacker may be able to execute a padding oracle\nattack to decrypt traffic when a connection uses an AES-CBC cipher and the\nserver runs on an Intel CPU supporting AES-NI. This is a common configuration\nfor TLS servers.\n\nThe OpenSSL project has labelled this vulnerability high severity.\n\n"
+  "overview": "A man-in-the-middle (MITM) attacker may be able to execute a padding oracle\nattack to decrypt traffic when a connection uses an AES-CBC cipher and the\nserver runs on an Intel CPU supporting AES-NI. This is a common configuration\nfor TLS servers.\n\nThe OpenSSL project has labelled this vulnerability high severity.\n\n",
+  "affectedEnvironments": ["all"]
 }
