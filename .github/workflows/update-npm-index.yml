@@ -21,8 +21,7 @@ jobs:
         node-version: 18
 
     - name: Install deps
-      run: |
-        npm install
+      run: npm ci
 
     - name: Update npm index.json
       run: |
