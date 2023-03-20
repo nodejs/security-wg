@@ -1,1 +1,490 @@
-{"66":{"cve":["CVE-2020-8201"],"vulnerable":"12.x || 14.x","patched":"^12.18.4 || ^14.11.0","reported_by":"Amit Klein","ref":"https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/","overview":"HTTP Request Smuggling due to CR-to-Hyphen conversion","affectedEnvironments":["linux","osx","win"]},"67":{"cve":["CVE-2020-8251"],"vulnerable":"14.x","patched":"^14.11.0","reported_by":"Paolo Insogna and Matteo Collina","ref":"https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/","overview":"Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests","affectedEnvironments":["linux","osx","win"]},"68":{"cve":["CVE-2020-8252"],"vulnerable":"10.x || 12.x || 14.x","patched":"^10.22.1 || ^12.18.4 || ^14.9.0","reported_by":"Xiaoyi Shi","ref":"https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/","overview":"fs.realpath.native on may cause buffer overflow","affectedEnvironments":["linux","osx","win"]},"69":{"cve":["CVE-2020-8277"],"vulnerable":" 12.x || 14.x || 15.x","patched":" ^12.19.1 || ^14.15.1 || 15.2.1","ref":"https://nodejs.org/en/blog/vulnerability/november-2020-security-releases/","overview":"Denial of Service through DNS request","affectedEnvironments":["linux","osx","win"]},"70":{"cve":["CVE-2020-8265"],"vulnerable":"10.x || 12.x || 14.x || 15.x","patched":"^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.1","ref":"https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/","overview":"use-after-free in TLSWrap - affected Node.js versions are vulnerable to a use-after-free bug in its TLS implementation. When writing to a TLS enabled socket, node::StreamBase::Write calls node::TLSWrap::DoWrite with a freshly allocated WriteWrap object as first argument. If the DoWrite method does not return an error, this object is passed back to the caller as part of a StreamWriteResult structure. This may be exploited to corrupt memory leading to a Denial of Service or potentially other exploits.","affectedEnvironments":["linux","osx","win"]},"71":{"cve":["CVE-2020-8287"],"vulnerable":"10.x || 12.x || 14.x || 15.x","patched":"^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.1","ref":"https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/","overview":"HTTP Request Smuggling in nodejs - Affected versions of Node.js allow two copies of a header field in a http request. For example, two Transfer-Encoding header fields. In this case Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling (https://cwe.mitre.org/data/definitions/444.html)","affectedEnvironments":["linux","osx","win"]},"72":{"cve":["CVE-2020-1971"],"vulnerable":"10.x || 12.x || 14.x || 15.x","patched":"^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.0","ref":"https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/","overview":"OpenSSL - EDIPARTYNAME NULL pointer de-reference - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20201208.txt","affectedEnvironments":["linux","osx","win"]},"73":{"cve":["CVE-2021-22883"],"vulnerable":" 10.x || 12.x || 14.x || 15.x","patched":" ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0","ref":"https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/","overview":"HTTP2 'unknownProtocol' cause Denial of Service by resource exhaustion - Affected Node.js versions are vulnerable to denial of service attacks when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory.","affectedEnvironments":["linux","osx","win"]},"74":{"cve":["CVE-2021-22884"],"vulnerable":" 10.x || 12.x || 14.x || 15.x","patched":" ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0","ref":"https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/","overview":"DNS rebinding in --inspect - Affected Node.js versions are vulnerable to denial of service attacks when the whitelist includes “localhost6”. When “localhost6” is not present in /etc/hosts, it is just an ordinary domain that is resolved via DNS, i.e., over network. If the attacker controls the victim's DNS server or can spoof its responses, the DNS rebinding protection can be bypassed by using the “localhost6” domain. As long as the attacker uses the “localhost6” domain, they can still apply the attack described in CVE-2018-7160.","affectedEnvironments":["linux","osx","win"]},"75":{"cve":["CVE-2021-23840"],"vulnerable":" 10.x || 12.x || 14.x || 15.x","patched":" ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0","ref":"https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/","overview":"OpenSSL - Integer overflow in CipherUpdate - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210216.txt","affectedEnvironments":["linux","osx","win"]},"76":{"cve":["CVE-2021-3450"],"vulnerable":" 10.x || 12.x || 14.x || 15.x","patched":" ^10.24.1 || ^12.22.1 || ^14.16.1 || ^15.14.0","ref":"https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/","overview":"This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt","affectedEnvironments":["linux","osx","win"]},"77":{"cve":["CVE-2021-3449"],"vulnerable":" 10.x || 12.x || 14.x || 15.x","patched":" ^10.24.1 || ^12.22.1 || ^14.16.1 || ^15.14.0","ref":"https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/","overview":"This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt","affectedEnvironments":["linux","osx","win"]},"78":{"cve":["CVE-2020-7774"],"vulnerable":" 10.x || 12.x || 14.x","patched":" ^10.24.1 || ^12.22.1 || ^14.16.1","ref":"https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/","overview":"This is a vulnerability in the y18n npm module which may be exploited by prototype pollution. You can read more about it in https://github.com/advisories/GHSA-c4w7-xm78-47vh","affectedEnvironments":["linux","osx","win"]},"79":{"cve":["CVE-2021-22930"],"vulnerable":" 12.x || 14.x || 16.x","patched":" ^12.22.4 || ^14.17.4 || ^16.6.0","ref":"https://nodejs.org/en/blog/vulnerability/july-2021-security-releases-2/","overview":"Node.js before is vulnerable to a use after free attack where an attacker might be able to exploit the memory corruption, to change process behavior. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22930","affectedEnvironments":["linux","osx","win"]},"80":{"cve":["CVE-2021-22921"],"vulnerable":" 12.x || 14.x || 16.x","patched":" ^12.22.2 || ^14.17.2 || ^16.4.1","ref":"https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/","overview":"Node.js is vulnerable to local privilege escalation attacks under certain conditions on Windows platforms. More specifically, improper configuration of permissions in the installation directory allows an attacker to perform two different escalation attacks: PATH and DLL hijacking. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22921","affectedEnvironments":["win"]},"83":{"cve":["CVE-2021-22918"],"vulnerable":" 12.x || 14.x || 16.x","patched":" ^12.22.2 || ^14.17.2 || ^16.4.1","ref":"https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/","overview":"Node.js is vulnerable to out-of-bounds read in libuv's uv__idna_toascii() function which is used to convert strings to ASCII. This is called by Node's dns module's lookup() function and can lead to information disclosures or crashes. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918","affectedEnvironments":["linux","osx","win"]},"84":{"cve":["CVE-2021-22931"],"vulnerable":"12.x || 14.x || 16.x","patched":"^12.22.5 || ^14.17.5 || ^16.6.2","ref":"https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/","overview":"Node.js was vulnerable to Remote Code Execution, XSS, application crashes due to missing input validation of host names returned by Domain Name Servers in the Node.js DNS library which can lead to output of wrong hostnames (leading to Domain Hijacking) and injection vulnerabilities in applications using the library. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22931","affectedEnvironments":["linux","osx","win"]},"85":{"cve":["CVE-2021-22940"],"vulnerable":"12.x || 14.x || 16.x","patched":"^12.22.5 || ^14.17.5 || ^16.6.2","ref":"https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/","overview":"Node.js was vulnerable to a use after free attack where an attacker might be able to exploit memory corruption to change process behavior. The issue is a follow on to CVE-2021-22930 as the issue was not completely resolved in the fix for CVE-2021-22930. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22940","affectedEnvironments":["linux","osx","win"]},"86":{"cve":["CVE-2021-22939"],"vulnerable":"12.x || 14.x || 16.x","patched":"^12.22.5 || ^14.17.5 || ^16.6.2","ref":"https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/","overview":"If the Node.js https API was used incorrectly and \"undefined\" was in passed for the \"rejectUnauthorized\" parameter, no error was returned and connections to servers with an expired certificate would have been accepted. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22939","affectedEnvironments":["linux","osx","win"]},"87":{"cve":["CVE-2021-37701","CVE-2021-37712","CVE-2021-37713","CVE-2021-39134","CVE-2021-39135"],"vulnerable":" 12.x || 14.x","patched":" ^12.22.6 || ^14.17.6","ref":"https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases2/","overview":"npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2","affectedEnvironments":["linux","osx","win"]},"88":{"cve":["CVE-2021-22959","CVE-2021-22960"],"vulnerable":"12.x || 14.x || 16.x","patched":" ^12.22.7 || ^14.18.1 || ^16.11.1","ref":"https://nodejs.org/en/blog/vulnerability/oct-2021-security-releases/","overview":"The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details.","affectedEnvironments":["linux","osx","win"]},"89":{"cve":["CVE-2021-44531"],"vulnerable":"12.x || 14.x || 16.x || 17.x","patched":"^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1","ref":"https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/","overview":"Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531 for more details.","affectedEnvironments":["linux","osx","win"]},"90":{"cve":["CVE-2021-44532"],"vulnerable":"12.x || 14.x || 16.x || 17.x","patched":"^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1","ref":"https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/","overview":"Node.js converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532 for more details.","affectedEnvironments":["linux","osx","win"]},"91":{"cve":["CVE-2021-44533"],"vulnerable":"12.x || 14.x || 16.x || 17.x","patched":"^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1","ref":"https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/","overview":"Node.js did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44533 for more details.","affectedEnvironments":["linux","osx","win"]},"92":{"cve":["CVE-2022-21824"],"vulnerable":"12.x || 14.x || 16.x || 17.x","patched":"^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1","ref":"https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/","overview":"Due to the formatting logic of the console.table() function it was not safe to allow user controlled input to be passed to the properties parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be __proto__. The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824 for more details.","affectedEnvironments":["linux","osx","win"]},"93":{"cve":["CVE-2022-0778"],"vulnerable":"12.x || 14.x || 16.x || 17.x","patched":"^12.22.11 || ^14.19.1 || ^16.14.2 || ^17.7.2","ref":"https://nodejs.org/en/blog/vulnerability/mar-2022-security-releases/","overview":"This is a vulnerability in OpenSSL: Infinite loop in BN_mod_sqrt() reachable when parsing certificates. More details are available at https://www.openssl.org/news/secadv/20220315.txt.","affectedEnvironments":["linux","osx","win"]},"94":{"cve":["CVE-2022-32215"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.1 || ^16.17.1 || ^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"The llhttp parser in the http module in Node does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).","affectedEnvironments":["linux","osx","win"]},"95":{"cve":["CVE-2022-32214"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.0 || ^16.20.0 || ^18.5.0","ref":"https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/","overview":"The llhttp parser in the http module in Node.js does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).","affectedEnvironments":["linux","osx","win"]},"96":{"cve":["CVE-2022-32212"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.1 || ^16.17.1 || ^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"The IsAllowedHost check in https://github.com/nodejs/node/blob/fdf0a84e826d3a9ec0ce6f5a3f5adc967fe99408/src/inspector_socket.cc#L580 can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid or not. When an invalid IPv4 address is provided (for instance 10.0.2.555 is provided), the browser will make a DNS requests to the DNS server, providing a vector for an attacker-controlled DNS server to perform a rebinding attack and hence access the JSON file containing the WebSocket file.\n The fix we introduced in https://hackerone.com/reports/1069487 was not complete.","affectedEnvironments":["linux","osx","win"]},"97":{"cve":["CVE-2022-32213"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.1 || ^16.17.1 || ^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"The llhttp parser in the http module in Node.js does not correctly parse and validate Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).","affectedEnvironments":["linux","osx","win"]},"98":{"cve":["CVE-2022-32223"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.0 || ^16.20.0 || ^18.5.0","ref":"https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/","overview":"Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.\nThis vulnerability can be exploited if the victim has the following dependencies on a Windows machine:\n* OpenSSL has been installed and “C:\\Program Files\\Common Files\\SSL\\openssl.cnf” exists.\n\nWhenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.\nAfter that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.\n\nIt is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability.","affectedEnvironments":["win"]},"99":{"cve":["CVE-2022-32222"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.0 || ^16.20.0 || ^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"On linux, versions of 18.x prior to Y used a default path for openssl.cnf  that was within a path that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.","affectedEnvironments":["linux"]},"100":{"cve":["CVE-2022-35256"],"vulnerable":"14.x || 16.x || 18.x","patched":"^14.20.1 || ^16.17.1 || ^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"The llhttp parser in the http module in Node.js v18.7.0 does not correctly handle header fields that are not terminated with CLRF. This may result in HTTP Request Smuggling.","affectedEnvironments":["linux","osx","win"]},"101":{"cve":["CVE-2022-35255"],"vulnerable":"18.x","patched":"^18.9.1","ref":"https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/","overview":"Node.js made calls to EntropySource() in SecretKeyGenTraits::DoKeyGen() in src/crypto/crypto_keygen.cc. However, it does not check the return value, it assumes EntropySource() always succeeds, but it can (and sometimes will) fail.","affectedEnvironments":["linux","osx","win"]},"102":{"cve":["CVE-2022-43548"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.1 || ^16.18.1 || ^18.12.1 || ^19.0.1","ref":"https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/","overview":"The Node.js rebinding protector for --inspect still allows invalid IP address, specifically, the octal format.","affectedEnvironments":["linux","osx","win"]},"103":{"cve":["CVE-2023-23918"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1","ref":"https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/","overview":"It was possible to bypass Permissions and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.","affectedEnvironments":["linux","osx","win"]},"104":{"cve":["CVE-2023-23919"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.2.0","ref":"https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/","overview":"In some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.","affectedEnvironments":["linux","osx","win"]},"105":{"cve":["CVE-2023-23936"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1","ref":"https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/","overview":"The fetch API in Node.js did not prevent CRLF injection in the 'host' header potentially allowing attacks such as HTTP response splitting and HTTP header injection.","affectedEnvironments":["linux","osx","win"]},"106":{"cve":["CVE-2023-24807"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1","ref":"https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/","overview":"The Headers.set() and Headers.append() methods in the fetch API in Node.js where vulnerable to Regular a Expression Denial of Service (ReDoS) attacks.","affectedEnvironments":["linux","osx","win"]},"107":{"cve":["CVE-2023-23920"],"vulnerable":"14.x || 16.x || 18.x || 19.x","patched":"^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1","ref":"https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/","overview":"Node.js would search and potentially load ICU data when running with elevated priviledges. Node.js was modified to build with ICU_NO_USER_DATA_OVERRIDE to avoid this.","affectedEnvironments":["linux","osx","win"]}}
+{
+  "66": {
+    "cve": [
+      "CVE-2020-8201"
+    ],
+    "vulnerable": "12.x || 14.x",
+    "patched": "^12.18.4 || ^14.11.0",
+    "reported_by": "Amit Klein",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
+    "overview": "HTTP Request Smuggling due to CR-to-Hyphen conversion",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "67": {
+    "cve": [
+      "CVE-2020-8251"
+    ],
+    "vulnerable": "14.x",
+    "patched": "^14.11.0",
+    "reported_by": "Paolo Insogna and Matteo Collina",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
+    "overview": "Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "68": {
+    "cve": [
+      "CVE-2020-8252"
+    ],
+    "vulnerable": "10.x || 12.x || 14.x",
+    "patched": "^10.22.1 || ^12.18.4 || ^14.9.0",
+    "reported_by": "Xiaoyi Shi",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
+    "overview": "fs.realpath.native on may cause buffer overflow",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "69": {
+    "cve": [
+      "CVE-2020-8277"
+    ],
+    "vulnerable": " 12.x || 14.x || 15.x",
+    "patched": " ^12.19.1 || ^14.15.1 || 15.2.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/november-2020-security-releases/",
+    "overview": "Denial of Service through DNS request",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "70": {
+    "cve": [
+      "CVE-2020-8265"
+    ],
+    "vulnerable": "10.x || 12.x || 14.x || 15.x",
+    "patched": "^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/",
+    "overview": "use-after-free in TLSWrap - affected Node.js versions are vulnerable to a use-after-free bug in its TLS implementation. When writing to a TLS enabled socket, node::StreamBase::Write calls node::TLSWrap::DoWrite with a freshly allocated WriteWrap object as first argument. If the DoWrite method does not return an error, this object is passed back to the caller as part of a StreamWriteResult structure. This may be exploited to corrupt memory leading to a Denial of Service or potentially other exploits.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "71": {
+    "cve": [
+      "CVE-2020-8287"
+    ],
+    "vulnerable": "10.x || 12.x || 14.x || 15.x",
+    "patched": "^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/",
+    "overview": "HTTP Request Smuggling in nodejs - Affected versions of Node.js allow two copies of a header field in a http request. For example, two Transfer-Encoding header fields. In this case Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling (https://cwe.mitre.org/data/definitions/444.html)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "72": {
+    "cve": [
+      "CVE-2020-1971"
+    ],
+    "vulnerable": "10.x || 12.x || 14.x || 15.x",
+    "patched": "^10.23.1 || ^12.20.1 || ^14.15.4 || ^15.5.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2021-security-releases/",
+    "overview": "OpenSSL - EDIPARTYNAME NULL pointer de-reference - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20201208.txt",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "73": {
+    "cve": [
+      "CVE-2021-22883"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x || 15.x",
+    "patched": " ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/",
+    "overview": "HTTP2 'unknownProtocol' cause Denial of Service by resource exhaustion - Affected Node.js versions are vulnerable to denial of service attacks when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "74": {
+    "cve": [
+      "CVE-2021-22884"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x || 15.x",
+    "patched": " ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/",
+    "overview": "DNS rebinding in --inspect - Affected Node.js versions are vulnerable to denial of service attacks when the whitelist includes “localhost6”. When “localhost6” is not present in /etc/hosts, it is just an ordinary domain that is resolved via DNS, i.e., over network. If the attacker controls the victim's DNS server or can spoof its responses, the DNS rebinding protection can be bypassed by using the “localhost6” domain. As long as the attacker uses the “localhost6” domain, they can still apply the attack described in CVE-2018-7160.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "75": {
+    "cve": [
+      "CVE-2021-23840"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x || 15.x",
+    "patched": " ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/",
+    "overview": "OpenSSL - Integer overflow in CipherUpdate - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210216.txt",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "76": {
+    "cve": [
+      "CVE-2021-3450"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x || 15.x",
+    "patched": " ^10.24.1 || ^12.22.1 || ^14.16.1 || ^15.14.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/",
+    "overview": "This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "77": {
+    "cve": [
+      "CVE-2021-3449"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x || 15.x",
+    "patched": " ^10.24.1 || ^12.22.1 || ^14.16.1 || ^15.14.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/",
+    "overview": "This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "78": {
+    "cve": [
+      "CVE-2020-7774"
+    ],
+    "vulnerable": " 10.x || 12.x || 14.x",
+    "patched": " ^10.24.1 || ^12.22.1 || ^14.16.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/april-2021-security-releases/",
+    "overview": "This is a vulnerability in the y18n npm module which may be exploited by prototype pollution. You can read more about it in https://github.com/advisories/GHSA-c4w7-xm78-47vh",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "79": {
+    "cve": [
+      "CVE-2021-22930"
+    ],
+    "vulnerable": " 12.x || 14.x || 16.x",
+    "patched": " ^12.22.4 || ^14.17.4 || ^16.6.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases-2/",
+    "overview": "Node.js before is vulnerable to a use after free attack where an attacker might be able to exploit the memory corruption, to change process behavior. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22930",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "80": {
+    "cve": [
+      "CVE-2021-22921"
+    ],
+    "vulnerable": " 12.x || 14.x || 16.x",
+    "patched": " ^12.22.2 || ^14.17.2 || ^16.4.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/",
+    "overview": "Node.js is vulnerable to local privilege escalation attacks under certain conditions on Windows platforms. More specifically, improper configuration of permissions in the installation directory allows an attacker to perform two different escalation attacks: PATH and DLL hijacking. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22921",
+    "affectedEnvironments": [
+      "win32"
+    ]
+  },
+  "83": {
+    "cve": [
+      "CVE-2021-22918"
+    ],
+    "vulnerable": " 12.x || 14.x || 16.x",
+    "patched": " ^12.22.2 || ^14.17.2 || ^16.4.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2021-security-releases/",
+    "overview": "Node.js is vulnerable to out-of-bounds read in libuv's uv__idna_toascii() function which is used to convert strings to ASCII. This is called by Node's dns module's lookup() function and can lead to information disclosures or crashes. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "84": {
+    "cve": [
+      "CVE-2021-22931"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x",
+    "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
+    "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
+    "overview": "Node.js was vulnerable to Remote Code Execution, XSS, application crashes due to missing input validation of host names returned by Domain Name Servers in the Node.js DNS library which can lead to output of wrong hostnames (leading to Domain Hijacking) and injection vulnerabilities in applications using the library. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22931",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "85": {
+    "cve": [
+      "CVE-2021-22940"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x",
+    "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
+    "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
+    "overview": "Node.js was vulnerable to a use after free attack where an attacker might be able to exploit memory corruption to change process behavior. The issue is a follow on to CVE-2021-22930 as the issue was not completely resolved in the fix for CVE-2021-22930. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22940",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "86": {
+    "cve": [
+      "CVE-2021-22939"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x",
+    "patched": "^12.22.5 || ^14.17.5 || ^16.6.2",
+    "ref": "https://https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/",
+    "overview": "If the Node.js https API was used incorrectly and \"undefined\" was in passed for the \"rejectUnauthorized\" parameter, no error was returned and connections to servers with an expired certificate would have been accepted. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22939",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "87": {
+    "cve": [
+      "CVE-2021-37701",
+      "CVE-2021-37712",
+      "CVE-2021-37713",
+      "CVE-2021-39134",
+      "CVE-2021-39135"
+    ],
+    "vulnerable": " 12.x || 14.x",
+    "patched": " ^12.22.6 || ^14.17.6",
+    "ref": "https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases2/",
+    "overview": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "88": {
+    "cve": [
+      "CVE-2021-22959",
+      "CVE-2021-22960"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x",
+    "patched": " ^12.22.7 || ^14.18.1 || ^16.11.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/oct-2021-security-releases/",
+    "overview": "The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "89": {
+    "cve": [
+      "CVE-2021-44531"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x || 17.x",
+    "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+    "overview": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531 for more details.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "90": {
+    "cve": [
+      "CVE-2021-44532"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x || 17.x",
+    "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+    "overview": "Node.js converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532 for more details.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "91": {
+    "cve": [
+      "CVE-2021-44533"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x || 17.x",
+    "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+    "overview": "Node.js did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44533 for more details.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "92": {
+    "cve": [
+      "CVE-2022-21824"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x || 17.x",
+    "patched": "^12.22.9 || ^14.18.3 || ^16.13.2 || ^17.3.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+    "overview": "Due to the formatting logic of the console.table() function it was not safe to allow user controlled input to be passed to the properties parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be __proto__. The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824 for more details.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "93": {
+    "cve": [
+      "CVE-2022-0778"
+    ],
+    "vulnerable": "12.x || 14.x || 16.x || 17.x",
+    "patched": "^12.22.11 || ^14.19.1 || ^16.14.2 || ^17.7.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/mar-2022-security-releases/",
+    "overview": "This is a vulnerability in OpenSSL: Infinite loop in BN_mod_sqrt() reachable when parsing certificates. More details are available at https://www.openssl.org/news/secadv/20220315.txt.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "94": {
+    "cve": [
+      "CVE-2022-32215"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "The llhttp parser in the http module in Node does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "95": {
+    "cve": [
+      "CVE-2022-32214"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.0 || ^16.20.0 || ^18.5.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/",
+    "overview": "The llhttp parser in the http module in Node.js does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "96": {
+    "cve": [
+      "CVE-2022-32212"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "The IsAllowedHost check in https://github.com/nodejs/node/blob/fdf0a84e826d3a9ec0ce6f5a3f5adc967fe99408/src/inspector_socket.cc#L580 can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid or not. When an invalid IPv4 address is provided (for instance 10.0.2.555 is provided), the browser will make a DNS requests to the DNS server, providing a vector for an attacker-controlled DNS server to perform a rebinding attack and hence access the JSON file containing the WebSocket file.\n The fix we introduced in https://hackerone.com/reports/1069487 was not complete.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "97": {
+    "cve": [
+      "CVE-2022-32213"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "The llhttp parser in the http module in Node.js does not correctly parse and validate Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "98": {
+    "cve": [
+      "CVE-2022-32223"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.0 || ^16.20.0 || ^18.5.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/",
+    "overview": "Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.\nThis vulnerability can be exploited if the victim has the following dependencies on a Windows machine:\n* OpenSSL has been installed and “C:\\Program Files\\Common Files\\SSL\\openssl.cnf” exists.\n\nWhenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.\nAfter that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.\n\nIt is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability.",
+    "affectedEnvironments": [
+      "win32"
+    ]
+  },
+  "99": {
+    "cve": [
+      "CVE-2022-32222"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.0 || ^16.20.0 || ^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "On linux, versions of 18.x prior to Y used a default path for openssl.cnf  that was within a path that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.",
+    "affectedEnvironments": [
+      "linux"
+    ]
+  },
+  "100": {
+    "cve": [
+      "CVE-2022-35256"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x",
+    "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "The llhttp parser in the http module in Node.js v18.7.0 does not correctly handle header fields that are not terminated with CLRF. This may result in HTTP Request Smuggling.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "101": {
+    "cve": [
+      "CVE-2022-35255"
+    ],
+    "vulnerable": "18.x",
+    "patched": "^18.9.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
+    "overview": "Node.js made calls to EntropySource() in SecretKeyGenTraits::DoKeyGen() in src/crypto/crypto_keygen.cc. However, it does not check the return value, it assumes EntropySource() always succeeds, but it can (and sometimes will) fail.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "102": {
+    "cve": [
+      "CVE-2022-43548"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.1 || ^16.18.1 || ^18.12.1 || ^19.0.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/",
+    "overview": "The Node.js rebinding protector for --inspect still allows invalid IP address, specifically, the octal format.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "103": {
+    "cve": [
+      "CVE-2023-23918"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+    "overview": "It was possible to bypass Permissions and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "104": {
+    "cve": [
+      "CVE-2023-23919"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.2.0",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+    "overview": "In some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "105": {
+    "cve": [
+      "CVE-2023-23936"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+    "overview": "The fetch API in Node.js did not prevent CRLF injection in the 'host' header potentially allowing attacks such as HTTP response splitting and HTTP header injection.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "106": {
+    "cve": [
+      "CVE-2023-24807"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+    "overview": "The Headers.set() and Headers.append() methods in the fetch API in Node.js where vulnerable to Regular a Expression Denial of Service (ReDoS) attacks.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "107": {
+    "cve": [
+      "CVE-2023-23920"
+    ],
+    "vulnerable": "14.x || 16.x || 18.x || 19.x",
+    "patched": "^14.21.3 || ^16.19.1 || ^18.14.1 || ^19.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2023-security-releases/",
+    "overview": "Node.js would search and potentially load ICU data when running with elevated priviledges. Node.js was modified to build with ICU_NO_USER_DATA_OVERRIDE to avoid this.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  }
+}
