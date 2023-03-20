@@ -13,6 +13,10 @@ const createIndex = function (vulnDirectoryPath) {
 const supportedVersions = ['14.0.0', '16.0.0', '18.0.0', '19.0.0']
 
 const supportedVersionAffected = function (json) {
+  // NPM vulns don't have a vulnerable property
+  if(!json.vulnerable ){
+    return true
+  }
   for (const version of supportedVersions) {
     if (satisfies(version, json.vulnerable)) {
       return true
