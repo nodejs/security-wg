@@ -39,7 +39,7 @@ const createVulnObject = function(identifier, json) {
 }
 
 const writeIndex = function(data, vulnDirectoryPath) {
-  fs.writeFileSync(vulnDirectoryPath + 'index.json', JSON.stringify(data))
+  fs.writeFileSync(vulnDirectoryPath + 'index.json', JSON.stringify(data, null, 2))
 
   if(vulnDirectoryPath === './vuln/core/') {
     console.log('Succesfully wrote ' + vulnDirectoryPath + 'index.json for core vulnerabilities.')
