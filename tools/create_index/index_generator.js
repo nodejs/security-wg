@@ -14,7 +14,7 @@ const supportedVersions = ['14.0.0', '16.0.0', '18.0.0', '19.0.0']
 
 const supportedVersionAffected = function (json) {
   for (const version of supportedVersions) {
-    if (satisfies(version, json.vulnerable)) {
+    if (!json.vulnerable || satisfies(version, json.vulnerable)) {
       return true
     }
   }
