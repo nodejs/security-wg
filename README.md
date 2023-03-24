@@ -55,7 +55,7 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 | Initiative           | Champion                                         | Status                                   | Links
 |----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
 | Permission Model | [@RafaelGSS](https://github.com/RafaelGSS) |  In Progress | [PR #44004](https://github.com/nodejs/node/pull/44004)
-| Automate update dependencies | [@facutuesca](https://github.com/facutuesca) | In Progress | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
+| Automate update dependencies | [@marco-ippolito](https://github.com/marco-ippolito) | In Progress | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
 | Assessment against best practices | [@fraxken](https://github.com/fraxken) | In Progress | [Issue #859](https://github.com/nodejs/security-wg/issues/859)
 | Automate Security release process | [@RafaelGSS](https://github.com/RafaelGSS) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 
