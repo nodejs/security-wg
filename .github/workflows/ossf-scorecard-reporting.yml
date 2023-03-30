@@ -1,0 +1,41 @@
+name: "OpenSSF Scoring"
+on: 
+  # Scheduled trigger
+  schedule:
+    # Run every Sunday at 00:00
+    - cron: "0 0 * * 0"
+  # Manual trigger
+  workflow_dispatch:
+
+# Permissions required to run this workflow (create issue and commit/push changes)
+permissions:
+  contents: write
+  pull-requests: none 
+  issues: write
+  packages: none
+
+jobs:
+  security-scoring:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@1f99358870fe1c846a3ccba386cc2b2246836776 # v2.2.1
+        with:
+          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
+
+      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3.3.0
+      - name: OpenSSF Scorecard Monitor
+        uses: UlisesGascon/openssf-scorecard-monitor@e3526f91e57a02356942f85cd3da95ead823d28e # v2.0.0-beta2
+        with:
+          scope: tools/ossf_scorecard/scope.json
+          database: tools/ossf_scorecard/database.json
+          report: tools/ossf_scorecard/report.md
+          auto-commit: true
+          auto-push: true
+          generate-issue: true
+          report-tags-enabled: true
+          issue-title: "OpenSSF Scorecard Report Updated!"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          max-request-in-parallel: 10
+          discovery-enabled: true
+          discovery-orgs: 'nodejs'

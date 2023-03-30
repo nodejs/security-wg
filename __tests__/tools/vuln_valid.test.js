@@ -25,7 +25,7 @@ describe("Testing vuln_valid", () => {
       vulnValid.validateVuln(vulnPathsPass.npm + "/1.json", vulnValid.npmModel)
     ).not.toThrow();
     expect(() =>
-      vulnValid.validateVuln(vulnPathsFail.core + "/1.json", vulnValid.npmModel)
+      vulnValid.validateVuln(vulnPathsFail.npm + "/1.json", vulnValid.npmModel)
     ).toThrow();
   });
 });

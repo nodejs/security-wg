@@ -4,5 +4,6 @@
   "patched": "^10.19.0 || ^12.15.0 || ^13.8.0",
   "reported_by": "Alyssa Wilk",
   "ref": "https://hackerone.com/reports/730779",
-  "overview": "HTTP header values do not have trailing OWS trimmed"
+  "overview": "HTTP header values do not have trailing OWS trimmed",
+  "affectedEnvironments": ["all"]
 }

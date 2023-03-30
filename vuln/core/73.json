@@ -3,5 +3,6 @@
   "vulnerable": " 10.x || 12.x || 14.x || 15.x",
   "patched": " ^10.24.0 || ^12.21.0 || ^14.16.0 || ^15.10.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2021-security-releases/",
-  "overview": "HTTP2 'unknownProtocol' cause Denial of Service by resource exhaustion - Affected Node.js versions are vulnerable to denial of service attacks when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory."
+  "overview": "HTTP2 'unknownProtocol' cause Denial of Service by resource exhaustion - Affected Node.js versions are vulnerable to denial of service attacks when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory.",
+  "affectedEnvironments": ["all"]
 }

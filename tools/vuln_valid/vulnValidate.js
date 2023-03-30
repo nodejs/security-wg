@@ -31,7 +31,13 @@ const coreModel = joi.object().keys({
   type: joi.string().optional(),
   cvss_score: joi.number().optional(),
   cvss: joi.string().optional(),
-  reported_by: joi.string().optional()
+  reported_by: joi.string().optional(),
+  affectedEnvironments: joi
+  .array()
+  // See: https://nodejs.org/api/os.html#osplatform
+  .items(joi.string().valid("all", "aix", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32", "android"))
+  .min(1)
+  .required()
 });
 
 const npmModel = joi.object().keys({
@@ -124,6 +130,8 @@ function validateVuln(filePath, model) {
 function validate(dir, model) {
  const files = fs.readdirSync(dir);
   for (const name of files) {
+    // skip index.json validation
+    if (name === 'index.json') continue;
     const filePath = path.join(dir, name);
     validateVuln(filePath, model);
   }

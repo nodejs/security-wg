@@ -4,5 +4,6 @@
   "patched": "^10.22.1 || ^12.18.4 || ^14.9.0",
   "reported_by": "Xiaoyi Shi",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
-  "overview": "fs.realpath.native on may cause buffer overflow"
+  "overview": "fs.realpath.native on may cause buffer overflow",
+  "affectedEnvironments": ["all"]
 }

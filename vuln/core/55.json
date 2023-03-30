@@ -9,5 +9,6 @@
   "reported_by": "Arkadiy Tetelman",
   "ref": "https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/",
   "type": "CWE-115: Misinterpretation of Input",
-  "overview": "HTTP request splitting: If Node.js can be convinced to use unsanitized user-provided Unicode data for the `path` option of an HTTP request, then data can be provided which will trigger a second, unexpected, and user-defined HTTP request to made to the same server."
+  "overview": "HTTP request splitting: If Node.js can be convinced to use unsanitized user-provided Unicode data for the `path` option of an HTTP request, then data can be provided which will trigger a second, unexpected, and user-defined HTTP request to made to the same server.",
+  "affectedEnvironments": ["all"]
 }

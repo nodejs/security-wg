@@ -1,0 +1,43 @@
+name: "Update npm index.json"
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vuln/npm/*.json'
+      - '!vuln/npm/index.json'
+
+permissions:
+  contents: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Harden Runner
+      uses: step-security/harden-runner@1f99358870fe1c846a3ccba386cc2b2246836776 # v2.2.1
+      with:
+        egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
+
+    - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3.5.0
+
+    - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0 
+      with:
+        node-version: 18
+
+    - name: Install deps
+      run: npm ci
+
+    - name: Update npm index.json
+      run: |
+        npm run create-npm-index
+
+    - name: commit and push updated results
+      uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa # v2.9
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'main'
+        commit-message: 'vuln: update npm index.json'
+        rebase: 'true'
+        files: vuln/npm/index.json
+        name: Github Actions

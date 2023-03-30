@@ -3,5 +3,6 @@
   "vulnerable": "14.x || 16.x || 18.x",
   "patched": "^14.20.1 || ^16.17.1 || ^18.9.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2022-security-releases/",
-  "overview": "The llhttp parser in the http module in Node does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS)."
+  "overview": "The llhttp parser in the http module in Node does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).",
+  "affectedEnvironments": ["all"]
 }

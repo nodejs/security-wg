@@ -8,5 +8,6 @@
   "author": "Сковорода Никита Андреевич (Nikita Skovoroda / @ChALkeR)",
   "ref": "https://nodejs.org/en/blog/vulnerability/august-2018-security-releases/",
   "type": "CWE-226: Sensitive Information Uncleared Before Release",
-  "overview": "An argument processing flaw can cause `Buffer.alloc()` to return uninitialized memory. This method is intended to be safe and only return initialized, or cleared, memory. The third argument specifying `encoding` can be passed as a number, this is misinterpreted by `Buffer's` internal \"fill\" method as the `start` to a fill operation. This flaw may be abused where `Buffer.alloc()` arguments are derived from user input to return uncleared memory blocks that may contain sensitive information."
+  "overview": "An argument processing flaw can cause `Buffer.alloc()` to return uninitialized memory. This method is intended to be safe and only return initialized, or cleared, memory. The third argument specifying `encoding` can be passed as a number, this is misinterpreted by `Buffer's` internal \"fill\" method as the `start` to a fill operation. This flaw may be abused where `Buffer.alloc()` arguments are derived from user input to return uncleared memory blocks that may contain sensitive information.",
+  "affectedEnvironments": ["all"]
 }

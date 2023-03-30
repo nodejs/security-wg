@@ -1,0 +1,366 @@
+{
+  "github.com": {
+    "nodejs": {
+      "node-gyp": {
+        "previous": [],
+        "current": {
+          "score": 5.5,
+          "date": "2022-11-28",
+          "commit": "ee46f9d2b56eb238ce5d8199077ce5c98bdbd64c"
+        }
+      },
+      "nodejs-ko": {
+        "previous": [],
+        "current": {
+          "score": 6.3,
+          "date": "2022-11-28",
+          "commit": "ab14802dc2e7288bdc4353a24176dce2f4ba9dff"
+        }
+      },
+      "readable-stream": {
+        "previous": [],
+        "current": {
+          "score": 6.3,
+          "date": "2022-11-28",
+          "commit": "6efcd356cca3dd8ccfba3f9e02b6ad3e30d55f35"
+        }
+      },
+      "node": {
+        "previous": [],
+        "current": {
+          "score": 6.8,
+          "date": "2022-11-28",
+          "commit": "22c645d411b7cba9e7b0d578a3e7108147a5d89e"
+        }
+      },
+      "diagnostics": {
+        "previous": [],
+        "current": {
+          "score": 5.6,
+          "date": "2022-11-28",
+          "commit": "0d04ec69457931f686c51262fe7cade72b758bd6"
+        }
+      },
+      "node-addon-examples": {
+        "previous": [],
+        "current": {
+          "score": 5,
+          "date": "2022-11-28",
+          "commit": "0f57746c6be61846cd2780ff3af8f648b7dc857f"
+        }
+      },
+      "build": {
+        "previous": [],
+        "current": {
+          "score": 7.6,
+          "date": "2022-11-28",
+          "commit": "f14e2b7dafb4e8080e589698d8a1657b9d65f576"
+        }
+      },
+      "docker-node": {
+        "previous": [],
+        "current": {
+          "score": 7.3,
+          "date": "2022-11-28",
+          "commit": "3954388fe493299877718e5cdc7835ba460e43e8"
+        }
+      },
+      "nan": {
+        "previous": [],
+        "current": {
+          "score": 6,
+          "date": "2022-11-28",
+          "commit": "dd5edf87e84abb678befe754cd55c7b99326248a"
+        }
+      },
+      "http-parser": {
+        "previous": [],
+        "current": {
+          "score": 6.1,
+          "date": "2022-11-28",
+          "commit": "ec8b5ee63f0e51191ea43bb0c6eac7bfbff3141d"
+        }
+      },
+      "node-report": {
+        "previous": [],
+        "current": {
+          "score": 5.5,
+          "date": "2022-11-28",
+          "commit": "90547492f5da29948b00a19b13490b2ebe2c0cd6"
+        }
+      },
+      "Release": {
+        "previous": [],
+        "current": {
+          "score": 7.1,
+          "date": "2022-11-28",
+          "commit": "857d26d0514223ba0e17d54fdd1c85c03c2499c4"
+        }
+      },
+      "nodejs.org": {
+        "previous": [],
+        "current": {
+          "score": 8.3,
+          "date": "2022-11-28",
+          "commit": "b56353b15e555be0881a7a5562139505bb625c8d"
+        }
+      },
+      "core-validate-commit": {
+        "previous": [],
+        "current": {
+          "score": 4.8,
+          "date": "2022-11-28",
+          "commit": "38b491045235616280832c31d18bed6ddea0a8c5"
+        }
+      },
+      "citgm": {
+        "previous": [],
+        "current": {
+          "score": 5.8,
+          "date": "2022-11-28",
+          "commit": "a35b3fd33f38cf3589f5fa29fd082fbe3c5f153f"
+        }
+      },
+      "TSC": {
+        "previous": [],
+        "current": {
+          "score": 7.1,
+          "date": "2022-11-28",
+          "commit": "ec47fc4164151f2a4fac86aa1413eb3b02877807"
+        }
+      },
+      "changelog-maker": {
+        "previous": [],
+        "current": {
+          "score": 5.5,
+          "date": "2022-11-28",
+          "commit": "b5fb668c7b5ad9dbef4c2cf14b9ae9ee2f65aad5"
+        }
+      },
+      "help": {
+        "previous": [],
+        "current": {
+          "score": 7.1,
+          "date": "2022-11-28",
+          "commit": "e9936f04866d3e3fdf1189e83277e9f8fe25c7d6"
+        }
+      },
+      "llnode": {
+        "previous": [],
+        "current": {
+          "score": 6,
+          "date": "2022-11-28",
+          "commit": "de1f01d70a5c58111dd873d340f898023e4e8fe6"
+        }
+      },
+      "nodejs-nightly-builder": {
+        "previous": [],
+        "current": {
+          "score": 5.2,
+          "date": "2022-11-28",
+          "commit": "00c8135102b0e272ed1d8950845a5412cc9bc237"
+        }
+      },
+      "security-wg": {
+        "previous": [],
+        "current": {
+          "score": 7,
+          "date": "2023-02-25",
+          "commit": "98359268c2c6c97cb301128e2fbb256049bd1bac"
+        }
+      },
+      "node-addon-api": {
+        "previous": [],
+        "current": {
+          "score": 5.6,
+          "date": "2022-11-28",
+          "commit": "39267baf1ba985275f74991fef6faac2ccf8e495"
+        }
+      },
+      "tap2junit": {
+        "previous": [],
+        "current": {
+          "score": 4.8,
+          "date": "2022-11-28",
+          "commit": "5c10d8e9cc8df25e6dfe086efad1e39b211582d6"
+        }
+      },
+      "node-inspect": {
+        "previous": [],
+        "current": {
+          "score": 5.8,
+          "date": "2022-11-28",
+          "commit": "9043c6986822cf499829c079f9a7debf0a95403f"
+        }
+      },
+      "nodejs-latest-linker": {
+        "previous": [],
+        "current": {
+          "score": 5.3,
+          "date": "2022-11-28",
+          "commit": "5792ec991efc5b35aa67e14b45d5120fba369edd"
+        }
+      },
+      "remark-preset-lint-node": {
+        "previous": [],
+        "current": {
+          "score": 6.8,
+          "date": "2022-11-28",
+          "commit": "ec3dc3f02b2b42383bdb68ffc21dfe0b84b9d69d"
+        }
+      },
+      "node-v8": {
+        "previous": [],
+        "current": {
+          "score": 5.7,
+          "date": "2022-11-28",
+          "commit": "4d3c8710c78f5bb9f3b7ecfab4db4f42b364e80d"
+        }
+      },
+      "node-core-utils": {
+        "previous": [],
+        "current": {
+          "score": 6.3,
+          "date": "2022-11-28",
+          "commit": "35ef99ff0afe0478f26b2028dbcd3170975ede6b"
+        }
+      },
+      "lts-schedule": {
+        "previous": [],
+        "current": {
+          "score": 5.5,
+          "date": "2022-11-28",
+          "commit": "9cabad50a0793a051e2091ee4a3905f2966169d2"
+        }
+      },
+      "nodejs-dist-indexer": {
+        "previous": [],
+        "current": {
+          "score": 5.3,
+          "date": "2022-11-28",
+          "commit": "da5b1572f3d96b54a151fc0e9123d8011ad7afb3"
+        }
+      },
+      "undici": {
+        "previous": [],
+        "current": {
+          "score": 6.5,
+          "date": "2023-02-24",
+          "commit": "06f77a92087f18151f1ed8c7eb25ad44351ba508"
+        }
+      },
+      "official-images": {
+        "previous": [],
+        "current": {
+          "score": 2.7,
+          "date": "2022-11-28",
+          "commit": "69211237fb70e39ccf837d6e5146896f25bd40f8"
+        }
+      },
+      "modules": {
+        "previous": [],
+        "current": {
+          "score": 5.7,
+          "date": "2022-11-28",
+          "commit": "ce0253495819a8496a64ca5b18f7465fd3a97964"
+        }
+      },
+      "meeting-picker": {
+        "previous": [],
+        "current": {
+          "score": 5.5,
+          "date": "2022-11-28",
+          "commit": "164fcf11119c956528a803afcd35c06b895ada91"
+        }
+      },
+      "llparse": {
+        "previous": [],
+        "current": {
+          "score": 6.2,
+          "date": "2022-11-28",
+          "commit": "4d7e35267870b576f41112f6f720f4a1009b10b8"
+        }
+      },
+      "string_decoder": {
+        "previous": [],
+        "current": {
+          "score": 5.4,
+          "date": "2022-11-28",
+          "commit": "1f29dd715a6c829da89e869af7dafc231c20ed9f"
+        }
+      },
+      "nodejs.dev": {
+        "previous": [],
+        "current": {
+          "score": 6.1,
+          "date": "2022-11-28",
+          "commit": "e31da70c029f24497fade852ecbb23e47907d5ad"
+        }
+      },
+      "i18n": {
+        "previous": [],
+        "current": {
+          "score": 7.8,
+          "date": "2022-11-28",
+          "commit": "61aa09b813d75fb46d1c73cd46e96acfa67c7e95"
+        }
+      },
+      "mentorship": {
+        "previous": [],
+        "current": {
+          "score": 5.7,
+          "date": "2022-11-28",
+          "commit": "452a38aec26bb4d9256b2dcde79c51ffd44cd2b7"
+        }
+      },
+      "llhttp": {
+        "previous": [],
+        "current": {
+          "score": 7,
+          "date": "2022-11-28",
+          "commit": "85dd446419966cafb5a7fdd5031e3113a0768e65"
+        }
+      },
+      "package-maintenance": {
+        "previous": [],
+        "current": {
+          "score": 7.4,
+          "date": "2022-11-28",
+          "commit": "35d8252b5965d2326126e1af50c4a83cbdc4d851"
+        }
+      },
+      "gyp-next": {
+        "previous": [],
+        "current": {
+          "score": 6.1,
+          "date": "2022-11-28",
+          "commit": "ac262fe82453c4e8dc47529338d157eb0b5ec0fb"
+        }
+      },
+      "whatwg-stream": {
+        "previous": [],
+        "current": {
+          "score": 5.1,
+          "date": "2022-11-28",
+          "commit": "092231da3ade919daef9b23ea4e0ed7c9a7dea80"
+        }
+      },
+      "corepack": {
+        "previous": [],
+        "current": {
+          "score": 5.8,
+          "date": "2022-11-28",
+          "commit": "4efc06d93ecf63d9ed922e386b8121c32a554fae"
+        }
+      },
+      "uvwasi": {
+        "previous": [],
+        "current": {
+          "score": 5.2,
+          "date": "2022-11-28",
+          "commit": "c5b979dc5da948d989614f623878aa32251d58e7"
+        }
+      }
+    }
+  }
+}

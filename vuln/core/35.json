@@ -4,5 +4,6 @@
   ],
   "vulnerable": "5.x || 4.x",
   "patched": "^5.1.1 || ^4.2.3",
-  "overview": "Backport fix for CVE-2015-6764, a bug in v8's `JSON.stringify()` that can result\nin out-of-bounds reads for arrays.\n\n"
+  "overview": "Backport fix for CVE-2015-6764, a bug in v8's `JSON.stringify()` that can result\nin out-of-bounds reads for arrays.\n\n",
+  "affectedEnvironments": ["all"]
 }

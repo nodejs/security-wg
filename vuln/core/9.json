@@ -4,5 +4,6 @@
   "patched": "^6.9.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2016-security-releases/",
   "description": "automatically loading OPENSSL_CONF is unsafe",
-  "overview": "Always triggering a configuration file load attempt from `OPENSSL_CONF` or the\ndefault location for the current platform may allow an attacker to load\ncompromised OpenSSL configuration into a Node.js process if they are able to\nplace a file in a default location.\n\n"
+  "overview": "Always triggering a configuration file load attempt from `OPENSSL_CONF` or the\ndefault location for the current platform may allow an attacker to load\ncompromised OpenSSL configuration into a Node.js process if they are able to\nplace a file in a default location.\n\n",
+  "affectedEnvironments": ["all"]
 }

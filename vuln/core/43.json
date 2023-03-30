@@ -5,5 +5,6 @@
   "vulnerable": "^4.8.2 || ^6.10.2  || 8.x",
   "patched": "^4.8.5 || ^6.11.5 || ^8.8.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/oct-2017-dos/",
-  "overview": "Node.js was susceptible to a remote DoS attack due to a change that came in as part of zlib v1.2.9. In zlib v1.2.9 8 became an invalid value for the windowBits parameter and Node's zlib module will crash or throw an exception (depending on the version) if you call zlib.createDeflateRaw({windowBits: 8})."
+  "overview": "Node.js was susceptible to a remote DoS attack due to a change that came in as part of zlib v1.2.9. In zlib v1.2.9 8 became an invalid value for the windowBits parameter and Node's zlib module will crash or throw an exception (depending on the version) if you call zlib.createDeflateRaw({windowBits: 8}).",
+  "affectedEnvironments": ["all"]
 }

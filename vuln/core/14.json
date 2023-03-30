@@ -6,5 +6,6 @@
   "vulnerable": "6.x || 5.x || 4.x",
   "patched": "^6.7.0 || ^4.6.0",
   "description": "openssl 1.0.2h vulnerabilities",
-  "overview": "An overflow can occur in MDC2_Update() under certain circumstances resulting in\nan out of bounds (OOB) error. This attack is impractical on most platforms due\nto the size of data required to trigger the OOB error.\n\nNode.js is impacted by this flaw but due to the impracticalities of exploiting\nit and the very low usage of of MDC-2, it is very low severity for Node.js\nusers.\n\n"
+  "overview": "An overflow can occur in MDC2_Update() under certain circumstances resulting in\nan out of bounds (OOB) error. This attack is impractical on most platforms due\nto the size of data required to trigger the OOB error.\n\nNode.js is impacted by this flaw but due to the impracticalities of exploiting\nit and the very low usage of of MDC-2, it is very low severity for Node.js\nusers.\n\n",
+  "affectedEnvironments": ["all"]
 }

@@ -3,5 +3,6 @@
   "vulnerable": "4.x || 5.x",
   "patched": "^5.6.0 || ^4.3.0",
   "description": "mitigate against the Logjam attack",
-  "overview": "To mitigate against the Logjam attack, TLS clients now reject Diffie-Hellman\nhandshakes with parameters shorter than 1024-bits, up from the previous limit of\n768-bits.\n\n"
+  "overview": "To mitigate against the Logjam attack, TLS clients now reject Diffie-Hellman\nhandshakes with parameters shorter than 1024-bits, up from the previous limit of\n768-bits.\n\n",
+  "affectedEnvironments": ["all"]
 }

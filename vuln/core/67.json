@@ -4,5 +4,6 @@
   "patched": "^14.11.0",
   "reported_by": "Paolo Insogna and Matteo Collina",
   "ref": "https://nodejs.org/en/blog/vulnerability/september-2020-security-releases/",
-  "overview": "Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests"
+  "overview": "Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests",
+  "affectedEnvironments": ["all"]
 }

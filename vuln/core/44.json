@@ -5,5 +5,6 @@
   "vulnerable": "4.x || 6.x  || 8.x || 9.x",
   "patched": "^4.8.7 || ^6.12.2 || ^8.9.3 || ^9.2.1" ,
   "ref": "https://nodejs.org/en/blog/vulnerability/december-2017-security-releases/",
-  "overview": "Node.js was affected by OpenSSL vulnerability CVE-2017-3737 in regards to the use of SSL_read() due to TLS handshake failure. The result was that an active network attacker could send application data to Node.js using the TLS or HTTP2 modules in a way that bypassed TLS authentication and encryption."
+  "overview": "Node.js was affected by OpenSSL vulnerability CVE-2017-3737 in regards to the use of SSL_read() due to TLS handshake failure. The result was that an active network attacker could send application data to Node.js using the TLS or HTTP2 modules in a way that bypassed TLS authentication and encryption.",
+  "affectedEnvironments": ["all"]
 }

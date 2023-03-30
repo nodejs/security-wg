@@ -3,5 +3,6 @@
   "vulnerable": "14.x || 16.x || 18.x || 19.x",
   "patched": "^14.21.1 || ^16.18.1 || ^18.12.1 || ^19.0.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/",
-  "overview": "The Node.js rebinding protector for --inspect still allows invalid IP address, specifically, the octal format."
+  "overview": "The Node.js rebinding protector for --inspect still allows invalid IP address, specifically, the octal format.",
+  "affectedEnvironments": ["all"]
 }

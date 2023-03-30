@@ -5,5 +5,6 @@
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2016-security-releases/",
   "author": "Jann Horn",
   "description": "unauthorized clients can easily access inspector port",
-  "overview": "Generate a UUID for each execution of the inspector. This provides additional\nsecurity to prevent unauthorized clients from connecting to the Node.js process\nvia the v8_inspector port when running with `--inspect`. Since the debugging\nprotocol allows extensive access to the internals of a running process, and the\nexecution of arbitrary code, it is important to limit connections to authorized\ntools only.\n\n"
+  "overview": "Generate a UUID for each execution of the inspector. This provides additional\nsecurity to prevent unauthorized clients from connecting to the Node.js process\nvia the v8_inspector port when running with `--inspect`. Since the debugging\nprotocol allows extensive access to the internals of a running process, and the\nexecution of arbitrary code, it is important to limit connections to authorized\ntools only.\n\n",
+  "affectedEnvironments": ["all"]
 }

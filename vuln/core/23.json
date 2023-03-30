@@ -6,5 +6,6 @@
   "patched": "^4.4.4 || ^5.11.1 || ^6.1.0",
   "ref": "https://nodejs.org/en/blog/vulnerability/openssl-may-2016/#cve-2016-2107-padding-oracle-in-aes-ni-cbc-mac-check",
   "description": "EVP_EncodeUpdate overflow",
-  "overview": "An overflow can occur in the OpenSSL EVP_EncodeUpdate() function which is used\nfor Base64 encoding of binary data. An attacker must be able to supply large\namounts of input data in order to cause an overflow.\n\nNode.js uses the EVP_EncodeUpdate() internally during calls to\ncrypto.Certificate#exportPublicKey() for SPKAC Certificate Signing\nRequests. User-supplied data must be passed to this method for\napplications to be vulnerable. This method has been available since\nNode.js v0.12.\n\n"
+  "overview": "An overflow can occur in the OpenSSL EVP_EncodeUpdate() function which is used\nfor Base64 encoding of binary data. An attacker must be able to supply large\namounts of input data in order to cause an overflow.\n\nNode.js uses the EVP_EncodeUpdate() internally during calls to\ncrypto.Certificate#exportPublicKey() for SPKAC Certificate Signing\nRequests. User-supplied data must be passed to this method for\napplications to be vulnerable. This method has been available since\nNode.js v0.12.\n\n",
+  "affectedEnvironments": ["all"]
 }

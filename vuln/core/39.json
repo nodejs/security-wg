@@ -4,5 +4,6 @@
   "patched": "^4.1.1",
   "description": "data leakage via reuse of memory space in TypedArrays",
   "ref": "https://github.com/nodejs/node/pull/2931",
-  "overview": "A bug was introduced in v4.1.0 where allocating a new zero-length buffer can\nresult in the _next_ allocation of a TypedArray in JavaScript not being\nzero-filled. In certain circumstances this could result in data leakage via\nreuse of memory space in TypedArrays, breaking the normally safe assumption that\nTypedArrays should be always zero-filled.\n\n"
+  "overview": "A bug was introduced in v4.1.0 where allocating a new zero-length buffer can\nresult in the _next_ allocation of a TypedArray in JavaScript not being\nzero-filled. In certain circumstances this could result in data leakage via\nreuse of memory space in TypedArrays, breaking the normally safe assumption that\nTypedArrays should be always zero-filled.\n\n",
+  "affectedEnvironments": ["all"]
 }

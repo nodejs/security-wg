@@ -9,5 +9,6 @@
   "reported_by": "Martin Bajanik",
   "ref": "https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/",
   "type": "CWE-115: Misinterpretation of Input",
-  "overview": "Hostname spoofing in URL parser for javascript protocol: If a Node.js application is using url.parse() to determine the URL hostname, that hostname can be spoofed by using a mixed case \"javascript:\" (e.g. \"javAscript:\") protocol (other protocols are not affected). If security decisions are made about the URL based on the hostname, they may be incorrect."
+  "overview": "Hostname spoofing in URL parser for javascript protocol: If a Node.js application is using url.parse() to determine the URL hostname, that hostname can be spoofed by using a mixed case \"javascript:\" (e.g. \"javAscript:\") protocol (other protocols are not affected). If security decisions are made about the URL based on the hostname, they may be incorrect.",
+  "affectedEnvironments": ["all"]
 }

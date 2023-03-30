@@ -4,5 +4,6 @@
   "patched": "^10.19.0 || ^12.15.0 || ^13.8.0",
   "reported_by": "Ethan Rubinson",
   "ref": "https://hackerone.com/reports/735748",
-  "overview": "HTTP request smuggling using malformed Transfer-Encoding header"
+  "overview": "HTTP request smuggling using malformed Transfer-Encoding header",
+  "affectedEnvironments": ["all"]
 }

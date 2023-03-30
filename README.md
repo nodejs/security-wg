@@ -2,6 +2,7 @@
 [![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
 [![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
 [![OpenJS Slack Invite](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
+[![OpenSSF scorecard](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg/badge)](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg)
 
 # Security Working Group
 
@@ -53,9 +54,9 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 | Initiative           | Champion                                         | Status                                   | Links
 |----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
 | Permission Model | [@RafaelGSS](https://github.com/RafaelGSS) |  In Progress | [PR #44004](https://github.com/nodejs/node/pull/44004)
-| Automate update dependencies | [@facutuesca](https://github.com/facutuesca) | In Progress | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
-| Assessment against best practices | [@fraxken](https://github.com/fraxken) | Evaluation | [Issue #859](https://github.com/nodejs/security-wg/issues/859)
-| Automate Security release process | [@RafaelGSS](https://github.com/RafaelGSS) | Evaluation | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
+| Automate update dependencies | [@marco-ippolito](https://github.com/marco-ippolito) | In Progress | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
+| Assessment against best practices | [@fraxken](https://github.com/fraxken) | In Progress | [Issue #859](https://github.com/nodejs/security-wg/issues/859)
+| Automate Security release process | [@RafaelGSS](https://github.com/RafaelGSS) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 
 ## Current Project Team Members
 
