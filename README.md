@@ -72,6 +72,7 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 * [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
 * [lirantal](https://github.com/lirantal) - **Liran Tal**
 * [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [marco-ippolito](https://github.com/marco-ippolito) - **Marco Ippolito**
 * [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
 * [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
