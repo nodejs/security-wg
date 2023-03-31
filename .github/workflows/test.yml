@@ -1,16 +1,23 @@
-name: Validate Vulnerability
+name: Node.js CI
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
-    paths:
-      - 'vuln/**/*.json'
 
 permissions:
   contents: read
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
+  test:
+    name: Test on Node.js ${{ matrix.node-version }} and ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [14.x, 16.x, 18.x, 19.x]
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@1f99358870fe1c846a3ccba386cc2b2246836776 # v2.2.1
@@ -19,14 +26,15 @@ jobs:
 
       - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3.5.0
 
-      - name: Use Node.js
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
         with:
-          node-version: 18
+          node-version: ${{ matrix.node-version }}
+          cache: npm
 
-      - name: Install deps
+      - name: Install dependencies
         run: npm ci
 
-      - name: Run validator
+      - name: Run tests
         run: |
-          npm run validate
+          npm test
