@@ -44,11 +44,17 @@
         }
       },
       "node": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.8,
+            "date": "2022-11-28",
+            "commit": "22c645d411b7cba9e7b0d578a3e7108147a5d89e"
+          }
+        ],
         "current": {
-          "score": 6.8,
-          "date": "2022-11-28",
-          "commit": "22c645d411b7cba9e7b0d578a3e7108147a5d89e"
+          "score": 7.5,
+          "date": "2023-04-01",
+          "commit": "85705a47958c9ae5dbaa1f57456db19bdefdc494"
         }
       },
       "diagnostics": {
@@ -57,12 +63,17 @@
             "score": 5.6,
             "date": "2022-11-28",
             "commit": "0d04ec69457931f686c51262fe7cade72b758bd6"
+          },
+          {
+            "score": 4.9,
+            "date": "2023-03-20",
+            "commit": "0d04ec69457931f686c51262fe7cade72b758bd6"
           }
         ],
         "current": {
-          "score": 4.9,
-          "date": "2023-03-20",
-          "commit": "0d04ec69457931f686c51262fe7cade72b758bd6"
+          "score": 5,
+          "date": "2023-03-27",
+          "commit": "dcc742f37250ca13e2f1b722e6d197efe758bd64"
         }
       },
       "node-addon-examples": {
@@ -85,12 +96,17 @@
             "score": 7.6,
             "date": "2022-11-28",
             "commit": "f14e2b7dafb4e8080e589698d8a1657b9d65f576"
+          },
+          {
+            "score": 4.8,
+            "date": "2023-03-20",
+            "commit": "04aa8b9120501c6ede155158ad95d3bfffe6130d"
           }
         ],
         "current": {
-          "score": 4.8,
-          "date": "2023-03-20",
-          "commit": "04aa8b9120501c6ede155158ad95d3bfffe6130d"
+          "score": 6,
+          "date": "2023-03-27",
+          "commit": "ddf79d5615c40f8f41846d317d1ed9661898b606"
         }
       },
       "docker-node": {
@@ -205,12 +221,17 @@
             "score": 7.1,
             "date": "2022-11-28",
             "commit": "ec47fc4164151f2a4fac86aa1413eb3b02877807"
+          },
+          {
+            "score": 5.4,
+            "date": "2023-03-20",
+            "commit": "07153d0297da9b2086290ec479e555354995daf7"
           }
         ],
         "current": {
-          "score": 5.4,
-          "date": "2023-03-20",
-          "commit": "07153d0297da9b2086290ec479e555354995daf7"
+          "score": 6.1,
+          "date": "2023-03-27",
+          "commit": "e031e6ed02e7e5759e180ce9aadc6cde9a982507"
         }
       },
       "changelog-maker": {
@@ -233,11 +254,16 @@
             "score": 7.1,
             "date": "2022-11-28",
             "commit": "e9936f04866d3e3fdf1189e83277e9f8fe25c7d6"
+          },
+          {
+            "score": 4.3,
+            "date": "2023-03-20",
+            "commit": "5b6b4622c56e0521e643cc75ad28b2469c882efe"
           }
         ],
         "current": {
-          "score": 4.3,
-          "date": "2023-03-20",
+          "score": 4,
+          "date": "2023-03-27",
           "commit": "5b6b4622c56e0521e643cc75ad28b2469c882efe"
         }
       },
@@ -275,12 +301,17 @@
             "score": 7,
             "date": "2023-02-25",
             "commit": "98359268c2c6c97cb301128e2fbb256049bd1bac"
+          },
+          {
+            "score": 7.9,
+            "date": "2023-03-25",
+            "commit": "4c0b7ab0100542dd3a8525f58af80de8de97a6a8"
           }
         ],
         "current": {
-          "score": 7.9,
-          "date": "2023-03-25",
-          "commit": "4c0b7ab0100542dd3a8525f58af80de8de97a6a8"
+          "score": 8.1,
+          "date": "2023-04-01T22:50:19Z",
+          "commit": "7b66370f347b3bfda697c0e6b37f00a2a7117df3"
         }
       },
       "node-addon-api": {
@@ -303,12 +334,17 @@
             "score": 4.8,
             "date": "2022-11-28",
             "commit": "5c10d8e9cc8df25e6dfe086efad1e39b211582d6"
+          },
+          {
+            "score": 4.3,
+            "date": "2023-03-20",
+            "commit": "f581367da1facc4947d9189db277033505660925"
           }
         ],
         "current": {
-          "score": 4.3,
-          "date": "2023-03-20",
-          "commit": "f581367da1facc4947d9189db277033505660925"
+          "score": 4.4,
+          "date": "2023-03-27",
+          "commit": "cc835ec8b9cb5038a8ccc0e244e6a54c06c5cf12"
         }
       },
       "node-inspect": {
@@ -457,12 +493,17 @@
             "score": 5.5,
             "date": "2022-11-28",
             "commit": "164fcf11119c956528a803afcd35c06b895ada91"
+          },
+          {
+            "score": 4.4,
+            "date": "2023-03-20",
+            "commit": "bc39a049ede0cc1d8acef0f5d4d4c3ecc7b744a4"
           }
         ],
         "current": {
-          "score": 4.4,
-          "date": "2023-03-20",
-          "commit": "bc39a049ede0cc1d8acef0f5d4d4c3ecc7b744a4"
+          "score": 4.9,
+          "date": "2023-03-27",
+          "commit": "14f60a8e126e05280698d6f71eacb6b50b38b032"
         }
       },
       "llparse": {
@@ -555,11 +596,16 @@
             "score": 7.4,
             "date": "2022-11-28",
             "commit": "35d8252b5965d2326126e1af50c4a83cbdc4d851"
+          },
+          {
+            "score": 6.6,
+            "date": "2023-03-20",
+            "commit": "487f9491cdc782ea706fc389e6505c1cd140d5aa"
           }
         ],
         "current": {
-          "score": 6.6,
-          "date": "2023-03-20",
+          "score": 6.4,
+          "date": "2023-03-27",
           "commit": "487f9491cdc782ea706fc389e6505c1cd140d5aa"
         }
       },
