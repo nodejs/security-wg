@@ -1,5 +1,6 @@
 const fs = require('node:fs')
 const satisfies = require('semver/functions/satisfies')
+const nv = require('@pkgjs/nv')
 
 // We will fill in this object with our data
 let vuln = {}
@@ -10,14 +11,18 @@ const createIndex = function (vulnDirectoryPath) {
   writeIndex(vuln, vulnDirectoryPath)
 }
 
-const supportedVersions = ['14.0.0', '16.0.0', '18.0.0', '19.0.0']
+const supportedVersions = async function () {
+  const versions = await nv('supported')
+  return versions.map((v) => v.version)
+}
 
-const supportedVersionAffected = function (json) {
+const supportedVersionAffected = async function (json) {
+  const versions = await supportedVersions()
   // NPM vulns don't have a vulnerable property
-  if(!json.vulnerable ){
+  if (!json.vulnerable) {
     return true
   }
-  for (const version of supportedVersions) {
+  for (const version of versions) {
     if (satisfies(version, json.vulnerable)) {
       return true
     }
