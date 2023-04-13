@@ -23,7 +23,7 @@ jobs:
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-      - uses: actions/checkout@83b7061638ee4956cf7545a6f7efe594e5ad0247 # v3.3.0
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.3.0
       - name: OpenSSF Scorecard Monitor
         uses: UlisesGascon/openssf-scorecard-monitor@e3526f91e57a02356942f85cd3da95ead823d28e # v2.0.0-beta2
         with:
