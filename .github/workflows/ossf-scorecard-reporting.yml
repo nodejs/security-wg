@@ -1,10 +1,7 @@
 name: "OpenSSF Scoring"
 on: 
-  # Scheduled trigger
-  schedule:
-    # Run every Sunday at 00:00
-    - cron: "0 0 * * 0"
-  # Manual trigger
+  # TODO: Restore CRON trigger once https://github.com/nodejs/security-wg/issues/908 is closed
+  # Manual trigger 
   workflow_dispatch:
 
 # Permissions required to run this workflow (create issue and commit/push changes)
