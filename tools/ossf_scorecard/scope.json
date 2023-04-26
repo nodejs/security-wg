@@ -46,7 +46,8 @@
         "uvwasi",
         "whatwg-stream",
         "corepack",
-        "gyp-next"
+        "gyp-next",
+        "node-auto-test"
       ],
       "excluded": []
     }
