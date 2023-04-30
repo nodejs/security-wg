@@ -1,0 +1,82 @@
+# Node.js  Security WorkGroup Meeting 2023-04-27
+
+## Links
+
+* **Recording**:  https://www.youtube.com/watch?v=6lpxKOL-PwQ&ab_channel=node.js
+* **GitHub Issue**: https://github.com/nodejs/security-wg/issues/961
+
+
+## Present
+
+* Ulises Gascon: @ulisesGascon
+* Marco Ippolito: @marco-ippolito
+* Yagiz Nizipli: @anonrig
+* Michael Dawson: @mhdawson
+* Rafael Gonzaga: @RafaelGSS
+
+## Agenda
+
+## Announcements
+
+*Extracted from **security-wg-agenda** labelled issues and pull requests from the **nodejs org** prior to the meeting.
+
+- [x] Vulnerability Review - https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues
+  * We’ll drop v14 support and include Node.js v20 to this action
+  * There is a new OpenSSL low vulnerability
+
+- [x] OpenSSF Scorecard Monitor Review - https://github.com/nodejs/security-wg/pull/965
+  * Binary artifacts need to support whitelisting for the test fixtures case
+  * New visualization tool in place, next release will include commit hash reference (immutability)
+  * Many changes happened in Node.js but the total impact in the repo is -0.3 points
+  * Ulises will invite the Scorecard maintainers to the next meetings to provide them feedback and share with the WG the next iteration planned with the scoring system
+  * Ulises will include the link to the StepSecurity Beta Dashboard in the report for Node.js Org 
+
+### nodejs/security-wg
+
+* Initiative for CII-Best-Practices for Nodejs Projects [#953](https://github.com/nodejs/security-wg/issues/953)
+  * good discussion/sharing of existing answers - https://bestpractices.coreinfrastructure.org/en/projects/29#all
+  * We’ll review all the three PR async
+  * The entry-level might need a single adjustment (code static analysis), the rest looks good
+  * Ulises will lead the initiative.
+  * The documents will be relocated to the Node repository as soon as it is ready
+
+* Assessment against best practices (OpenSSF Scorecards ...) [#859](https://github.com/nodejs/security-wg/issues/859)
+  * No news
+
+* Scorecard Review [#937](https://github.com/nodejs/security-wg/issues/937)
+  * closed
+
+* Improve Node.js Scorecard [#929](https://github.com/nodejs/security-wg/issues/929)
+  * Published the updates in the issue
+
+* Permission Model - Roadmap [#898](https://github.com/nodejs/security-wg/issues/898)
+  * Possible some work on the relative paths in the C++ side next week
+
+* Improve SecurityWG Scorecard [#884](https://github.com/nodejs/security-wg/issues/884)
+  * Published the updates in the issue
+  * It will great to have some community support for Fuzzing
+
+* Automate security release process [#860](https://github.com/nodejs/security-wg/issues/860)
+  * We are discussing it internally at Node.js TSC to get someone to work on this
+
+* Discussion about policy-integrity integration on Windows [#856](https://github.com/nodejs/security-wg/issues/856)
+  * PR created https://github.com/nodejs/node/pull/47609
+
+* Automate updates of all dependencies [#828](https://github.com/nodejs/security-wg/issues/828)
+  * The initiative is almost done.
+  * Marco will work in the documentation in details for this process
+  * Marco will start a discussion to backporting this process to other Node.js versions
+  * Marco requested access to the Github Action team
+  * It will be require to review if any dependency is missing from the list  
+
+## Q&A, Other
+
+  * Yagiz Nizipli will be in parental leave. He want to ensure that Ada can keep doing releases in cases that any urgent/security release is needed. We agreed to promote the Ada related issues in Node to the fastrack when needed.
+
+
+## Upcoming Meetings
+
+* **Node.js Project Calendar**: <https://nodejs.org/calendar>
+
+Click `+GoogleCalendar` at the bottom right to add to your own Google calendar.
+
