@@ -243,7 +243,7 @@ https://ci.nodejs.org/
 > The project MUST have a general policy (formal or not) that as major new functionality is added to the software produced by the project, tests of that functionality should be added to an automated test suite.
 
 **Met** 
-https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-5-test
+https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-6-test
 
 > The project MUST have evidence that the test_policy for adding tests has been adhered to in the most recent major changes to the software produced by the project.
 
