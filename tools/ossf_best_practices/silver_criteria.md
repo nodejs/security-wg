@@ -146,7 +146,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 
 ## Working build system
