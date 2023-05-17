@@ -103,7 +103,7 @@ _Possible answers: Met/Unmet/NA_
 
 > If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**N/A**
 
 
 
