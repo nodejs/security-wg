@@ -45,7 +45,8 @@ _Possible answers: Met/Unmet_
 
 > The project MUST adopt a code of conduct and post it in a standard location.
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
 
 > The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform. It MUST be clear who has which role(s), though this might not be documented in the same way. (URL required)
 
