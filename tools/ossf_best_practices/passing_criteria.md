@@ -371,7 +371,7 @@ https://scan.coverity.com/projects/node-js
 
 > It is SUGGESTED that static source code analysis occur on every commit or at least daily.
 
-**Unmet**
+**Met**
 
 ## Dynamic code analysis
 
