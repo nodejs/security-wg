@@ -192,7 +192,7 @@ _Possible answers: Met/Unmet/NA_
 
 > Projects MUST monitor or periodically check their external dependencies (including convenience copies) to detect known vulnerabilities, and fix exploitable vulnerabilities or verify them as unexploitable.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST either:
 >   1. make it easy to identify and update reused externally-maintained components; or
