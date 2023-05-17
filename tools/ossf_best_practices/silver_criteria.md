@@ -289,7 +289,8 @@ _Possible answers: Met/Unmet/NA_
 
 > It is SUGGESTED that in the version control system, each important version tag (a tag that is part of a major release, minor release, or fixes publicly noted vulnerabilities) be cryptographically signed and verifiable as described in [signed_releases](https://bestpractices.coreinfrastructure.org/en/projects/29?criteria_level=1#signed_releases).
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and-sign-the-release-commit
 
 ## Other security issues
 
