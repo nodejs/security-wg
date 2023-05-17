@@ -57,7 +57,8 @@ _Possible answers: Met/Unmet_
 
 > The project SHOULD have a "bus factor" of 2 or more. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/README.md#current-project-team-members
 
 ## Documentation
 
