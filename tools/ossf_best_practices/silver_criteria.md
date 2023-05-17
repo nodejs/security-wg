@@ -36,7 +36,8 @@ https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
 
 > The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions. The most common and easily-implemented approach for doing this is by using a [Developer Certificate of Origin (DCO)](https://developercertificate.org/), where users add "signed-off-by" in their commits and the project links to the DCO website. However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/CONTRIBUTING.md#developers-certificate-of-origin
 
 > The project MUST clearly define and document its project governance model (the way it makes decisions, including key roles). (URL required)
 
