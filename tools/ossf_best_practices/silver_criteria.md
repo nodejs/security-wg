@@ -188,7 +188,8 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST list external dependencies in a computer-processable way. (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintaining-dependencies.md
 
 > Projects MUST monitor or periodically check their external dependencies (including convenience copies) to detect known vulnerabilities, and fix exploitable vulnerabilities or verify them as unexploitable.
 
