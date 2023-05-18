@@ -207,7 +207,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 > 
 > Then, if a vulnerability is found in a reused component, it will be easy to update that component.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 
 > The project SHOULD avoid using deprecated or obsolete functions and APIs where FLOSS alternatives are available in the set of technology it uses (its "technology stack") and to a supermajority of the users the project supports (so that users have ready access to the alternative).
