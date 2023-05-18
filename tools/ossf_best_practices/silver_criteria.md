@@ -181,7 +181,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The installation system for end-users MUST honor standard conventions for selecting the location where built artifacts are written to at installation time. For example, if it installs files on a POSIX system it MUST honor the DESTDIR environment variable. If there is no installation system or no standard convention, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST provide a way for potential developers to quickly install all the project results and support environment necessary to make changes, including the tests and test environment. This MUST be performed with a commonly-used convention.
 
