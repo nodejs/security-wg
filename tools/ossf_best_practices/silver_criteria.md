@@ -41,7 +41,8 @@ https://github.com/nodejs/node/blob/main/CONTRIBUTING.md#developers-certificate-
 
 > The project MUST clearly define and document its project governance model (the way it makes decisions, including key roles). (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/GOVERNANCE.md
 
 > The project MUST adopt a code of conduct and post it in a standard location.
 
