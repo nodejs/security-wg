@@ -140,7 +140,8 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST have a documented process for responding to vulnerability reports. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/SECURITY.md
 
 # Quality
 
