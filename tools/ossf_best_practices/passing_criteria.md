@@ -180,7 +180,9 @@ https://github.com/nodejs/node/issues
 ## Vulnerability report process
 
 > The project MUST publish the process for reporting vulnerabilities on the project site. (URL required)
-**Met** https://nodejs.org/en/security/
+
+**Met**
+https://nodejs.org/en/security/
 
 > If private vulnerability reports are supported, the project MUST include how to send the information in a way that is kept private. (URL required)
 
