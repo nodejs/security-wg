@@ -162,7 +162,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
 
 > The build and installation system SHOULD preserve debugging information if they are requested in the relevant flags (e.g., "install -s" is not used). If there is no build or installation system (e.g., typical JavaScript libraries), select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The build system for the software produced by the project MUST NOT recursively build subdirectories if there are cross-dependencies in the subdirectories. If there is no build or installation system (e.g., typical JavaScript libraries), select "not applicable" (N/A).
 
