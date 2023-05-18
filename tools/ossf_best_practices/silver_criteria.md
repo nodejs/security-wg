@@ -56,7 +56,7 @@ https://github.com/nodejs/node/blob/main/GOVERNANCE.md
 
 > The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
 
-_Possible answers: Met/Unmet_
+**Met**
 
 > The project SHOULD have a "bus factor" of 2 or more. (URL required)
 
