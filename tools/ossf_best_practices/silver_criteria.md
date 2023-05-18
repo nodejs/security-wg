@@ -257,7 +257,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST implement secure design principles (from "know_secure_design"), where applicable. If the project is not producing software, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+** Met**
 
 
 ## Use basic good cryptographic practices
