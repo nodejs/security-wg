@@ -177,7 +177,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST provide a way to easily install and uninstall the software produced by the project using a commonly-used convention.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The installation system for end-users MUST honor standard conventions for selecting the location where built artifacts are written to at installation time. For example, if it installs files on a POSIX system it MUST honor the DESTDIR environment variable. If there is no installation system or no standard convention, select "not applicable" (N/A).
 
