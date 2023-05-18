@@ -24,7 +24,7 @@ JavaScript, C++, Python (CII estimate)
 
 > What is the [Common Platform Enumeration (CPE)](https://nvd.nist.gov/cpe.cfm) name for the project (if it has one)? 
 
-_empty_
+**N/A**
 
 ## Basic project website content
 
