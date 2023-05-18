@@ -80,7 +80,8 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST provide a "quick start" guide for new users to help them quickly do something with the software. (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://nodejs.dev/en/learn/
 
 
 The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual.
