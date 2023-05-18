@@ -127,7 +127,6 @@ GitHub issue tracker and pull requests support discussion
 strictly semver
 
 
-
 > It is SUGGESTED that the [Semantic Versioning (SemVer)](https://semver.org/) or [Calendar Versioning (CalVer)](https://calver.org/) version numbering format be used for releases. It is SUGGESTED that those who use CalVer include a micro level value
 
 **Met**
