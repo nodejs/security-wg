@@ -185,7 +185,8 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST provide a way for potential developers to quickly install all the project results and support environment necessary to make changes, including the tests and test environment. This MUST be performed with a commonly-used convention.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#setting-up-your-local-environment
 
 
 
