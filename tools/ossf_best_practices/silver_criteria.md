@@ -51,7 +51,8 @@ https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
 
 > The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform. It MUST be clear who has which role(s), though this might not be documented in the same way. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
+https://github.com/nodejs/node/blob/main/GOVERNANCE.md
 
 > The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
 
