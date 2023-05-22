@@ -136,7 +136,8 @@ https://github.com/nodejs/node/issues
 
 > The project MUST give credit to the reporter(s) of all vulnerability reports resolved in the last 12 months, except for the reporter(s) who request anonymity. If there have been no vulnerabilities resolved in the last 12 months, select "not applicable" (N/A). (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://hackerone.com/nodejs/hacktivity
 
 
 > The project MUST have a documented process for responding to vulnerability reports. (URL required)
