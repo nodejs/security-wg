@@ -307,7 +307,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and
 
 > The project results MUST check all inputs from potentially untrusted sources to ensure they are valid (an *allowlist*), and reject invalid inputs, if there are any restrictions on the data at all.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > Hardening mechanisms SHOULD be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities.
 
