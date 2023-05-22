@@ -119,7 +119,8 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST maintain the most often used older versions of the product or provide an upgrade path to newer versions. If the upgrade path is difficult, the project MUST document how to perform the upgrade (e.g., the interfaces that have changed and detailed suggested steps to help upgrade).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://github.com/nodejs/release#release-schedule
 
 
 # Reporting
