@@ -1,5 +1,6 @@
 name: "Update npm index.json"
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -9,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   stale:
@@ -31,13 +33,15 @@ jobs:
     - name: Update npm index.json
       run: |
         npm run create-npm-index
-
-    - name: commit and push updated results
-      uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa # v2.9
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@38e0b6e68b4c852a5500a94740f0e535e0d7ba54 # v4.2.4
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'main'
-        commit-message: 'vuln: update npm index.json'
-        rebase: 'true'
-        files: vuln/npm/index.json
-        name: Github Actions
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'vuln: update npm index.json'
+          title: update npm index.json
+          body: update npm index.json. cc:@nodejs/security-wg
+          base: main
+          assignees: ${{ github.actor }}
+          labels: security-wg-agenda
+          branch: npm-index-updated
+          delete-branch: true
