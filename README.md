@@ -63,7 +63,6 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
-* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [deian](https://github.com/deian) - **Deian Stefan**
 * [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
@@ -88,6 +87,7 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 * [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
 * [bengl](https://github.com/bengl) - **Bryan English**
 * [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
+* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
 * [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
