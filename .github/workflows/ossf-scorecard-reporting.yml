@@ -7,7 +7,7 @@ on:
 # Permissions required to run this workflow (create issue and commit/push changes)
 permissions:
   contents: write
-  pull-requests: none 
+  pull-requests: write
   issues: write
   packages: none
 
@@ -27,8 +27,8 @@ jobs:
           scope: tools/ossf_scorecard/scope.json
           database: tools/ossf_scorecard/database.json
           report: tools/ossf_scorecard/report.md
-          auto-commit: true
-          auto-push: true
+          auto-commit: false
+          auto-push: false
           generate-issue: true
           report-tags-enabled: true
           issue-title: "OpenSSF Scorecard Report Updated!"
@@ -36,3 +36,14 @@ jobs:
           max-request-in-parallel: 10
           discovery-enabled: true
           discovery-orgs: 'nodejs'
+      - name: Create Pull Request
+        uses: gr2m/create-or-update-pull-request-action@77596e3166f328b24613f7082ab30bf2d93079d5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            commit-message: 'docs: OpenSSF Scorecard Report Updated'
+            title: OpenSSF Scorecard Report Updated
+            body: 'OpenSSF Scorecard Report Updated. cc: @nodejs/security-wg'
+            assignees: ${{ github.actor }}
+            labels: security-wg-agenda
+            branch: openssf-scorecard-report-updated
