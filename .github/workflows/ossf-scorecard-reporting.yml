@@ -47,3 +47,4 @@ jobs:
             assignees: ${{ github.actor }}
             labels: security-wg-agenda
             branch: openssf-scorecard-report-updated
+            update-pull-request-title-and-body: true
