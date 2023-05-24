@@ -45,3 +45,4 @@ jobs:
           assignees: ${{ github.actor }}
           labels: security-wg-agenda
           branch: npm-index-updated
+          update-pull-request-title-and-body: true
