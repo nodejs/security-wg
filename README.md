@@ -61,6 +61,7 @@ We are currently defining the Initiatives for 2023, [feel free to participate](h
 
 ## Current Project Team Members
 
+* [ashishkurmi](https://github.com/ashishkurmi) - **Ashish Kurmi**
 * [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
 * [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
 * [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
