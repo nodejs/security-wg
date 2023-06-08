@@ -378,7 +378,7 @@ https://scan.coverity.com/projects/node-js
 
 > It is SUGGESTED that at least one dynamic analysis tool be applied to any proposed major production release of the software before its release.
 
-**Unmet**
+**Met**
 Infrastructure for running several different dynamic analysis tools is provided by the project. See: https://github.com/nodejs/node/tree/master/tools
 
 
