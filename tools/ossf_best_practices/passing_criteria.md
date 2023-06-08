@@ -343,6 +343,8 @@ https://github.com/nodejs/node#verifying-binaries
 
 **Met**
 
+For Node.js dependencies we have a repository https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues containing all the public CVEs that weren't addressed in the Node.js scope and all of them are assessed regularly.
+
 > Projects SHOULD fix all critical vulnerabilities rapidly after they are reported.
 
 **Met**
