@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-30586"],
+  "vulnerable": "20.x",
+  "patched": "^20.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases/",
+  "overview": "Node.js 20 allows loading arbitrary OpenSSL engines when the experimental permission model is enabled, which can bypass and/or disable the permission model.",
+  "affectedEnvironments": ["all"]
+}

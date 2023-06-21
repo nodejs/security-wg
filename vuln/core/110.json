@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-30583"],
+  "vulnerable": "20.x",
+  "patched": "^20.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases/",
+  "overview": "fs.openAsBlob() can bypass the experimental permission model when using the file system read restriction with the --allow-fs-read flag in Node.js 20",
+  "affectedEnvironments": ["all"]
+}

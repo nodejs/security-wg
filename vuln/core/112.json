@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-30585"],
+  "vulnerable": "16.x || 18.x || 20.x",
+  "patched": "^16.20.1 || ^18.16.1 || ^20.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases/",
+  "overview": "Privilege escalation via Malicious Registry Key manipulation during Node.js installer repair process",
+  "affectedEnvironments": ["win32"]
+}

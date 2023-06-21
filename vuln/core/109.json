@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-30582"],
+  "vulnerable": "20.x",
+  "patched": "^20.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases/",
+  "overview": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument.",
+  "affectedEnvironments": ["all"]
+}

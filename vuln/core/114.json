@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-30587"],
+  "vulnerable": "20.x",
+  "patched": "^20.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases/",
+  "overview": "A vulnerability in Node.js version 20 allows for bypassing restrictions set by the --experimental-permission flag using the built-in inspector module (node:inspector).",
+  "affectedEnvironments": ["all"]
+}
