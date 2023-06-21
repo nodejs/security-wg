@@ -91,7 +91,7 @@ _Possible answers: Met/Unmet/NA_
 
 The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained. (URL required) 
 
-_Possible answers: Met/Unmet_
+**Met**
 
 
 ## Accessibility and internationalization
