@@ -327,7 +327,8 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST use at least one static analysis tool with rules or approaches to look for common vulnerabilities in the analyzed language or environment, if there is at least one FLOSS tool that can implement this criterion in the selected language.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
+https://github.com/nodejs/node/blob/main/doc/contributing/static-analysis.md
 
 ## Dynamic code analysis
 
