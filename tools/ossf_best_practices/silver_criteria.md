@@ -225,7 +225,7 @@ _Possible answers: Met/Unmet/NA_
 
 > An automated test suite MUST be applied on each check-in to a shared repository for at least one branch. This test suite MUST produce a report on test success or failure.
 
-_Possible answers: Met/Unmet_
+**Met**
 
 > The project MUST add regression tests to an automated test suite for at least 50% of the bugs fixed within the last six months.
 
