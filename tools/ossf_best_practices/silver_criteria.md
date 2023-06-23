@@ -244,7 +244,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST include, in its documented instructions for change proposals, the policy that tests are to be added for major new functionality.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 ## Warning flags
 
