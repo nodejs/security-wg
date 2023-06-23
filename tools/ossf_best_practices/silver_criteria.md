@@ -76,7 +76,7 @@ _Possible answers: Met/Unmet/NA_
 > The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its "security requirements"). (URL required)
 
 **Met**
-https://github.com/nodejs/node/blob/main/SECURITY.md
+https://github.com/nodejs/node/blob/main/SECURITY.md and https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model
 
 > The project MUST provide a "quick start" guide for new users to help them quickly do something with the software. (URL required)
 
