@@ -98,7 +98,7 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 > The project (both project sites and project results) SHOULD follow accessibility best practices so that persons with disabilities can still participate in the project and use the project results where it is reasonable to do so.
 
-_Possible answers: Met/Unmet/NA_
+**Met** Tested with automatic tools, but there is no dedicated team for accessibility.
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
