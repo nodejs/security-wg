@@ -102,7 +102,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
-_Possible answers: Met/Unmet/NA_
+**NA**
 
 
 ## Other
