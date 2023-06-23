@@ -240,7 +240,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST have a formal written policy that as major new functionality is added, tests for the new functionality MUST be added to an automated test suite.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST include, in its documented instructions for change proposals, the policy that tests are to be added for major new functionality.
 
