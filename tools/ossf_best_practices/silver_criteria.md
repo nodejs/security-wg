@@ -298,7 +298,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST cryptographically sign releases of the project results intended for widespread use, and there MUST be a documented process explaining to users how they can obtain the public signing keys and verify the signature(s). The private key for these signature(s) MUST NOT be on site(s) used to directly distribute the software to the public. If releases are not intended for widespread use, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met** https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#3-a-publicly-listed-gpg-key
 
 > It is SUGGESTED that in the version control system, each important version tag (a tag that is part of a major release, minor release, or fixes publicly noted vulnerabilities) be cryptographically signed and verifiable as described in [signed_releases](https://bestpractices.coreinfrastructure.org/en/projects/29?criteria_level=1#signed_releases).
 
