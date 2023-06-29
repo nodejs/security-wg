@@ -233,7 +233,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
-_Possible answers: Met/Unmet/NA_
+**Met** https://app.codecov.io/gh/nodejs/node
 
 
 ## New functionality testing
