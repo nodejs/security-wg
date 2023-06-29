@@ -71,7 +71,7 @@ https://github.com/nodejs/node/blob/main/README.md#current-project-team-members
 
 The project MUST include documentation of the architecture (aka high-level design) of the software produced by the project. If the project does not produce software, select "not applicable" (N/A). (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**Met** https://github.com/nodejs/node/tree/main/doc/contributing
 
 > The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its "security requirements"). (URL required)
 
