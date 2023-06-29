@@ -67,7 +67,7 @@ https://github.com/nodejs/node/blob/main/README.md#current-project-team-members
 
 > The project MUST have a documented roadmap that describes what the project intends to do and not do for at least the next year. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met** https://github.com/nodejs/node/blob/HEAD/doc/contributing/strategic-initiatives.md
 
 The project MUST include documentation of the architecture (aka high-level design) of the software produced by the project. If the project does not produce software, select "not applicable" (N/A). (URL required)
 
