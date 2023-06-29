@@ -229,7 +229,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > The project MUST add regression tests to an automated test suite for at least 50% of the bugs fixed within the last six months.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
