@@ -250,7 +250,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > Projects MUST be maximally strict with warnings in the software produced by the project, where practical.
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 
 # Security
