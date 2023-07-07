@@ -176,7 +176,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST be able to repeat the process of generating information from source files and get exactly the same bit-for-bit result. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Unmet**
 
 
 ## Installation system
