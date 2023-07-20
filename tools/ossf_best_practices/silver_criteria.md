@@ -288,7 +288,7 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The software produced by the project MUST, if it supports TLS, perform TLS certificate verification by default when using TLS, including on subresources. If the software does not use TLS, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The software produced by the project MUST, if it supports TLS, perform certificate verification before sending HTTP headers with private information (such as secure cookies). If the software does not use TLS, select "not applicable" (N/A).
 
