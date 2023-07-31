@@ -172,7 +172,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
 
 > The build system for the software produced by the project MUST NOT recursively build subdirectories if there are cross-dependencies in the subdirectories. If there is no build or installation system (e.g., typical JavaScript libraries), select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST be able to repeat the process of generating information from source files and get exactly the same bit-for-bit result. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select "not applicable" (N/A).
 
