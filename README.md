@@ -1,45 +1,21 @@
-[![Node.js Security WG](https://img.shields.io/badge/Node.js-Security%20WG-green.svg)]()
-[![Security WG Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+WG+meeting)
-[![Security WG Twitter Hashtag](https://img.shields.io/badge/Twitter-%23SecurityWG-blue.svg)](https://twitter.com/search?q=SecurityWG)
+[![Node.js Security Team](https://img.shields.io/badge/Node.js-Security%20Team-green.svg)]()
+[![Security Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+meeting)
 [![OpenJS Slack Invite](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
 [![OpenSSF scorecard](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg/badge)](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg)
 
-# Security Working Group
+# Security Team
 
 Table of Contents
 
-- Vulnerability Management
-  * [Vulnerability Database](./processes/vuln_db.md)
-  * [Recognition for Security Researchers](./processes/recognition.md)
-- Processes for Security WG Members
-  * [Security Team Membership Policy](./processes/security_team_membership_policy.md)
-  * [On-boarding Team Members](./processes/wg_onboarding.md)
-  * [Off-boarding Team Members](./processes/wg_offboarding.md)
+
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
-- [Charter](#charter)
-- [Code of Conduct](#code-of-conduct)
-- [Moderation Policy](#moderation-policy)
+- [Current Initiatives](#current-initiatives)
 - [Current Project Team Members](#current-project-team-members)
 - [Emeritus Members](#emeritus-members)
+- [Code of Conduct](#code-of-conduct)
+- [Moderation Policy](#moderation-policy)
 
-
-## [Charter](https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md#security)
-
-The Security Working Group works to improve the security of Node.js & its Ecosystem.
-
-Responsibilities include:
-* Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
-  are well-documented processes for reporting vulnerabilities in community
-  modules.
-* Maintain and make available data on disclosed security vulnerabilities in:
-  * the core Node.js project
-  * other projects maintained by the Node.js Foundation technical group
-  * the external Node.js open source ecosystem
-* Promote the improvement of security practices within the Node.js ecosystem.
-* Facilitate and promote the expansion of a healthy security service and product
-  provider ecosystem.
-
-This Working Group is _not_ responsible for managing or responding to
+This team is _not_ responsible for managing or responding to
 security reports against Node.js itself. That responsibility remains with
 the [Node.js TSC][].
 
