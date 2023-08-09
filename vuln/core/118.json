@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-32002"],
+  "vulnerable": "16.x || 18.x || 20.x",
+  "patched": "^16.20.2 || ^18.17.1 || ^20.5.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/august-2023-security-releases/",
+  "overview": "The use of Module._load() can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.",
+  "affectedEnvironments": ["all"]
+}
