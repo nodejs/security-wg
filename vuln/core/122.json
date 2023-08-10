@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-32559"],
+  "vulnerable": "16.x || 18.x || 20.x",
+  "patched": "^16.20.2 || ^18.17.1 || ^20.5.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/august-2023-security-releases/",
+  "overview": "The use of the deprecated API process.binding() can bypass the policy mechanism by requiring internal modules and eventually take advantage of process.binding('spawn_sync') run arbitrary code, outside of the limits defined in a policy.json file.",
+  "affectedEnvironments": ["all"]
+}

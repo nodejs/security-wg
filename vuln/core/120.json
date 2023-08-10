@@ -1,0 +1,8 @@
+{
+  "cve": ["CVE-2023-32558"],
+  "vulnerable": "20.x",
+  "patched": "^20.5.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/august-2023-security-releases/",
+  "overview": "The use of the deprecated API process.binding() can bypass the permission model through path traversal.",
+  "affectedEnvironments": ["all"]
+}
