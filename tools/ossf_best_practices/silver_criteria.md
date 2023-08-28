@@ -54,9 +54,10 @@ https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
 **Met**
 https://github.com/nodejs/node/blob/main/GOVERNANCE.md
 
-> The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
+> The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names) (URL required).
 
-**Met**
+**Met** https://github.com/nodejs/node/blob/main/GOVERNANCE.md
+
 
 > The project SHOULD have a "bus factor" of 2 or more. (URL required)
 
@@ -91,7 +92,7 @@ The project MUST make an effort to keep the documentation consistent with the cu
 
 The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained. (URL required) 
 
-**Met**
+**Met** https://github.com/nodejs/nodejs.org/issues/5432
 
 
 ## Accessibility and internationalization
@@ -151,9 +152,8 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it. (URL required)
 
-**Met**
-### **Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
+**Met** https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
+
 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
