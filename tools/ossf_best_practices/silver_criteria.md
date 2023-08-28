@@ -103,7 +103,7 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
-**N/A**. The project does not produce software that generates text intended for end-users and doesn't sort human-readable text. The final user is responsible for that when using Node.js.
+**N/A**. The project does not produce software that generates text intended for end-users and doesn't sort human-readable text. The end user is responsible for that when using Node.js.
 
 
 ## Other
