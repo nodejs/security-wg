@@ -152,9 +152,8 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it. (URL required)
 
-**Met**
-### **Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
+**Met** https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
+
 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
