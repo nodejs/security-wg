@@ -103,15 +103,14 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
-**NA**
+**N/A**. The project does not produce software that generates text intended for end-users and doesn't sort human-readable text. The final user is responsible for that when using Node.js.
 
 
 ## Other
 
 > If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select "not applicable" (N/A).
 
-**N/A**
-
+**N/A** The project does not store passwords for authentication of external users.
 
 
 # Change Control
@@ -259,7 +258,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > The project MUST implement secure design principles (from "know_secure_design"), where applicable. If the project is not producing software, select "not applicable" (N/A).
 
-** Met**
+**Met**
 
 
 ## Use basic good cryptographic practices
@@ -276,11 +275,11 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The project MUST support storing authentication credentials (such as passwords and dynamic tokens) and private cryptographic keys in files that are separate from other information (such as configuration files, databases, and logs), and permit users to update and replace them without code recompilation. If the project never processes authentication credentials and private cryptographic keys, select "not applicable" (N/A).
 
-**N/A**
+**N/A** The project does not produce software that stores authentication credentials or private cryptographic keys but it does provide a crypto module that can be used for that purpose by the final user. The final user is responsible for the security of the credentials and keys.
 
 > The software produced by the project SHOULD support secure protocols for all of its network communications, such as SSHv2 or later, TLS1.2 or later (HTTPS), IPsec, SFTP, and SNMPv3. Insecure protocols such as FTP, HTTP, telnet, SSLv3 or earlier, and SSHv1 SHOULD be disabled by default, and only enabled if the user specifically configures it. If the software produced by the project does not support network communications, select "not applicable" (N/A). 
 
-**N/A**
+**N/A** The project does not produce software that supports network communications, the final user is responsible for that when using Node.js.
 
 > The software produced by the project SHOULD, if it supports or uses TLS, support at least TLS version 1.2. Note that the predecessor of TLS was called SSL. If the software does not use TLS, select "not applicable" (N/A).
 
@@ -313,7 +312,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and
 
 > Hardening mechanisms SHOULD be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities.
 
-**NA**
+**N/A** The the final user has the power to decide, see: Node.js thread model (https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model)
 
 > The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered. (URL required)
 
