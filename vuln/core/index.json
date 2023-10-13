@@ -1546,5 +1546,77 @@
     "affectedEnvironments": [
       "all"
     ]
+  },
+  "125": {
+    "cve": [
+      "CVE-2023-45143"
+    ],
+    "vulnerable": "18.x || 20.x",
+    "patched": "^18.18.2 || ^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "Cookie headers are not cleared in cross-domain redirect in undici-fetch (High)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "126": {
+    "cve": [
+      "CVE-2023-44487"
+    ],
+    "vulnerable": "18.x || 20.x",
+    "patched": "^18.18.2 || ^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "Rapidly creating and cancelling streams (HEADERS frame immediately followed by RST_STREAM) without bound cause denial of service (High)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "127": {
+    "cve": [
+      "CVE-2023-39331"
+    ],
+    "vulnerable": "20.x",
+    "patched": "^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "A previously disclosed vulnerability (CVE-2023-30584) was patched insufficiently. The implementation does not protect itself against the application overwriting built-in utility functions with user-defined implementations (High)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "128": {
+    "cve": [
+      "CVE-2023-39332"
+    ],
+    "vulnerable": "20.x",
+    "patched": "^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "Path traversal through path stored in Uint8Array (High)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "129": {
+    "cve": [
+      "CVE-2023-38552"
+    ],
+    "vulnerable": "18.x || 20.x",
+    "patched": "^18.18.2 || ^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "Integrity checks according to experimental policies can be circumvented (Medium)",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "130": {
+    "cve": [
+      "CVE-2023-39333"
+    ],
+    "vulnerable": "18.x || 20.x",
+    "patched": "^18.18.2 || ^20.8.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
+    "overview": "Code injection via WebAssembly export names (Low)",
+    "affectedEnvironments": [
+      "all"
+    ]
   }
 }
