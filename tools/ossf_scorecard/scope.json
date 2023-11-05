@@ -6,10 +6,8 @@
         "node-gyp",
         "nan",
         "build",
-        "http-parser",
         "node-addon-examples",
         "diagnostics",
-        "nodejs-ko",
         "node",
         "docker-node",
         "changelog-maker",
@@ -20,9 +18,7 @@
         "help",
         "llnode",
         "core-validate-commit",
-        "node-report",
         "nodejs-nightly-builder",
-        "node-inspect",
         "nodejs-dist-indexer",
         "security-wg",
         "tap2junit",
@@ -35,21 +31,26 @@
         "string_decoder",
         "llhttp",
         "llparse",
-        "i18n",
-        "modules",
-        "mentorship",
         "meeting-picker",
         "undici",
         "official-images",
-        "nodejs.dev",
         "package-maintenance",
         "uvwasi",
-        "whatwg-stream",
         "corepack",
         "gyp-next",
         "node-auto-test"
       ],
-      "excluded": []
+      "excluded": [
+        "nodejs.dev",
+        "modules",
+        "i18n",
+        "nodejs-ko",
+        "http-parser",
+        "mentorship",
+        "node-inspect",
+        "node-report",
+        "whatwg-stream"
+      ]
     }
   }
 }
