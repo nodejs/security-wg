@@ -51,7 +51,7 @@ https://github.com/nodejs/node
 
 > The project's source repository MUST use a common distributed version control software (e.g., git or mercurial). 
 
-_Possible answers: Met/Unmet_
+**Met** 
 
 > The project MUST clearly identify small tasks that can be performed by new or casual contributors. (URL required)
 
