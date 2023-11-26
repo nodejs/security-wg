@@ -132,7 +132,7 @@ _Possible answers: Met/Unmet_
 
 > The project MUST have performed a security review within the last 5 years. This review MUST consider the security requirements and security boundary.
 
-_Possible answers: Met/Unmet_
+**Unmet**
 
 > Hardening mechanisms MUST be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities. (URL required)
 
