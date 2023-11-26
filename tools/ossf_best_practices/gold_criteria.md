@@ -63,7 +63,7 @@ https://github.com/nodejs/node
 
 > The project's two-factor authentication (2FA) SHOULD use cryptographic mechanisms to prevent impersonation. Short Message Service (SMS) based 2FA, by itself, does NOT meet this criterion, since it is not encrypted.
 
-_Possible answers: Met/Unmet_
+**Met**
 
 # Quality
 
