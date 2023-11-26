@@ -71,7 +71,7 @@ https://github.com/nodejs/node
 
 > The project MUST document its code review requirements, including how code review is conducted, what must be checked, and what is required to be acceptable. (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST have at least 50% of all proposed modifications reviewed before release by a person other than the author, to determine if it is a worthwhile modification and free of known issues which would argue against its inclusion
 
