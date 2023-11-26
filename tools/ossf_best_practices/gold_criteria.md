@@ -136,7 +136,7 @@ _Possible answers: Met/Unmet_
 
 > Hardening mechanisms MUST be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities. (URL required)
 
-_Possible answers: Met/Unmet/NA_
+**N/A**
 
 
 # Analysis
