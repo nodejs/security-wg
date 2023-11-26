@@ -98,7 +98,7 @@ https://ci.nodejs.org/
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 90% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language. 
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% branch coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
