@@ -2,6 +2,7 @@ Check the official [report](https://bestpractices.coreinfrastructure.org/en/proj
 
 
 # Basics
+
 > What is the human-readable name of the project?
 
 _[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)_
@@ -23,7 +24,6 @@ _[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)
 > The project MUST achieve a passing level badge.
 
 **Met**
-
 
 ## Basic project website content
 
@@ -75,11 +75,9 @@ The project MUST include documentation of the architecture (aka high-level desig
 
 **Met. https://nodejs.dev/en/learn/**
 
-
 The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual.
 
 **Met**
-
 
 The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained. (URL required) 
 
@@ -96,14 +94,11 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 **NA**
 
-
 ## Other
 
 > If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select "not applicable" (N/A).
 
 **N/A**
-
-
 
 # Change Control
 
@@ -128,7 +123,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 **Met. https://hackerone.com/nodejs/hacktivity**
 
-
 > The project MUST have a documented process for responding to vulnerability reports. (URL required)
 
 **Met. https://github.com/nodejs/node/blob/main/SECURITY.md**
@@ -144,7 +138,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
 **Met**
-
 
 ## Working build system
 
@@ -163,7 +156,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 > The project MUST be able to repeat the process of generating information from source files and get exactly the same bit-for-bit result. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select "not applicable" (N/A).
 
 **Unmet**
-
 
 ## Installation system
 
@@ -203,7 +195,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 **Met**
 
-
 ## Automated test suite
 
 > An automated test suite MUST be applied on each check-in to a shared repository for at least one branch. This test suite MUST produce a report on test success or failure.
@@ -217,7 +208,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
 **Met. https://app.codecov.io/gh/nodejs/node**
-
 
 ## New functionality testing
 
@@ -235,7 +225,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 **Met**
 
-
 # Security
 
 ## Secure development knowledge
@@ -243,7 +232,6 @@ The project repository front page and/or website MUST identify and hyperlink to 
 > The project MUST implement secure design principles (from "know_secure_design"), where applicable. If the project is not producing software, select "not applicable" (N/A).
 
 **Met**
-
 
 ## Use basic good cryptographic practices
 
