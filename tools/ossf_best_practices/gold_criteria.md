@@ -126,7 +126,7 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The project website, repository (if accessible via the web), and download site (if separate) MUST include key hardening headers with nonpermissive values. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
 
 ## Other security issues
 
