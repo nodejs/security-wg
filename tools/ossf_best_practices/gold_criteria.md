@@ -89,7 +89,7 @@ _Possible answers: Met/Unmet/NA_
 
 > A test suite MUST be invocable in a standard way for that language.
 
-_Possible answers: Met/Unmet_
+**Met**
 
 > The project MUST implement continuous integration, where new or changed code is frequently integrated into a central code repository and automated tests are run on the result. 
 
