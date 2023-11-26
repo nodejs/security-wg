@@ -149,4 +149,4 @@ Infrastructure for running several different dynamic analysis tools is provided 
 
 > The project SHOULD include many run-time assertions in the software it produces and check those assertions during dynamic analysis.
 
-_Possible answers: Met/Unmet/NA_
+**Unmet**
