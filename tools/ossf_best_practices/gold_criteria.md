@@ -118,7 +118,7 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The software produced by the project MUST, if it supports or uses TLS, support at least TLS version 1.2. Note that the predecessor of TLS was called SSL. If the software does not use TLS, select "not applicable" (N/A).
 
-_Possible answers: Met/Unmet/NA_
+**Met**
 
 
 
