@@ -22,7 +22,7 @@ https://github.com/nodejs/node
 
 > The project MUST achieve a silver level badge.
 
-**Unmet**
+**Met**
 
 
 ## Project oversight
