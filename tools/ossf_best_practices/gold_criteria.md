@@ -33,7 +33,7 @@ https://github.com/nodejs/node
 
 > The project MUST have at least two unassociated significant contributors.
 
-_Possible answers: Met/Unmet_
+**Met**
 
 ## Other
 
