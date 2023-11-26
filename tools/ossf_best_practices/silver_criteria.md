@@ -82,6 +82,7 @@ The project MUST make an effort to keep the documentation consistent with the cu
 The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained. (URL required) 
 
 **Met**
+**Met. https://nodejs.org/en/about/security-reporting#openssf-best-practices**
 
 
 ## Accessibility and internationalization
