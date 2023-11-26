@@ -29,7 +29,7 @@ https://github.com/nodejs/node
 
 > The project MUST have a "bus factor" of 2 or more. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
 
 > The project MUST have at least two unassociated significant contributors.
 
