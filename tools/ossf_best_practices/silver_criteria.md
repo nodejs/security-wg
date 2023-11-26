@@ -4,19 +4,19 @@ Check the official [report](https://bestpractices.coreinfrastructure.org/en/proj
 # Basics
 > What is the human-readable name of the project?
 
-Node.js
+_[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)_
 
 > What is a brief description of the project?
 
-Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine
+_[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)_
 
 > What is the URL for the project (as a whole)?
 
-https://nodejs.org
+_[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)_
 
 > What is the URL for the version control repository (it may be the same as the project URL)?
 
-https://github.com/nodejs/node
+_[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)_
 
 ## Prerequisites
 
