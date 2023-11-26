@@ -39,7 +39,7 @@ https://github.com/nodejs/node
 
 > The project MUST include a copyright statement in each source file, identifying the copyright holder (e.g., the [project name] contributors).
 
-_Possible answers: Met/Unmet_
+**Unmet**
 
 > The project MUST include a license statement in each source file. This MAY be done by including the following inside a comment near the beginning of each file: SPDX-License-Identifier: [SPDX license expression for project](https://spdx.dev/ids/#how)
 
