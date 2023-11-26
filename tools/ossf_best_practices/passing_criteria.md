@@ -4,27 +4,29 @@ Check the official [report](https://bestpractices.coreinfrastructure.org/en/proj
 # Basics
 > What is the human-readable name of the project?
 
-Node.js
+**Node.js**
+
 
 > What is a brief description of the project?
 
-Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine
+**Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine**
 
 > What is the URL for the project (as a whole)?
 
-https://nodejs.org
+**https://nodejs.org**
 
->What is the URL for the version control repository (it may be the same as the project URL)?
+Context:
 
-https://github.com/nodejs/node
+> What is the URL for the version control repository (it may be the same as the project URL)?
+**https://github.com/nodejs/node**
 
 > What programming language(s) are used to implement the project? 
 
-JavaScript, C++, Python (CII estimate)
+**JavaScript, C++, Python (CII estimate)**
 
 > What is the [Common Platform Enumeration (CPE)](https://nvd.nist.gov/cpe.cfm) name for the project (if it has one)? 
 
-`cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*`
+**`cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*`**
 
 ## Basic project website content
 
@@ -34,21 +36,22 @@ JavaScript, C++, Python (CII estimate)
 
 > The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software.
 
-**Met**
-https://nodejs.org/en/get-involved
+**Met. https://nodejs.org/en/get-involved**
+
 
 
 > The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) (URL required)
 
+**Met. https://github.com/nodejs/node/blob/master/CONTRIBUTING.md**
 
-**Met**
-https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
+Context:
+- [CII Best Practices: Criteria Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/criteria.md#basics)
 
 
 > The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
+**Met. https://github.com/nodejs/node/blob/master/CONTRIBUTING.md**
+
 
 
 ## FLOSS license
@@ -63,20 +66,20 @@ https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
 
 > The project MUST post the license(s) of its results in a standard location in their source repository. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/master/LICENSE
+**Met. https://github.com/nodejs/node/blob/master/LICENSE**
+
 
 ## Documentation
 
 > The project MUST provide basic documentation for the software produced by the project.
 
-**Met**
-https://nodejs.org/en/docs/
+**Met. https://nodejs.org/en/docs/**
+
 
 > The project MUST provide reference documentation that describes the external interface (both input and output) of the software produced by the project.
 
-**Met**
-https://nodejs.org/api/
+**Met. https://nodejs.org/api/**
+
 
 ## Other
 
@@ -84,10 +87,11 @@ https://nodejs.org/api/
 
 **Met**
 
->The project MUST have one or more mechanisms for discussion (including proposed changes and issues) that are searchable, allow messages and topics to be addressed by URL, enable new people to participate in some of the discussions, and do not require client-side installation of proprietary software.
+Context:
 
-**Met**
-GitHub issue tracker and pull requests support discussion
+> The project MUST have one or more mechanisms for discussion (including proposed changes and issues) that are searchable, allow messages and topics to be addressed by URL, enable new people to participate in some of the discussions, and do not require client-side installation of proprietary software.
+
+**Met. GitHub issue tracker and pull requests support discussion**
 
 > The project SHOULD provide documentation in English and be able to accept bug reports and comments about code in English. 
 
@@ -123,8 +127,8 @@ GitHub issue tracker and pull requests support discussion
 
 > The project results MUST have a unique version identifier for each release intended to be used by users.
 
-**Met**
-strictly semver
+**Met. Strictly semver**
+
 
 
 > It is SUGGESTED that the [Semantic Versioning (SemVer)](https://semver.org/) or [Calendar Versioning (CalVer)](https://calver.org/) version numbering format be used for releases. It is SUGGESTED that those who use CalVer include a micro level value
@@ -133,16 +137,16 @@ strictly semver
 
 > It is SUGGESTED that projects identify each release within their version control system. For example, it is SUGGESTED that those using git identify each release using git tags.
 
-**Met**
-git tags
+**Met. Git tags**
+
 
 
 ## Release notes
 
 > The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be. The release notes MUST NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes). Projects whose results are not intended for reuse in multiple locations (such as the software for a single website or service) AND employ continuous delivery MAY select "N/A". (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/master/CHANGELOG.md
+**Met. https://github.com/nodejs/node/blob/master/CHANGELOG.md**
+
 
 > The release notes MUST identify every publicly known run-time vulnerability fixed in this release that already had a CVE assignment or similar when the release was created. This criterion may be marked as not applicable (N/A) if users typically cannot practically update the software themselves (e.g., as is often true for kernel updates). This criterion applies only to the project results, not to its dependencies. If there are no release notes or there have been no publicly known vulnerabilities, choose N/A.
 
@@ -155,13 +159,13 @@ https://github.com/nodejs/node/blob/master/CHANGELOG.md
 
 > The project MUST provide a process for users to submit bug reports (e.g., using an issue tracker or a mailing list). (URL required)
 
-**Met**
-https://github.com/nodejs/node/issues
+**Met. https://github.com/nodejs/node/issues**
+
 
 > The project SHOULD use an issue tracker for tracking individual issues.
 
-**Met**
-https://github.com/nodejs/node/issues
+**Met. https://github.com/nodejs/node/issues**
+
 
 > The project MUST acknowledge a majority of bug reports submitted in the last 2-12 months (inclusive); the response need not include a fix.
 
@@ -173,24 +177,24 @@ https://github.com/nodejs/node/issues
 
 > The project MUST have a publicly available archive for reports and responses for later searching. (URL required)
 
-**Met**
-https://github.com/nodejs/node/issues
+**Met. https://github.com/nodejs/node/issues**
+
 
 
 ## Vulnerability report process
 
 > The project MUST publish the process for reporting vulnerabilities on the project site. (URL required)
 
-**Met**
-https://nodejs.org/en/security/
+**Met. https://nodejs.org/en/security/**
+
 
 > If private vulnerability reports are supported, the project MUST include how to send the information in a way that is kept private. (URL required)
 
-**Met** https://nodejs.org/en/security/#disclosure-policy
+**Met. https://nodejs.org/en/security/#disclosure-policy**
 
 > The project's initial response time for any vulnerability report received in the last 6 months MUST be less than or equal to 14 days.
 
-**Met** Your email will be acknowledged within 24 hours
+**Met. Your email will be acknowledged within 24 hours**
 
 
 # Quality
@@ -199,20 +203,20 @@ https://nodejs.org/en/security/
 
 > If the software produced by the project requires building for use, the project MUST provide a working build system that can automatically rebuild the software from source code.
 
-**Met**
-https://github.com/nodejs/node#build
+**Met. https://github.com/nodejs/node#build**
+
 
 
 > It is SUGGESTED that common tools be used for building the software.
 
-**Met**
-python, make or batch file, gcc or clang
+**Met. python, make or batch file, gcc or clang**
+
 
 
 > The project SHOULD be buildable using only FLOSS tools.
 
-**Met**
-python, make or batch file, gcc or clang
+**Met. python, make or batch file, gcc or clang**
+
 
 
 ## Automated test suite
@@ -224,8 +228,8 @@ python, make or batch file, gcc or clang
 
 > A test suite SHOULD be invocable in a standard way for that language.
 
-**Met**
-make or batch file, executed using python
+**Met. make or batch file, executed using python**
+
 
 
 > It is SUGGESTED that the test suite cover most (or ideally all) the code branches, input fields, and functionality.
@@ -235,16 +239,15 @@ make or batch file, executed using python
 
 > It is SUGGESTED that the project implement continuous integration (where new or changed code is frequently integrated into a central code repository and automated tests are run on the result).
 
-**Met**
-https://ci.nodejs.org/
+**Met. https://ci.nodejs.org/**
 
 
 ## New functionality testing
 
 > The project MUST have a general policy (formal or not) that as major new functionality is added to the software produced by the project, tests of that functionality should be added to an automated test suite.
 
-**Met** 
-https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-6-test
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-6-test**
+
 
 > The project MUST have evidence that the test_policy for adding tests has been adhered to in the most recent major changes to the software produced by the project.
 
@@ -258,8 +261,8 @@ https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-
 
 > The project MUST enable one or more compiler warning flags, a "safe" language mode, or use a separate "linter" tool to look for code quality errors or common simple mistakes, if there is at least one FLOSS tool that can implement this criterion in the selected language.
 
-**Met**
--Wall for compiling, c++ and JS linting as part of test suite
+**Met. Wall for compiling, c++ and JS linting as part of test suite**
+
 
 
 > The project MUST address warnings.
@@ -287,13 +290,13 @@ https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-
 
 > The software produced by the project MUST use, by default, only cryptographic protocols and algorithms that are publicly published and reviewed by experts (if cryptographic protocols and algorithms are used).
 
-**Met**
-all crypto uses openssl
+**Met. All crypto uses openssl**
+
 
 > If the software produced by the project is an application or library, and its primary purpose is not to implement cryptography, then it SHOULD only call on software specifically designed to implement cryptographic functions; it SHOULD NOT re-implement its own.
 
-**Met**
-all crypto uses openssl
+**Met. All crypto uses openssl**
+
 
 > All functionality in the software produced by the project that depends on cryptography MUST be implementable using FLOSS.
 
@@ -301,8 +304,8 @@ all crypto uses openssl
 
 > The security mechanisms within the software produced by the project MUST use default keylengths that at least meet the NIST minimum requirements through the year 2030 (as stated in 2012). It MUST be possible to configure the software so that smaller keylengths are completely disabled.
 
-**Met**
-If someone wants to, they can use custom OpenSSL configurations, custom OpenSSL providers, or even custom dynamically linked OpenSSL builds to "configure" Node.js's crypto module
+**Met. If someone wants to, they can use custom OpenSSL configurations, custom OpenSSL providers, or even custom dynamically linked OpenSSL builds to "configure" Node.js's crypto module**
+
 
 > The default security mechanisms within the software produced by the project MUST NOT depend on broken cryptographic algorithms (e.g., MD4, MD5, single DES, RC4, Dual_EC_DRBG), or use cipher modes that are inappropriate to the context, unless they are necessary to implement an interoperable protocol (where the protocol implemented is the most recent version of that standard broadly supported by the network ecosystem, that ecosystem requires the use of such an algorithm or mode, and that ecosystem does not offer any more secure alternative). The documentation MUST describe any relevant security risks and any known mitigations if these broken algorithms or modes are necessary for an interoperable protocol.
 
@@ -333,17 +336,16 @@ If someone wants to, they can use custom OpenSSL configurations, custom OpenSSL 
 
 > A cryptographic hash (e.g., a sha1sum) MUST NOT be retrieved over http and used without checking for a cryptographic signature.
 
-**Met**
-https://github.com/nodejs/node#verifying-binaries
+**Met. https://github.com/nodejs/node#verifying-binaries**
+
 
 
 ## Publicly known vulnerabilities fixed
 
 > There MUST be no unpatched vulnerabilities of medium or higher severity that have been publicly known for more than 60 days.
 
-**Met**
+**Met. For Node.js dependencies we have a repository https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues containing all the public CVEs that weren't addressed in the Node.js scope and all of them are assessed regularly.**
 
-For Node.js dependencies we have a repository https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues containing all the public CVEs that weren't addressed in the Node.js scope and all of them are assessed regularly.
 
 > Projects SHOULD fix all critical vulnerabilities rapidly after they are reported.
 
@@ -362,8 +364,8 @@ For Node.js dependencies we have a repository https://github.com/nodejs/nodejs-d
 
 > At least one static code analysis tool (beyond compiler warnings and "safe" language modes) MUST be applied to any proposed major production release of the software before its release, if there is at least one FLOSS tool that implements this criterion in the selected language.
 
-**Met**
-https://scan.coverity.com/projects/node-js
+**Met. https://scan.coverity.com/projects/node-js**
+
 
 > It is SUGGESTED that at least one of the static analysis tools used for the static_analysis criterion include rules or approaches to look for common vulnerabilities in the analyzed language or environment.
 
@@ -381,14 +383,13 @@ https://scan.coverity.com/projects/node-js
 
 > It is SUGGESTED that at least one dynamic analysis tool be applied to any proposed major production release of the software before its release.
 
-**Met**
-Infrastructure for running several different dynamic analysis tools is provided by the project. See: https://github.com/nodejs/node/tree/master/tools
+**Met. Infrastructure for running several different dynamic analysis tools is provided by the project. See: https://github.com/nodejs/node/tree/master/tools**
+
 
 
 > It is SUGGESTED that if the software produced by the project includes software written using a memory-unsafe language (e.g., C or C++), then at least one dynamic tool (e.g., a fuzzer or web application scanner) be routinely used in combination with a mechanism to detect memory safety problems such as buffer overwrites. If the project does not produce software written in a memory-unsafe language, choose "not applicable" (N/A).
 
-**Met**
-valgrind for c++
+**Met. valgrind for c++**
 
 
 
