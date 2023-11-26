@@ -29,30 +29,25 @@ _[Inherit from passing criteria](/tools/ossf_best_practices/passing_criteria.md)
 
 > The information on how to contribute MUST include the requirements for acceptable contributions (e.g., a reference to any required coding standard). (URL required) 
 
-**Met**
-https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
+**Met. https://github.com/nodejs/node/blob/master/CONTRIBUTING.md**
 
 ## Project oversight
 
 > The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions. The most common and easily-implemented approach for doing this is by using a [Developer Certificate of Origin (DCO)](https://developercertificate.org/), where users add "signed-off-by" in their commits and the project links to the DCO website. However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/CONTRIBUTING.md#developers-certificate-of-origin
+**Met. https://github.com/nodejs/node/blob/main/CONTRIBUTING.md#developers-certificate-of-origin**
 
 > The project MUST clearly define and document its project governance model (the way it makes decisions, including key roles). (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/GOVERNANCE.md
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 > The project MUST adopt a code of conduct and post it in a standard location.
 
-**Met**
-https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
+**Met. https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md**
 
 > The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform. It MUST be clear who has which role(s), though this might not be documented in the same way. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/GOVERNANCE.md
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 > The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
 
@@ -60,28 +55,25 @@ https://github.com/nodejs/node/blob/main/GOVERNANCE.md
 
 > The project SHOULD have a "bus factor" of 2 or more. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/README.md#current-project-team-members
+**Met. https://github.com/nodejs/node/blob/main/README.md#current-project-team-members**
 
 ## Documentation
 
 > The project MUST have a documented roadmap that describes what the project intends to do and not do for at least the next year. (URL required)
 
-**Met** https://github.com/nodejs/node/blob/HEAD/doc/contributing/strategic-initiatives.md
+**Met. https://github.com/nodejs/node/blob/HEAD/doc/contributing/strategic-initiatives.md**
 
 The project MUST include documentation of the architecture (aka high-level design) of the software produced by the project. If the project does not produce software, select "not applicable" (N/A). (URL required)
 
-**Met** https://github.com/nodejs/node/tree/main/doc/contributing
+**Met. https://github.com/nodejs/node/tree/main/doc/contributing**
 
 > The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its "security requirements"). (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/SECURITY.md and https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model
+**Met. https://github.com/nodejs/node/blob/main/SECURITY.md and https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model**
 
 > The project MUST provide a "quick start" guide for new users to help them quickly do something with the software. (URL required)
 
-**Met**
-https://nodejs.dev/en/learn/
+**Met. https://nodejs.dev/en/learn/**
 
 
 The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual.
@@ -98,7 +90,7 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 > The project (both project sites and project results) SHOULD follow accessibility best practices so that persons with disabilities can still participate in the project and use the project results where it is reasonable to do so.
 
-**Met** Tested with automatic tools, but there is no dedicated team for accessibility.
+**Met. Tested with automatic tools, but there is no dedicated team for accessibility.**
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
@@ -119,8 +111,7 @@ The project repository front page and/or website MUST identify and hyperlink to 
 
 > The project MUST maintain the most often used older versions of the product or provide an upgrade path to newer versions. If the upgrade path is difficult, the project MUST document how to perform the upgrade (e.g., the interfaces that have changed and detailed suggested steps to help upgrade).
 
-**Met**
-https://github.com/nodejs/release#release-schedule
+**Met. https://github.com/nodejs/release#release-schedule**
 
 
 # Reporting
@@ -129,21 +120,18 @@ https://github.com/nodejs/release#release-schedule
 
 > The project MUST use an issue tracker for tracking individual issues. 
 
-**Met**
-https://github.com/nodejs/node/issues
+**Met. https://github.com/nodejs/node/issues**
 
 ## Vulnerability report process
 
 > The project MUST give credit to the reporter(s) of all vulnerability reports resolved in the last 12 months, except for the reporter(s) who request anonymity. If there have been no vulnerabilities resolved in the last 12 months, select "not applicable" (N/A). (URL required)
 
-**Met**
-https://hackerone.com/nodejs/hacktivity
+**Met. https://hackerone.com/nodejs/hacktivity**
 
 
 > The project MUST have a documented process for responding to vulnerability reports. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/SECURITY.md
+**Met. https://github.com/nodejs/node/blob/main/SECURITY.md**
 
 # Quality
 
@@ -151,9 +139,7 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it. (URL required)
 
-**Met**
-### **Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md**
 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
@@ -191,17 +177,14 @@ https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
 
 > The project MUST provide a way for potential developers to quickly install all the project results and support environment necessary to make changes, including the tests and test environment. This MUST be performed with a commonly-used convention.
 
-**Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#setting-up-your-local-environment
-
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#setting-up-your-local-environment**
 
 
 ## Externally-maintained components
 
 > The project MUST list external dependencies in a computer-processable way. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintaining-dependencies.md
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintaining-dependencies.md**
 
 > Projects MUST monitor or periodically check their external dependencies (including convenience copies) to detect known vulnerabilities, and fix exploitable vulnerabilities or verify them as unexploitable.
 
@@ -233,7 +216,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
-**Met** https://app.codecov.io/gh/nodejs/node
+**Met. https://app.codecov.io/gh/nodejs/node**
 
 
 ## New functionality testing
@@ -259,7 +242,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintainin
 
 > The project MUST implement secure design principles (from "know_secure_design"), where applicable. If the project is not producing software, select "not applicable" (N/A).
 
-** Met**
+**Met**
 
 
 ## Use basic good cryptographic practices
@@ -298,12 +281,11 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The project MUST cryptographically sign releases of the project results intended for widespread use, and there MUST be a documented process explaining to users how they can obtain the public signing keys and verify the signature(s). The private key for these signature(s) MUST NOT be on site(s) used to directly distribute the software to the public. If releases are not intended for widespread use, select "not applicable" (N/A).
 
-**Met** https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#3-a-publicly-listed-gpg-key
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#3-a-publicly-listed-gpg-key**
 
 > It is SUGGESTED that in the version control system, each important version tag (a tag that is part of a major release, minor release, or fixes publicly noted vulnerabilities) be cryptographically signed and verifiable as described in [signed_releases](https://bestpractices.coreinfrastructure.org/en/projects/29?criteria_level=1#signed_releases).
 
-**Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and-sign-the-release-commit
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and-sign-the-release-commit**
 
 ## Other security issues
 
@@ -317,8 +299,7 @@ https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and
 
 > The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered. (URL required)
 
-**Met**
-https://github.com/nodejs/node/blob/main/SECURITY.md
+**Met. https://github.com/nodejs/node/blob/main/SECURITY.md**
 
 
 # Analysis
@@ -327,12 +308,10 @@ https://github.com/nodejs/node/blob/main/SECURITY.md
 
 > The project MUST use at least one static analysis tool with rules or approaches to look for common vulnerabilities in the analyzed language or environment, if there is at least one FLOSS tool that can implement this criterion in the selected language.
 
-**Met**
-https://github.com/nodejs/node/blob/main/doc/contributing/static-analysis.md
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/static-analysis.md**
 
 ## Dynamic code analysis
 
 > If the software produced by the project includes software written using a memory-unsafe language (e.g., C or C++), then at least one dynamic tool (e.g., a fuzzer or web application scanner) MUST be routinely used in combination with a mechanism to detect memory safety problems such as buffer overwrites. If the project does not produce software written in a memory-unsafe language, choose "not applicable" (N/A).
 
-**Met**
-valgrind for c++
+**Met. valgrind for c++**
