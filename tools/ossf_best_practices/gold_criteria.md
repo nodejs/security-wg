@@ -75,7 +75,7 @@ _Possible answers: Met/Unmet/NA_
 
 > The project MUST have at least 50% of all proposed modifications reviewed before release by a person other than the author, to determine if it is a worthwhile modification and free of known issues which would argue against its inclusion
 
-_Possible answers: Met/Unmet_
+**Met**
 
 ## Working build system
 
