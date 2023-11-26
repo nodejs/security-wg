@@ -55,7 +55,7 @@ https://github.com/nodejs/node
 
 > The project MUST clearly identify small tasks that can be performed by new or casual contributors. (URL required)
 
-_Possible answers: Met/Unmet_
+**Met**
 
 > The project MUST require two-factor authentication (2FA) for developers for changing a central repository or accessing sensitive data (such as private vulnerability reports). This 2FA mechanism MAY use mechanisms without cryptographic mechanisms such as SMS, though that is not recommended.
 
