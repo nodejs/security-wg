@@ -6,7 +6,6 @@
         "node-gyp",
         "nan",
         "build",
-        "node-addon-examples",
         "diagnostics",
         "node",
         "docker-node",
@@ -15,7 +14,6 @@
         "nodejs.org",
         "citgm",
         "TSC",
-        "help",
         "llnode",
         "core-validate-commit",
         "nodejs-nightly-builder",
@@ -41,10 +39,12 @@
         "node-auto-test"
       ],
       "excluded": [
+        "node-addon-examples",
         "nodejs.dev",
         "modules",
         "i18n",
         "nodejs-ko",
+        "help",
         "http-parser",
         "mentorship",
         "node-inspect",
