@@ -73,9 +73,10 @@ Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#basics)
 - [Team discussion](https://github.com/nodejs/security-wg/pull/955#discussion_r1167971469)
 
-> The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
+> The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names) (URL required).
 
-**Met**
+**Met** https://github.com/nodejs/node/blob/main/GOVERNANCE.md
+
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#basics)
@@ -137,12 +138,11 @@ Context:
 
 > The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained. (URL required) 
 
-**Met. https://nodejs.org/en/about/security-reporting#openssf-best-practices**
+**Met** https://github.com/nodejs/nodejs.org/issues/5432 / https://nodejs.org/en/about/security-reporting#openssf-best-practices
 
 Context:
 - [CII Best Practices: Documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#documentation)
 - [Team discussion](https://github.com/nodejs/security-wg/pull/955#discussion_r1196303302) and [also](https://github.com/nodejs/security-wg/pull/955#discussion_r1197593849)
-
 
 ## Accessibility and internationalization
 
@@ -157,7 +157,7 @@ Context:
 
 > The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select "not applicable" (N/A)
 
-**NA**
+**N/A**. The project does not produce software that generates text intended for end-users and doesn't sort human-readable text. The end user is responsible for that when using Node.js.
 
 Context:
 - [CII Best Practices: Documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#documentation)
@@ -167,7 +167,7 @@ Context:
 
 > If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select "not applicable" (N/A).
 
-**N/A**
+**N/A** The project does not store passwords for authentication of external users.
 
 Context:
 - [CII Best Practices: Documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#documentation)
@@ -221,7 +221,7 @@ Context:
 
 > The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md**
+**Met** https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#quality)
@@ -425,7 +425,7 @@ Context:
 
 > The project MUST support storing authentication credentials (such as passwords and dynamic tokens) and private cryptographic keys in files that are separate from other information (such as configuration files, databases, and logs), and permit users to update and replace them without code recompilation. If the project never processes authentication credentials and private cryptographic keys, select "not applicable" (N/A).
 
-**N/A**
+**N/A** The project does not produce software that stores authentication credentials or private cryptographic keys but it does provide a crypto module that can be used for that purpose by the final user. The final user is responsible for the security of the credentials and keys.
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#security)
@@ -433,7 +433,7 @@ Context:
 
 > The software produced by the project SHOULD support secure protocols for all of its network communications, such as SSHv2 or later, TLS1.2 or later (HTTPS), IPsec, SFTP, and SNMPv3. Insecure protocols such as FTP, HTTP, telnet, SSLv3 or earlier, and SSHv1 SHOULD be disabled by default, and only enabled if the user specifically configures it. If the software produced by the project does not support network communications, select "not applicable" (N/A). 
 
-**N/A**
+**N/A** The project does not produce software that supports network communications, the final user is responsible for that when using Node.js.
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#security)
@@ -495,7 +495,7 @@ Context:
 
 > Hardening mechanisms SHOULD be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities.
 
-**NA**
+**N/A** The the final user has the power to decide, see: Node.js thread model (https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model)
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/other.md#security)
