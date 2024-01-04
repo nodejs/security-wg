@@ -33,7 +33,7 @@ Context:
 
 > The project MUST have a "bus factor" of 2 or more. (URL required)
 
-**Met**
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
@@ -42,7 +42,7 @@ Context:
 
 > The project MUST have at least two unassociated significant contributors.
 
-**Met**
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
@@ -53,12 +53,13 @@ Context:
 
 > The project MUST include a copyright statement in each source file, identifying the copyright holder (e.g., the [project name] contributors).
 
-**Meet**
+**Unmet**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
 - [CII Best Practices: Copyright Per File](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#copyright_per_file)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307391551)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1187)
 
 > The project MUST include a license statement in each source file. This MAY be done by including the following inside a comment near the beginning of each file: SPDX-License-Identifier: [SPDX license expression for project](https://spdx.dev/ids/#how)
 
@@ -67,6 +68,7 @@ Context:
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307392811)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1187)
 
 # Change Control
 
@@ -90,7 +92,7 @@ Context:
 
 > The project MUST require two-factor authentication (2FA) for developers for changing a central repository or accessing sensitive data (such as private vulnerability reports). This 2FA mechanism MAY use mechanisms without cryptographic mechanisms such as SMS, though that is not recommended.
 
-**Met**
+**Met. Node.js org has enabled 2FA for all the members, see: https://github.com/openjs-foundation/security-collab-space/issues/94#issuecomment-1874627417**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-change-control-1)
@@ -119,7 +121,7 @@ Context:
 
 > The project MUST have at least 50% of all proposed modifications reviewed before release by a person other than the author, to determine if it is a worthwhile modification and free of known issues which would argue against its inclusion
 
-**Met. Currently the repo is monitored against the OSSF Scorecard, where this is checked every 2 weeks in the Security Team regular meetings. See: https://github.com/nodejs/security-wg/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/tools/ossf_scorecard/report.md**
+**Met. The process is documented: https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/pull-requests.md#reviewing-pull-requests and we use additional tools like the OSSF Scorecard to monitor it**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
@@ -157,21 +159,24 @@ Context:
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 90% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language. 
 
-**Met. This is part of the CI Checks in place**
+**Met. Report available in https://app.codecov.io/gh/nodejs/node**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
 - [CII Best Practices: Test Statement Coverage 90%](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#test_statement_coverage90)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307405014)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1187)
+
 
 > The project MUST have FLOSS automated test suite(s) that provide at least 80% branch coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
-**Met. This is part of the CI Checks in place**
+**Met. Report available in https://app.codecov.io/gh/nodejs/node**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
 - [CII Best Practices: Test Branch Coverage 80%](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#test_branch_coverage80)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307405888)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1188)
 
 
 # Security
@@ -188,6 +193,8 @@ Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307415866)
 - [See related question in Silver Criteria](/tools/ossf_best_practices/silver_criteria.md)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1189)
+
 
 > The software produced by the project MUST, if it supports or uses TLS, support at least TLS version 1.2. Note that the predecessor of TLS was called SSL. If the software does not use TLS, select "not applicable" (N/A).
 
@@ -208,6 +215,7 @@ Context:
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
 - [Team Discussion](https://github.com/nodejs/security-wg/pull/956#discussion_r1307413951)
+- [Issue to follow up](https://github.com/nodejs/security-wg/issues/1190)
 
 ## Other security issues
 
