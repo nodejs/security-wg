@@ -1618,5 +1618,101 @@
     "affectedEnvironments": [
       "all"
     ]
+  },
+  "131": {
+    "cve": [
+      "CVE-2023-46809"
+    ],
+    "vulnerable": "18.x || 20.x || 21.x",
+    "patched": "^18.19.1 || ^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "A vulnerability in the privateDecrypt() API of the crypto library, allowed a covert timing side-channel during PKCS#1 v1.5 padding error handling.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "132": {
+    "cve": [
+      "CVE-2024-21891"
+    ],
+    "vulnerable": "20.x || 21.x",
+    "patched": "^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "Node.js depends on multiple built-in utility functions to normalize paths provided to node:fs functions, which can be overwitten with user-defined implementations leading to filesystem permission model bypass through path traversal attack.",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "133": {
+    "cve": [
+      "CVE-2024-21890"
+    ],
+    "vulnerable": "20.x || 21.x",
+    "patched": "^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "Improper handling of wildcards in --allow-fs-read and --allow-fs-write",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "134": {
+    "cve": [
+      "CVE-2024-21892"
+    ],
+    "vulnerable": "18.x || 20.x || 21.x",
+    "patched": "^18.19.1 || ^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "Code injection and privilege escalation through Linux capabilities",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "135": {
+    "cve": [
+      "CVE-2024-22019"
+    ],
+    "vulnerable": "18.x || 20.x || 21.x",
+    "patched": "^18.19.1 || ^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "A vulnerability in Node.js HTTP servers allows an attacker to send a specially crafted HTTP request with chunked encoding, leading to resource exhaustion and denial of service (DoS).",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "136": {
+    "cve": [
+      "CVE-2024-21896"
+    ],
+    "vulnerable": "20.x || 21.x",
+    "patched": "^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "The permission model protects itself against path traversal attacks by calling path.resolve() on any paths given by the user. If the path is to be treated as a Buffer, the implementation uses Buffer.from() to obtain a Buffer from the result of path.resolve().",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "137": {
+    "cve": [
+      "CVE-2024-22017"
+    ],
+    "vulnerable": "20.x || 21.x",
+    "patched": "^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid(). This allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid()",
+    "affectedEnvironments": [
+      "all"
+    ]
+  },
+  "138": {
+    "cve": [
+      "CVE-2024-22025"
+    ],
+    "vulnerable": "18.x || 20.x || 21.x",
+    "patched": "^18.19.1 || ^20.11.1 || ^21.6.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
+    "overview": "A vulnerability in Node.js has been identified, allowing for a Denial of Service (DoS) attack through resource exhaustion when using the fetch() function to retrieve content from an untrusted URL.",
+    "affectedEnvironments": [
+      "all"
+    ]
   }
 }
