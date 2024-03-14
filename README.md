@@ -25,14 +25,11 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 
 ## Current Initiatives
 
-We are currently defining the Initiatives for 2023, [feel free to participate](https://github.com/nodejs/security-wg/issues/846).
-
 | Initiative           | Champion                                         | Status                                   | Links
 |----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
 | Permission Model - 2 Phase | [@RafaelGSS](https://github.com/RafaelGSS) |  In Progress | [Issue #898](https://github.com/nodejs/security-wg/issues/898)
-| Automate update dependencies | [@marco-ippolito](https://github.com/marco-ippolito) | Done | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
+| Automate Security release process | [@marco-ippolito](https://github.com/marco-ippolito) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 | Assessment against best practices | [@fraxken](https://github.com/fraxken)/[@ulisesGascon](https://github.com/ulisesgascon) | In Progress | [Issue #859](https://github.com/nodejs/security-wg/issues/859)
-| Automate Security release process | [@RafaelGSS](https://github.com/RafaelGSS) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 
 ## Current Project Team Members
 
