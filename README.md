@@ -7,7 +7,6 @@
 
 Table of Contents
 
-
 - [Node.js Bug Bounty Program](#nodejs-bug-bounty-program)
 - [Current Initiatives](#current-initiatives)
 - [Current Project Team Members](#current-project-team-members)
@@ -25,66 +24,63 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 
 ## Current Initiatives
 
-We are currently defining the Initiatives for 2023, [feel free to participate](https://github.com/nodejs/security-wg/issues/846).
-
 | Initiative           | Champion                                         | Status                                   | Links
 |----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
 | Permission Model - 2 Phase | [@RafaelGSS](https://github.com/RafaelGSS) |  In Progress | [Issue #898](https://github.com/nodejs/security-wg/issues/898)
-| Automate update dependencies | [@marco-ippolito](https://github.com/marco-ippolito) | Done | [Issue #828](https://github.com/nodejs/security-wg/issues/828)
+| Automate Security release process | [@marco-ippolito](https://github.com/marco-ippolito) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 | Assessment against best practices | [@fraxken](https://github.com/fraxken)/[@ulisesGascon](https://github.com/ulisesgascon) | In Progress | [Issue #859](https://github.com/nodejs/security-wg/issues/859)
-| Automate Security release process | [@RafaelGSS](https://github.com/RafaelGSS) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
 
 ## Current Project Team Members
 
-* [ashishkurmi](https://github.com/ashishkurmi) - **Ashish Kurmi**
-* [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
-* [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
-* [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
-* [deian](https://github.com/deian) - **Deian Stefan**
-* [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
 * [fraxken](https://github.com/fraxken) - **Thomas Gentilhomme**
-* [grnd](https://github.com/grnd) - **Danny Grander**
-* [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
-* [lirantal](https://github.com/lirantal) - **Liran Tal**
-* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
 * [marco-ippolito](https://github.com/marco-ippolito) - **Marco Ippolito**
-* [mcollina](https://github.com/mcollina) - **Matteo Collina**
 * [mdawson](https://github.com/mdawson) - **Michael Dawson**
-* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
-* [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [RafaelGSS](https://github.com/RafaelGSS) - **Rafael Gonzaga**
-* [ronperris](https://github.com/ronperris) - **Ron Perris**
-* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [ulisesGascon](https://github.com/ulisesGascon) - **Ulises Gascon**
-* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 ## Emeritus Members
 
+* [ChALkeR](https://github.com/ChALkeR) - **Сковорода Никита Андреевич**
+* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
+* [MarcinHoppe](https://github.com/MarcinHoppe) - **Marcin Hoppe**
+* [SomeoneWeird](https://github.com/SomeoneWeird) - **Adam Brady**
 * [aeleuterio](https://github.com/aeleuterio) **André Eleuterio**
+* [ashishkurmi](https://github.com/ashishkurmi) - **Ashish Kurmi**
 * [bengl](https://github.com/bengl) - **Bryan English**
 * [brycebaril](https://github.com/brycebaril) - **Bryce Baril**
-* [DanielRuf](https://github.com/DanielRuf) - **Daniel Ruf**
+* [cjihrig](https://github.com/cjihrig) - **Colin Ihrig**
+* [deian](https://github.com/deian) - **Deian Stefan**
+* [dgonzalez](https://github.com/dgonzalez) - **David Gonzalez**
 * [digitalinfinity](https://github.com/digitalinfinity) - **Hitesh Kanwathirtha**
-* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [dougwilson](https://github.com/dougwilson) - **Doug Wilson**
+* [drifkin](https://github.com/drifkin) - **Devon Rifkin**
 * [elexy](https://github.com/Elexy) - **Alex Knol**
+* [esarafianou](https://github.com/esarafianou) - **Eva Sarafianou**
 * [evilpacket](https://github.com/evilpacket) - **Adam Baldwin**
 * [gergelyke](https://github.com/gergelyke) - **Gergely Nemeth**
 * [gibfahn](https://github.com/gibfahn) - **Gibson Fahnestock**
+* [grnd](https://github.com/grnd) - **Danny Grander**
 * [jasnell](https://github.com/jasnell) - **James M Snell**
 * [jbergstroem](https://github.com/jbergstroem) - **Johan Bergström**
 * [joshgav](https://github.com/joshgav) - **Josh Gavant**
+* [karenyavine](https://github.com/karenyavine) **Karen Yavine Shemesh**
+* [lirantal](https://github.com/lirantal) - **Liran Tal**
+* [mcollina](https://github.com/mcollina) - **Matteo Collina**
+* [mgalexander](https://github.com/mgalexander) - **Michael Alexander**
 * [ofrobots](https://github.com/ofrobots) - **Ali Ijaz Sheikh**
+* [pxlpnk](https://github.com/pxlpnk) - **Andreas Tiefenthaler**
 * [roccomuso](https://github.com/roccomuso) - **Rocco Musolino**
-* [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [ronperris](https://github.com/ronperris) - **Ron Perris**
 * [sam-github](https://github.com/sam-github) - **Sam Roberts**
+* [shigeki](https://github.com/shigeki) - **Shigeki Ohtsu**
+* [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 
 # Code of Conduct
 
-The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this WG.
+The [Node.js Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md) applies to this team.
 
 # Moderation Policy
 
-The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this WG.
+The [Node.js Moderation Policy](https://github.com/nodejs/admin/blob/master/Moderation-Policy.md) applies to this team.
 
 [Node.js TSC]: https://github.com/nodejs/TSC
