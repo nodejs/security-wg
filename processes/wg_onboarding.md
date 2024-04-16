@@ -26,7 +26,7 @@ Once acceptance has been acquired by group members, the following should take pl
 
 * Confirm that the new member has read, understands, and agrees to uphold the [Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md). The work of triaging vulnerabilities in the Security WG is about handling sensitive matters with open source maintainers, and communication should be handled with care. If in doubt on how to communicate reach out to the Moderation team and ask for guidance. As a member of the Security WG please also be aware of public statements you make.
 * Mentor should ping @cjihrig, @mhdawson, @sam-github or @ChALkeR to add the new member to the repository.
-* New member should open a PR with his/her username added to the list in alphabetical order at: [security-wg/README.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/README.md)
+* New member should open a PR with their username added to the list in alphabetical order at: [security-wg/README.md at master · nodejs/security-wg · GitHub](https://github.com/nodejs/security-wg/blob/master/README.md)
 * New member should enable 2FA in GitHub
-* New member should join the Security WG slack medium and confirm his identity by providing necessary slack user details in the following private discussion: [Slack identity check](https://github.com/orgs/nodejs/teams/security-wg/discussions/3)
+* New member should join the Security WG slack medium and confirm their identity by providing necessary slack user details in the following private discussion: [Slack identity check](https://github.com/orgs/nodejs/teams/security-wg/discussions/3)
 
