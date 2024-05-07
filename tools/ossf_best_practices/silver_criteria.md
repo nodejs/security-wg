@@ -41,7 +41,7 @@ Context:
 
 > The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions. The most common and easily-implemented approach for doing this is by using a [Developer Certificate of Origin (DCO)](https://developercertificate.org/), where users add "signed-off-by" in their commits and the project links to the DCO website. However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/CONTRIBUTING.md#developers-certificate-of-origin**
+**Met. https://github.com/nodejs/node/blob/main/CONTRIBUTING.md#developers-certificate-of-origin**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#basics)
@@ -50,7 +50,7 @@ Context:
 
 > The project MUST clearly define and document its project governance model (the way it makes decisions, including key roles). (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/GOVERNANCE.md**
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#basics)
@@ -59,7 +59,7 @@ Context:
 
 > The project MUST adopt a code of conduct and post it in a standard location.
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/CODE_OF_CONDUCT.md**
+**Met. https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#basics)
@@ -67,7 +67,7 @@ Context:
 
 > The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform. It MUST be clear who has which role(s), though this might not be documented in the same way. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/GOVERNANCE.md**
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#basics)
@@ -75,7 +75,7 @@ Context:
 
 > The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names) (URL required).
 
-**Met** https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/GOVERNANCE.md
+**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
 
 
 Context:
@@ -85,7 +85,7 @@ Context:
 
 > The project SHOULD have a "bus factor" of 2 or more. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/README.md#current-project-team-members**
+**Met. https://github.com/nodejs/node/blob/main/README.md#current-project-team-members**
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#basics)
@@ -112,7 +112,7 @@ Context:
 
 > The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its "security requirements"). (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/SECURITY.md and https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/SECURITY.md#the-nodejs-threat-model**
+**Met. https://github.com/nodejs/node/blob/main/SECURITY.md and https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model**
 
 Context:
 - [CII Best Practices: Documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#documentation)
@@ -130,7 +130,7 @@ Context:
 
 > The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual.
 
-**Met**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/api-documentation.md**
 
 Context:
 - [CII Best Practices: Documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#documentation)
@@ -209,7 +209,7 @@ Context:
 
 > The project MUST have a documented process for responding to vulnerability reports. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/SECURITY.md**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md**
 
 Context:
 - [CII Best Practices: Reporting](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#reporting)
@@ -221,7 +221,7 @@ Context:
 
 > The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it. (URL required)
 
-**Met** https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/cpp-style-guide.md
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/cpp-style-guide.md**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -230,7 +230,7 @@ Context:
 
 > The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
 
-**Met**
+**Met. The details can be found at https://github.com/nodejs/node/blob/main/Makefile**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -274,7 +274,7 @@ Context:
 
 > The project MUST provide a way to easily install and uninstall the software produced by the project using a commonly-used convention.
 
-**Met**
+**Met. https://nodejs.org/en/download**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -290,7 +290,7 @@ Context:
 
 > The project MUST provide a way for potential developers to quickly install all the project results and support environment necessary to make changes, including the tests and test environment. This MUST be performed with a commonly-used convention.
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/pull-requests.md#setting-up-your-local-environment**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#setting-up-your-local-environment**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -301,7 +301,7 @@ Context:
 
 > The project MUST list external dependencies in a computer-processable way. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/maintaining/maintaining-dependencies.md**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintaining-dependencies.md**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -467,7 +467,7 @@ Context:
 
 > The project MUST cryptographically sign releases of the project results intended for widespread use, and there MUST be a documented process explaining to users how they can obtain the public signing keys and verify the signature(s). The private key for these signature(s) MUST NOT be on site(s) used to directly distribute the software to the public. If releases are not intended for widespread use, select "not applicable" (N/A).
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/releases.md#3-a-publicly-listed-gpg-key**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#3-a-publicly-listed-gpg-key**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -476,7 +476,7 @@ Context:
 
 > It is SUGGESTED that in the version control system, each important version tag (a tag that is part of a major release, minor release, or fixes publicly noted vulnerabilities) be cryptographically signed and verifiable as described in [signed_releases](https://bestpractices.coreinfrastructure.org/en/projects/29?criteria_level=1#signed_releases).
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/releases.md#11-tag-and-sign-the-release-commit**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/releases.md#11-tag-and-sign-the-release-commit**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -504,7 +504,7 @@ Context:
 
 > The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/SECURITY.md**
+**Met. https://github.com/nodejs/node/blob/main/SECURITY.md**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -516,7 +516,7 @@ Context:
 
 > The project MUST use at least one static analysis tool with rules or approaches to look for common vulnerabilities in the analyzed language or environment, if there is at least one FLOSS tool that can implement this criterion in the selected language.
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/static-analysis.md**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/static-analysis.md**
 
 Context:
 - [CII Best Practices: Analysis](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#analysis)
