@@ -33,7 +33,7 @@ Context:
 
 > The project MUST have a "bus factor" of 2 or more. (URL required)
 
-**Met. https://github.com/nodejs/node/blob/main/GOVERNANCE.md**
+**Met. https://github.com/nodejs/node/blob/main/README.md#current-project-team-members**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
@@ -53,7 +53,7 @@ Context:
 
 > The project MUST include a copyright statement in each source file, identifying the copyright holder (e.g., the [project name] contributors).
 
-**Unmet**
+**Unmet. see https://github.com/nodejs/security-wg/issues/1187**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
@@ -63,7 +63,7 @@ Context:
 
 > The project MUST include a license statement in each source file. This MAY be done by including the following inside a comment near the beginning of each file: SPDX-License-Identifier: [SPDX license expression for project](https://spdx.dev/ids/#how)
 
-**Unmet**
+**Unmet. see see: https://github.com/nodejs/security-wg/issues/1187**
 
 Context:
 - [CII Best Practices: Basics](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-basics-1)
@@ -76,7 +76,7 @@ Context:
 
 > The project's source repository MUST use a common distributed version control software (e.g., git or mercurial). 
 
-**Met** 
+**Met. Repository on GitHub, which uses git. git is distributed** 
 
 Context:
 - [CII Best Practices: Change Control](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-change-control-1)
@@ -113,7 +113,7 @@ Context:
 
 > The project MUST document its code review requirements, including how code review is conducted, what must be checked, and what is required to be acceptable. (URL required)
 
-**Met. The process is documented: https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/pull-requests.md#reviewing-pull-requests**
+**Met. The process is documented: https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#reviewing-pull-requests**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
@@ -121,7 +121,7 @@ Context:
 
 > The project MUST have at least 50% of all proposed modifications reviewed before release by a person other than the author, to determine if it is a worthwhile modification and free of known issues which would argue against its inclusion
 
-**Met. The process is documented: https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/pull-requests.md#reviewing-pull-requests and we use additional tools like the OSSF Scorecard to monitor it**
+**Met. The process is documented: https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#reviewing-pull-requests and we use additional tools like the OSSF Scorecard to monitor it**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
@@ -144,7 +144,7 @@ Context:
 
 > A test suite MUST be invocable in a standard way for that language.
 
-**Met**
+**Met. make or batch file, executed using python. Warning: URL required, but no URL found.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-quality-1)
@@ -187,7 +187,7 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The software produced by the project MUST support secure protocols for all of its network communications, such as SSHv2 or later, TLS1.2 or later (HTTPS), IPsec, SFTP, and SNMPv3. Insecure protocols such as FTP, HTTP, telnet, SSLv3 or earlier, and SSHv1 MUST be disabled by default, and only enabled if the user specifically configures it. If the software produced by the project does not support network communications, select "not applicable" (N/A).
 
-**N/A**
+**N/A. The project does not produce software that supports network communications, the final user is responsible for that when using Node.js.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
@@ -198,7 +198,7 @@ Context:
 
 > The software produced by the project MUST, if it supports or uses TLS, support at least TLS version 1.2. Note that the predecessor of TLS was called SSL. If the software does not use TLS, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
@@ -210,7 +210,7 @@ Context:
 
 > The project website, repository (if accessible via the web), and download site (if separate) MUST include key hardening headers with nonpermissive values. (URL required)
 
-**Met**
+**Unmet. One or more of the required security hardening headers is missing.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
@@ -229,7 +229,7 @@ Context:
 
 > Hardening mechanisms MUST be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities. (URL required)
 
-**N/A**
+**N/A. The the final user has the power to decide, see: Node.js thread model (https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model)**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-security-1)
@@ -241,7 +241,7 @@ Context:
 
 > The project MUST apply at least one dynamic analysis tool to any proposed major production release of the software produced by the project before its release.
 
-**Unmet. Infrastructure for running several different dynamic analysis tools is provided by the project. See: https://github.com/nodejs/node/tree/master/tools**
+**Met. Infrastructure for running several different dynamic analysis tools is provided by the project. See: https://github.com/nodejs/node/tree/master/tools**
 
 Context:
 - [CII Best Practices: Analysis](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-analysis-1)
@@ -249,7 +249,7 @@ Context:
 
 > The project SHOULD include many run-time assertions in the software it produces and check those assertions during dynamic analysis.
 
-**Unmet**
+**Unmet. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Analysis](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#upgrade-analysis-1)
