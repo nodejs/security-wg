@@ -240,7 +240,7 @@ Context:
 
 > Build systems for native binaries MUST honor the relevant compiler and linker (environment) variables passed in to them (e.g., CC, CFLAGS, CXX, CXXFLAGS, and LDFLAGS) and pass them to compiler and linker invocations. A build system MAY extend them with additional flags; it MUST NOT simply replace provided values with its own. If no native binaries are being generated, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -248,7 +248,7 @@ Context:
 
 > The build and installation system SHOULD preserve debugging information if they are requested in the relevant flags (e.g., "install -s" is not used). If there is no build or installation system (e.g., typical JavaScript libraries), select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -256,7 +256,7 @@ Context:
 
 > The build system for the software produced by the project MUST NOT recursively build subdirectories if there are cross-dependencies in the subdirectories. If there is no build or installation system (e.g., typical JavaScript libraries), select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -282,7 +282,7 @@ Context:
 
 > The installation system for end-users MUST honor standard conventions for selecting the location where built artifacts are written to at installation time. For example, if it installs files on a POSIX system it MUST honor the DESTDIR environment variable. If there is no installation system or no standard convention, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -309,7 +309,7 @@ Context:
 
 > Projects MUST monitor or periodically check their external dependencies (including convenience copies) to detect known vulnerabilities, and fix exploitable vulnerabilities or verify them as unexploitable.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -322,7 +322,7 @@ Context:
 > 
 > Then, if a vulnerability is found in a reused component, it will be easy to update that component.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -330,7 +330,7 @@ Context:
 
 > The project SHOULD avoid using deprecated or obsolete functions and APIs where FLOSS alternatives are available in the set of technology it uses (its "technology stack") and to a supermajority of the users the project supports (so that users have ready access to the alternative).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -340,7 +340,7 @@ Context:
 
 > An automated test suite MUST be applied on each check-in to a shared repository for at least one branch. This test suite MUST produce a report on test success or failure.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -348,7 +348,7 @@ Context:
 
 > The project MUST add regression tests to an automated test suite for at least 50% of the bugs fixed within the last six months.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -367,7 +367,7 @@ Context:
 
 > The project MUST have a formal written policy that as major new functionality is added, tests for the new functionality MUST be added to an automated test suite.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -375,7 +375,7 @@ Context:
 
 > The project MUST include, in its documented instructions for change proposals, the policy that tests are to be added for major new functionality.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -385,7 +385,7 @@ Context:
 
 > Projects MUST be maximally strict with warnings in the software produced by the project, where practical.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#quality)
@@ -397,7 +397,7 @@ Context:
 
 > The project MUST implement secure design principles (from "know_secure_design"), where applicable. If the project is not producing software, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -409,7 +409,7 @@ _Note that some software does not need to use cryptographic mechanisms. If your 
 
 > The default security mechanisms within the software produced by the project MUST NOT depend on cryptographic algorithms or modes with known serious weaknesses (e.g., the SHA-1 cryptographic hash algorithm or the CBC mode in SSH).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -417,7 +417,7 @@ Context:
 
 > The project SHOULD support multiple cryptographic algorithms, so users can quickly switch if one is broken. Common symmetric key algorithms include AES, Twofish, and Serpent. Common cryptographic hash algorithm alternatives include SHA-2 (including SHA-224, SHA-256, SHA-384 AND SHA-512) and SHA-3.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -441,7 +441,7 @@ Context:
 
 > The software produced by the project SHOULD, if it supports or uses TLS, support at least TLS version 1.2. Note that the predecessor of TLS was called SSL. If the software does not use TLS, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -449,7 +449,7 @@ Context:
 
 > The software produced by the project MUST, if it supports TLS, perform TLS certificate verification by default when using TLS, including on subresources. If the software does not use TLS, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -457,7 +457,7 @@ Context:
 
 > The software produced by the project MUST, if it supports TLS, perform certificate verification before sending HTTP headers with private information (such as secure cookies). If the software does not use TLS, select "not applicable" (N/A).
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -486,7 +486,7 @@ Context:
 
 > The project results MUST check all inputs from potentially untrusted sources to ensure they are valid (an *allowlist*), and reject invalid inputs, if there are any restrictions on the data at all.
 
-**Met**
+**Met. Warning: Requires lengthier justification.**
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
@@ -495,7 +495,7 @@ Context:
 
 > Hardening mechanisms SHOULD be used in the software produced by the project so that software defects are less likely to result in security vulnerabilities.
 
-**N/A** The the final user has the power to decide, see: Node.js thread model (https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/SECURITY.md#the-nodejs-threat-model)
+**N/A** The the final user has the power to decide, see: Node.js thread model (https://github.com/nodejs/node/blob/main/SECURITY.md#the-nodejs-threat-model)
 
 Context:
 - [CII Best Practices: Security](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/other.md#security)
