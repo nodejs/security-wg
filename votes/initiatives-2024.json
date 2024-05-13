@@ -12,5 +12,15 @@
     "Defining scopes of the Security team"
   ],
   "votes": {
+    "Rafael Gonzaga <rafael.nunu@hotmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 3,
+      "Automate Security release process": 1,
+      "Including SBOMBs with Node.js": 6,
+      "Audit build process for dependencies": 8,
+      "Node.js maintainers: Threat Model": 4,
+      "Defense in Depths policy": 2,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
+    }
   }
 }
