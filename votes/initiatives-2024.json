@@ -21,9 +21,7 @@
       "Defense in Depths policy": 2,
       "Improve CII Best Practices and reach silver badge": 7,
       "Defining scopes of the Security team": 5
-    }
-  }
-  "votes": {
+    },
     "Michael Dawson <mdawson@devrus.com>": {
       "Permission Model - Symlink & Sandbox investigation": 8,
       "Automate Security release process": 1,
