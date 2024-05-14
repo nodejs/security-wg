@@ -1,6 +1,18 @@
 {
   "subject": "Initiatives 2024",
   "headerInstructions": "Please create a ranking 1 to 8 to define the priority of security initiatives for 2024.",
+  "outcome": {
+    "ranking": [
+      "Automate Security release process",
+      "Node.js maintainers: Threat Model",
+      "Including SBOMBs with Node.js",
+      "Audit build process for dependencies",
+      "Defining scopes of the Security team",
+      "Permission Model - Symlink & Sandbox investigation",
+      "Defense in Depths policy",
+      "Improve CII Best Practices and reach silver badge"
+    ]
+  },
   "candidates": [
     "Permission Model - Symlink & Sandbox investigation",
     "Automate Security release process",
