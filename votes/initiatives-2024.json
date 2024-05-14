@@ -31,6 +31,16 @@
       "Defense in Depths policy": 5,
       "Improve CII Best Practices and reach silver badge": 6,
       "Defining scopes of the Security team": 7
+    },
+    "Marco Ippolito <marcoippolito54@gmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 6,
+      "Automate Security release process": 1,
+      "Including SBOMBs with Node.js": 3,
+      "Audit build process for dependencies": 4,
+      "Node.js maintainers: Threat Model": 2,
+      "Defense in Depths policy": 8,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
     }
   }
 }
