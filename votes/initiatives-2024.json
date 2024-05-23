@@ -1,0 +1,78 @@
+{
+  "subject": "Initiatives 2024",
+  "headerInstructions": "Please create a ranking 1 to 8 to define the priority of security initiatives for 2024.",
+  "outcome": {
+    "ranking": [
+      "Automate Security release process",
+      "Node.js maintainers: Threat Model",
+      "Including SBOM with Node.js",
+      "Audit build process for dependencies",
+      "Defining scopes of the Security team",
+      "Permission Model - Symlink & Sandbox investigation",
+      "Defense in Depths policy",
+      "Improve CII Best Practices and reach silver badge"
+    ]
+  },
+  "candidates": [
+    "Permission Model - Symlink & Sandbox investigation",
+    "Automate Security release process",
+    "Including SBOM with Node.js",
+    "Audit build process for dependencies",
+    "Node.js maintainers: Threat Model",
+    "Defense in Depths policy",
+    "Improve CII Best Practices and reach silver badge",
+    "Defining scopes of the Security team"
+  ],
+  "votes": {
+    "Rafael Gonzaga <rafael.nunu@hotmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 3,
+      "Automate Security release process": 1,
+      "Including SBOM with Node.js": 6,
+      "Audit build process for dependencies": 8,
+      "Node.js maintainers: Threat Model": 4,
+      "Defense in Depths policy": 2,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
+    },
+    "Michael Dawson <mdawson@devrus.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 8,
+      "Automate Security release process": 1,
+      "Including SBOM with Node.js": 4,
+      "Audit build process for dependencies": 3,
+      "Node.js maintainers: Threat Model": 2,
+      "Defense in Depths policy": 5,
+      "Improve CII Best Practices and reach silver badge": 6,
+      "Defining scopes of the Security team": 7
+    },
+    "Marco Ippolito <marcoippolito54@gmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 6,
+      "Automate Security release process": 1,
+      "Including SBOM with Node.js": 3,
+      "Audit build process for dependencies": 4,
+      "Node.js maintainers: Threat Model": 2,
+      "Defense in Depths policy": 8,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
+    },
+    "Ulises Gascón <ulisesgascongonzalez@gmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 6,
+      "Automate Security release process": 2,
+      "Including SBOM with Node.js": 3,
+      "Audit build process for dependencies": 4,
+      "Node.js maintainers: Threat Model": 1,
+      "Defense in Depths policy": 8,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
+    },
+    "Thomas Gentilhomme <gentilhomme.thomas@gmail.com>": {
+      "Permission Model - Symlink & Sandbox investigation": 6,
+      "Automate Security release process": 1,
+      "Including SBOM with Node.js": 3,
+      "Audit build process for dependencies": 4,
+      "Node.js maintainers: Threat Model": 2,
+      "Defense in Depths policy": 8,
+      "Improve CII Best Practices and reach silver badge": 7,
+      "Defining scopes of the Security team": 5
+    }
+  }
+}
