@@ -27,7 +27,7 @@ The program is managed through the HackerOne platform at [https://hackerone.com/
 | Initiative           | Champion                                         | Status                                   | Links
 |----------------------|--------------------------------------------------|------------------------------------------|-------------------------------------------------
 | Automate Security release process | [@marco-ippolito](https://github.com/marco-ippolito) / [@RafaelGSS](https://github.com/RafaelGSS) | In Progress | [Issue #860](https://github.com/nodejs/security-wg/issues/860)
-| Node.js maintainers: Threat Model | Group effort | TODO | |
+| Node.js maintainers: Threat Model | Group effort | In Progress | [Issue #1333](https://github.com/nodejs/security-wg/issues/1333) |
 | Audit build process for dependencies | [@mhdawson](https://github.com/mhdawson) | TODO | [Issue #1037](https://github.com/nodejs/security-wg/issues/1037) |
 
 ## Current Project Team Members
