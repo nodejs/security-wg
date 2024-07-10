@@ -376,7 +376,7 @@ Context:
 
 > The project MUST have a general policy (formal or not) that as major new functionality is added to the software produced by the project, tests of that functionality should be added to an automated test suite.
 
-**Met. https://github.com/nodejs/node/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/doc/contributing/pull-requests.md#step-6-test**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/pull-requests.md#step-6-test**
 
 Context:
 - [CII Best Practices: Quality](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/criteria.md#quality)
@@ -585,7 +585,7 @@ Context:
 
 > It is SUGGESTED that at least one of the static analysis tools used for the static_analysis criterion include rules or approaches to look for common vulnerabilities in the analyzed language or environment.
 
-**Met**
+**Met. https://github.com/nodejs/node/blob/main/doc/contributing/static-analysis.md**
 
 Context:
 - [CII Best Practices: Analysis](https://github.com/coreinfrastructure/best-practices-badge/blob/a51ed45fdcd8e2959781a86929f561521ac2e0e0/docs/criteria.md#analysis)
