@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2024-21896"],
+  "cve": [
+    "CVE-2024-21896"
+  ],
   "vulnerable": "20.x || 21.x",
   "patched": "^20.11.1 || ^21.6.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
   "overview": "The permission model protects itself against path traversal attacks by calling path.resolve() on any paths given by the user. If the path is to be treated as a Buffer, the implementation uses Buffer.from() to obtain a Buffer from the result of path.resolve().",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
 }

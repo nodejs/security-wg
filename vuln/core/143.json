@@ -1,10 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-36138"
-    ],
-    "vulnerable": "18.x || 20.x || 22.x",
-    "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
-    "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
-    "overview": "The CVE-2024-27980 was identified as an incomplete fix for the BatBadBut vulnerability. This vulnerability arises from improper handling of batch files with all possible extensions on Windows via `child_process.spawn` / `child_process.spawnSync`. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.\n\nThis vulnerability affects all users of `child_process.spawn` and `child_process.spawnSync` on Windows in all active release lines.",
-    "affectedEnvironments": ["win32"]
+  "cve": [
+    "CVE-2024-36138"
+  ],
+  "vulnerable": "18.x || 20.x || 22.x",
+  "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+  "overview": "The CVE-2024-27980 was identified as an incomplete fix for the BatBadBut vulnerability. This vulnerability arises from improper handling of batch files with all possible extensions on Windows via `child_process.spawn` / `child_process.spawnSync`. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.\n\nThis vulnerability affects all users of `child_process.spawn` and `child_process.spawnSync` on Windows in all active release lines.",
+  "affectedEnvironments": [
+    "win32"
+  ],
+  "severity": "high"
 }

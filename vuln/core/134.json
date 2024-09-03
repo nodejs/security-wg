@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2024-21892"],
+  "cve": [
+    "CVE-2024-21892"
+  ],
   "vulnerable": "18.x || 20.x || 21.x",
   "patched": "^18.19.1 || ^20.11.1 || ^21.6.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
   "overview": "Code injection and privilege escalation through Linux capabilities",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
 }

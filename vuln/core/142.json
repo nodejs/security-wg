@@ -1,10 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-36137"
-    ],
-    "vulnerable": "20.x || 22.x",
-    "patched": "^20.15.1 || ^22.4.1",
-    "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
-    "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-write flag is used.\n\nNode.js Permission Model do not operate on file descriptors, however, operations such as `fs.fchown` or `fs.fchmod` can use a \"read-only\" file descriptor to change the owner and permissions of a file.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
-    "affectedEnvironments": ["all"]
+  "cve": [
+    "CVE-2024-36137"
+  ],
+  "vulnerable": "20.x || 22.x",
+  "patched": "^20.15.1 || ^22.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+  "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-write flag is used.\n\nNode.js Permission Model do not operate on file descriptors, however, operations such as `fs.fchown` or `fs.fchmod` can use a \"read-only\" file descriptor to change the owner and permissions of a file.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
 }

@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2023-39333"],
+  "cve": [
+    "CVE-2023-39333"
+  ],
   "vulnerable": "18.x || 20.x",
   "patched": "^18.18.2 || ^20.8.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
   "overview": "Code injection via WebAssembly export names (Low)",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
 }

@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2024-21890"],
+  "cve": [
+    "CVE-2024-21890"
+  ],
   "vulnerable": "20.x || 21.x",
   "patched": "^20.11.1 || ^21.6.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
   "overview": "Improper handling of wildcards in --allow-fs-read and --allow-fs-write",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
 }

@@ -7,5 +7,8 @@
   "patched": "^6.7.0 || ^4.6.0",
   "description": "openssl 1.0.2h vulnerabilities",
   "overview": "Some missing message length checks can result in out of bounds (OOB) reads of up\nto 2 bytes beyond an allocated buffer. There is a theoretical denial of service\n(DoS) risk. This only impacts a client or a server which enables client\nauthentication.\n\nNode.js is impacted by this low severity flaw.\n\n",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "unknown"
 }

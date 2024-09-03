@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2023-39331"],
+  "cve": [
+    "CVE-2023-39331"
+  ],
   "vulnerable": "20.x",
   "patched": "^20.8.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
   "overview": "A previously disclosed vulnerability (CVE-2023-30584) was patched insufficiently. The implementation does not protect itself against the application overwriting built-in utility functions with user-defined implementations (High)",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
 }

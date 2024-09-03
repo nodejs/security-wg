@@ -17,5 +17,8 @@
   "ref": "https://nodejs.org/en/blog/vulnerability/aug-2019-security-releases/",
   "type": "CWE-400: Uncontrolled Resource Consumption / Denial of Service",
   "overview": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community.",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "unknown"
 }
