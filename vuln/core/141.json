@@ -1,12 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-27982"
-    ],
-    "vulnerable": "18.x || 20.x || 21.x",
-    "patched": "^18.20.2 || ^20.12.2 || ^21.7.3",
-    "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases-2/",
-    "overview": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",
-    "affectedEnvironments": [
-        "win32"
-    ]
+  "cve": [
+    "CVE-2024-27982"
+  ],
+  "vulnerable": "18.x || 20.x || 21.x",
+  "patched": "^18.20.2 || ^20.12.2 || ^21.7.3",
+  "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases-2/",
+  "overview": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",
+  "affectedEnvironments": [
+    "win32"
+  ],
+  "severity": "medium"
 }

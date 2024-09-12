@@ -1,10 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-37372"
-    ],
-    "vulnerable": "20.x || 22.x",
-    "patched": "^20.15.1 || ^22.4.1",
-    "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
-    "overview": "The Permission Model assumes that any path starting with two backslashes \\\\ has a four-character prefix that can be ignored, which is not always true. This subtle bug leads to vulnerable edge cases.\n\nThis vulnerability affects Windows users of the Node.js Permission Model in version v20.x and v22.x",
-    "affectedEnvironments": ["all"]
+  "cve": [
+    "CVE-2024-37372"
+  ],
+  "vulnerable": "20.x || 22.x",
+  "patched": "^20.15.1 || ^22.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+  "overview": "The Permission Model assumes that any path starting with two backslashes \\\\ has a four-character prefix that can be ignored, which is not always true. This subtle bug leads to vulnerable edge cases.\n\nThis vulnerability affects Windows users of the Node.js Permission Model in version v20.x and v22.x",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "unknown"
 }

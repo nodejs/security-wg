@@ -1,10 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-22018"
-    ],
-    "vulnerable": "20.x || 22.x",
-    "patched": "^20.15.1 || ^22.4.1",
-    "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
-    "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-read flag is used.\nThis flaw arises from an inadequate permission model that fails to restrict file stats through the `fs.lstat` API. As a result, malicious actors can retrieve stats from files that they do not have explicit read access to.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 22.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
-    "affectedEnvironments": ["all"]
+  "cve": [
+    "CVE-2024-22018"
+  ],
+  "vulnerable": "20.x || 22.x",
+  "patched": "^20.15.1 || ^22.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+  "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-read flag is used.\nThis flaw arises from an inadequate permission model that fails to restrict file stats through the `fs.lstat` API. As a result, malicious actors can retrieve stats from files that they do not have explicit read access to.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 22.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
 }

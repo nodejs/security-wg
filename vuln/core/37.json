@@ -7,5 +7,8 @@
   "ref": "https://github.com/nodejs/node/pull/4134",
   "description": "Certificate verify crash with missing PSS parameter",
   "overview": "A potential denial-of-service vector for Node.js TLS servers using client\ncertificate authentication; TLS clients are also impacted. Details are available\nat <http://openssl.org/news/secadv/20151203.txt>.\n\n",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "unknown"
 }

@@ -37,6 +37,10 @@ const coreModel = joi.object().keys({
   // See: https://nodejs.org/api/os.html#osplatform
   .items(joi.string().valid("all", "aix", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32", "android"))
   .min(1)
+  .required(),
+  severity: joi
+  .string()
+  .regex(/^(unknown)|(low)|(medium)|(high)|(critical)$/)
   .required()
 });
 

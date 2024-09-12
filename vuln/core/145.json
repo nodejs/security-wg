@@ -1,10 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-22020"
-    ],
-    "vulnerable": "18.x || 20.x || 22.x",
-    "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
-    "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
-    "overview": "A security flaw in Node.js allows a bypass of network import restrictions.\nBy embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.\n\nVerified on various platforms, the vulnerability is mitigated by forbidding data URLs in network imports.\n\nExploiting this flaw can violate network import security, posing a risk to developers and servers.",
-    "affectedEnvironments": ["all"]
+  "cve": [
+    "CVE-2024-22020"
+  ],
+  "vulnerable": "18.x || 20.x || 22.x",
+  "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+  "overview": "A security flaw in Node.js allows a bypass of network import restrictions.\nBy embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.\n\nVerified on various platforms, the vulnerability is mitigated by forbidding data URLs in network imports.\n\nExploiting this flaw can violate network import security, posing a risk to developers and servers.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
 }

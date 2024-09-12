@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2024-21891"],
+  "cve": [
+    "CVE-2024-21891"
+  ],
   "vulnerable": "20.x || 21.x",
   "patched": "^20.11.1 || ^21.6.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
   "overview": "Node.js depends on multiple built-in utility functions to normalize paths provided to node:fs functions, which can be overwitten with user-defined implementations leading to filesystem permission model bypass through path traversal attack.",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
 }

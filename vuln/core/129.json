@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2023-38552"],
+  "cve": [
+    "CVE-2023-38552"
+  ],
   "vulnerable": "18.x || 20.x",
   "patched": "^18.18.2 || ^20.8.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
   "overview": "Integrity checks according to experimental policies can be circumvented (Medium)",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
 }

@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2023-39332"],
+  "cve": [
+    "CVE-2023-39332"
+  ],
   "vulnerable": "20.x",
   "patched": "^20.8.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases/",
   "overview": "Path traversal through path stored in Uint8Array (High)",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
 }
