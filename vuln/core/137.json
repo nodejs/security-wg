@@ -1,8 +1,13 @@
 {
-  "cve": ["CVE-2024-22017"],
+  "cve": [
+    "CVE-2024-22017"
+  ],
   "vulnerable": "20.x || 21.x",
   "patched": "^20.11.1 || ^21.6.2",
   "ref": "https://nodejs.org/en/blog/vulnerability/february-2024-security-releases/",
   "overview": "setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid(). This allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid()",
-  "affectedEnvironments": ["all"]
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
 }

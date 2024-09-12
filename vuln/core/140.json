@@ -1,12 +1,13 @@
 {
-    "cve": [
-        "CVE-2024-27982"
-    ],
-    "vulnerable": "18.x || 20.x || 21.x",
-    "patched": "^18.20.1 || ^20.12.1 || ^21.7.2",
-    "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases/",
-    "overview": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first.",
-    "affectedEnvironments": [
-        "all"
-    ]
+  "cve": [
+    "CVE-2024-27982"
+  ],
+  "vulnerable": "18.x || 20.x || 21.x",
+  "patched": "^18.20.1 || ^20.12.1 || ^21.7.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases/",
+  "overview": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
 }
