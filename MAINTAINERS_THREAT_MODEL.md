@@ -40,6 +40,7 @@ repositories in the org, like Working groups or subteams.
 | **nodejs/node**              | r | wrr   | rrw   | awa  | rrr   | wr  |
 | **nodejs/deps¹**             | r | rrr   | rrw   | arr  | rrr   | wr  |
 | **nodejs/build** (GH)        | r | rrr   | rrw   | awa  | rrr   | wr  |
+| **nodejs/docker-node** (GH)  | r | rrr   | rrw   | awa  | rrr   | wr  |
 | **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  |
 | **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- |
 | **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  |
