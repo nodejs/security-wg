@@ -37,7 +37,8 @@
         "corepack",
         "gyp-next",
         "node-auto-test",
-        "api-docs-tooling"
+        "api-docs-tooling",
+        "amaro"
       ],
       "excluded": [
         "node-addon-examples",
