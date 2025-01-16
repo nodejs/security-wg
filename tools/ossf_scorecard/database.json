@@ -126,8 +126,8 @@
         ],
         "current": {
           "score": 6.6,
-          "date": "2024-12-02",
-          "commit": "bf9168ef3d6a65ff834f4f8715e0a3f6a1914205"
+          "date": "2025-01-06",
+          "commit": "94448fcd9f090814bce1c4361471dae199dc2e82"
         }
       },
       "nodejs-ko": {
@@ -260,12 +260,17 @@
             "score": 5.5,
             "date": "2024-07-08",
             "commit": "a2e9aedf4aeee4a5e4d8efcb175edb67e2817eaa"
+          },
+          {
+            "score": 5.4,
+            "date": "2024-08-19",
+            "commit": "a2e9aedf4aeee4a5e4d8efcb175edb67e2817eaa"
           }
         ],
         "current": {
-          "score": 5.4,
-          "date": "2024-08-19",
-          "commit": "a2e9aedf4aeee4a5e4d8efcb175edb67e2817eaa"
+          "score": 6,
+          "date": "2025-01-06",
+          "commit": "88df21041dc26c210fab3e074ab6bb681a604b8e"
         }
       },
       "node": {
@@ -402,9 +407,9 @@
           }
         ],
         "current": {
-          "score": 6.1,
-          "date": "2024-12-19T11:51:42Z",
-          "commit": "fd8de670da4d2a80e21e0f8a12ec7a6b0a13014d"
+          "score": 5.7,
+          "date": "2025-01-16T02:34:39Z",
+          "commit": "0e7ec5e7a1427eb418bf82833a5c308cb8e0ecda"
         }
       },
       "diagnostics": {
@@ -714,11 +719,16 @@
             "score": 4.6,
             "date": "2024-09-16",
             "commit": "4d1d74e0a9ea8fa8091b88e45dc57e4c7eb9cdf7"
+          },
+          {
+            "score": 5.6,
+            "date": "2024-11-11",
+            "commit": "ef5a98900ad056f9fb1ff52732fa496cf5405f1f"
           }
         ],
         "current": {
-          "score": 5.6,
-          "date": "2024-11-11",
+          "score": 4.6,
+          "date": "2025-01-06",
           "commit": "ef5a98900ad056f9fb1ff52732fa496cf5405f1f"
         }
       },
@@ -983,9 +993,9 @@
           }
         ],
         "current": {
-          "score": 6.1,
-          "date": "2024-12-19T00:14:27Z",
-          "commit": "169cbdc3b87e622a5caacef22c4de577488a6d11"
+          "score": 6.6,
+          "date": "2025-01-16T06:29:13Z",
+          "commit": "a21e72b214ce0ea32d3059586af6b6e3515dc08b"
         }
       },
       "core-validate-commit": {
@@ -1173,12 +1183,17 @@
             "score": 5.2,
             "date": "2024-11-11",
             "commit": "9ac6cc9159697eade2fa3725e3117982260a7209"
+          },
+          {
+            "score": 5.1,
+            "date": "2024-11-25",
+            "commit": "9ac6cc9159697eade2fa3725e3117982260a7209"
           }
         ],
         "current": {
-          "score": 5.1,
-          "date": "2024-11-25",
-          "commit": "9ac6cc9159697eade2fa3725e3117982260a7209"
+          "score": 6,
+          "date": "2025-01-06",
+          "commit": "83ffabd74ef2ab309301678ec0e872d630870ba4"
         }
       },
       "TSC": {
@@ -1355,7 +1370,7 @@
         ],
         "current": {
           "score": 6,
-          "date": "2024-12-02",
+          "date": "2025-01-06",
           "commit": "000d25e4790841add6d5fe8017f0dfec821ab855"
         }
       },
@@ -1930,9 +1945,9 @@
           }
         ],
         "current": {
-          "score": 5.3,
-          "date": "2024-12-02",
-          "commit": "e6ff1321cf72feb34d7edbae824bc96722d3c019"
+          "score": 5.4,
+          "date": "2025-01-06",
+          "commit": "1ef0d0c3b6fa76ca8eea54f550e9002f1a80d00d"
         }
       },
       "node-v8": {
@@ -2041,11 +2056,16 @@
             "score": 5.5,
             "date": "2024-09-30",
             "commit": "2e1f557df07e5f89aaad4e0b2f60f1e6c4516251"
+          },
+          {
+            "score": 5.2,
+            "date": "2024-11-11",
+            "commit": "2e1f557df07e5f89aaad4e0b2f60f1e6c4516251"
           }
         ],
         "current": {
-          "score": 5.2,
-          "date": "2024-11-11",
+          "score": 5.1,
+          "date": "2025-01-06",
           "commit": "2e1f557df07e5f89aaad4e0b2f60f1e6c4516251"
         }
       },
@@ -2638,11 +2658,16 @@
             "score": 4.1,
             "date": "2024-11-11",
             "commit": "e2ae9d4446c58c9508a2904e45bf6b1161287131"
+          },
+          {
+            "score": 4,
+            "date": "2024-11-25",
+            "commit": "e2ae9d4446c58c9508a2904e45bf6b1161287131"
           }
         ],
         "current": {
-          "score": 4,
-          "date": "2024-11-25",
+          "score": 3.9,
+          "date": "2025-01-06",
           "commit": "e2ae9d4446c58c9508a2904e45bf6b1161287131"
         }
       },
@@ -2923,12 +2948,17 @@
             "score": 8.2,
             "date": "2024-11-19T07:27:05Z",
             "commit": "8371b40077c0177d743bb3dfed7e2b56cba18328"
+          },
+          {
+            "score": 7.8,
+            "date": "2024-12-03T07:28:02Z",
+            "commit": "8371b40077c0177d743bb3dfed7e2b56cba18328"
           }
         ],
         "current": {
-          "score": 7.8,
-          "date": "2024-12-03T07:28:02Z",
-          "commit": "8371b40077c0177d743bb3dfed7e2b56cba18328"
+          "score": 8.6,
+          "date": "2025-01-16T06:11:11Z",
+          "commit": "dc5dc9a018214ae767a86bb5b0c69983d272d21e"
         }
       },
       "package-maintenance": {
@@ -3032,12 +3062,17 @@
             "score": 6.5,
             "date": "2024-08-19",
             "commit": "af94d21ab0d37d51dbf97b76587f90f387783241"
+          },
+          {
+            "score": 5.7,
+            "date": "2024-11-11",
+            "commit": "af94d21ab0d37d51dbf97b76587f90f387783241"
           }
         ],
         "current": {
-          "score": 5.7,
-          "date": "2024-11-11",
-          "commit": "af94d21ab0d37d51dbf97b76587f90f387783241"
+          "score": 5.8,
+          "date": "2025-01-06",
+          "commit": "2cfd8b130fcbabbe065a579bc34009fe17d7eb59"
         }
       },
       "gyp-next": {
@@ -3145,8 +3180,8 @@
         ],
         "current": {
           "score": 6,
-          "date": "2024-12-02",
-          "commit": "ef221b121942be9a7a409320d24fccf53ed7934f"
+          "date": "2025-01-06",
+          "commit": "d24b97d64079d9edb112efcfe5d26e1271a27d5a"
         }
       },
       "whatwg-stream": {
@@ -3297,8 +3332,8 @@
           }
         ],
         "current": {
-          "score": 5.2,
-          "date": "2024-12-02",
+          "score": 5.1,
+          "date": "2025-01-06",
           "commit": "256cf8aaa4c56df8b3ec8a230ee683ce6f691d21"
         }
       },
@@ -3421,6 +3456,14 @@
           "score": 8.8,
           "date": "2024-12-03T07:26:23Z",
           "commit": "b3d756187a24e88a5f9e1143a5490889cd67d6d2"
+        }
+      },
+      "amaro": {
+        "previous": [],
+        "current": {
+          "score": 6.9,
+          "date": "2025-01-14T10:47:23Z",
+          "commit": "83203dabc9b4c54ee2e3f216c622784d355364f4"
         }
       }
     }
