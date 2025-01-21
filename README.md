@@ -1,5 +1,5 @@
 [![Node.js Security Team](https://img.shields.io/badge/Node.js-Security%20Team-green.svg)]()
-[![Security Meetings](https://img.shields.io/badge/YouTube-Security%20WG%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+meeting)
+[![Security Meetings](https://img.shields.io/badge/YouTube-Security%20Meetings-red.svg)](  https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/search?query=Security+meeting)
 [![OpenJS Slack Invite](https://img.shields.io/badge/join%20slack%20on-nodejs--security--wg-green.svg)](https://slack-invite.openjsf.org/)
 [![OpenSSF scorecard](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg/badge)](https://api.securityscorecards.dev/projects/github.com/nodejs/security-wg)
 

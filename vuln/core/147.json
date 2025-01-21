@@ -1,0 +1,13 @@
+{
+  "cve": [
+    "CVE-2025-23083"
+  ],
+  "vulnerable": "20.x || 22.x || 23.x",
+  "patched": "^20.18.2 || ^22.13.1 || ^23.6.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
+  "overview": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \n\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}
