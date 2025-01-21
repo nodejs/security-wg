@@ -1956,5 +1956,44 @@
       "all"
     ],
     "severity": "unknown"
+  },
+  "147": {
+    "cve": [
+      "CVE-2025-23083"
+    ],
+    "vulnerable": "20.x || 22.x || 23.x",
+    "patched": "^20.18.2 || ^22.13.1 || ^23.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
+    "overview": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \n\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "148": {
+    "cve": [
+      "CVE-2025-23084"
+    ],
+    "vulnerable": "18.x || 20.x || 22.x || 23.x",
+    "patched": "^18.20.6 || ^20.18.2 || ^22.13.1 || ^23.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
+    "overview": "A vulnerability has been identified in Node.js, specifically affecting the handling of drive names in the Windows environment. Certain Node.js functions do not treat drive names as special on Windows. As a result, although Node.js assumes a relative path, it actually refers to the root directory.\n\nOn Windows, a path that does not start with the file separator is treated as relative to the current directory. \n\nThis vulnerability affects Windows users of `path.join` API",
+    "affectedEnvironments": [
+      "win32"
+    ],
+    "severity": "medium"
+  },
+  "149": {
+    "cve": [
+      "CVE-2025-23085"
+    ],
+    "vulnerable": "18.x || 20.x || 22.x || 23.x",
+    "patched": "^18.20.6 || ^20.18.2 || ^22.13.1 || ^23.6.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
+    "overview": "A memory leak could occur when a remote peer abruptly closes the socket without sending a GOAWAY notification. Additionally, if an invalid header was detected by nghttp2, causing the connection to be terminated by the peer, the same leak was triggered. This flaw could lead to increased memory consumption and potential denial of service under certain conditions.\n\nThis vulnerability affects HTTP/2 Server users on Node.js v18.x, v20.x, v22.x and v23.x.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
   }
 }
