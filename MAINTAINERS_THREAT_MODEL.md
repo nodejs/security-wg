@@ -155,3 +155,31 @@ scripts, pollute plugins, overwrite configuration...)
 Notes:
 
 * Orka infra is shared, so any orka admin can modify test/relese machines
+
+### Malicious docker images
+
+| Resource | Minimum Access | Description |
+|-|-|-|
+| **HackerOne**                | - | N\A |
+| **MITRE**                    | - | N\A |
+| **private/node-private**     | - | N\A |
+| **private/security-release** | - | N\A |
+| **private/secrets**          | r | read access to secrets grants access to key resources |
+| **nodejs/node**              | - | N\A |
+| **nodejs/deps¹**             | - | N\A |
+| **nodejs/build** (GH)        | w | write access would allow key scripts, infra to be modified |
+| **nodejs/docker-node**       | w | modification of Docker files can modify what node.js binaries are in the images 
+| **nodejs/node-core-utils**   |  - | N\A |
+| **npm account**              | - | N\A |
+| **Jenkins CI - test**        | - | N\A |
+| **Jenkins CI - release**     | w | access to jenkins used for build would allow swapping published binaries |
+| **Infra - test**             | - | N/A |
+| **Infra - release**          | w | access to machines used for build would allow swapping published binaries |
+| **Build infra**              | w | access to machines used for build would allow swapping published binaries |
+| **Website Infra**            | w | access to machines used for build would allow swapping published binaries |
+| **Youtube**                  | - | N\A |
+| **Zoom**                     | - | N\A |
+| **1Password**                | r | read access to secrets grants access to key resources |
+| **Social media accounts**    | - | N\A |
+| **Email** (nodejs-sec)       | - | N\A |
+| **Email** (io.js aliases)    | - | N\A |
