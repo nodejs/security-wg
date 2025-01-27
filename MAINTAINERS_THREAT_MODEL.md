@@ -102,7 +102,7 @@ or inderictly (builds process/testing)
 
 ### Malicious release binary generation in Node.js release/build processes
 
-In this scenario we asume that a malicious actor will include a malicios code
+In this scenario we assume that a malicious actor will include a malicios code
 (malware, malicious dependencies, polluted binaries...) in the release binaries
 available through the Nodejs.org downloads.
 
