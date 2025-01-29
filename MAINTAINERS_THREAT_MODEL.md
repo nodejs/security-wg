@@ -44,7 +44,7 @@ repositories in the org, like Working groups or subteams.
 | **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  | r |
 | **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- | - |
 | **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  | - |
-| **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- | w |
+| **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- | - |
 | **Infra - test**             | - | w-\-  | aaa   | ww-  | -w-   | ww  | - |
 | **Infra - release**          | - | -\-\- | -ww   | -w-  | -\-\- | -\- | r |
 | **Build infra**              | - | -\-\- | -a-   | -\-\-| -\-\- | -\- | - |
