@@ -30,30 +30,31 @@ repositories in the org, like Working groups or subteams.
 > ¹ - All repositories with code that get published or has some impact on nodejs/core
 > ² - Releasers has access to run CI during CI Embargo (Security Release)
 
-| Resource | External people | Contributors - Core/Triagers/WG | Build - Test/Infra/Admin | Admin - TSC/Releasers/Moderation | Security Stewards/Triagers/External | GitHub - Actions/Plugins |
-|-         |-                |-                                |-                         |-                                 |-                                    |-                         |
-| **HackerOne**                | - | -\-\- | -\-\- | aw-  | www   | -\- | 
-| **MITRE**                    | - | -\-\- | -\-\- | a-\- | w-\-  | -\- | 
-| **private/node-private**     | - | -\-\- | www   | aw-  | w-w   | -\- |
-| **private/security-release** | - | -\-\- | -\-\- | a-\- | ww-   | -\- |
-| **private/secrets**          | - | -\-\- | www   | a-\- | -\-\- | -\- |
-| **nodejs/node**              | r | wrr   | rrw   | awa  | rrr   | wr  |
-| **nodejs/deps¹**             | r | rrr   | rrw   | arr  | rrr   | wr  |
-| **nodejs/build** (GH)        | r | rrr   | rrw   | awa  | rrr   | wr  |
-| **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  |
-| **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- |
-| **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  |
-| **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- |
-| **Infra - test**             | - | w-\-  | aaa   | ww-  | -w-   | ww  |
-| **Infra - release**          | - | -\-\- | -ww   | -w-  | -\-\- | -\- |
-| **Build infra**              | - | -\-\- | -a-   | -\-\-| -\-\- | -\- |
-| **Website Infra**            | - | -\-\- | -a-   | a-\- | -\-\- | -\- |
-| **Youtube**                  | - | -\-w  | -\-\- | a-\- | -\-\- | -\- |
-| **Zoom**                     | r | rrw   | -\-\- | a-\- | -\-\- | -\- |
-| **1Password**                | - | -\-r  | -\-\- | a-\- | -\-\- | -\- |
-| **Social media accounts**    | - | -\-\- | -\-\- | -\-\-| -\-\- | -\- |
-| **Email** (nodejs-sec)       | r | rrr   | rrr   | awr  | wrr   | rr  |
-| **Email** (io.js aliases)    | r | -\-\- | -a-   | w-\- | -\-\- | -\- |
+| Resource | External people | Contributors - Core/Triagers/WG | Build - Test/Infra/Admin | Admin - TSC/Releasers/Moderation | Security Stewards/Triagers/External | GitHub - Actions/Plugins | Docker Team |
+|-         |-                |-                                |-                         |-                                 |-                                    |-                         |- |
+| **HackerOne**                | - | -\-\- | -\-\- | aw-  | www   | -\- | - |
+| **MITRE**                    | - | -\-\- | -\-\- | a-\- | w-\-  | -\- | - |
+| **private/node-private**     | - | -\-\- | www   | aw-  | w-w   | -\- | - |
+| **private/security-release** | - | -\-\- | -\-\- | a-\- | ww-   | -\- | - |
+| **private/secrets**          | - | -\-\- | www   | a-\- | -\-\- | -\- | - |
+| **nodejs/node**              | r | wrr   | rrw   | awa  | rrr   | wr  | r |
+| **nodejs/deps¹**             | r | rrr   | rrw   | arr  | rrr   | wr  | r |
+| **nodejs/build** (GH)        | r | rrr   | rrw   | awa  | rrr   | wr  | r |
+| **nodejs/docker-node** (GH)  | r | rrr   | rrr   | awa  | rrr   | wr  | w |
+| **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  | r |
+| **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- | - |
+| **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  | - |
+| **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- | - |
+| **Infra - test**             | - | w-\-  | aaa   | ww-  | -w-   | ww  | - |
+| **Infra - release**          | - | -\-\- | -ww   | -w-  | -\-\- | -\- | r |
+| **Build infra**              | - | -\-\- | -a-   | -\-\-| -\-\- | -\- | - |
+| **Website Infra**            | - | -\-\- | -a-   | a-\- | -\-\- | -\- | - |
+| **Youtube**                  | - | -\-w  | -\-\- | a-\- | -\-\- | -\- | - |
+| **Zoom**                     | r | rrw   | -\-\- | a-\- | -\-\- | -\- | - |
+| **1Password**                | - | -\-r  | -\-\- | a-\- | -\-\- | -\- | - |
+| **Social media accounts**    | - | -\-\- | -\-\- | -\-\-| -\-\- | -\- | - |
+| **Email** (nodejs-sec)       | r | rrr   | rrr   | awr  | wrr   | rr  | - |
+| **Email** (io.js aliases)    | r | -\-\- | -a-   | w-\- | -\-\- | -\- | - |
 
 Repos under nodejs which do not include code, are not covered as they cannot lead to the threats listed.
 pkgjs.org is excluded as it does not include code/repos that make it into Node.js binaries
