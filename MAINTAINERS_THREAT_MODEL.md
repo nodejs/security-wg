@@ -137,7 +137,7 @@ scripts, pollute plugins, overwrite configuration...)
 | **nodejs/deps¹**             | - | N\A |
 | **nodejs/build** (GH)        | w | write access would allow key scripts, infra to be modified |
 | **nodejs/docker-node**       | - | - |
-| **nodejs/node-core-utils**   | - | N\A |
+| **nodejs/node-core-utils**   | w | N\A |
 | **npm account**              | - | N\A |
 | **Jenkins CI - test**        | - | N\A |
 | **Jenkins CI - release**     | w | access to jenkins used for build would allow swapping published binaries |
