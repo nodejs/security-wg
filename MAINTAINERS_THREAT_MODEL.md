@@ -102,7 +102,7 @@ or inderictly (builds process/testing)
 
 ### Malicious release binary generation in Node.js release/build processes
 
-In this scenario we assume that a malicious actor will include a malicios code
+In this scenario we assume that a malicious actor will include a malicious code
 (malware, malicious dependencies, polluted binaries...) in the release binaries
 available through the Nodejs.org downloads.
 
@@ -114,7 +114,7 @@ for the tooling/build repositories (like ansible scripts, etc..)
 Jenkins/GH Actions
 * Manipulate the CI/release pipelines in Jenkins or GH Actions (add/modify custom
 scripts, pollute plugins, overwrite configuration...)  
-* Swaping out release binaries where they are hosted on nodejs.org web server
+* Swapping out release binaries where they are hosted on nodejs.org web server
 * Modifying the cloudflare configuration to change were binaries are served from
 * Modifying the vercel website configation
 
@@ -167,16 +167,17 @@ Notes:
 | **private/secrets**          | r | read access to secrets grants access to key resources |
 | **nodejs/node**              | - | N\A |
 | **nodejs/deps¹**             | - | N\A |
-| **nodejs/build** (GH)        | w | write access would allow key scripts, infra to be modified |
+| **nodejs/build** (GH)        | - | N\A |
+| **nodejs/unofficial-builds** (GH)        | w | write access would allow key scripts, infra to be modified |
 | **nodejs/docker-node**       | w | modification of Docker files can modify what node.js binaries are in the images 
 | **nodejs/node-core-utils**   |  - | N\A |
 | **npm account**              | - | N\A |
 | **Jenkins CI - test**        | - | N\A |
-| **Jenkins CI - release**     | w | access to jenkins used for build would allow swapping published binaries |
+| **Jenkins CI - release**     | - | N\A |
 | **Infra - test**             | - | N/A |
-| **Infra - release**          | w | access to machines used for build would allow swapping published binaries |
-| **Build infra**              | w | access to machines used for build would allow swapping published binaries |
-| **Website Infra**            | w | access to machines used for build would allow swapping published binaries |
+| **Infra - release**          | - | N\A |
+| **Build infra**              | w | access to machine used for unofficial-builds as server |
+| **Website Infra**            | - | N\A |
 | **Youtube**                  | - | N\A |
 | **Zoom**                     | - | N\A |
 | **1Password**                | r | read access to secrets grants access to key resources |
