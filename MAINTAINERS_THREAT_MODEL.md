@@ -133,7 +133,7 @@ scripts, pollute plugins, overwrite configuration...)
 | **private/node-private**     | - | N\A |
 | **private/security-release** | - | N\A |
 | **private/secrets**          | r | read access to secrets grants access to key resources |
-| **nodejs/node**              | - | N\A |
+| **nodejs/node**              | w | N\A |
 | **nodejs/deps¹**             | - | N\A |
 | **nodejs/build** (GH)        | w | write access would allow key scripts, infra to be modified |
 | **nodejs/docker-node**       | - | - |
