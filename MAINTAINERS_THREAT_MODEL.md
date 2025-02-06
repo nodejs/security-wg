@@ -42,6 +42,7 @@ repositories in the org, like Working groups or subteams.
 | **nodejs/build** (GH)        | r | rrr   | rrw   | awa  | rrr   | wr  | r |
 | **nodejs/docker-node** (GH)  | r | rrr   | rrr   | awa  | rrr   | wr  | w |
 | **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  | r |
+| **nodejs/nodejs.org**        | r | rrr   | rrr   | awa  | rrr   | wr  | r |
 | **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- | - |
 | **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  | - |
 | **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- | - |
@@ -87,6 +88,7 @@ or inderictly (builds process/testing)
 | **nodejs/deps¹**             | Write | If you have write access to Node.js dependencies you can hide malicious code and publish a new version, eventually the automation will create a PR to sync to nodejs/core and this code might pass without supervision |
 | **nodejs/build** (GH)        | -     | N\A |
 | **nodejs/node-core-utils**   | Write | User must have _Write_ access to nodejs/node to open a attack vector|
+| **nodejs/nodejs.org**        | -     | N\A |
 | **npm account**              | Write | Because you can change the node-core-utils/branch-diff code to inject malicious code |
 | **Jenkins CI - test**        | -     | N\A |
 | **Jenkins CI - release**     | -     | N\A |
@@ -139,6 +141,7 @@ scripts, pollute plugins, overwrite configuration...)
 | **nodejs/build** (GH)        | w | write access would allow key scripts, infra to be modified |
 | **nodejs/docker-node**       | - | - |
 | **nodejs/node-core-utils**   | w | N\A |
+| **nodejs/nodejs.org**        | - | N\A |
 | **npm account**              | - | N\A |
 | **Jenkins CI - test**        | - | N\A |
 | **Jenkins CI - release**     | w | access to jenkins used for build would allow swapping published binaries |
@@ -171,7 +174,8 @@ Notes:
 | **nodejs/build** (GH)        | - | N\A |
 | **nodejs/unofficial-builds** (GH)        | w | write access would allow key scripts, infra to be modified |
 | **nodejs/docker-node**       | w | modification of Docker files can modify what node.js binaries are in the images 
-| **nodejs/node-core-utils**   |  - | N\A |
+| **nodejs/node-core-utils**   | - | N\A |
+| **nodejs/nodejs.org**        | - | N\A |
 | **npm account**              | - | N\A |
 | **Jenkins CI - test**        | - | N\A |
 | **Jenkins CI - release**     | - | N\A |
