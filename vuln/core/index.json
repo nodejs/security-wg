@@ -1860,6 +1860,7 @@
     "vulnerable": "18.x || 20.x || 21.x",
     "patched": "^18.20.1 || ^20.12.1 || ^21.7.2",
     "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases/",
+    "description": "Assertion failed in node::http2::Http2Session::~Http2Session() leads to HTTP/2 server crash",
     "overview": "An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition.",
     "affectedEnvironments": [
       "all"
@@ -1873,6 +1874,7 @@
     "vulnerable": "18.x || 20.x || 21.x",
     "patched": "^18.20.1 || ^20.12.1 || ^21.7.2",
     "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases/",
+    "description": "HTTP Request Smuggling via Content Length Obfuscation",
     "overview": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first.",
     "affectedEnvironments": [
       "all"
@@ -1899,6 +1901,7 @@
     "vulnerable": "20.x || 22.x",
     "patched": "^20.15.1 || ^22.4.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+    "description": "fs.fchown/fchmod bypasses permission model",
     "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-write flag is used.\n\nNode.js Permission Model do not operate on file descriptors, however, operations such as `fs.fchown` or `fs.fchmod` can use a \"read-only\" file descriptor to change the owner and permissions of a file.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
     "affectedEnvironments": [
       "all"
@@ -1912,6 +1915,7 @@
     "vulnerable": "18.x || 20.x || 22.x",
     "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+    "description": "Bypass incomplete fix of CVE-2024-27980",
     "overview": "The CVE-2024-27980 was identified as an incomplete fix for the BatBadBut vulnerability. This vulnerability arises from improper handling of batch files with all possible extensions on Windows via `child_process.spawn` / `child_process.spawnSync`. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.\n\nThis vulnerability affects all users of `child_process.spawn` and `child_process.spawnSync` on Windows in all active release lines.",
     "affectedEnvironments": [
       "win32"
@@ -1925,6 +1929,7 @@
     "vulnerable": "20.x || 22.x",
     "patched": "^20.15.1 || ^22.4.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+    "description": "fs.lstat bypasses permission model",
     "overview": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-read flag is used.\nThis flaw arises from an inadequate permission model that fails to restrict file stats through the `fs.lstat` API. As a result, malicious actors can retrieve stats from files that they do not have explicit read access to.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 22.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
     "affectedEnvironments": [
       "all"
@@ -1938,6 +1943,7 @@
     "vulnerable": "18.x || 20.x || 22.x",
     "patched": "^18.20.4 || ^20.15.1 || ^22.4.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+    "description": "Bypass network import restriction via data URL",
     "overview": "A security flaw in Node.js allows a bypass of network import restrictions.\nBy embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.\n\nVerified on various platforms, the vulnerability is mitigated by forbidding data URLs in network imports.\n\nExploiting this flaw can violate network import security, posing a risk to developers and servers.",
     "affectedEnvironments": [
       "all"
@@ -1951,11 +1957,12 @@
     "vulnerable": "20.x || 22.x",
     "patched": "^20.15.1 || ^22.4.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases/",
+    "description": "Permission model improperly processes UNC paths",
     "overview": "The Permission Model assumes that any path starting with two backslashes \\\\ has a four-character prefix that can be ignored, which is not always true. This subtle bug leads to vulnerable edge cases.\n\nThis vulnerability affects Windows users of the Node.js Permission Model in version v20.x and v22.x",
     "affectedEnvironments": [
       "all"
     ],
-    "severity": "unknown"
+    "severity": "low"
   },
   "147": {
     "cve": [
@@ -1964,7 +1971,8 @@
     "vulnerable": "20.x || 22.x || 23.x",
     "patched": "^20.18.2 || ^22.13.1 || ^23.6.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
-    "overview": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \n\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23",
+    "description": "Worker permission bypass via InternalWorker leak in diagnostics",
+    "overview": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \n\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23.",
     "affectedEnvironments": [
       "all"
     ],
@@ -1977,7 +1985,8 @@
     "vulnerable": "18.x || 20.x || 22.x || 23.x",
     "patched": "^18.20.6 || ^20.18.2 || ^22.13.1 || ^23.6.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
-    "overview": "A vulnerability has been identified in Node.js, specifically affecting the handling of drive names in the Windows environment. Certain Node.js functions do not treat drive names as special on Windows. As a result, although Node.js assumes a relative path, it actually refers to the root directory.\n\nOn Windows, a path that does not start with the file separator is treated as relative to the current directory. \n\nThis vulnerability affects Windows users of `path.join` API",
+    "description": "Path traversal by drive name in Windows environment",
+    "overview": "A vulnerability has been identified in Node.js, specifically affecting the handling of drive names in the Windows environment. Certain Node.js functions do not treat drive names as special on Windows. As a result, although Node.js assumes a relative path, it actually refers to the root directory.\n\nOn Windows, a path that does not start with the file separator is treated as relative to the current directory. \n\nThis vulnerability affects Windows users of `path.join` API.\n\n\n\n\n\n",
     "affectedEnvironments": [
       "win32"
     ],
@@ -1990,10 +1999,25 @@
     "vulnerable": "18.x || 20.x || 22.x || 23.x",
     "patched": "^18.20.6 || ^20.18.2 || ^22.13.1 || ^23.6.1",
     "ref": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases/",
+    "description": "GOAWAY HTTP/2 frames cause memory leak outside heap",
     "overview": "A memory leak could occur when a remote peer abruptly closes the socket without sending a GOAWAY notification. Additionally, if an invalid header was detected by nghttp2, causing the connection to be terminated by the peer, the same leak was triggered. This flaw could lead to increased memory consumption and potential denial of service under certain conditions.\n\nThis vulnerability affects HTTP/2 Server users on Node.js v18.x, v20.x, v22.x and v23.x.",
     "affectedEnvironments": [
       "all"
     ],
     "severity": "medium"
+  },
+  "150": {
+    "cve": [
+      "CVE-2024-27980"
+    ],
+    "vulnerable": "18.x || 20.x || 21.x",
+    "patched": "^18.20.2 || ^20.12.2 || ^21.7.3",
+    "ref": "https://nodejs.org/en/blog/vulnerability/april-2024-security-releases-2",
+    "description": "Command injection via args parameter of child_process.spawn without shell option enabled on Windows",
+    "overview": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",
+    "affectedEnvironments": [
+      "win32"
+    ],
+    "severity": "high"
   }
 }
