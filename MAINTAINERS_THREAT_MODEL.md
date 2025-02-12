@@ -28,7 +28,8 @@ repositories in the org, like Working groups or subteams.
 
 > [!NOTE]
 > ¹ - All repositories with code that get published or has some impact on nodejs/core
-> ² - Releasers has access to run CI during CI Embargo (Security Release)
+> ² - Releasers and security triagers have access to run CI during CI Embargo (Security Release)
+> ³ - Security external has access to read the CI during CI Embargo (Security Release)
 
 | Resource | External people | Contributors - Core/Triagers/WG | Build - Test/Infra/Admin | Admin - TSC/Releasers/Moderation | Security Stewards/Triagers/External | GitHub - Actions/Plugins | Docker Team |
 |-         |-                |-                                |-                         |-                                 |-                                    |-                         |- |
@@ -44,7 +45,7 @@ repositories in the org, like Working groups or subteams.
 | **nodejs/node-core-utils**   | r | rrr   | rrw   | awa  | rrr   | wr  | r |
 | **nodejs/nodejs.org**        | r | rrr   | rrr   | awa  | rrr   | wr  | r |
 | **npm account**              | - | -     | -a-   | a-\- | -\-\- | -\- | - |
-| **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -\-\- | ww  | - |
+| **Jenkins CI - test**        | r | ww-   | wwa   | -w²- | -w²r³ | ww  | - |
 | **Jenkins CI - release**     | - | -\-\- | -ww   | -w-  | -\-\- | -\- | - |
 | **Infra - test**             | - | w-\-  | aaa   | ww-  | -w-   | ww  | - |
 | **Infra - release**          | - | -\-\- | -ww   | -w-  | -\-\- | -\- | r |
