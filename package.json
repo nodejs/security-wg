@@ -11,8 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@pkgjs/nv": "^0.2.1",
+    "@pkgjs/nv": "^0.2.2",
+    "fast-csv": "^5.0.2",
     "joi": "^17.13.3",
-    "semver": "^7.3.8"
+    "semver": "^7.7.1"
   }
 }
