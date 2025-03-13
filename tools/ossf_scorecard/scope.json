@@ -21,7 +21,6 @@
         "security-wg",
         "tap2junit",
         "node-addon-api",
-        "remark-preset-lint-node",
         "node-v8",
         "nodejs-latest-linker",
         "lts-schedule",
@@ -51,7 +50,8 @@
         "mentorship",
         "node-inspect",
         "node-report",
-        "whatwg-stream"
+        "whatwg-stream",
+        "remark-preset-lint-node"
       ]
     }
   }
