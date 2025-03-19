@@ -198,3 +198,57 @@ Notes:
 | **Email** (io.js aliases)    | - | N\A |
 | **Slack**                    | - | N\A |
 | **Calendar**                 | - | N\A |
+
+### Imparing the ability of the project to do day-to-day work
+
+* Deleting repos
+* Destroying infra
+* Destroying publication keys (Apple, Windows..)
+* Deleting calendar
+
+**Vectors:**
+
+* Compromised credentials or accounts
+* Malicious insider threats
+* Unauthorized access to CI/CD pipelines
+* Unsecured backup systems
+* Weak MFA enforcement or bypass
+* Excessive permissions assigned to users
+
+**Related CWEs:**
+
+* CWE-284: Improper Access Control
+* CWE-285: Improper Authorization
+* CWE-287: Improper Authentication
+* CWE-522: Insufficiently Protected Credentials
+* CWE-732: Incorrect Permission Assignment for Critical Resource
+* CWE-778: Insufficient Logging
+
+| Resource | Minimum Access    | Description |
+|-         |-                  |-            |
+| **HackerOne**                | a | Exclude the Node.js project from H1 |
+| **MITRE**                    | - | N/A |
+| **private/node-private**     | a | Excluding the repository |
+| **private/security-release** | w | Excluding the list of current security release |
+| **private/secrets**          | r | Read access to secrets grants access to key resources |
+| **nodejs/node**              | w | - |
+| **nodejs/deps**              | w | Deleting repos can affect packages that relies on it |
+| **nodejs/build** (GH)        | w | Write access would allow key scripts, infra to be modified |
+| **nodejs/docker-node**       | w | - |
+| **nodejs/node-core-utils**   | w | - |
+| **nodejs/nodejs.org**        | w | - |
+| **npm account**              | w | - |
+| **Jenkins CI - test**        | w | - |
+| **Jenkins CI - release**     | w | - |
+| **Infra - test**             | w | - |
+| **Infra - release**          | w | - |
+| **Build infra**              | w | - |
+| **Website Infra**            | w | - |
+| **Youtube**                  | a | Deleting previous record meetings |
+| **Zoom**                     | a | - |
+| **1Password**                | r | - |
+| **Social media accounts**    | w | - |
+| **Email** (nodejs-sec)       | a | - |
+| **Email** (io.js aliases)    | w | - |
+| **nodejs/calendar**          | w | - |
+| **Slack**                    | a | - |
