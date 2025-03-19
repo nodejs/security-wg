@@ -199,12 +199,12 @@ Notes:
 | **Slack**                    | - | N\A |
 | **Calendar**                 | - | N\A |
 
-### Imparing the ability of the project to do day-to-day work
+### Impairing the ability of the project to do day-to-day work
 
-* Deleting repos
+* Deleting or transferring repos
 * Destroying infra
 * Destroying publication keys (Apple, Windows..)
-* Deleting calendar
+* Deleting calendar and calendar recurring events
 
 **Vectors:**
 
@@ -237,6 +237,7 @@ Notes:
 | **nodejs/docker-node**       | w | - |
 | **nodejs/node-core-utils**   | w | - |
 | **nodejs/nodejs.org**        | w | - |
+| **nodejs/release-cloudflare-worker** | w | - |
 | **npm account**              | w | - |
 | **Jenkins CI - test**        | w | - |
 | **Jenkins CI - release**     | w | - |
