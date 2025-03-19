@@ -58,6 +58,7 @@ repositories in the org, like Working groups or subteams.
 | **Email** (nodejs-sec)       | r | rrr   | rrr   | awr  | wrr   | rr  | - |
 | **Email** (io.js aliases)    | r | -\-\- | -a-   | w-\- | -\-\- | -\- | - |
 | **Slack**                    | r | rrr | rrr | rrrr | rrr | -\w | r |
+| **Calendar**                 | r | rrr   | rrr   | rrrr | rrr   | -\- | r |
 
 Repos under nodejs which do not include code, are not covered as they cannot lead to the threats listed.
 pkgjs.org is excluded as it does not include code/repos that make it into Node.js binaries
@@ -105,6 +106,7 @@ or inderictly (builds process/testing)
 | **Email** (nodejs-sec)       | -     | N\A |
 | **Email** (io.js aliases)    | -     | N\A |
 | **Slack**                    | -     | N\A |
+| **Calendar**                 | -     | N\A |
 
 ### Malicious release binary generation in Node.js release/build processes
 
@@ -159,6 +161,7 @@ scripts, pollute plugins, overwrite configuration...)
 | **Email** (nodejs-sec)       | - | N\A |
 | **Email** (io.js aliases)    | - | N\A |
 | **Slack**                    | - | N\A |
+| **Calendar**                 | - | N\A |
 
 Notes:
 
@@ -194,3 +197,4 @@ Notes:
 | **Email** (nodejs-sec)       | - | N\A |
 | **Email** (io.js aliases)    | - | N\A |
 | **Slack**                    | - | N\A |
+| **Calendar**                 | - | N\A |
