@@ -202,9 +202,10 @@ Notes:
 ### Impairing the ability of the project to do day-to-day work
 
 * Deleting or transferring repos
-* Destroying infra
+* Destroying or misconfiguring infrastructure resources (e.g., build machines, cloud resources, etc.).
 * Destroying publication keys (Apple, Windows..)
 * Deleting calendar and calendar recurring events
+* Hijacking official communication channels (Slack, email, social media)
 
 **Vectors:**
 
