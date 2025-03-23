@@ -53,6 +53,17 @@
         "whatwg-stream",
         "remark-preset-lint-node"
       ]
+    },
+    "pkgjs": {
+      "included": [
+        "nv",
+        "detect-node-support",
+        "dependents",
+        "support",
+        "statusboard",
+        "wiby"
+      ],
+      "excluded": []
     }
   }
 }
