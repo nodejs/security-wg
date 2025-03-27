@@ -1039,8 +1039,8 @@
         ],
         "current": {
           "score": 6.6,
-          "date": "2025-03-26T22:49:18Z",
-          "commit": "7754280f696d212c4e898340cd1b37b3596d886a"
+          "date": "2025-03-27T13:37:25Z",
+          "commit": "9006f87c64ce6a0625185363295f10bb05f6b875"
         }
       },
       "core-validate-commit": {
@@ -2511,8 +2511,8 @@
         ],
         "current": {
           "score": 8.2,
-          "date": "2025-03-26T08:24:29Z",
-          "commit": "0ba30cea4ad527d911ce016d46226075ed1077cf"
+          "date": "2025-03-27T07:56:23Z",
+          "commit": "33daab937793da1849faec46e28f17f1c38894b0"
         }
       },
       "official-images": {
