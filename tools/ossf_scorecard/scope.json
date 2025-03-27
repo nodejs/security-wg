@@ -57,10 +57,10 @@
     "pkgjs": {
       "included": [
         "nv",
+        "statusboard",
         "detect-node-support",
         "dependents",
         "support",
-        "statusboard",
         "wiby"
       ],
       "excluded": []

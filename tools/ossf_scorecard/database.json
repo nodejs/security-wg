@@ -428,8 +428,8 @@
         ],
         "current": {
           "score": 5.9,
-          "date": "2025-03-23T21:40:44Z",
-          "commit": "c3b6f949748b49ef25b0239bd4582d29976fdbad"
+          "date": "2025-03-26T20:53:56Z",
+          "commit": "186bbf7dfdce4e8b5963fce1ab9567ba0ce04488"
         }
       },
       "diagnostics": {
@@ -1030,12 +1030,17 @@
             "score": 6.6,
             "date": "2025-01-16T06:29:13Z",
             "commit": "a21e72b214ce0ea32d3059586af6b6e3515dc08b"
+          },
+          {
+            "score": 6.5,
+            "date": "2025-03-12T11:29:02Z",
+            "commit": "45d9fffbad160aae7df694eec95ef3eda51eca0d"
           }
         ],
         "current": {
-          "score": 6.5,
-          "date": "2025-03-12T11:29:02Z",
-          "commit": "45d9fffbad160aae7df694eec95ef3eda51eca0d"
+          "score": 6.6,
+          "date": "2025-03-26T22:49:18Z",
+          "commit": "7754280f696d212c4e898340cd1b37b3596d886a"
         }
       },
       "core-validate-commit": {
@@ -2506,8 +2511,8 @@
         ],
         "current": {
           "score": 8.2,
-          "date": "2025-03-23T14:52:57Z",
-          "commit": "c584721dbc5fa6abdf36433b22c478635e1ccc99"
+          "date": "2025-03-26T08:24:29Z",
+          "commit": "0ba30cea4ad527d911ce016d46226075ed1077cf"
         }
       },
       "official-images": {
@@ -3588,36 +3593,20 @@
       }
     },
     "pkgjs": {
-      "nv": {
-        "previous": [],
-        "current": {
-          "score": 3.4,
-          "date": "2025-03-17",
-          "commit": "ee7a4b994b694064028490461e6ac1385a9a894f"
-        }
-      },
-      "support": {
-        "previous": [],
-        "current": {
-          "score": 4.2,
-          "date": "2025-03-17",
-          "commit": "81a010c3bcf0f88b7d915a9b562b1ff09d5d181d"
-        }
-      },
-      "dependents": {
-        "previous": [],
-        "current": {
-          "score": 4.2,
-          "date": "2025-03-17",
-          "commit": "c2e17122cfa574a6e20b3df751cf23def8ab9ccc"
-        }
-      },
       "detect-node-support": {
         "previous": [],
         "current": {
           "score": 3.7,
           "date": "2025-03-17",
           "commit": "e8c518bcf77e0967b77e14b311436d1e91da887f"
+        }
+      },
+      "nv": {
+        "previous": [],
+        "current": {
+          "score": 3.4,
+          "date": "2025-03-17",
+          "commit": "ee7a4b994b694064028490461e6ac1385a9a894f"
         }
       },
       "statusboard": {
@@ -3628,12 +3617,28 @@
           "commit": "3094a1d25ca4669f56ea0b685fad48903176f607"
         }
       },
+      "dependents": {
+        "previous": [],
+        "current": {
+          "score": 4.2,
+          "date": "2025-03-17",
+          "commit": "c2e17122cfa574a6e20b3df751cf23def8ab9ccc"
+        }
+      },
       "wiby": {
         "previous": [],
         "current": {
           "score": 3.8,
           "date": "2025-03-17",
           "commit": "cf02bbcda197ea603a6676a532fb075d8f688671"
+        }
+      },
+      "support": {
+        "previous": [],
+        "current": {
+          "score": 4.2,
+          "date": "2025-03-17",
+          "commit": "81a010c3bcf0f88b7d915a9b562b1ff09d5d181d"
         }
       }
     }
