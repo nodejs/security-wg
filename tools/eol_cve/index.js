@@ -4,7 +4,6 @@ const { format } = require('fast-csv');
 const { resolve } = require('path');
 const semver = require('semver');
 const nv = require('@pkgjs/nv');
-const path = require('path');
 
 const csvStream = format({ headers: true });
 const filePath = resolve(__dirname, 'eol-cve.csv');
