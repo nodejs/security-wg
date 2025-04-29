@@ -4,6 +4,7 @@ const { format } = require('fast-csv');
 const { resolve } = require('path');
 const semver = require('semver');
 const nv = require('@pkgjs/nv');
+const { setTimeout } = require('node:timers/promises');
 
 const csvStream = format({ headers: true });
 const filePath = resolve(__dirname, 'eol-cve.csv');
@@ -13,6 +14,73 @@ csvStream.pipe(writeStream);
 const MINIMUM_VERSION = 4;
 
 const RELEASE_SCHEDULE_JSON = 'https://raw.githubusercontent.com/nodejs/Release/main/schedule.json';
+
+const NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0";
+
+const VALID_REFERENCES = [
+    {
+        url: 'nodejs.org/en/blog/vulnerability',
+        source: 'cve-request@iojs.org'
+    },
+    {
+        url: 'nodejs.org/en/blog/vulnerability',
+        source: 'cve@mitre.org'
+    },
+    {
+        url: 'nodejs.org/en/blog/vulnerability',
+        source: 'support@hackerone.com'
+    },
+    {
+        url: 'hackerone.com/reports/',
+        source: 'support@hackerone.com'
+    }, {
+        url: 'www.openwall.com/lists/oss-security/',
+        source: 'support@hackerone.com'
+    }
+]
+
+async function isNodeCVE(cveId) {
+    const queryParams = new URLSearchParams({
+        cveId: cveId,
+    });
+
+    const response = await fetch(`${NVD_API_URL}?${queryParams.toString()}`, {
+        headers: {
+            'apiKey': process.env.NVD_TOKEN,
+        }
+    });
+    if (!response.ok) {
+        console.error(
+            `Error fetching data: ${response.status} ${response.statusText}`,
+        );
+        process.exit(1);
+    }
+    const data = await response.json();
+
+    const { vulnerabilities } = data;
+    if (!vulnerabilities?.length) {
+        return false;
+    }
+
+    const { cve } = vulnerabilities.at(0);
+    const { references } = cve;
+
+    if (references?.length) {
+        // Try to identify if the CVE is related to Node.js
+        // by checking the references
+        for (const reference of references) {
+            const { url, source } = reference;
+            for (const validReference of VALID_REFERENCES) {
+                const { url: validUrl, source: validSource } = validReference;
+                if (url.includes(validUrl) && source === validSource) {
+                    return true;
+                }
+            }
+        }
+    }
+
+    return false;
+}
 
 async function fetchReleasesSchedule() {
     try {
@@ -69,6 +137,15 @@ async function run() {
 
         // Each vulnerability can have multiple CVEs
         for (const cve of vuln.cve) {
+            if (!await isNodeCVE(cve)) {
+                continue;
+            }
+            // Otherwise NVD will block us
+            // Rate limit is 50 requests per 30 second with token
+            // and 5 requests per 30 seconds without token
+            const timeout = process.env.NVD_TOKEN ? 750 : 5000;
+            await setTimeout(timeout);
+
             const last = getLastAffectedVersion(vuln.vulnerable);
             // Skip 0.x and 4.x versions
             if (last <= MINIMUM_VERSION) continue;
@@ -96,7 +173,7 @@ async function run() {
                 return releaseDate > eol;
             });
 
-            if(releaseMajors.length === 0) continue;
+            if (releaseMajors.length === 0) continue;
 
             // Write into the format v4.x || v5.x || v6.x
             const missing = releaseMajors.map((n) => `${n}.x`).join(' || ');
