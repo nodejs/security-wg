@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-23166"
+  ],
+  "vulnerable": "20.x || 22.x || 23.x || 24.x",
+  "patched": "^20.19.2 || ^22.15.1 || ^23.11.1 || ^24.0.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
+  "description": "Improper error handling in async cryptographic operations crashes process",
+  "overview": " The C++ method SignTraits::DeriveBits() may incorrectly call ThrowException() based on user-supplied inputs when executing in a background thread, crashing the Node.js process. Such cryptographic operations are commonly applied to untrusted inputs. Thus, this mechanism potentially allows an adversary to remotely crash a Node.js runtime.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}
