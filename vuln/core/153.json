@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-23167"
+  ],
+  "vulnerable": "20.x",
+  "patched": "^20.19.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
+  "description": "Improper HTTP header block termination in llhttp",
+  "overview": "A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\\r\\n\\rX` instead of the required `\\r\\n\\r\\n`.\nThis inconsistency enables request smuggling, allowing attackers to bypass proxy-based access controls and submit unauthorized requests.\n\nThe issue was resolved by upgrading `llhttp` to version 9, which enforces correct header termination.\n\nImpact:\n* This vulnerability affects only Node.js 20.x users prior to the `llhttp` v9 upgrade.\n",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
