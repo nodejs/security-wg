@@ -2019,5 +2019,47 @@
       "win32"
     ],
     "severity": "high"
+  },
+  "151": {
+    "cve": [
+      "CVE-2025-23165"
+    ],
+    "vulnerable": "20.x || 22.x",
+    "patched": "^20.19.2 || ^22.15.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
+    "description": "Corrupted pointer in node::fs::ReadFileUtf8(const FunctionCallbackInfo<Value>& args) when args[0] is a string.",
+    "overview": "In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.\n\nImpact:\n* This vulnerability affects APIs relying on `ReadFileUtf8` on Node.js release lines: v20 and v22.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "152": {
+    "cve": [
+      "CVE-2025-23166"
+    ],
+    "vulnerable": "20.x || 22.x || 23.x || 24.x",
+    "patched": "^20.19.2 || ^22.15.1 || ^23.11.1 || ^24.0.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
+    "description": "Improper error handling in async cryptographic operations crashes process",
+    "overview": " The C++ method SignTraits::DeriveBits() may incorrectly call ThrowException() based on user-supplied inputs when executing in a background thread, crashing the Node.js process. Such cryptographic operations are commonly applied to untrusted inputs. Thus, this mechanism potentially allows an adversary to remotely crash a Node.js runtime.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "153": {
+    "cve": [
+      "CVE-2025-23167"
+    ],
+    "vulnerable": "20.x",
+    "patched": "^20.19.2",
+    "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
+    "description": "Improper HTTP header block termination in llhttp",
+    "overview": "A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\\r\\n\\rX` instead of the required `\\r\\n\\r\\n`.\nThis inconsistency enables request smuggling, allowing attackers to bypass proxy-based access controls and submit unauthorized requests.\n\nThe issue was resolved by upgrading `llhttp` to version 9, which enforces correct header termination.\n\nImpact:\n* This vulnerability affects only Node.js 20.x users prior to the `llhttp` v9 upgrade.\n",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
   }
 }
