@@ -21,8 +21,6 @@ jobs:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
       - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v3.3.0
-        with:
-          persist-credentials: false
       - name: OpenSSF Scorecard Monitor
         uses: ossf/scorecard-monitor@a3a9c4cfa0684480ec5f86fa178fc22c4394b69e # v2.0.0-beta8
         with:
