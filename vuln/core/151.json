@@ -6,9 +6,9 @@
   "patched": "^20.19.2 || ^22.15.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/may-2025-security-releases/",
   "description": "Corrupted pointer in node::fs::ReadFileUtf8(const FunctionCallbackInfo<Value>& args) when args[0] is a string.",
-  "overview": "In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.\n\nImpact:\n* This vulnerability affects APIs relying on `ReadFileUtf8` on Node.js release lines: v20 and v22.",
+  "overview": "In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.\n\nImpact:\n* This vulnerability affects Windows systems relying on `ReadFileUtf8` API on Node.js release lines: v20 and v22.",
   "affectedEnvironments": [
-    "all"
+    "win32"
   ],
   "severity": "low"
 }
