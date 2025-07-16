@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-27210"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x",
+  "patched": "^20.19.4 || ^22.17.1 || ^24.4.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2025-security-releases/",
+  "description": "Windows Device Names (CON, PRN, AUX) Bypass Path Traversal Protection in path.normalize()",
+  "overview": "An incomplete fix has been identified for CVE-2025-23084 in Node.js, specifically affecting Windows device names like CON, PRN, and AUX. \n\nThis vulnerability affects Windows users of `path.join` API.",
+  "affectedEnvironments": [
+    "win32"
+  ],
+  "severity": "high"
+}
