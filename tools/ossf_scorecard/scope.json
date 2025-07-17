@@ -37,7 +37,8 @@
         "gyp-next",
         "node-auto-test",
         "api-docs-tooling",
-        "amaro"
+        "amaro",
+        "web-team"
       ],
       "excluded": [
         "node-addon-examples",
