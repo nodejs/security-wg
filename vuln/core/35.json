@@ -8,5 +8,5 @@
   "affectedEnvironments": [
     "all"
   ],
-  "severity": "unknown"
+  "severity": "critical"
 }
