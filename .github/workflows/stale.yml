@@ -23,6 +23,6 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'This issue has been inactive for 90 days. It will be closed in 14 days unless there is further activity or the stale label is taken off.'
         stale-issue-label: 'stale'
-        exempt-issue-label: 'never-stale'
+        exempt-issue-labels: 'never-stale'
         days-before-stale: 90
         days-before-close: 14
