@@ -38,7 +38,8 @@
         "node-auto-test",
         "api-docs-tooling",
         "amaro",
-        "web-team"
+        "web-team",
+        "doc-kit"
       ],
       "excluded": [
         "node-addon-examples",
