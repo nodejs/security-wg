@@ -32,8 +32,8 @@ Security incidents affecting Node.js may include, but are not limited to:
 The Node.js incident response team includes:
 
 - [Technical Steering Committee (TSC) members](https://github.com/nodejs/tsc)
-- [Security Team members](https://github.com/nodejs/security-wg)
-- [Security Release Stewards](https://github.com/nodejs/node/blob/main/doc/contributing/security-release-process.md#security-release-stewards)
+- [Security Release](https://github.com/orgs/nodejs/teams/security-release)
+- [Security Release Stewards](https://github.com/orgs/nodejs/teams/security-stewards)
 
 ## Incident Response Procedures
 
