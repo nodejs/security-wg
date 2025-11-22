@@ -1,0 +1,11 @@
+{
+    "cve": [
+        "CVE-2025-9230",
+        "CVE-2025-9231",
+        "CVE-2025-9232"
+    ],
+    "description": "OpenSSL security vulnerabilities",
+    "overview": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths.",
+    "ref": "https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/213",
+    "reason": "vulnerable_code_not_in_execute_path"
+}

@@ -1,12 +1,12 @@
-name: "Update core index.json"
+name: "Update deps index.json"
 on:
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - 'vuln/core/*.json'
-      - '!vuln/core/index.json'
+      - 'vuln/deps/*.json'
+      - '!vuln/deps/index.json'
 
 permissions:
   contents: write
@@ -32,19 +32,19 @@ jobs:
     - name: Install deps
       run: npm ci
 
-    - name: Update core index.json
+    - name: Update deps index.json
       run: |
-        npm run create-core-index
+        npm run create-deps-index
 
     - name: Create Pull Request
       uses: gr2m/create-or-update-pull-request-action@77596e3166f328b24613f7082ab30bf2d93079d5
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          commit-message: 'vuln: update core index.json'
-          title: update core index.json
-          body: 'update core index.json. cc: @nodejs/security-wg'
+          commit-message: 'vuln: update deps index.json'
+          title: update deps index.json
+          body: 'update deps index.json. cc: @nodejs/security-wg'
           assignees: ${{ github.actor }}
           labels: security-wg-agenda
-          branch: core-index-updated
+          branch: deps-index-updated
           update-pull-request-title-and-body: true
