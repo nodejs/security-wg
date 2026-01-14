@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-59465"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.0 || ^22.22.0 || ^24.13.0 || ^25.3.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+  "description": "Node.js HTTP/2 server crashes with unhandled error when receiving malformed HEADERS frame",
+  "overview": "A malformed `HTTP/2 HEADERS` frame with oversized, invalid `HPACK` data can cause Node.js to crash by triggering an unhandled `TLSSocket` error `ECONNRESET`. Instead of safely closing the connection, the process crashes, enabling a remote denial of service. This primarily affects applications that do not attach explicit error handlers to secure sockets, for example:\n```\nserver.on('secureConnection', socket => {\n  socket.on('error', err => {\n    console.log(err)\n  })\n})\n```",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}
