@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-55132"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.0 || ^22.22.0 || ^24.13.0 || ^25.3.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+  "description": "fs.futimes() Bypasses Read-Only Permission Model",
+  "overview": "A flaw in Node.js's permission model allows a file's access and modification timestamps to be changed via `futimes()` even when the process has only read permissions. Unlike `utimes()`, `futimes()` does not apply the expected write-permission checks, which means file metadata can be modified in read-only directories. This behavior could be used to alter timestamps in ways that obscure activity, reducing the reliability of logs. This vulnerability affects users of the permission model on Node.js v20,  v22,  v24, and v25.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}

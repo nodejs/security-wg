@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-55130"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.0 || ^22.22.0 || ^24.13.0 || ^25.3.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+  "description": "FS Permissions Bypass",
+  "overview": "A flaw in Node.js’s Permissions model allows attackers to bypass `--allow-fs-read` and `--allow-fs-write` restrictions using crafted relative symlink paths. By chaining directories and symlinks, a script granted access only to the current directory can escape the allowed path and read sensitive files. This breaks the expected isolation guarantees and enables arbitrary file read/write, leading to potential system compromise.\nThis vulnerability affects users of the permission model on Node.js v20,  v22,  v24, and v25.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

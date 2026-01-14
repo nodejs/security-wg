@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2025-59466"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.0 || ^22.22.0 || ^24.13.0 || ^25.3.0",
+  "ref": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+  "description": "Uncatchable \"Maximum call stack size exceeded\" error on Node.js via async_hooks leads to process crashes bypassing error handlers",
+  "overview": "We have identified a bug in Node.js error handling where \"Maximum call stack size exceeded\" errors become uncatchable when `async_hooks.createHook()` is enabled. Instead of reaching `process.on('uncaughtException')`, the process terminates, making the crash unrecoverable. Applications that rely on `AsyncLocalStorage` (v22, v20) or `async_hooks.createHook()` (v24, v22, v20) become vulnerable to denial-of-service crashes triggered by deep recursion under specific conditions.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
