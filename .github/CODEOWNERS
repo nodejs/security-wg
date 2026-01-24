@@ -1,11 +1,6 @@
 # -- Node.js security ecosystem triage members 
 # These owners will be automatically assigned to any PRs
 # opened for vulnerabilities to be added to the database
-# of the npm community ecosystem
-/vuln/npm/    @nodejs/ecosystem-security
-
-# Currently setting the same ecosystem team to help
-# review any core related PRs as well
 /vuln/core/   @mhdawson @rvagg @vdeturckheim @RafaelGSS
 
 # -- Node.js Security WG processes 
