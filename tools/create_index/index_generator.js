@@ -52,8 +52,6 @@ const writeIndex = function(data, vulnDirectoryPath) {
 
   if(vulnDirectoryPath === './vuln/core/') {
     console.log('Succesfully wrote ' + vulnDirectoryPath + 'index.json for core vulnerabilities.')
-  } else if(vulnDirectoryPath === './vuln/npm/') {
-    console.log('Succesfully wrote ' + vulnDirectoryPath + 'index.json for npm vulnerabilities.')
   }
 }
 

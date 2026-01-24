@@ -4,7 +4,6 @@
   "scripts": {
     "test": "node --test",
     "validate": "node tools/vuln_valid",
-    "create-npm-index": "node tools/create_index/create_npm_index.js",
     "create-core-index": "node tools/create_index/create_core_index.js"
   },
   "keywords": [],
