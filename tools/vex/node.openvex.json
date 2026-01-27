@@ -1,0 +1,2965 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-dfe6d961b80c91a37fa908f5ead24a4fbaba4f87f05d70a82c0b5e6b8ae8d412",
+  "author": "Node.js Security WG",
+  "role": "Project",
+  "timestamp": "2025-11-22T07:19:44.551255Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2015-3193",
+        "name": "CVE-2015-3193",
+        "description": "An attack may be possible against a Node.js TLS server using DHE key exchange.\nDetails are available at \u003chttp://openssl.org/news/secadv/20151203.txt\u003e.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.1.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.2.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2015-3194",
+        "name": "CVE-2015-3194",
+        "description": "A potential denial-of-service vector for Node.js TLS servers using client\ncertificate authentication; TLS clients are also impacted. Details are available\nat \u003chttp://openssl.org/news/secadv/20151203.txt\u003e.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.1.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.2.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2015-6764",
+        "name": "CVE-2015-6764",
+        "description": "Backport fix for CVE-2015-6764, a bug in v8's `JSON.stringify()` that can result\nin out-of-bounds reads for arrays.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.1.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.2.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2015-7384",
+        "name": "CVE-2015-7384",
+        "description": "out-of-order 'finish' event bug in pipelining can abort execution"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.1.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2015-8027",
+        "name": "CVE-2015-8027",
+        "description": "A bug whereby an HTTP socket may no longer have a parser associated with it but\na pipelined request attempts to trigger a pause or resume on the non-existent\nparser, a potential denial-of-service vulnerability.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.1.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.2.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-0702",
+        "name": "CVE-2016-0702",
+        "description": "Fix a defect that makes the _[CacheBleed\nAttack](https://ssrg.nicta.com.au/projects/TS/cachebleed/)_ possible. This\ndefect enables attackers to execute side-channel attacks leading to the\npotential recovery of entire RSA private keys. It only affects the Intel Sandy\nBridge (and possibly older) microarchitecture when using hyper-threading. Newer\nmicroarchitectures, including Haswell, are unaffected.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.3.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v5.7.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-0797",
+        "name": "CVE-2016-0797",
+        "description": "Fix a defect that can cause memory corruption in certain very rare cases\nrelating to the internal `BN_hex2bn()` and `BN_dec2bn()` functions. It is\nbelieved that Node.js is not invoking the code paths that use these functions so\npractical attacks via Node.js using this defect are _unlikely_ to be possible.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.3.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v5.7.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-1669",
+        "name": "CVE-2016-1669",
+        "description": "Under certain conditions, V8 may improperly expand memory allocations in the\nZone::New function. This could potentially be used to cause a Denial of Service\nvia buffer overflow or as a trigger for a remote code execution.\n\nAlthough this bug is marked as high severity in the corresponding Chromium\nrelease (50.0.2661.102), our assessment is that this is low severity for\nNode.js users due to the level of difficulty in making use of this\nvulnerability. However, users are encouraged to upgrade their Node.js\ninstallation to ensure they are properly protected.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.4.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v5.12.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2086",
+        "name": "CVE-2016-2086",
+        "description": "Fix defects in HTTP header parsing for requests and responses that\ncan allow request smuggling (CVE-2016-2086).\n\nHTTP header parsing now aligns more closely with the HTTP spec\nincluding restricting the acceptable characters.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.6.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.3.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2105",
+        "name": "CVE-2016-2105",
+        "description": "An overflow can occur in the OpenSSL EVP_EncodeUpdate() function which is used\nfor Base64 encoding of binary data. An attacker must be able to supply large\namounts of input data in order to cause an overflow.\n\nNode.js uses the EVP_EncodeUpdate() internally during calls to\ncrypto.Certificate#exportPublicKey() for SPKAC Certificate Signing\nRequests. User-supplied data must be passed to this method for\napplications to be vulnerable. This method has been available since\nNode.js v0.12.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.4.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v5.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.1.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2107",
+        "name": "CVE-2016-2107",
+        "description": "A man-in-the-middle (MITM) attacker may be able to execute a padding oracle\nattack to decrypt traffic when a connection uses an AES-CBC cipher and the\nserver runs on an Intel CPU supporting AES-NI. This is a common configuration\nfor TLS servers.\n\nThe OpenSSL project has labelled this vulnerability high severity.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.4.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v5.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.1.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2178",
+        "name": "CVE-2016-2178",
+        "description": "A flaw in the OpenSSL DSA implementation means that a non-constant time codepath\nis followed for certain operations. This has been demonstrated through a\ncache-timing attack to be sufficient for an attacker to recover the private DSA\nkey.\n\nThis is very low severity for Node.js users due to the difficulty in taking\nadvantage of this attack and because DSA is very rarely used.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2183",
+        "name": "CVE-2016-2183",
+        "description": "SWEET32 is a new attack on older block cipher algorithms that use a block size\nof 64 bits.\n\nAs mitigation, OpenSSL has moved DES-based ciphers from the HIGH to MEDIUM\ngroup. As Node.js includes HIGH, but not MEDIUM, in its default suite, affected\nciphers are no longer included unless the default suite is not used. Node's\ndefault TLS cipher suite can be found in the API documentation.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-2216",
+        "name": "CVE-2016-2216",
+        "description": "Fix defects in HTTP header parsing for requests and responses that\ncan allow response splitting (CVE-2016-2216).\n\nHTTP header parsing now aligns more closely with the HTTP spec\nincluding restricting the acceptable characters.\n\nIntroduce new `--security-revert={cvenum}` command line flag for selective\nreversion of specific CVE fixes allow the fix for CVE-2016-2216 to be\nselectively reverted using `--security-revert=CVE-2016-2216`.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v5.6.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.3.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-5172",
+        "name": "CVE-2016-5172",
+        "description": "The V8 parser mishandled scopes, potentially allowing an attacker to obtain\nsensitive information from arbitrary memory locations via crafted JavaScript\ncode. This vulnerability would require an attacker to be able to execute\narbitrary JavaScript code in a Node.js process.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.9.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-5180",
+        "name": "CVE-2016-5180",
+        "description": "A security vulnerability has been discovered in the c-ares library that is\nbundled with all versions of Node.js. Due to the difficulty of triggering and\nmaking use of this vulnerability we currently consider this a low-severity\nsecurity flaw for Node.js users.\n\nMore information at https://c-ares.haxx.se/adv_20160929.html\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v0.10.48"
+        },
+        {
+          "@id": "pkg:nodejs/node@v0.12.17"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-5325",
+        "name": "CVE-2016-5325",
+        "description": "**http**: Properly validate for allowable characters in the `reason` argument in\n`ServerResponse#writeHead()`. Fixes a possible response splitting attack vector.\nThis introduces a new case where `throw` may occur when configuring HTTP\nresponses, users should already be adopting try/catch here.\n\nThis is a low severity security defect that that may make HTTP response\nsplitting possible under certain circumstances. If user-input is passed to the\nreason argument to writeHead() on an HTTP response, a new-line character may be\nused to inject additional responses.\n\nThe fix for this defect introduces a new case where throw may occur when\nconfiguring HTTP responses. Users should already be adopting try/catch here.\n\nCommon Vulnerability Scoring System (CVSS) v3 Base Score:\n\n\tMetric\tScore\n\tBase Score:\t4.8 (Medium)\n\tBase Vector:\tCVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N\n\tAttack Vector:\tNetwork (AV:N)\n\tAttack Complexity:\tHigh (AC:H)\n\tPrivileges Required:\tNone (PR:N)\n\tUser Interaction:\tNone (UI:N)\n\tScope of Impact:\tUnchanged (S:U)\n\tConfidentiality Impact:\tLow (C:L)\n\tIntegrity Impact:\tLow (I:L)\n\tAvailability Impact:\tNone (A:N)\n\nRefer to the\n[CVSS v3 Specification](https://www.first.org/cvss/specification-document)\nfor details on the meanings and application of the vector components.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-6303",
+        "name": "CVE-2016-6303",
+        "description": "An overflow can occur in MDC2_Update() under certain circumstances resulting in\nan out of bounds (OOB) error. This attack is impractical on most platforms due\nto the size of data required to trigger the OOB error.\n\nNode.js is impacted by this flaw but due to the impracticalities of exploiting\nit and the very low usage of of MDC-2, it is very low severity for Node.js\nusers.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-6304",
+        "name": "CVE-2016-6304",
+        "description": "A malicious client can exhaust a server's memory, resulting in a denial of\nservice (DoS) by sending very large OCSP Status Request extensions in a single\nsession.\n\nThis flaw is labelled high severity due to the ease of use for a DoS attack and\nNode.js servers using TLS are vulnerable.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-6306",
+        "name": "CVE-2016-6306",
+        "description": "Some missing message length checks can result in out of bounds (OOB) reads of up\nto 2 bytes beyond an allocated buffer. There is a theoretical denial of service\n(DoS) risk. This only impacts a client or a server which enables client\nauthentication.\n\nNode.js is impacted by this low severity flaw.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-7055",
+        "name": "CVE-2016-7055",
+        "description": "Some calculations, when run on an Intel Broadwell or later CPU, can produce in\nerroneous results. This flaw has been previously discussed by the Node.js team\non GitHub. It is not believed that practical attacks can be crafted to exploit\nthis vulnerability except in very specific circumstances. Therefore this is a\nlow severity flaw.\n\nAll active versions of Node.js are affected, but the severity is very low for\nNode.js users.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.7.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.9.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-7099",
+        "name": "CVE-2016-7099",
+        "description": "Fix invalid wildcard certificate validation check whereby a TLS server may be\nable to serve an invalid wildcard certificate for its hostname due to improper\nvalidation of `*.` in the wildcard string. \n\nThis is a high severity defect that would allow a malicious TLS server to serve\nan invalid wildcard certificate for its hostname and be improperly validated by\na Node.js client. This is due to a flaw in the validation of *. in the wildcard\nname string.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.7.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-9551",
+        "name": "CVE-2016-9551",
+        "description": "Please be aware that Node.js v7.2.0 was released today and includes a small\nsecurity update arising from libuv: https://nodejs.org/en/blog/release/v7.2.0/\n\nlibuv v1.10.1 reverts a change that was introduced in v1.10.0, included in\nNode.js v7.1.0. The reverted code was found to contain a potential buffer\noverflow in output written to the console. We are not aware of any exploit of\nthis flaw and it only impacts Windows 10 (November update and later). This flaw\nhas been assigned the identifier CVE-2016-9551 and was originally discovered and\nreported by Hitesh Kanwathirtha of Microsoft.\n\nUsers of the v7 release line running on Windows 10 should upgrade to Node.js\nv7.2.0 at their earliest convenience.\n\nNo other version of Node.js is known to be impacted by this flaw.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v7.2.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-9840",
+        "name": "CVE-2016-9840",
+        "description": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.10.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-9841",
+        "name": "CVE-2016-9841",
+        "description": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.10.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-9842",
+        "name": "CVE-2016-9842",
+        "description": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.10.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2016-9843",
+        "name": "CVE-2016-9843",
+        "description": "An upgrade to zlib 1.2.11 to fix a number of low severity CVEs\nthat were present in zlib 1.2.8.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.10.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-1000381",
+        "name": "CVE-2017-1000381",
+        "description": "The c-ares function ares_parse_naptr_reply(), which is used for parsing NAPTR\nresponses, could be triggered to read memory outside of the given input buffer\nif the passed in DNS response packet was crafted in a particular way.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.1.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.10.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v4.8.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.11.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-14849",
+        "name": "CVE-2017-14849",
+        "description": "Node.js version 8.5.0 included a change which caused a security vulnerability in the checks on paths made by some community modules. As a result, an attacker may be able to access file system paths other than those intended."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-14919",
+        "name": "CVE-2017-14919",
+        "description": "Node.js was susceptible to a remote DoS attack due to a change that came in as part of zlib v1.2.9. In zlib v1.2.9 8 became an invalid value for the windowBits parameter and Node's zlib module will crash or throw an exception (depending on the version) if you call zlib.createDeflateRaw({windowBits: 8})."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.11.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.8.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-15896",
+        "name": "CVE-2017-15896",
+        "description": "Node.js was affected by OpenSSL vulnerability CVE-2017-3737 in regards to the use of SSL_read() due to TLS handshake failure. The result was that an active network attacker could send application data to Node.js using the TLS or HTTP2 modules in a way that bypassed TLS authentication and encryption."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.8.7"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.12.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.9.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.2.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-15897",
+        "name": "CVE-2017-15897",
+        "description": "Node.js had a bug in versions 8.X and 9.X which caused buffers to not be initialized when the encoding for the fill value did not match the encoding specified. For example, 'Buffer.alloc(0x100, \"This is not correctly encoded\", \"hex\");' The buffer implementation was updated such that the buffer will be initialized to all zeros in these cases."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.9.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.2.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-3731",
+        "name": "CVE-2017-3731",
+        "description": "This is a moderate severity flaw in OpenSSL. By default, Node.js disables RC4 so\nmost users are not affected. As RC4 can be enabled programmatically, it is\npossible for a Node.js developer to craft code that may be vulnerable to this\nflaw. Any user activating RC4 in their codebase should prioritise this update.\n\nAll active versions of Node.js are affected, but the severity is very low for\nmost users.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.7.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.9.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2017-3732",
+        "name": "CVE-2017-3732",
+        "description": "As noted by the OpenSSL team, the likelihood of being able to craft a practical\nattack that uses this flaw is very low. In addition, Node.js enables\nSSL_OP_SINGLE_DH_USE, further decreasing the chance of a successful exploit of\nthis vulnerability in a Node.js service.\n\nAll active versions of Node.js are affected, but the severity is very low for\nNode.js users.\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.7.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.9.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v7.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12115",
+        "name": "CVE-2018-12115",
+        "description": "When used with UCS-2 encoding (recognized by Node.js under the names `'ucs2'`, `'ucs-2'`, `'utf16le'` and `'utf-16le'`), `Buffer#write()` can be abused to write outside of the bounds of a single `Buffer`. Writes that start from the second-to-last position of a buffer cause a miscalculation of the maximum length of the input bytes to be written."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.14.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.11.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v\u003e= 10.9.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12116",
+        "name": "CVE-2018-12116",
+        "description": "HTTP request splitting: If Node.js can be convinced to use unsanitized user-provided Unicode data for the `path` option of an HTTP request, then data can be provided which will trigger a second, unexpected, and user-defined HTTP request to made to the same server."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.14.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12120",
+        "name": "CVE-2018-12120",
+        "description": "Debugger port 5858 listens on any interface by default: When the debugger is enabled with `node --debug` or `node debug`, it listens to port 5858 on all interfaces by default. This may allow remote computers to attach to the debug port and evaluate arbitrary JavaScript. The default interface is now localhost. It has always been possible to start the debugger on a specific interface, such as `node --debug=localhost`. The debugger was removed in Node.js 8 and replaced with the inspector, so no versions from 8 and later are vulnerable."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.14.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12121",
+        "name": "CVE-2018-12121",
+        "description": "Denial of Service with large HTTP headers: By using a combination of many requests with maximum sized headers (almost 80 KB per connection), and carefully timed completion of the headers, it is possible to cause the HTTP server to abort from heap allocation failure. Attack potential is mitigated by the use of a load balancer or other proxy layer."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v11.3.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12122",
+        "name": "CVE-2018-12122",
+        "description": "Slowloris HTTP Denial of Service: An attacker can cause a Denial of Service (DoS) by sending headers very slowly keeping HTTP or HTTPS connections and associated resources alive for a long period of time."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v11.3.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-12123",
+        "name": "CVE-2018-12123",
+        "description": "Hostname spoofing in URL parser for javascript protocol: If a Node.js application is using url.parse() to determine the URL hostname, that hostname can be spoofed by using a mixed case \"javascript:\" (e.g. \"javAscript:\") protocol (other protocols are not affected). If security decisions are made about the URL based on the hostname, they may be incorrect."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v11.3.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7158",
+        "name": "CVE-2018-7158",
+        "description": "The `'path'` module in the Node.js 4.x release line contains a potential regular expression denial of service (ReDoS) vector. The code in question was replaced in Node.js 6.x and later so this vulnerability only impacts all versions of Node.js 4.x. The regular expression, `splitPathRe`, used within the `'path'` module for the various path parsing functions, including `path.dirname()`, `path.extname()` and `path.parse()` was structured in such a way as to allow an attacker to craft a string, that when passed through one of these functions, could take a significant amount of time to evaluate, potentially leading to a full denial of service."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.9.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7159",
+        "name": "CVE-2018-7159",
+        "description": "The HTTP parser in all current versions of Node.js ignores spaces in the `Content-Length` header, allowing input such as `Content-Length: 1 2` to be interpreted as having a value of `12`. The HTTP specification does not allow for spaces in the `Content-Length` value and the Node.js HTTP parser has been brought into line on this particular difference. The security risk of this flaw to Node.js users is considered to be VERY LOW as it is difficult, and may be impossible, to craft an attack that makes use of this flaw in a way that could not already be achieved by supplying an incorrect value for `Content-Length`. Vulnerabilities may exist in user-code that make incorrect assumptions about the potential accuracy of this value compared to the actual length of the data supplied. Node.js users crafting lower-level HTTP utilities are advised to re-check the length of any input supplied after parsing is complete."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v4.9.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v6.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.11.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.10.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7160",
+        "name": "CVE-2018-7160",
+        "description": "The Node.js inspector, in 6.x and later is vulnerable to a DNS rebinding attack which could be exploited to perform remote code execution. An attack is possible from malicious websites open in a web browser on the same computer, or another computer with network access to the computer running the Node.js process. A malicious website could use a DNS rebinding attack to trick the web browser to bypass same-origin-policy checks and to allow HTTP connections to localhost or to hosts on the local network. If a Node.js process with the debug port active is running on localhost or on a host on the local network, the malicious website could connect to it as a debugger, and get full code execution access."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.14.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.11.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.10.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7161",
+        "name": "CVE-2018-7161",
+        "description": "All versions of 8.x and later are vulnerable and the severity is HIGH. An attacker can cause a denial of service (DoS) by causing a node server providing an http2 server to crash. This can be accomplished by interacting with the http2 server in a manner that triggers a cleanup bug where objects are used in native code after they are no longer available. This has been addressed by updating the http2 implementation. Thanks to Jordan Zebor at F5 Networks for reporting this issue."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.11.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.11.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7162",
+        "name": "CVE-2018-7162",
+        "description": "All versions of 9.x and later are vulnerable and the severity is HIGH. An attacker can cause a denial of service (DoS) by causing a node process which provides an http server supporting TLS server to crash. This can be accomplished by sending duplicate/unexpected messages during the handshake. This vulnerability has been addressed by updating the TLS implementation. Thanks to Jordan Zebor at F5 Networks all of his help investigating this issue with the Node.js team."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v9.11.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7164",
+        "name": "CVE-2018-7164",
+        "description": "Versions 9.7.0 and later are vulnerable and the severity is MEDIUM. A bug introduced in 9.7.0 increases the memory consumed when reading from the network into JavaScript using the net.Socket object directly as a stream. An attacker could use this cause a denial of service by sending tiny chunks of data in short succession. This vulnerability was restored by reverting to the prior behaviour."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v9.11.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7166",
+        "name": "CVE-2018-7166",
+        "description": "An argument processing flaw can cause `Buffer.alloc()` to return uninitialized memory. This method is intended to be safe and only return initialized, or cleared, memory. The third argument specifying `encoding` can be passed as a number, this is misinterpreted by `Buffer's` internal \"fill\" method as the `start` to a fill operation. This flaw may be abused where `Buffer.alloc()` arguments are derived from user input to return uncleared memory blocks that may contain sensitive information."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v\u003e= 10.9.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2018-7167",
+        "name": "CVE-2018-7167",
+        "description": "Calling Buffer.fill() or Buffer.alloc() with some parameters can lead to a hang which could result in a Denial of Service."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.14.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.11.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v9.11.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-15604",
+        "name": "CVE-2019-15604",
+        "description": "Remotely trigger an assertion on a TLS server with a malformed certificate string"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.19.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v13.8.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-15605",
+        "name": "CVE-2019-15605",
+        "description": "HTTP request smuggling using malformed Transfer-Encoding header"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.19.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v13.8.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-15606",
+        "name": "CVE-2019-15606",
+        "description": "HTTP header values do not have trailing OWS trimmed"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.19.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.15.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v13.8.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-5737",
+        "name": "CVE-2019-5737",
+        "description": "An attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly thereby keeping the connection and associated resources alive for a long period of time. Attack potential is mitigated by the use of a load balancer or other proxy layer. This vulnerability is an extension of CVE-2018-12121, addressed in November and impacts all active release lines including 6, 8, 10 and 11."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v8.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.15.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v11.10.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-5739",
+        "name": "CVE-2019-5739",
+        "description": "Keep-alive HTTP and HTTPS connections can remain open and inactive for up to 2 minutes in Node.js 6.16.0 and earlier. Node.js 8.0.0 introduced a dedicated server.keepAliveTimeout which defaults to 5 seconds. The behavior in Node.js 6.16.0 and earlier is a potential Denial of Service (DoS) attack vector. Node.js 6.17.0 introduces server.keepAliveTimeout and the 5-second default."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v6.17.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9511",
+        "name": "CVE-2019-9511",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9512",
+        "name": "CVE-2019-9512",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9513",
+        "name": "CVE-2019-9513",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9514",
+        "name": "CVE-2019-9514",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9515",
+        "name": "CVE-2019-9515",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9516",
+        "name": "CVE-2019-9516",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9517",
+        "name": "CVE-2019-9517",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2019-9518",
+        "name": "CVE-2019-9518",
+        "description": "Netflix has discovered several resource exhaustion vectors affecting a variety of third-party HTTP/2 implementations. These attack vectors can be used to launch DoS attacks against servers that support HTTP/2 communication. Netflix worked with Google and CERT/CC to coordinate disclosure to the Internet community."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v8.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v10.16.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-1971",
+        "name": "CVE-2020-1971",
+        "description": "OpenSSL - EDIPARTYNAME NULL pointer de-reference - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20201208.txt"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.23.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.15.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-7774",
+        "name": "CVE-2020-7774",
+        "description": "This is a vulnerability in the y18n npm module which may be exploited by prototype pollution. You can read more about it in https://github.com/advisories/GHSA-c4w7-xm78-47vh"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.22.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8201",
+        "name": "CVE-2020-8201",
+        "description": "HTTP Request Smuggling due to CR-to-Hyphen conversion"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.18.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.11.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8251",
+        "name": "CVE-2020-8251",
+        "description": "Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.11.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8252",
+        "name": "CVE-2020-8252",
+        "description": "fs.realpath.native on may cause buffer overflow"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.22.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.18.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.9.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8265",
+        "name": "CVE-2020-8265",
+        "description": "use-after-free in TLSWrap - affected Node.js versions are vulnerable to a use-after-free bug in its TLS implementation. When writing to a TLS enabled socket, node::StreamBase::Write calls node::TLSWrap::DoWrite with a freshly allocated WriteWrap object as first argument. If the DoWrite method does not return an error, this object is passed back to the caller as part of a StreamWriteResult structure. This may be exploited to corrupt memory leading to a Denial of Service or potentially other exploits."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.23.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.15.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8277",
+        "name": "CVE-2020-8277",
+        "description": "Denial of Service through DNS request"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.2.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2020-8287",
+        "name": "CVE-2020-8287",
+        "description": "HTTP Request Smuggling in nodejs - Affected versions of Node.js allow two copies of a header field in a http request. For example, two Transfer-Encoding header fields. In this case Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling (https://cwe.mitre.org/data/definitions/444.html)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.23.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.15.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22883",
+        "name": "CVE-2021-22883",
+        "description": "HTTP2 'unknownProtocol' cause Denial of Service by resource exhaustion - Affected Node.js versions are vulnerable to denial of service attacks when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.21.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.10.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22884",
+        "name": "CVE-2021-22884",
+        "description": "DNS rebinding in --inspect - Affected Node.js versions are vulnerable to denial of service attacks when the whitelist includes “localhost6”. When “localhost6” is not present in /etc/hosts, it is just an ordinary domain that is resolved via DNS, i.e., over network. If the attacker controls the victim's DNS server or can spoof its responses, the DNS rebinding protection can be bypassed by using the “localhost6” domain. As long as the attacker uses the “localhost6” domain, they can still apply the attack described in CVE-2018-7160."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.21.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.10.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22918",
+        "name": "CVE-2021-22918",
+        "description": "Node.js is vulnerable to out-of-bounds read in libuv's uv__idna_toascii() function which is used to convert strings to ASCII. This is called by Node's dns module's lookup() function and can lead to information disclosures or crashes. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22921",
+        "name": "CVE-2021-22921",
+        "description": "Node.js is vulnerable to local privilege escalation attacks under certain conditions on Windows platforms. More specifically, improper configuration of permissions in the installation directory allows an attacker to perform two different escalation attacks: PATH and DLL hijacking. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22921"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22930",
+        "name": "CVE-2021-22930",
+        "description": "Node.js before is vulnerable to a use after free attack where an attacker might be able to exploit the memory corruption, to change process behavior. You can read more about it in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22930"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.6.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22931",
+        "name": "CVE-2021-22931",
+        "description": "Node.js was vulnerable to Remote Code Execution, XSS, application crashes due to missing input validation of host names returned by Domain Name Servers in the Node.js DNS library which can lead to output of wrong hostnames (leading to Domain Hijacking) and injection vulnerabilities in applications using the library. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22931"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22939",
+        "name": "CVE-2021-22939",
+        "description": "If the Node.js https API was used incorrectly and \"undefined\" was in passed for the \"rejectUnauthorized\" parameter, no error was returned and connections to servers with an expired certificate would have been accepted. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22939"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22940",
+        "name": "CVE-2021-22940",
+        "description": "Node.js was vulnerable to a use after free attack where an attacker might be able to exploit memory corruption to change process behavior. The issue is a follow on to CVE-2021-22930 as the issue was not completely resolved in the fix for CVE-2021-22930. You can read more about it in: https://nvd.nist.gov/vuln/detail/CVE-2021-22940"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.5"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22959",
+        "name": "CVE-2021-22959",
+        "description": "The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.7"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.11.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-22960",
+        "name": "CVE-2021-22960",
+        "description": "The http parser accepts requests with a space (SP) right after the header name before the colon. The http parser ignores chunk extensions when parsing the body of chunked requests. These can lead to HTTP Request Smuggling (HRS). See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22959 and https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22960 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.7"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.11.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-23362",
+        "name": "CVE-2021-23362",
+        "description": "This is a vulnerability in the hosted-git-info npm module which may be vulnerable to denial of service attacks. You can read more about it in https://nvd.nist.gov/vuln/detail/CVE-2021-23362"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-23840",
+        "name": "CVE-2021-23840",
+        "description": "OpenSSL - Integer overflow in CipherUpdate - This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210216.txt"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.21.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.10.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-27290",
+        "name": "CVE-2021-27290",
+        "description": "This is a vulnerability in the ssri npm module which may be vulnerable to denial of service attacks. You can read more about it in https://github.com/advisories/GHSA-vx3p-948g-6vhq"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-3449",
+        "name": "CVE-2021-3449",
+        "description": "This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.22.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.14.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-3450",
+        "name": "CVE-2021-3450",
+        "description": "This is a vulnerability in OpenSSL which may be exploited through Node.js. You can read more about it in https://www.openssl.org/news/secadv/20210325.txt"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v10.24.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v12.22.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v15.14.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-37701",
+        "name": "CVE-2021-37701",
+        "description": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.6"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-37712",
+        "name": "CVE-2021-37712",
+        "description": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.6"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-37713",
+        "name": "CVE-2021-37713",
+        "description": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.6"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-39134",
+        "name": "CVE-2021-39134",
+        "description": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.6"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-39135",
+        "name": "CVE-2021-39135",
+        "description": "npm 6 update - node-tar, aborist, npm client modules. These are vulnerabilities in the node-tar, arborist, and npm cli modules which are related to the initial reports and subsequent remediation of node-tar vulnerabilities CVE-2021-32803 and CVE-2021-32804. Subsequent internal security review of node-tar and additional external bounty reports have resulted in another 5 CVE being remediated in core npm CLI dependencies including node-tar, and npm arborist. You can read more about it in: https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc, https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p, https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh, https://github.com/npm/arborist/security/advisories/GHSA-2h3h-q99f-3fhc), https://github.com/npm/arborist/security/advisories/GHSA-gmw6-94gg-2rc2"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.17.6"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-44531",
+        "name": "CVE-2021-44531",
+        "description": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.9"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.13.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v17.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-44532",
+        "name": "CVE-2021-44532",
+        "description": "Node.js converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.9"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.13.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v17.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2021-44533",
+        "name": "CVE-2021-44533",
+        "description": "Node.js did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44533 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.9"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.13.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v17.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-0778",
+        "name": "CVE-2022-0778",
+        "description": "This is a vulnerability in OpenSSL: Infinite loop in BN_mod_sqrt() reachable when parsing certificates. More details are available at https://www.openssl.org/news/secadv/20220315.txt."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.11"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.14.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v17.7.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-21824",
+        "name": "CVE-2022-21824",
+        "description": "Due to the formatting logic of the console.table() function it was not safe to allow user controlled input to be passed to the properties parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be __proto__. The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype. See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824 for more details."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v12.22.9"
+        },
+        {
+          "@id": "pkg:nodejs/node@v14.18.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.13.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v17.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32212",
+        "name": "CVE-2022-32212",
+        "description": "The IsAllowedHost check in https://github.com/nodejs/node/blob/fdf0a84e826d3a9ec0ce6f5a3f5adc967fe99408/src/inspector_socket.cc#L580 can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid or not. When an invalid IPv4 address is provided (for instance 10.0.2.555 is provided), the browser will make a DNS requests to the DNS server, providing a vector for an attacker-controlled DNS server to perform a rebinding attack and hence access the JSON file containing the WebSocket file.\n The fix we introduced in https://hackerone.com/reports/1069487 was not complete."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32213",
+        "name": "CVE-2022-32213",
+        "description": "The llhttp parser in the http module in Node.js does not correctly parse and validate Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS)."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32214",
+        "name": "CVE-2022-32214",
+        "description": "The llhttp parser in the http module in Node.js does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS)."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32215",
+        "name": "CVE-2022-32215",
+        "description": "The llhttp parser in the http module in Node does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS)."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32222",
+        "name": "CVE-2022-32222",
+        "description": "On linux, versions of 18.x prior to Y used a default path for openssl.cnf  that was within a path that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-32223",
+        "name": "CVE-2022-32223",
+        "description": "Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.\nThis vulnerability can be exploited if the victim has the following dependencies on a Windows machine:\n* OpenSSL has been installed and “C:\\Program Files\\Common Files\\SSL\\openssl.cnf” exists.\n\nWhenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.\nAfter that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.\n\nIt is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.5.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-35255",
+        "name": "CVE-2022-35255",
+        "description": "Node.js made calls to EntropySource() in SecretKeyGenTraits::DoKeyGen() in src/crypto/crypto_keygen.cc. However, it does not check the return value, it assumes EntropySource() always succeeds, but it can (and sometimes will) fail."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-35256",
+        "name": "CVE-2022-35256",
+        "description": "The llhttp parser in the http module in Node.js v18.7.0 does not correctly handle header fields that are not terminated with CLRF. This may result in HTTP Request Smuggling."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.9.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2022-43548",
+        "name": "CVE-2022-43548",
+        "description": "The Node.js rebinding protector for --inspect still allows invalid IP address, specifically, the octal format."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.18.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.12.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.0.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-23918",
+        "name": "CVE-2023-23918",
+        "description": "It was possible to bypass Permissions and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-23919",
+        "name": "CVE-2023-23919",
+        "description": "In some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.2.0"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-23920",
+        "name": "CVE-2023-23920",
+        "description": "Node.js would search and potentially load ICU data when running with elevated priviledges. Node.js was modified to build with ICU_NO_USER_DATA_OVERRIDE to avoid this."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-23936",
+        "name": "CVE-2023-23936",
+        "description": "The fetch API in Node.js did not prevent CRLF injection in the 'host' header potentially allowing attacks such as HTTP response splitting and HTTP header injection."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-24807",
+        "name": "CVE-2023-24807",
+        "description": "The Headers.set() and Headers.append() methods in the fetch API in Node.js where vulnerable to Regular a Expression Denial of Service (ReDoS) attacks."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v14.21.3"
+        },
+        {
+          "@id": "pkg:nodejs/node@v16.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v19.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30581",
+        "name": "CVE-2023-30581",
+        "description": "The use of proto in process.mainModule.proto.require() can bypass the policy mechanism and require modules outside of the policy.json definition"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30582",
+        "name": "CVE-2023-30582",
+        "description": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30583",
+        "name": "CVE-2023-30583",
+        "description": "fs.openAsBlob() can bypass the experimental permission model when using the file system read restriction with the --allow-fs-read flag in Node.js 20"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30584",
+        "name": "CVE-2023-30584",
+        "description": "A vulnerability has been discovered in Node.js version 20, specifically within the experimental permission model. This flaw relates to improper handling of path traversal bypass when verifying file permissions."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30585",
+        "name": "CVE-2023-30585",
+        "description": "Privilege escalation via Malicious Registry Key manipulation during Node.js installer repair process"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30586",
+        "name": "CVE-2023-30586",
+        "description": "Node.js 20 allows loading arbitrary OpenSSL engines when the experimental permission model is enabled, which can bypass and/or disable the permission model."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30587",
+        "name": "CVE-2023-30587",
+        "description": "A vulnerability in Node.js version 20 allows for bypassing restrictions set by the --experimental-permission flag using the built-in inspector module (node:inspector)."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30588",
+        "name": "CVE-2023-30588",
+        "description": "When an invalid public key is used to create an x509 certificate using the crypto.X509Certificate() API a non-expect termination occurs."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30589",
+        "name": "CVE-2023-30589",
+        "description": "The llhttp parser in the http module in Node.js does not strictly use the CRLF sequence to delimit HTTP requests."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-30590",
+        "name": "CVE-2023-30590",
+        "description": "The generateKeys() API function returned from crypto.createDiffieHellman() only generates missing (or outdated) keys, that is, it only generates a private key if none has been set yet."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.16.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32002",
+        "name": "CVE-2023-32002",
+        "description": "The use of Module._load() can bypass the policy mechanism and require modules outside of the policy.json definition for a given module."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32003",
+        "name": "CVE-2023-32003",
+        "description": "fs.mkdtemp() and fs.mkdtempSync() can be used to bypass the permission model check using a path traversal attack."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32004",
+        "name": "CVE-2023-32004",
+        "description": "Improper handling of Buffers in file system APIs causing a traversal path to bypass when verifying file permissions."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32005",
+        "name": "CVE-2023-32005",
+        "description": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32006",
+        "name": "CVE-2023-32006",
+        "description": "The use of module.constructor.createRequire() can bypass the policy mechanism and require modules outside of the policy.json definition for a given module."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32558",
+        "name": "CVE-2023-32558",
+        "description": "The use of the deprecated API process.binding() can bypass the permission model through path traversal."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-32559",
+        "name": "CVE-2023-32559",
+        "description": "The use of the deprecated API process.binding() can bypass the policy mechanism by requiring internal modules and eventually take advantage of process.binding('spawn_sync') run arbitrary code, outside of the limits defined in a policy.json file."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v16.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v18.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.5.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-38552",
+        "name": "CVE-2023-38552",
+        "description": "Integrity checks according to experimental policies can be circumvented (Medium)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-39331",
+        "name": "CVE-2023-39331",
+        "description": "A previously disclosed vulnerability (CVE-2023-30584) was patched insufficiently. The implementation does not protect itself against the application overwriting built-in utility functions with user-defined implementations (High)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-39332",
+        "name": "CVE-2023-39332",
+        "description": "Path traversal through path stored in Uint8Array (High)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-39333",
+        "name": "CVE-2023-39333",
+        "description": "Code injection via WebAssembly export names (Low)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-44487",
+        "name": "CVE-2023-44487",
+        "description": "Rapidly creating and cancelling streams (HEADERS frame immediately followed by RST_STREAM) without bound causes denial of service (High)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-45143",
+        "name": "CVE-2023-45143",
+        "description": "Cookie headers are not cleared in cross-domain redirect in undici-fetch (High)"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.8.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-45853",
+        "name": "CVE-2023-45853",
+        "description": "This CVE was created for MiniZip (part of zlib/contrib/minizip), which is not used by Node.js. Node.js uses zlib for compression but does not use the MiniZip component where this vulnerability exists."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE was created for MiniZip (part of zlib/contrib/minizip), which is not used by Node.js. Node.js uses zlib for compression but does not use the MiniZip component where this vulnerability exists."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2023-46809",
+        "name": "CVE-2023-46809",
+        "description": "A vulnerability in the privateDecrypt() API of the crypto library, allowed a covert timing side-channel during PKCS#1 v1.5 padding error handling."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-13176",
+        "name": "CVE-2024-13176",
+        "description": "This OpenSSL vulnerability does not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code path."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This OpenSSL vulnerability does not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code path."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-21890",
+        "name": "CVE-2024-21890",
+        "description": "Improper handling of wildcards in --allow-fs-read and --allow-fs-write"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-21891",
+        "name": "CVE-2024-21891",
+        "description": "Node.js depends on multiple built-in utility functions to normalize paths provided to node:fs functions, which can be overwitten with user-defined implementations leading to filesystem permission model bypass through path traversal attack."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-21892",
+        "name": "CVE-2024-21892",
+        "description": "Code injection and privilege escalation through Linux capabilities"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-21896",
+        "name": "CVE-2024-21896",
+        "description": "The permission model protects itself against path traversal attacks by calling path.resolve() on any paths given by the user. If the path is to be treated as a Buffer, the implementation uses Buffer.from() to obtain a Buffer from the result of path.resolve()."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-22017",
+        "name": "CVE-2024-22017",
+        "description": "setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid(). This allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid()"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-22018",
+        "name": "CVE-2024-22018",
+        "description": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-read flag is used.\nThis flaw arises from an inadequate permission model that fails to restrict file stats through the `fs.lstat` API. As a result, malicious actors can retrieve stats from files that they do not have explicit read access to.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 22.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-22019",
+        "name": "CVE-2024-22019",
+        "description": "A vulnerability in Node.js HTTP servers allows an attacker to send a specially crafted HTTP request with chunked encoding, leading to resource exhaustion and denial of service (DoS)."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-22020",
+        "name": "CVE-2024-22020",
+        "description": "A security flaw in Node.js allows a bypass of network import restrictions.\nBy embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.\n\nVerified on various platforms, the vulnerability is mitigated by forbidding data URLs in network imports.\n\nExploiting this flaw can violate network import security, posing a risk to developers and servers."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-22025",
+        "name": "CVE-2024-22025",
+        "description": "A vulnerability in Node.js has been identified, allowing for a Denial of Service (DoS) attack through resource exhaustion when using the fetch() function to retrieve content from an untrusted URL."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.19.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.6.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-27980",
+        "name": "CVE-2024-27980",
+        "description": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.12.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.7.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-27980",
+        "name": "CVE-2024-27980",
+        "description": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.12.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.7.3"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-27982",
+        "name": "CVE-2024-27982",
+        "description": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.12.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.7.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-27983",
+        "name": "CVE-2024-27983",
+        "description": "An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.12.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v21.7.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-3156",
+        "name": "CVE-2024-3156",
+        "description": "These V8 vulnerabilities do not affect Node.js. The vulnerable functionality is not exposed in Node.js's implementation."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These V8 vulnerabilities do not affect Node.js. The vulnerable functionality is not exposed in Node.js's implementation."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-3159",
+        "name": "CVE-2024-3159",
+        "description": "These V8 vulnerabilities do not affect Node.js. The vulnerable functionality is not exposed in Node.js's implementation."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These V8 vulnerabilities do not affect Node.js. The vulnerable functionality is not exposed in Node.js's implementation."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-36137",
+        "name": "CVE-2024-36137",
+        "description": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-write flag is used.\n\nNode.js Permission Model do not operate on file descriptors, however, operations such as `fs.fchown` or `fs.fchmod` can use a \"read-only\" file descriptor to change the owner and permissions of a file.\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-36138",
+        "name": "CVE-2024-36138",
+        "description": "The CVE-2024-27980 was identified as an incomplete fix for the BatBadBut vulnerability. This vulnerability arises from improper handling of batch files with all possible extensions on Windows via `child_process.spawn` / `child_process.spawnSync`. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.\n\nThis vulnerability affects all users of `child_process.spawn` and `child_process.spawnSync` on Windows in all active release lines."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-37372",
+        "name": "CVE-2024-37372",
+        "description": "The Permission Model assumes that any path starting with two backslashes \\\\ has a four-character prefix that can be ignored, which is not always true. This subtle bug leads to vulnerable edge cases.\n\nThis vulnerability affects Windows users of the Node.js Permission Model in version v20.x and v22.x"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-4761",
+        "name": "CVE-2024-4761",
+        "description": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-4947",
+        "name": "CVE-2024-4947",
+        "description": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-5274",
+        "name": "CVE-2024-5274",
+        "description": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2024-7535",
+        "name": "CVE-2024-7535",
+        "description": "This V8 vulnerability does not fall within Node.js's threat model. The vulnerable code path is not exposed through Node.js APIs and cannot be exploited in normal Node.js usage."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This V8 vulnerability does not fall within Node.js's threat model. The vulnerable code path is not exposed through Node.js APIs and cannot be exploited in normal Node.js usage."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23083",
+        "name": "CVE-2025-23083",
+        "description": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \n\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.13.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v23.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23084",
+        "name": "CVE-2025-23084",
+        "description": "A vulnerability has been identified in Node.js, specifically affecting the handling of drive names in the Windows environment. Certain Node.js functions do not treat drive names as special on Windows. As a result, although Node.js assumes a relative path, it actually refers to the root directory.\n\nOn Windows, a path that does not start with the file separator is treated as relative to the current directory. \n\nThis vulnerability affects Windows users of `path.join` API.\n\n\n\n\n\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.13.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v23.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23085",
+        "name": "CVE-2025-23085",
+        "description": "A memory leak could occur when a remote peer abruptly closes the socket without sending a GOAWAY notification. Additionally, if an invalid header was detected by nghttp2, causing the connection to be terminated by the peer, the same leak was triggered. This flaw could lead to increased memory consumption and potential denial of service under certain conditions.\n\nThis vulnerability affects HTTP/2 Server users on Node.js v18.x, v20.x, v22.x and v23.x."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v18.20.6"
+        },
+        {
+          "@id": "pkg:nodejs/node@v20.18.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.13.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v23.6.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23165",
+        "name": "CVE-2025-23165",
+        "description": "In Node.js, the `ReadFileUtf8` internal binding leaks memory due to a corrupted pointer in `uv_fs_s.file`: a UTF-16 path buffer is allocated but subsequently overwritten when the file descriptor is set. This results in an unrecoverable memory leak on every call. Repeated use can cause unbounded memory growth, leading to a denial of service.\n\nImpact:\n* This vulnerability affects APIs relying on `ReadFileUtf8` on Node.js release lines: v20 and v22."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.19.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.15.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23166",
+        "name": "CVE-2025-23166",
+        "description": " The C++ method SignTraits::DeriveBits() may incorrectly call ThrowException() based on user-supplied inputs when executing in a background thread, crashing the Node.js process. Such cryptographic operations are commonly applied to untrusted inputs. Thus, this mechanism potentially allows an adversary to remotely crash a Node.js runtime."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.19.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.15.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v23.11.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.0.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-23167",
+        "name": "CVE-2025-23167",
+        "description": "A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\\r\\n\\rX` instead of the required `\\r\\n\\r\\n`.\nThis inconsistency enables request smuggling, allowing attackers to bypass proxy-based access controls and submit unauthorized requests.\n\nThe issue was resolved by upgrading `llhttp` to version 9, which enforces correct header termination.\n\nImpact:\n* This vulnerability affects only Node.js 20.x users prior to the `llhttp` v9 upgrade.\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.19.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-27209",
+        "name": "CVE-2025-27209",
+        "description": "The V8 release used in Node.js v24.0.0 has changed how string hashes are computed using rapidhash. This implementation re-introduces the HashDoS vulnerability as an attacker who can control the strings to be hashed can generate many hash collisions - an attacker can generate collisions even without knowing the hash-seed.\n\n* This vulnerability affects Node.js v24.x users."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v24.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-27210",
+        "name": "CVE-2025-27210",
+        "description": "An incomplete fix has been identified for CVE-2025-23084 in Node.js, specifically affecting Windows device names like CON, PRN, and AUX. \n\nThis vulnerability affects Windows users of `path.join` API."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.19.4"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.17.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.4.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-9230",
+        "name": "CVE-2025-9230",
+        "description": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-9231",
+        "name": "CVE-2025-9231",
+        "description": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2025-9232",
+        "name": "CVE-2025-9232",
+        "description": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "These OpenSSL vulnerabilities do not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code paths."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "cve": [
+        "CVE-2024-7535"
+    ],
+    "description": "Inappropriate implementation in V8 in Google Chrome prior to 127.0.6533.99 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+    "overview": "This V8 vulnerability does not fall within Node.js's threat model. The vulnerable code path is not exposed through Node.js APIs and cannot be exploited in normal Node.js usage.",
+    "ref": "https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/190",
+    "reason": "vulnerable_code_not_in_execute_path"
+}

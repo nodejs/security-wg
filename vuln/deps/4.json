@@ -1,0 +1,10 @@
+{
+    "cve": [
+        "CVE-2024-3159",
+        "CVE-2024-3156"
+    ],
+    "description": "V8 vulnerabilities in JavaScript engine",
+    "overview": "These V8 vulnerabilities do not affect Node.js. The vulnerable functionality is not exposed in Node.js's implementation.",
+    "ref": "https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/184",
+    "reason": "vulnerable_code_not_in_execute_path"
+}

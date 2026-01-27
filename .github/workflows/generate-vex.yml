@@ -1,0 +1,78 @@
+name: "Generate VEX document"
+
+on:
+  workflow_run:
+    workflows:
+      - "Update core index.json"
+      - "Update deps index.json"
+      - "Update npm index.json"
+    types:
+      - completed
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vuln/core/index.json'
+      - 'vuln/npm/index.json'
+      - 'vuln/deps/index.json'
+      - 'tools/vex/**'
+
+concurrency:
+  group: generate-vex
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-vex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout repository
+        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+        with:
+          persist-credentials: false
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.x'
+
+      - name: Generate VEX document
+        working-directory: tools/vex
+        run: |
+          go run .
+
+      - name: Detect changes
+        id: detect
+        run: |
+          if git diff --quiet node.openvex.json; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.detect.outputs.no_changes == 'false'
+        uses: gr2m/create-or-update-pull-request-action@77596e3166f328b24613f7082ab30bf2d93079d5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit-message: 'vex: regenerate node.openvex.json'
+          title: regenerate node.openvex.json
+          body: 'Automated regeneration of node.openvex.json after vulnerability index update. cc: @nodejs/security-wg'
+          assignees: ${{ github.actor }}
+          labels: security-wg-agenda
+          branch: regenerate-vex
+          update-pull-request-title-and-body: true
+
+      - name: No changes summary
+        if: steps.detect.outputs.no_changes == 'true'
+        run: echo "No changes to node.openvex.json; skipping PR creation."

@@ -1,0 +1,9 @@
+{
+    "cve": [
+        "CVE-2024-13176"
+    ],
+    "description": "OpenSSL security vulnerability",
+    "overview": "This OpenSSL vulnerability does not affect Node.js. Node.js's usage of OpenSSL does not trigger the vulnerable code path.",
+    "ref": "https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/201",
+    "reason": "vulnerable_code_not_in_execute_path"
+}

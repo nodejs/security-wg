@@ -1,0 +1,11 @@
+{
+    "cve": [
+        "CVE-2024-4761",
+        "CVE-2024-4947",
+        "CVE-2024-5274"
+    ],
+    "description": "Out of bounds write in V8. Type Confusion in V8. Type confusion in V8 in Google Chrome.",
+    "overview": "These V8 vulnerabilities do not fall within Node.js's threat model. The vulnerable code paths are not exposed through Node.js APIs.",
+    "ref": "https://github.com/nodejs/nodejs-dependency-vuln-assessments/issues/191",
+    "reason": "vulnerable_code_not_in_execute_path"
+}
