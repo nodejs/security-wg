@@ -1,9 +1,9 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-7953d0e81f695cb49f5eeff99804ee3fdbe0c578a007925fd8714345768ef8a1",
+  "@id": "https://openvex.dev/docs/public/vex-72d28a6288db0c7bc2f5a6c595424c42f4b729a4cdc91ca45380366dc0625f1c",
   "author": "Node.js Security WG",
   "role": "Project",
-  "timestamp": "2026-01-27T12:41:55.49708019Z",
+  "timestamp": "2026-02-11T15:33:25.266886Z",
   "version": 1,
   "statements": [
     {
@@ -14,10 +14,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.1.1"
+          "@id": "pkg:generic/nodejs/node@v5.1.1"
         },
         {
-          "@id": "pkg:nodejs/node@v4.2.3"
+          "@id": "pkg:generic/nodejs/node@v4.2.3"
         }
       ],
       "status": "fixed"
@@ -30,10 +30,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.1.1"
+          "@id": "pkg:generic/nodejs/node@v5.1.1"
         },
         {
-          "@id": "pkg:nodejs/node@v4.2.3"
+          "@id": "pkg:generic/nodejs/node@v4.2.3"
         }
       ],
       "status": "fixed"
@@ -46,10 +46,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.1.1"
+          "@id": "pkg:generic/nodejs/node@v5.1.1"
         },
         {
-          "@id": "pkg:nodejs/node@v4.2.3"
+          "@id": "pkg:generic/nodejs/node@v4.2.3"
         }
       ],
       "status": "fixed"
@@ -62,7 +62,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.1.2"
+          "@id": "pkg:generic/nodejs/node@v4.1.2"
         }
       ],
       "status": "fixed"
@@ -75,10 +75,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.1.1"
+          "@id": "pkg:generic/nodejs/node@v5.1.1"
         },
         {
-          "@id": "pkg:nodejs/node@v4.2.3"
+          "@id": "pkg:generic/nodejs/node@v4.2.3"
         }
       ],
       "status": "fixed"
@@ -91,10 +91,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.3.2"
+          "@id": "pkg:generic/nodejs/node@v4.3.2"
         },
         {
-          "@id": "pkg:nodejs/node@v5.7.1"
+          "@id": "pkg:generic/nodejs/node@v5.7.1"
         }
       ],
       "status": "fixed"
@@ -107,10 +107,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.3.2"
+          "@id": "pkg:generic/nodejs/node@v4.3.2"
         },
         {
-          "@id": "pkg:nodejs/node@v5.7.1"
+          "@id": "pkg:generic/nodejs/node@v5.7.1"
         }
       ],
       "status": "fixed"
@@ -123,10 +123,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.4.6"
+          "@id": "pkg:generic/nodejs/node@v4.4.6"
         },
         {
-          "@id": "pkg:nodejs/node@v5.12.0"
+          "@id": "pkg:generic/nodejs/node@v5.12.0"
         }
       ],
       "status": "fixed"
@@ -139,10 +139,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.6.0"
+          "@id": "pkg:generic/nodejs/node@v5.6.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.3.0"
+          "@id": "pkg:generic/nodejs/node@v4.3.0"
         }
       ],
       "status": "fixed"
@@ -155,13 +155,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.4.4"
+          "@id": "pkg:generic/nodejs/node@v4.4.4"
         },
         {
-          "@id": "pkg:nodejs/node@v5.11.1"
+          "@id": "pkg:generic/nodejs/node@v5.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v6.1.0"
+          "@id": "pkg:generic/nodejs/node@v6.1.0"
         }
       ],
       "status": "fixed"
@@ -174,13 +174,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.4.4"
+          "@id": "pkg:generic/nodejs/node@v4.4.4"
         },
         {
-          "@id": "pkg:nodejs/node@v5.11.1"
+          "@id": "pkg:generic/nodejs/node@v5.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v6.1.0"
+          "@id": "pkg:generic/nodejs/node@v6.1.0"
         }
       ],
       "status": "fixed"
@@ -193,10 +193,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -209,10 +209,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -225,10 +225,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v5.6.0"
+          "@id": "pkg:generic/nodejs/node@v5.6.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.3.0"
+          "@id": "pkg:generic/nodejs/node@v4.3.0"
         }
       ],
       "status": "fixed"
@@ -241,7 +241,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.9.0"
+          "@id": "pkg:generic/nodejs/node@v6.9.0"
         }
       ],
       "status": "fixed"
@@ -254,13 +254,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v0.10.48"
+          "@id": "pkg:generic/nodejs/node@v0.10.48"
         },
         {
-          "@id": "pkg:nodejs/node@v0.12.17"
+          "@id": "pkg:generic/nodejs/node@v0.12.17"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.1"
+          "@id": "pkg:generic/nodejs/node@v4.6.1"
         }
       ],
       "status": "fixed"
@@ -273,10 +273,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -289,10 +289,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -305,10 +305,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -321,10 +321,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -337,13 +337,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.7.3"
+          "@id": "pkg:generic/nodejs/node@v4.7.3"
         },
         {
-          "@id": "pkg:nodejs/node@v6.9.5"
+          "@id": "pkg:generic/nodejs/node@v6.9.5"
         },
         {
-          "@id": "pkg:nodejs/node@v7.5.0"
+          "@id": "pkg:generic/nodejs/node@v7.5.0"
         }
       ],
       "status": "fixed"
@@ -356,10 +356,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.7.0"
+          "@id": "pkg:generic/nodejs/node@v6.7.0"
         },
         {
-          "@id": "pkg:nodejs/node@v4.6.0"
+          "@id": "pkg:generic/nodejs/node@v4.6.0"
         }
       ],
       "status": "fixed"
@@ -372,7 +372,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v7.2.0"
+          "@id": "pkg:generic/nodejs/node@v7.2.0"
         }
       ],
       "status": "fixed"
@@ -385,13 +385,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.2"
+          "@id": "pkg:generic/nodejs/node@v4.8.2"
         },
         {
-          "@id": "pkg:nodejs/node@v6.10.2"
+          "@id": "pkg:generic/nodejs/node@v6.10.2"
         },
         {
-          "@id": "pkg:nodejs/node@v7.6.0"
+          "@id": "pkg:generic/nodejs/node@v7.6.0"
         }
       ],
       "status": "fixed"
@@ -404,13 +404,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.2"
+          "@id": "pkg:generic/nodejs/node@v4.8.2"
         },
         {
-          "@id": "pkg:nodejs/node@v6.10.2"
+          "@id": "pkg:generic/nodejs/node@v6.10.2"
         },
         {
-          "@id": "pkg:nodejs/node@v7.6.0"
+          "@id": "pkg:generic/nodejs/node@v7.6.0"
         }
       ],
       "status": "fixed"
@@ -423,13 +423,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.2"
+          "@id": "pkg:generic/nodejs/node@v4.8.2"
         },
         {
-          "@id": "pkg:nodejs/node@v6.10.2"
+          "@id": "pkg:generic/nodejs/node@v6.10.2"
         },
         {
-          "@id": "pkg:nodejs/node@v7.6.0"
+          "@id": "pkg:generic/nodejs/node@v7.6.0"
         }
       ],
       "status": "fixed"
@@ -442,13 +442,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.2"
+          "@id": "pkg:generic/nodejs/node@v4.8.2"
         },
         {
-          "@id": "pkg:nodejs/node@v6.10.2"
+          "@id": "pkg:generic/nodejs/node@v6.10.2"
         },
         {
-          "@id": "pkg:nodejs/node@v7.6.0"
+          "@id": "pkg:generic/nodejs/node@v7.6.0"
         }
       ],
       "status": "fixed"
@@ -461,16 +461,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.1.4"
+          "@id": "pkg:generic/nodejs/node@v8.1.4"
         },
         {
-          "@id": "pkg:nodejs/node@v7.10.1"
+          "@id": "pkg:generic/nodejs/node@v7.10.1"
         },
         {
-          "@id": "pkg:nodejs/node@v4.8.4"
+          "@id": "pkg:generic/nodejs/node@v4.8.4"
         },
         {
-          "@id": "pkg:nodejs/node@v6.11.1"
+          "@id": "pkg:generic/nodejs/node@v6.11.1"
         }
       ],
       "status": "fixed"
@@ -483,7 +483,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.6.0"
+          "@id": "pkg:generic/nodejs/node@v8.6.0"
         }
       ],
       "status": "fixed"
@@ -496,13 +496,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.5"
+          "@id": "pkg:generic/nodejs/node@v4.8.5"
         },
         {
-          "@id": "pkg:nodejs/node@v6.11.5"
+          "@id": "pkg:generic/nodejs/node@v6.11.5"
         },
         {
-          "@id": "pkg:nodejs/node@v8.8.0"
+          "@id": "pkg:generic/nodejs/node@v8.8.0"
         }
       ],
       "status": "fixed"
@@ -515,16 +515,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.8.7"
+          "@id": "pkg:generic/nodejs/node@v4.8.7"
         },
         {
-          "@id": "pkg:nodejs/node@v6.12.2"
+          "@id": "pkg:generic/nodejs/node@v6.12.2"
         },
         {
-          "@id": "pkg:nodejs/node@v8.9.3"
+          "@id": "pkg:generic/nodejs/node@v8.9.3"
         },
         {
-          "@id": "pkg:nodejs/node@v9.2.1"
+          "@id": "pkg:generic/nodejs/node@v9.2.1"
         }
       ],
       "status": "fixed"
@@ -537,10 +537,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.9.3"
+          "@id": "pkg:generic/nodejs/node@v8.9.3"
         },
         {
-          "@id": "pkg:nodejs/node@v9.2.1"
+          "@id": "pkg:generic/nodejs/node@v9.2.1"
         }
       ],
       "status": "fixed"
@@ -553,13 +553,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.7.3"
+          "@id": "pkg:generic/nodejs/node@v4.7.3"
         },
         {
-          "@id": "pkg:nodejs/node@v6.9.5"
+          "@id": "pkg:generic/nodejs/node@v6.9.5"
         },
         {
-          "@id": "pkg:nodejs/node@v7.5.0"
+          "@id": "pkg:generic/nodejs/node@v7.5.0"
         }
       ],
       "status": "fixed"
@@ -572,13 +572,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.7.3"
+          "@id": "pkg:generic/nodejs/node@v4.7.3"
         },
         {
-          "@id": "pkg:nodejs/node@v6.9.5"
+          "@id": "pkg:generic/nodejs/node@v6.9.5"
         },
         {
-          "@id": "pkg:nodejs/node@v7.5.0"
+          "@id": "pkg:generic/nodejs/node@v7.5.0"
         }
       ],
       "status": "fixed"
@@ -591,13 +591,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.14.4"
+          "@id": "pkg:generic/nodejs/node@v6.14.4"
         },
         {
-          "@id": "pkg:nodejs/node@v8.11.4"
+          "@id": "pkg:generic/nodejs/node@v8.11.4"
         },
         {
-          "@id": "pkg:nodejs/node@v\u003e= 10.9.0"
+          "@id": "pkg:generic/nodejs/node@v\u003e= 10.9.0"
         }
       ],
       "status": "fixed"
@@ -610,10 +610,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.15.0"
+          "@id": "pkg:generic/nodejs/node@v6.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.14.0"
+          "@id": "pkg:generic/nodejs/node@v8.14.0"
         }
       ],
       "status": "fixed"
@@ -626,10 +626,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.15.0"
+          "@id": "pkg:generic/nodejs/node@v6.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.14.0"
+          "@id": "pkg:generic/nodejs/node@v8.14.0"
         }
       ],
       "status": "fixed"
@@ -642,16 +642,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.15.0"
+          "@id": "pkg:generic/nodejs/node@v6.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.14.0"
+          "@id": "pkg:generic/nodejs/node@v8.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v10.14.0"
+          "@id": "pkg:generic/nodejs/node@v10.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v11.3.0"
+          "@id": "pkg:generic/nodejs/node@v11.3.0"
         }
       ],
       "status": "fixed"
@@ -664,16 +664,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.15.0"
+          "@id": "pkg:generic/nodejs/node@v6.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.14.0"
+          "@id": "pkg:generic/nodejs/node@v8.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v10.14.0"
+          "@id": "pkg:generic/nodejs/node@v10.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v11.3.0"
+          "@id": "pkg:generic/nodejs/node@v11.3.0"
         }
       ],
       "status": "fixed"
@@ -686,16 +686,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.15.0"
+          "@id": "pkg:generic/nodejs/node@v6.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.14.0"
+          "@id": "pkg:generic/nodejs/node@v8.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v10.14.0"
+          "@id": "pkg:generic/nodejs/node@v10.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v11.3.0"
+          "@id": "pkg:generic/nodejs/node@v11.3.0"
         }
       ],
       "status": "fixed"
@@ -708,7 +708,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.9.0"
+          "@id": "pkg:generic/nodejs/node@v4.9.0"
         }
       ],
       "status": "fixed"
@@ -721,16 +721,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v4.9.0"
+          "@id": "pkg:generic/nodejs/node@v4.9.0"
         },
         {
-          "@id": "pkg:nodejs/node@v6.14.0"
+          "@id": "pkg:generic/nodejs/node@v6.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.11.0"
+          "@id": "pkg:generic/nodejs/node@v8.11.0"
         },
         {
-          "@id": "pkg:nodejs/node@v9.10.0"
+          "@id": "pkg:generic/nodejs/node@v9.10.0"
         }
       ],
       "status": "fixed"
@@ -743,13 +743,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.14.0"
+          "@id": "pkg:generic/nodejs/node@v6.14.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.11.0"
+          "@id": "pkg:generic/nodejs/node@v8.11.0"
         },
         {
-          "@id": "pkg:nodejs/node@v9.10.0"
+          "@id": "pkg:generic/nodejs/node@v9.10.0"
         }
       ],
       "status": "fixed"
@@ -762,13 +762,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.11.3"
+          "@id": "pkg:generic/nodejs/node@v8.11.3"
         },
         {
-          "@id": "pkg:nodejs/node@v9.11.2"
+          "@id": "pkg:generic/nodejs/node@v9.11.2"
         },
         {
-          "@id": "pkg:nodejs/node@v10.4.1"
+          "@id": "pkg:generic/nodejs/node@v10.4.1"
         }
       ],
       "status": "fixed"
@@ -781,10 +781,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v9.11.2"
+          "@id": "pkg:generic/nodejs/node@v9.11.2"
         },
         {
-          "@id": "pkg:nodejs/node@v10.4.1"
+          "@id": "pkg:generic/nodejs/node@v10.4.1"
         }
       ],
       "status": "fixed"
@@ -797,10 +797,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v9.11.2"
+          "@id": "pkg:generic/nodejs/node@v9.11.2"
         },
         {
-          "@id": "pkg:nodejs/node@v10.4.1"
+          "@id": "pkg:generic/nodejs/node@v10.4.1"
         }
       ],
       "status": "fixed"
@@ -813,7 +813,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v\u003e= 10.9.0"
+          "@id": "pkg:generic/nodejs/node@v\u003e= 10.9.0"
         }
       ],
       "status": "fixed"
@@ -826,13 +826,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.14.3"
+          "@id": "pkg:generic/nodejs/node@v6.14.3"
         },
         {
-          "@id": "pkg:nodejs/node@v8.11.3"
+          "@id": "pkg:generic/nodejs/node@v8.11.3"
         },
         {
-          "@id": "pkg:nodejs/node@v9.11.2"
+          "@id": "pkg:generic/nodejs/node@v9.11.2"
         }
       ],
       "status": "fixed"
@@ -845,13 +845,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.19.0"
+          "@id": "pkg:generic/nodejs/node@v10.19.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.15.0"
+          "@id": "pkg:generic/nodejs/node@v12.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v13.8.0"
+          "@id": "pkg:generic/nodejs/node@v13.8.0"
         }
       ],
       "status": "fixed"
@@ -864,13 +864,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.19.0"
+          "@id": "pkg:generic/nodejs/node@v10.19.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.15.0"
+          "@id": "pkg:generic/nodejs/node@v12.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v13.8.0"
+          "@id": "pkg:generic/nodejs/node@v13.8.0"
         }
       ],
       "status": "fixed"
@@ -883,13 +883,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.19.0"
+          "@id": "pkg:generic/nodejs/node@v10.19.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.15.0"
+          "@id": "pkg:generic/nodejs/node@v12.15.0"
         },
         {
-          "@id": "pkg:nodejs/node@v13.8.0"
+          "@id": "pkg:generic/nodejs/node@v13.8.0"
         }
       ],
       "status": "fixed"
@@ -902,16 +902,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.17.0"
+          "@id": "pkg:generic/nodejs/node@v6.17.0"
         },
         {
-          "@id": "pkg:nodejs/node@v8.15.1"
+          "@id": "pkg:generic/nodejs/node@v8.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.15.2"
+          "@id": "pkg:generic/nodejs/node@v10.15.2"
         },
         {
-          "@id": "pkg:nodejs/node@v11.10.1"
+          "@id": "pkg:generic/nodejs/node@v11.10.1"
         }
       ],
       "status": "fixed"
@@ -924,7 +924,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v6.17.0"
+          "@id": "pkg:generic/nodejs/node@v6.17.0"
         }
       ],
       "status": "fixed"
@@ -937,13 +937,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -956,13 +956,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -975,13 +975,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -994,13 +994,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -1013,13 +1013,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -1032,13 +1032,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -1051,13 +1051,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -1070,13 +1070,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v8.16.1"
+          "@id": "pkg:generic/nodejs/node@v8.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v10.16.3"
+          "@id": "pkg:generic/nodejs/node@v10.16.3"
         },
         {
-          "@id": "pkg:nodejs/node@v12.8.1"
+          "@id": "pkg:generic/nodejs/node@v12.8.1"
         }
       ],
       "status": "fixed"
@@ -1089,16 +1089,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.23.1"
+          "@id": "pkg:generic/nodejs/node@v10.23.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.20.1"
+          "@id": "pkg:generic/nodejs/node@v12.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.15.4"
+          "@id": "pkg:generic/nodejs/node@v14.15.4"
         },
         {
-          "@id": "pkg:nodejs/node@v15.5.0"
+          "@id": "pkg:generic/nodejs/node@v15.5.0"
         }
       ],
       "status": "fixed"
@@ -1111,13 +1111,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.1"
+          "@id": "pkg:generic/nodejs/node@v10.24.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.22.1"
+          "@id": "pkg:generic/nodejs/node@v12.22.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.1"
+          "@id": "pkg:generic/nodejs/node@v14.16.1"
         }
       ],
       "status": "fixed"
@@ -1130,10 +1130,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.18.4"
+          "@id": "pkg:generic/nodejs/node@v12.18.4"
         },
         {
-          "@id": "pkg:nodejs/node@v14.11.0"
+          "@id": "pkg:generic/nodejs/node@v14.11.0"
         }
       ],
       "status": "fixed"
@@ -1146,7 +1146,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.11.0"
+          "@id": "pkg:generic/nodejs/node@v14.11.0"
         }
       ],
       "status": "fixed"
@@ -1159,13 +1159,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.22.1"
+          "@id": "pkg:generic/nodejs/node@v10.22.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.18.4"
+          "@id": "pkg:generic/nodejs/node@v12.18.4"
         },
         {
-          "@id": "pkg:nodejs/node@v14.9.0"
+          "@id": "pkg:generic/nodejs/node@v14.9.0"
         }
       ],
       "status": "fixed"
@@ -1178,16 +1178,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.23.1"
+          "@id": "pkg:generic/nodejs/node@v10.23.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.20.1"
+          "@id": "pkg:generic/nodejs/node@v12.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.15.4"
+          "@id": "pkg:generic/nodejs/node@v14.15.4"
         },
         {
-          "@id": "pkg:nodejs/node@v15.5.1"
+          "@id": "pkg:generic/nodejs/node@v15.5.1"
         }
       ],
       "status": "fixed"
@@ -1200,13 +1200,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.19.1"
+          "@id": "pkg:generic/nodejs/node@v12.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.15.1"
+          "@id": "pkg:generic/nodejs/node@v14.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v15.2.1"
+          "@id": "pkg:generic/nodejs/node@v15.2.1"
         }
       ],
       "status": "fixed"
@@ -1219,16 +1219,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.23.1"
+          "@id": "pkg:generic/nodejs/node@v10.23.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.20.1"
+          "@id": "pkg:generic/nodejs/node@v12.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.15.4"
+          "@id": "pkg:generic/nodejs/node@v14.15.4"
         },
         {
-          "@id": "pkg:nodejs/node@v15.5.1"
+          "@id": "pkg:generic/nodejs/node@v15.5.1"
         }
       ],
       "status": "fixed"
@@ -1241,16 +1241,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.0"
+          "@id": "pkg:generic/nodejs/node@v10.24.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.21.0"
+          "@id": "pkg:generic/nodejs/node@v12.21.0"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.0"
+          "@id": "pkg:generic/nodejs/node@v14.16.0"
         },
         {
-          "@id": "pkg:nodejs/node@v15.10.0"
+          "@id": "pkg:generic/nodejs/node@v15.10.0"
         }
       ],
       "status": "fixed"
@@ -1263,16 +1263,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.0"
+          "@id": "pkg:generic/nodejs/node@v10.24.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.21.0"
+          "@id": "pkg:generic/nodejs/node@v12.21.0"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.0"
+          "@id": "pkg:generic/nodejs/node@v14.16.0"
         },
         {
-          "@id": "pkg:nodejs/node@v15.10.0"
+          "@id": "pkg:generic/nodejs/node@v15.10.0"
         }
       ],
       "status": "fixed"
@@ -1285,13 +1285,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.2"
+          "@id": "pkg:generic/nodejs/node@v12.22.2"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.2"
+          "@id": "pkg:generic/nodejs/node@v14.17.2"
         },
         {
-          "@id": "pkg:nodejs/node@v16.4.1"
+          "@id": "pkg:generic/nodejs/node@v16.4.1"
         }
       ],
       "status": "fixed"
@@ -1304,13 +1304,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.2"
+          "@id": "pkg:generic/nodejs/node@v12.22.2"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.2"
+          "@id": "pkg:generic/nodejs/node@v14.17.2"
         },
         {
-          "@id": "pkg:nodejs/node@v16.4.1"
+          "@id": "pkg:generic/nodejs/node@v16.4.1"
         }
       ],
       "status": "fixed"
@@ -1323,13 +1323,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.4"
+          "@id": "pkg:generic/nodejs/node@v12.22.4"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.4"
+          "@id": "pkg:generic/nodejs/node@v14.17.4"
         },
         {
-          "@id": "pkg:nodejs/node@v16.6.0"
+          "@id": "pkg:generic/nodejs/node@v16.6.0"
         }
       ],
       "status": "fixed"
@@ -1342,13 +1342,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.5"
+          "@id": "pkg:generic/nodejs/node@v12.22.5"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.5"
+          "@id": "pkg:generic/nodejs/node@v14.17.5"
         },
         {
-          "@id": "pkg:nodejs/node@v16.6.2"
+          "@id": "pkg:generic/nodejs/node@v16.6.2"
         }
       ],
       "status": "fixed"
@@ -1361,13 +1361,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.5"
+          "@id": "pkg:generic/nodejs/node@v12.22.5"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.5"
+          "@id": "pkg:generic/nodejs/node@v14.17.5"
         },
         {
-          "@id": "pkg:nodejs/node@v16.6.2"
+          "@id": "pkg:generic/nodejs/node@v16.6.2"
         }
       ],
       "status": "fixed"
@@ -1380,13 +1380,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.5"
+          "@id": "pkg:generic/nodejs/node@v12.22.5"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.5"
+          "@id": "pkg:generic/nodejs/node@v14.17.5"
         },
         {
-          "@id": "pkg:nodejs/node@v16.6.2"
+          "@id": "pkg:generic/nodejs/node@v16.6.2"
         }
       ],
       "status": "fixed"
@@ -1399,13 +1399,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.7"
+          "@id": "pkg:generic/nodejs/node@v12.22.7"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.1"
+          "@id": "pkg:generic/nodejs/node@v14.18.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.11.1"
+          "@id": "pkg:generic/nodejs/node@v16.11.1"
         }
       ],
       "status": "fixed"
@@ -1418,13 +1418,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.7"
+          "@id": "pkg:generic/nodejs/node@v12.22.7"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.1"
+          "@id": "pkg:generic/nodejs/node@v14.18.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.11.1"
+          "@id": "pkg:generic/nodejs/node@v16.11.1"
         }
       ],
       "status": "fixed"
@@ -1437,7 +1437,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.2"
+          "@id": "pkg:generic/nodejs/node@v12.22.2"
         }
       ],
       "status": "fixed"
@@ -1450,16 +1450,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.0"
+          "@id": "pkg:generic/nodejs/node@v10.24.0"
         },
         {
-          "@id": "pkg:nodejs/node@v12.21.0"
+          "@id": "pkg:generic/nodejs/node@v12.21.0"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.0"
+          "@id": "pkg:generic/nodejs/node@v14.16.0"
         },
         {
-          "@id": "pkg:nodejs/node@v15.10.0"
+          "@id": "pkg:generic/nodejs/node@v15.10.0"
         }
       ],
       "status": "fixed"
@@ -1472,7 +1472,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.2"
+          "@id": "pkg:generic/nodejs/node@v12.22.2"
         }
       ],
       "status": "fixed"
@@ -1485,16 +1485,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.1"
+          "@id": "pkg:generic/nodejs/node@v10.24.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.22.1"
+          "@id": "pkg:generic/nodejs/node@v12.22.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.1"
+          "@id": "pkg:generic/nodejs/node@v14.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v15.14.0"
+          "@id": "pkg:generic/nodejs/node@v15.14.0"
         }
       ],
       "status": "fixed"
@@ -1507,16 +1507,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v10.24.1"
+          "@id": "pkg:generic/nodejs/node@v10.24.1"
         },
         {
-          "@id": "pkg:nodejs/node@v12.22.1"
+          "@id": "pkg:generic/nodejs/node@v12.22.1"
         },
         {
-          "@id": "pkg:nodejs/node@v14.16.1"
+          "@id": "pkg:generic/nodejs/node@v14.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v15.14.0"
+          "@id": "pkg:generic/nodejs/node@v15.14.0"
         }
       ],
       "status": "fixed"
@@ -1529,10 +1529,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.6"
+          "@id": "pkg:generic/nodejs/node@v12.22.6"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.6"
+          "@id": "pkg:generic/nodejs/node@v14.17.6"
         }
       ],
       "status": "fixed"
@@ -1545,10 +1545,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.6"
+          "@id": "pkg:generic/nodejs/node@v12.22.6"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.6"
+          "@id": "pkg:generic/nodejs/node@v14.17.6"
         }
       ],
       "status": "fixed"
@@ -1561,10 +1561,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.6"
+          "@id": "pkg:generic/nodejs/node@v12.22.6"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.6"
+          "@id": "pkg:generic/nodejs/node@v14.17.6"
         }
       ],
       "status": "fixed"
@@ -1577,10 +1577,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.6"
+          "@id": "pkg:generic/nodejs/node@v12.22.6"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.6"
+          "@id": "pkg:generic/nodejs/node@v14.17.6"
         }
       ],
       "status": "fixed"
@@ -1593,10 +1593,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.6"
+          "@id": "pkg:generic/nodejs/node@v12.22.6"
         },
         {
-          "@id": "pkg:nodejs/node@v14.17.6"
+          "@id": "pkg:generic/nodejs/node@v14.17.6"
         }
       ],
       "status": "fixed"
@@ -1609,16 +1609,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.9"
+          "@id": "pkg:generic/nodejs/node@v12.22.9"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.3"
+          "@id": "pkg:generic/nodejs/node@v14.18.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.13.2"
+          "@id": "pkg:generic/nodejs/node@v16.13.2"
         },
         {
-          "@id": "pkg:nodejs/node@v17.3.1"
+          "@id": "pkg:generic/nodejs/node@v17.3.1"
         }
       ],
       "status": "fixed"
@@ -1631,16 +1631,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.9"
+          "@id": "pkg:generic/nodejs/node@v12.22.9"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.3"
+          "@id": "pkg:generic/nodejs/node@v14.18.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.13.2"
+          "@id": "pkg:generic/nodejs/node@v16.13.2"
         },
         {
-          "@id": "pkg:nodejs/node@v17.3.1"
+          "@id": "pkg:generic/nodejs/node@v17.3.1"
         }
       ],
       "status": "fixed"
@@ -1653,16 +1653,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.9"
+          "@id": "pkg:generic/nodejs/node@v12.22.9"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.3"
+          "@id": "pkg:generic/nodejs/node@v14.18.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.13.2"
+          "@id": "pkg:generic/nodejs/node@v16.13.2"
         },
         {
-          "@id": "pkg:nodejs/node@v17.3.1"
+          "@id": "pkg:generic/nodejs/node@v17.3.1"
         }
       ],
       "status": "fixed"
@@ -1675,16 +1675,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.11"
+          "@id": "pkg:generic/nodejs/node@v12.22.11"
         },
         {
-          "@id": "pkg:nodejs/node@v14.19.1"
+          "@id": "pkg:generic/nodejs/node@v14.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.14.2"
+          "@id": "pkg:generic/nodejs/node@v16.14.2"
         },
         {
-          "@id": "pkg:nodejs/node@v17.7.2"
+          "@id": "pkg:generic/nodejs/node@v17.7.2"
         }
       ],
       "status": "fixed"
@@ -1697,16 +1697,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v12.22.9"
+          "@id": "pkg:generic/nodejs/node@v12.22.9"
         },
         {
-          "@id": "pkg:nodejs/node@v14.18.3"
+          "@id": "pkg:generic/nodejs/node@v14.18.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.13.2"
+          "@id": "pkg:generic/nodejs/node@v16.13.2"
         },
         {
-          "@id": "pkg:nodejs/node@v17.3.1"
+          "@id": "pkg:generic/nodejs/node@v17.3.1"
         }
       ],
       "status": "fixed"
@@ -1719,13 +1719,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.1"
+          "@id": "pkg:generic/nodejs/node@v14.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.17.1"
+          "@id": "pkg:generic/nodejs/node@v16.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1738,13 +1738,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.1"
+          "@id": "pkg:generic/nodejs/node@v14.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.17.1"
+          "@id": "pkg:generic/nodejs/node@v16.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1757,13 +1757,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.0"
+          "@id": "pkg:generic/nodejs/node@v14.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v16.20.0"
+          "@id": "pkg:generic/nodejs/node@v16.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v18.5.0"
+          "@id": "pkg:generic/nodejs/node@v18.5.0"
         }
       ],
       "status": "fixed"
@@ -1776,13 +1776,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.1"
+          "@id": "pkg:generic/nodejs/node@v14.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.17.1"
+          "@id": "pkg:generic/nodejs/node@v16.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1795,13 +1795,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.0"
+          "@id": "pkg:generic/nodejs/node@v14.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v16.20.0"
+          "@id": "pkg:generic/nodejs/node@v16.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1814,13 +1814,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.0"
+          "@id": "pkg:generic/nodejs/node@v14.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v16.20.0"
+          "@id": "pkg:generic/nodejs/node@v16.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v18.5.0"
+          "@id": "pkg:generic/nodejs/node@v18.5.0"
         }
       ],
       "status": "fixed"
@@ -1833,7 +1833,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1846,13 +1846,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.20.1"
+          "@id": "pkg:generic/nodejs/node@v14.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.17.1"
+          "@id": "pkg:generic/nodejs/node@v16.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.9.1"
+          "@id": "pkg:generic/nodejs/node@v18.9.1"
         }
       ],
       "status": "fixed"
@@ -1865,16 +1865,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.1"
+          "@id": "pkg:generic/nodejs/node@v14.21.1"
         },
         {
-          "@id": "pkg:nodejs/node@v16.18.1"
+          "@id": "pkg:generic/nodejs/node@v16.18.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.12.1"
+          "@id": "pkg:generic/nodejs/node@v18.12.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.0.1"
+          "@id": "pkg:generic/nodejs/node@v19.0.1"
         }
       ],
       "status": "fixed"
@@ -1887,16 +1887,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.3"
+          "@id": "pkg:generic/nodejs/node@v14.21.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.19.1"
+          "@id": "pkg:generic/nodejs/node@v16.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.14.1"
+          "@id": "pkg:generic/nodejs/node@v18.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.6.1"
+          "@id": "pkg:generic/nodejs/node@v19.6.1"
         }
       ],
       "status": "fixed"
@@ -1909,16 +1909,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.3"
+          "@id": "pkg:generic/nodejs/node@v14.21.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.19.1"
+          "@id": "pkg:generic/nodejs/node@v16.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.14.1"
+          "@id": "pkg:generic/nodejs/node@v18.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.2.0"
+          "@id": "pkg:generic/nodejs/node@v19.2.0"
         }
       ],
       "status": "fixed"
@@ -1931,16 +1931,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.3"
+          "@id": "pkg:generic/nodejs/node@v14.21.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.19.1"
+          "@id": "pkg:generic/nodejs/node@v16.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.14.1"
+          "@id": "pkg:generic/nodejs/node@v18.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.6.1"
+          "@id": "pkg:generic/nodejs/node@v19.6.1"
         }
       ],
       "status": "fixed"
@@ -1953,16 +1953,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.3"
+          "@id": "pkg:generic/nodejs/node@v14.21.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.19.1"
+          "@id": "pkg:generic/nodejs/node@v16.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.14.1"
+          "@id": "pkg:generic/nodejs/node@v18.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.6.1"
+          "@id": "pkg:generic/nodejs/node@v19.6.1"
         }
       ],
       "status": "fixed"
@@ -1975,16 +1975,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v14.21.3"
+          "@id": "pkg:generic/nodejs/node@v14.21.3"
         },
         {
-          "@id": "pkg:nodejs/node@v16.19.1"
+          "@id": "pkg:generic/nodejs/node@v16.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.14.1"
+          "@id": "pkg:generic/nodejs/node@v18.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v19.6.1"
+          "@id": "pkg:generic/nodejs/node@v19.6.1"
         }
       ],
       "status": "fixed"
@@ -1997,13 +1997,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.1"
+          "@id": "pkg:generic/nodejs/node@v16.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.16.1"
+          "@id": "pkg:generic/nodejs/node@v18.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2016,7 +2016,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2029,7 +2029,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2042,7 +2042,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2055,13 +2055,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.1"
+          "@id": "pkg:generic/nodejs/node@v16.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.16.1"
+          "@id": "pkg:generic/nodejs/node@v18.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2074,7 +2074,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2087,7 +2087,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2100,13 +2100,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.1"
+          "@id": "pkg:generic/nodejs/node@v16.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.16.1"
+          "@id": "pkg:generic/nodejs/node@v18.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2119,13 +2119,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.1"
+          "@id": "pkg:generic/nodejs/node@v16.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.16.1"
+          "@id": "pkg:generic/nodejs/node@v18.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2138,13 +2138,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.1"
+          "@id": "pkg:generic/nodejs/node@v16.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v18.16.1"
+          "@id": "pkg:generic/nodejs/node@v18.16.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.3.1"
+          "@id": "pkg:generic/nodejs/node@v20.3.1"
         }
       ],
       "status": "fixed"
@@ -2157,13 +2157,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.2"
+          "@id": "pkg:generic/nodejs/node@v16.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v18.17.1"
+          "@id": "pkg:generic/nodejs/node@v18.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2176,7 +2176,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2189,7 +2189,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2202,7 +2202,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2215,13 +2215,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.2"
+          "@id": "pkg:generic/nodejs/node@v16.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v18.17.1"
+          "@id": "pkg:generic/nodejs/node@v18.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2234,7 +2234,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2247,13 +2247,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v16.20.2"
+          "@id": "pkg:generic/nodejs/node@v16.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v18.17.1"
+          "@id": "pkg:generic/nodejs/node@v18.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.5.1"
+          "@id": "pkg:generic/nodejs/node@v20.5.1"
         }
       ],
       "status": "fixed"
@@ -2266,10 +2266,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.18.2"
+          "@id": "pkg:generic/nodejs/node@v18.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2282,7 +2282,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2295,7 +2295,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2308,10 +2308,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.18.2"
+          "@id": "pkg:generic/nodejs/node@v18.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2324,10 +2324,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.18.2"
+          "@id": "pkg:generic/nodejs/node@v18.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2340,10 +2340,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.18.2"
+          "@id": "pkg:generic/nodejs/node@v18.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.8.1"
+          "@id": "pkg:generic/nodejs/node@v20.8.1"
         }
       ],
       "status": "fixed"
@@ -2356,7 +2356,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2371,13 +2371,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.19.1"
+          "@id": "pkg:generic/nodejs/node@v18.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2390,7 +2390,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2405,10 +2405,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2421,10 +2421,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2437,13 +2437,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.19.1"
+          "@id": "pkg:generic/nodejs/node@v18.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2456,10 +2456,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2472,10 +2472,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2488,10 +2488,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.15.1"
+          "@id": "pkg:generic/nodejs/node@v20.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v22.4.1"
+          "@id": "pkg:generic/nodejs/node@v22.4.1"
         }
       ],
       "status": "fixed"
@@ -2504,13 +2504,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.19.1"
+          "@id": "pkg:generic/nodejs/node@v18.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2523,13 +2523,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.4"
+          "@id": "pkg:generic/nodejs/node@v18.20.4"
         },
         {
-          "@id": "pkg:nodejs/node@v20.15.1"
+          "@id": "pkg:generic/nodejs/node@v20.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v22.4.1"
+          "@id": "pkg:generic/nodejs/node@v22.4.1"
         }
       ],
       "status": "fixed"
@@ -2542,13 +2542,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.19.1"
+          "@id": "pkg:generic/nodejs/node@v18.19.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.11.1"
+          "@id": "pkg:generic/nodejs/node@v20.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.6.2"
+          "@id": "pkg:generic/nodejs/node@v21.6.2"
         }
       ],
       "status": "fixed"
@@ -2561,13 +2561,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.2"
+          "@id": "pkg:generic/nodejs/node@v18.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.12.2"
+          "@id": "pkg:generic/nodejs/node@v20.12.2"
         },
         {
-          "@id": "pkg:nodejs/node@v21.7.3"
+          "@id": "pkg:generic/nodejs/node@v21.7.3"
         }
       ],
       "status": "fixed"
@@ -2580,13 +2580,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.2"
+          "@id": "pkg:generic/nodejs/node@v18.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v20.12.2"
+          "@id": "pkg:generic/nodejs/node@v20.12.2"
         },
         {
-          "@id": "pkg:nodejs/node@v21.7.3"
+          "@id": "pkg:generic/nodejs/node@v21.7.3"
         }
       ],
       "status": "fixed"
@@ -2599,13 +2599,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.1"
+          "@id": "pkg:generic/nodejs/node@v18.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.12.1"
+          "@id": "pkg:generic/nodejs/node@v20.12.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.7.2"
+          "@id": "pkg:generic/nodejs/node@v21.7.2"
         }
       ],
       "status": "fixed"
@@ -2618,13 +2618,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.1"
+          "@id": "pkg:generic/nodejs/node@v18.20.1"
         },
         {
-          "@id": "pkg:nodejs/node@v20.12.1"
+          "@id": "pkg:generic/nodejs/node@v20.12.1"
         },
         {
-          "@id": "pkg:nodejs/node@v21.7.2"
+          "@id": "pkg:generic/nodejs/node@v21.7.2"
         }
       ],
       "status": "fixed"
@@ -2637,7 +2637,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2652,7 +2652,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2667,10 +2667,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.15.1"
+          "@id": "pkg:generic/nodejs/node@v20.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v22.4.1"
+          "@id": "pkg:generic/nodejs/node@v22.4.1"
         }
       ],
       "status": "fixed"
@@ -2683,13 +2683,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.4"
+          "@id": "pkg:generic/nodejs/node@v18.20.4"
         },
         {
-          "@id": "pkg:nodejs/node@v20.15.1"
+          "@id": "pkg:generic/nodejs/node@v20.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v22.4.1"
+          "@id": "pkg:generic/nodejs/node@v22.4.1"
         }
       ],
       "status": "fixed"
@@ -2702,10 +2702,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.15.1"
+          "@id": "pkg:generic/nodejs/node@v20.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v22.4.1"
+          "@id": "pkg:generic/nodejs/node@v22.4.1"
         }
       ],
       "status": "fixed"
@@ -2718,7 +2718,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2733,7 +2733,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2748,7 +2748,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2763,7 +2763,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -2778,13 +2778,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.18.2"
+          "@id": "pkg:generic/nodejs/node@v20.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.13.1"
+          "@id": "pkg:generic/nodejs/node@v22.13.1"
         },
         {
-          "@id": "pkg:nodejs/node@v23.6.1"
+          "@id": "pkg:generic/nodejs/node@v23.6.1"
         }
       ],
       "status": "fixed"
@@ -2797,16 +2797,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.6"
+          "@id": "pkg:generic/nodejs/node@v18.20.6"
         },
         {
-          "@id": "pkg:nodejs/node@v20.18.2"
+          "@id": "pkg:generic/nodejs/node@v20.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.13.1"
+          "@id": "pkg:generic/nodejs/node@v22.13.1"
         },
         {
-          "@id": "pkg:nodejs/node@v23.6.1"
+          "@id": "pkg:generic/nodejs/node@v23.6.1"
         }
       ],
       "status": "fixed"
@@ -2819,16 +2819,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v18.20.6"
+          "@id": "pkg:generic/nodejs/node@v18.20.6"
         },
         {
-          "@id": "pkg:nodejs/node@v20.18.2"
+          "@id": "pkg:generic/nodejs/node@v20.18.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.13.1"
+          "@id": "pkg:generic/nodejs/node@v22.13.1"
         },
         {
-          "@id": "pkg:nodejs/node@v23.6.1"
+          "@id": "pkg:generic/nodejs/node@v23.6.1"
         }
       ],
       "status": "fixed"
@@ -2841,10 +2841,10 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.19.2"
+          "@id": "pkg:generic/nodejs/node@v20.19.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.15.1"
+          "@id": "pkg:generic/nodejs/node@v22.15.1"
         }
       ],
       "status": "fixed"
@@ -2857,16 +2857,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.19.2"
+          "@id": "pkg:generic/nodejs/node@v20.19.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.15.1"
+          "@id": "pkg:generic/nodejs/node@v22.15.1"
         },
         {
-          "@id": "pkg:nodejs/node@v23.11.1"
+          "@id": "pkg:generic/nodejs/node@v23.11.1"
         },
         {
-          "@id": "pkg:nodejs/node@v24.0.2"
+          "@id": "pkg:generic/nodejs/node@v24.0.2"
         }
       ],
       "status": "fixed"
@@ -2879,7 +2879,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.19.2"
+          "@id": "pkg:generic/nodejs/node@v20.19.2"
         }
       ],
       "status": "fixed"
@@ -2892,7 +2892,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v24.4.1"
+          "@id": "pkg:generic/nodejs/node@v24.4.1"
         }
       ],
       "status": "fixed"
@@ -2905,13 +2905,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.19.4"
+          "@id": "pkg:generic/nodejs/node@v20.19.4"
         },
         {
-          "@id": "pkg:nodejs/node@v22.17.1"
+          "@id": "pkg:generic/nodejs/node@v22.17.1"
         },
         {
-          "@id": "pkg:nodejs/node@v24.4.1"
+          "@id": "pkg:generic/nodejs/node@v24.4.1"
         }
       ],
       "status": "fixed"
@@ -2924,16 +2924,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -2946,16 +2946,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -2968,16 +2968,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -2990,7 +2990,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v24.12.0"
+          "@id": "pkg:generic/nodejs/node@v24.12.0"
         }
       ],
       "status": "fixed"
@@ -3003,16 +3003,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -3025,16 +3025,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -3047,7 +3047,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -3062,7 +3062,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -3077,7 +3077,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node"
+          "@id": "pkg:generic/nodejs/node"
         }
       ],
       "status": "not_affected",
@@ -3092,7 +3092,7 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
@@ -3105,16 +3105,16 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:generic/nodejs/node@v20.20.0"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:generic/nodejs/node@v22.22.0"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:generic/nodejs/node@v24.13.0"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:generic/nodejs/node@v25.3.0"
         }
       ],
       "status": "fixed"
