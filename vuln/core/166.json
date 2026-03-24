@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21712"
+  ],
+  "vulnerable": "24.x || 25.x",
+  "patched": "^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Assertion error in node_url.cc via malformed URL format leads to Node.js crash",
+  "overview": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.\n\n* This vulnerability affects **24.x and 25.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}

@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21710"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Denial of Service via `__proto__` header name in `req.headersDistinct` (Uncaught `TypeError` crashes Node.js process)",
+  "overview": "A flaw in Node.js HTTP request handling causes an uncaught `TypeError` when a request is received with a header named `__proto__` and the application accesses `req.headersDistinct`.\n\nWhen this occurs, `dest[\"__proto__\"]` resolves to `Object.prototype` rather than `undefined`, causing `.push()` to be called on a non-array. This exception is thrown synchronously inside a property getter and cannot be intercepted by `error` event listeners, meaning it cannot be handled without wrapping every `req.headersDistinct` access in a `try/catch`.\n\n* This vulnerability affects all Node.js HTTP servers on **20.x, 22.x, 24.x, and v25.x** ",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

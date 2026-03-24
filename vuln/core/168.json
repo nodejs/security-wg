@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21714"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion",
+  "overview": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\n\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}

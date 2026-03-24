@@ -3,12 +3,12 @@
     "CVE-2026-21637"
   ],
   "vulnerable": "20.x || 22.x || 24.x || 25.x",
-  "patched": "^20.20.0 || ^22.22.0 || ^24.13.0 || ^25.3.0",
-  "ref": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
-  "description": "TLS PSK/ALPN Callback Exceptions Bypass Error Handlers, Causing DoS and FD Leak",
-  "overview": "A flaw in Node.js TLS error handling allows remote attackers to crash or exhaust resources of a TLS server when `pskCallback` or `ALPNCallback` are in use. Synchronous exceptions thrown during these callbacks bypass standard TLS error handling paths (tlsClientError and error), causing either immediate process termination or silent file descriptor leaks that eventually lead to denial of service. Because these callbacks process attacker-controlled input during the TLS handshake, a remote client can repeatedly trigger the issue. This vulnerability affects TLS servers using PSK or ALPN callbacks across Node.js versions where these callbacks throw without being safely wrapped.",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS",
+  "overview": "A flaw in Node.js TLS error handling leaves `SNICallback` invocations unprotected against synchronous exceptions, while the equivalent ALPN and PSK callbacks were already addressed in CVE-2026-21637. This represents an incomplete fix of that prior vulnerability.\n\nWhen an `SNICallback` throws synchronously on unexpected input the exception bypasses TLS error handlers and propagates as an uncaught exception, crashing the Node.js process.\n\n* This vulnerability affects all Node.js versions that received the CVE-2026-21637 fix, including **20.x, 22.x, 24.x, and 25.x**, on any TLS server where `SNICallback` may throw on unexpected `servername` input.",
   "affectedEnvironments": [
     "all"
   ],
-  "severity": "medium"
+  "severity": "high"
 }

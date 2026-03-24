@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21713"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Timing side-channel in HMAC verification via memcmp() in crypto_hmac.cc leads to potential MAC forgery",
+  "overview": "A flaw in Node.js HMAC verification uses a non-constant-time comparison when validating user-provided signatures, potentially leaking timing information proportional to the number of matching bytes. Under certain threat models where high-resolution timing measurements are possible, this behavior could be exploited as a timing oracle to infer HMAC values.\n\nNode.js already provides timing-safe comparison primitives used elsewhere in the codebase, indicating this is an oversight rather than an intentional design decision.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
