@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	nodejsProductPURL = "pkg:nodejs/node"
+	nodejsProductPURL = "pkg:generic/nodejs/node"
 	cveRecordBaseURL  = "https://www.cve.org/CVERecord"
 )
 
