@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21716"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "CVE-2024-36137 Patch Bypass - FileHandle.chmod/chown",
+  "overview": "An incomplete fix for CVE-2024-36137 leaves `FileHandle.chmod()` and `FileHandle.chown()` in the promises API without the required permission checks, while their callback-based equivalents (`fs.fchmod()`, `fs.fchown()`) were correctly patched.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-write` can still use promise-based `FileHandle` methods to modify file permissions and ownership on already-open file descriptors, bypassing the intended write restrictions.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-write` is intentionally restricted.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}

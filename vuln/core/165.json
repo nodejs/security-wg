@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21711"
+  ],
+  "vulnerable": "25.x",
+  "patched": "^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "Node.js Permission Model bypass: UDS server bind/listen works without `--allow-net`",
+  "overview": "A flaw in Node.js Permission Model network enforcement leaves Unix Domain Socket (UDS) server operations without the required permission checks, while all comparable network paths correctly enforce them.\n\nAs a result, code running under `--permission` without `--allow-net` can create and expose local IPC endpoints, allowing communication with other processes on the same host outside of the intended network restriction boundary.\n\nThis vulnerability affects Node.js **25.x** processes using the Permission Model where `--allow-net` is intentionally omitted to restrict network access. Note that `--allow-net` is currently an experimental feature.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}

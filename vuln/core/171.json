@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-21717"
+  ],
+  "vulnerable": "20.x || 22.x || 24.x || 25.x",
+  "patched": "^20.20.2 || ^22.22.2 || ^24.14.1 || ^25.8.2",
+  "ref": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+  "description": "HashDoS in V8",
+  "overview": "A flaw in V8's string hashing mechanism causes integer-like strings to be hashed to their numeric value, making hash collisions trivially predictable. By crafting a request that causes many such collisions in V8's internal string table, an attacker can significantly degrade performance of the Node.js process.\n\nThe most common trigger is any endpoint that calls `JSON.parse()` on attacker-controlled input, as JSON parsing automatically internalizes short strings into the affected hash table.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
