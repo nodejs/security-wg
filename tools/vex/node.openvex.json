@@ -1,9 +1,9 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-7953d0e81f695cb49f5eeff99804ee3fdbe0c578a007925fd8714345768ef8a1",
+  "@id": "https://openvex.dev/docs/public/vex-96f5bef87c9671255cafc58cd76b016747901c161333c1f46bb9535a66ce0ee6",
   "author": "Node.js Security WG",
   "role": "Project",
-  "timestamp": "2026-01-27T12:41:55.49708019Z",
+  "timestamp": "2026-04-08T18:33:11.798708122Z",
   "version": 1,
   "statements": [
     {
@@ -2990,7 +2990,13 @@
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v24.12.0"
+          "@id": "pkg:nodejs/node@v20.20.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.13.0"
         }
       ],
       "status": "fixed"
@@ -3101,20 +3107,181 @@
       "vulnerability": {
         "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21637",
         "name": "CVE-2026-21637",
-        "description": "A flaw in Node.js TLS error handling allows remote attackers to crash or exhaust resources of a TLS server when `pskCallback` or `ALPNCallback` are in use. Synchronous exceptions thrown during these callbacks bypass standard TLS error handling paths (tlsClientError and error), causing either immediate process termination or silent file descriptor leaks that eventually lead to denial of service. Because these callbacks process attacker-controlled input during the TLS handshake, a remote client can repeatedly trigger the issue. This vulnerability affects TLS servers using PSK or ALPN callbacks across Node.js versions where these callbacks throw without being safely wrapped."
+        "description": "A flaw in Node.js TLS error handling leaves `SNICallback` invocations unprotected against synchronous exceptions, while the equivalent ALPN and PSK callbacks were already addressed in CVE-2026-21637. This represents an incomplete fix of that prior vulnerability.\n\nWhen an `SNICallback` throws synchronously on unexpected input the exception bypasses TLS error handlers and propagates as an uncaught exception, crashing the Node.js process.\n\n* This vulnerability affects all Node.js versions that received the CVE-2026-21637 fix, including **20.x, 22.x, 24.x, and 25.x**, on any TLS server where `SNICallback` may throw on unexpected `servername` input."
       },
       "products": [
         {
-          "@id": "pkg:nodejs/node@v20.20.0"
+          "@id": "pkg:nodejs/node@v20.20.2"
         },
         {
-          "@id": "pkg:nodejs/node@v22.22.0"
+          "@id": "pkg:nodejs/node@v22.22.2"
         },
         {
-          "@id": "pkg:nodejs/node@v24.13.0"
+          "@id": "pkg:nodejs/node@v24.14.1"
         },
         {
-          "@id": "pkg:nodejs/node@v25.3.0"
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21710",
+        "name": "CVE-2026-21710",
+        "description": "A flaw in Node.js HTTP request handling causes an uncaught `TypeError` when a request is received with a header named `__proto__` and the application accesses `req.headersDistinct`.\n\nWhen this occurs, `dest[\"__proto__\"]` resolves to `Object.prototype` rather than `undefined`, causing `.push()` to be called on a non-array. This exception is thrown synchronously inside a property getter and cannot be intercepted by `error` event listeners, meaning it cannot be handled without wrapping every `req.headersDistinct` access in a `try/catch`.\n\n* This vulnerability affects all Node.js HTTP servers on **20.x, 22.x, 24.x, and v25.x** "
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21711",
+        "name": "CVE-2026-21711",
+        "description": "A flaw in Node.js Permission Model network enforcement leaves Unix Domain Socket (UDS) server operations without the required permission checks, while all comparable network paths correctly enforce them.\n\nAs a result, code running under `--permission` without `--allow-net` can create and expose local IPC endpoints, allowing communication with other processes on the same host outside of the intended network restriction boundary.\n\nThis vulnerability affects Node.js **25.x** processes using the Permission Model where `--allow-net` is intentionally omitted to restrict network access. Note that `--allow-net` is currently an experimental feature."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21712",
+        "name": "CVE-2026-21712",
+        "description": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.\n\n* This vulnerability affects **24.x and 25.x**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21713",
+        "name": "CVE-2026-21713",
+        "description": "A flaw in Node.js HMAC verification uses a non-constant-time comparison when validating user-provided signatures, potentially leaking timing information proportional to the number of matching bytes. Under certain threat models where high-resolution timing measurements are possible, this behavior could be exploited as a timing oracle to infer HMAC values.\n\nNode.js already provides timing-safe comparison primitives used elsewhere in the codebase, indicating this is an oversight rather than an intentional design decision.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21714",
+        "name": "CVE-2026-21714",
+        "description": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\n\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21715",
+        "name": "CVE-2026-21715",
+        "description": "A flaw in Node.js Permission Model filesystem enforcement leaves `fs.realpathSync.native()` without the required read permission checks, while all comparable filesystem functions correctly enforce them.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-read` can still use `fs.realpathSync.native()` to check file existence, resolve symlink targets, and enumerate filesystem paths outside of permitted directories.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-read` is intentionally restricted."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21716",
+        "name": "CVE-2026-21716",
+        "description": "An incomplete fix for CVE-2024-36137 leaves `FileHandle.chmod()` and `FileHandle.chown()` in the promises API without the required permission checks, while their callback-based equivalents (`fs.fchmod()`, `fs.fchown()`) were correctly patched.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-write` can still use promise-based `FileHandle` methods to modify file permissions and ownership on already-open file descriptors, bypassing the intended write restrictions.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-write` is intentionally restricted."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-21717",
+        "name": "CVE-2026-21717",
+        "description": "A flaw in V8's string hashing mechanism causes integer-like strings to be hashed to their numeric value, making hash collisions trivially predictable. By crafting a request that causes many such collisions in V8's internal string table, an attacker can significantly degrade performance of the Node.js process.\n\nThe most common trigger is any endpoint that calls `JSON.parse()` on attacker-controlled input, as JSON parsing automatically internalizes short strings into the affected hash table.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v20.20.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v22.22.2"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.14.1"
+        },
+        {
+          "@id": "pkg:nodejs/node@v25.8.2"
         }
       ],
       "status": "fixed"
