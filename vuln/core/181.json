@@ -1,0 +1,20 @@
+{
+  "cve": [
+    "CVE-2026-48936"
+  ],
+  "vulnerable": "26.x",
+  "patched": "^26.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+  "description": "Unix domain socket server bypasses --permission network restrictions (incomplete CVE-2026-21636 fix)",
+  "overview": "A flaw in Node.js Permission API can cause a local server to be started (via a Unix domain socket), even without the `--allow-net` permission.\n\nThis vulnerability affects one supported release line: **Node.js 26**.",
+  "affectedEnvironments": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "openbsd",
+    "sunos",
+    "android"
+  ],
+  "severity": "low"
+}

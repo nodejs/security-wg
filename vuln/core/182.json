@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-48931"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.0 || ^24.17.0 || ^26.3.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+  "description": "HTTP Response Queue Poisoning via TOCTOU Race Condition in `http.Agent`",
+  "overview": "A flaw in Node.js HTTP Agent can cause a client to accept as valid a response that is send before the client has sent the request.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}
