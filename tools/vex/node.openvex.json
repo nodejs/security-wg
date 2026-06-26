@@ -1,9 +1,9 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-c457698bda4fafafdf6fa823b3db6d2d334d9bb331e0726f290325e2a06722bb",
+  "@id": "https://openvex.dev/docs/public/vex-c02aa52d0e3084cd74609b06dda0db8afdf2c4c2e03a2da8ef5736c2ee52c28b",
   "author": "Node.js Security WG",
   "role": "Project",
-  "timestamp": "2026-06-26T21:22:10.5365226Z",
+  "timestamp": "2026-06-26T21:24:56.848199245Z",
   "version": 1,
   "statements": [
     {
