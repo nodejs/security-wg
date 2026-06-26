@@ -1,9 +1,9 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-7bc6e499d286450469764aa98959ba7ce60c114839961ef10f57cf5c53944df4",
+  "@id": "https://openvex.dev/docs/public/vex-c457698bda4fafafdf6fa823b3db6d2d334d9bb331e0726f290325e2a06722bb",
   "author": "Node.js Security WG",
   "role": "Project",
-  "timestamp": "2026-06-18T16:27:00.172977943Z",
+  "timestamp": "2026-06-26T21:22:10.5365226Z",
   "version": 1,
   "statements": [
     {
@@ -3282,6 +3282,225 @@
         },
         {
           "@id": "pkg:nodejs/node@v25.8.2"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48615",
+        "name": "CVE-2026-48615",
+        "description": "A flaw in Node.js proxy tunnel error handling could expose proxy credentials in `ERR_PROXY_TUNNEL` error messages.\n\nWhen proxy credentials are embedded in the proxy URL, they may be exposed through error handling paths and captured by logs, diagnostics, or other error consumers.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48617",
+        "name": "CVE-2026-48617",
+        "description": "A flaw in Node.js Permission Model enforcement allows Bypass via `process.report.writeReport()` Path Misvalidation.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48618",
+        "name": "CVE-2026-48618",
+        "description": "A flaw in Node.js TLS hostname handling can cause Node.js unicode dot separator handling can lead to tls wildcard-depth authentication bypass due to resolver and verifier hostname normalization mismat.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48619",
+        "name": "CVE-2026-48619",
+        "description": "A flaw in Node.js HTTP/2 client allows a server to send an unlimited number of ORIGIN frames, which could lead to an Out of Memory error on the client.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48928",
+        "name": "CVE-2026-48928",
+        "description": "A inconsistency in Node.js hostname matching can cause a trust-policy bypass in multi-context mTLS setups.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48930",
+        "name": "CVE-2026-48930",
+        "description": "A flaw in Node.js TLS hostname handling can cause Embedded-nul hostnames can lead to silent authority rebinding due to c-string truncation in resolver bindings.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48931",
+        "name": "CVE-2026-48931",
+        "description": "A flaw in Node.js HTTP Agent can cause a client to accept as valid a response that is send before the client has sent the request.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48933",
+        "name": "CVE-2026-48933",
+        "description": "A flaw in Node.js WebCrypto implementation can crash the process if the input of `subtle.encrypt()` is a multiple of 2GiB.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.\n"
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48934",
+        "name": "CVE-2026-48934",
+        "description": "A flaw in Node.js TLS host verification can cause an attacker to bypass certification validation.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48935",
+        "name": "CVE-2026-48935",
+        "description": "A flaw in Node.js Permission API can cause a file metadata to be modified even on a path that was set as read-only with e.g. `--allow-fs-read`.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48936",
+        "name": "CVE-2026-48936",
+        "description": "A flaw in Node.js Permission API can cause a local server to be started (via a Unix domain socket), even without the `--allow-net` permission.\n\nThis vulnerability affects one supported release line: **Node.js 26**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v26.3.1"
+        }
+      ],
+      "status": "fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://www.cve.org/CVERecord?id=CVE-2026-48937",
+        "name": "CVE-2026-48937",
+        "description": "A flaw in Node.js HTTP/2 server API can cause servers to keep accepting data even after sending a `GOAWAY` frame.\n\nThis vulnerability affects two supported release lines: **Node.js 22** and **Node.js 24**."
+      },
+      "products": [
+        {
+          "@id": "pkg:nodejs/node@v22.23.0"
+        },
+        {
+          "@id": "pkg:nodejs/node@v24.17.0"
         }
       ],
       "status": "fixed"
