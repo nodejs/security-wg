@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-58039"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+  "description": "Permission Model bypass: process.report writes (and overwrites) files outside --allow-fs-write paths",
+  "overview": "A flaw in Node.js Permission Model enforcement allows process.report writes (and overwrites) files outside --allow-fs-write paths.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}
