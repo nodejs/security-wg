@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-56848"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+  "description": "Re-entrant `nghttp2_session_mem_send()` during `nghttp2_session_mem_recv()` causes heap-use-after-free in Node.js HTTP/2",
+  "overview": "A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_send()` to be called re-entrantly while `nghttp2_session_mem_recv()` is executing, resulting in a heap-use-after-free.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}
