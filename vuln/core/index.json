@@ -2488,5 +2488,159 @@
       "all"
     ],
     "severity": "high"
+  },
+  "184": {
+    "cve": [
+      "CVE-2026-56846"
+    ],
+    "vulnerable": "22.x || 24.x",
+    "patched": "^22.23.2 || ^24.18.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "HTTP/2 retained header blocks evade maxSessionMemory and enable remote memory exhaustion",
+    "overview": "A flaw in Node.js HTTP/2 handling can cause HTTP/2 retained header blocks evade maxSessionMemory and enable remote memory exhaustion.\n\nThis vulnerability affects Node.js **24.x** and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "185": {
+    "cve": [
+      "CVE-2026-56847"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "Permission Model Bypass: `trace_events.createTracing().enable()` Writes Trace Logs Outside `--allow-fs-write`",
+    "overview": "A flaw in Node.js Permission Model enforcement allows `trace_events.createTracing().enable()` Writes Trace Logs Outside `--allow-fs-write`.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "186": {
+    "cve": [
+      "CVE-2026-56848"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "Re-entrant `nghttp2_session_mem_send()` during `nghttp2_session_mem_recv()` causes heap-use-after-free in Node.js HTTP/2",
+    "overview": "A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_send()` to be called re-entrantly while `nghttp2_session_mem_recv()` is executing, resulting in a heap-use-after-free.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "187": {
+    "cve": [
+      "CVE-2026-56850"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "HTTPS Agent PFX object-array key collision allows mTLS client identity reuse across different per-request certificates",
+    "overview": "A flaw in Node.js HTTPS Agent connection reuse can cause PFX object-array key collisions, allowing mutual TLS (mTLS) client identities to be reused across requests configured with different client certificates.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "188": {
+    "cve": [
+      "CVE-2026-58039"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "Permission Model bypass: process.report writes (and overwrites) files outside --allow-fs-write paths",
+    "overview": "A flaw in Node.js Permission Model enforcement allows process.report writes (and overwrites) files outside --allow-fs-write paths.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "189": {
+    "cve": [
+      "CVE-2026-58040"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "HTTPS Agent TLS session reuse skips hostname verification across identity policies (incomplete fix of CVE-2026-48934)",
+    "overview": "An incomplete fix has been identified in Node.js: HTTPS Agent TLS session reuse skips hostname verification across identity policies (incomplete fix of CVE-2026-48934).\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "190": {
+    "cve": [
+      "CVE-2026-58041"
+    ],
+    "vulnerable": "24.x || 26.x",
+    "patched": "^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "node:sqlite SQLTagStore Iterator Replay Lets Attacker Re-Execute Victim-Bound Writes Indefinitely",
+    "overview": "A flaw in Node.js node:sqlite allows a stale StatementSyncIterator created through DatabaseSync#createTagStore() to continue executing a cached prepared statement after it has been reset and rebound with new parameters. SQLTagStore resets cached statements using sqlite3_reset() directly, bypassing the iterator invalidation mechanism introduced for StatementSync in recent releases\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "191": {
+    "cve": [
+      "CVE-2026-58042"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "dns.resolveAny() Aborts the Node.js Process When a DNS Response Contains More Than 256 A Records",
+    "overview": "A flaw in Node.js can cause dns.resolveAny() Aborts the Node.js Process When a DNS Response Contains More Than 256 A Records.\n\nRepeated triggering of this condition can lead to denial of service.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "192": {
+    "cve": [
+      "CVE-2026-58043"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "Permission Model: --allow-fs-read/--allow-fs-write radix-tree prefix-boundary over-grant",
+    "overview": "A flaw in Node.js Permission Model enforcement can over-grant filesystem access across radix-tree prefix boundaries.\n\nUnder `--permission`, an attacker who is granted access to one path can abuse boundary handling to read from or write to paths outside the intended filesystem allowlist.\n\nThis vulnerability affects Node.js **main**, **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "193": {
+    "cve": [
+      "CVE-2026-58044"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "HTTP Request Smuggling via Silent Header Truncation in Node.js HTTP Parser",
+    "overview": "A flaw in Node.js HTTP client can cause a request desynchronization for Node.js-based forwarding proxies that rebuild outbound headers from the visible `IncomingMessage` headers while piping the original body to a reused backend connection.\n\nNode.js can omit headers beyond `maxHeadersCount` / `maxHeaderPairs` from `req.headers`, `req.rawHeaders`, and `req.headersDistinct`, while still using those omitted headers internally for HTTP message framing. In particular, `Content-Length` can be hidden from userland while the request body is still delivered.\n\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "194": {
+    "cve": [
+      "CVE-2026-58045"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.2 || ^24.18.1 || ^26.5.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "description": "Reachable assertion in node:zlib sync API crashes the entire process via spoofed TypedArray byteLength (all 11 *Sync functions affected)",
+    "overview": "A flaw in Node.js allows a spoofed `TypedArray` `byteLength` to trigger a reachable assertion in the synchronous `node:zlib` APIs, causing the entire process to crash. All 11 synchronous zlib functions are affected.\n\nRepeated exploitation of this condition can result in a denial of service.\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
   }
 }
