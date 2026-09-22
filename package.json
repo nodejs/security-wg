@@ -4,16 +4,7 @@
   "scripts": {
     "test": "node --test",
     "validate": "node tools/vuln_valid",
-    "create-npm-index": "node tools/create_index/create_npm_index.js",
-    "create-core-index": "node tools/create_index/create_core_index.js",
-    "create-deps-index": "node tools/create_index/create_deps_index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@pkgjs/nv": "^0.2.1",
-    "joi": "^17.13.3",
-    "semver": "^7.3.8"
+    "create-npm-index": "node tools/create_index/",
+    "report-metrics": "node tools/report_metrics.js"
   }
 }
