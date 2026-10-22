@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-106070"
+  ],
+  "vulnerable": "26.x",
+  "patched": "^26.12.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+  "description": "Node.js ZipFile returns attacker-controlled prefix bytes after failed ZIP header validation",
+  "overview": "This vulnerability affects Node.js **26.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}

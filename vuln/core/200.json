@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-106071"
+  ],
+  "vulnerable": "26.x",
+  "patched": "^26.12.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+  "description": "Permission Model filesystem over-grant via wildcard radix lookup",
+  "overview": "This vulnerability affects Node.js **26.x**.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "low"
+}
