@@ -2642,5 +2642,145 @@
       "all"
     ],
     "severity": "medium"
+  },
+  "195": {
+    "cve": [
+      "CVE-2026-105481"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Keep-alive socket process a response that was written before the request was sent",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "196": {
+    "cve": [
+      "CVE-2026-105482"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "dns.resolve truncates names containing NUL char",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "197": {
+    "cve": [
+      "CVE-2026-105483"
+    ],
+    "vulnerable": "24.x || 26.x",
+    "patched": "^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "TLS certificate hostname bypass when the IP is written fullwidth digits",
+    "overview": "This vulnerability affects Node.js **26.x** and **24.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "198": {
+    "cve": [
+      "CVE-2026-106069"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "TLS certificate hostname bypass when the host loosely resolves to an IP address",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
+  },
+  "199": {
+    "cve": [
+      "CVE-2026-106070"
+    ],
+    "vulnerable": "26.x",
+    "patched": "^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Node.js ZipFile returns attacker-controlled prefix bytes after failed ZIP header validation",
+    "overview": "This vulnerability affects Node.js **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "200": {
+    "cve": [
+      "CVE-2026-106071"
+    ],
+    "vulnerable": "26.x",
+    "patched": "^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Permission Model filesystem over-grant via wildcard radix lookup",
+    "overview": "This vulnerability affects Node.js **26.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "201": {
+    "cve": [
+      "CVE-2026-106072"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Improper certificate validation for non-canonical IPv4 hostnames allows DNS SANs to authenticate IP endpoints",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "202": {
+    "cve": [
+      "CVE-2026-106073"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Permission Model bypass with fs.realpathSync",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "low"
+  },
+  "203": {
+    "cve": [
+      "CVE-2026-106074"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "crypto.randomUUID() and randomInt() entropy caches are saved into user-land startup snapshots and SEAs, so every process repeats the same values",
+    "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "medium"
+  },
+  "204": {
+    "cve": [
+      "CVE-2026-111497"
+    ],
+    "vulnerable": "22.x || 24.x || 26.x",
+    "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
+    "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "description": "Node.js Brotli decoder out-of-bounds write permits remote code execution",
+    "overview": "A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+    "affectedEnvironments": [
+      "all"
+    ],
+    "severity": "high"
   }
 }
