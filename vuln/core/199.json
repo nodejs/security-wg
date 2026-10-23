@@ -6,7 +6,7 @@
   "patched": "^26.12.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
   "description": "Node.js ZipFile returns attacker-controlled prefix bytes after failed ZIP header validation",
-  "overview": "This vulnerability affects Node.js **26.x**.",
+  "overview": "A flaw in the Node.js `zlib.ZipFile` API can cause it to return bytes that do not belong to the requested entry after the local and central header validation fails.\n\nWhen `zipEntry.modified` is read on an archive whose local header does not match its central directory, either directly or while compacting the archive, the validation error is caught but the parsed local header is left cached without a content offset. A later content read then returns attacker-controlled bytes from the start of the file instead of rejecting the archive, and CRC-32 verification still passes because the attacker controls the central directory CRC. A Node.js-based scanner can therefore approve different content from what another ZIP implementation extracts from the same archive.\n\nThis vulnerability affects Node.js **26.x**.",
   "affectedEnvironments": [
     "all"
   ],
