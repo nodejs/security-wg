@@ -6,7 +6,7 @@
   "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
   "description": "Keep-alive socket process a response that was written before the request was sent",
-  "overview": "This vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+  "overview": "A flaw in Node.js HTTP Agent connection reuse can cause a client to accept as valid a response that was sent before the client has sent the request. This is an incomplete fix of CVE-2026-48931.\n\nThe guard that destroys idle keep-alive sockets when unexpected data arrives only runs when the event loop polls for I/O. If an unsolicited response has already reached the socket but has not been read yet when the socket is handed to a new request, for example because the event loop was busy with synchronous work, the guard is removed without seeing it and the data is parsed as the response to the new request.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
   "affectedEnvironments": [
     "all"
   ],
