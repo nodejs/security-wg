@@ -6,7 +6,7 @@
   "patched": "^22.23.4 || ^24.22.1 || ^26.12.1",
   "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
   "description": "Node.js Brotli decoder out-of-bounds write permits remote code execution",
-  "overview": "A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+  "overview": "A flaw in the Brotli decoder bundled with Node.js allows malformed compressed input to write past the end of an internal decoder buffer.\n\nAn invalid block switch was reported as a temporary need for more input instead of a permanent format error, so the streaming decoder kept appending input bytes to an eight-byte internal buffer. An attacker who can supply Brotli data that an application decompresses with `node:zlib` can corrupt process memory, which can lead to a crash, disclosure of process memory, or remote code execution.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
   "affectedEnvironments": [
     "all"
   ],
