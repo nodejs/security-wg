@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123868"
+  ],
+  "vulnerable": "24.x || 26.x",
+  "patched": "^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "HTTP/2 inbound DATA queued on an undrained stream is charged to no session budget, so maxSessionMemory neither bounds it nor refuses new streams",
+  "overview": "An unauthenticated HTTP/2 client can exhaust Node.js server memory because inbound DATA queued on an undrained stream is charged to no session budget. Each inbound `DATA` frame creates one JavaScript `Buffer` view in the receiving stream's readable queue, but nothing charges that queue to `current_session_memory_`: the socket read buffer is accounted only during parsing and released immediately, so whatever stays queued is accounted to nothing. A peer that fills a stream's receive window with one-byte `DATA` frames pays about 10 wire bytes per frame while the server retains about 114 bytes per frame, so a single stream on one connection can retain hundreds of megabytes from tens of megabytes sent. `maxSessionMemory` neither bounds the growth nor refuses new streams, because `Http2Session::CanAddStream` gates admission on the same counter that never sees the queue. This vulnerability affects Node.js 26.x and 24.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}

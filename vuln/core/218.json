@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123875"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.5 || ^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "HTTP/2: cancelling one `respondWithFile()` download crashes the server (NULL dereference in `StreamPipe`)",
+  "overview": "A NULL pointer dereference in Node.js HTTP/2 lets an unauthenticated client crash the server, over both TLS and cleartext, by cancelling file downloads. When the server serves a file with `stream.respondWithFile()` or `stream.respondWithFD()` and the client cancels the request, a `StreamPipe` used for the transfer is torn down in an order that leaves a NULL pointer which is then dereferenced, aborting the process. No crafted frames are needed, and a handful of cancelled requests against a default file-serving handler is enough. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}

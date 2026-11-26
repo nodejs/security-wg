@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123863"
+  ],
+  "vulnerable": "24.x || 26.x",
+  "patched": "^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "HTTP/2: remote abort, `CHECK_EQ(current_nghttp2_memory_, 0)` in `~Http2Session()`",
+  "overview": "A reachable assertion in Node.js HTTP/2 session teardown lets any unauthenticated client abort the server, over both TLS and cleartext. A client can arrange for an `Http2Stream` that still holds `nghttp2`-allocated header buffers to outlive its session: the stream is removed from the session's stream set but never detached, so when `~Http2Session()` runs the memory accounting is nonzero and the `CHECK_EQ(current_nghttp2_memory_, 0)` assertion fails, terminating the process. The trigger needs only a default `http2` server whose handler responds before the request body has ended, which is typical. It is a variant of CVE-2024-27983 that the earlier fix did not cover, because that fix only detached streams still tracked in the session. This vulnerability affects Node.js 26.x (since 26.9.0) and 24.x (since 24.22.0).",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

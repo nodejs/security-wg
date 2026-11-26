@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123874"
+  ],
+  "vulnerable": "24.x || 26.x",
+  "patched": "^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "HTTP/2: use-after-free of `Http2Stream` when a `respondWithFile()` stream is reset during a pending write",
+  "overview": "A use-after-free in Node.js HTTP/2 lets an unauthenticated client corrupt server memory, over both TLS and cleartext, when the server serves files with `respondWithFile()` or `respondWithFD()`. A client can make the server free an `Http2Stream` while a write request that points to it is still queued on the socket; when that write completes, the code dereferences and makes a virtual call through the freed object. The only precondition is that the application serves a file with `stream.respondWithFile()` or `stream.respondWithFD()`, with default settings otherwise. This vulnerability affects Node.js 26.x (since 26.9.0) and 24.x (since 24.22.0).",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

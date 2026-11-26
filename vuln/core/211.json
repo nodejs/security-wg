@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123866"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.5 || ^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "HTTP/2 stream teardown can send freed response memory to the peer",
+  "overview": "A use-after-free in Node.js HTTP/2 stream teardown can leak response memory, including the contents of other connections' response buffers, to a peer. When a stream is torn down while a write is still backpressured, for example by a peer `RST_STREAM` or by the server's own per-stream timeout destroying the stream, the stream's response buffer is freed but a reference to it is still used, so freed or unrelated heap memory is written to the socket instead of the intended response. On Node.js 26.x and 24.x the teardown can be driven purely by a remote peer once the window-size change from 26.9.0 and 24.22.0 is present, and on all supported lines the same defect is reachable through an application-initiated teardown such as a per-stream idle timeout. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

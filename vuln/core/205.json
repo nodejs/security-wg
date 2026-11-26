@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123828"
+  ],
+  "vulnerable": "24.x || 26.x",
+  "patched": "^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "Remote unauthenticated HTTP/2 heap-buffer-overflow in session.altsvc() with a long origin - github.com/nodejs/node",
+  "overview": "A one-byte heap buffer overflow in Node.js HTTP/2 Alt-Svc handling lets a remote, unauthenticated attacker corrupt process memory. When an application passes an attacker-controlled value such as a request's `:authority` header to `Http2Session.altsvc()`, the AltSvc implementation in `src/node_http2.cc` allocates a buffer sized to the origin length and then writes it with a null terminator, placing one byte past the end of the allocation. A single request carrying a long but syntactically valid `:authority` triggers the out-of-bounds write, which aborts the process and serves as a remote heap-corruption primitive. This vulnerability affects Node.js 26.x and 24.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
