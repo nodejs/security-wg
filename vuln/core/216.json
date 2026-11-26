@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123872"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.5 || ^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "TLS 1.2 renegotiation allows clients to change servername unilaterally to bypass client certificate authentication",
+  "overview": "A client certificate authentication bypass in Node.js TLS lets a client change the `servername` during TLS 1.2 renegotiation to reach endpoints it was not authorized for. On a server that applies different client-certificate policies per hostname, for example stricter admin-only client-cert auth on one host and ordinary client-cert auth on another, a client that authenticates for a permitted host can renegotiate the TLS 1.2 connection under a different `servername` and carry its existing authentication to the protected host, bypassing the stricter policy. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

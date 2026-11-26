@@ -2,11 +2,11 @@
   "cve": [
     "CVE-2026-106071"
   ],
-  "vulnerable": "26.x",
-  "patched": "^26.12.1",
-  "ref": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.5 || ^24.22.3 || ^26.12.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
   "description": "Permission Model filesystem over-grant via wildcard radix lookup",
-  "overview": "A flaw in Node.js Permission Model filesystem enforcement can grant access to paths that do not match a wildcard `--allow-fs-read` or `--allow-fs-write` rule.\n\nWhen the requested path is shorter than the prefix of a wildcard grant, the radix tree lookup stops comparing early and treats the path as a match. For example, `--allow-fs-read=/etc/passwd.*` also allows reading `/etc/passwd`. This requires the wildcard grant to sit directly under the root of the permission tree, for example when it is the only grant for that scope. This is a different root cause from CVE-2026-58043.\n\nThis vulnerability affects Node.js **26.x**.",
+  "overview": "A Node.js Permission Model filesystem over-grant lets a wildcard `--allow-fs-read` or `--allow-fs-write` rule match paths it should not. When the requested path is shorter than the prefix of a wildcard grant, the radix tree lookup stops comparing early and treats the path as a match, so for example `--allow-fs-read=/etc/passwd.*` also allows reading `/etc/passwd`. It requires the wildcard grant to sit directly under the root of the permission tree, such as when it is the only grant for that scope. This is a different root cause from CVE-2026-58043. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
   "affectedEnvironments": [
     "all"
   ],

@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-126051"
+  ],
+  "vulnerable": "24.x || 26.x",
+  "patched": "^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "Remotely triggerable uncaught exception in TLS servers",
+  "overview": "A deferred-callback use-after-destroy in Node.js TLS server handshake handling allows a remote, unauthenticated attacker to terminate the server process. When a TLS server uses any of the `SNICallback`, `OCSPRequest`, `newSession`, or `resumeSession` hooks, or `server.addContext()`, the corresponding OpenSSL callbacks are deferred, and the deferred code does not handle the underlying socket being destroyed between scheduling and execution. By sending a client hello that reaches the vulnerable path (for example, no SNI together with an OCSP request) followed by padding and a socket FIN, an attacker makes OpenSSL deliver the client hello and the end-of-file in the same tick, so the socket is destroyed before the deferred callback runs and the process raises an uncaught exception instead of emitting an `'error'` event. This vulnerability affects Node.js 26.x and 24.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "high"
+}

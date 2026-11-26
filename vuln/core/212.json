@@ -1,0 +1,14 @@
+{
+  "cve": [
+    "CVE-2026-123867"
+  ],
+  "vulnerable": "22.x || 24.x || 26.x",
+  "patched": "^22.23.5 || ^24.22.3 || ^26.13.1",
+  "ref": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+  "description": "CA-only SNI client-CA overrides fail open to the default CA, bypassing per-host mTLS authorization",
+  "overview": "A per-host mutual-TLS authorization bypass in Node.js lets a client authorized for the default hostname reach a protected hostname it is not authorized for. When a TLS server assigns a hostname a different client-certificate CA with `server.addContext(host, { ca: protectedCA })` but no server certificate in that SNI context, the per-host client CA is never installed and the handshake falls back to the default client CA. In `src/crypto/crypto_tls.cc`, `CertCbDone` installs the SNI context's CA only when `setSniContext` succeeds, but `setSniContext` returns `false` for a context with no server certificate, so a CA-only SNI context silently keeps the default CA. A client holding a certificate trusted by the default CA, but not the protected CA, can therefore complete mTLS to the protected hostname and read its response even with `requestCert` and `rejectUnauthorized` enabled, while a client certified by the protected CA is rejected. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
+  "affectedEnvironments": [
+    "all"
+  ],
+  "severity": "medium"
+}
