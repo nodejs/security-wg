@@ -8,7 +8,7 @@
   "description": "Permission Model Bypass in recursive fs.watch Leaks Names of Denied Descendants",
   "overview": "A Permission Model bypass in Node.js recursive file watching discloses the names of files and directories the process is not permitted to read. On macOS and Windows, `fs.watch()` and `fs.promises.watch()` in recursive mode are backed by the native `libuv` watcher: `FSEventWrap::Start` checks `kFileSystemRead` only once, on the watched root, and `FSEventWrap::OnEvent` then forwards every filename `libuv` reports (relative paths at any depth) to the JavaScript callback without checking that each path is covered by the read grant. Code running under `--permission` with an exact read grant on a directory can therefore learn names such as `sub/secret.txt` even though `readdir` on that subdirectory is denied. The flaw exposes names and timing metadata, not file contents, and requires macOS or Windows plus files created under the watched directory by another actor. This vulnerability affects Node.js 26.x, 24.x, and 22.x.",
   "affectedEnvironments": [
-    "macos",
+    "darwin",
     "win32"
   ],
   "severity": "low"
